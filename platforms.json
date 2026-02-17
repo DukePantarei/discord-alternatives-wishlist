@@ -1,6 +1,5 @@
 {
   "_readme": "This file is the source of truth for the comparison table. To add a platform, copy an existing entry and fill in the fields. To add a feature, add the key to every platform entry. Valid values: 'yes', 'no', 'partial', 'planned', 'unknown'. Use 'notes' for any clarification.",
-
   "features": [
     {
       "key": "open_source",
@@ -193,9 +192,50 @@
       "label": "Discord API Compatible",
       "category": "Features",
       "description": "Supports Discord's API, allowing existing Discord bots to work"
+    },
+    {
+      "key": "docs_wiki_channels",
+      "label": "Docs / Wiki Channels",
+      "category": "Features",
+      "description": "Dedicated channel type for creating and maintaining long-form documents or wikis within a server"
+    },
+    {
+      "key": "list_task_channels",
+      "label": "List / Task Channels",
+      "category": "Features",
+      "description": "Built-in channel type for to-do lists, task tracking, or workflow management"
+    },
+    {
+      "key": "media_gallery_channels",
+      "label": "Media Gallery Channels",
+      "category": "Features",
+      "description": "Dedicated channel type for image and video galleries with pop-out player"
+    },
+    {
+      "key": "scheduled_announcements",
+      "label": "Scheduled Announcements",
+      "category": "Features",
+      "description": "Ability to write and schedule posts to be published automatically at a future date and time"
+    },
+    {
+      "key": "tournament_brackets",
+      "label": "Tournament / Bracket Tools",
+      "category": "Features",
+      "description": "Native tools for organising competitive gaming tournaments and brackets"
+    },
+    {
+      "key": "no_premium_tier",
+      "label": "No Premium Tier Required",
+      "category": "Pricing",
+      "description": "All core features are fully available without a paid subscription — no equivalent of Discord Nitro required"
+    },
+    {
+      "key": "rich_calendar_tools",
+      "label": "Rich Calendar Tools",
+      "category": "Features",
+      "description": "Advanced calendar system beyond basic event posting. Includes: dedicated calendar channel type, month/upcoming list views, per-event RSVP with Going/Maybe/Declined, attendance limits, repeating/recurring events, event-level permissions, separate availability/scheduling channels for collecting member availability via drag-and-drop, aggregate cross-server calendar view in user profile, automatic local timezone display, and embeddable forms within calendar events"
     }
   ],
-
   "categories": [
     "Matrix Clients",
     "Privacy-Focused Centralized",
@@ -203,7 +243,6 @@
     "Commercial Alternatives",
     "Legacy & Niche"
   ],
-
   "platforms": [
     {
       "id": "discord",
@@ -245,17 +284,25 @@
         "admin_gui": "yes",
         "migration_assistant": "no",
         "bridges": "no",
-        "discord_api_compatible": "yes"
+        "discord_api_compatible": "yes",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "partial",
+        "tournament_brackets": "no",
+        "no_premium_tier": "no",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "system_audio_sharing": "Windows and macOS only, not Linux",
         "free_to_use": "Freemium — Nitro subscription for extra features",
         "gdpr_compliant": "Under regulatory scrutiny in EU",
         "raid_planner": "Basic events only, no dedicated raid planning tools",
-        "biometric_age_verification": "Required for UK users accessing age-restricted content as of 2025"
+        "biometric_age_verification": "Required for UK users accessing age-restricted content as of 2025",
+        "scheduled_announcements": "Scheduled messages available but limited — no native scheduled announcement channel type",
+        "no_premium_tier": "Nitro subscription required for animated avatars, higher upload limits, custom emoji across servers, and other features"
       }
     },
-
     {
       "id": "element",
       "name": "Element",
@@ -296,7 +343,14 @@
         "admin_gui": "yes",
         "migration_assistant": "no",
         "bridges": "yes",
-        "discord_api_compatible": "no"
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "tournament_brackets": "no",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "role_management": "Uses Matrix power levels rather than named roles — functional but less intuitive than Discord",
@@ -306,7 +360,6 @@
         "admin_gui": "Element Admin and Synapse-Admin available separately"
       }
     },
-
     {
       "id": "cinny",
       "name": "Cinny",
@@ -347,7 +400,14 @@
         "admin_gui": "no",
         "migration_assistant": "no",
         "bridges": "yes",
-        "discord_api_compatible": "no"
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "tournament_brackets": "no",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "voice_chat": "Not yet implemented — text-focused client",
@@ -355,7 +415,6 @@
         "mobile_app": "No native app — web app is mobile-accessible but not optimised"
       }
     },
-
     {
       "id": "commet",
       "name": "Commet",
@@ -396,7 +455,14 @@
         "admin_gui": "no",
         "migration_assistant": "no",
         "bridges": "yes",
-        "discord_api_compatible": "no"
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "tournament_brackets": "no",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "mobile_app": "Android available, iOS planned",
@@ -405,7 +471,6 @@
         "voice_chat": "Uses MatrixRTC + LiveKit, scales well"
       }
     },
-
     {
       "id": "fluffychat",
       "name": "FluffyChat",
@@ -446,13 +511,19 @@
         "admin_gui": "no",
         "migration_assistant": "no",
         "bridges": "yes",
-        "discord_api_compatible": "no"
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "tournament_brackets": "no",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "voice_chat": "1:1 calls supported, large voice channels limited"
       }
     },
-
     {
       "id": "schildichat",
       "name": "SchildiChat",
@@ -493,14 +564,20 @@
         "admin_gui": "yes",
         "migration_assistant": "no",
         "bridges": "yes",
-        "discord_api_compatible": "no"
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "tournament_brackets": "no",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "role_management": "Inherits Element's power levels system",
         "admin_gui": "Inherits Element Admin support"
       }
     },
-
     {
       "id": "stoat",
       "name": "Stoat (formerly Revolt)",
@@ -541,7 +618,14 @@
         "admin_gui": "yes",
         "migration_assistant": "no",
         "bridges": "no",
-        "discord_api_compatible": "no"
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "tournament_brackets": "no",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs is planned but not yet released",
@@ -549,7 +633,6 @@
         "screen_sharing": "Available but limited compared to Discord"
       }
     },
-
     {
       "id": "valour",
       "name": "Valour",
@@ -590,7 +673,14 @@
         "admin_gui": "partial",
         "migration_assistant": "no",
         "bridges": "no",
-        "discord_api_compatible": "no"
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "tournament_brackets": "no",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "desktop_app": "PWA only — no native desktop app",
@@ -599,7 +689,6 @@
         "docker_install": "Partial — setup more complex than other platforms"
       }
     },
-
     {
       "id": "nerimity",
       "name": "Nerimity",
@@ -640,13 +729,19 @@
         "admin_gui": "partial",
         "migration_assistant": "no",
         "bridges": "no",
-        "discord_api_compatible": "no"
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "tournament_brackets": "no",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "mobile_app": "Android app available, iOS limited"
       }
     },
-
     {
       "id": "sharkord",
       "name": "Sharkord",
@@ -687,13 +782,19 @@
         "admin_gui": "yes",
         "migration_assistant": "no",
         "bridges": "no",
-        "discord_api_compatible": "no"
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "tournament_brackets": "no",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only — not end-to-end"
       }
     },
-
     {
       "id": "spacebar",
       "name": "Spacebar",
@@ -734,7 +835,14 @@
         "admin_gui": "partial",
         "migration_assistant": "no",
         "bridges": "no",
-        "discord_api_compatible": "yes"
+        "discord_api_compatible": "yes",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "tournament_brackets": "no",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only",
@@ -743,7 +851,6 @@
         "discord_api_compatible": "Key differentiator — existing Discord bots work without modification"
       }
     },
-
     {
       "id": "fluxer",
       "name": "Fluxer",
@@ -784,13 +891,19 @@
         "admin_gui": "partial",
         "migration_assistant": "no",
         "bridges": "no",
-        "discord_api_compatible": "no"
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "tournament_brackets": "no",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only"
       }
     },
-
     {
       "id": "loqa",
       "name": "Loqa",
@@ -831,13 +944,19 @@
         "admin_gui": "no",
         "migration_assistant": "no",
         "bridges": "no",
-        "discord_api_compatible": "no"
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "tournament_brackets": "no",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs only, not group channels"
       }
     },
-
     {
       "id": "dcts",
       "name": "DCTS",
@@ -878,13 +997,19 @@
         "admin_gui": "partial",
         "migration_assistant": "no",
         "bridges": "no",
-        "discord_api_compatible": "no"
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "tournament_brackets": "no",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only"
       }
     },
-
     {
       "id": "root",
       "name": "Root",
@@ -925,66 +1050,77 @@
         "admin_gui": "yes",
         "migration_assistant": "no",
         "bridges": "no",
-        "discord_api_compatible": "no"
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "unknown",
+        "list_task_channels": "unknown",
+        "media_gallery_channels": "unknown",
+        "scheduled_announcements": "unknown",
+        "tournament_brackets": "no",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "no_ads": "No ads currently but VC-funded — monetization model may change",
         "no_data_tracking": "Shares data with third parties per privacy policy"
       }
     },
-
     {
       "id": "guilded",
-  "name": "Guilded (discontinued)",
-  "url": "https://guilded.gg",
-  "category": "Legacy & Niche",
-  "description": "Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning and event scheduling tools.",
-  "architecture": "Centralized, closed source (discontinued)",
-  "notes": "Shut down December 19, 2025. Roblox required all users to link a Roblox account from July 2024, driving away non-gaming communities. Included for historical reference as it represented the closest Discord feature-parity alternative.",
-  "features": {
-    "open_source": "no",
-    "self_hostable": "no",
-    "federated": "no",
-    "e2e_encryption": "no",
-    "no_ads": "partial",
-    "no_data_tracking": "no",
-    "gdpr_compliant": "partial",
-    "biometric_age_verification": "no",
-    "free_to_use": "yes",
-    "web_app": "yes",
-    "desktop_app": "yes",
-    "mobile_app": "yes",
-    "docker_install": "no",
-    "voice_chat": "yes",
-    "video_chat": "yes",
-    "screen_sharing": "yes",
-    "system_audio_sharing": "partial",
-    "text_channels": "yes",
-    "file_sharing": "yes",
-    "gif_embed_support": "yes",
-    "threads_forums": "yes",
-    "bots_automation": "yes",
-    "webhooks": "yes",
-    "role_management": "yes",
-    "server_organization": "yes",
-    "event_scheduling": "yes",
-    "raid_planner": "yes",
-    "invite_links_guest_access": "yes",
-    "admin_gui": "yes",
-    "migration_assistant": "partial",
-    "bridges": "no",
-    "discord_api_compatible": "no"
-  },
-  "feature_notes": {
-    "no_ads": "Some promotional content present",
-    "system_audio_sharing": "Supported on Windows and macOS, limited on Linux",
-    "raid_planner": "Best-in-class raid and event tools — the platform's key differentiator over Discord",
-    "migration_assistant": "Basic Discord server import was available",
-    "free_to_use": "All features were free — no paid tier unlike Discord Nitro",
-    "gdpr_compliant": "Roblox account requirement from July 2024 raised additional data concerns"
+      "name": "Guilded (discontinued)",
+      "url": "https://guilded.gg",
+      "category": "Legacy & Niche",
+      "description": "Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists — the closest Discord feature-parity alternative that existed.",
+      "architecture": "Centralized, closed source (discontinued)",
+      "notes": "Shut down December 19, 2025. Roblox required all users to link a Roblox account from July 2024, driving away non-gaming communities. Included for historical reference as it represented the most feature-complete Discord alternative ever built.",
+      "features": {
+        "open_source": "no",
+        "self_hostable": "no",
+        "federated": "no",
+        "e2e_encryption": "no",
+        "no_ads": "partial",
+        "no_data_tracking": "no",
+        "gdpr_compliant": "partial",
+        "biometric_age_verification": "no",
+        "free_to_use": "yes",
+        "web_app": "yes",
+        "desktop_app": "yes",
+        "mobile_app": "yes",
+        "docker_install": "no",
+        "voice_chat": "yes",
+        "video_chat": "yes",
+        "screen_sharing": "yes",
+        "system_audio_sharing": "partial",
+        "text_channels": "yes",
+        "file_sharing": "yes",
+        "gif_embed_support": "yes",
+        "threads_forums": "yes",
+        "bots_automation": "yes",
+        "webhooks": "yes",
+        "role_management": "yes",
+        "server_organization": "yes",
+        "event_scheduling": "yes",
+        "raid_planner": "yes",
+        "invite_links_guest_access": "yes",
+        "admin_gui": "yes",
+        "migration_assistant": "partial",
+        "bridges": "no",
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "yes",
+        "list_task_channels": "yes",
+        "media_gallery_channels": "yes",
+        "scheduled_announcements": "yes",
+        "tournament_brackets": "yes",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "yes"
+      },
+      "feature_notes": {
+        "raid_planner": "Best-in-class raid and event tools — a key differentiator",
+        "no_ads": "Some promotional content present",
+        "migration_assistant": "Basic Discord import available",
+        "rich_calendar_tools": "Full calendar system: dedicated calendar channel type, month and upcoming list views, per-event RSVP (Going/Maybe/Declined), attendance limits, repeating events, event-level permissions, separate scheduling channels for collecting availability via drag-and-drop, aggregate cross-server calendar in user profile, automatic local timezone display, and embeddable forms within events",
+        "tournament_brackets": "Native bracket and tournament organisation tools — a key differentiator for competitive gaming communities"
       }
     },
-
     {
       "id": "telegram",
       "name": "Telegram",
@@ -1025,16 +1161,25 @@
         "admin_gui": "partial",
         "migration_assistant": "no",
         "bridges": "no",
-        "discord_api_compatible": "no"
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "partial",
+        "scheduled_announcements": "yes",
+        "tournament_brackets": "no",
+        "no_premium_tier": "partial",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Secret Chats only — standard group chats and channels are NOT end-to-end encrypted",
         "open_source": "Client apps are open source, server backend is closed",
         "no_ads": "Ads shown in public channels on free tier",
-        "requires_phone_number": "Phone number required for registration"
+        "requires_phone_number": "Phone number required for registration",
+        "media_gallery_channels": "Channels can be used as media galleries but no dedicated gallery channel type",
+        "scheduled_announcements": "Messages and posts can be scheduled natively",
+        "no_premium_tier": "Telegram Premium subscription required for some features like larger uploads and exclusive stickers"
       }
     },
-
     {
       "id": "teamspeak",
       "name": "TeamSpeak",
@@ -1075,14 +1220,21 @@
         "admin_gui": "yes",
         "migration_assistant": "no",
         "bridges": "no",
-        "discord_api_compatible": "no"
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "tournament_brackets": "no",
+        "no_premium_tier": "partial",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Voice is AES-encrypted between client and server but server can decrypt — not true E2EE",
-        "text_channels": "Text chat is functional but minimal — not a primary feature"
+        "text_channels": "Text chat is functional but minimal — not a primary feature",
+        "no_premium_tier": "Free for small servers, licensing required for larger deployments"
       }
     },
-
     {
       "id": "mumble",
       "name": "Mumble",
@@ -1123,14 +1275,20 @@
         "admin_gui": "yes",
         "migration_assistant": "no",
         "bridges": "no",
-        "discord_api_compatible": "no"
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "tournament_brackets": "no",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "e2e_encryption": "True E2EE for voice — one of the few platforms with this",
         "text_channels": "Very basic text messaging only"
       }
     },
-
     {
       "id": "signal",
       "name": "Signal",
@@ -1171,7 +1329,14 @@
         "admin_gui": "no",
         "migration_assistant": "no",
         "bridges": "no",
-        "discord_api_compatible": "no"
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "tournament_brackets": "no",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "no"
       },
       "feature_notes": {
         "text_channels": "Group chats exist but no server/channel hierarchy",
