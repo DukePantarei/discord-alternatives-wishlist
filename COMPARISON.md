@@ -194,7 +194,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 See an error or missing platform? Edit `platforms.json` and open a Pull Request.
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
