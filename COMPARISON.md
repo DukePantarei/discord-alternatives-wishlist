@@ -65,7 +65,7 @@ All Matrix clients share the same underlying protocol — federated, decentraliz
 - *Architecture:* Federated (Matrix protocol)
 - *Mobile App:* Android available, iOS planned
 - *Gif Embed Support:* GIF search proxied through Commet's servers to reduce tracking
-- *Raid Planner:* Event scheduling exists — dedicated raid planning tools not yet available
+- *Raid Planner:* Event scheduling exists but dedicated raid planning tools are not yet available
 - *Voice Chat:* Uses MatrixRTC + LiveKit, scales well
 
 **FluffyChat**
@@ -97,7 +97,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 - *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
 - *Architecture:* Centralized (self-hostable but not federated)
 - *E2E Encryption:* E2EE for DMs is planned but not yet released
-- *Federated:* Centralized — self-hosted instances are isolated, cannot talk to stoat.chat
+- *Federated:* Centralized. Self-hosted instances are available but isolated, cannot talk to stoat.chat
 - *Screen Sharing:* Screen sharing has never been supported
 - *Voice Chat:* Voice chat was removed during a backend audio rewrite and is not currently available
 - *Video Chat:* Video chat has never been supported
@@ -140,19 +140,19 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *E2E Encryption:* TLS transport encryption only — not end-to-end
 
 **Spacebar**
-- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
+- *Description:* Open-source, self-hosted platform compatible with the Discord API meaning existing Discord bots and clients can connect.
 - *Architecture:* Self-hosted, Discord API compatible
 - *E2E Encryption:* TLS transport encryption only
 - *Voice Chat:* No voice channel support at time of writing despite Discord API compatibility
 - *Video Chat:* Not currently supported
-- *Discord Api Compatible:* Key differentiator — existing Discord bots work without modification
+- *Discord Api Compatible:* Existing Discord bots work without modification
 - *Screen Sharing:* Not currently supported
 
 **Fluxer**
 - *Description:* Open-source self-hosted chat platform (AGPL licensed).
 - *Architecture:* Self-hosted
 - *E2E Encryption:* TLS transport encryption only
-- *Self Hostable:* Self-hosting instructions are currently missing — ongoing codebase-wide refactor cited as reason
+- *Self Hostable:* Self-hosting instructions are currently missing, there is an ongoing codebase-wide refactor cited as reason
 - *Mobile App:* PWA support only, no native mobile app
 - *Open Source:* AGPLv3 with CLA — raises FOSS rugpull risk if owner takes project closed source. No git history prior to open sourcing.
 
@@ -172,20 +172,20 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *Voice Chat:* Via Jitsi integration only — not native. Uses call-per-message model, not persistent always-on channels
 - *Video Chat:* Via Jitsi integration only
 - *Screen Sharing:* Via Jitsi integration only
-- *Persistent Voice Channels:* Jitsi calls are initiated per message — users cannot freely hop in and out of an always-on channel like Discord
+- *Persistent Voice Channels:* Jitsi calls are initiated per message. Users cannot freely hop in and out of an always-on channel like Discord
 - *Threads Forums:* Unique topic-based model: every message belongs to a topic within a channel. Takes adjustment for Discord users but very powerful for productivity communities
 - *Large Community Moderation:* Good moderation tools for productivity communities, less suited for large open social communities
 - *Message Ttl:* Configurable message retention policies per stream
 - *Migration Assistant:* Some import tools available for Slack and HipChat, limited Discord support
 
 **Rocket.Chat**
-- *Description:* Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users — significant limitation for large communities.
+- *Description:* Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users.
 - *Architecture:* Self-hosted or cloud-hosted
-- *Free To Use:* Free tier hard-capped at 50 users — must contact support to raise limit. Enterprise license required for larger deployments
+- *Free To Use:* Free tier hard-capped at 50 users. Contact support to raise limit. Enterprise license required for larger deployments
 - *Voice Chat:* Voice calls are enterprise-only on free tier
 - *Video Chat:* Video calls are enterprise-only on free tier
 - *Screen Sharing:* Screen sharing enterprise-only on free tier
-- *Persistent Voice Channels:* No persistent always-on voice channels — calls are initiated per conversation
+- *Persistent Voice Channels:* No persistent always-on voice channels. Calls are initiated per conversation
 - *No Premium Tier:* Enterprise license required for voice/video and >50 users
 - *Federated:* Matrix federation bridge available but not native
 - *Message Ttl:* Configurable message retention per room
@@ -212,16 +212,16 @@ Polished commercial products, included for completeness. Privacy policies and lo
 - *Gdpr Compliant:* Under regulatory scrutiny in EU
 - *Raid Planner:* Basic events only, no dedicated raid planning tools
 - *Biometric Age Verification:* Required for UK users accessing age-restricted content as of 2025
-- *Scheduled Announcements:* Scheduled messages available but limited — no native scheduled announcement channel type
+- *Scheduled Announcements:* Scheduled messages available but limited, no native scheduled announcement channel type
 - *No Premium Tier:* Nitro subscription required for animated avatars, higher upload limits, custom emoji across servers, and other features
-- *Per User Audio Output:* Each user can set 0–200% individual volume per member in voice channels — a much-requested feature missing from most alternatives
-- *Large Community Moderation:* Comprehensive automod, audit logs, raid protection, timeout, mass prune — benchmark for large community moderation
-- *Message Ttl:* No server-wide TTL — messages persist indefinitely unless manually deleted
+- *Per User Audio Output:* Each user can set 0–200% individual volume per member in voice channels
+- *Large Community Moderation:* Comprehensive automod, audit logs, raid protection, timeout, mass prune
+- *Message Ttl:* No server-wide TTL. Messages persist indefinitely unless manually deleted
 
 **Root**
 - *Description:* VC-funded commercial chat platform with built-in app ecosystem. Polished but closed source.
 - *Architecture:* Centralized, closed source
-- *No Ads:* No ads currently but VC-funded — monetization model may change
+- *No Ads:* No ads currently but VC-funded, monetization model may change
 - *No Data Tracking:* Shares data with third parties per privacy policy
 
 **Telegram**
@@ -252,13 +252,13 @@ Included for historical context or specific use cases. Generally not recommended
 **† Notes**
 
 **Guilded (discontinued)**
-- *Description:* Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists — the closest Discord feature-parity alternative that existed.
+- *Description:* Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists. The closest Discord feature-parity alternative that existed.
 - *Architecture:* Centralized, closed source (discontinued)
 - *Raid Planner:* Best-in-class raid and event tools — a key differentiator
 - *No Ads:* Some promotional content present
 - *Migration Assistant:* Basic Discord import available
 - *Rich Calendar Tools:* Full calendar system: dedicated calendar channel type, month and upcoming list views, per-event RSVP (Going/Maybe/Declined), attendance limits, repeating events, event-level permissions, separate scheduling channels for collecting availability via drag-and-drop, aggregate cross-server calendar in user profile, automatic local timezone display, and embeddable forms within events
-- *Tournament Brackets:* Native bracket and tournament organisation tools — a key differentiator for competitive gaming communities
+- *Tournament Brackets:* Native bracket and tournament organisation tools
 - *Per User Audio Output:* Per-user volume supported but range more limited than Discord's 0–200%
 
 **TeamSpeak**
