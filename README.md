@@ -1,4 +1,4 @@
-# Matrix Client Wishlist
+# Alternative Client Wishlist
 ### A community-driven feature wishlist for the ideal privacy-first Discord alternative
 
 > **Are you a Discord refugee?** You're not alone. This project was born from the growing wave of users looking for a privacy-respecting, open-source alternative to Discord. Ideally, one that doesn't scan your face, sell your data to the surveillance state, or push advertisements into your chats.
@@ -7,7 +7,7 @@
 
 ## What Is This?
 
-This repository is a **structured, community-maintained wishlist** of features we want to see in a Matrix-based Discord alternative. Think of it as a public product roadmap, built by users, for developers.
+This repository is a **structured, community-maintained wishlist** of features we want to see in a Discord alternative. Think of it as a public product roadmap, built by users, for developers.
 
 Matrix is a powerful, decentralized, and federated open protocol for real-time communication. It already supports a lot of what Discord users love. However, the experience across clients is fragmented, and some key features are missing or hard to discover. This project aims to change that.
 
