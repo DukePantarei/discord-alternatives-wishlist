@@ -1,5 +1,5 @@
 {
-  "_readme": "This file is the source of truth for the comparison table. To add a platform, copy an existing entry and fill in the fields. To add a feature, add the key to every platform entry. Valid values: 'yes', 'no', 'partial', 'planned', 'unknown'. Use 'notes' for any clarification.",
+  "_readme": "This file is the source of truth for the comparison table. TEST TEST To add a platform, copy an existing entry and fill in the fields. To add a feature, add the key to every platform entry. Valid values: 'yes', 'no', 'partial', 'planned', 'unknown'. Use 'notes' for any clarification.",
 
   "features": [
     {
