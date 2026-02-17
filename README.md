@@ -48,13 +48,13 @@ Many Discord-like features already exist across the Matrix ecosystem — they're
 
 ### What's Still Missing or Needs Improvement
 
-- ❌ Migration assistant (from Discord — roles, channels, message history)
-- ❌ Seamless invite URLs / anonymous/guest access with minimal friction
-- ❌ Raid planner / event RSVP tools
-- ❌ A single polished client that matches Discord's ease of use for non-technical users
-- ❌ Better onboarding and education around the Server → Space → Room model
-- ⚠️ Screen sharing with system audio
-- ⚠️ Consistent UX across clients
+- Migration assistant (from Discord — roles, channels, message history)
+- Seamless invite URLs / anonymous/guest access with minimal friction
+- Raid planner / event RSVP tools
+- A single polished client that matches Discord's ease of use for non-technical users
+- Better onboarding and education around the Server → Space → Room model
+- Screen sharing with system audio
+- Consistent UX across clients
 
 ---
 
@@ -97,15 +97,15 @@ See [contributing.md](contributing.md) for how to add new platforms or update fe
 
 Features in this wishlist are organized into the following areas:
 
-- 🔐 **Privacy & Security** — Encryption, data handling, verification
-- 🎙️ **Voice & Video** — Audio quality, screen sharing, system audio
-- 🤖 **Bots & Automation** — Bot frameworks, webhooks, integrations
-- 🗂️ **Server Organization** — Spaces, rooms, channels, categories
-- 🎨 **UI/UX** — Interface design, onboarding, discoverability
-- 🔀 **Migration** — Tools to move from Discord, Slack, or other platforms
-- 👤 **Identity & Access** — Profiles, guest access, invite links, roles
-- 📅 **Events & Scheduling** — Calendars, RSVPs, raid planning
-- 📱 **Platform Support** — Mobile, desktop, web apps
+- **Privacy & Security** — Encryption, data handling, verification
+- **Voice & Video** — Audio quality, screen sharing, system audio
+- **Bots & Automation** — Bot frameworks, webhooks, integrations
+- **Server Organization** — Spaces, rooms, channels, categories
+- **UI/UX** — Interface design, onboarding, discoverability
+- **Migration** — Tools to move from Discord, Slack, or other platforms
+- **Identity & Access** — Profiles, guest access, invite links, roles
+- **Events & Scheduling** — Calendars, RSVPs, raid planning
+- **Platform Support** — Mobile, desktop, web apps
 
 ---
 
@@ -117,6 +117,7 @@ Features in this wishlist are organized into the following areas:
 - [ESS (Element Server Suite)](https://element.io/server-suite) — Managed hosting option
 - [Discord Alternatives list by Hemeka](https://github.com/Hemeka/Discord-Alternatives)
 - [Self-hosted alternatives comparison by Vigno04](https://github.com/Vigno04/discord-selfhosted-alternatives)
+- [In Search of a Discord Replacement by James7132](https://no-bull.sh/blog/2026/02/16/in-search-of-a-discord-replacement/)
 
 ---
 
