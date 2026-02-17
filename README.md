@@ -70,7 +70,7 @@ Not sure which Matrix client to use? Here's a quick overview:
 | [FluffyChat](https://fluffychat.im) | Mobile / simple UX | Very beginner friendly |
 | [SchildiChat](https://schildi.chat) | Discord-like feel | Based on Element with extra features |
 
-> **Note:** Element is the reference client but it is **enterprise-focused**, not designed for average users. If you're coming from Discord, try **Cinny** or **Commet** first.
+> **Note:** Element is the reference client but it is **enterprise-focused**, not designed for average users. If you're coming from Discord, try **Cinny** or **Commet** first. My recommendation would be Commet, Cinny does not appear to support a "Voice Channel" UI like Commet. Commet feels the most like Discord that I have found in Matrix clients so far.
 
 ---
 
