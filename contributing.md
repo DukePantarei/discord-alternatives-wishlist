@@ -9,10 +9,10 @@ Thank you for helping build this wishlist! This project works because of communi
 You don't need to know how to code to contribute meaningfully. Here's what non-technical users can do:
 
 **Vote on features**
-Go to [Discussions](../../discussions), open any feature idea, and click the 👍 reaction for features that you believe should be supported. This tells developers what the community actually wants.
+Go to [Discussions](../../discussions), open any feature idea, and upvote features that you believe should be supported. This tells developers what the community actually wants.
 
 **Submit a feature idea**
-Click **New Discussion** in the Discussions tab, pick the **💡 Features Ideas** category, and use the template provided. Don't worry about getting it perfect, just describe what you want in plain language and someone can help structure it.
+Click **New Discussion** in the Discussions tab, pick the **💡 Features Ideas & Improvements** category, and use the template provided. Don't worry about getting it perfect, just describe what you want in plain language and someone can help structure it.
 
 **Share this repository**
 Post it to Reddit, Matrix rooms, Discord servers (ironic, I know), or anywhere people are discussing alternatives. The more voices, the better the wishlist.
@@ -22,7 +22,7 @@ If something in the README or comparison table is wrong, open an [Issue](../../i
 
 ---
 
-## 💻 I'm a Developer
+## I'm a Developer
 
 **Add or update platform entries**
 The comparison tables in the README are maintained manually. If a platform adds a new feature or something is outdated:
