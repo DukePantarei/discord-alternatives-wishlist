@@ -4,8 +4,8 @@ generate_table.py
 
 Reads platforms.json and generates COMPARISON.md.
 
+One table per platform category.
 Platforms are ROWS, features are COLUMNS.
-Platforms are grouped by category with a separator between each group.
 
 Usage:
     python generate_table.py
@@ -26,92 +26,122 @@ EMOJI_MAP = {
     "unknown": "❓",
 }
 
+CATEGORY_DESCRIPTIONS = {
+    "Matrix Clients": (
+        "All Matrix clients share the same underlying protocol — federated, "
+        "decentralized, and E2EE by default. The differences below are client-level "
+        "only. All of them can communicate with each other and with any Matrix homeserver.\n\n"
+        "> 💡 A homeserver is required. You can use the free [matrix.org](https://matrix.org) "
+        "server or self-host using "
+        "[matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)."
+    ),
+    "Privacy-Focused Centralized": (
+        "These platforms prioritize privacy and are open source, but run on a central server. "
+        "Self-hosted instances exist but **cannot communicate with each other** — "
+        "they are isolated, not federated."
+    ),
+    "Self-Hosted Platforms": (
+        "Designed primarily for self-hosting. Most require technical knowledge to deploy. "
+        "None of these federate with each other."
+    ),
+    "Commercial Alternatives": (
+        "Polished commercial products, included for completeness. "
+        "Privacy policies and long-term direction may change. "
+        "Discord is included here as the baseline for comparison."
+    ),
+    "Legacy & Niche": (
+        "Included for historical context or specific use cases. "
+        "Generally not recommended as full Discord replacements for casual communities."
+    ),
+}
+
 def render_value(value: str) -> str:
     return EMOJI_MAP.get(value.lower(), "❓")
 
-def build_full_table(categories: list, grouped: dict, features: list) -> list:
+def slugify(text: str) -> str:
+    """Convert a category name to a GitHub markdown anchor."""
+    return text.lower().replace(" ", "-").replace("&", "").replace("--", "-").strip("-")
+
+def build_category_table(platforms: list, features: list) -> list:
     """
-    Build one large table where:
-      - Each ROW is a platform
-      - Each COLUMN is a feature
-      - Platforms are grouped with a bold category label row between groups
+    Build one markdown table for a single category.
+    Rows = platforms, columns = features.
+    Returns a list of lines.
     """
     lines = []
 
-    # ── Column headers ──────────────────────────────────────────────────────
-    # First two columns: Platform name + Description
-    # Then one column per feature
+    # Column headers
     feature_labels = [f["label"] for f in features]
-
-    header_cells = ["**Platform**", "**Description**", "**Architecture**"] + \
-                   [f"**{lbl}**" for lbl in feature_labels]
-    separator     = ["---"] * len(header_cells)
+    header_cells   = (
+        ["**Platform**", "**Description**", "**Architecture**"] +
+        [f"**{lbl}**" for lbl in feature_labels]
+    )
+    separator = ["---"] * len(header_cells)
 
     lines.append("| " + " | ".join(header_cells) + " |")
     lines.append("| " + " | ".join(separator)     + " |")
 
-    # ── One group at a time ──────────────────────────────────────────────────
-    for category in categories:
-        cat_platforms = grouped.get(category, [])
-        if not cat_platforms:
-            continue
+    # One row per platform
+    for p in platforms:
+        name_cell = f"[{p['name']}]({p['url']})"
+        desc_cell = p.get("description", "")
+        arch_cell = p.get("architecture", "")
 
-        # Category label row — spans all columns using bold text in first cell
-        spacers = [""] * (len(header_cells) - 1)
-        lines.append(
-            "| **" + category + "** | " +
-            " | ".join(spacers) + " |"
-        )
+        feature_cells = []
+        for f in features:
+            fkey  = f["key"]
+            raw   = p["features"].get(fkey, "unknown")
+            emoji = render_value(raw)
+            note  = p.get("feature_notes", {}).get(fkey, "")
+            if note:
+                emoji += " †"
+            feature_cells.append(emoji)
 
-        # One row per platform
-        for p in cat_platforms:
-            name_cell = f"[{p['name']}]({p['url']})"
-            desc_cell = p.get("description", "")
-            arch_cell = p.get("architecture", "")
-
-            feature_cells = []
-            for f in features:
-                fkey  = f["key"]
-                raw   = p["features"].get(fkey, "unknown")
-                emoji = render_value(raw)
-                note  = p.get("feature_notes", {}).get(fkey, "")
-                if note:
-                    emoji += " †"
-                feature_cells.append(emoji)
-
-            all_cells = [name_cell, desc_cell, arch_cell] + feature_cells
-            lines.append("| " + " | ".join(all_cells) + " |")
+        all_cells = [name_cell, desc_cell, arch_cell] + feature_cells
+        lines.append("| " + " | ".join(all_cells) + " |")
 
     return lines
 
 
-def build_notes_section(categories: list, grouped: dict) -> list:
-    """Collect all feature_notes across all platforms into a notes section."""
-    lines = []
-    any_notes = False
+def build_notes_for_category(platforms: list) -> list:
+    """Build the notes block for a single category's platforms."""
+    lines  = []
+    found  = False
 
+    for p in platforms:
+        notes = p.get("feature_notes", {})
+        if not notes:
+            continue
+        if not found:
+            lines.append("**† Notes**")
+            lines.append("")
+            found = True
+        lines.append(f"**{p['name']}**")
+        for fkey, note_text in notes.items():
+            label = fkey.replace("_", " ").title()
+            lines.append(f"- *{label}:* {note_text}")
+        lines.append("")
+
+    return lines
+
+
+def build_toc(categories: list, grouped: dict) -> list:
+    """Build a table of contents linking to each category section."""
+    lines = ["## Contents", ""]
     for category in categories:
-        cat_platforms = grouped.get(category, [])
-        for p in cat_platforms:
-            notes = p.get("feature_notes", {})
-            if notes:
-                if not any_notes:
-                    lines.append("## † Notes")
-                    lines.append("")
-                    any_notes = True
-                lines.append(f"**{p['name']}**")
-                for fkey, note_text in notes.items():
-                    label = fkey.replace("_", " ").title()
-                    lines.append(f"- *{label}:* {note_text}")
-                lines.append("")
-
+        if not grouped.get(category):
+            continue
+        anchor = slugify(category)
+        count  = len(grouped[category])
+        lines.append(f"- [{category}](#{anchor}) — {count} platform{'s' if count != 1 else ''}")
+    lines.append("")
     return lines
 
 
 def main():
-    data      = json.loads(INPUT_FILE.read_text(encoding="utf-8"))
-    features  = data["features"]
-    platforms = data["platforms"]
+    data       = json.loads(INPUT_FILE.read_text(encoding="utf-8"))
+    features   = data["features"]
+    platforms  = data["platforms"]
     categories = data["categories"]
 
     grouped = defaultdict(list)
@@ -128,8 +158,10 @@ def main():
         "> To update, edit `platforms.json` and re-run `python generate_table.py`",
         "> (or push to main — the GitHub Action will regenerate it automatically).",
         "",
-        "Platforms are grouped by type. Scroll right to see all feature columns.",
-        "",
+    ]
+
+    # ── Legend ───────────────────────────────────────────────────────────────
+    lines += [
         "## Legend",
         "",
         "| Symbol | Meaning |",
@@ -139,22 +171,40 @@ def main():
         "| 🗓️ | Planned |",
         "| ❌ | Not supported |",
         "| ❓ | Unknown |",
-        "| † | See notes section below |",
-        "",
-        "---",
-        "",
-        "## Comparison Table",
+        "| † | See notes below the table |",
         "",
     ]
 
-    # ── Main table ────────────────────────────────────────────────────────────
-    lines += build_full_table(categories, grouped, features)
-    lines.append("")
-    lines.append("---")
-    lines.append("")
+    # ── Table of contents ────────────────────────────────────────────────────
+    lines += build_toc(categories, grouped)
 
-    # ── Notes section ─────────────────────────────────────────────────────────
-    lines += build_notes_section(categories, grouped)
+    # ── One section per category ─────────────────────────────────────────────
+    for category in categories:
+        cat_platforms = grouped.get(category, [])
+        if not cat_platforms:
+            continue
+
+        lines += [
+            "---",
+            "",
+            f"## {category}",
+            "",
+        ]
+
+        # Category description
+        desc = CATEGORY_DESCRIPTIONS.get(category)
+        if desc:
+            lines.append(desc)
+            lines.append("")
+
+        # The table
+        lines += build_category_table(cat_platforms, features)
+        lines.append("")
+
+        # Notes for this category
+        notes = build_notes_for_category(cat_platforms)
+        if notes:
+            lines += notes
 
     # ── Footer ────────────────────────────────────────────────────────────────
     lines += [
@@ -170,8 +220,8 @@ def main():
     OUTPUT_FILE.write_text("\n".join(lines), encoding="utf-8")
     print(
         f"✅ Generated {OUTPUT_FILE} — "
-        f"{len(platforms)} platforms × {len(features)} features "
-        f"across {len(categories)} categories."
+        f"{len(platforms)} platforms across {len(categories)} categories "
+        f"with {len(features)} features each."
     )
 
 if __name__ == "__main__":
