@@ -1237,7 +1237,7 @@
         "per_user_audio_output": "partial"
       },
       "feature_notes": {
-        "raid_planner": "Best-in-class raid and event tools — a key differentiator",
+        "raid_planner": "Best-in-class raid and event tools",
         "no_ads": "Some promotional content present",
         "migration_assistant": "Basic Discord import available",
         "rich_calendar_tools": "Full calendar system: dedicated calendar channel type, month and upcoming list views, per-event RSVP (Going/Maybe/Declined), attendance limits, repeating events, event-level permissions, separate scheduling channels for collecting availability via drag-and-drop, aggregate cross-server calendar in user profile, automatic local timezone display, and embeddable forms within events",
