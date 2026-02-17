@@ -77,11 +77,11 @@ Not sure which Matrix client to use? Here's a quick overview:
 ## How to Participate
 
 ### Vote on existing ideas
-Go to the [**Discussions tab**](../../discussions) and use 👍 reactions to upvote features you want. The most-voted ideas help developers prioritize.
+Go to the [**Discussions tab**](../../discussions) and upvote features you want. The most-voted ideas help developers prioritize.
 
 ### Submit a new feature idea
 1. Check [existing discussions](../../discussions) to avoid duplicates
-2. Click **New Discussion** and select the **💡 Feature Ideas** category
+2. Click **New Discussion** and select the **Feature Ideas** category
 3. Use the provided template to structure your idea (Epic → User Stories → Acceptance Criteria)
 4. Tag it appropriately so developers can filter by area
 
