@@ -210,7 +210,7 @@
       "name": "Discord",
       "url": "https://discord.com",
       "category": "Commercial Alternatives",
-      "description": "The dominant chat platform for gaming and online communities. Included as the baseline for comparison. TEST1",
+      "description": "The dominant chat platform for gaming and online communities. Included as the baseline for comparison.",
       "architecture": "Centralized, closed source",
       "notes": "Baseline platform. Implementing biometric age verification in the UK as of 2025.",
       "features": {
