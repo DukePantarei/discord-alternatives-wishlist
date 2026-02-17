@@ -81,7 +81,7 @@ Go to the [**Discussions tab**](../../discussions) and upvote features you want.
 
 ### Submit a new feature idea
 1. Check [existing discussions](../../discussions) to avoid duplicates
-2. Click **New Discussion** and select the **Feature Ideas** category
+2. Click **New Discussion** and select the **Feature Ideas & Improvements** category
 3. Use the provided template to structure your idea (Epic → User Stories → Acceptance Criteria)
 4. Tag it appropriately so developers can filter by area
 
