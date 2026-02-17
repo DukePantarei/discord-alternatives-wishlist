@@ -44,7 +44,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 **Element**
 - *Description:* The reference Matrix client. Feature-complete but primarily enterprise and power-user focused.
 - *Architecture:* Federated (Matrix protocol)
-- *Role Management:* Uses Matrix power levels rather than named roles — functional but less intuitive than Discord
+- *Role Management:* Uses Matrix power levels rather than named roles, functional but less intuitive than Discord
 - *Webhooks:* Possible via bridges but no native simple webhook URL
 - *Gif Embed Support:* Basic embed support, GIF picker limited
 - *Invite Links Guest Access:* Guest access exists in Matrix protocol but inconsistently surfaced in UI
@@ -56,9 +56,9 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 **Cinny**
 - *Description:* A clean, simple Matrix client with a Discord-like aesthetic. Good for users who want Matrix without Element's complexity.
 - *Architecture:* Federated (Matrix protocol)
-- *Voice Chat:* Not yet implemented — text-focused client
+- *Voice Chat:* Not yet implemented. Text-focused client
 - *Threads Forums:* Basic thread support, no forum channels
-- *Mobile App:* No native app — web app is mobile-accessible but not optimised
+- *Mobile App:* No native app. Web app is mobile-accessible but not optimised
 
 **Commet**
 - *Description:* Feature-rich Matrix client focused on casual communities. Closest to Discord in terms of features.
@@ -101,7 +101,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 - *Screen Sharing:* Screen sharing has never been supported
 - *Voice Chat:* Voice chat was removed during a backend audio rewrite and is not currently available
 - *Video Chat:* Video chat has never been supported
-- *Mobile App:* No usable mobile app currently available — in development
+- *Mobile App:* No usable mobile app currently available, in development
 
 **Valour**
 - *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
@@ -137,7 +137,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 **Sharkord**
 - *Description:* Self-hosted chat platform designed for privacy-conscious communities.
 - *Architecture:* Self-hosted
-- *E2E Encryption:* TLS transport encryption only — not end-to-end
+- *E2E Encryption:* TLS transport encryption only not end-to-end
 
 **Spacebar**
 - *Description:* Open-source, self-hosted platform compatible with the Discord API meaning existing Discord bots and clients can connect.
@@ -154,7 +154,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *E2E Encryption:* TLS transport encryption only
 - *Self Hostable:* Self-hosting instructions are currently missing, there is an ongoing codebase-wide refactor cited as reason
 - *Mobile App:* PWA support only, no native mobile app
-- *Open Source:* AGPLv3 with CLA — raises FOSS rugpull risk if owner takes project closed source. No git history prior to open sourcing.
+- *Open Source:* AGPLv3 with CLA raises FOSS rugpull risk if owner takes project closed source. No git history prior to open sourcing.
 
 **Loqa**
 - *Description:* Open-source, self-hosted platform with E2EE DMs and zero telemetry.
@@ -169,7 +169,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 **Zulip**
 - *Description:* Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.
 - *Architecture:* Self-hosted or cloud-hosted
-- *Voice Chat:* Via Jitsi integration only — not native. Uses call-per-message model, not persistent always-on channels
+- *Voice Chat:* Via Jitsi integration only not native. Uses call-per-message model, not persistent always-on channels
 - *Video Chat:* Via Jitsi integration only
 - *Screen Sharing:* Via Jitsi integration only
 - *Persistent Voice Channels:* Jitsi calls are initiated per message. Users cannot freely hop in and out of an always-on channel like Discord
@@ -227,7 +227,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 **Telegram**
 - *Description:* Large-scale messaging platform with up to 200,000 members per group. Open source clients, closed backend.
 - *Architecture:* Centralized, open source clients only
-- *E2E Encryption:* Secret Chats only — standard group chats and channels are NOT end-to-end encrypted
+- *E2E Encryption:* Secret Chats only. Standard group chats and channels are NOT end-to-end encrypted
 - *Open Source:* Client apps are open source, server backend is closed
 - *No Ads:* Ads shown in public channels on free tier
 - *Requires Phone Number:* Phone number required for registration
@@ -264,15 +264,15 @@ Included for historical context or specific use cases. Generally not recommended
 **TeamSpeak**
 - *Description:* Long-running voice-focused platform. Predates Discord. Not recommended for casual community use due to dated UX.
 - *Architecture:* Self-hosted or hosted
-- *E2E Encryption:* Voice is AES-encrypted between client and server but server can decrypt — not true E2EE
-- *Text Channels:* Text chat is functional but minimal — not a primary feature
+- *E2E Encryption:* Voice is AES-encrypted between client and server but server can decrypt. Not true E2EE
+- *Text Channels:* Text chat is functional but minimal
 - *No Premium Tier:* Free for small servers, licensing required for larger deployments
 - *Per User Audio Output:* Per-client volume adjustment supported
 
 **Mumble**
 - *Description:* Open-source, self-hosted voice chat with true end-to-end encryption. Minimal text features.
 - *Architecture:* Self-hosted
-- *E2E Encryption:* True E2EE for voice — one of the few platforms with this
+- *E2E Encryption:* True E2EE for voice
 - *Text Channels:* Very basic text messaging only
 - *Per User Audio Output:* Per-user volume adjustment supported natively
 - *Message Ttl:* Text chat history not persisted long-term by default
