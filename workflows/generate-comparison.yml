@@ -1,0 +1,168 @@
+name: Generate Comparison Table
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "platforms.json"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "platforms.json"
+  workflow_dispatch:  # allows manual trigger from GitHub Actions UI
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate-table:
+    name: Regenerate COMPARISON.md
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Use a token that allows pushing back to the repo
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Check out the actual branch (not detached HEAD)
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate platforms.json
+        run: |
+          python - <<'EOF'
+          import json, sys
+
+          try:
+              with open("platforms.json", "r", encoding="utf-8") as f:
+                  data = json.load(f)
+          except json.JSONDecodeError as e:
+              print(f"❌ platforms.json is not valid JSON: {e}")
+              sys.exit(1)
+
+          required_top_keys = {"features", "categories", "platforms"}
+          missing = required_top_keys - data.keys()
+          if missing:
+              print(f"❌ platforms.json is missing required top-level keys: {missing}")
+              sys.exit(1)
+
+          feature_keys = {f["key"] for f in data["features"]}
+          errors = []
+
+          for platform in data["platforms"]:
+              pid = platform.get("id", "unknown")
+
+              # Check required platform fields
+              for field in ["id", "name", "url", "category", "features"]:
+                  if field not in platform:
+                      errors.append(f"Platform '{pid}' missing required field: '{field}'")
+
+              # Check category is valid
+              if platform.get("category") not in data["categories"]:
+                  errors.append(
+                      f"Platform '{pid}' has unknown category: '{platform.get('category')}'. "
+                      f"Valid categories: {data['categories']}"
+                  )
+
+              # Check all feature values are valid
+              valid_values = {"yes", "no", "partial", "planned", "unknown"}
+              for fkey, fval in platform.get("features", {}).items():
+                  if fkey not in feature_keys:
+                      errors.append(f"Platform '{pid}' has unknown feature key: '{fkey}'")
+                  if fval.lower() not in valid_values:
+                      errors.append(
+                          f"Platform '{pid}', feature '{fkey}' has invalid value: '{fval}'. "
+                          f"Valid values: {valid_values}"
+                      )
+
+          if errors:
+              print("❌ Validation failed with the following errors:\n")
+              for e in errors:
+                  print(f"  • {e}")
+              sys.exit(1)
+
+          print(f"✅ platforms.json is valid — "
+                f"{len(data['platforms'])} platforms, "
+                f"{len(data['features'])} features, "
+                f"{len(data['categories'])} categories.")
+          EOF
+
+      - name: Generate COMPARISON.md
+        run: python generate_table.py
+
+      - name: Check if COMPARISON.md changed
+        id: diff
+        run: |
+          if git diff --quiet COMPARISON.md; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      # ── On push to main: commit the updated file directly ──────────────────
+      - name: Commit updated COMPARISON.md
+        if: |
+          github.event_name == 'push' &&
+          steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add COMPARISON.md
+          git commit -m "chore: regenerate COMPARISON.md from platforms.json [skip ci]"
+          git push
+
+      # ── On pull request: post a comment showing what changed ───────────────
+      - name: Post diff as PR comment
+        if: |
+          github.event_name == 'pull_request' &&
+          steps.diff.outputs.changed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { execSync } = require("child_process");
+
+            // Get the diff of COMPARISON.md
+            let diff;
+            try {
+              diff = execSync("git diff COMPARISON.md").toString();
+            } catch (e) {
+              diff = "Could not generate diff.";
+            }
+
+            // Truncate if very long
+            const maxLen = 6000;
+            const truncated = diff.length > maxLen
+              ? diff.slice(0, maxLen) + "\n\n... (diff truncated — see full file in Actions run)"
+              : diff;
+
+            const body = [
+              "## 📊 COMPARISON.md will be updated",
+              "",
+              "This PR changes `platforms.json`, which will trigger a regeneration of `COMPARISON.md`.",
+              "Here's a preview of what will change:",
+              "",
+              "```diff",
+              truncated,
+              "```",
+              "",
+              "_This comment was generated automatically by the Generate Comparison Table workflow._",
+            ].join("\n");
+
+            await github.rest.issues.createComment({
+              owner:    context.repo.owner,
+              repo:     context.repo.repo,
+              issue_number: context.issue.number,
+              body,
+            });
+
+      - name: No changes detected
+        if: steps.diff.outputs.changed == 'false'
+        run: echo "ℹ️ COMPARISON.md is already up to date — no commit needed."
