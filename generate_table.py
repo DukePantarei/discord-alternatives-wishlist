@@ -210,7 +210,7 @@ def main():
     lines += [
         "---",
         "",
-        "## 🤝 Contributing",
+        "## Contributing",
         "",
         "See an error or missing platform? Edit `platforms.json` and open a Pull Request.",
         "See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.",
