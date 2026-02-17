@@ -76,7 +76,7 @@ Go to the [**Discussions tab**](../../discussions) and upvote features you want.
 ### Submit a new feature idea
 1. Check [existing discussions](../../discussions) to avoid duplicates
 2. Click **New Discussion** and select the **💡 Feature Ideas & Improvements** category
-3. Use the provided template (see [FEATURE_REQUEST_TEMPLATE.md](.github/DISCUSSION_TEMPLATE/feature_request.md))
+3. Use the provided template (see [feature_request.md](feature_request.md))
 
 ### Report an inaccuracy
 If something in the comparison table is wrong or outdated, open an [Issue](../../issues) with the label `correction`, or submit a Pull Request updating `platforms.json`.
