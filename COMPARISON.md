@@ -20,8 +20,8 @@
 - [Matrix Clients](#matrix-clients) — 5 platforms
 - [Privacy-Focused Centralized](#privacy-focused-centralized) — 3 platforms
 - [Self-Hosted Platforms](#self-hosted-platforms) — 5 platforms
-- [Commercial Alternatives](#commercial-alternatives) — 4 platforms
-- [Legacy & Niche](#legacy-niche) — 3 platforms
+- [Commercial Alternatives](#commercial-alternatives) — 3 platforms
+- [Legacy & Niche](#legacy-niche) — 4 platforms
 
 ---
 
@@ -138,7 +138,6 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Discord](https://discord.com) | The dominant chat platform for gaming and online communities. Included as the baseline for comparison. | Centralized, closed source | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ✅ † | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ❌ | ❌ | ✅ |
 | [Root](https://rootapp.com) | VC-funded commercial chat platform with built-in app ecosystem. Polished but closed source. | Centralized, closed source | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ † | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❓ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Guilded](https://guilded.gg) | Feature-rich gaming community platform acquired by Roblox. Best-in-class raid planning tools. | Centralized, closed source | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ | ✅ | ⚠️ † | ❌ | ❌ |
 | [Telegram](https://telegram.org) | Large-scale messaging platform with up to 200,000 members per group. Open source clients, closed backend. | Centralized, open source clients only | ⚠️ † | ❌ | ❌ | ⚠️ † | ⚠️ † | ❌ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ |
 
 **† Notes**
@@ -154,11 +153,6 @@ Polished commercial products, included for completeness. Privacy policies and lo
 - *No Ads:* No ads currently but VC-funded — monetization model may change
 - *No Data Tracking:* Shares data with third parties per privacy policy
 
-**Guilded**
-- *Raid Planner:* Best-in-class raid and event tools — a key differentiator
-- *No Ads:* Some promotional content present
-- *Migration Assistant:* Basic Discord import available
-
 **Telegram**
 - *E2E Encryption:* Secret Chats only — standard group chats and channels are NOT end-to-end encrypted
 - *Open Source:* Client apps are open source, server backend is closed
@@ -173,11 +167,20 @@ Included for historical context or specific use cases. Generally not recommended
 
 | **Platform** | **Description** | **Architecture** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Free to Use** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Guilded (discontinued)](https://guilded.gg) | Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning and event scheduling tools. | Centralized, closed source (discontinued) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ⚠️ † | ❌ | ✅ † | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ | ✅ | ⚠️ † | ❌ | ❌ |
 | [TeamSpeak](https://teamspeak.com) | Long-running voice-focused platform. Predates Discord. Not recommended for casual community use due to dated UX. | Self-hosted or hosted | ❌ | ✅ | ❌ | ❌ † | ✅ | ⚠️ | ⚠️ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ⚠️ † | ⚠️ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ❌ |
 | [Mumble](https://mumble.info) | Open-source, self-hosted voice chat with true end-to-end encryption. Minimal text features. | Self-hosted | ✅ | ✅ | ❌ | ✅ † | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ❌ |
 | [Signal](https://signal.org) | Gold standard for private messaging. Best-in-class encryption. Limited community/server features. | Centralized, open source | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ † | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 **† Notes**
+
+**Guilded (discontinued)**
+- *No Ads:* Some promotional content present
+- *System Audio Sharing:* Supported on Windows and macOS, limited on Linux
+- *Raid Planner:* Best-in-class raid and event tools — the platform's key differentiator over Discord
+- *Migration Assistant:* Basic Discord server import was available
+- *Free To Use:* All features were free — no paid tier unlike Discord Nitro
+- *Gdpr Compliant:* Roblox account requirement from July 2024 raised additional data concerns
 
 **TeamSpeak**
 - *E2E Encryption:* Voice is AES-encrypted between client and server but server can decrypt — not true E2EE
