@@ -9,14 +9,12 @@
 
 This repository is a **structured, community-maintained wishlist** of features we want to see in a Discord alternative. Think of it as a public product roadmap, built by users, for developers.
 
-Matrix is a powerful, decentralized, and federated open protocol for real-time communication. It already supports a lot of what Discord users love. However, the experience across clients is fragmented, and some key features are missing or hard to discover. This project aims to change that.
-
 **If you're a user:** Browse the wishlist, vote on features you want, and submit new ideas.  
 **If you're a developer:** Use this as a structured backlog to understand what the community actually needs.
 
 ---
 
-## Why Matrix?
+## Developing on Matrix?
 
 Unlike Discord, Matrix is:
 
