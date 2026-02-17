@@ -2,27 +2,23 @@
 """
 generate_table.py
 
-Reads platforms.json and generates COMPARISON.md — a formatted
-markdown comparison table grouped by platform category.
+Reads platforms.json and generates COMPARISON.md.
+
+Platforms are ROWS, features are COLUMNS.
+Platforms are grouped by category with a separator between each group.
 
 Usage:
     python generate_table.py
-
-Output:
-    COMPARISON.md (overwritten each run)
 """
 
 import json
 from pathlib import Path
 from collections import defaultdict
 
-# ── Config ────────────────────────────────────────────────────────────────────
-
 INPUT_FILE  = Path("platforms.json")
 OUTPUT_FILE = Path("COMPARISON.md")
 
-# How each feature value renders in the table
-VALUE_EMOJI = {
+EMOJI_MAP = {
     "yes":     "✅",
     "no":      "❌",
     "partial": "⚠️",
@@ -30,168 +26,153 @@ VALUE_EMOJI = {
     "unknown": "❓",
 }
 
-# ── Helpers ───────────────────────────────────────────────────────────────────
-
 def render_value(value: str) -> str:
-    return VALUE_EMOJI.get(value.lower(), "❓")
+    return EMOJI_MAP.get(value.lower(), "❓")
 
-def platform_header(p: dict) -> str:
-    return f"[{p['name']}]({p['url']})"
+def build_full_table(categories: list, grouped: dict, features: list) -> list:
+    """
+    Build one large table where:
+      - Each ROW is a platform
+      - Each COLUMN is a feature
+      - Platforms are grouped with a bold category label row between groups
+    """
+    lines = []
 
-def build_category_table(platforms: list, features: list) -> str:
-    """Build a markdown table for a single category group."""
-    if not platforms:
-        return ""
+    # ── Column headers ──────────────────────────────────────────────────────
+    # First two columns: Platform name + Description
+    # Then one column per feature
+    feature_labels = [f["label"] for f in features]
 
-    # Header row
-    col_headers = " | ".join(["**Feature**"] + [platform_header(p) for p in platforms])
-    separator   = " | ".join(["---"] * (len(platforms) + 1))
-    lines = [f"| {col_headers} |", f"| {separator} |"]
+    header_cells = ["**Platform**", "**Description**", "**Architecture**"] + \
+                   [f"**{lbl}**" for lbl in feature_labels]
+    separator     = ["---"] * len(header_cells)
 
-    # Architecture row (special — plain text not emoji)
-    arch_values = " | ".join(p.get("architecture", "—") for p in platforms)
-    lines.append(f"| **Architecture** | {arch_values} |")
+    lines.append("| " + " | ".join(header_cells) + " |")
+    lines.append("| " + " | ".join(separator)     + " |")
 
-    # Group features by category
-    feature_categories = defaultdict(list)
-    for f in features:
-        feature_categories[f["category"]].append(f)
+    # ── One group at a time ──────────────────────────────────────────────────
+    for category in categories:
+        cat_platforms = grouped.get(category, [])
+        if not cat_platforms:
+            continue
 
-    for cat_name, cat_features in feature_categories.items():
-        # Category sub-header row (bold, spans full width via merged content)
-        spacer_cells = " | ".join("　" for _ in platforms)  # full-width space
-        lines.append(f"| **{cat_name}** | {spacer_cells} |")
+        # Category label row — spans all columns using bold text in first cell
+        spacers = [""] * (len(header_cells) - 1)
+        lines.append(
+            "| **" + category + "** | " +
+            " | ".join(spacers) + " |"
+        )
 
-        for feature in cat_features:
-            fkey  = feature["key"]
-            label = feature["label"]
-            cells = []
-            for p in platforms:
+        # One row per platform
+        for p in cat_platforms:
+            name_cell = f"[{p['name']}]({p['url']})"
+            desc_cell = p.get("description", "")
+            arch_cell = p.get("architecture", "")
+
+            feature_cells = []
+            for f in features:
+                fkey  = f["key"]
                 raw   = p["features"].get(fkey, "unknown")
                 emoji = render_value(raw)
-                # Append note indicator if a note exists for this feature
                 note  = p.get("feature_notes", {}).get(fkey, "")
                 if note:
-                    # GitHub markdown doesn't support tooltips natively in tables,
-                    # so we append a ¹ marker — notes are listed below each table
                     emoji += " †"
-                cells.append(emoji)
-            cell_str = " | ".join(cells)
-            lines.append(f"| {label} | {cell_str} |")
+                feature_cells.append(emoji)
 
-    return "\n".join(lines)
+            all_cells = [name_cell, desc_cell, arch_cell] + feature_cells
+            lines.append("| " + " | ".join(all_cells) + " |")
 
-def collect_notes(platforms: list) -> list[str]:
-    """Collect all feature notes across a list of platforms."""
-    notes = []
-    for p in platforms:
-        for fkey, note_text in p.get("feature_notes", {}).items():
-            notes.append(f"- **{p['name']} — {fkey.replace('_', ' ').title()}:** {note_text}")
-    return notes
+    return lines
 
-# ── Main ──────────────────────────────────────────────────────────────────────
+
+def build_notes_section(categories: list, grouped: dict) -> list:
+    """Collect all feature_notes across all platforms into a notes section."""
+    lines = []
+    any_notes = False
+
+    for category in categories:
+        cat_platforms = grouped.get(category, [])
+        for p in cat_platforms:
+            notes = p.get("feature_notes", {})
+            if notes:
+                if not any_notes:
+                    lines.append("## † Notes")
+                    lines.append("")
+                    any_notes = True
+                lines.append(f"**{p['name']}**")
+                for fkey, note_text in notes.items():
+                    label = fkey.replace("_", " ").title()
+                    lines.append(f"- *{label}:* {note_text}")
+                lines.append("")
+
+    return lines
+
 
 def main():
-    data = json.loads(INPUT_FILE.read_text(encoding="utf-8"))
-
-    features   = data["features"]
-    platforms  = data["platforms"]
+    data      = json.loads(INPUT_FILE.read_text(encoding="utf-8"))
+    features  = data["features"]
+    platforms = data["platforms"]
     categories = data["categories"]
 
-    # Group platforms by category preserving order from "categories" list
     grouped = defaultdict(list)
     for p in platforms:
         grouped[p["category"]].append(p)
 
     lines = []
 
-    # ── File header ──
+    # ── File header ──────────────────────────────────────────────────────────
     lines += [
         "# 📊 Platform Comparison",
         "",
-        "> **This file is auto-generated from `platforms.json`.**  ",
-        "> To make changes, edit `platforms.json` and re-run `python generate_table.py`.",
-        "> Do not edit this file directly.",
+        "> **Auto-generated from `platforms.json`** — do not edit this file directly.",
+        "> To update, edit `platforms.json` and re-run `python generate_table.py`",
+        "> (or push to main — the GitHub Action will regenerate it automatically).",
+        "",
+        "Platforms are grouped by type. Scroll right to see all feature columns.",
         "",
         "## Legend",
         "",
         "| Symbol | Meaning |",
         "|---|---|",
         "| ✅ | Fully supported |",
-        "| ⚠️ | Partial support or limited |",
-        "| 🗓️ | Planned / in development |",
+        "| ⚠️ | Partial / limited |",
+        "| 🗓️ | Planned |",
         "| ❌ | Not supported |",
-        "| ❓ | Unknown / unverified |",
-        "| † | See note below table |",
+        "| ❓ | Unknown |",
+        "| † | See notes section below |",
+        "",
+        "---",
+        "",
+        "## Comparison Table",
         "",
     ]
 
-    # ── One section per category ──
-    for category in categories:
-        cat_platforms = grouped.get(category, [])
-        if not cat_platforms:
-            continue
+    # ── Main table ────────────────────────────────────────────────────────────
+    lines += build_full_table(categories, grouped, features)
+    lines.append("")
+    lines.append("---")
+    lines.append("")
 
-        lines.append(f"---")
-        lines.append(f"")
-        lines.append(f"## {category}")
-        lines.append(f"")
+    # ── Notes section ─────────────────────────────────────────────────────────
+    lines += build_notes_section(categories, grouped)
 
-        # Optional category description
-        descriptions = {
-            "Matrix Clients": (
-                "> All Matrix clients share the same underlying protocol — "
-                "federated, decentralized, and E2EE by default. "
-                "Differences below are client-level features only.  \n"
-                "> 💡 **Homeserver needed:** Use [matrix.org](https://matrix.org) "
-                "or self-host with [matrix-docker-ansible-deploy]"
-                "(https://github.com/spantaleev/matrix-docker-ansible-deploy)."
-            ),
-            "Privacy-Focused Centralized": (
-                "> These platforms prioritize privacy but run on central servers. "
-                "Self-hosted instances exist but **cannot communicate with each other** — "
-                "they are isolated, not federated."
-            ),
-            "Self-Hosted Platforms": (
-                "> Designed primarily for self-hosting. "
-                "Most require technical knowledge to deploy."
-            ),
-            "Commercial Alternatives": (
-                "> Polished commercial products. Included for completeness. "
-                "Privacy policies and long-term direction may change."
-            ),
-            "Legacy & Niche": (
-                "> Included for historical context or specific use cases. "
-                "Generally not recommended as full Discord replacements."
-            ),
-        }
-        if category in descriptions:
-            lines.append(descriptions[category])
-            lines.append("")
-
-        lines.append(build_category_table(cat_platforms, features))
-        lines.append("")
-
-        notes = collect_notes(cat_platforms)
-        if notes:
-            lines.append("**† Notes:**")
-            lines += notes
-            lines.append("")
-
-    # ── Footer ──
+    # ── Footer ────────────────────────────────────────────────────────────────
     lines += [
         "---",
         "",
         "## 🤝 Contributing",
         "",
-        "See an error or missing platform? Edit `platforms.json` and open a Pull Request.  ",
+        "See an error or missing platform? Edit `platforms.json` and open a Pull Request.",
         "See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.",
         "",
     ]
 
     OUTPUT_FILE.write_text("\n".join(lines), encoding="utf-8")
-    print(f"✅ Generated {OUTPUT_FILE} with {len(platforms)} platforms "
-          f"across {len(categories)} categories.")
+    print(
+        f"✅ Generated {OUTPUT_FILE} — "
+        f"{len(platforms)} platforms × {len(features)} features "
+        f"across {len(categories)} categories."
+    )
 
 if __name__ == "__main__":
     main()
