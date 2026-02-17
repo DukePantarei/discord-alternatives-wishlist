@@ -4,7 +4,7 @@ Thank you for helping build this wishlist! This project works because of communi
 
 ---
 
-## I'm Not a Developer — How Can I Help?
+## I'm Not a Developer
 
 You don't need to know how to code to contribute meaningfully. Here's what non-technical users can do:
 
@@ -22,7 +22,7 @@ If something in the README or comparison table is wrong, open an [Issue](../../i
 
 ---
 
-## 💻 I'm a Developer — How Can I Help?
+## 💻 I'm a Developer
 
 **Add or update platform entries**
 The comparison tables in the README are maintained manually. If a platform adds a new feature or something is outdated:
