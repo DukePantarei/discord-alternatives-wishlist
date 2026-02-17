@@ -234,6 +234,36 @@
       "label": "Rich Calendar Tools",
       "category": "Features",
       "description": "Advanced calendar system beyond basic event posting. Includes: dedicated calendar channel type, month/upcoming list views, per-event RSVP with Going/Maybe/Declined, attendance limits, repeating/recurring events, event-level permissions, separate availability/scheduling channels for collecting member availability via drag-and-drop, aggregate cross-server calendar view in user profile, automatic local timezone display, and embeddable forms within calendar events"
+    },
+    {
+      "key": "message_ttl",
+      "label": "Message TTL / Auto-Expiry",
+      "category": "Privacy & Licensing",
+      "description": "Configurable automatic deletion of messages after a set period (e.g. 1 year). Distinct from manual deletion — applies server or channel-wide on a schedule."
+    },
+    {
+      "key": "persistent_voice_channels",
+      "label": "Persistent Voice Channels",
+      "category": "Communication",
+      "description": "Always-on voice channels users can freely hop in and out of at any time, independent of any specific call or message. Distinct from call-based voice (Jitsi/Zulip model) where a call must be initiated per message."
+    },
+    {
+      "key": "large_community_moderation",
+      "label": "Large Community Moderation Tools",
+      "category": "Features",
+      "description": "Tooling suited for communities of thousands: automod, raid/bot protection, mass ban/kick, audit logs, moderation appeal workflows, and ban/warning history per user."
+    },
+    {
+      "key": "mobile_hosting",
+      "label": "Mobile Device Hosting",
+      "category": "Platform Support",
+      "description": "Server instance can be hosted directly from a phone or mobile device, allowing self-hosting without dedicated hardware or a VPS."
+    },
+    {
+      "key": "per_user_audio_output",
+      "label": "Per-User Audio Output Control",
+      "category": "Communication",
+      "description": "Each user can individually adjust the audio output volume of other members in a voice channel, including amplification above 100% (e.g. Discord supported 0–200% per user). Separate from global volume."
     }
   ],
   "categories": [
@@ -291,7 +321,12 @@
         "scheduled_announcements": "partial",
         "tournament_brackets": "no",
         "no_premium_tier": "no",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "no",
+        "persistent_voice_channels": "yes",
+        "large_community_moderation": "yes",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "yes"
       },
       "feature_notes": {
         "system_audio_sharing": "Windows and macOS only, not Linux",
@@ -300,7 +335,10 @@
         "raid_planner": "Basic events only, no dedicated raid planning tools",
         "biometric_age_verification": "Required for UK users accessing age-restricted content as of 2025",
         "scheduled_announcements": "Scheduled messages available but limited — no native scheduled announcement channel type",
-        "no_premium_tier": "Nitro subscription required for animated avatars, higher upload limits, custom emoji across servers, and other features"
+        "no_premium_tier": "Nitro subscription required for animated avatars, higher upload limits, custom emoji across servers, and other features",
+        "per_user_audio_output": "Each user can set 0–200% individual volume per member in voice channels — a much-requested feature missing from most alternatives",
+        "large_community_moderation": "Comprehensive automod, audit logs, raid protection, timeout, mass prune — benchmark for large community moderation",
+        "message_ttl": "No server-wide TTL — messages persist indefinitely unless manually deleted"
       }
     },
     {
@@ -350,14 +388,22 @@
         "scheduled_announcements": "no",
         "tournament_brackets": "no",
         "no_premium_tier": "yes",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "partial",
+        "persistent_voice_channels": "yes",
+        "large_community_moderation": "partial",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "no"
       },
       "feature_notes": {
         "role_management": "Uses Matrix power levels rather than named roles — functional but less intuitive than Discord",
         "webhooks": "Possible via bridges but no native simple webhook URL",
         "gif_embed_support": "Basic embed support, GIF picker limited",
         "invite_links_guest_access": "Guest access exists in Matrix protocol but inconsistently surfaced in UI",
-        "admin_gui": "Element Admin and Synapse-Admin available separately"
+        "admin_gui": "Element Admin and Synapse-Admin available separately",
+        "message_ttl": "Matrix protocol supports retention policies but implementation varies by homeserver and client",
+        "persistent_voice_channels": "MatrixRTC supports persistent voice rooms but experience varies by client",
+        "large_community_moderation": "Draupnir and Mjolnir bots provide moderation at scale but require setup"
       }
     },
     {
@@ -407,7 +453,12 @@
         "scheduled_announcements": "no",
         "tournament_brackets": "no",
         "no_premium_tier": "yes",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "partial",
+        "persistent_voice_channels": "no",
+        "large_community_moderation": "no",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "no"
       },
       "feature_notes": {
         "voice_chat": "Not yet implemented — text-focused client",
@@ -462,7 +513,12 @@
         "scheduled_announcements": "no",
         "tournament_brackets": "no",
         "no_premium_tier": "yes",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "partial",
+        "persistent_voice_channels": "yes",
+        "large_community_moderation": "no",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "no"
       },
       "feature_notes": {
         "mobile_app": "Android available, iOS planned",
@@ -518,7 +574,12 @@
         "scheduled_announcements": "no",
         "tournament_brackets": "no",
         "no_premium_tier": "yes",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "partial",
+        "persistent_voice_channels": "no",
+        "large_community_moderation": "no",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "no"
       },
       "feature_notes": {
         "voice_chat": "1:1 calls supported, large voice channels limited"
@@ -571,7 +632,12 @@
         "scheduled_announcements": "no",
         "tournament_brackets": "no",
         "no_premium_tier": "yes",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "partial",
+        "persistent_voice_channels": "yes",
+        "large_community_moderation": "partial",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "no"
       },
       "feature_notes": {
         "role_management": "Inherits Element's power levels system",
@@ -598,11 +664,11 @@
         "free_to_use": "yes",
         "web_app": "yes",
         "desktop_app": "yes",
-        "mobile_app": "yes",
+        "mobile_app": "no",
         "docker_install": "yes",
-        "voice_chat": "yes",
-        "video_chat": "yes",
-        "screen_sharing": "partial",
+        "voice_chat": "no",
+        "video_chat": "no",
+        "screen_sharing": "no",
         "system_audio_sharing": "no",
         "text_channels": "yes",
         "file_sharing": "yes",
@@ -625,12 +691,20 @@
         "scheduled_announcements": "no",
         "tournament_brackets": "no",
         "no_premium_tier": "yes",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "no",
+        "persistent_voice_channels": "no",
+        "large_community_moderation": "partial",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs is planned but not yet released",
         "federated": "Centralized — self-hosted instances are isolated, cannot talk to stoat.chat",
-        "screen_sharing": "Available but limited compared to Discord"
+        "screen_sharing": "Screen sharing has never been supported",
+        "voice_chat": "Voice chat was removed during a backend audio rewrite and is not currently available",
+        "video_chat": "Video chat has never been supported",
+        "mobile_app": "No usable mobile app currently available — in development"
       }
     },
     {
@@ -680,7 +754,12 @@
         "scheduled_announcements": "no",
         "tournament_brackets": "no",
         "no_premium_tier": "yes",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "no",
+        "persistent_voice_channels": "no",
+        "large_community_moderation": "no",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "no"
       },
       "feature_notes": {
         "desktop_app": "PWA only — no native desktop app",
@@ -736,7 +815,12 @@
         "scheduled_announcements": "no",
         "tournament_brackets": "no",
         "no_premium_tier": "yes",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "no",
+        "persistent_voice_channels": "yes",
+        "large_community_moderation": "no",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "no"
       },
       "feature_notes": {
         "mobile_app": "Android app available, iOS limited"
@@ -789,7 +873,12 @@
         "scheduled_announcements": "no",
         "tournament_brackets": "no",
         "no_premium_tier": "yes",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "no",
+        "persistent_voice_channels": "yes",
+        "large_community_moderation": "no",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only — not end-to-end"
@@ -817,8 +906,8 @@
         "desktop_app": "no",
         "mobile_app": "no",
         "docker_install": "yes",
-        "voice_chat": "partial",
-        "video_chat": "partial",
+        "voice_chat": "no",
+        "video_chat": "no",
         "screen_sharing": "no",
         "system_audio_sharing": "no",
         "text_channels": "yes",
@@ -842,13 +931,19 @@
         "scheduled_announcements": "no",
         "tournament_brackets": "no",
         "no_premium_tier": "yes",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "no",
+        "persistent_voice_channels": "no",
+        "large_community_moderation": "no",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only",
-        "voice_chat": "In development — not fully stable",
-        "video_chat": "In development — not fully stable",
-        "discord_api_compatible": "Key differentiator — existing Discord bots work without modification"
+        "voice_chat": "No voice channel support at time of writing despite Discord API compatibility",
+        "video_chat": "Not currently supported",
+        "discord_api_compatible": "Key differentiator — existing Discord bots work without modification",
+        "screen_sharing": "Not currently supported"
       }
     },
     {
@@ -861,7 +956,7 @@
       "notes": "AGPL licensed. TLS encryption, no default E2EE.",
       "features": {
         "open_source": "yes",
-        "self_hostable": "yes",
+        "self_hostable": "no",
         "federated": "no",
         "e2e_encryption": "no",
         "no_ads": "yes",
@@ -871,7 +966,7 @@
         "free_to_use": "yes",
         "web_app": "yes",
         "desktop_app": "no",
-        "mobile_app": "no",
+        "mobile_app": "partial",
         "docker_install": "partial",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -898,10 +993,18 @@
         "scheduled_announcements": "no",
         "tournament_brackets": "no",
         "no_premium_tier": "yes",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "no",
+        "persistent_voice_channels": "yes",
+        "large_community_moderation": "no",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "no"
       },
       "feature_notes": {
-        "e2e_encryption": "TLS transport encryption only"
+        "e2e_encryption": "TLS transport encryption only",
+        "self_hostable": "Self-hosting instructions are currently missing — ongoing codebase-wide refactor cited as reason",
+        "mobile_app": "PWA support only, no native mobile app",
+        "open_source": "AGPLv3 with CLA — raises FOSS rugpull risk if owner takes project closed source. No git history prior to open sourcing."
       }
     },
     {
@@ -951,7 +1054,12 @@
         "scheduled_announcements": "no",
         "tournament_brackets": "no",
         "no_premium_tier": "yes",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "no",
+        "persistent_voice_channels": "no",
+        "large_community_moderation": "no",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs only, not group channels"
@@ -1004,7 +1112,12 @@
         "scheduled_announcements": "no",
         "tournament_brackets": "no",
         "no_premium_tier": "yes",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "no",
+        "persistent_voice_channels": "yes",
+        "large_community_moderation": "no",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only"
@@ -1057,7 +1170,12 @@
         "scheduled_announcements": "unknown",
         "tournament_brackets": "no",
         "no_premium_tier": "yes",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "unknown",
+        "persistent_voice_channels": "yes",
+        "large_community_moderation": "unknown",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "unknown"
       },
       "feature_notes": {
         "no_ads": "No ads currently but VC-funded — monetization model may change",
@@ -1111,14 +1229,20 @@
         "scheduled_announcements": "yes",
         "tournament_brackets": "yes",
         "no_premium_tier": "yes",
-        "rich_calendar_tools": "yes"
+        "rich_calendar_tools": "yes",
+        "message_ttl": "no",
+        "persistent_voice_channels": "yes",
+        "large_community_moderation": "yes",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "partial"
       },
       "feature_notes": {
         "raid_planner": "Best-in-class raid and event tools — a key differentiator",
         "no_ads": "Some promotional content present",
         "migration_assistant": "Basic Discord import available",
         "rich_calendar_tools": "Full calendar system: dedicated calendar channel type, month and upcoming list views, per-event RSVP (Going/Maybe/Declined), attendance limits, repeating events, event-level permissions, separate scheduling channels for collecting availability via drag-and-drop, aggregate cross-server calendar in user profile, automatic local timezone display, and embeddable forms within events",
-        "tournament_brackets": "Native bracket and tournament organisation tools — a key differentiator for competitive gaming communities"
+        "tournament_brackets": "Native bracket and tournament organisation tools — a key differentiator for competitive gaming communities",
+        "per_user_audio_output": "Per-user volume supported but range more limited than Discord's 0–200%"
       }
     },
     {
@@ -1168,7 +1292,12 @@
         "scheduled_announcements": "yes",
         "tournament_brackets": "no",
         "no_premium_tier": "partial",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "yes",
+        "persistent_voice_channels": "no",
+        "large_community_moderation": "partial",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Secret Chats only — standard group chats and channels are NOT end-to-end encrypted",
@@ -1177,7 +1306,8 @@
         "requires_phone_number": "Phone number required for registration",
         "media_gallery_channels": "Channels can be used as media galleries but no dedicated gallery channel type",
         "scheduled_announcements": "Messages and posts can be scheduled natively",
-        "no_premium_tier": "Telegram Premium subscription required for some features like larger uploads and exclusive stickers"
+        "no_premium_tier": "Telegram Premium subscription required for some features like larger uploads and exclusive stickers",
+        "message_ttl": "Auto-delete timers available per chat (1 day, 1 week, 1 month)"
       }
     },
     {
@@ -1227,12 +1357,18 @@
         "scheduled_announcements": "no",
         "tournament_brackets": "no",
         "no_premium_tier": "partial",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "no",
+        "persistent_voice_channels": "yes",
+        "large_community_moderation": "partial",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "Voice is AES-encrypted between client and server but server can decrypt — not true E2EE",
         "text_channels": "Text chat is functional but minimal — not a primary feature",
-        "no_premium_tier": "Free for small servers, licensing required for larger deployments"
+        "no_premium_tier": "Free for small servers, licensing required for larger deployments",
+        "per_user_audio_output": "Per-client volume adjustment supported"
       }
     },
     {
@@ -1282,11 +1418,18 @@
         "scheduled_announcements": "no",
         "tournament_brackets": "no",
         "no_premium_tier": "yes",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "yes",
+        "persistent_voice_channels": "yes",
+        "large_community_moderation": "partial",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "True E2EE for voice — one of the few platforms with this",
-        "text_channels": "Very basic text messaging only"
+        "text_channels": "Very basic text messaging only",
+        "per_user_audio_output": "Per-user volume adjustment supported natively",
+        "message_ttl": "Text chat history not persisted long-term by default"
       }
     },
     {
@@ -1336,12 +1479,148 @@
         "scheduled_announcements": "no",
         "tournament_brackets": "no",
         "no_premium_tier": "yes",
-        "rich_calendar_tools": "no"
+        "rich_calendar_tools": "no",
+        "message_ttl": "yes",
+        "persistent_voice_channels": "no",
+        "large_community_moderation": "no",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "no"
       },
       "feature_notes": {
         "text_channels": "Group chats exist but no server/channel hierarchy",
         "requires_phone_number": "Phone number required for registration",
-        "web_app": "Desktop-linked web interface only, no standalone web app"
+        "web_app": "Desktop-linked web interface only, no standalone web app",
+        "message_ttl": "Disappearing messages supported with configurable TTL per conversation"
+      }
+    },
+    {
+      "id": "zulip",
+      "name": "Zulip",
+      "url": "https://zulip.com",
+      "category": "Self-Hosted Platforms",
+      "description": "Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.",
+      "architecture": "Self-hosted or cloud-hosted",
+      "notes": "Top recommendation from large-community evaluators. Threading model (every message belongs to a topic) takes adjustment for Discord users. Jitsi integration provides voice/video/screenshare but uses a call-per-message model rather than persistent always-on voice channels.",
+      "features": {
+        "open_source": "yes",
+        "self_hostable": "yes",
+        "federated": "no",
+        "e2e_encryption": "no",
+        "no_ads": "yes",
+        "no_data_tracking": "yes",
+        "gdpr_compliant": "yes",
+        "biometric_age_verification": "no",
+        "free_to_use": "yes",
+        "web_app": "yes",
+        "desktop_app": "yes",
+        "mobile_app": "yes",
+        "docker_install": "yes",
+        "voice_chat": "partial",
+        "video_chat": "partial",
+        "screen_sharing": "partial",
+        "system_audio_sharing": "no",
+        "text_channels": "yes",
+        "file_sharing": "yes",
+        "gif_embed_support": "partial",
+        "threads_forums": "yes",
+        "bots_automation": "yes",
+        "webhooks": "yes",
+        "role_management": "yes",
+        "server_organization": "yes",
+        "event_scheduling": "no",
+        "raid_planner": "no",
+        "invite_links_guest_access": "yes",
+        "admin_gui": "yes",
+        "migration_assistant": "partial",
+        "bridges": "yes",
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "tournament_brackets": "no",
+        "no_premium_tier": "yes",
+        "rich_calendar_tools": "no",
+        "message_ttl": "yes",
+        "persistent_voice_channels": "no",
+        "large_community_moderation": "partial",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "no"
+      },
+      "feature_notes": {
+        "voice_chat": "Via Jitsi integration only — not native. Uses call-per-message model, not persistent always-on channels",
+        "video_chat": "Via Jitsi integration only",
+        "screen_sharing": "Via Jitsi integration only",
+        "persistent_voice_channels": "Jitsi calls are initiated per message — users cannot freely hop in and out of an always-on channel like Discord",
+        "threads_forums": "Unique topic-based model: every message belongs to a topic within a channel. Takes adjustment for Discord users but very powerful for productivity communities",
+        "large_community_moderation": "Good moderation tools for productivity communities, less suited for large open social communities",
+        "message_ttl": "Configurable message retention policies per stream",
+        "migration_assistant": "Some import tools available for Slack and HipChat, limited Discord support"
+      }
+    },
+    {
+      "id": "rocketchat",
+      "name": "Rocket.Chat",
+      "url": "https://rocket.chat",
+      "category": "Self-Hosted Platforms",
+      "description": "Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users — significant limitation for large communities.",
+      "architecture": "Self-hosted or cloud-hosted",
+      "notes": "One of the most mature self-hosted options. Voice calls are enterprise-only on the free tier. Free instance hard-capped at 50 users — must contact support to raise this limit, making it impractical for large open communities.",
+      "features": {
+        "open_source": "yes",
+        "self_hostable": "yes",
+        "federated": "partial",
+        "e2e_encryption": "yes",
+        "no_ads": "yes",
+        "no_data_tracking": "yes",
+        "gdpr_compliant": "yes",
+        "biometric_age_verification": "no",
+        "free_to_use": "partial",
+        "web_app": "yes",
+        "desktop_app": "yes",
+        "mobile_app": "yes",
+        "docker_install": "yes",
+        "voice_chat": "partial",
+        "video_chat": "partial",
+        "screen_sharing": "partial",
+        "system_audio_sharing": "no",
+        "text_channels": "yes",
+        "file_sharing": "yes",
+        "gif_embed_support": "yes",
+        "threads_forums": "yes",
+        "bots_automation": "yes",
+        "webhooks": "yes",
+        "role_management": "yes",
+        "server_organization": "yes",
+        "event_scheduling": "no",
+        "raid_planner": "no",
+        "invite_links_guest_access": "yes",
+        "admin_gui": "yes",
+        "migration_assistant": "partial",
+        "bridges": "yes",
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "yes",
+        "tournament_brackets": "no",
+        "no_premium_tier": "partial",
+        "rich_calendar_tools": "no",
+        "message_ttl": "yes",
+        "persistent_voice_channels": "no",
+        "large_community_moderation": "yes",
+        "mobile_hosting": "no",
+        "per_user_audio_output": "no"
+      },
+      "feature_notes": {
+        "free_to_use": "Free tier hard-capped at 50 users — must contact support to raise limit. Enterprise license required for larger deployments",
+        "voice_chat": "Voice calls are enterprise-only on free tier",
+        "video_chat": "Video calls are enterprise-only on free tier",
+        "screen_sharing": "Screen sharing enterprise-only on free tier",
+        "persistent_voice_channels": "No persistent always-on voice channels — calls are initiated per conversation",
+        "no_premium_tier": "Enterprise license required for voice/video and >50 users",
+        "federated": "Matrix federation bridge available but not native",
+        "message_ttl": "Configurable message retention per room"
       }
     }
   ]
