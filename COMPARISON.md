@@ -254,7 +254,7 @@ Included for historical context or specific use cases. Generally not recommended
 **Guilded (discontinued)**
 - *Description:* Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists. The closest Discord feature-parity alternative that existed.
 - *Architecture:* Centralized, closed source (discontinued)
-- *Raid Planner:* Best-in-class raid and event tools — a key differentiator
+- *Raid Planner:* Best-in-class raid and event tools
 - *No Ads:* Some promotional content present
 - *Migration Assistant:* Basic Discord import available
 - *Rich Calendar Tools:* Full calendar system: dedicated calendar channel type, month and upcoming list views, per-event RSVP (Going/Maybe/Declined), attendance limits, repeating events, event-level permissions, separate scheduling channels for collecting availability via drag-and-drop, aggregate cross-server calendar in user profile, automatic local timezone display, and embeddable forms within events
