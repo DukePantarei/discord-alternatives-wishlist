@@ -89,7 +89,7 @@ Go to the [**Discussions tab**](../../discussions) and use 👍 reactions to upv
 If something in this README is wrong or out of date, open an [Issue](../../issues) with the label `correction`.
 
 ### Contribute to the comparison list
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add new platforms or update feature status.
+See [contributing.md](contributing.md) for how to add new platforms or update feature status.
 
 ---
 
