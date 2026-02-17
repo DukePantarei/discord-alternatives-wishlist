@@ -104,19 +104,19 @@ All platform data lives in **`platforms.json`** — a single source of truth tha
 ## Related Resources
 
 ### Community Evaluations
-- 📣 [Original Reddit discussion (r/matrixdotorg)](https://www.reddit.com/r/matrixdotorg/comments/1r50sqi/)
-- 📝 [In Search of a Discord Replacement](https://no-bull.sh/blog/2026/02/16/in-search-of-a-discord-replacement/)
+- [Original Reddit discussion (r/matrixdotorg)](https://www.reddit.com/r/matrixdotorg/comments/1r50sqi/)
+- [In Search of a Discord Replacement](https://no-bull.sh/blog/2026/02/16/in-search-of-a-discord-replacement/)
 
 ### Platform Documentation
-- 🌐 [Matrix.org](https://matrix.org) 
-- 📦 [matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
-- 🐘 [Stoat](https://stoat.chat) 
-- 📊 [Zulip](https://zulip.com) 
-- 🚀 [Rocket.Chat](https://rocket.chat) 
+- [Matrix.org](https://matrix.org) 
+- [matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
+- [Stoat](https://stoat.chat) 
+- [Zulip](https://zulip.com) 
+- [Rocket.Chat](https://rocket.chat) 
 
 ### Other Comparisons
-- 📊 [Discord Alternatives by Hemeka](https://github.com/Hemeka/Discord-Alternatives)
-- 📊 [Self-hosted alternatives by Vigno04](https://github.com/Vigno04/discord-selfhosted-alternatives)
+- [Discord Alternatives by Hemeka](https://github.com/Hemeka/Discord-Alternatives)
+- [Self-hosted alternatives by Vigno04](https://github.com/Vigno04/discord-selfhosted-alternatives)
 
 ---
 
