@@ -227,7 +227,7 @@
       "key": "no_premium_tier",
       "label": "No Premium Tier Required",
       "category": "Pricing",
-      "description": "All core features are fully available without a paid subscription — no equivalent of Discord Nitro required"
+      "description": "All core features are fully available without a paid subscription"
     },
     {
       "key": "rich_calendar_tools",
@@ -334,11 +334,11 @@
         "gdpr_compliant": "Under regulatory scrutiny in EU",
         "raid_planner": "Basic events only, no dedicated raid planning tools",
         "biometric_age_verification": "Required for UK users accessing age-restricted content as of 2025",
-        "scheduled_announcements": "Scheduled messages available but limited — no native scheduled announcement channel type",
+        "scheduled_announcements": "Scheduled messages available but limited, no native scheduled announcement channel type",
         "no_premium_tier": "Nitro subscription required for animated avatars, higher upload limits, custom emoji across servers, and other features",
-        "per_user_audio_output": "Each user can set 0–200% individual volume per member in voice channels — a much-requested feature missing from most alternatives",
-        "large_community_moderation": "Comprehensive automod, audit logs, raid protection, timeout, mass prune — benchmark for large community moderation",
-        "message_ttl": "No server-wide TTL — messages persist indefinitely unless manually deleted"
+        "per_user_audio_output": "Each user can set 0–200% individual volume per member in voice channels",
+        "large_community_moderation": "Comprehensive automod, audit logs, raid protection, timeout, mass prune",
+        "message_ttl": "No server-wide TTL. Messages persist indefinitely unless manually deleted"
       }
     },
     {
@@ -348,7 +348,7 @@
       "category": "Matrix Clients",
       "description": "The reference Matrix client. Feature-complete but primarily enterprise and power-user focused.",
       "architecture": "Federated (Matrix protocol)",
-      "notes": "Reference client for Matrix. Not designed for average users — try Cinny or Commet if coming from Discord.",
+      "notes": "Reference client for Matrix.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -523,7 +523,7 @@
       "feature_notes": {
         "mobile_app": "Android available, iOS planned",
         "gif_embed_support": "GIF search proxied through Commet's servers to reduce tracking",
-        "raid_planner": "Event scheduling exists — dedicated raid planning tools not yet available",
+        "raid_planner": "Event scheduling exists but dedicated raid planning tools are not yet available",
         "voice_chat": "Uses MatrixRTC + LiveKit, scales well"
       }
     },
@@ -700,7 +700,7 @@
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs is planned but not yet released",
-        "federated": "Centralized — self-hosted instances are isolated, cannot talk to stoat.chat",
+        "federated": "Centralized. Self-hosted instances are available but isolated, cannot talk to stoat.chat",
         "screen_sharing": "Screen sharing has never been supported",
         "voice_chat": "Voice chat was removed during a backend audio rewrite and is not currently available",
         "video_chat": "Video chat has never been supported",
@@ -889,7 +889,7 @@
       "name": "Spacebar",
       "url": "https://spacebar.chat",
       "category": "Self-Hosted Platforms",
-      "description": "Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.",
+      "description": "Open-source, self-hosted platform compatible with the Discord API meaning existing Discord bots and clients can connect.",
       "architecture": "Self-hosted, Discord API compatible",
       "notes": "The only platform that supports Discord's API, meaning existing Discord bots work without modification.",
       "features": {
@@ -942,7 +942,7 @@
         "e2e_encryption": "TLS transport encryption only",
         "voice_chat": "No voice channel support at time of writing despite Discord API compatibility",
         "video_chat": "Not currently supported",
-        "discord_api_compatible": "Key differentiator — existing Discord bots work without modification",
+        "discord_api_compatible": "Existing Discord bots work without modification",
         "screen_sharing": "Not currently supported"
       }
     },
@@ -1002,7 +1002,7 @@
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only",
-        "self_hostable": "Self-hosting instructions are currently missing — ongoing codebase-wide refactor cited as reason",
+        "self_hostable": "Self-hosting instructions are currently missing, there is an ongoing codebase-wide refactor cited as reason",
         "mobile_app": "PWA support only, no native mobile app",
         "open_source": "AGPLv3 with CLA — raises FOSS rugpull risk if owner takes project closed source. No git history prior to open sourcing."
       }
@@ -1178,7 +1178,7 @@
         "per_user_audio_output": "unknown"
       },
       "feature_notes": {
-        "no_ads": "No ads currently but VC-funded — monetization model may change",
+        "no_ads": "No ads currently but VC-funded, monetization model may change",
         "no_data_tracking": "Shares data with third parties per privacy policy"
       }
     },
@@ -1187,7 +1187,7 @@
       "name": "Guilded (discontinued)",
       "url": "https://guilded.gg",
       "category": "Legacy & Niche",
-      "description": "Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists — the closest Discord feature-parity alternative that existed.",
+      "description": "Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists. The closest Discord feature-parity alternative that existed.",
       "architecture": "Centralized, closed source (discontinued)",
       "notes": "Shut down December 19, 2025. Roblox required all users to link a Roblox account from July 2024, driving away non-gaming communities. Included for historical reference as it represented the most feature-complete Discord alternative ever built.",
       "features": {
@@ -1241,7 +1241,7 @@
         "no_ads": "Some promotional content present",
         "migration_assistant": "Basic Discord import available",
         "rich_calendar_tools": "Full calendar system: dedicated calendar channel type, month and upcoming list views, per-event RSVP (Going/Maybe/Declined), attendance limits, repeating events, event-level permissions, separate scheduling channels for collecting availability via drag-and-drop, aggregate cross-server calendar in user profile, automatic local timezone display, and embeddable forms within events",
-        "tournament_brackets": "Native bracket and tournament organisation tools — a key differentiator for competitive gaming communities",
+        "tournament_brackets": "Native bracket and tournament organisation tools",
         "per_user_audio_output": "Per-user volume supported but range more limited than Discord's 0–200%"
       }
     },
@@ -1252,7 +1252,7 @@
       "category": "Commercial Alternatives",
       "description": "Large-scale messaging platform with up to 200,000 members per group. Open source clients, closed backend.",
       "architecture": "Centralized, open source clients only",
-      "notes": "Requires phone number. E2EE only in Secret Chats — regular chats are not E2EE.",
+      "notes": "Requires phone number. E2EE only in Secret Chats regular chats are not E2EE.",
       "features": {
         "open_source": "partial",
         "self_hostable": "no",
@@ -1500,7 +1500,7 @@
       "category": "Self-Hosted Platforms",
       "description": "Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.",
       "architecture": "Self-hosted or cloud-hosted",
-      "notes": "Top recommendation from large-community evaluators. Threading model (every message belongs to a topic) takes adjustment for Discord users. Jitsi integration provides voice/video/screenshare but uses a call-per-message model rather than persistent always-on voice channels.",
+      "notes": "Threading model (every message belongs to a topic) takes adjustment for Discord users. Jitsi integration provides voice/video/screenshare but uses a call-per-message model rather than persistent always-on voice channels.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -1551,7 +1551,7 @@
         "voice_chat": "Via Jitsi integration only — not native. Uses call-per-message model, not persistent always-on channels",
         "video_chat": "Via Jitsi integration only",
         "screen_sharing": "Via Jitsi integration only",
-        "persistent_voice_channels": "Jitsi calls are initiated per message — users cannot freely hop in and out of an always-on channel like Discord",
+        "persistent_voice_channels": "Jitsi calls are initiated per message. Users cannot freely hop in and out of an always-on channel like Discord",
         "threads_forums": "Unique topic-based model: every message belongs to a topic within a channel. Takes adjustment for Discord users but very powerful for productivity communities",
         "large_community_moderation": "Good moderation tools for productivity communities, less suited for large open social communities",
         "message_ttl": "Configurable message retention policies per stream",
@@ -1563,9 +1563,9 @@
       "name": "Rocket.Chat",
       "url": "https://rocket.chat",
       "category": "Self-Hosted Platforms",
-      "description": "Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users — significant limitation for large communities.",
+      "description": "Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users.",
       "architecture": "Self-hosted or cloud-hosted",
-      "notes": "One of the most mature self-hosted options. Voice calls are enterprise-only on the free tier. Free instance hard-capped at 50 users — must contact support to raise this limit, making it impractical for large open communities.",
+      "notes": "One of the most mature self-hosted options. Voice calls are enterprise-only on the free tier. Free instance hard-capped at 50 users. Must contact support to raise this limit, making it impractical for large open communities.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -1613,11 +1613,11 @@
         "per_user_audio_output": "no"
       },
       "feature_notes": {
-        "free_to_use": "Free tier hard-capped at 50 users — must contact support to raise limit. Enterprise license required for larger deployments",
+        "free_to_use": "Free tier hard-capped at 50 users. Contact support to raise limit. Enterprise license required for larger deployments",
         "voice_chat": "Voice calls are enterprise-only on free tier",
         "video_chat": "Video calls are enterprise-only on free tier",
         "screen_sharing": "Screen sharing enterprise-only on free tier",
-        "persistent_voice_channels": "No persistent always-on voice channels — calls are initiated per conversation",
+        "persistent_voice_channels": "No persistent always-on voice channels. Calls are initiated per conversation",
         "no_premium_tier": "Enterprise license required for voice/video and >50 users",
         "federated": "Matrix federation bridge available but not native",
         "message_ttl": "Configurable message retention per room"
