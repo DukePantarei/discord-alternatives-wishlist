@@ -396,7 +396,7 @@
         "per_user_audio_output": "no"
       },
       "feature_notes": {
-        "role_management": "Uses Matrix power levels rather than named roles — functional but less intuitive than Discord",
+        "role_management": "Uses Matrix power levels rather than named roles, functional but less intuitive than Discord",
         "webhooks": "Possible via bridges but no native simple webhook URL",
         "gif_embed_support": "Basic embed support, GIF picker limited",
         "invite_links_guest_access": "Guest access exists in Matrix protocol but inconsistently surfaced in UI",
@@ -461,9 +461,9 @@
         "per_user_audio_output": "no"
       },
       "feature_notes": {
-        "voice_chat": "Not yet implemented — text-focused client",
+        "voice_chat": "Not yet implemented. Text-focused client",
         "threads_forums": "Basic thread support, no forum channels",
-        "mobile_app": "No native app — web app is mobile-accessible but not optimised"
+        "mobile_app": "No native app. Web app is mobile-accessible but not optimised"
       }
     },
     {
@@ -704,7 +704,7 @@
         "screen_sharing": "Screen sharing has never been supported",
         "voice_chat": "Voice chat was removed during a backend audio rewrite and is not currently available",
         "video_chat": "Video chat has never been supported",
-        "mobile_app": "No usable mobile app currently available — in development"
+        "mobile_app": "No usable mobile app currently available, in development"
       }
     },
     {
@@ -881,7 +881,7 @@
         "per_user_audio_output": "no"
       },
       "feature_notes": {
-        "e2e_encryption": "TLS transport encryption only — not end-to-end"
+        "e2e_encryption": "TLS transport encryption only not end-to-end"
       }
     },
     {
@@ -1004,7 +1004,7 @@
         "e2e_encryption": "TLS transport encryption only",
         "self_hostable": "Self-hosting instructions are currently missing, there is an ongoing codebase-wide refactor cited as reason",
         "mobile_app": "PWA support only, no native mobile app",
-        "open_source": "AGPLv3 with CLA — raises FOSS rugpull risk if owner takes project closed source. No git history prior to open sourcing."
+        "open_source": "AGPLv3 with CLA raises FOSS rugpull risk if owner takes project closed source. No git history prior to open sourcing."
       }
     },
     {
@@ -1014,7 +1014,7 @@
       "category": "Self-Hosted Platforms",
       "description": "Open-source, self-hosted platform with E2EE DMs and zero telemetry.",
       "architecture": "Self-hosted",
-      "notes": "Strong privacy focus — zero telemetry claim. E2EE for direct messages.",
+      "notes": "Strong privacy focus, zero telemetry claim. E2EE for direct messages.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -1300,7 +1300,7 @@
         "per_user_audio_output": "no"
       },
       "feature_notes": {
-        "e2e_encryption": "Secret Chats only — standard group chats and channels are NOT end-to-end encrypted",
+        "e2e_encryption": "Secret Chats only. Standard group chats and channels are NOT end-to-end encrypted",
         "open_source": "Client apps are open source, server backend is closed",
         "no_ads": "Ads shown in public channels on free tier",
         "requires_phone_number": "Phone number required for registration",
@@ -1365,8 +1365,8 @@
         "per_user_audio_output": "yes"
       },
       "feature_notes": {
-        "e2e_encryption": "Voice is AES-encrypted between client and server but server can decrypt — not true E2EE",
-        "text_channels": "Text chat is functional but minimal — not a primary feature",
+        "e2e_encryption": "Voice is AES-encrypted between client and server but server can decrypt. Not true E2EE",
+        "text_channels": "Text chat is functional but minimal",
         "no_premium_tier": "Free for small servers, licensing required for larger deployments",
         "per_user_audio_output": "Per-client volume adjustment supported"
       }
@@ -1426,7 +1426,7 @@
         "per_user_audio_output": "yes"
       },
       "feature_notes": {
-        "e2e_encryption": "True E2EE for voice — one of the few platforms with this",
+        "e2e_encryption": "True E2EE for voice",
         "text_channels": "Very basic text messaging only",
         "per_user_audio_output": "Per-user volume adjustment supported natively",
         "message_ttl": "Text chat history not persisted long-term by default"
@@ -1548,7 +1548,7 @@
         "per_user_audio_output": "no"
       },
       "feature_notes": {
-        "voice_chat": "Via Jitsi integration only — not native. Uses call-per-message model, not persistent always-on channels",
+        "voice_chat": "Via Jitsi integration only not native. Uses call-per-message model, not persistent always-on channels",
         "video_chat": "Via Jitsi integration only",
         "screen_sharing": "Via Jitsi integration only",
         "persistent_voice_channels": "Jitsi calls are initiated per message. Users cannot freely hop in and out of an always-on channel like Discord",
