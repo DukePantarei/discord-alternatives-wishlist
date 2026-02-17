@@ -1,33 +1,33 @@
-# 💡 Feature Request Template
+# Feature Request Template
 
 > **Before submitting:** Please search existing discussions to avoid duplicates. If a similar idea exists, add your thoughts there instead of creating a new one.
 
 ---
 
-## 📌 Feature Title
+## Feature Title
 <!-- A short, clear name for this feature. Examples: "Anonymous invite links", "Discord server import tool", "System audio in screen share" -->
 
 *Write your title above and delete this comment.*
 
 ---
 
-## 🏷️ Category
+## Category
 <!-- Select the most relevant category for this feature: -->
 
-- [ ] 🔐 Privacy & Security
-- [ ] 🎙️ Voice & Video
-- [ ] 🤖 Bots & Automation
-- [ ] 🗂️ Server Organization
-- [ ] 🎨 UI/UX & Onboarding
-- [ ] 🔀 Migration Tools
-- [ ] 👤 Identity & Access
-- [ ] 📅 Events & Scheduling
-- [ ] 📱 Platform Support
-- [ ] 🔧 Other
+- [ ] Privacy & Security
+- [ ] Voice & Video
+- [ ] Bots & Automation
+- [ ] Server Organization
+- [ ] UI/UX & Onboarding
+- [ ] Migration Tools
+- [ ] Identity & Access
+- [ ] Events & Scheduling
+- [ ] Platform Support
+- [ ] Other
 
 ---
 
-## 🗺️ Epic (The Big Picture)
+## Epic (The Big Picture)
 <!-- What is the broad goal or problem this feature addresses? Write 1-3 sentences describing the "why" behind this request. -->
 
 **As a** [type of user — e.g. server admin, new user, bot developer],  
@@ -58,7 +58,7 @@
 
 ---
 
-## ✅ Acceptance Criteria
+## Acceptance Criteria
 <!-- What does "done" look like? List the conditions that must be true for this feature to be considered complete. Be as specific as possible. -->
 
 - [ ] Given [context], when [action], then [expected result]
@@ -71,14 +71,14 @@
 
 ---
 
-## 🖼️ Current Workaround (if any)
+## Current Workaround (if any)
 <!-- Is there any existing way to partially achieve this today, even if clunky? -->
 
 *Describe any workaround here, or write "None" if there isn't one.*
 
 ---
 
-## 🌍 Which Clients / Platforms Does This Apply To?
+## Which Clients / Platforms Does This Apply To?
 <!-- Check all that apply -->
 
 - [ ] All Matrix clients
@@ -92,14 +92,14 @@
 
 ---
 
-## 📎 References & Examples
+## References & Examples
 <!-- Links to similar features in Discord, Guilded, Slack, or other platforms. Screenshots welcome. -->
 
 *Add any links, screenshots, or examples here.*
 
 ---
 
-## 🔢 Priority (your opinion)
+## Priority (your opinion)
 <!-- How important is this to you personally? -->
 
 - [ ] 🔴 Critical — This is a blocker for me switching from Discord
