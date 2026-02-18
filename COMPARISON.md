@@ -288,7 +288,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Free to Use** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **No Premium Tier Required** | **Rich Calendar Tools** | **Message TTL / Auto-Expiry** | **Persistent Voice Channels** | **Large Community Moderation Tools** | **Mobile Device Hosting** | **Per-User Audio Output Control** | **Community Discovery** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Guilded (discontinued)](https://guilded.gg) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ | ✅ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ | ✅ † | ❌ | ✅ | ✅ | ❌ | ⚠️ † | ✅ † |
+| [Guilded](https://guilded.gg) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ | ✅ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ | ✅ † | ❌ | ✅ | ✅ | ❌ | ⚠️ † | ✅ † |
 | [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ⚠️ † |
 | [Xfire](https://en.wikipedia.org/wiki/Xfire) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ⚠️ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ † | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ✅ † |
 | [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ❌ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ † | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ † | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ✅ † | ✅ † |
@@ -300,7 +300,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 **† Notes**
 
-**Guilded (discontinued)**
+**Guilded**
 - *Description:* Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists — the closest Discord feature-parity alternative that existed.
 - *Architecture:* Centralized, closed source (discontinued)
 - *Raid Planner:* Best-in-class raid and event tools — a key differentiator
