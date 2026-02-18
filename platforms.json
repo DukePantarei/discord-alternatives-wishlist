@@ -668,7 +668,7 @@
          "name":"Stoat (formerly Revolt)",
          "url":"https://stoat.chat",
          "category":"Privacy-Focused Centralized",
-         "description":"Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.",
+         "description":"Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix.",
          "architecture":"Centralized (self-hostable but not federated)",
          "notes":"Best easy transition from Discord. Self-hosted instances cannot communicate with stoat.chat or each other.",
          "features":{
