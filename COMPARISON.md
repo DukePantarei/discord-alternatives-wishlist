@@ -28,7 +28,7 @@
 
 ## Matrix Clients
 
-All Matrix clients share the same underlying protocol: federated, decentralized, and E2EE by default. The differences below are client-level only. All of them can communicate with each other and with any Matrix homeserver.
+All Matrix clients share the same underlying protocol: federated, decentralized, and E2EE by default (must be enabled by the client). The differences below are client-level only. All of them can communicate with each other and with any Matrix homeserver.
 
 > 💡 A homeserver is required. You can use the free [matrix.org](https://matrix.org) server or self-host using [matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy).
 
