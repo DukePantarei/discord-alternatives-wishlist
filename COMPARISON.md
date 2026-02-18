@@ -100,7 +100,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 **† Notes**
 
 **Stoat (formerly Revolt)**
-- *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
+- *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix.
 - *Architecture:* Centralized (self-hostable but not federated)
 - *E2E Encryption:* E2EE for DMs is planned but not yet released
 - *Federated:* Centralized — self-hosted instances are isolated, cannot talk to stoat.chat
