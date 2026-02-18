@@ -218,7 +218,7 @@ def main():
         "## Contributing",
         "",
         "See an error or missing platform? Edit `platforms.json` and open a Pull Request.",
-        "See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.",
+        "See [contributing.md](contributing.md) for guidelines.",
         "",
     ]
 
