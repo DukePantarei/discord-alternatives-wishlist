@@ -21,7 +21,8 @@
 - [Privacy-Focused Centralized](#privacy-focused-centralized) — 3 platforms
 - [Self-Hosted Platforms](#self-hosted-platforms) — 7 platforms
 - [Commercial Alternatives](#commercial-alternatives) — 3 platforms
-- [Legacy & Niche](#legacy-niche) — 4 platforms
+- [Legacy & Niche](#legacy-niche) — 3 platforms
+- [Discontinued](#discontinued) — 9 platforms
 
 ---
 
@@ -31,20 +32,20 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 > 💡 A homeserver is required. You can use the free [matrix.org](https://matrix.org) server or self-host using [matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy).
 
-| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Free to Use** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **No Premium Tier Required** | **Rich Calendar Tools** | **Message TTL / Auto-Expiry** | **Persistent Voice Channels** | **Large Community Moderation Tools** | **Mobile Device Hosting** | **Per-User Audio Output Control** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Element](https://element.io) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ⚠️ † | ⚠️ † | ✅ | ❌ | ❌ | ⚠️ † | ✅ † | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ⚠️ † | ✅ † | ⚠️ † | ❌ | ❌ |
-| [Cinny](https://cinny.in) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ † | ✅ | ❌ † | ❌ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ⚠️ † | ✅ | ⚠️ | ⚠️ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
-| [Commet](https://commet.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ⚠️ † | ✅ | ✅ † | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ † | ⚠️ | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | ⚠️ † | ⚠️ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ❌ |
-| [FluffyChat](https://fluffychat.im) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ⚠️ | ⚠️ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
-| [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | ⚠️ † | ✅ | ❌ | ❌ | ⚠️ | ✅ † | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ⚠️ | ✅ | ⚠️ | ❌ | ❌ |
+| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Free to Use** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **No Premium Tier Required** | **Rich Calendar Tools** | **Message TTL / Auto-Expiry** | **Persistent Voice Channels** | **Large Community Moderation Tools** | **Mobile Device Hosting** | **Per-User Audio Output Control** | **Community Discovery** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Element](https://element.io) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ⚠️ † | ⚠️ † | ✅ | ❌ | ❌ | ⚠️ † | ✅ † | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ⚠️ † | ✅ † | ⚠️ † | ❌ | ❌ | ⚠️ † |
+| [Cinny](https://cinny.in) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ † | ✅ | ❌ † | ❌ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ⚠️ † | ✅ | ⚠️ | ⚠️ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ⚠️ † |
+| [Commet](https://commet.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ⚠️ † | ✅ | ✅ † | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ † | ⚠️ | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | ⚠️ † | ⚠️ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ⚠️ † |
+| [FluffyChat](https://fluffychat.im) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ⚠️ | ⚠️ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ⚠️ † |
+| [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | ⚠️ † | ✅ | ❌ | ❌ | ⚠️ | ✅ † | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ⚠️ | ✅ | ⚠️ | ❌ | ❌ | ⚠️ † |
 
 **† Notes**
 
 **Element**
 - *Description:* The reference Matrix client. Feature-complete but primarily enterprise and power-user focused.
 - *Architecture:* Federated (Matrix protocol)
-- *Role Management:* Uses Matrix power levels rather than named roles, functional but less intuitive than Discord
+- *Role Management:* Uses Matrix power levels rather than named roles — functional but less intuitive than Discord
 - *Webhooks:* Possible via bridges but no native simple webhook URL
 - *Gif Embed Support:* Basic embed support, GIF picker limited
 - *Invite Links Guest Access:* Guest access exists in Matrix protocol but inconsistently surfaced in UI
@@ -52,32 +53,37 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 - *Message Ttl:* Matrix protocol supports retention policies but implementation varies by homeserver and client
 - *Persistent Voice Channels:* MatrixRTC supports persistent voice rooms but experience varies by client
 - *Large Community Moderation:* Draupnir and Mjolnir bots provide moderation at scale but require setup
+- *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
 
 **Cinny**
 - *Description:* A clean, simple Matrix client with a Discord-like aesthetic. Good for users who want Matrix without Element's complexity.
 - *Architecture:* Federated (Matrix protocol)
-- *Voice Chat:* Not yet implemented. Text-focused client
+- *Voice Chat:* Not yet implemented — text-focused client
 - *Threads Forums:* Basic thread support, no forum channels
-- *Mobile App:* No native app. Web app is mobile-accessible but not optimised
+- *Mobile App:* No native app — web app is mobile-accessible but not optimised
+- *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
 
 **Commet**
 - *Description:* Feature-rich Matrix client focused on casual communities. Closest to Discord in terms of features.
 - *Architecture:* Federated (Matrix protocol)
 - *Mobile App:* Android available, iOS planned
 - *Gif Embed Support:* GIF search proxied through Commet's servers to reduce tracking
-- *Raid Planner:* Event scheduling exists but dedicated raid planning tools are not yet available
+- *Raid Planner:* Event scheduling exists — dedicated raid planning tools not yet available
 - *Voice Chat:* Uses MatrixRTC + LiveKit, scales well
+- *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
 
 **FluffyChat**
 - *Description:* Beginner-friendly Matrix client with a focus on mobile and simplicity.
 - *Architecture:* Federated (Matrix protocol)
 - *Voice Chat:* 1:1 calls supported, large voice channels limited
+- *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
 
 **SchildiChat**
 - *Description:* A Matrix client based on Element with a more Discord-like feel and additional quality-of-life features.
 - *Architecture:* Federated (Matrix protocol)
 - *Role Management:* Inherits Element's power levels system
 - *Admin Gui:* Inherits Element Admin support
+- *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
 
 ---
 
@@ -85,11 +91,11 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 These platforms prioritize privacy and are open source, but run on a central server. Self-hosted instances exist but **cannot communicate with each other**they are isolated, not federated.
 
-| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Free to Use** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **No Premium Tier Required** | **Rich Calendar Tools** | **Message TTL / Auto-Expiry** | **Persistent Voice Channels** | **Large Community Moderation Tools** | **Mobile Device Hosting** | **Per-User Audio Output Control** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ❌ † | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ † | ✅ | ❌ † | ❌ † | ❌ † | ❌ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ |
-| [Valour](https://valour.gg) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ † | ⚠️ † | ⚠️ † | 🗓️ † | 🗓️ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Nerimity](https://nerimity.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
+| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Free to Use** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **No Premium Tier Required** | **Rich Calendar Tools** | **Message TTL / Auto-Expiry** | **Persistent Voice Channels** | **Large Community Moderation Tools** | **Mobile Device Hosting** | **Per-User Audio Output Control** | **Community Discovery** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ❌ † | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ † | ✅ | ❌ † | ❌ † | ❌ † | ❌ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ |
+| [Valour](https://valour.gg) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ † | ⚠️ † | ⚠️ † | 🗓️ † | 🗓️ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Nerimity](https://nerimity.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
 
 **† Notes**
 
@@ -97,11 +103,11 @@ These platforms prioritize privacy and are open source, but run on a central ser
 - *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
 - *Architecture:* Centralized (self-hostable but not federated)
 - *E2E Encryption:* E2EE for DMs is planned but not yet released
-- *Federated:* Centralized. Self-hosted instances are available but isolated, cannot talk to stoat.chat
+- *Federated:* Centralized — self-hosted instances are isolated, cannot talk to stoat.chat
 - *Screen Sharing:* Screen sharing has never been supported
 - *Voice Chat:* Voice chat was removed during a backend audio rewrite and is not currently available
 - *Video Chat:* Video chat has never been supported
-- *Mobile App:* No usable mobile app currently available, in development
+- *Mobile App:* No usable mobile app currently available — in development
 
 **Valour**
 - *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
@@ -122,39 +128,39 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 Designed primarily for self-hosting. Most require technical knowledge to deploy. None of these federate with each other.
 
-| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Free to Use** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **No Premium Tier Required** | **Rich Calendar Tools** | **Message TTL / Auto-Expiry** | **Persistent Voice Channels** | **Large Community Moderation Tools** | **Mobile Device Hosting** | **Per-User Audio Output Control** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Sharkord](https://sharkord.com) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
-| [Spacebar](https://spacebar.chat) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ † | ❌ † | ❌ † | ❌ | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ✅ † | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Fluxer](https://fluxer.app) | ✅ † | ❌ † | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ⚠️ † | ⚠️ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
-| [Loqa](https://loqa.chat) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ⚠️ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
-| [Zulip](https://zulip.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ⚠️ † | ⚠️ † | ❌ | ✅ | ✅ | ⚠️ | ✅ † | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ † | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ † | ❌ † | ⚠️ † | ❌ | ❌ |
-| [Rocket.Chat](https://rocket.chat) | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ⚠️ † | ⚠️ † | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ⚠️ † | ❌ | ✅ † | ❌ † | ✅ | ❌ | ❌ |
+| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Free to Use** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **No Premium Tier Required** | **Rich Calendar Tools** | **Message TTL / Auto-Expiry** | **Persistent Voice Channels** | **Large Community Moderation Tools** | **Mobile Device Hosting** | **Per-User Audio Output Control** | **Community Discovery** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Sharkord](https://sharkord.com) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Spacebar](https://spacebar.chat) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ † | ❌ † | ❌ † | ❌ | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ✅ † | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Fluxer](https://fluxer.app) | ✅ † | ❌ † | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ⚠️ † | ⚠️ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❓ |
+| [Loqa](https://loqa.chat) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ⚠️ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Zulip](https://zulip.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ⚠️ † | ⚠️ † | ❌ | ✅ | ✅ | ⚠️ | ✅ † | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ † | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ † | ❌ † | ⚠️ † | ❌ | ❌ | ❌ |
+| [Rocket.Chat](https://rocket.chat) | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ⚠️ † | ⚠️ † | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ⚠️ † | ❌ | ✅ † | ❌ † | ✅ | ❌ | ❌ | ❌ |
 
 **† Notes**
 
 **Sharkord**
 - *Description:* Self-hosted chat platform designed for privacy-conscious communities.
 - *Architecture:* Self-hosted
-- *E2E Encryption:* TLS transport encryption only not end-to-end
+- *E2E Encryption:* TLS transport encryption only — not end-to-end
 
 **Spacebar**
-- *Description:* Open-source, self-hosted platform compatible with the Discord API meaning existing Discord bots and clients can connect.
+- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
 - *Architecture:* Self-hosted, Discord API compatible
 - *E2E Encryption:* TLS transport encryption only
 - *Voice Chat:* No voice channel support at time of writing despite Discord API compatibility
 - *Video Chat:* Not currently supported
-- *Discord Api Compatible:* Existing Discord bots work without modification
+- *Discord Api Compatible:* Key differentiator — existing Discord bots work without modification
 - *Screen Sharing:* Not currently supported
 
 **Fluxer**
 - *Description:* Open-source self-hosted chat platform (AGPL licensed).
 - *Architecture:* Self-hosted
 - *E2E Encryption:* TLS transport encryption only
-- *Self Hostable:* Self-hosting instructions are currently missing, there is an ongoing codebase-wide refactor cited as reason
+- *Self Hostable:* Self-hosting instructions are currently missing — ongoing codebase-wide refactor cited as reason
 - *Mobile App:* PWA support only, no native mobile app
-- *Open Source:* AGPLv3 with CLA raises FOSS rugpull risk if owner takes project closed source. No git history prior to open sourcing.
+- *Open Source:* AGPLv3 with CLA — raises FOSS rugpull risk if owner takes project closed source. No git history prior to open sourcing.
 
 **Loqa**
 - *Description:* Open-source, self-hosted platform with E2EE DMs and zero telemetry.
@@ -169,23 +175,23 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 **Zulip**
 - *Description:* Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.
 - *Architecture:* Self-hosted or cloud-hosted
-- *Voice Chat:* Via Jitsi integration only not native. Uses call-per-message model, not persistent always-on channels
+- *Voice Chat:* Via Jitsi integration only — not native. Uses call-per-message model, not persistent always-on channels
 - *Video Chat:* Via Jitsi integration only
 - *Screen Sharing:* Via Jitsi integration only
-- *Persistent Voice Channels:* Jitsi calls are initiated per message. Users cannot freely hop in and out of an always-on channel like Discord
+- *Persistent Voice Channels:* Jitsi calls are initiated per message — users cannot freely hop in and out of an always-on channel like Discord
 - *Threads Forums:* Unique topic-based model: every message belongs to a topic within a channel. Takes adjustment for Discord users but very powerful for productivity communities
 - *Large Community Moderation:* Good moderation tools for productivity communities, less suited for large open social communities
 - *Message Ttl:* Configurable message retention policies per stream
 - *Migration Assistant:* Some import tools available for Slack and HipChat, limited Discord support
 
 **Rocket.Chat**
-- *Description:* Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users.
+- *Description:* Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users — significant limitation for large communities.
 - *Architecture:* Self-hosted or cloud-hosted
-- *Free To Use:* Free tier hard-capped at 50 users. Contact support to raise limit. Enterprise license required for larger deployments
+- *Free To Use:* Free tier hard-capped at 50 users — must contact support to raise limit. Enterprise license required for larger deployments
 - *Voice Chat:* Voice calls are enterprise-only on free tier
 - *Video Chat:* Video calls are enterprise-only on free tier
 - *Screen Sharing:* Screen sharing enterprise-only on free tier
-- *Persistent Voice Channels:* No persistent always-on voice channels. Calls are initiated per conversation
+- *Persistent Voice Channels:* No persistent always-on voice channels — calls are initiated per conversation
 - *No Premium Tier:* Enterprise license required for voice/video and >50 users
 - *Federated:* Matrix federation bridge available but not native
 - *Message Ttl:* Configurable message retention per room
@@ -196,11 +202,11 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 Polished commercial products, included for completeness. Privacy policies and long-term direction may change. Discord is included here as the baseline for comparison.
 
-| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Free to Use** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **No Premium Tier Required** | **Rich Calendar Tools** | **Message TTL / Auto-Expiry** | **Persistent Voice Channels** | **Large Community Moderation Tools** | **Mobile Device Hosting** | **Per-User Audio Output Control** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Discord](https://discord.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ✅ † | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ❌ † | ❌ | ❌ † | ✅ | ✅ † | ❌ | ✅ † |
-| [Root](https://rootapp.com) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ † | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❓ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ | ❓ | ❓ | ❓ | ❌ | ✅ | ❌ | ❓ | ✅ | ❓ | ❌ | ❓ |
-| [Telegram](https://telegram.org) | ⚠️ † | ❌ | ❌ | ⚠️ † | ⚠️ † | ❌ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ✅ † | ❌ | ⚠️ † | ❌ | ✅ † | ❌ | ⚠️ | ❌ | ❌ |
+| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Free to Use** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **No Premium Tier Required** | **Rich Calendar Tools** | **Message TTL / Auto-Expiry** | **Persistent Voice Channels** | **Large Community Moderation Tools** | **Mobile Device Hosting** | **Per-User Audio Output Control** | **Community Discovery** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Discord](https://discord.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ✅ † | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ❌ † | ❌ | ❌ † | ✅ | ✅ † | ❌ | ✅ † | ✅ † |
+| [Root](https://rootapp.com) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ † | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❓ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ | ❓ | ❓ | ❓ | ❌ | ✅ | ❌ | ❓ | ✅ | ❓ | ❌ | ❓ | ❓ |
+| [Telegram](https://telegram.org) | ⚠️ † | ❌ | ❌ | ⚠️ † | ⚠️ † | ❌ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ✅ † | ❌ | ⚠️ † | ❌ | ✅ † | ❌ | ⚠️ | ❌ | ❌ | ✅ † |
 
 **† Notes**
 
@@ -212,22 +218,23 @@ Polished commercial products, included for completeness. Privacy policies and lo
 - *Gdpr Compliant:* Under regulatory scrutiny in EU
 - *Raid Planner:* Basic events only, no dedicated raid planning tools
 - *Biometric Age Verification:* Required for UK users accessing age-restricted content as of 2025
-- *Scheduled Announcements:* Scheduled messages available but limited, no native scheduled announcement channel type
+- *Scheduled Announcements:* Scheduled messages available but limited — no native scheduled announcement channel type
 - *No Premium Tier:* Nitro subscription required for animated avatars, higher upload limits, custom emoji across servers, and other features
-- *Per User Audio Output:* Each user can set 0–200% individual volume per member in voice channels
-- *Large Community Moderation:* Comprehensive automod, audit logs, raid protection, timeout, mass prune
-- *Message Ttl:* No server-wide TTL. Messages persist indefinitely unless manually deleted
+- *Per User Audio Output:* Each user can set 0–200% individual volume per member in voice channels — a much-requested feature missing from most alternatives
+- *Large Community Moderation:* Comprehensive automod, audit logs, raid protection, timeout, mass prune — benchmark for large community moderation
+- *Message Ttl:* No server-wide TTL — messages persist indefinitely unless manually deleted
+- *Community Discovery:* In-app server discovery plus extensive third-party directories like Disboard, top.gg, and discord.me
 
 **Root**
 - *Description:* VC-funded commercial chat platform with built-in app ecosystem. Polished but closed source.
 - *Architecture:* Centralized, closed source
-- *No Ads:* No ads currently but VC-funded, monetization model may change
+- *No Ads:* No ads currently but VC-funded — monetization model may change
 - *No Data Tracking:* Shares data with third parties per privacy policy
 
 **Telegram**
 - *Description:* Large-scale messaging platform with up to 200,000 members per group. Open source clients, closed backend.
 - *Architecture:* Centralized, open source clients only
-- *E2E Encryption:* Secret Chats only. Standard group chats and channels are NOT end-to-end encrypted
+- *E2E Encryption:* Secret Chats only — standard group chats and channels are NOT end-to-end encrypted
 - *Open Source:* Client apps are open source, server backend is closed
 - *No Ads:* Ads shown in public channels on free tier
 - *Requires Phone Number:* Phone number required for registration
@@ -235,6 +242,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 - *Scheduled Announcements:* Messages and posts can be scheduled natively
 - *No Premium Tier:* Telegram Premium subscription required for some features like larger uploads and exclusive stickers
 - *Message Ttl:* Auto-delete timers available per chat (1 day, 1 week, 1 month)
+- *Community Discovery:* Search for public channels and groups built into the app
 
 ---
 
@@ -242,37 +250,26 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 Included for historical context or specific use cases. Generally not recommended as full Discord replacements for casual communities.
 
-| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Free to Use** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **No Premium Tier Required** | **Rich Calendar Tools** | **Message TTL / Auto-Expiry** | **Persistent Voice Channels** | **Large Community Moderation Tools** | **Mobile Device Hosting** | **Per-User Audio Output Control** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Guilded (discontinued)](https://guilded.gg) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ | ✅ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ | ✅ † | ❌ | ✅ | ✅ | ❌ | ⚠️ † |
-| [TeamSpeak](https://teamspeak.com) | ❌ | ✅ | ❌ | ❌ † | ✅ | ⚠️ | ⚠️ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ⚠️ † | ⚠️ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ✅ | ⚠️ | ❌ | ✅ † |
-| [Mumble](https://mumble.info) | ✅ | ✅ | ❌ | ✅ † | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ † | ✅ | ⚠️ | ❌ | ✅ † |
-| [Signal](https://signal.org) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ † | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ † | ❌ | ❌ | ❌ | ❌ |
+| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Free to Use** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **No Premium Tier Required** | **Rich Calendar Tools** | **Message TTL / Auto-Expiry** | **Persistent Voice Channels** | **Large Community Moderation Tools** | **Mobile Device Hosting** | **Per-User Audio Output Control** | **Community Discovery** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [TeamSpeak](https://teamspeak.com) | ❌ | ✅ | ❌ | ❌ † | ✅ | ⚠️ | ⚠️ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ⚠️ † | ⚠️ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ✅ | ⚠️ | ❌ | ✅ † | ❌ |
+| [Mumble](https://mumble.info) | ✅ | ✅ | ❌ | ✅ † | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ † | ✅ | ⚠️ | ❌ | ✅ † | ❌ |
+| [Signal](https://signal.org) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ † | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ † | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 **† Notes**
-
-**Guilded (discontinued)**
-- *Description:* Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists. The closest Discord feature-parity alternative that existed.
-- *Architecture:* Centralized, closed source (discontinued)
-- *Raid Planner:* Best-in-class raid and event tools
-- *No Ads:* Some promotional content present
-- *Migration Assistant:* Basic Discord import available
-- *Rich Calendar Tools:* Full calendar system: dedicated calendar channel type, month and upcoming list views, per-event RSVP (Going/Maybe/Declined), attendance limits, repeating events, event-level permissions, separate scheduling channels for collecting availability via drag-and-drop, aggregate cross-server calendar in user profile, automatic local timezone display, and embeddable forms within events
-- *Tournament Brackets:* Native bracket and tournament organisation tools
-- *Per User Audio Output:* Per-user volume supported but range more limited than Discord's 0–200%
 
 **TeamSpeak**
 - *Description:* Long-running voice-focused platform. Predates Discord. Not recommended for casual community use due to dated UX.
 - *Architecture:* Self-hosted or hosted
-- *E2E Encryption:* Voice is AES-encrypted between client and server but server can decrypt. Not true E2EE
-- *Text Channels:* Text chat is functional but minimal
+- *E2E Encryption:* Voice is AES-encrypted between client and server but server can decrypt — not true E2EE
+- *Text Channels:* Text chat is functional but minimal — not a primary feature
 - *No Premium Tier:* Free for small servers, licensing required for larger deployments
 - *Per User Audio Output:* Per-client volume adjustment supported
 
 **Mumble**
 - *Description:* Open-source, self-hosted voice chat with true end-to-end encryption. Minimal text features.
 - *Architecture:* Self-hosted
-- *E2E Encryption:* True E2EE for voice
+- *E2E Encryption:* True E2EE for voice — one of the few platforms with this
 - *Text Channels:* Very basic text messaging only
 - *Per User Audio Output:* Per-user volume adjustment supported natively
 - *Message Ttl:* Text chat history not persisted long-term by default
@@ -284,6 +281,87 @@ Included for historical context or specific use cases. Generally not recommended
 - *Requires Phone Number:* Phone number required for registration
 - *Web App:* Desktop-linked web interface only, no standalone web app
 - *Message Ttl:* Disappearing messages supported with configurable TTL per conversation
+
+---
+
+## Discontinued
+
+| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Free to Use** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **No Premium Tier Required** | **Rich Calendar Tools** | **Message TTL / Auto-Expiry** | **Persistent Voice Channels** | **Large Community Moderation Tools** | **Mobile Device Hosting** | **Per-User Audio Output Control** | **Community Discovery** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Guilded (discontinued)](https://guilded.gg) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ | ✅ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ | ✅ † | ❌ | ✅ | ✅ | ❌ | ⚠️ † | ✅ † |
+| [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ⚠️ † |
+| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ⚠️ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ † | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ✅ † |
+| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ❌ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ † | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ † | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ✅ † | ✅ † |
+| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ⚠️ † | ❌ | ✅ | ❌ | ❌ | ✅ † | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ⚠️ |
+| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ⚠️ † | ❌ | ✅ | ❌ | ❌ | ✅ † | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ⚠️ |
+| [Razer Comms](https://www.razer.com/) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ✅ † | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ † |
+| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ✅ † | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ † |
+| [TeaSpeak](https://github.com/TeaSpeak) | ✅ † | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ † | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ✅ | ❌ |
+
+**† Notes**
+
+**Guilded (discontinued)**
+- *Description:* Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists — the closest Discord feature-parity alternative that existed.
+- *Architecture:* Centralized, closed source (discontinued)
+- *Raid Planner:* Best-in-class raid and event tools — a key differentiator
+- *No Ads:* Some promotional content present
+- *Migration Assistant:* Basic Discord import available
+- *Rich Calendar Tools:* Full calendar system: dedicated calendar channel type, month and upcoming list views, per-event RSVP (Going/Maybe/Declined), attendance limits, repeating events, event-level permissions, separate scheduling channels for collecting availability via drag-and-drop, aggregate cross-server calendar in user profile, automatic local timezone display, and embeddable forms within events
+- *Tournament Brackets:* Native bracket and tournament organisation tools — a key differentiator for competitive gaming communities
+- *Per User Audio Output:* Per-user volume supported but range more limited than Discord's 0–200%
+- *Community Discovery:* Had native server discovery and browse features before shutdown
+
+**Roger Wilco**
+- *Description:* Pioneer VoIP application for gaming (1999-2003). First major voice chat tool designed for multiplayer games. Used peer-to-peer connection model.
+- *Architecture:* Closed source, peer-to-peer
+- *Self Hostable:* Base Station server could be hosted on Linux/FreeBSD/Windows but was proprietary
+- *Server Organization:* Channel-based system with public/private channel browser
+- *Community Discovery:* Built-in channel browser displayed all public channels
+
+**Xfire**
+- *Description:* Gaming-focused instant messaging and social platform (2003-2015). Combined voice chat, game tracking, screenshots, and video recording. Shutdown June 2015.
+- *Architecture:* Closed source, centralized
+- *Community Discovery:* Game server browser and clan/community discovery built in
+- *Screen Sharing:* Game screenshot capture and video recording, not live screen sharing
+
+**RaidCall**
+- *Description:* Free cloud-based voice chat for gaming (2011-2019). Supported up to 10,000 users per group. Had overlay, music streaming, low latency. Discontinued March 31, 2019.
+- *Architecture:* Closed source, cloud-hosted
+- *Self Hostable:* Free cloud-hosted servers provided by RaidCall — no self-hosting option
+- *Video Chat:* Group video chat supported up to 4 people
+- *Community Discovery:* Public group browser to discover and join groups
+- *Per User Audio Output:* Individual volume control per user supported
+- *Role Management:* Channel permissions and user roles for guild/team management
+
+**Dolby Axon**
+- *Description:* Gaming voice chat platform by Dolby Laboratories (2008-2015). Featured Dolby audio technology, positional audio, and low latency. Discontinued 2015.
+- *Architecture:* Closed source, centralized
+- *Free To Use:* Free tier available, paid tier for advanced features
+- *Voice Chat:* Featured Dolby audio codec and 3D positional audio — key differentiator
+
+**Dolby Axon**
+- *Description:* Gaming voice chat platform by Dolby Laboratories (2008-2015). Featured Dolby audio technology, positional audio, and low latency. Discontinued 2015.
+- *Architecture:* Closed source, centralized
+- *Free To Use:* Free tier available, paid tier for advanced features
+- *Voice Chat:* Featured Dolby audio codec and 3D positional audio — key differentiator
+
+**Razer Comms**
+- *Description:* Gaming VoIP platform by Razer Inc (2013-2016). Integrated with Razer Cortex. Featured overlay, game detection, and LFG features. Discontinued 2016.
+- *Architecture:* Closed source, centralized
+- *Community Discovery:* Looking-for-group (LFG) features and game integration
+- *Voice Chat:* Integrated overlay with automatic game detection
+
+**Curse Voice**
+- *Description:* Gaming voice chat integrated with Curse client for game mods/addons (2014-2018). Evolved into Discord partnership. Discontinued 2018 after Twitch acquisition.
+- *Architecture:* Closed source, centralized
+- *Voice Chat:* Automatic teammate detection in supported games
+- *Community Discovery:* Integrated with Curse client for World of Warcraft addon management
+
+**TeaSpeak**
+- *Description:* Open-source TeamSpeak 3 server and client reimplementation (2017-2020). Aimed for protocol compatibility with TS3. Discontinued circa 2020.
+- *Architecture:* Open source, self-hosted
+- *Open Source:* GPLv3. Reverse-engineered TeamSpeak 3 protocol for compatibility
+- *Web App:* TeaSpeak included a web client interface
 
 ---
 
