@@ -724,7 +724,7 @@
             "screen_sharing":"Screen sharing has never been supported",
             "voice_chat":"Voice chat was removed during a backend audio rewrite and is not currently available",
             "video_chat":"Video chat has never been supported",
-            "mobile_app":"No usable mobile app currently available — in development"
+            "mobile_app":"No usable mobile app currently available — in development",
             "migration_assistant":"u/RambrosTeam has vibe-coded a migration assistant that backfills chat message history from discord into Stoat called Discord Terminator"
          }
       },
