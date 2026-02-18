@@ -28,7 +28,7 @@ Not sure where to start? Here are some common paths:
 
 | If you want... | Try... | Why |
 |---|---|---|
-| **Easiest Discord transition** | Stoat (formerly Revolt) | Most Discord-like UI and features, EU-based, open source |
+| **Easiest Discord transition** | Stoat (formerly Revolt) or Fluxer| Most Discord-like UI and features, open source |
 | **True decentralization** | Matrix (via Commet or Element) | Federated protocol — no single company can shut it down |
 | **Best for large communities (1000+ users)** | Zulip + Jitsi | Topic-based threading scales well, strong moderation tools |
 | **Self-host without technical hassle** | Zulip or Rocket.Chat | Mature platforms with good docs and Docker support |
