@@ -39,7 +39,7 @@ FEATURE_GROUPS = {
         "biometric_age_verification",
         "message_ttl",
     ],
-    "Pricing & Licensing": [
+    "Pricing": [
         "free_to_use",
         "no_premium_tier",
         "self_hosting_license",
