@@ -99,21 +99,21 @@ All features are organized into **7 logical groups** for easier comparison:
 - Threads & forums, persistent voice channels
 - Per-user audio output control
 
-### Server & Admin (9 features)
+### Server & Admin (8 features)
 - Role management, server organization, admin GUI
 - Large community moderation tools
 - Invite links & guest access, migration assistant
 - Bridges to other platforms, Discord API compatibility
-- Community discovery
 
 ### Channels & Content (5 features)
 - Docs/wiki channels, list/task channels, media galleries
 - Scheduled announcements, event scheduling
 
-### Community Tools (5 features)
+### Community Tools (6 features)
 - Bots & automation, webhooks
 - Raid planner / group activity tools
 - Tournament brackets, rich calendar tools
+- Community discovery
 
 ---
 
@@ -156,7 +156,7 @@ All platform data lives in **`platforms.json`** — a single source of truth tha
 - [Original Reddit discussion (r/matrixdotorg)](https://www.reddit.com/r/matrixdotorg/comments/1r50sqi/)
 - [In Search of a Discord Replacement by James Liu](https://no-bull.sh/blog/2026/02/16/in-search-of-a-discord-replacement/)
 - [Discord Alternatives, Ranked by Michael Taggart](https://taggart-tech.com/discord-alternatives/)
-- [Discord Replacers by Jay Gatsby](https://docs.google.com/spreadsheets/d/14vicw-V9Z5m7ckuburP5wxyDIIb_fFJFEjnxxHk8qRw/edit?gid=0#gid=0)
+- [Discord Replacers by Jay Gatsby (Google Sheet)](https://docs.google.com/spreadsheets/d/14vicw-V9Z5m7ckuburP5wxyDIIb_fFJFEjnxxHk8qRw/edit?gid=0#gid=0) — Community-maintained spreadsheet comparison
 
 ### Platform Documentation
 - [Matrix.org](https://matrix.org) — Federated protocol
