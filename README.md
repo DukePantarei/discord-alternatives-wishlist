@@ -51,27 +51,32 @@ Not sure where to start? Here are some common paths:
 
 ## Most Discord-like Platforms
 
-Looking for the closest thing to Discord? Here are platforms ranked by how many core Discord features they support:
+Looking for the closest thing to Discord? Here are platforms ranked by how many core Discord features they support (including moderation tools):
 
 | Platform | Discord Similarity | Category | Key Differences |
 |----------|-------------------|----------|-----------------|
-| **Element** | 100% (11/11) | Matrix Client | Federated, E2EE by default, steeper learning curve |
-| **Commet** | 100% (11/11) | Matrix Client | Most Discord-like Matrix client, excellent mobile support |
-| **SchildiChat** | 100% (11/11) | Matrix Client | Element fork with simplified UI |
-| **Sharkord** | 100% (11/11) | Self-Hosted | Self-hostable, open source, smaller community |
-| **Root** | 100% (11/11) | Commercial | Privacy-focused commercial alternative |
-| **Kloak** | 100% (11/11) | Privacy-Focused | Centralized but open source, active development |
-| **Fluxer** | 91% (10/11) | Self-Hosted | Missing bots, but very Discord-like UI and features |
-| **DCTS** | 91% (10/11) | Self-Hosted | Lightweight, self-hostable, good for small communities |
-| **Stoat** | 64% (7/11) | Privacy-Focused | No voice/video yet, but most Discord-like UI |
-| **Spacebar** | 64% (7/11) | Self-Hosted | Discord API compatible (bots work!), no voice/video yet |
+| **Element** | 100% (16/16) | Matrix Client | Federated, E2EE by default, steeper learning curve. Needs moderation bots. |
+| **Commet** | 100% (16/16) | Matrix Client | Most Discord-like Matrix client, excellent mobile support. Needs moderation bots. |
+| **SchildiChat** | 100% (16/16) | Matrix Client | Element fork with simplified UI. Needs moderation bots. |
+| **Telegram** | 88% (14/16) | Commercial | Huge scale, missing persistent voice & E2EE by default |
+| **Rocket.Chat** | 88% (14/16) | Self-Hosted | Enterprise-grade, missing persistent voice channels |
+| **Mattermost** | 88% (14/16) | Self-Hosted | DevOps favorite, E2EE beta, missing persistent voice |
+| **Slack** | 88% (14/16) | Business | Workplace standard, no persistent voice, expensive at scale |
+| **Microsoft Teams** | 88% (14/16) | Business | Office integration, federated, no persistent voice |
+| **Discourse** | 75% (12/16) | Self-Hosted | Forum-style, no voice/video but excellent moderation |
+| **Sharkord** | 69% (11/16) | Self-Hosted | Basic moderation only |
+| **Fluxer** | 62% (10/16) | Self-Hosted | Missing moderation tools & bots |
 
-**Scoring based on:** Voice/video chat, screen sharing, text channels, persistent voice, bots, roles, server organization, GIFs, file sharing, invite links
+**Scoring based on 16 features:** Voice/video chat, screen sharing, text channels, persistent voice, bots, roles, server organization, GIFs, file sharing, invite links, **+ AutoMod, audit logs, user timeout/mute, raid protection, message reporting**
 
-**Notes:** 
-- **Matrix clients** (Element, Commet, SchildiChat) score perfectly but use a different architecture (federated) requiring a homeserver
-- **Stoat** and **Spacebar** have the most Discord-like *interfaces* but are still building out voice/video features
-- **Fluxer** is probably the best drop-in replacement if you want something that feels exactly like Discord
+**Key Insights:**
+- **Matrix clients lead** but require Draupnir/Mjolnir bots for advanced moderation
+- **Business platforms** (Slack, Teams, Mattermost, Rocket.Chat) score much higher now due to strong moderation tools
+- **Self-hosted alternatives** (Fluxer, Spacebar, Stoat) lack Discord's sophisticated moderation features
+- **If moderation matters**: Go with Matrix + bots, Discourse (forums), or enterprise platforms
+- **If UI similarity matters more**: Stoat and Fluxer feel most like Discord despite lower scores
+
+**Why the scores changed:** We now include moderation features (AutoMod, audit logs, raid protection, etc.). Platforms built for large communities or enterprise use score higher, while gaming-focused alternatives often lack these tools.
 
 ---
 
