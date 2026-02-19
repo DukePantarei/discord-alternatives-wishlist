@@ -167,6 +167,10 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 ---
 
+[↑ Back to top](#platform-comparison)
+
+---
+
 ## Privacy-Focused Centralized
 
 These platforms prioritize privacy and are open source, but run on a central server. Self-hosted instances exist but **cannot communicate with each other** — they are isolated, not federated.
@@ -314,6 +318,10 @@ These platforms prioritize privacy and are open source, but run on a central ser
 - *Description:* Privacy-focused messaging (details limited). 40 features documented in community sheet.
 - *Architecture:* Centralized, closed source
 </details>
+
+---
+
+[↑ Back to top](#platform-comparison)
 
 ---
 
@@ -661,6 +669,10 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 ---
 
+[↑ Back to top](#platform-comparison)
+
+---
+
 ## Commercial Alternatives
 
 Polished commercial products, included for completeness. Privacy policies and long-term direction may change. Discord is included here as the baseline for comparison.
@@ -822,6 +834,10 @@ Polished commercial products, included for completeness. Privacy policies and lo
 - *Free To Use:* No email required - sign up in 30 seconds
 - *Open Source:* Closed source commercial platform
 </details>
+
+---
+
+[↑ Back to top](#platform-comparison)
 
 ---
 
@@ -1111,6 +1127,10 @@ Included for historical context or specific use cases. Generally not recommended
 
 ---
 
+[↑ Back to top](#platform-comparison)
+
+---
+
 ## Discontinued
 
 Platforms that are no longer active. Included for historical reference and feature comparison to show what was possible in the past.
@@ -1292,6 +1312,10 @@ Platforms that are no longer active. Included for historical reference and featu
 
 ---
 
+[↑ Back to top](#platform-comparison)
+
+---
+
 ## Business Productivity
 
 Team collaboration tools designed for businesses. NOT Discord alternatives — included for completeness as they appear in comparison lists.
@@ -1383,6 +1407,10 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 - *E2E Encryption:* Self-hosted with data on your servers, but not E2EE
 - *Self Hosting License:* Currently free (insider preview), closed source, future licensing TBD
 </details>
+
+---
+
+[↑ Back to top](#platform-comparison)
 
 ---
 
