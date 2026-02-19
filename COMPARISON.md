@@ -23,7 +23,7 @@
 - [Commercial Alternatives](#commercial-alternatives) — 6 platforms
 - [Legacy & Niche](#legacy--niche) — 13 platforms
 - [Discontinued](#discontinued) — 8 platforms
-- [Business Productivity](#business-productivity) — 3 platforms
+- [Business Productivity](#business-productivity) — 6 platforms
 
 ---
 
@@ -1327,6 +1327,9 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Pumble](https://pumble.com) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ |
 | [Chanty](https://chanty.com) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ |
 | [Virola](https://virola.io) | ❌ | ✅ | ❌ | ❌ † | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Slack](https://slack.com) | ❌ | ❌ | ❌ | ❌ † | ✅ | ❌ | ✅ | ❌ | ✅ |
+| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ❌ | ❌ | ✅ † | ⚠️ † | ✅ | ❌ | ✅ | ❌ | ✅ |
+| [Amazon Chime](https://aws.amazon.com/chime/) | ❌ | ❌ | ❌ | ❌ | ✅ | ⚠️ † | ✅ | ❌ | ✅ |
 
 ### Pricing & Licensing
 
@@ -1335,6 +1338,9 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Pumble](https://pumble.com) | ⚠️ † | ❌ | ❌ | ❓ | ✅ |
 | [Chanty](https://chanty.com) | ⚠️ | ❌ | ❌ | ❓ | ✅ |
 | [Virola](https://virola.io) | ✅ † | ✅ | ⚠️ † | ❌ | ✅ |
+| [Slack](https://slack.com) | ✅ | ❌ | ❌ | ✅ † | ✅ |
+| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ❌ | ❌ | ✅ † | ✅ |
+| [Amazon Chime](https://aws.amazon.com/chime/) | ⚠️ † | ❌ | ❌ | ✅ † | ✅ |
 
 ### Platform Support
 
@@ -1343,6 +1349,9 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Pumble](https://pumble.com) | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Chanty](https://chanty.com) | ✅ | ⚠️ † | ✅ | ❌ | ❌ |
 | [Virola](https://virola.io) | ✅ | ✅ | ✅ | ❓ | ❌ |
+| [Slack](https://slack.com) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Amazon Chime](https://aws.amazon.com/chime/) | ✅ | ✅ | ✅ | ❌ | ❌ |
 
 ### Communication
 
@@ -1351,6 +1360,9 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Pumble](https://pumble.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ |
 | [Chanty](https://chanty.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ |
 | [Virola](https://virola.io) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ † | ✅ | ❌ |
+| [Slack](https://slack.com) | ✅ † | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ✅ † | ❌ † | ❌ |
+| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ † | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ † | ✅ |
+| [Amazon Chime](https://aws.amazon.com/chime/) | ✅ † | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ † | ✅ |
 
 ### Server & Admin
 
@@ -1359,6 +1371,9 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Pumble](https://pumble.com) | ⚠️ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ⚠️ | ❌ | ❌ |
 | [Chanty](https://chanty.com) | ⚠️ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Virola](https://virola.io) | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Slack](https://slack.com) | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ |
+| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ | ❌ | ❌ |
+| [Amazon Chime](https://aws.amazon.com/chime/) | ✅ | ⚠️ | ✅ | ⚠️ | ✅ | ❌ | ⚠️ † | ❌ | ❌ |
 
 ### Channels & Content
 
@@ -1367,6 +1382,9 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Pumble](https://pumble.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Chanty](https://chanty.com) | ❌ | ✅ † | ❌ | ❌ | ❌ |
 | [Virola](https://virola.io) | ❌ | ✅ † | ❌ | ❌ | ✅ |
+| [Slack](https://slack.com) | ⚠️ † | ⚠️ † | ❌ | ✅ | ✅ |
+| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ † | ✅ † | ❌ | ✅ | ✅ |
+| [Amazon Chime](https://aws.amazon.com/chime/) | ❌ | ❌ | ❌ | ✅ | ✅ |
 
 ### Community Tools
 
@@ -1375,6 +1393,9 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Pumble](https://pumble.com) | ⚠️ | ✅ | ❌ | ❌ | ❌ |
 | [Chanty](https://chanty.com) | ⚠️ | ✅ | ❌ | ❌ | ❌ |
 | [Virola](https://virola.io) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Slack](https://slack.com) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ✅ | ❌ | ❌ | ✅ † |
+| [Amazon Chime](https://aws.amazon.com/chime/) | ✅ † | ✅ | ❌ | ❌ | ⚠️ † |
 
 
 **† Notes**
@@ -1406,6 +1427,52 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 - *Threads Forums:* Discussion threads within chat rooms
 - *E2E Encryption:* Self-hosted with data on your servers, but not E2EE
 - *Self Hosting License:* Currently free (insider preview), closed source, future licensing TBD
+</details>
+
+<details>
+<summary>Slack</summary>
+
+- *Description:* Popular workplace messaging platform. Channels, threads, integrations, huddles (voice/video). Freemium model with message history limits.
+- *Architecture:* Closed source, cloud-hosted
+- *Freemium Limitations:* Free: 90-day message history, 10 integrations, 1:1 huddles only. Paid: unlimited history, unlimited integrations, group huddles.
+- *E2E Encryption:* Encryption in transit and at rest, but Slack has access to messages (not E2EE)
+- *Voice Chat:* Called 'Huddles' - lightweight voice/video calls in channels
+- *Persistent Voice Channels:* Huddles are call-based (started/stopped), not persistent channels
+- *Threads Forums:* Threaded conversations supported, not traditional forums
+- *Role Management:* Workspace owner/admin/member roles, channel-specific permissions
+- *List Task Channels:* Lists feature for simple task tracking, integrates with external tools
+- *Docs Wiki Channels:* Canvas feature for collaborative docs, not full wiki
+</details>
+
+<details>
+<summary>Microsoft Teams</summary>
+
+- *Description:* Microsoft's workplace collaboration platform. Integrated with Office 365. Channels, meetings, file collaboration, extensive Microsoft ecosystem integration.
+- *Architecture:* Closed source, cloud-hosted
+- *Federated:* Can communicate with external organizations via Teams Connect and Teams federation
+- *E2E Encryption:* E2EE for 1:1 calls only (as of 2021). Group calls encrypted in transit.
+- *Freemium Limitations:* Free: 60-minute meeting limit, 100 participants, 5GB storage per user. Paid: 30-hour meetings, 300+ participants, 1TB+ storage.
+- *Voice Chat:* Supports meetings (scheduled) and calls (ad-hoc). Meeting features depend on license tier.
+- *Persistent Voice Channels:* No persistent voice channels - all audio is meeting/call based
+- *List Task Channels:* Deep integration with Microsoft Planner and To Do for task management
+- *Docs Wiki Channels:* Wiki tab available, plus full SharePoint integration for knowledge bases
+- *Rich Calendar Tools:* Full Outlook calendar integration with meeting scheduling, recurring events, room booking
+- *Migration Assistant:* Import from Slack available for Enterprise customers
+</details>
+
+<details>
+<summary>Amazon Chime</summary>
+
+- *Description:* AWS business communications service. Voice/video meetings, chat, screen sharing. Pay-per-use or Pro tier. SDK available for embedding.
+- *Architecture:* Closed source, AWS cloud-hosted
+- *Free To Use:* Basic (free) supports meetings up to 100 attendees for 30 days trial. Pro tier is pay-per-use.
+- *Freemium Limitations:* Basic: 30-day trial, limited features. Pro: $15/user/day (only charged on days used), unlimited meetings.
+- *No Data Tracking:* AWS standard practices - some metadata collected for service improvement
+- *Voice Chat:* High-quality audio with background noise suppression
+- *Persistent Voice Channels:* Meeting-based, not persistent channels
+- *Bots Automation:* Chime SDK supports building bots with AWS Lambda integration
+- *Bridges:* Can integrate with calendar systems and other AWS services
+- *Rich Calendar Tools:* Outlook and Google Calendar integration for meeting scheduling
 </details>
 
 ---
