@@ -119,6 +119,9 @@ All platform data lives in **`platforms.json`** — a single source of truth tha
 - [Self-hosted alternatives by Vigno04](https://github.com/Vigno04/discord-selfhosted-alternatives)
 - [So you need a Discord alternative, alternate, workalike, imitation, clone, equivalent, replacement, substitute, etc. by u/firebreathingbunny](https://www.reddit.com/r/TechQA/comments/1r2frya/so_you_need_a_discord_alternative_alternate/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [In Search of a Discord Replacement by James Liu](https://no-bull.sh/blog/2026/02/16/in-search-of-a-discord-replacement/)
+- [Discord Alternatives, Ranked by Michael Taggart](https://taggart-tech.com/discord-alternatives/)
+- [A list of some discord alternatives, and their downsides by u/Locustinalab](https://www.reddit.com/r/pcgaming/comments/1r27qjf/a_list_of_some_discord_alternatives_and_their/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- 
 ---
 
 ## Contributing
