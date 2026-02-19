@@ -44,6 +44,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 <details>
 <summary>Element</summary>
+
 - *Description:* The reference Matrix client. Feature-complete but primarily enterprise and power-user focused.
 - *Architecture:* Federated (Matrix protocol)
 - *Role Management:* Uses Matrix power levels rather than named roles — functional but less intuitive than Discord
@@ -59,6 +60,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 <details>
 <summary>Cinny</summary>
+
 - *Description:* A clean, simple Matrix client with a Discord-like aesthetic. Good for users who want Matrix without Element's complexity.
 - *Architecture:* Federated (Matrix protocol)
 - *Voice Chat:* Not yet implemented — text-focused client
@@ -69,6 +71,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 <details>
 <summary>Commet</summary>
+
 - *Description:* Feature-rich Matrix client focused on casual communities. Closest to Discord in terms of features.
 - *Architecture:* Federated (Matrix protocol)
 - *Mobile App:* Android available, iOS planned
@@ -80,6 +83,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 <details>
 <summary>FluffyChat</summary>
+
 - *Description:* Beginner-friendly Matrix client with a focus on mobile and simplicity.
 - *Architecture:* Federated (Matrix protocol)
 - *Voice Chat:* 1:1 calls supported, large voice channels limited
@@ -88,6 +92,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 <details>
 <summary>SchildiChat</summary>
+
 - *Description:* A Matrix client based on Element with a more Discord-like feel and additional quality-of-life features.
 - *Architecture:* Federated (Matrix protocol)
 - *Role Management:* Inherits Element's power levels system
@@ -111,6 +116,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 <details>
 <summary>Stoat (formerly Revolt)</summary>
+
 - *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix.
 - *Architecture:* Centralized (self-hostable but not federated)
 - *E2E Encryption:* E2EE for DMs is planned but not yet released
@@ -124,6 +130,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 <details>
 <summary>Valour</summary>
+
 - *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
 - *Architecture:* Centralized (self-hostable but not federated)
 - *Desktop App:* PWA only — no native desktop app
@@ -134,6 +141,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 <details>
 <summary>Nerimity</summary>
+
 - *Description:* Open-source Discord alternative with a clean interface. Primarily centralized hosting model.
 - *Architecture:* Centralized
 - *Mobile App:* Android app available, iOS limited
@@ -161,6 +169,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 <details>
 <summary>Sharkord</summary>
+
 - *Description:* Self-hosted chat platform designed for privacy-conscious communities.
 - *Architecture:* Self-hosted
 - *E2E Encryption:* TLS transport encryption only — not end-to-end
@@ -168,6 +177,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 <details>
 <summary>Spacebar</summary>
+
 - *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
 - *Architecture:* Self-hosted, Discord API compatible
 - *E2E Encryption:* TLS transport encryption only
@@ -179,6 +189,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 <details>
 <summary>Fluxer</summary>
+
 - *Description:* Open-source self-hosted chat platform (AGPL licensed).
 - *Architecture:* Self-hosted
 - *E2E Encryption:* TLS transport encryption only
@@ -189,6 +200,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 <details>
 <summary>Loqa</summary>
+
 - *Description:* Open-source, self-hosted platform with E2EE DMs and zero telemetry.
 - *Architecture:* Self-hosted
 - *E2E Encryption:* E2EE for DMs only, not group channels
@@ -196,6 +208,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 <details>
 <summary>DCTS</summary>
+
 - *Description:* Community-driven, self-hosted chat platform.
 - *Architecture:* Self-hosted
 - *E2E Encryption:* TLS transport encryption only
@@ -203,6 +216,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 <details>
 <summary>Zulip</summary>
+
 - *Description:* Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.
 - *Architecture:* Self-hosted or cloud-hosted
 - *Voice Chat:* Via Jitsi integration only — not native. Uses call-per-message model, not persistent always-on channels
@@ -217,6 +231,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 <details>
 <summary>Rocket.Chat</summary>
+
 - *Description:* Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users — significant limitation for large communities.
 - *Architecture:* Self-hosted or cloud-hosted
 - *Free To Use:* Free tier hard-capped at 50 users — must contact support to raise limit. Enterprise license required for larger deployments
@@ -231,6 +246,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 <details>
 <summary>Discourse</summary>
+
 - *Description:* Open-source forum platform focused on asynchronous, long-form community discussion. Not real-time chat — designed for forums, Q&A, and knowledge bases. Strong moderation tools and searchability.
 - *Architecture:* Self-hosted or cloud-hosted, open source
 - *Text Channels:* Categories and topics — forum structure, not real-time chat channels
@@ -245,6 +261,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 <details>
 <summary>Mattermost</summary>
+
 - *Description:* Open-core team collaboration platform designed for enterprises and governments. Slack-like interface with strong compliance features. Expensive licensing ($10+/user) makes it impractical for casual communities.
 - *Architecture:* Self-hosted or cloud-hosted, open core
 - *Open Source:* Open core model — free 'starter' tier is limited, most features require paid Enterprise license
@@ -273,6 +290,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 <details>
 <summary>Discord</summary>
+
 - *Description:* The dominant chat platform for gaming and online communities. Included as the baseline for comparison.
 - *Architecture:* Centralized, closed source
 - *System Audio Sharing:* Windows and macOS only, not Linux
@@ -290,6 +308,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 <details>
 <summary>Root</summary>
+
 - *Description:* VC-funded commercial chat platform with built-in app ecosystem. Polished but closed source.
 - *Architecture:* Centralized, closed source
 - *No Ads:* No ads currently but VC-funded — monetization model may change
@@ -298,6 +317,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 <details>
 <summary>Telegram</summary>
+
 - *Description:* Large-scale messaging platform with up to 200,000 members per group. Open source clients, closed backend.
 - *Architecture:* Centralized, open source clients only
 - *E2E Encryption:* Secret Chats only — standard group chats and channels are NOT end-to-end encrypted
@@ -328,6 +348,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 <details>
 <summary>TeamSpeak</summary>
+
 - *Description:* Long-running voice-focused platform. Predates Discord. Not recommended for casual community use due to dated UX.
 - *Architecture:* Self-hosted or hosted
 - *E2E Encryption:* Voice is AES-encrypted between client and server but server can decrypt — not true E2EE
@@ -338,6 +359,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 <details>
 <summary>Mumble</summary>
+
 - *Description:* Open-source, self-hosted voice chat with true end-to-end encryption. Minimal text features.
 - *Architecture:* Self-hosted
 - *E2E Encryption:* True E2EE for voice — one of the few platforms with this
@@ -348,6 +370,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 <details>
 <summary>Signal</summary>
+
 - *Description:* Gold standard for private messaging. Best-in-class encryption. Limited community/server features.
 - *Architecture:* Centralized, open source
 - *Text Channels:* Group chats exist but no server/channel hierarchy
@@ -358,6 +381,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 <details>
 <summary>Ventrilo</summary>
+
 - *Description:* Proprietary VoIP platform focused on voice chat for gaming (2002-present). Known for superior audio quality, minimal CPU usage, and simple UI. Free for up to 8 users, paid licenses for larger servers.
 - *Architecture:* Self-hosted or hosted, closed source
 - *E2E Encryption:* Uses preshared key encryption between client and server — server can decrypt, not true E2EE
@@ -390,6 +414,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 <details>
 <summary>Guilded</summary>
+
 - *Description:* Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists — the closest Discord feature-parity alternative that existed.
 - *Architecture:* Centralized, closed source (discontinued)
 - *Raid Planner:* Best-in-class raid and event tools — a key differentiator
@@ -403,6 +428,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 <details>
 <summary>Roger Wilco</summary>
+
 - *Description:* Pioneer VoIP application for gaming (1999-2003). First major voice chat tool designed for multiplayer games. Used peer-to-peer connection model.
 - *Architecture:* Closed source, peer-to-peer
 - *Self Hostable:* Base Station server could be hosted on Linux/FreeBSD/Windows but was proprietary
@@ -412,6 +438,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 <details>
 <summary>Xfire</summary>
+
 - *Description:* Gaming-focused instant messaging and social platform (2003-2015). Combined voice chat, game tracking, screenshots, and video recording. Shutdown June 2015.
 - *Architecture:* Closed source, centralized
 - *Community Discovery:* Game server browser and clan/community discovery built in
@@ -420,6 +447,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 <details>
 <summary>RaidCall</summary>
+
 - *Description:* Free cloud-based voice chat for gaming (2011-2019). Supported up to 10,000 users per group. Had overlay, music streaming, low latency. Discontinued March 31, 2019.
 - *Architecture:* Closed source, cloud-hosted
 - *Self Hostable:* Free cloud-hosted servers provided by RaidCall — no self-hosting option
@@ -431,6 +459,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 <details>
 <summary>Dolby Axon</summary>
+
 - *Description:* Gaming voice chat platform by Dolby Laboratories (2008-2015). Featured Dolby audio technology, positional audio, and low latency. Discontinued 2015.
 - *Architecture:* Closed source, centralized
 - *Free To Use:* Free tier available, paid tier for advanced features
@@ -439,6 +468,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 <details>
 <summary>Razer Comms</summary>
+
 - *Description:* Gaming VoIP platform by Razer Inc (2013-2016). Integrated with Razer Cortex. Featured overlay, game detection, and LFG features. Discontinued 2016.
 - *Architecture:* Closed source, centralized
 - *Community Discovery:* Looking-for-group (LFG) features and game integration
@@ -447,6 +477,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 <details>
 <summary>Curse Voice</summary>
+
 - *Description:* Gaming voice chat integrated with Curse client for game mods/addons (2014-2018). Evolved into Discord partnership. Discontinued 2018 after Twitch acquisition.
 - *Architecture:* Closed source, centralized
 - *Voice Chat:* Automatic teammate detection in supported games
@@ -455,6 +486,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 <details>
 <summary>TeaSpeak</summary>
+
 - *Description:* Open-source TeamSpeak 3 server and client reimplementation (2017-2020). Aimed for protocol compatibility with TS3. Discontinued circa 2020.
 - *Architecture:* Open source, self-hosted
 - *Open Source:* GPLv3. Reverse-engineered TeamSpeak 3 protocol for compatibility
