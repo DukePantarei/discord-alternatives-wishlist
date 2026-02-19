@@ -43,7 +43,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [FluffyChat](https://fluffychat.im) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ |
 | [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ |
 
-### Pricing & Licensing
+### Pricing
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
 | --- | --- | --- | --- | --- | --- |
@@ -202,7 +202,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Blite Chat](https://blite.chat) | ✅ † | ✅ † | ❌ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ❌ | ❌ | ❌ | ⚠️ | ✅ | ✅ | ❓ | ❌ | ❌ |
 
-### Pricing & Licensing
+### Pricing
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
 | --- | --- | --- | --- | --- | --- |
@@ -378,7 +378,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Discourse](https://www.discourse.org) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ✅ |
 
-### Pricing & Licensing
+### Pricing
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
 | --- | --- | --- | --- | --- | --- |
@@ -740,7 +740,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ⚠️ † | ✅ | ❌ | ⚠️ | ❌ | ❌ |
 | [Osmium](https://osmium.chat) | ❌ † | ❌ | ❌ | ❓ | ✅ | ❓ | ❓ | ❌ | ❌ |
 
-### Pricing & Licensing
+### Pricing
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
 | --- | --- | --- | --- | --- | --- |
@@ -934,7 +934,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [Movim](https://movim.eu) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Ventrilo](https://www.ventrilo.com) | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ |
 
-### Pricing & Licensing
+### Pricing
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
 | --- | --- | --- | --- | --- | --- |
@@ -1237,7 +1237,7 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [TeaSpeak](https://github.com/TeaSpeak) | ✅ † | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ |
 
-### Pricing & Licensing
+### Pricing
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
 | --- | --- | --- | --- | --- | --- |
@@ -1433,7 +1433,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ❌ | ❌ | ✅ † | ⚠️ † | ✅ | ❌ | ✅ | ❌ | ✅ |
 | [Amazon Chime](https://aws.amazon.com/chime/) | ❌ | ❌ | ❌ | ❌ | ✅ | ⚠️ † | ✅ | ❌ | ✅ |
 
-### Pricing & Licensing
+### Pricing
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
 | --- | --- | --- | --- | --- | --- |
