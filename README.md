@@ -9,12 +9,19 @@
 
 This repository is a **structured, community-maintained comparison** of Discord alternatives across 22 platforms and 44 features so far. It's designed to help you make an informed decision about where to move your community.
 
-I've compare platforms across five categories:
-- **Matrix Clients** — Decentralized, federated, open protocol
+I've compared platforms across six categories:
+- **Matrix Clients** — Decentralized, federated, open protocol (Element, Cinny, Commet, FluffyChat, SchildiChat)
 - **Privacy-Focused Centralized** — Open source but centrally hosted (Stoat, Valour, Nerimity)
-- **Self-Hosted Platforms** — Run your own instance (Zulip, Rocket.Chat, Spacebar, etc.)
-- **Commercial Alternatives** — Polished products with varying privacy tradeoffs (Discord baseline, Root, Telegram)
-- **Legacy & Niche** — Historical context and specific use cases (Guilded, TeamSpeak, Mumble, Signal)
+- **Self-Hosted Platforms** — Run your own instance (Sharkord, Spacebar, Fluxxer, Loqa, DCTS, Zulip, Rocket.chat, Discourse, Mattermost)
+- **Commercial Alternatives** — Polished products with varying privacy tradeoffs (Discord, Root, Telegram)
+- **Legacy & Niche** — Historical context and specific use cases (TeamSpeak, Mumble, Signal, Ventrilo)
+- **Discontinued** — Platforms that were once active that are no longer available, these are included to show track various features and derive inspiration (Guilded, Roger Wilco, Xfire, RaidCall, Dolby Axon, Razer Comms, Curse Voice, TeaSpeak)
+
+## Current State
+
+- 29 platforms in the JSON
+- 45 features tracked
+- 6 categories (Matrix Clients, Privacy-Focused Centralized, Self-Hosted, Commercial, Legacy & Niche, Discontinued)
 
 **If you're a user:** Browse [COMPARISON.md](COMPARISON.md) to see detailed feature matrices for every platform. Vote on features you want via GitHub Discussions.
 
@@ -28,7 +35,7 @@ Not sure where to start? Here are some common paths:
 
 | If you want... | Try... | Why |
 |---|---|---|
-| **Easiest Discord transition** | Stoat (formerly Revolt) or Fluxer| Most Discord-like UI and features, open source |
+| **Easiest Discord transition** | Stoat (formerly Revolt) or Fluxxer| Most Discord-like UI and features, open source |
 | **True decentralization** | Matrix (via Commet or Element) | Federated protocol — no single company can shut it down |
 | **Best for large communities (1000+ users)** | Zulip + Jitsi | Topic-based threading scales well, strong moderation tools |
 | **Self-host without technical hassle** | Zulip or Rocket.Chat | Mature platforms with good docs and Docker support |
