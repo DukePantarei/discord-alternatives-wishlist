@@ -20,10 +20,10 @@
 - [Matrix Clients](#matrix-clients) — 5 platforms
 - [Privacy-Focused Centralized](#privacy-focused-centralized) — 6 platforms
 - [Self-Hosted Platforms](#self-hosted-platforms) — 15 platforms
-- [Commercial Alternatives](#commercial-alternatives) — 5 platforms
-- [Legacy & Niche](#legacy-niche) — 10 platforms
+- [Commercial Alternatives](#commercial-alternatives) — 6 platforms
+- [Legacy & Niche](#legacy-niche) — 12 platforms
 - [Discontinued](#discontinued) — 3 platforms
-- [Business Productivity](#business-productivity) — 2 platforms
+- [Business Productivity](#business-productivity) — 3 platforms
 
 ---
 
@@ -550,6 +550,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Telegram](https://telegram.org) | ⚠️ † | ❌ | ❌ | ⚠️ † | ⚠️ † | ❌ | ⚠️ | ❌ | ✅ † |
 | [GameVox](https://gamevox.com) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ |
 | [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ⚠️ † | ✅ | ❌ | ⚠️ | ❌ | ❌ |
+| [Osmium](https://osmium.chat) | ❌ † | ❌ | ❌ | ❓ | ✅ | ❓ | ❓ | ❌ | ❌ |
 
 ### Pricing
 
@@ -560,6 +561,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Telegram](https://telegram.org) | ✅ | ⚠️ † |
 | [GameVox](https://gamevox.com) | ⚠️ † | ❌ |
 | [Steam Chat](https://store.steampowered.com) | ✅ | ✅ |
+| [Osmium](https://osmium.chat) | ✅ † | ❓ |
 
 ### Platform Support
 
@@ -570,6 +572,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Telegram](https://telegram.org) | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [GameVox](https://gamevox.com) | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Steam Chat](https://store.steampowered.com) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Osmium](https://osmium.chat) | ✅ | ✅ | ❓ | ❌ | ❌ |
 
 ### Communication
 
@@ -580,6 +583,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Telegram](https://telegram.org) | ✅ | ✅ † | ✅ | ❌ † | ✅ | ✅ | ✅ | ⚠️ | ❌ | ❌ |
 | [GameVox](https://gamevox.com) | ✅ † | ✅ | ✅ | ❓ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ |
 | [Steam Chat](https://store.steampowered.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ | ✅ | ❌ | ✅ | ❌ |
+| [Osmium](https://osmium.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❓ | ✅ | ❌ |
 
 ### Features
 
@@ -590,6 +594,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Telegram](https://telegram.org) | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ✅ † | ❌ | ❌ | ⚠️ | ✅ † |
 | [GameVox](https://gamevox.com) | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ✅ † |
 | [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ⚠️ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ † |
+| [Osmium](https://osmium.chat) | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ | ✅ | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❓ | ❓ |
 
 
 **† Notes**
@@ -661,6 +666,15 @@ Polished commercial products, included for completeness. Privacy policies and lo
 - *Community Discovery:* Built into Steam platform - can discover game communities, groups
 </details>
 
+<details>
+<summary>Osmium</summary>
+
+- *Description:* Globally distributed messaging and VoIP platform. Formerly 'Tangle'. Early access opened Feb 2026 after 2+ years development. Independent team (EU/BR).
+- *Architecture:* Centralized, closed source
+- *Free To Use:* No email required - sign up in 30 seconds
+- *Open Source:* Closed source commercial platform
+</details>
+
 ---
 
 ## Legacy & Niche
@@ -681,6 +695,8 @@ Included for historical context or specific use cases. Generally not recommended
 | [Oldcord](https://oldcordapp.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Jami](https://jami.net) | ✅ | ⚠️ † | ❌ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Gajim](https://gajim.org) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Swift IM](https://swift.im) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Movim](https://movim.eu) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ |
 
 ### Pricing
 
@@ -696,6 +712,8 @@ Included for historical context or specific use cases. Generally not recommended
 | [Oldcord](https://oldcordapp.com) | ✅ | ✅ |
 | [Jami](https://jami.net) | ✅ | ✅ |
 | [Gajim](https://gajim.org) | ✅ | ✅ |
+| [Swift IM](https://swift.im) | ✅ | ⚠️ † |
+| [Movim](https://movim.eu) | ✅ | ✅ |
 
 ### Platform Support
 
@@ -711,6 +729,8 @@ Included for historical context or specific use cases. Generally not recommended
 | [Oldcord](https://oldcordapp.com) | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [Jami](https://jami.net) | ⚠️ † | ✅ | ✅ | ❌ | ❌ |
 | [Gajim](https://gajim.org) | ❌ | ✅ | ❌ | ❌ | ❌ |
+| [Swift IM](https://swift.im) | ❌ | ✅ | ❌ † | ❌ | ❌ |
+| [Movim](https://movim.eu) | ✅ | ❌ | ❌ | ✅ | ❌ |
 
 ### Communication
 
@@ -726,6 +746,8 @@ Included for historical context or specific use cases. Generally not recommended
 | [Oldcord](https://oldcordapp.com) | ⚠️ † | ❌ † | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [Jami](https://jami.net) | ✅ | ✅ | ✅ | ❌ | ❌ † | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Gajim](https://gajim.org) | ⚠️ † | ❌ | ❌ | ❌ | ✅ † | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Swift IM](https://swift.im) | ✅ | ✅ | ❌ | ❌ | ✅ † | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Movim](https://movim.eu) | ❌ † | ❌ | ❌ | ❌ | ✅ † | ✅ | ⚠️ | ✅ † | ❌ | ❌ |
 
 ### Features
 
@@ -741,6 +763,8 @@ Included for historical context or specific use cases. Generally not recommended
 | [Oldcord](https://oldcordapp.com) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Jami](https://jami.net) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Gajim](https://gajim.org) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Swift IM](https://swift.im) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Movim](https://movim.eu) | ❌ | ❌ | ❌ | ✅ † | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ † | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ † |
 
 
 **† Notes**
@@ -854,6 +878,35 @@ Included for historical context or specific use cases. Generally not recommended
 - *Text Channels:* Multi-user chats (MUC) via XMPP
 </details>
 
+<details>
+<summary>Swift IM</summary>
+
+- *Description:* Cross-platform XMPP desktop client. Security-focused for Military/Finance/Government. Multi-user chat, security labels, keyword highlighting.
+- *Architecture:* XMPP client, open source (GPL)
+- *Self Hostable:* XMPP client - requires XMPP server (Prosody, ejabberd, M-Link, etc)
+- *Federated:* XMPP federation protocol
+- *E2E Encryption:* OMEMO and other XMPP E2EE extensions supported
+- *Text Channels:* Multi-user chat (MUC) via XMPP
+- *No Premium Tier:* Open source version free, paid support packages available
+- *Mobile App:* Desktop only - no mobile clients
+</details>
+
+<details>
+<summary>Movim</summary>
+
+- *Description:* Distributed social network built on XMPP. Web-based. Communities, blogging, file sharing. Compatible with Conversations/Dino clients.
+- *Architecture:* XMPP web client/platform, open source
+- *Self Hostable:* Web app that connects to XMPP servers - can self-host both Movim and server
+- *Federated:* XMPP federation - communicates across XMPP network
+- *E2E Encryption:* OMEMO support via XMPP
+- *Text Channels:* Communities and chat rooms via XMPP MUC
+- *Threads Forums:* Communities for topic-based discussions, blogging features
+- *List Task Channels:* Task management features built in
+- *Server Organization:* Communities organize content by topic
+- *Community Discovery:* Browse and discover XMPP communities
+- *Voice Chat:* Text-focused platform, no native voice/video
+</details>
+
 ---
 
 ## Discontinued
@@ -948,6 +1001,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Pumble](https://pumble.com) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ |
 | [Chanty](https://chanty.com) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ |
+| [Virola](https://virola.io) | ❌ | ✅ | ❌ | ❌ † | ✅ | ✅ | ✅ | ❌ | ❌ |
 
 ### Pricing
 
@@ -955,6 +1009,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | --- | --- | --- |
 | [Pumble](https://pumble.com) | ⚠️ † | ❌ |
 | [Chanty](https://chanty.com) | ⚠️ | ❌ |
+| [Virola](https://virola.io) | ✅ † | ✅ |
 
 ### Platform Support
 
@@ -962,6 +1017,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | --- | --- | --- | --- | --- | --- |
 | [Pumble](https://pumble.com) | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Chanty](https://chanty.com) | ✅ | ⚠️ † | ✅ | ❌ | ❌ |
+| [Virola](https://virola.io) | ✅ | ✅ | ✅ | ❓ | ❌ |
 
 ### Communication
 
@@ -969,6 +1025,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Pumble](https://pumble.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ |
 | [Chanty](https://chanty.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ |
+| [Virola](https://virola.io) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ † | ✅ | ❌ |
 
 ### Features
 
@@ -976,6 +1033,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Pumble](https://pumble.com) | ⚠️ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
 | [Chanty](https://chanty.com) | ⚠️ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ † | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Virola](https://virola.io) | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ † | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 
 **† Notes**
@@ -995,6 +1053,17 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 - *Architecture:* Centralized, closed source
 - *Desktop App:* Windows app only available via Microsoft Store
 - *List Task Channels:* Integrated task management — combines chat with project tracking
+</details>
+
+<details>
+<summary>Virola</summary>
+
+- *Description:* Corporate self-hosted messenger with task management, Kanban boards, and screen sharing. Designed for businesses, not casual communities.
+- *Architecture:* Self-hosted, closed source
+- *Free To Use:* Currently free (insider preview program)
+- *List Task Channels:* Integrated Kanban board and issue tracking - can create tasks from messages
+- *Threads Forums:* Discussion threads within chat rooms
+- *E2E Encryption:* Self-hosted with data on your servers, but not E2EE
 </details>
 
 ---
