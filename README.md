@@ -9,8 +9,6 @@
 
 This repository is a **structured, community-maintained comparison** of Discord alternatives across 22 platforms and 44 features so far. It's designed to help you make an informed decision about where to move your community.
 
-I've compared platforms across six categories:
-
 ## Current State
 
 - **29 platforms in the JSON**
