@@ -19,9 +19,9 @@
 
 - [Matrix Clients](#matrix-clients) — 5 platforms
 - [Privacy-Focused Centralized](#privacy-focused-centralized) — 5 platforms
-- [Self-Hosted Platforms](#self-hosted-platforms) — 14 platforms
-- [Commercial Alternatives](#commercial-alternatives) — 4 platforms
-- [Legacy & Niche](#legacy-niche) — 7 platforms
+- [Self-Hosted Platforms](#self-hosted-platforms) — 15 platforms
+- [Commercial Alternatives](#commercial-alternatives) — 5 platforms
+- [Legacy & Niche](#legacy-niche) — 8 platforms
 - [Discontinued](#discontinued) — 3 platforms
 - [Business Productivity](#business-productivity) — 2 platforms
 
@@ -196,6 +196,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Colanode](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Raven](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Pulse Chat](https://plse.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ † | ✅ | ❓ | ❓ | ❓ | ❓ | ✅ | ✅ | ❓ | ❓ | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Databag](https://github.com/balzack/databag) | ✅ | ✅ | ✅ † | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ † | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ † | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 **† Notes**
 
@@ -341,6 +342,18 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *Biometric Age Verification:* 'No government ID required' is a key selling point
 </details>
 
+<details>
+<summary>Databag</summary>
+
+- *Description:* Tiny self-hosted federated messenger. Topic-based threads (not contact-based). Can run on Raspberry Pi Zero. Public-private key identity.
+- *Architecture:* Self-hosted, federated, open source
+- *E2E Encryption:* Optional 'sealed topics' provide E2EE. Default unsealed to allow server-side features (streaming, processing). Admin cannot view sealed topics.
+- *Federated:* Accounts on different Databag nodes can communicate. Federation protocol is Databag-specific, not Matrix/XMPP.
+- *Threads Forums:* Topic-based threading - messages organized by topic, not contacts
+- *Voice Chat:* Audio calls supported. Requires STUN/TURN relay server for NAT traversal.
+- *Video Chat:* Video calls supported. Requires STUN/TURN relay server for NAT traversal.
+</details>
+
 ---
 
 ## Commercial Alternatives
@@ -353,6 +366,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Root](https://rootapp.com) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ † | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ † | ✅ † | ❓ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ † | ❌ | ❌ | ❓ | ❓ | ❓ | ❓ | ❌ | ✅ | ❌ | ❓ | ✅ | ❓ | ❌ | ❓ | ❓ |
 | [Telegram](https://telegram.org) | ⚠️ † | ❌ | ❌ | ⚠️ † | ⚠️ † | ❌ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ † | ✅ | ❌ † | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ✅ † | ❌ | ⚠️ † | ❌ | ✅ † | ❌ | ⚠️ | ❌ | ❌ | ✅ † |
 | [GameVox](https://gamevox.com) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ⚠️ † | ✅ | ✅ | ❌ | ❌ | ✅ † | ✅ | ✅ | ❓ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ✅ | ✅ † |
+| [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ⚠️ † | ✅ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ † |
 
 **† Notes**
 
@@ -414,6 +428,15 @@ Polished commercial products, included for completeness. Privacy policies and lo
 - *Community Discovery:* Public server browser available
 </details>
 
+<details>
+<summary>Steam Chat</summary>
+
+- *Description:* Built-in chat for Steam gaming platform. Voice, video, text, screen sharing. Massive userbase among PC gamers.
+- *Architecture:* Centralized, closed source (Valve)
+- *E2E Encryption:* Variable - some encryption but not E2EE for all features
+- *Community Discovery:* Built into Steam platform - can discover game communities, groups
+</details>
+
 ---
 
 ## Legacy & Niche
@@ -429,6 +452,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [SimpleX Chat](https://simplex.chat) | ✅ | ✅ | ❌ † | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ † | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Quiet](https://tryquiet.org) | ✅ | ❌ † | ❌ † | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Campfire](https://basecamp.com/retired/campfire) | ❌ | ❌ | ❌ | ❌ | ❓ | ❓ | ❓ | ❌ | ❌ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Oldcord](https://oldcordapp.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ † | ❌ † | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
 
 **† Notes**
 
@@ -505,6 +529,16 @@ Included for historical context or specific use cases. Generally not recommended
 
 - *Description:* Group chat by Basecamp (formerly 37signals). Retired in favor of Basecamp's built-in chat. Listed as open source in some sources but was actually proprietary.
 - *Architecture:* Centralized, closed source (discontinued)
+</details>
+
+<details>
+<summary>Oldcord</summary>
+
+- *Description:* Open-source reimplementation of 2015-2018 Discord backend. Nostalgia project preserving classic Discord experience without telemetry/bloat.
+- *Architecture:* Self-hosted, open source
+- *Voice Chat:* Work in progress. WebRTC P2P (exposes IP, VPN recommended), standard WebRTC (browser), UDP (desktop). Minor bugs being fixed.
+- *Video Chat:* Not yet supported. Focus on voice first.
+- *Discord Api Compatible:* 2015-2018 Discord API compatibility. Client patcher for custom patches.
 </details>
 
 ---
