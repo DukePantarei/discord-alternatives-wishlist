@@ -135,10 +135,8 @@ def humanize(key: str) -> str:
 
 def build_category_table_grouped(platforms: list, features: list) -> list:
     """
-    Build a markdown table with GROUPED HEADERS.
-    First row: Group names
-    Second row: Individual feature names
-    Rows = platforms, columns = features grouped by category.
+    Build SEPARATE tables for each feature group.
+    This avoids horizontal scrolling issues with one massive table.
     Returns a list of lines.
     """
     lines = []
@@ -146,33 +144,24 @@ def build_category_table_grouped(platforms: list, features: list) -> list:
     # Build feature lookup by key for getting labels
     feature_lookup = {f["key"]: f["label"] for f in features}
     
-    # Header row 1: Group names - clear and simple
-    header1 = ["**Platform**"]
+    # Create one table per feature group
     for group_name, feature_keys in FEATURE_GROUPS.items():
-        # First column of each group gets the group name
-        header1.append(f"**━━ {group_name} ━━**")
-        # Rest of columns are empty
-        header1.extend([""] * (len(feature_keys) - 1))
-    
-    # Header row 2: Individual feature names  
-    header2 = [""]  # Empty cell under Platform to align with data rows
-    for group_name, feature_keys in FEATURE_GROUPS.items():
-        for fkey in feature_keys:
-            label = feature_lookup.get(fkey, humanize(fkey))
-            header2.append(f"**{label}**")
-    
-    # Separator row
-    separator = ["---"] * len(header2)
-    
-    lines.append("| " + " | ".join(header1) + " |")
-    lines.append("| " + " | ".join(header2) + " |")
-    lines.append("| " + " | ".join(separator) + " |")
-    
-    # Data rows - one per platform
-    for p in platforms:
-        row = [f"[{p['name']}]({p['url']})"]
+        # Group header
+        lines.append(f"### {group_name}")
+        lines.append("")
         
-        for group_name, feature_keys in FEATURE_GROUPS.items():
+        # Table header
+        feature_labels = [feature_lookup.get(fkey, humanize(fkey)) for fkey in feature_keys]
+        header = ["**Platform**"] + [f"**{lbl}**" for lbl in feature_labels]
+        separator = ["---"] * len(header)
+        
+        lines.append("| " + " | ".join(header) + " |")
+        lines.append("| " + " | ".join(separator) + " |")
+        
+        # Data rows
+        for p in platforms:
+            row = [f"[{p['name']}]({p['url']})"]
+            
             for fkey in feature_keys:
                 raw = p["features"].get(fkey, "unknown")
                 emoji = render_value(raw)
@@ -180,8 +169,10 @@ def build_category_table_grouped(platforms: list, features: list) -> list:
                 if note:
                     emoji += " †"
                 row.append(emoji)
+            
+            lines.append("| " + " | ".join(row) + " |")
         
-        lines.append("| " + " | ".join(row) + " |")
+        lines.append("")  # Blank line between tables
     
     return lines
 
