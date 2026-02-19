@@ -7,18 +7,18 @@
 
 ## What Is This?
 
-This repository is a **structured, community-maintained comparison** of Discord alternatives across **61 platforms** and **55 features**. It's designed to help you make an informed decision about where to move your community.
+This repository is a **structured, community-maintained comparison** of Discord alternatives across **62 platforms** and **57 features**. It's designed to help you make an informed decision about where to move your community.
 
 ## Current State
 
-- **61 platforms** tracked across **7 categories**
-- **55 features** organized into **8 logical groups**
+- **62 platforms** tracked across **7 categories**
+- **57 features** organized into **8 logical groups**
 - **Auto-generated comparison tables** from a single source of truth (`platforms.json`)
 
 ### Categories
 
 - **Matrix Clients** (5) — Decentralized, federated, open protocol (Element, Cinny, Commet, FluffyChat, SchildiChat)
-- **Privacy-Focused Centralized** (6) — Open source but centrally hosted (Stoat, Valour, Nerimity, Kloak, Blite Chat, Echoed)
+- **Privacy-Focused Centralized** (7) — Open source but centrally hosted (Stoat, Valour, Nerimity, Kloak, Blite Chat, Echoed, Paracord)
 - **Self-Hosted Platforms** (18) — Run your own instance (Spacebar, Fluxer, Zulip, Rocket.Chat, Discourse, Mattermost, Sharkord, Loqa, DCTS, Mezon, Nextcloud Talk, Snikket, Databag, Pulse, Roomy, Colanode, Raven)
 - **Commercial Alternatives** (6) — Polished products with varying privacy tradeoffs (Discord, Root, Telegram, GameVox, Steam Chat, Osmium)
 - **Legacy & Niche** (12) — Historical context and specific use cases (TeamSpeak, Mumble, Signal, Ventrilo, Skype, SimpleX Chat, Quiet, Campfire, Oldcord, Jami, Gajim, Swift IM, Movim)
@@ -84,7 +84,7 @@ Looking for the closest thing to Discord? Here are platforms ranked by how many 
 
 **Why this matters:** Discord's planned age verification system (requiring government ID or face scans) is a major privacy concern and a key reason people are seeking alternatives. This repository tracks both traditional moderation tools AND privacy-invasive verification systems.
 
-### CRITICAL: The Centralization Problem
+### ⚠️ CRITICAL: The Centralization Problem
 
 **Discord isn't unique — this is a systemic issue with centralized platforms:**
 
@@ -159,7 +159,7 @@ These platforms offer strong moderation WITHOUT invasive identity verification:
 - Message reporting dashboard
 - **Note**: Current Discord is fine; concern is planned 2025+ verification requirements
 
-### Basic Moderation
+### ⚙️ Basic Moderation
 
 Most alternatives offer basic moderation tools:
 - Kick/ban users
@@ -170,7 +170,7 @@ Most alternatives offer basic moderation tools:
 **Sufficient for**: Small to medium communities (<500 active members)  
 **May struggle with**: Large public communities with active raids/spam
 
-### Check the Full Comparison
+### 📊 Check the Full Comparison
 
 See the [Moderation & Safety table](COMPARISON.md) for detailed feature-by-feature comparison including:
 - AutoMod capabilities
@@ -192,14 +192,94 @@ See the [Moderation & Safety table](COMPARISON.md) for detailed feature-by-featu
 
 ---
 
+## ⚠️ Security Warning: "Vibe-Coded" Platforms
+
+**What is "vibe-coding"?** Creating software primarily using AI code generation tools (ChatGPT, Claude, Copilot) rather than traditional software development. While AI can accelerate development, security-critical applications require expert review.
+
+### The Paracord Example
+
+**Paracord** is included in this repository as a **cautionary example**. Community security audit (February 2025) found 20+ critical vulnerabilities including:
+
+**Critical Issues:**
+- Unauthenticated LiveKit proxy (anyone can join voice calls silently)
+- Remote code execution via admin endpoint
+- JWT secrets stored in plaintext
+- Rate limiting trivially bypassed
+- CORS allows any origin
+- UPnP auto-opens router ports (exposes server to internet)
+
+**The irony:** Marketed as "privacy-focused Discord alternative" but has worse security than Discord.
+
+**Developer's admission:** Built "in a few evenings" using AI. [Community response](https://github.com/Scdouglas1999/Paracord): "This got absolutely rekt on arrival."
+
+### Why This Matters
+
+**AI-generated code quality varies wildly:**
+- Good for: UI components, boilerplate, standard CRUD operations
+- Terrible for: Security-critical code, authentication, encryption, network protocols
+
+**Security requires expertise:**
+- Understanding threat models
+- Recognizing subtle vulnerabilities
+- Testing edge cases AI doesn't consider
+- Following security best practices (OWASP, etc.)
+
+### Platforms to Scrutinize
+
+**Known AI-generated (proceed with caution):**
+- **Paracord** - DO NOT USE (critical vulnerabilities)
+- **Blite Chat** - Explicitly AI-generated, security unknown
+
+**Suspicious indicators (may be AI-generated):**
+- Single large commit (developed privately, dumped publicly)
+- Rapid development timeline ("built in a weekend")
+- Minimal documentation
+- No development history
+- "Privacy-focused" claims without security audit
+
+### What to Look For
+
+**Safe indicators:**
+- Active development history (not single commit)
+- Security audits by reputable firms
+- Used by established organizations
+- Years of production use
+- Active security vulnerability disclosure process
+- Community code review
+
+**Warning signs:**
+- New platform with no track record
+- "Built quickly" as selling point
+- No security audit
+- Developer can't explain security architecture
+- Single developer with no security background
+
+### Recommendation
+
+**For privacy-critical use cases, prefer:**
+1. **Established platforms** - Matrix, Signal, Rocket.Chat (years of hardening)
+2. **Audited platforms** - Platforms with professional security audits
+3. **Battle-tested code** - Used by thousands of organizations
+
+**Avoid:**
+- Brand new platforms without security review
+- Platforms marketed on development speed
+- Solo projects claiming "privacy-focused" without audits
+
+**The repository tracks AI-generated codebases** to help you make informed decisions. Being transparent about development methodology is crucial for security-critical applications.
+
+---
+
 ## Key Features Tracked
 
 All features are organized into **8 logical groups** for easier comparison:
 
-### Privacy & Licensing (9 features)
+### Privacy & Licensing (11 features)
 - Open source, self-hostable, federated
 - End-to-end encryption, no ads, no tracking, GDPR compliance
 - Biometric age verification, message TTL / auto-expiry
+- AI features / training on user data
+- **AI-generated codebase ("vibe-coded")** - Security/quality concerns
 
 ### Pricing (5 features)
 - Free to use, no premium tier required
