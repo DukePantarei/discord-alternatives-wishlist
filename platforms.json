@@ -285,6 +285,41 @@
       "key": "enterprise_tier",
       "label": "Enterprise Tier Available",
       "description": "Is there a separate enterprise offering with support/SLAs?"
+    },
+    {
+      "key": "automod",
+      "label": "AutoMod / Content Filtering",
+      "description": "Automated content moderation - spam detection, keyword filters, mention limits, link filtering"
+    },
+    {
+      "key": "audit_logs",
+      "label": "Audit Logs",
+      "description": "Track all moderator actions, message edits, role changes, and administrative activities"
+    },
+    {
+      "key": "user_timeout_mute",
+      "label": "User Timeout / Mute",
+      "description": "Temporarily or permanently silence users without banning them"
+    },
+    {
+      "key": "raid_protection",
+      "label": "Raid Protection",
+      "description": "Anti-raid and anti-spam measures - verification levels, join rate limits, member screening"
+    },
+    {
+      "key": "message_reporting",
+      "label": "Message Reporting",
+      "description": "Users can report problematic messages/content for moderator review"
+    },
+    {
+      "key": "age_verification",
+      "label": "Age Verification",
+      "description": "Age verification system (may include invasive methods like ID upload or biometric scanning)"
+    },
+    {
+      "key": "id_verification",
+      "label": "ID / Biometric Verification",
+      "description": "Identity verification requiring government ID upload and/or face scanning - major privacy concern"
     }
   ],
   "categories": [
