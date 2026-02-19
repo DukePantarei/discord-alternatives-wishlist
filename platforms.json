@@ -320,6 +320,16 @@
       "key": "id_verification",
       "label": "ID / Biometric Verification",
       "description": "Identity verification requiring government ID upload and/or face scanning - major privacy concern"
+    },
+    {
+      "key": "ai_features_or_training",
+      "label": "AI Features / Training on User Data",
+      "description": "Platform has built-in AI features (chatbots, summarization) OR trains AI models on user conversations"
+    },
+    {
+      "key": "ai_generated_codebase",
+      "label": "AI-Generated Codebase ('Vibe-Coded')",
+      "description": "Platform codebase was primarily generated using AI tools (ChatGPT, Claude, Copilot, etc.) rather than traditionally developed. May indicate security/quality concerns."
     }
   ],
   "categories": [
@@ -395,7 +405,9 @@
         "raid_protection": "yes",
         "message_reporting": "yes",
         "age_verification": "planned",
-        "id_verification": "planned"
+        "id_verification": "planned",
+        "ai_features_or_training": "yes",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "system_audio_sharing": "Windows and macOS only, not Linux",
@@ -416,7 +428,8 @@
         "raid_protection": "Verification levels, member screening, DM spam filters, phone verification",
         "message_reporting": "Users can report messages, admins review in safety dashboard",
         "age_verification": "Planned: Teen accounts with restricted features. Requires government ID or face scan for age verification (UK pilot 2025)",
-        "id_verification": "Planned: Face scanning and government ID verification for age-gating. Privacy concerns raised by community."
+        "id_verification": "Planned: Face scanning and government ID verification for age-gating. Privacy concerns raised by community.",
+        "ai_features_or_training": "Clyde AI chatbot (discontinued 2024), conversation summaries in testing. May train on user data."
       }
     },
     {
@@ -482,7 +495,9 @@
         "raid_protection": "partial",
         "message_reporting": "yes",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "no",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "role_management": "Uses Matrix power levels rather than named roles — functional but less intuitive than Discord",
@@ -496,7 +511,8 @@
         "community_discovery": "matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients",
         "self_hosting_license": "Synapse server is open source (Apache 2.0), freely self-hostable",
         "automod": "Requires Draupnir or Mjolnir moderation bot for advanced features",
-        "raid_protection": "Available via Draupnir/Mjolnir bots"
+        "raid_protection": "Available via Draupnir/Mjolnir bots",
+        "ai_features_or_training": "No built-in AI features. Self-hosted/federated means no centralized data collection for training."
       }
     },
     {
@@ -562,7 +578,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "voice_chat": "Not yet implemented — text-focused client",
@@ -634,7 +652,9 @@
         "raid_protection": "partial",
         "message_reporting": "yes",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "no",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "mobile_app": "Android available, iOS planned",
@@ -643,7 +663,8 @@
         "voice_chat": "Uses MatrixRTC + LiveKit, scales well",
         "community_discovery": "matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients",
         "automod": "Requires Draupnir or Mjolnir moderation bot for advanced features",
-        "raid_protection": "Available via Draupnir/Mjolnir bots"
+        "raid_protection": "Available via Draupnir/Mjolnir bots",
+        "ai_features_or_training": "No built-in AI features. Federated Matrix client."
       }
     },
     {
@@ -709,7 +730,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "voice_chat": "1:1 calls supported, large voice channels limited",
@@ -779,14 +802,17 @@
         "raid_protection": "partial",
         "message_reporting": "yes",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "no",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "role_management": "Inherits Element's power levels system",
         "admin_gui": "Inherits Element Admin support",
         "community_discovery": "matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients",
         "automod": "Requires Draupnir or Mjolnir moderation bot for advanced features",
-        "raid_protection": "Available via Draupnir/Mjolnir bots"
+        "raid_protection": "Available via Draupnir/Mjolnir bots",
+        "ai_features_or_training": "No built-in AI features. Federated Matrix client."
       }
     },
     {
@@ -852,7 +878,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "no",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs is planned but not yet released",
@@ -860,7 +888,8 @@
         "screen_sharing": "Screen sharing has never been supported",
         "voice_chat": "Voice chat was removed during a backend audio rewrite and is not currently available",
         "video_chat": "Video chat has never been supported",
-        "mobile_app": "Beta Android and iOS apps available — iOS app especially rough, Android feels better. Sign-up verification slow (10+ hours reported) during user influx"
+        "mobile_app": "Beta Android and iOS apps available — iOS app especially rough, Android feels better. Sign-up verification slow (10+ hours reported) during user influx",
+        "ai_features_or_training": "No AI features currently"
       }
     },
     {
@@ -926,7 +955,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "desktop_app": "PWA only — no native desktop app",
@@ -998,7 +1029,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "mobile_app": "Android app available, no iOS app"
@@ -1067,10 +1100,13 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "unknown"
       },
       "feature_notes": {
-        "e2e_encryption": "TLS transport encryption only — not end-to-end"
+        "e2e_encryption": "TLS transport encryption only — not end-to-end",
+        "ai_generated_codebase": "Minimal documentation, rapid development timeline. Status unclear."
       }
     },
     {
@@ -1136,14 +1172,17 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "no",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only",
         "voice_chat": "No voice channel support at time of writing despite Discord API compatibility",
         "video_chat": "Not currently supported",
         "discord_api_compatible": "Key differentiator — existing Discord bots work without modification",
-        "screen_sharing": "Not currently supported"
+        "screen_sharing": "Not currently supported",
+        "ai_features_or_training": "No AI features currently"
       }
     },
     {
@@ -1209,7 +1248,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "no",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Roadmap 2026: Opt-in 'secret chats' (ephemeral, E2EE sessions). No plans for full-platform E2EE. LiveKit supports E2EE for calls but not yet implemented.",
@@ -1220,7 +1261,8 @@
         "federated": "Roadmap 2026: Distributed E2EE federation relays, OAuth2 auth via home instance",
         "community_discovery": "Roadmap 2026: In-app and public (no login) community discovery for published forums",
         "bots_automation": "Roadmap 2026: Slash commands, modals, components, interactions — Discord feature parity planned",
-        "event_scheduling": "Roadmap 2026: Scheduled events planned"
+        "event_scheduling": "Roadmap 2026: Scheduled events planned",
+        "ai_features_or_training": "No AI features currently"
       }
     },
     {
@@ -1286,7 +1328,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs only, not group channels"
@@ -1355,7 +1399,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only"
@@ -1424,7 +1470,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "no_ads": "No ads currently but VC-funded — monetization model may change",
@@ -1497,7 +1545,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "raid_planner": "Best-in-class raid and event tools — a key differentiator",
@@ -1572,7 +1622,9 @@
         "raid_protection": "yes",
         "message_reporting": "yes",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "partial",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Secret Chats only — standard group chats and channels are NOT end-to-end encrypted",
@@ -1587,7 +1639,8 @@
         "video_chat": "Group video chat bitrate described as poor quality",
         "system_audio_sharing": "System audio sharing in group chats has echo cancellation issues — users can hear themselves, audio cuts in and out",
         "freemium_limitations": "Premium adds faster downloads, larger uploads (4GB), exclusive stickers, ads removal",
-        "raid_protection": "Anti-spam features, aggressive join requirements for large groups"
+        "raid_protection": "Anti-spam features, aggressive join requirements for large groups",
+        "ai_features_or_training": "Supports AI bots via bot ecosystem, no native AI features"
       }
     },
     {
@@ -1653,7 +1706,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "no",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Voice is AES-encrypted between client and server but server can decrypt — not true E2EE",
@@ -1662,7 +1717,8 @@
         "per_user_audio_output": "Per-client volume adjustment supported",
         "screen_sharing": "P2P streaming only supports one-to-one, not one-to-many from voice channel. Group chat streaming works — can stream to group chat while talking in server simultaneously. Allows custom bitrate settings and 60fps streaming. Supports streaming multiple windows simultaneously. Connection can be slow/buggy (10+ minute waits, duplicate users reported).",
         "self_hostable": "Port forwarding required for self-hosting",
-        "self_hosting_license": "Free server for non-commercial use (32 slots), commercial license required for larger deployments"
+        "self_hosting_license": "Free server for non-commercial use (32 slots), commercial license required for larger deployments",
+        "ai_features_or_training": "No AI features, voice-focused legacy platform"
       }
     },
     {
@@ -1728,13 +1784,16 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "no",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "e2e_encryption": "True E2EE for voice — one of the few platforms with this",
         "text_channels": "Very basic text messaging only",
         "per_user_audio_output": "Per-user volume adjustment supported natively",
-        "message_ttl": "Text chat history not persisted long-term by default"
+        "message_ttl": "Text chat history not persisted long-term by default",
+        "ai_features_or_training": "No AI features, voice-focused legacy platform"
       }
     },
     {
@@ -1800,13 +1859,16 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "no",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "text_channels": "Group chats exist but no server/channel hierarchy",
         "requires_phone_number": "Phone number required for registration",
         "web_app": "Desktop-linked web interface only, no standalone web app",
-        "message_ttl": "Disappearing messages supported with configurable TTL per conversation"
+        "message_ttl": "Disappearing messages supported with configurable TTL per conversation",
+        "ai_features_or_training": "Explicitly privacy-focused, no AI features, no data collection for training"
       }
     },
     {
@@ -1872,7 +1934,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "no",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "voice_chat": "Via Jitsi integration only — not native. Uses call-per-message model, not persistent always-on channels",
@@ -1882,7 +1946,8 @@
         "threads_forums": "Unique topic-based model: every message belongs to a topic within a channel. Takes adjustment for Discord users but very powerful for productivity communities",
         "large_community_moderation": "Good moderation tools for productivity communities, less suited for large open social communities",
         "message_ttl": "Configurable message retention policies per stream",
-        "migration_assistant": "Some import tools available for Slack and HipChat, limited Discord support"
+        "migration_assistant": "Some import tools available for Slack and HipChat, limited Discord support",
+        "ai_features_or_training": "No built-in AI features. Self-hosted option means user controls data."
       }
     },
     {
@@ -1948,7 +2013,9 @@
         "raid_protection": "no",
         "message_reporting": "yes",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "partial",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "free_to_use": "Free tier hard-capped at 50 users — must contact support to raise limit. Enterprise license required for larger deployments",
@@ -1959,7 +2026,8 @@
         "no_premium_tier": "Enterprise license required for voice/video and >50 users",
         "federated": "Matrix federation bridge available but not native",
         "message_ttl": "Configurable message retention per room",
-        "freemium_limitations": "Cloud has message history limits, self-hosted is unlimited"
+        "freemium_limitations": "Cloud has message history limits, self-hosted is unlimited",
+        "ai_features_or_training": "AI chatbot integrations available via marketplace"
       }
     },
     {
@@ -2025,7 +2093,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "self_hostable": "Base Station server could be hosted on Linux/FreeBSD/Windows but was proprietary",
@@ -2096,7 +2166,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "community_discovery": "Game server browser and clan/community discovery built in",
@@ -2166,7 +2238,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Private conversations support E2EE, but group chats do not",
@@ -2241,7 +2315,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "free_to_use": "Free tier: 50 members max, 3 voice channels, 8 text channels, 2GB storage",
@@ -2312,7 +2388,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs planned but not yet implemented",
@@ -2383,7 +2461,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       }
     },
     {
@@ -2449,12 +2529,15 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "no",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "federated": "Decentralized but not federated — no user identifiers, P2P via relay servers",
         "invite_links_guest_access": "One-time connection links — no persistent usernames",
-        "text_channels": "Only DMs and group chats — no server/channel structure"
+        "text_channels": "Only DMs and group chats — no server/channel structure",
+        "ai_features_or_training": "No AI features, no user profiling, no data collection"
       }
     },
     {
@@ -2520,7 +2603,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "free_to_use": "Free tier available but limited features — paid plans for businesses"
@@ -2589,7 +2674,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "desktop_app": "Windows app only available via Microsoft Store",
@@ -2659,7 +2746,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "federated": "Federation across Nextcloud instances for group chats and calls",
@@ -2735,7 +2824,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "text_channels": "Group chats exist but no Discord-style server/channel hierarchy",
@@ -2805,7 +2896,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "self_hostable": "P2P architecture — no servers to host. All communication via Tor network.",
@@ -2875,7 +2968,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       }
     },
     {
@@ -2941,7 +3036,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       }
     },
     {
@@ -3007,7 +3104,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       }
     },
     {
@@ -3073,7 +3172,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       }
     },
     {
@@ -3139,7 +3240,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "biometric_age_verification": "'No government ID required' is a key selling point"
@@ -3208,7 +3311,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "X3DH key agreement + symmetric ratchet for DMs. Sender Keys (Signal protocol) for group channels. AES-128-GCM for voice/video via mediasoup SFU. Server sees only ciphertext.",
@@ -3218,7 +3323,8 @@
         "federated": "Self-hosted but not federated. Each instance is isolated.",
         "voice_chat": "E2EE voice via mediasoup SFU with AES-128-GCM encryption",
         "video_chat": "E2EE video via mediasoup SFU with AES-128-GCM encryption",
-        "docker_install": "bash setup.sh provides automated setup"
+        "docker_install": "bash setup.sh provides automated setup",
+        "ai_generated_codebase": "Explicitly states 'Built heavily with AI assistance (Claude)' in documentation. Single large initial commit suggests AI-generated codebase cleaned for release."
       }
     },
     {
@@ -3284,7 +3390,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Optional 'sealed topics' provide E2EE. Default unsealed to allow server-side features (streaming, processing). Admin cannot view sealed topics.",
@@ -3357,7 +3465,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Variable - some encryption but not E2EE for all features",
@@ -3427,7 +3537,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "voice_chat": "Work in progress. WebRTC P2P (exposes IP, VPN recommended), standard WebRTC (browser), UDP (desktop). Minor bugs being fixed.",
@@ -3498,7 +3610,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "self_hostable": "P2P architecture - no traditional servers. Can self-host DHT proxy and name server. JAMS for organizations.",
@@ -3571,7 +3685,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "self_hostable": "XMPP client - requires XMPP server (Prosody, ejabberd, etc)",
@@ -3644,7 +3760,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       }
     },
     {
@@ -3710,7 +3828,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "free_to_use": "Currently free (insider preview program)",
@@ -3783,7 +3903,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "free_to_use": "No email required - sign up in 30 seconds",
@@ -3853,7 +3975,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "self_hostable": "XMPP client - requires XMPP server (Prosody, ejabberd, M-Link, etc)",
@@ -3927,7 +4051,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "self_hostable": "Web app that connects to XMPP servers - can self-host both Movim and server",
@@ -4004,7 +4130,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "self_hostable": "Free cloud-hosted servers provided by RaidCall — no self-hosting option",
@@ -4077,7 +4205,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "free_to_use": "Free tier available, paid tier for advanced features",
@@ -4147,7 +4277,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "community_discovery": "Looking-for-group (LFG) features and game integration",
@@ -4217,7 +4349,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "voice_chat": "Automatic teammate detection in supported games",
@@ -4287,7 +4421,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "open_source": "GPLv3. Reverse-engineered TeamSpeak 3 protocol for compatibility",
@@ -4357,7 +4493,9 @@
         "raid_protection": "partial",
         "message_reporting": "yes",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "no",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "text_channels": "Categories and topics structure (forum-style, not real-time channels)",
@@ -4368,7 +4506,8 @@
         "migration_assistant": "Import tools from other forum software (phpBB, vBulletin, etc)",
         "automod": "Automatic post hiding based on flags, spam detection, new user restrictions",
         "user_timeout_mute": "User silencing and suspension features",
-        "message_reporting": "Flag system - users can flag posts for moderator review"
+        "message_reporting": "Flag system - users can flag posts for moderator review",
+        "ai_features_or_training": "No built-in AI features. Self-hosted forum software."
       }
     },
     {
@@ -4434,7 +4573,9 @@
         "raid_protection": "no",
         "message_reporting": "yes",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "partial",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE voice/video in beta. Messages encrypted in transit and at rest but not E2EE by default",
@@ -4442,7 +4583,8 @@
         "threads_forums": "Threaded replies supported, not forum-style",
         "list_task_channels": "Playbooks for runbooks and incident response",
         "migration_assistant": "Import from Slack, HipChat, BizSpark",
-        "bridges": "Slack-compatible webhooks, extensive plugin ecosystem"
+        "bridges": "Slack-compatible webhooks, extensive plugin ecosystem",
+        "ai_features_or_training": "AI plugin framework available, Microsoft Copilot integration planned"
       }
     },
     {
@@ -4508,14 +4650,17 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "no",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "free_to_use": "Free client, servers require licensing (rental or self-host with license). Free 8-slot server available.",
         "self_hosting_license": "Can self-host but requires commercial license. Free tier limited to 8 slots.",
         "freemium_limitations": "Free tier: 8 slots max. Paid: up to 400 slots per server.",
         "voice_chat": "High-quality Speex codec with surround sound positioning. Known for superior audio quality.",
-        "per_user_audio_output": "Individual volume control and audio settings per user"
+        "per_user_audio_output": "Individual volume control and audio settings per user",
+        "ai_features_or_training": "No AI features, voice-focused legacy platform"
       }
     },
     {
@@ -4581,7 +4726,9 @@
         "raid_protection": "no",
         "message_reporting": "yes",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "yes",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "freemium_limitations": "Free: 90-day message history, 10 integrations, 1:1 huddles only. Paid: unlimited history, unlimited integrations, group huddles.",
@@ -4591,7 +4738,8 @@
         "threads_forums": "Threaded conversations supported, not traditional forums",
         "role_management": "Workspace owner/admin/member roles, channel-specific permissions",
         "list_task_channels": "Lists feature for simple task tracking, integrates with external tools",
-        "docs_wiki_channels": "Canvas feature for collaborative docs, not full wiki"
+        "docs_wiki_channels": "Canvas feature for collaborative docs, not full wiki",
+        "ai_features_or_training": "Slack AI: search, summaries, thread recaps, workflow suggestions. Trains on workspace data."
       }
     },
     {
@@ -4657,7 +4805,9 @@
         "raid_protection": "no",
         "message_reporting": "yes",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "yes",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "federated": "Can communicate with external organizations via Teams Connect and Teams federation",
@@ -4668,7 +4818,8 @@
         "list_task_channels": "Deep integration with Microsoft Planner and To Do for task management",
         "docs_wiki_channels": "Wiki tab available, plus full SharePoint integration for knowledge bases",
         "rich_calendar_tools": "Full Outlook calendar integration with meeting scheduling, recurring events, room booking",
-        "migration_assistant": "Import from Slack available for Enterprise customers"
+        "migration_assistant": "Import from Slack available for Enterprise customers",
+        "ai_features_or_training": "Copilot integration: meeting notes, chat summaries, action items. Trains on Microsoft 365 data."
       }
     },
     {
@@ -4734,7 +4885,9 @@
         "raid_protection": "no",
         "message_reporting": "no",
         "age_verification": "no",
-        "id_verification": "no"
+        "id_verification": "no",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "free_to_use": "Basic (free) supports meetings up to 100 attendees for 30 days trial. Pro tier is pay-per-use.",
@@ -4745,6 +4898,81 @@
         "bots_automation": "Chime SDK supports building bots with AWS Lambda integration",
         "bridges": "Can integrate with calendar systems and other AWS services",
         "rich_calendar_tools": "Outlook and Google Calendar integration for meeting scheduling"
+      }
+    },
+    {
+      "id": "paracord",
+      "name": "Paracord",
+      "url": "https://github.com/Scdouglas1999/Paracord",
+      "category": "Privacy-Focused Centralized",
+      "description": "AI-generated Discord alternative with critical security vulnerabilities. NOT recommended for use. Serves as cautionary example of 'vibe-coded' platforms.",
+      "architecture": "Self-hosted, closed development (single large commit)",
+      "notes": "SECURITY WARNING: Community security audit (Feb 2025) found critical vulnerabilities: unauthenticated LiveKit proxy, remote code execution, plaintext secrets, bypassed rate limiting, CORS allows any origin. Developer created using AI in 'a few evenings'. Posted as 'privacy-focused' alternative but has worse security than Discord. NOT SUITABLE FOR PRODUCTION USE. Example of risks with AI-generated security-critical code.",
+      "features": {
+        "open_source": "yes",
+        "self_hostable": "yes",
+        "federated": "no",
+        "e2e_encryption": "no",
+        "no_ads": "yes",
+        "no_data_tracking": "yes",
+        "gdpr_compliant": "unknown",
+        "biometric_age_verification": "no",
+        "message_ttl": "no",
+        "ai_features_or_training": "no",
+        "ai_generated_codebase": "yes",
+        "free_to_use": "yes",
+        "no_premium_tier": "yes",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
+        "enterprise_tier": "no",
+        "web_app": "yes",
+        "desktop_app": "no",
+        "mobile_app": "no",
+        "docker_install": "yes",
+        "mobile_hosting": "no",
+        "voice_chat": "yes",
+        "video_chat": "yes",
+        "screen_sharing": "yes",
+        "system_audio_sharing": "unknown",
+        "text_channels": "yes",
+        "file_sharing": "yes",
+        "gif_embed_support": "unknown",
+        "threads_forums": "no",
+        "persistent_voice_channels": "yes",
+        "per_user_audio_output": "unknown",
+        "large_community_moderation": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no",
+        "role_management": "partial",
+        "server_organization": "yes",
+        "admin_gui": "yes",
+        "invite_links_guest_access": "yes",
+        "migration_assistant": "no",
+        "bridges": "no",
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "no",
+        "list_task_channels": "no",
+        "media_gallery_channels": "no",
+        "scheduled_announcements": "no",
+        "event_scheduling": "no",
+        "bots_automation": "no",
+        "webhooks": "no",
+        "raid_planner": "no",
+        "tournament_brackets": "no",
+        "rich_calendar_tools": "no",
+        "community_discovery": "no"
+      },
+      "feature_notes": {
+        "open_source": "GitHub repository available but developed privately then dumped as single commit - no development history",
+        "ai_generated_codebase": "Confirmed AI-generated. Community security audit found 20+ vulnerabilities including RCE, unauthenticated endpoints, plaintext secrets. Developer admits 'built in a few evenings' with AI.",
+        "voice_chat": "Uses LiveKit but proxy has NO authentication - anyone can join calls silently",
+        "e2e_encryption": "No E2EE. JWT secrets stored in plaintext in config file.",
+        "self_hostable": "UPnP auto-opens router ports by default, exposing server to internet without user awareness"
       }
     }
   ]
