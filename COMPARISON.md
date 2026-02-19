@@ -18,10 +18,10 @@
 ## Contents
 
 - [Matrix Clients](#matrix-clients) — 5 platforms
-- [Privacy-Focused Centralized](#privacy-focused-centralized) — 5 platforms
+- [Privacy-Focused Centralized](#privacy-focused-centralized) — 6 platforms
 - [Self-Hosted Platforms](#self-hosted-platforms) — 15 platforms
 - [Commercial Alternatives](#commercial-alternatives) — 5 platforms
-- [Legacy & Niche](#legacy-niche) — 8 platforms
+- [Legacy & Niche](#legacy-niche) — 10 platforms
 - [Discontinued](#discontinued) — 3 platforms
 - [Business Productivity](#business-productivity) — 2 platforms
 
@@ -116,6 +116,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Nerimity](https://nerimity.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Kloak](https://kloak.app) | ❌ † | ❌ | ❌ | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ⚠️ † | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❓ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❓ | ⚠️ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ✅ † | ✅ † | ❌ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ † | ❌ | ✅ † | ❌ | ✅ † | ✅ † | ❓ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Echoed](https://echoed.chat) | ❌ | ❌ | ❌ | ⚠️ | ✅ | ✅ | ❓ | ❌ | ❌ | ✅ | ❓ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
 
 **† Notes**
 
@@ -174,6 +175,13 @@ These platforms prioritize privacy and are open source, but run on a central ser
 - *Voice Chat:* E2EE voice via mediasoup SFU with AES-128-GCM encryption
 - *Video Chat:* E2EE video via mediasoup SFU with AES-128-GCM encryption
 - *Docker Install:* bash setup.sh provides automated setup
+</details>
+
+<details>
+<summary>Echoed</summary>
+
+- *Description:* Privacy-focused messaging (details limited). 40 features documented in community sheet.
+- *Architecture:* Centralized, closed source
 </details>
 
 ---
@@ -458,6 +466,8 @@ Included for historical context or specific use cases. Generally not recommended
 | [Quiet](https://tryquiet.org) | ✅ | ❌ † | ❌ † | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Campfire](https://basecamp.com/retired/campfire) | ❌ | ❌ | ❌ | ❌ | ❓ | ❓ | ❓ | ❌ | ❌ | ❌ | ❌ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Oldcord](https://oldcordapp.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ⚠️ † | ❌ † | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Jami](https://jami.net) | ✅ | ⚠️ † | ❌ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ † | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Gajim](https://gajim.org) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ❌ | ✅ † | ✅ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 **† Notes**
 
@@ -544,6 +554,30 @@ Included for historical context or specific use cases. Generally not recommended
 - *Voice Chat:* Work in progress. WebRTC P2P (exposes IP, VPN recommended), standard WebRTC (browser), UDP (desktop). Minor bugs being fixed.
 - *Video Chat:* Not yet supported. Focus on voice first.
 - *Discord Api Compatible:* 2015-2018 Discord API compatibility. Client patcher for custom patches.
+</details>
+
+<details>
+<summary>Jami</summary>
+
+- *Description:* GNU P2P distributed communication. Fully peer-to-peer (no central servers). Works on LAN even without internet. Formerly GNU Ring/SFLphone.
+- *Architecture:* Distributed P2P, open source (GNU GPL-3.0+)
+- *Self Hostable:* P2P architecture - no traditional servers. Can self-host DHT proxy and name server. JAMS for organizations.
+- *Federated:* P2P distributed, not federated in traditional sense. Each device is a node.
+- *Web App:* Experimental web version available
+- *Text Channels:* 1-on-1 and group chats only. No server/channel hierarchy.
+- *E2E Encryption:* Perfect forward secrecy with X.509 standard. All P2P communications encrypted.
+</details>
+
+<details>
+<summary>Gajim</summary>
+
+- *Description:* Full-featured XMPP desktop client. Python/GTK. OMEMO E2EE. Linux/Windows. No voice/video.
+- *Architecture:* XMPP client, open source (GPL-3.0)
+- *Self Hostable:* XMPP client - requires XMPP server (Prosody, ejabberd, etc)
+- *Federated:* XMPP federation protocol
+- *E2E Encryption:* OMEMO support for E2EE messaging
+- *Voice Chat:* Via Jitsi plugin - not native
+- *Text Channels:* Multi-user chats (MUC) via XMPP
 </details>
 
 ---
