@@ -7,11 +7,11 @@
 
 ## What Is This?
 
-This repository is a **structured, community-maintained comparison** of Discord alternatives across **55 platforms** and **48 features**. It's designed to help you make an informed decision about where to move your community.
+This repository is a **structured, community-maintained comparison** of Discord alternatives across **58 platforms** and **48 features**. It's designed to help you make an informed decision about where to move your community.
 
 ## Current State
 
-- **55 platforms** tracked across **7 categories**
+- **58 platforms** tracked across **7 categories**
 - **48 features** organized into **7 logical groups**
 - **Auto-generated comparison tables** from a single source of truth (`platforms.json`)
 
@@ -19,9 +19,9 @@ This repository is a **structured, community-maintained comparison** of Discord 
 
 - **Matrix Clients** (5) — Decentralized, federated, open protocol (Element, Cinny, Commet, FluffyChat, SchildiChat)
 - **Privacy-Focused Centralized** (6) — Open source but centrally hosted (Stoat, Valour, Nerimity, Kloak, Blite Chat, Echoed)
-- **Self-Hosted Platforms** (16) — Run your own instance (Spacebar, Fluxer, Zulip, Rocket.Chat, Sharkord, Loqa, DCTS, Mattermost, Discourse, Mezon, Nextcloud Talk, Snikket, Databag, Pulse, Roomy, Colanode, Raven)
+- **Self-Hosted Platforms** (18) — Run your own instance (Spacebar, Fluxer, Zulip, Rocket.Chat, Discourse, Mattermost, Sharkord, Loqa, DCTS, Mezon, Nextcloud Talk, Snikket, Databag, Pulse, Roomy, Colanode, Raven)
 - **Commercial Alternatives** (6) — Polished products with varying privacy tradeoffs (Discord, Root, Telegram, GameVox, Steam Chat, Osmium)
-- **Legacy & Niche** (11) — Historical context and specific use cases (TeamSpeak, Mumble, Signal, Ventrilo, Skype, SimpleX Chat, Quiet, Campfire, Oldcord, Jami, Gajim, Swift IM, Movim)
+- **Legacy & Niche** (12) — Historical context and specific use cases (TeamSpeak, Mumble, Signal, Ventrilo, Skype, SimpleX Chat, Quiet, Campfire, Oldcord, Jami, Gajim, Swift IM, Movim)
 - **Business Productivity** (3) — Team collaboration tools (Pumble, Chanty, Virola)
 - **Discontinued** (8) — Platforms no longer active, included for historical reference (Guilded, Roger Wilco, Xfire, RaidCall, Dolby Axon, Razer Comms, Curse Voice, TeaSpeak)
 
@@ -46,6 +46,32 @@ Not sure where to start? Here are some common paths:
 | **Gaming communities** | Steam Chat or TeamSpeak | Steam Chat has 350M+ gamers; TeamSpeak has low-latency voice |
 
 **See the full comparison:** [COMPARISON.md](COMPARISON.md)
+
+---
+
+## Most Discord-like Platforms
+
+Looking for the closest thing to Discord? Here are platforms ranked by how many core Discord features they support:
+
+| Platform | Discord Similarity | Category | Key Differences |
+|----------|-------------------|----------|-----------------|
+| **Element** | 100% (11/11) | Matrix Client | Federated, E2EE by default, steeper learning curve |
+| **Commet** | 100% (11/11) | Matrix Client | Most Discord-like Matrix client, excellent mobile support |
+| **SchildiChat** | 100% (11/11) | Matrix Client | Element fork with simplified UI |
+| **Sharkord** | 100% (11/11) | Self-Hosted | Self-hostable, open source, smaller community |
+| **Root** | 100% (11/11) | Commercial | Privacy-focused commercial alternative |
+| **Kloak** | 100% (11/11) | Privacy-Focused | Centralized but open source, active development |
+| **Fluxer** | 91% (10/11) | Self-Hosted | Missing bots, but very Discord-like UI and features |
+| **DCTS** | 91% (10/11) | Self-Hosted | Lightweight, self-hostable, good for small communities |
+| **Stoat** | 64% (7/11) | Privacy-Focused | No voice/video yet, but most Discord-like UI |
+| **Spacebar** | 64% (7/11) | Self-Hosted | Discord API compatible (bots work!), no voice/video yet |
+
+**Scoring based on:** Voice/video chat, screen sharing, text channels, persistent voice, bots, roles, server organization, GIFs, file sharing, invite links
+
+**Notes:** 
+- **Matrix clients** (Element, Commet, SchildiChat) score perfectly but use a different architecture (federated) requiring a homeserver
+- **Stoat** and **Spacebar** have the most Discord-like *interfaces* but are still building out voice/video features
+- **Fluxer** is probably the best drop-in replacement if you want something that feels exactly like Discord
 
 ---
 
