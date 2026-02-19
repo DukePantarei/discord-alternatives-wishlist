@@ -353,7 +353,14 @@
         "community_discovery": "yes",
         "self_hosting_license": "no",
         "freemium_limitations": "partial",
-        "enterprise_tier": "unknown"
+        "enterprise_tier": "unknown",
+        "automod": "yes",
+        "audit_logs": "yes",
+        "user_timeout_mute": "yes",
+        "raid_protection": "yes",
+        "message_reporting": "yes",
+        "age_verification": "planned",
+        "id_verification": "planned"
       },
       "feature_notes": {
         "system_audio_sharing": "Windows and macOS only, not Linux",
@@ -367,7 +374,14 @@
         "large_community_moderation": "Comprehensive automod, audit logs, raid protection, timeout, mass prune — benchmark for large community moderation",
         "message_ttl": "No server-wide TTL — messages persist indefinitely unless manually deleted",
         "community_discovery": "In-app server discovery plus extensive third-party directories like Disboard, top.gg, and discord.me",
-        "freemium_limitations": "Nitro unlocks higher upload limits, better streaming quality, server boosts"
+        "freemium_limitations": "Nitro unlocks higher upload limits, better streaming quality, server boosts",
+        "automod": "Comprehensive AutoMod with keyword filters, spam detection, mention limits, custom rules",
+        "audit_logs": "Full audit logs tracking all mod actions, message edits, role changes",
+        "user_timeout_mute": "Timeout feature (temporary mute), plus permanent mute and kick/ban",
+        "raid_protection": "Verification levels, member screening, DM spam filters, phone verification",
+        "message_reporting": "Users can report messages, admins review in safety dashboard",
+        "age_verification": "Planned: Teen accounts with restricted features. Requires government ID or face scan for age verification (UK pilot 2025)",
+        "id_verification": "Planned: Face scanning and government ID verification for age-gating. Privacy concerns raised by community."
       }
     },
     {
@@ -426,7 +440,14 @@
         "community_discovery": "partial",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "yes"
+        "enterprise_tier": "yes",
+        "automod": "partial",
+        "audit_logs": "yes",
+        "user_timeout_mute": "yes",
+        "raid_protection": "partial",
+        "message_reporting": "yes",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "role_management": "Uses Matrix power levels rather than named roles — functional but less intuitive than Discord",
@@ -438,7 +459,9 @@
         "persistent_voice_channels": "MatrixRTC supports persistent voice rooms but experience varies by client",
         "large_community_moderation": "Draupnir and Mjolnir bots provide moderation at scale but require setup",
         "community_discovery": "matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients",
-        "self_hosting_license": "Synapse server is open source (Apache 2.0), freely self-hostable"
+        "self_hosting_license": "Synapse server is open source (Apache 2.0), freely self-hostable",
+        "automod": "Requires Draupnir or Mjolnir moderation bot for advanced features",
+        "raid_protection": "Available via Draupnir/Mjolnir bots"
       }
     },
     {
@@ -497,7 +520,14 @@
         "community_discovery": "partial",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "voice_chat": "Not yet implemented — text-focused client",
@@ -562,14 +592,23 @@
         "community_discovery": "partial",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "partial",
+        "audit_logs": "yes",
+        "user_timeout_mute": "yes",
+        "raid_protection": "partial",
+        "message_reporting": "yes",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "mobile_app": "Android available, iOS planned",
         "gif_embed_support": "GIF search proxied through Commet's servers to reduce tracking",
         "raid_planner": "Event scheduling exists — dedicated raid planning tools not yet available",
         "voice_chat": "Uses MatrixRTC + LiveKit, scales well",
-        "community_discovery": "matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients"
+        "community_discovery": "matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients",
+        "automod": "Requires Draupnir or Mjolnir moderation bot for advanced features",
+        "raid_protection": "Available via Draupnir/Mjolnir bots"
       }
     },
     {
@@ -628,7 +667,14 @@
         "community_discovery": "partial",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "voice_chat": "1:1 calls supported, large voice channels limited",
@@ -691,12 +737,21 @@
         "community_discovery": "partial",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "partial",
+        "audit_logs": "yes",
+        "user_timeout_mute": "yes",
+        "raid_protection": "partial",
+        "message_reporting": "yes",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "role_management": "Inherits Element's power levels system",
         "admin_gui": "Inherits Element Admin support",
-        "community_discovery": "matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients"
+        "community_discovery": "matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients",
+        "automod": "Requires Draupnir or Mjolnir moderation bot for advanced features",
+        "raid_protection": "Available via Draupnir/Mjolnir bots"
       }
     },
     {
@@ -755,7 +810,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs is planned but not yet released",
@@ -822,7 +884,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "desktop_app": "PWA only — no native desktop app",
@@ -887,7 +956,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "mobile_app": "Android app available, no iOS app"
@@ -949,7 +1025,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only — not end-to-end"
@@ -1011,7 +1094,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only",
@@ -1077,7 +1167,14 @@
         "community_discovery": "planned",
         "self_hosting_license": "no",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Roadmap 2026: Opt-in 'secret chats' (ephemeral, E2EE sessions). No plans for full-platform E2EE. LiveKit supports E2EE for calls but not yet implemented.",
@@ -1147,7 +1244,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs only, not group channels"
@@ -1209,7 +1313,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only"
@@ -1271,7 +1382,14 @@
         "community_discovery": "unknown",
         "self_hosting_license": "no",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "no_ads": "No ads currently but VC-funded — monetization model may change",
@@ -1337,7 +1455,14 @@
         "community_discovery": "yes",
         "self_hosting_license": "no",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "raid_planner": "Best-in-class raid and event tools — a key differentiator",
@@ -1405,7 +1530,14 @@
         "community_discovery": "yes",
         "self_hosting_license": "no",
         "freemium_limitations": "partial",
-        "enterprise_tier": "unknown"
+        "enterprise_tier": "unknown",
+        "automod": "partial",
+        "audit_logs": "no",
+        "user_timeout_mute": "yes",
+        "raid_protection": "yes",
+        "message_reporting": "yes",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Secret Chats only — standard group chats and channels are NOT end-to-end encrypted",
@@ -1419,7 +1551,8 @@
         "community_discovery": "Search for public channels and groups built into the app",
         "video_chat": "Group video chat bitrate described as poor quality",
         "system_audio_sharing": "System audio sharing in group chats has echo cancellation issues — users can hear themselves, audio cuts in and out",
-        "freemium_limitations": "Premium adds faster downloads, larger uploads (4GB), exclusive stickers, ads removal"
+        "freemium_limitations": "Premium adds faster downloads, larger uploads (4GB), exclusive stickers, ads removal",
+        "raid_protection": "Anti-spam features, aggressive join requirements for large groups"
       }
     },
     {
@@ -1478,7 +1611,14 @@
         "community_discovery": "no",
         "self_hosting_license": "partial",
         "freemium_limitations": "unknown",
-        "enterprise_tier": "unknown"
+        "enterprise_tier": "unknown",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Voice is AES-encrypted between client and server but server can decrypt — not true E2EE",
@@ -1546,7 +1686,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "e2e_encryption": "True E2EE for voice — one of the few platforms with this",
@@ -1611,7 +1758,14 @@
         "community_discovery": "no",
         "self_hosting_license": "no",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "text_channels": "Group chats exist but no server/channel hierarchy",
@@ -1676,7 +1830,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "yes"
+        "enterprise_tier": "yes",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "voice_chat": "Via Jitsi integration only — not native. Uses call-per-message model, not persistent always-on channels",
@@ -1745,7 +1906,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "unknown",
-        "enterprise_tier": "unknown"
+        "enterprise_tier": "unknown",
+        "automod": "partial",
+        "audit_logs": "yes",
+        "user_timeout_mute": "yes",
+        "raid_protection": "no",
+        "message_reporting": "yes",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "free_to_use": "Free tier hard-capped at 50 users — must contact support to raise limit. Enterprise license required for larger deployments",
@@ -1815,7 +1983,14 @@
         "community_discovery": "partial",
         "self_hosting_license": "no",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "self_hostable": "Base Station server could be hosted on Linux/FreeBSD/Windows but was proprietary",
@@ -1879,7 +2054,14 @@
         "community_discovery": "yes",
         "self_hosting_license": "no",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "community_discovery": "Game server browser and clan/community discovery built in",
@@ -1942,7 +2124,14 @@
         "community_discovery": "no",
         "self_hosting_license": "no",
         "freemium_limitations": "unknown",
-        "enterprise_tier": "unknown"
+        "enterprise_tier": "unknown",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Private conversations support E2EE, but group chats do not",
@@ -2010,7 +2199,14 @@
         "community_discovery": "yes",
         "self_hosting_license": "no",
         "freemium_limitations": "unknown",
-        "enterprise_tier": "unknown"
+        "enterprise_tier": "unknown",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "free_to_use": "Free tier: 50 members max, 3 voice channels, 8 text channels, 2GB storage",
@@ -2074,7 +2270,14 @@
         "community_discovery": "no",
         "self_hosting_license": "no",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs planned but not yet implemented",
@@ -2138,7 +2341,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       }
     },
     {
@@ -2197,7 +2407,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "federated": "Decentralized but not federated — no user identifiers, P2P via relay servers",
@@ -2261,7 +2478,14 @@
         "community_discovery": "no",
         "self_hosting_license": "no",
         "freemium_limitations": "unknown",
-        "enterprise_tier": "yes"
+        "enterprise_tier": "yes",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "free_to_use": "Free tier available but limited features — paid plans for businesses"
@@ -2323,7 +2547,14 @@
         "community_discovery": "no",
         "self_hosting_license": "no",
         "freemium_limitations": "unknown",
-        "enterprise_tier": "yes"
+        "enterprise_tier": "yes",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "desktop_app": "Windows app only available via Microsoft Store",
@@ -2386,7 +2617,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "unknown",
-        "enterprise_tier": "yes"
+        "enterprise_tier": "yes",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "federated": "Federation across Nextcloud instances for group chats and calls",
@@ -2455,7 +2693,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "text_channels": "Group chats exist but no Discord-style server/channel hierarchy",
@@ -2518,7 +2763,14 @@
         "community_discovery": "no",
         "self_hosting_license": "no",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "self_hostable": "P2P architecture — no servers to host. All communication via Tor network.",
@@ -2581,7 +2833,14 @@
         "community_discovery": "unknown",
         "self_hosting_license": "yes",
         "freemium_limitations": "unknown",
-        "enterprise_tier": "unknown"
+        "enterprise_tier": "unknown",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       }
     },
     {
@@ -2640,7 +2899,14 @@
         "community_discovery": "no",
         "self_hosting_license": "no",
         "freemium_limitations": "unknown",
-        "enterprise_tier": "unknown"
+        "enterprise_tier": "unknown",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       }
     },
     {
@@ -2699,7 +2965,14 @@
         "community_discovery": "unknown",
         "self_hosting_license": "yes",
         "freemium_limitations": "unknown",
-        "enterprise_tier": "unknown"
+        "enterprise_tier": "unknown",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       }
     },
     {
@@ -2758,7 +3031,14 @@
         "community_discovery": "unknown",
         "self_hosting_license": "yes",
         "freemium_limitations": "unknown",
-        "enterprise_tier": "unknown"
+        "enterprise_tier": "unknown",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       }
     },
     {
@@ -2817,7 +3097,14 @@
         "community_discovery": "unknown",
         "self_hosting_license": "yes",
         "freemium_limitations": "unknown",
-        "enterprise_tier": "unknown"
+        "enterprise_tier": "unknown",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "biometric_age_verification": "'No government ID required' is a key selling point"
@@ -2879,7 +3166,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "e2e_encryption": "X3DH key agreement + symmetric ratchet for DMs. Sender Keys (Signal protocol) for group channels. AES-128-GCM for voice/video via mediasoup SFU. Server sees only ciphertext.",
@@ -2948,7 +3242,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Optional 'sealed topics' provide E2EE. Default unsealed to allow server-side features (streaming, processing). Admin cannot view sealed topics.",
@@ -3014,7 +3315,14 @@
         "community_discovery": "yes",
         "self_hosting_license": "no",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Variable - some encryption but not E2EE for all features",
@@ -3077,7 +3385,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "voice_chat": "Work in progress. WebRTC P2P (exposes IP, VPN recommended), standard WebRTC (browser), UDP (desktop). Minor bugs being fixed.",
@@ -3141,7 +3456,14 @@
         "community_discovery": "no",
         "self_hosting_license": "no",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "self_hostable": "P2P architecture - no traditional servers. Can self-host DHT proxy and name server. JAMS for organizations.",
@@ -3207,7 +3529,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "self_hostable": "XMPP client - requires XMPP server (Prosody, ejabberd, etc)",
@@ -3273,7 +3602,14 @@
         "community_discovery": "no",
         "self_hosting_license": "no",
         "freemium_limitations": "unknown",
-        "enterprise_tier": "unknown"
+        "enterprise_tier": "unknown",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       }
     },
     {
@@ -3332,7 +3668,14 @@
         "community_discovery": "no",
         "self_hosting_license": "partial",
         "freemium_limitations": "no",
-        "enterprise_tier": "yes"
+        "enterprise_tier": "yes",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "free_to_use": "Currently free (insider preview program)",
@@ -3398,7 +3741,14 @@
         "community_discovery": "unknown",
         "self_hosting_license": "no",
         "freemium_limitations": "unknown",
-        "enterprise_tier": "unknown"
+        "enterprise_tier": "unknown",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "free_to_use": "No email required - sign up in 30 seconds",
@@ -3461,7 +3811,14 @@
         "community_discovery": "no",
         "self_hosting_license": "yes",
         "freemium_limitations": "unknown",
-        "enterprise_tier": "unknown"
+        "enterprise_tier": "unknown",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "self_hostable": "XMPP client - requires XMPP server (Prosody, ejabberd, M-Link, etc)",
@@ -3528,7 +3885,14 @@
         "community_discovery": "yes",
         "self_hosting_license": "yes",
         "freemium_limitations": "no",
-        "enterprise_tier": "no"
+        "enterprise_tier": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "self_hostable": "Web app that connects to XMPP servers - can self-host both Movim and server",
@@ -3598,7 +3962,14 @@
         "rich_calendar_tools": "no",
         "message_ttl": "no",
         "large_community_moderation": "partial",
-        "community_discovery": "yes"
+        "community_discovery": "yes",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "self_hostable": "Free cloud-hosted servers provided by RaidCall — no self-hosting option",
@@ -3664,7 +4035,14 @@
         "rich_calendar_tools": "no",
         "message_ttl": "no",
         "large_community_moderation": "no",
-        "community_discovery": "partial"
+        "community_discovery": "partial",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "free_to_use": "Free tier available, paid tier for advanced features",
@@ -3727,7 +4105,14 @@
         "rich_calendar_tools": "no",
         "message_ttl": "no",
         "large_community_moderation": "no",
-        "community_discovery": "yes"
+        "community_discovery": "yes",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "community_discovery": "Looking-for-group (LFG) features and game integration",
@@ -3790,7 +4175,14 @@
         "rich_calendar_tools": "no",
         "message_ttl": "no",
         "large_community_moderation": "no",
-        "community_discovery": "yes"
+        "community_discovery": "yes",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "voice_chat": "Automatic teammate detection in supported games",
@@ -3853,7 +4245,14 @@
         "rich_calendar_tools": "no",
         "message_ttl": "no",
         "large_community_moderation": "partial",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "open_source": "GPLv3. Reverse-engineered TeamSpeak 3 protocol for compatibility",
@@ -3916,7 +4315,14 @@
         "rich_calendar_tools": "partial",
         "message_ttl": "no",
         "large_community_moderation": "yes",
-        "community_discovery": "yes"
+        "community_discovery": "yes",
+        "automod": "yes",
+        "audit_logs": "yes",
+        "user_timeout_mute": "yes",
+        "raid_protection": "partial",
+        "message_reporting": "yes",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "text_channels": "Categories and topics structure (forum-style, not real-time channels)",
@@ -3924,7 +4330,10 @@
         "large_community_moderation": "Trust levels, flags, automatic hiding, user silencing, sophisticated moderation",
         "bridges": "Email integration, webhook integrations, API for external tools",
         "docs_wiki_channels": "Wiki-style knowledge base features, long-form documentation support",
-        "migration_assistant": "Import tools from other forum software (phpBB, vBulletin, etc)"
+        "migration_assistant": "Import tools from other forum software (phpBB, vBulletin, etc)",
+        "automod": "Automatic post hiding based on flags, spam detection, new user restrictions",
+        "user_timeout_mute": "User silencing and suspension features",
+        "message_reporting": "Flag system - users can flag posts for moderator review"
       }
     },
     {
@@ -3983,7 +4392,14 @@
         "rich_calendar_tools": "no",
         "message_ttl": "yes",
         "large_community_moderation": "yes",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "automod": "partial",
+        "audit_logs": "yes",
+        "user_timeout_mute": "yes",
+        "raid_protection": "no",
+        "message_reporting": "yes",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE voice/video in beta. Messages encrypted in transit and at rest but not E2EE by default",
@@ -4050,7 +4466,14 @@
         "rich_calendar_tools": "no",
         "message_ttl": "no",
         "large_community_moderation": "partial",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "free_to_use": "Free client, servers require licensing (rental or self-host with license). Free 8-slot server available.",
@@ -4116,7 +4539,14 @@
         "rich_calendar_tools": "no",
         "message_ttl": "yes",
         "large_community_moderation": "yes",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "automod": "partial",
+        "audit_logs": "yes",
+        "user_timeout_mute": "yes",
+        "raid_protection": "no",
+        "message_reporting": "yes",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "freemium_limitations": "Free: 90-day message history, 10 integrations, 1:1 huddles only. Paid: unlimited history, unlimited integrations, group huddles.",
@@ -4185,7 +4615,14 @@
         "rich_calendar_tools": "yes",
         "message_ttl": "yes",
         "large_community_moderation": "yes",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "automod": "partial",
+        "audit_logs": "yes",
+        "user_timeout_mute": "yes",
+        "raid_protection": "no",
+        "message_reporting": "yes",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "federated": "Can communicate with external organizations via Teams Connect and Teams federation",
@@ -4255,7 +4692,14 @@
         "rich_calendar_tools": "partial",
         "message_ttl": "yes",
         "large_community_moderation": "partial",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "automod": "no",
+        "audit_logs": "no",
+        "user_timeout_mute": "no",
+        "raid_protection": "no",
+        "message_reporting": "no",
+        "age_verification": "no",
+        "id_verification": "no"
       },
       "feature_notes": {
         "free_to_use": "Basic (free) supports meetings up to 100 attendees for 30 days trial. Pro tier is pay-per-use.",
