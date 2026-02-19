@@ -22,7 +22,7 @@
 - [Self-Hosted Platforms](#self-hosted-platforms) — 15 platforms
 - [Commercial Alternatives](#commercial-alternatives) — 6 platforms
 - [Legacy & Niche](#legacy-niche) — 12 platforms
-- [Discontinued](#discontinued) — 3 platforms
+- [Discontinued](#discontinued) — 8 platforms
 - [Business Productivity](#business-productivity) — 3 platforms
 
 ---
@@ -1063,6 +1063,11 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Guilded (discontinued)](https://guilded.gg) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ⚠️ | ❌ | ❌ |
 | [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Xfire](https://en.wikipedia.org/wiki/Xfire) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ❌ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Razer Comms](https://www.razer.com/) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [TeaSpeak](https://github.com/TeaSpeak) | ✅ † | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ |
 
 ### Pricing & Licensing
 
@@ -1071,6 +1076,11 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Guilded (discontinued)](https://guilded.gg) | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Xfire](https://en.wikipedia.org/wiki/Xfire) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ⚠️ † | ❌ | ❌ | ✅ | ❌ |
+| [Razer Comms](https://www.razer.com/) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [TeaSpeak](https://github.com/TeaSpeak) | ✅ | ✅ | ✅ | ❌ | ❌ |
 
 ### Platform Support
 
@@ -1079,6 +1089,11 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Guilded (discontinued)](https://guilded.gg) | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ✅ | ❌ | ❌ | ❌ |
 | [Xfire](https://en.wikipedia.org/wiki/Xfire) | ⚠️ | ✅ | ✅ | ❌ | ❌ |
+| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ❌ | ✅ | ✅ | ❌ | ❌ |
+| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ❌ | ✅ | ❌ | ❌ | ❌ |
+| [Razer Comms](https://www.razer.com/) | ❌ | ✅ | ❌ | ❌ | ❌ |
+| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ✅ | ❌ | ❌ | ❌ |
+| [TeaSpeak](https://github.com/TeaSpeak) | ✅ † | ✅ | ❌ | ✅ | ❌ |
 
 ### Communication
 
@@ -1087,6 +1102,11 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Guilded (discontinued)](https://guilded.gg) | ✅ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ † |
 | [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
 | [Xfire](https://en.wikipedia.org/wiki/Xfire) | ✅ | ❌ | ✅ † | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ |
+| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ✅ | ✅ † | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ † |
+| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ✅ † | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ |
+| [Razer Comms](https://www.razer.com/) | ✅ † | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ✅ † | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| [TeaSpeak](https://github.com/TeaSpeak) | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
 
 ### Server & Admin
 
@@ -1095,6 +1115,11 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Guilded (discontinued)](https://guilded.gg) | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ❌ | ❌ | ✅ † |
 | [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ⚠️ † | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ⚠️ † |
 | [Xfire](https://en.wikipedia.org/wiki/Xfire) | ❌ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ✅ † |
+| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ✅ † | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ✅ † |
+| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ⚠️ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ⚠️ |
+| [Razer Comms](https://www.razer.com/) | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ † |
+| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ † |
+| [TeaSpeak](https://github.com/TeaSpeak) | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ |
 
 ### Channels & Content
 
@@ -1103,6 +1128,11 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Guilded (discontinued)](https://guilded.gg) | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Xfire](https://en.wikipedia.org/wiki/Xfire) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Razer Comms](https://www.razer.com/) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [TeaSpeak](https://github.com/TeaSpeak) | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 ### Community Tools
 
@@ -1111,6 +1141,11 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Guilded (discontinued)](https://guilded.gg) | ✅ | ✅ | ✅ † | ✅ † | ✅ † |
 | [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Xfire](https://en.wikipedia.org/wiki/Xfire) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Razer Comms](https://www.razer.com/) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [TeaSpeak](https://github.com/TeaSpeak) | ✅ | ❌ | ❌ | ❌ | ❌ |
 
 
 **† Notes**
@@ -1146,6 +1181,54 @@ Platforms that are no longer active. Included for historical reference and featu
 - *Architecture:* Closed source, centralized
 - *Community Discovery:* Game server browser and clan/community discovery built in
 - *Screen Sharing:* Game screenshot capture and video recording, not live screen sharing
+</details>
+
+<details>
+<summary>RaidCall</summary>
+
+- *Description:* Free cloud-based voice chat for gaming (2011-2019). Supported up to 10,000 users per group. Had overlay, music streaming, low latency. Discontinued March 31, 2019.
+- *Architecture:* Closed source, cloud-hosted
+- *Self Hostable:* Free cloud-hosted servers provided by RaidCall — no self-hosting option
+- *Video Chat:* Group video chat supported up to 4 people
+- *Community Discovery:* Public group browser to discover and join groups
+- *Per User Audio Output:* Individual volume control per user supported
+- *Role Management:* Channel permissions and user roles for guild/team management
+</details>
+
+<details>
+<summary>Dolby Axon</summary>
+
+- *Description:* Gaming voice chat platform by Dolby Laboratories (2008-2015). Featured Dolby audio technology, positional audio, and low latency. Discontinued 2015.
+- *Architecture:* Closed source, centralized
+- *Free To Use:* Free tier available, paid tier for advanced features
+- *Voice Chat:* Featured Dolby audio codec and 3D positional audio — key differentiator
+</details>
+
+<details>
+<summary>Razer Comms</summary>
+
+- *Description:* Gaming VoIP platform by Razer Inc (2013-2016). Integrated with Razer Cortex. Featured overlay, game detection, and LFG features. Discontinued 2016.
+- *Architecture:* Closed source, centralized
+- *Community Discovery:* Looking-for-group (LFG) features and game integration
+- *Voice Chat:* Integrated overlay with automatic game detection
+</details>
+
+<details>
+<summary>Curse Voice</summary>
+
+- *Description:* Gaming voice chat integrated with Curse client for game mods/addons (2014-2018). Evolved into Discord partnership. Discontinued 2018 after Twitch acquisition.
+- *Architecture:* Closed source, centralized
+- *Voice Chat:* Automatic teammate detection in supported games
+- *Community Discovery:* Integrated with Curse client for World of Warcraft addon management
+</details>
+
+<details>
+<summary>TeaSpeak</summary>
+
+- *Description:* Open-source TeamSpeak 3 server and client reimplementation (2017-2020). Aimed for protocol compatibility with TS3. Discontinued circa 2020.
+- *Architecture:* Open source, self-hosted
+- *Open Source:* GPLv3. Reverse-engineered TeamSpeak 3 protocol for compatibility
+- *Web App:* TeaSpeak included a web client interface
 </details>
 
 ---
