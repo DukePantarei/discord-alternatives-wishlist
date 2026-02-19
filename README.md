@@ -7,11 +7,11 @@
 
 ## What Is This?
 
-This repository is a **structured, community-maintained comparison** of Discord alternatives across **50 platforms** and **48 features**. It's designed to help you make an informed decision about where to move your community.
+This repository is a **structured, community-maintained comparison** of Discord alternatives across **55 platforms** and **48 features**. It's designed to help you make an informed decision about where to move your community.
 
 ## Current State
 
-- **50 platforms** tracked across **7 categories**
+- **55 platforms** tracked across **7 categories**
 - **48 features** organized into **7 logical groups**
 - **Auto-generated comparison tables** from a single source of truth (`platforms.json`)
 
@@ -23,7 +23,7 @@ This repository is a **structured, community-maintained comparison** of Discord 
 - **Commercial Alternatives** (6) — Polished products with varying privacy tradeoffs (Discord, Root, Telegram, GameVox, Steam Chat, Osmium)
 - **Legacy & Niche** (11) — Historical context and specific use cases (TeamSpeak, Mumble, Signal, Ventrilo, Skype, SimpleX Chat, Quiet, Campfire, Oldcord, Jami, Gajim, Swift IM, Movim)
 - **Business Productivity** (3) — Team collaboration tools (Pumble, Chanty, Virola)
-- **Discontinued** (3) — Platforms no longer active, included for historical reference (Guilded, Roger Wilco, Xfire)
+- **Discontinued** (8) — Platforms no longer active, included for historical reference (Guilded, Roger Wilco, Xfire, RaidCall, Dolby Axon, Razer Comms, Curse Voice, TeaSpeak)
 
 **If you're a user:** Browse [COMPARISON.md](COMPARISON.md) to see detailed feature matrices for every platform. Vote on features you want via GitHub Discussions.
 
