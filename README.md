@@ -7,12 +7,12 @@
 
 ## What Is This?
 
-This repository is a **structured, community-maintained comparison** of Discord alternatives across **61 platforms** and **48 features**. It's designed to help you make an informed decision about where to move your community.
+This repository is a **structured, community-maintained comparison** of Discord alternatives across **61 platforms** and **55 features**. It's designed to help you make an informed decision about where to move your community.
 
 ## Current State
 
 - **61 platforms** tracked across **7 categories**
-- **48 features** organized into **7 logical groups**
+- **55 features** organized into **8 logical groups**
 - **Auto-generated comparison tables** from a single source of truth (`platforms.json`)
 
 ### Categories
@@ -75,16 +75,128 @@ Looking for the closest thing to Discord? Here are platforms ranked by how many 
 
 ---
 
+## Moderation & Safety: The Privacy Tradeoff
+
+**Why this matters:** Discord's planned age verification system (requiring government ID or face scans) is a major privacy concern and a key reason people are seeking alternatives. This repository tracks both traditional moderation tools AND privacy-invasive verification systems.
+
+### CRITICAL: The Centralization Problem
+
+**Discord isn't unique — this is a systemic issue with centralized platforms:**
+
+Any centralized, commercial platform (Discord, Slack, Teams, etc.) will eventually face the same government pressure to implement invasive age verification and content monitoring. The UK's Online Safety Act is just the beginning — similar legislation is spreading:
+- **UK:** Age verification via ID/face scan (active enforcement 2025)
+- **EU:** Digital Services Act requiring content moderation at scale
+- **Australia:** Online Safety Act with similar requirements
+- **US:** Multiple state laws requiring age verification for "harmful content"
+
+**The pattern:**
+1. Government passes "safety" legislation
+2. Centralized platforms must comply or face massive fines
+3. Platform implements invasive verification (ID upload, biometrics, AI monitoring)
+4. User privacy is permanently compromised
+
+**Discord is just the first to announce it publicly.** Other commercial platforms will follow as enforcement ramps up. If you're fleeing Discord for another centralized commercial platform (Root, Osmium, etc.), you're only buying time before they face the same requirements.
+
+### The Only Long-Term Solution: Decentralization & Self-Hosting
+
+**Platforms that can resist this pressure:**
+- **Self-hosted** (Rocket.Chat, Mattermost, Discourse) — You control the server, you set the rules
+- **Federated** (Matrix, XMPP) — No central authority to compel, enforcement is impractical
+- **Open source** — Can be forked and run outside jurisdictions with invasive laws
+
+**Why these work:**
+- No central company to fine or prosecute
+- Can be hosted in privacy-friendly jurisdictions
+- Community can fork if project compromises
+- Enforcement is technically and legally impractical
+
+### Privacy-Invasive Verification (Avoid These)
+
+**Discord** — Planned invasive verification:
+- **Age Verification (Planned)**: Teen accounts with restricted features
+- **ID Verification (Planned)**: Face scanning OR government ID upload required for age-gating
+- **UK Pilot (2025)**: Testing biometric age verification
+- **Privacy Impact**: Government ID and biometric data stored by third-party vendor (Yoti)
+- **Why this is problematic**: Creates honeypot of sensitive data, face recognition normalizes surveillance, disproportionate for chat platform
+
+**Other Centralized Platforms** — Not yet, but coming:
+- All major centralized platforms (Slack, Teams, Root, Osmium, etc.) will face the same legislative pressure
+- Compliance is a question of when, not if
+- Moving from Discord to another centralized platform is a temporary solution
+
+### Privacy-Respecting Moderation
+
+These platforms offer strong moderation WITHOUT invasive identity verification:
+
+**Discourse** — Trust-based moderation:
+- AutoMod with automatic post hiding
+- Trust levels (new users → regulars → leaders)
+- Flag system for community reporting
+- Audit logs and user silencing
+- **Privacy**: Email-based, no ID verification, GDPR compliant
+
+**Matrix (Element/Commet/SchildiChat)** — Decentralized moderation:
+- Draupnir/Mjolnir bots for advanced moderation
+- Shared ban lists across federated servers
+- Audit logs and user timeouts
+- **Privacy**: E2EE by default, federated (you choose your homeserver), no central authority
+
+**Rocket.Chat & Mattermost** — Enterprise-grade:
+- Message reporting and review queues
+- Audit logs for compliance
+- Role-based permissions
+- **Privacy**: Self-hosted option means full data control, GDPR compliant
+
+**Discord (Current Features)** — Strong moderation, pre-verification era:
+- AutoMod (keyword filters, spam detection, mention limits)
+- Raid protection and verification levels
+- Audit logs and timeout features
+- Message reporting dashboard
+- **Note**: Current Discord is fine; concern is planned 2025+ verification requirements
+
+### Basic Moderation
+
+Most alternatives offer basic moderation tools:
+- Kick/ban users
+- Role-based permissions
+- Message deletion
+- Channel controls
+
+**Sufficient for**: Small to medium communities (<500 active members)  
+**May struggle with**: Large public communities with active raids/spam
+
+### Check the Full Comparison
+
+See the [Moderation & Safety table](COMPARISON.md) for detailed feature-by-feature comparison including:
+- AutoMod capabilities
+- Audit logs
+- Raid protection
+- Message reporting
+- Age/ID verification status (who's privacy-respecting vs invasive)
+
+### Bottom Line
+
+**For large communities with moderation needs**:
+1. **Privacy-focused + good moderation**: Discourse (forums) or Matrix with Draupnir (chat)
+2. **Best moderation, some privacy concerns**: Current Discord (before verification rollout)
+3. **Avoid**: Discord after age/ID verification rollout (2025+)
+
+**For small/medium communities**:
+- Most alternatives have sufficient moderation tools
+- Prioritize privacy, self-hosting, and federation over advanced moderation
+
+---
+
 ## Key Features Tracked
 
-All features are organized into **7 logical groups** for easier comparison:
+All features are organized into **8 logical groups** for easier comparison:
 
 ### Privacy & Licensing (9 features)
 - Open source, self-hostable, federated
 - End-to-end encryption, no ads, no tracking, GDPR compliance
 - Biometric age verification, message TTL / auto-expiry
 
-### Pricing & Licensing (5 features)
+### Pricing (5 features)
 - Free to use, no premium tier required
 - Self-hosting license (freely self-hostable vs commercial license)
 - Freemium limitations, enterprise tier availability
@@ -99,9 +211,16 @@ All features are organized into **7 logical groups** for easier comparison:
 - Threads & forums, persistent voice channels
 - Per-user audio output control
 
-### Server & Admin (8 features)
-- Role management, server organization, admin GUI
+### Moderation & Safety (8 features)
 - Large community moderation tools
+- AutoMod (automated content filtering)
+- Audit logs, user timeout/mute, raid protection
+- Message reporting
+- **Age verification** (Discord's planned teen accounts)
+- **ID verification** (Discord's planned face scanning & ID checks)
+
+### Server & Admin (7 features)
+- Role management, server organization, admin GUI
 - Invite links & guest access, migration assistant
 - Bridges to other platforms, Discord API compatibility
 
@@ -138,6 +257,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. We welcome additions as l
 ## Understanding the Data
 
 All platform data lives in **`platforms.json`** — a single source of truth that generates the comparison tables automatically via GitHub Actions.
+
+**Data sources:** This repository integrates information from community research, official documentation, and the excellent [Discord Replacers spreadsheet by Jay Gatsby](https://docs.google.com/spreadsheets/d/14vicw-V9Z5m7ckuburP5wxyDIIb_fFJFEjnxxHk8qRw/edit?gid=0#gid=0), with additional verification and expansion.
 
 **Feature values:**
 - ✅ `yes` — Fully supported
