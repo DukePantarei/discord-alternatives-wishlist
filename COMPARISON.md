@@ -21,7 +21,7 @@
 - [Privacy-Focused Centralized](#privacy-focused-centralized) — 6 platforms
 - [Self-Hosted Platforms](#self-hosted-platforms) — 17 platforms
 - [Commercial Alternatives](#commercial-alternatives) — 6 platforms
-- [Legacy & Niche](#legacy-niche) — 13 platforms
+- [Legacy & Niche](#legacy--niche) — 13 platforms
 - [Discontinued](#discontinued) — 8 platforms
 - [Business Productivity](#business-productivity) — 3 platforms
 
