@@ -43,15 +43,15 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [FluffyChat](https://fluffychat.im) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ |
 | [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ |
 
-### Pricing
+### Pricing & Licensing
 
-| **Platform** | **Free to Use** | **No Premium Tier Required** |
-| --- | --- | --- |
-| [Element](https://element.io) | ✅ | ✅ |
-| [Cinny](https://cinny.in) | ✅ | ✅ |
-| [Commet](https://commet.chat) | ✅ | ✅ |
-| [FluffyChat](https://fluffychat.im) | ✅ | ✅ |
-| [SchildiChat](https://schildi.chat) | ✅ | ✅ |
+| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
+| --- | --- | --- | --- | --- | --- |
+| [Element](https://element.io) | ✅ | ✅ | ✅ † | ❌ | ✅ |
+| [Cinny](https://cinny.in) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Commet](https://commet.chat) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [FluffyChat](https://fluffychat.im) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ❌ | ❌ |
 
 ### Platform Support
 
@@ -73,15 +73,35 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [FluffyChat](https://fluffychat.im) | ✅ † | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ |
 | [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ❌ |
 
-### Features
+### Server & Admin
 
-| **Platform** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Large Community Moderation Tools** | **Community Discovery** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Element](https://element.io) | ✅ | ⚠️ † | ⚠️ † | ✅ | ❌ | ❌ | ⚠️ † | ✅ † | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ⚠️ † |
-| [Cinny](https://cinny.in) | ✅ | ⚠️ | ⚠️ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † |
-| [Commet](https://commet.chat) | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | ⚠️ † | ⚠️ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † |
-| [FluffyChat](https://fluffychat.im) | ✅ | ⚠️ | ⚠️ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † |
-| [SchildiChat](https://schildi.chat) | ✅ | ⚠️ | ⚠️ † | ✅ | ❌ | ❌ | ⚠️ | ✅ † | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ⚠️ † |
+| **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Large Community Moderation Tools** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Community Discovery** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Element](https://element.io) | ⚠️ † | ✅ | ✅ † | ⚠️ † | ⚠️ † | ❌ | ✅ | ❌ | ⚠️ † |
+| [Cinny](https://cinny.in) | ⚠️ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ❌ | ⚠️ † |
+| [Commet](https://commet.chat) | ⚠️ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ❌ | ⚠️ † |
+| [FluffyChat](https://fluffychat.im) | ⚠️ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ❌ | ⚠️ † |
+| [SchildiChat](https://schildi.chat) | ⚠️ † | ✅ | ✅ † | ⚠️ | ⚠️ | ❌ | ✅ | ❌ | ⚠️ † |
+
+### Channels & Content
+
+| **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
+| --- | --- | --- | --- | --- | --- |
+| [Element](https://element.io) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Cinny](https://cinny.in) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Commet](https://commet.chat) | ❌ | ❌ | ❌ | ❌ | ✅ |
+| [FluffyChat](https://fluffychat.im) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [SchildiChat](https://schildi.chat) | ❌ | ❌ | ❌ | ❌ | ❌ |
+
+### Community Tools
+
+| **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** |
+| --- | --- | --- | --- | --- | --- |
+| [Element](https://element.io) | ✅ | ⚠️ † | ❌ | ❌ | ❌ |
+| [Cinny](https://cinny.in) | ✅ | ⚠️ | ❌ | ❌ | ❌ |
+| [Commet](https://commet.chat) | ✅ | ⚠️ | ⚠️ † | ❌ | ❌ |
+| [FluffyChat](https://fluffychat.im) | ✅ | ⚠️ | ❌ | ❌ | ❌ |
+| [SchildiChat](https://schildi.chat) | ✅ | ⚠️ | ❌ | ❌ | ❌ |
 
 
 **† Notes**
@@ -100,6 +120,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 - *Persistent Voice Channels:* MatrixRTC supports persistent voice rooms but experience varies by client
 - *Large Community Moderation:* Draupnir and Mjolnir bots provide moderation at scale but require setup
 - *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
+- *Self Hosting License:* Synapse server is open source (Apache 2.0), freely self-hostable
 </details>
 
 <details>
@@ -161,16 +182,16 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Blite Chat](https://blite.chat) | ✅ † | ✅ † | ❌ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ❌ | ❌ | ❌ | ⚠️ | ✅ | ✅ | ❓ | ❌ | ❌ |
 
-### Pricing
+### Pricing & Licensing
 
-| **Platform** | **Free to Use** | **No Premium Tier Required** |
-| --- | --- | --- |
-| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ |
-| [Valour](https://valour.gg) | ✅ | ✅ |
-| [Nerimity](https://nerimity.com) | ✅ | ✅ |
-| [Kloak](https://kloak.app) | ✅ | ✅ |
-| [Blite Chat](https://blite.chat) | ✅ | ✅ |
-| [Echoed](https://echoed.chat) | ✅ | ❓ |
+| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
+| --- | --- | --- | --- | --- | --- |
+| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Valour](https://valour.gg) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Nerimity](https://nerimity.com) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Kloak](https://kloak.app) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Blite Chat](https://blite.chat) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Echoed](https://echoed.chat) | ✅ | ❓ | ❌ | ❓ | ❓ |
 
 ### Platform Support
 
@@ -194,16 +215,38 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Blite Chat](https://blite.chat) | ✅ † | ✅ † | ❓ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 
-### Features
+### Server & Admin
 
-| **Platform** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Large Community Moderation Tools** | **Community Discovery** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
-| [Valour](https://valour.gg) | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Nerimity](https://nerimity.com) | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Kloak](https://kloak.app) | ⚠️ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Blite Chat](https://blite.chat) | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Echoed](https://echoed.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
+| **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Large Community Moderation Tools** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Community Discovery** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Valour](https://valour.gg) | ✅ | ✅ | ⚠️ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
+| [Nerimity](https://nerimity.com) | ✅ | ✅ | ⚠️ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Kloak](https://kloak.app) | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Blite Chat](https://blite.chat) | ✅ | ✅ | ⚠️ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Echoed](https://echoed.chat) | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ |
+
+### Channels & Content
+
+| **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
+| --- | --- | --- | --- | --- | --- |
+| [Stoat (formerly Revolt)](https://stoat.chat) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Valour](https://valour.gg) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Nerimity](https://nerimity.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Kloak](https://kloak.app) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Blite Chat](https://blite.chat) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Echoed](https://echoed.chat) | ❌ | ❌ | ❌ | ❌ | ✅ |
+
+### Community Tools
+
+| **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** |
+| --- | --- | --- | --- | --- | --- |
+| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Valour](https://valour.gg) | ✅ | ⚠️ | ❌ | ❌ | ❌ |
+| [Nerimity](https://nerimity.com) | ✅ | ⚠️ | ❌ | ❌ | ❌ |
+| [Kloak](https://kloak.app) | ⚠️ | ⚠️ | ❌ | ❌ | ❌ |
+| [Blite Chat](https://blite.chat) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Echoed](https://echoed.chat) | ✅ | ✅ | ❌ | ❌ | ❌ |
 
 
 **† Notes**
@@ -298,25 +341,25 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Pulse Chat](https://plse.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ † | ❓ |
 | [Databag](https://github.com/balzack/databag) | ✅ | ✅ | ✅ † | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ❌ |
 
-### Pricing
+### Pricing & Licensing
 
-| **Platform** | **Free to Use** | **No Premium Tier Required** |
-| --- | --- | --- |
-| [Sharkord](https://sharkord.com) | ✅ | ✅ |
-| [Spacebar](https://spacebar.chat) | ✅ | ✅ |
-| [Fluxer](https://fluxer.app) | ✅ | ✅ |
-| [Loqa](https://loqa.chat) | ✅ | ✅ |
-| [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ✅ |
-| [Zulip](https://zulip.com) | ✅ | ✅ |
-| [Rocket.Chat](https://rocket.chat) | ⚠️ † | ⚠️ † |
-| [Mezon](https://mezon.ai) | ✅ | ✅ |
-| [Nextcloud Talk](https://nextcloud.com/talk) | ✅ | ⚠️ † |
-| [Snikket](https://snikket.org) | ✅ | ✅ |
-| [Roomy](https://github.com/) | ❓ | ❓ |
-| [Colanode](https://github.com/) | ✅ | ❓ |
-| [Raven](https://github.com/) | ✅ | ❓ |
-| [Pulse Chat](https://plse.chat) | ✅ | ❓ |
-| [Databag](https://github.com/balzack/databag) | ✅ | ✅ |
+| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
+| --- | --- | --- | --- | --- | --- |
+| [Sharkord](https://sharkord.com) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Spacebar](https://spacebar.chat) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Fluxer](https://fluxer.app) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Loqa](https://loqa.chat) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Zulip](https://zulip.com) | ✅ | ✅ | ✅ | ❌ | ✅ |
+| [Rocket.Chat](https://rocket.chat) | ⚠️ † | ⚠️ † | ✅ | ❓ † | ❓ |
+| [Mezon](https://mezon.ai) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Nextcloud Talk](https://nextcloud.com/talk) | ✅ | ⚠️ † | ✅ | ❓ | ✅ |
+| [Snikket](https://snikket.org) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Roomy](https://github.com/) | ❓ | ❓ | ✅ | ❓ | ❓ |
+| [Colanode](https://github.com/) | ✅ | ❓ | ✅ | ❓ | ❓ |
+| [Raven](https://github.com/) | ✅ | ❓ | ✅ | ❓ | ❓ |
+| [Pulse Chat](https://plse.chat) | ✅ | ❓ | ✅ | ❓ | ❓ |
+| [Databag](https://github.com/balzack/databag) | ✅ | ✅ | ✅ | ❌ | ❌ |
 
 ### Platform Support
 
@@ -358,25 +401,65 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Pulse Chat](https://plse.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Databag](https://github.com/balzack/databag) | ⚠️ † | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ † | ❌ | ❌ |
 
-### Features
+### Server & Admin
 
-| **Platform** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Large Community Moderation Tools** | **Community Discovery** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Sharkord](https://sharkord.com) | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Spacebar](https://spacebar.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ✅ † | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Fluxer](https://fluxer.app) | 🗓️ † | ❌ | ✅ | ✅ | 🗓️ † | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 🗓️ † |
-| [Loqa](https://loqa.chat) | ⚠️ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Zulip](https://zulip.com) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ † | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ |
-| [Rocket.Chat](https://rocket.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ |
-| [Mezon](https://mezon.ai) | ⚠️ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Nextcloud Talk](https://nextcloud.com/talk) | ⚠️ | ⚠️ | ❌ | ⚠️ | ✅ † | ❌ | ✅ | ✅ | ❌ | ✅ † | ❌ | ❌ | ❌ | ❌ | ✅ † | ❌ | ⚠️ | ⚠️ | ❌ |
-| [Snikket](https://snikket.org) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Databag](https://github.com/balzack/databag) | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Large Community Moderation Tools** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Community Discovery** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Sharkord](https://sharkord.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Spacebar](https://spacebar.chat) | ✅ | ✅ | ⚠️ | ❌ | ✅ | ❌ | ❌ | ✅ † | ❌ |
+| [Fluxer](https://fluxer.app) | ✅ | ✅ | ⚠️ | ❌ | ✅ | ❌ | ❌ | ❌ | 🗓️ † |
+| [Loqa](https://loqa.chat) | ⚠️ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
+| [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ✅ | ⚠️ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Zulip](https://zulip.com) | ✅ | ✅ | ✅ | ⚠️ † | ✅ | ⚠️ † | ✅ | ❌ | ❌ |
+| [Rocket.Chat](https://rocket.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ |
+| [Mezon](https://mezon.ai) | ✅ | ✅ | ⚠️ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
+| [Nextcloud Talk](https://nextcloud.com/talk) | ❌ | ⚠️ | ✅ | ⚠️ | ✅ | ❌ | ✅ † | ❌ | ❌ |
+| [Snikket](https://snikket.org) | ❌ | ❌ | ⚠️ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
+| [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Databag](https://github.com/balzack/databag) | ❌ | ⚠️ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
+
+### Channels & Content
+
+| **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
+| --- | --- | --- | --- | --- | --- |
+| [Sharkord](https://sharkord.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Spacebar](https://spacebar.chat) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Fluxer](https://fluxer.app) | ❌ | ❌ | ❌ | ❌ | 🗓️ † |
+| [Loqa](https://loqa.chat) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [DCTS](https://github.com/hackthedev/dcts-shipping) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Zulip](https://zulip.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Rocket.Chat](https://rocket.chat) | ❌ | ❌ | ❌ | ✅ | ❌ |
+| [Mezon](https://mezon.ai) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Nextcloud Talk](https://nextcloud.com/talk) | ❌ | ❌ | ❌ | ✅ † | ✅ † |
+| [Snikket](https://snikket.org) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Databag](https://github.com/balzack/databag) | ❌ | ❌ | ❌ | ❌ | ❌ |
+
+### Community Tools
+
+| **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** |
+| --- | --- | --- | --- | --- | --- |
+| [Sharkord](https://sharkord.com) | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Spacebar](https://spacebar.chat) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Fluxer](https://fluxer.app) | 🗓️ † | ❌ | ❌ | ❌ | ❌ |
+| [Loqa](https://loqa.chat) | ⚠️ | ❌ | ❌ | ❌ | ❌ |
+| [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Zulip](https://zulip.com) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Rocket.Chat](https://rocket.chat) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Mezon](https://mezon.ai) | ⚠️ | ⚠️ | ❌ | ❌ | ❌ |
+| [Nextcloud Talk](https://nextcloud.com/talk) | ⚠️ | ⚠️ | ❌ | ❌ | ⚠️ |
+| [Snikket](https://snikket.org) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Databag](https://github.com/balzack/databag) | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 
 **† Notes**
@@ -461,6 +544,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *No Premium Tier:* Enterprise license required for voice/video and >50 users
 - *Federated:* Matrix federation bridge available but not native
 - *Message Ttl:* Configurable message retention per room
+- *Freemium Limitations:* Cloud has message history limits, self-hosted is unlimited
 </details>
 
 <details>
@@ -552,16 +636,16 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ⚠️ † | ✅ | ❌ | ⚠️ | ❌ | ❌ |
 | [Osmium](https://osmium.chat) | ❌ † | ❌ | ❌ | ❓ | ✅ | ❓ | ❓ | ❌ | ❌ |
 
-### Pricing
+### Pricing & Licensing
 
-| **Platform** | **Free to Use** | **No Premium Tier Required** |
-| --- | --- | --- |
-| [Discord](https://discord.com) | ⚠️ † | ❌ † |
-| [Root](https://rootapp.com) | ✅ | ✅ |
-| [Telegram](https://telegram.org) | ✅ | ⚠️ † |
-| [GameVox](https://gamevox.com) | ⚠️ † | ❌ |
-| [Steam Chat](https://store.steampowered.com) | ✅ | ✅ |
-| [Osmium](https://osmium.chat) | ✅ † | ❓ |
+| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
+| --- | --- | --- | --- | --- | --- |
+| [Discord](https://discord.com) | ⚠️ † | ❌ † | ❌ | ⚠️ † | ❓ |
+| [Root](https://rootapp.com) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Telegram](https://telegram.org) | ✅ | ⚠️ † | ❌ | ⚠️ † | ❓ |
+| [GameVox](https://gamevox.com) | ⚠️ † | ❌ | ❌ | ❓ | ❓ |
+| [Steam Chat](https://store.steampowered.com) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Osmium](https://osmium.chat) | ✅ † | ❓ | ❌ | ❓ | ❓ |
 
 ### Platform Support
 
@@ -585,16 +669,38 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Steam Chat](https://store.steampowered.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ | ✅ | ❌ | ✅ | ❌ |
 | [Osmium](https://osmium.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❓ | ✅ | ❌ |
 
-### Features
+### Server & Admin
 
-| **Platform** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Large Community Moderation Tools** | **Community Discovery** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Discord](https://discord.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ✅ † | ✅ † |
-| [Root](https://rootapp.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ † | ❌ | ❌ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ | ❓ | ❓ |
-| [Telegram](https://telegram.org) | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ✅ † | ❌ | ❌ | ⚠️ | ✅ † |
-| [GameVox](https://gamevox.com) | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ✅ † |
-| [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ⚠️ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ † |
-| [Osmium](https://osmium.chat) | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ | ✅ | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❓ | ❓ |
+| **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Large Community Moderation Tools** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Community Discovery** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Discord](https://discord.com) | ✅ | ✅ | ✅ | ✅ † | ✅ | ❌ | ❌ | ✅ | ✅ † |
+| [Root](https://rootapp.com) | ✅ | ✅ | ✅ | ❓ | ✅ | ⚠️ † | ❌ | ❌ | ❓ |
+| [Telegram](https://telegram.org) | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ✅ † |
+| [GameVox](https://gamevox.com) | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ✅ † |
+| [Steam Chat](https://store.steampowered.com) | ❌ | ⚠️ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ † |
+| [Osmium](https://osmium.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ❌ | ❌ | ❌ | ❓ |
+
+### Channels & Content
+
+| **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
+| --- | --- | --- | --- | --- | --- |
+| [Discord](https://discord.com) | ❌ | ❌ | ❌ | ⚠️ † | ✅ |
+| [Root](https://rootapp.com) | ❓ | ❓ | ❓ | ❓ | ✅ |
+| [Telegram](https://telegram.org) | ❌ | ❌ | ⚠️ † | ✅ † | ❌ |
+| [GameVox](https://gamevox.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ❌ | ✅ |
+| [Osmium](https://osmium.chat) | ❌ | ❌ | ❌ | ❌ | ❓ |
+
+### Community Tools
+
+| **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** |
+| --- | --- | --- | --- | --- | --- |
+| [Discord](https://discord.com) | ✅ | ✅ | ⚠️ † | ❌ | ❌ |
+| [Root](https://rootapp.com) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Telegram](https://telegram.org) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [GameVox](https://gamevox.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Osmium](https://osmium.chat) | ❓ | ❓ | ❌ | ❌ | ❌ |
 
 
 **† Notes**
@@ -615,6 +721,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 - *Large Community Moderation:* Comprehensive automod, audit logs, raid protection, timeout, mass prune — benchmark for large community moderation
 - *Message Ttl:* No server-wide TTL — messages persist indefinitely unless manually deleted
 - *Community Discovery:* In-app server discovery plus extensive third-party directories like Disboard, top.gg, and discord.me
+- *Freemium Limitations:* Nitro unlocks higher upload limits, better streaming quality, server boosts
 </details>
 
 <details>
@@ -645,6 +752,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 - *Community Discovery:* Search for public channels and groups built into the app
 - *Video Chat:* Group video chat bitrate described as poor quality
 - *System Audio Sharing:* System audio sharing in group chats has echo cancellation issues — users can hear themselves, audio cuts in and out
+- *Freemium Limitations:* Premium adds faster downloads, larger uploads (4GB), exclusive stickers, ads removal
 </details>
 
 <details>
@@ -698,22 +806,22 @@ Included for historical context or specific use cases. Generally not recommended
 | [Swift IM](https://swift.im) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Movim](https://movim.eu) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ |
 
-### Pricing
+### Pricing & Licensing
 
-| **Platform** | **Free to Use** | **No Premium Tier Required** |
-| --- | --- | --- |
-| [TeamSpeak](https://teamspeak.com) | ⚠️ | ⚠️ † |
-| [Mumble](https://mumble.info) | ✅ | ✅ |
-| [Signal](https://signal.org) | ✅ | ✅ |
-| [Skype](https://skype.com) | ✅ | ⚠️ † |
-| [SimpleX Chat](https://simplex.chat) | ✅ | ✅ |
-| [Quiet](https://tryquiet.org) | ✅ | ✅ |
-| [Campfire](https://basecamp.com/retired/campfire) | ❌ | ❌ |
-| [Oldcord](https://oldcordapp.com) | ✅ | ✅ |
-| [Jami](https://jami.net) | ✅ | ✅ |
-| [Gajim](https://gajim.org) | ✅ | ✅ |
-| [Swift IM](https://swift.im) | ✅ | ⚠️ † |
-| [Movim](https://movim.eu) | ✅ | ✅ |
+| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
+| --- | --- | --- | --- | --- | --- |
+| [TeamSpeak](https://teamspeak.com) | ⚠️ | ⚠️ † | ⚠️ † | ❓ | ❓ |
+| [Mumble](https://mumble.info) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Signal](https://signal.org) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Skype](https://skype.com) | ✅ | ⚠️ † | ❌ | ❓ | ❓ |
+| [SimpleX Chat](https://simplex.chat) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Quiet](https://tryquiet.org) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Campfire](https://basecamp.com/retired/campfire) | ❌ | ❌ | ❌ | ❓ | ❓ |
+| [Oldcord](https://oldcordapp.com) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Jami](https://jami.net) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Gajim](https://gajim.org) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Swift IM](https://swift.im) | ✅ | ⚠️ † | ✅ | ❓ | ❓ |
+| [Movim](https://movim.eu) | ✅ | ✅ | ✅ | ❌ | ❌ |
 
 ### Platform Support
 
@@ -749,22 +857,56 @@ Included for historical context or specific use cases. Generally not recommended
 | [Swift IM](https://swift.im) | ✅ | ✅ | ❌ | ❌ | ✅ † | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Movim](https://movim.eu) | ❌ † | ❌ | ❌ | ❌ | ✅ † | ✅ | ⚠️ | ✅ † | ❌ | ❌ |
 
-### Features
+### Server & Admin
 
-| **Platform** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Large Community Moderation Tools** | **Community Discovery** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [TeamSpeak](https://teamspeak.com) | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
-| [Mumble](https://mumble.info) | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
-| [Signal](https://signal.org) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Skype](https://skype.com) | ⚠️ † | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [SimpleX Chat](https://simplex.chat) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Quiet](https://tryquiet.org) | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Campfire](https://basecamp.com/retired/campfire) | ❌ | ⚠️ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Oldcord](https://oldcordapp.com) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Jami](https://jami.net) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Gajim](https://gajim.org) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Swift IM](https://swift.im) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Movim](https://movim.eu) | ❌ | ❌ | ❌ | ✅ † | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ † | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ † |
+| **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Large Community Moderation Tools** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Community Discovery** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [TeamSpeak](https://teamspeak.com) | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
+| [Mumble](https://mumble.info) | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
+| [Signal](https://signal.org) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Skype](https://skype.com) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [SimpleX Chat](https://simplex.chat) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ❌ | ❌ |
+| [Quiet](https://tryquiet.org) | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Campfire](https://basecamp.com/retired/campfire) | ❌ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Oldcord](https://oldcordapp.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ⚠️ † | ❌ |
+| [Jami](https://jami.net) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Gajim](https://gajim.org) | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
+| [Swift IM](https://swift.im) | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
+| [Movim](https://movim.eu) | ❌ | ✅ † | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ † |
+
+### Channels & Content
+
+| **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
+| --- | --- | --- | --- | --- | --- |
+| [TeamSpeak](https://teamspeak.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Mumble](https://mumble.info) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Signal](https://signal.org) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Skype](https://skype.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [SimpleX Chat](https://simplex.chat) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Quiet](https://tryquiet.org) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Campfire](https://basecamp.com/retired/campfire) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Oldcord](https://oldcordapp.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Jami](https://jami.net) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Gajim](https://gajim.org) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Swift IM](https://swift.im) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Movim](https://movim.eu) | ❌ | ✅ † | ❌ | ❌ | ✅ |
+
+### Community Tools
+
+| **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** |
+| --- | --- | --- | --- | --- | --- |
+| [TeamSpeak](https://teamspeak.com) | ⚠️ | ❌ | ❌ | ❌ | ❌ |
+| [Mumble](https://mumble.info) | ⚠️ | ❌ | ❌ | ❌ | ❌ |
+| [Signal](https://signal.org) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Skype](https://skype.com) | ⚠️ † | ❌ | ❌ | ❌ | ❌ |
+| [SimpleX Chat](https://simplex.chat) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Quiet](https://tryquiet.org) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Campfire](https://basecamp.com/retired/campfire) | ❌ | ⚠️ | ❌ | ❌ | ❌ |
+| [Oldcord](https://oldcordapp.com) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Jami](https://jami.net) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Gajim](https://gajim.org) | ⚠️ | ❌ | ❌ | ❌ | ❌ |
+| [Swift IM](https://swift.im) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Movim](https://movim.eu) | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 
 **† Notes**
@@ -780,6 +922,7 @@ Included for historical context or specific use cases. Generally not recommended
 - *Per User Audio Output:* Per-client volume adjustment supported
 - *Screen Sharing:* P2P streaming only supports one-to-one, not one-to-many from voice channel. Group chat streaming works — can stream to group chat while talking in server simultaneously. Allows custom bitrate settings and 60fps streaming. Supports streaming multiple windows simultaneously. Connection can be slow/buggy (10+ minute waits, duplicate users reported).
 - *Self Hostable:* Port forwarding required for self-hosting
+- *Self Hosting License:* Free server for non-commercial use (32 slots), commercial license required for larger deployments
 </details>
 
 <details>
@@ -921,13 +1064,13 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Xfire](https://en.wikipedia.org/wiki/Xfire) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-### Pricing
+### Pricing & Licensing
 
-| **Platform** | **Free to Use** | **No Premium Tier Required** |
-| --- | --- | --- |
-| [Guilded (discontinued)](https://guilded.gg) | ✅ | ✅ |
-| [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ✅ | ✅ |
-| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ✅ | ✅ |
+| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
+| --- | --- | --- | --- | --- | --- |
+| [Guilded (discontinued)](https://guilded.gg) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ✅ | ✅ | ❌ | ❌ | ❌ |
 
 ### Platform Support
 
@@ -945,13 +1088,29 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
 | [Xfire](https://en.wikipedia.org/wiki/Xfire) | ✅ | ❌ | ✅ † | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ |
 
-### Features
+### Server & Admin
 
-| **Platform** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Large Community Moderation Tools** | **Community Discovery** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Guilded (discontinued)](https://guilded.gg) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ | ✅ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ † | ✅ | ✅ † |
-| [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † |
-| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ✅ † |
+| **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Large Community Moderation Tools** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Community Discovery** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Guilded (discontinued)](https://guilded.gg) | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ❌ | ❌ | ✅ † |
+| [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ⚠️ † | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ⚠️ † |
+| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ❌ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ✅ † |
+
+### Channels & Content
+
+| **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
+| --- | --- | --- | --- | --- | --- |
+| [Guilded (discontinued)](https://guilded.gg) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ❌ | ❌ | ❌ | ❌ | ❌ |
+
+### Community Tools
+
+| **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** |
+| --- | --- | --- | --- | --- | --- |
+| [Guilded (discontinued)](https://guilded.gg) | ✅ | ✅ | ✅ † | ✅ † | ✅ † |
+| [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 
 **† Notes**
@@ -1003,13 +1162,13 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Chanty](https://chanty.com) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ |
 | [Virola](https://virola.io) | ❌ | ✅ | ❌ | ❌ † | ✅ | ✅ | ✅ | ❌ | ❌ |
 
-### Pricing
+### Pricing & Licensing
 
-| **Platform** | **Free to Use** | **No Premium Tier Required** |
-| --- | --- | --- |
-| [Pumble](https://pumble.com) | ⚠️ † | ❌ |
-| [Chanty](https://chanty.com) | ⚠️ | ❌ |
-| [Virola](https://virola.io) | ✅ † | ✅ |
+| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
+| --- | --- | --- | --- | --- | --- |
+| [Pumble](https://pumble.com) | ⚠️ † | ❌ | ❌ | ❓ | ✅ |
+| [Chanty](https://chanty.com) | ⚠️ | ❌ | ❌ | ❓ | ✅ |
+| [Virola](https://virola.io) | ✅ † | ✅ | ⚠️ † | ❌ | ✅ |
 
 ### Platform Support
 
@@ -1027,13 +1186,29 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Chanty](https://chanty.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ |
 | [Virola](https://virola.io) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ † | ✅ | ❌ |
 
-### Features
+### Server & Admin
 
-| **Platform** | **Bots & Automation** | **Webhooks** | **Role Management** | **Server / Space Organization** | **Event Scheduling** | **Raid Planner / Group Activity Tools** | **Invite Links & Guest Access** | **Admin GUI** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Large Community Moderation Tools** | **Community Discovery** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Pumble](https://pumble.com) | ⚠️ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ |
-| [Chanty](https://chanty.com) | ⚠️ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ † | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Virola](https://virola.io) | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ † | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Large Community Moderation Tools** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** | **Community Discovery** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Pumble](https://pumble.com) | ⚠️ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ⚠️ | ❌ | ❌ |
+| [Chanty](https://chanty.com) | ⚠️ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Virola](https://virola.io) | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+
+### Channels & Content
+
+| **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
+| --- | --- | --- | --- | --- | --- |
+| [Pumble](https://pumble.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Chanty](https://chanty.com) | ❌ | ✅ † | ❌ | ❌ | ❌ |
+| [Virola](https://virola.io) | ❌ | ✅ † | ❌ | ❌ | ✅ |
+
+### Community Tools
+
+| **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** |
+| --- | --- | --- | --- | --- | --- |
+| [Pumble](https://pumble.com) | ⚠️ | ✅ | ❌ | ❌ | ❌ |
+| [Chanty](https://chanty.com) | ⚠️ | ✅ | ❌ | ❌ | ❌ |
+| [Virola](https://virola.io) | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 
 **† Notes**
@@ -1064,6 +1239,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 - *List Task Channels:* Integrated Kanban board and issue tracking - can create tasks from messages
 - *Threads Forums:* Discussion threads within chat rooms
 - *E2E Encryption:* Self-hosted with data on your servers, but not E2EE
+- *Self Hosting License:* Currently free (insider preview), closed source, future licensing TBD
 </details>
 
 ---
