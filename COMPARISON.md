@@ -18,8 +18,8 @@
 ## Contents
 
 - [Matrix Clients](#matrix-clients) — 5 platforms
-- [Privacy-Focused Centralized](#privacy-focused-centralized) — 4 platforms
-- [Self-Hosted Platforms](#self-hosted-platforms) — 13 platforms
+- [Privacy-Focused Centralized](#privacy-focused-centralized) — 5 platforms
+- [Self-Hosted Platforms](#self-hosted-platforms) — 14 platforms
 - [Commercial Alternatives](#commercial-alternatives) — 4 platforms
 - [Legacy & Niche](#legacy-niche) — 7 platforms
 - [Discontinued](#discontinued) — 3 platforms
@@ -113,6 +113,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Valour](https://valour.gg) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ † | ⚠️ † | ⚠️ † | 🗓️ † | 🗓️ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Nerimity](https://nerimity.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Kloak](https://kloak.app) | ❌ † | ❌ | ❌ | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ✅ | ❓ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❓ | ❌ |
+| [Blite Chat](https://blite.chat) | ✅ † | ✅ † | ❌ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ † | ❌ | ✅ † | ✅ † | ✅ † | ❓ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
 
 **† Notes**
 
@@ -158,6 +159,21 @@ These platforms prioritize privacy and are open source, but run on a central ser
 - *Open Source:* Closed source but built with privacy-first principles. Minimal data storage by design.
 </details>
 
+<details>
+<summary>Blite Chat</summary>
+
+- *Description:* Open-source E2EE messaging with Discord-style servers, channels, voice/video. Server operator cannot read messages. Self-hostable with minimal requirements (512MB RAM for text, more for voice/video).
+- *Architecture:* Self-hosted, open source
+- *E2E Encryption:* X3DH key agreement + symmetric ratchet for DMs. Sender Keys (Signal protocol) for group channels. AES-128-GCM for voice/video via mediasoup SFU. Server sees only ciphertext.
+- *Self Hostable:* Lite mode: text only, 512MB RAM. Full mode: voice/video, requires UDP 40000-40100 open. SQLite, no external dependencies. Works with nginx/Traefik/Caddy or included Caddy for auto-HTTPS.
+- *Desktop App:* Triggers Windows SmartScreen warning (no code signing certificate). Web app recommended for easiest/safest start.
+- *Open Source:* MIT licensed. Single large initial commit (developed privately, cleaned for open source release). Built heavily with AI assistance (Claude).
+- *Federated:* Self-hosted but not federated. Each instance is isolated.
+- *Voice Chat:* E2EE voice via mediasoup SFU with AES-128-GCM encryption
+- *Video Chat:* E2EE video via mediasoup SFU with AES-128-GCM encryption
+- *Docker Install:* bash setup.sh provides automated setup
+</details>
+
 ---
 
 ## Self-Hosted Platforms
@@ -168,7 +184,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Sharkord](https://sharkord.com) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Spacebar](https://spacebar.chat) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ † | ❌ † | ❌ † | ❌ | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ✅ † | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Fluxer](https://fluxer.app) | ✅ † | ❌ † | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ⚠️ † | ⚠️ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❓ |
+| [Fluxer](https://fluxer.app) | ✅ † | ❌ † | 🗓️ † | 🗓️ † | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ⚠️ † | ⚠️ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | 🗓️ † | 🗓️ † | ❌ | ✅ | ✅ | 🗓️ † | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | 🗓️ † |
 | [Loqa](https://loqa.chat) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ⚠️ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Zulip](https://zulip.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ⚠️ † | ⚠️ † | ❌ | ✅ | ✅ | ⚠️ | ✅ † | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ † | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ † | ❌ † | ⚠️ † | ❌ | ❌ | ❌ |
@@ -179,6 +195,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Roomy](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Colanode](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Raven](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Pulse Chat](https://plse.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ † | ✅ | ❓ | ❓ | ❓ | ❓ | ✅ | ✅ | ❓ | ❓ | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 **† Notes**
 
@@ -207,10 +224,15 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 - *Description:* Open-source self-hosted chat platform (AGPL licensed).
 - *Architecture:* Self-hosted
-- *E2E Encryption:* TLS transport encryption only
+- *E2E Encryption:* Roadmap 2026: Opt-in 'secret chats' (ephemeral, E2EE sessions). No plans for full-platform E2EE. LiveKit supports E2EE for calls but not yet implemented.
 - *Self Hostable:* Self-hosting not recommended at this time — documentation and support coming soon
-- *Mobile App:* Web app/PWA only — no native mobile apps yet. Development active but major refactor in progress.
-- *Open Source:* AGPLv3 with CLA — raises FOSS rugpull risk if owner takes project closed source. No git history prior to open sourcing.
+- *Mobile App:* PWA currently. Native Flutter app in development with community developers (post Discord age verification surge)
+- *Open Source:* AGPLv3 + CLA. CLA allows commercial licensing for companies wanting to run internally without copyleft. Committed to no paywalled features or forced upgrades.
+- *Threads Forums:* Roadmap 2026: Slack/Reddit-style threads with hierarchical/linear views, upvoting/downvoting, private forum threads
+- *Federated:* Roadmap 2026: Distributed E2EE federation relays, OAuth2 auth via home instance
+- *Community Discovery:* Roadmap 2026: In-app and public (no login) community discovery for published forums
+- *Bots Automation:* Roadmap 2026: Slash commands, modals, components, interactions — Discord feature parity planned
+- *Event Scheduling:* Roadmap 2026: Scheduled events planned
 </details>
 
 <details>
@@ -309,6 +331,14 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 - *Description:* Self-hosted messaging platform. Minimal public information available.
 - *Architecture:* Self-hosted, open source
+</details>
+
+<details>
+<summary>Pulse Chat</summary>
+
+- *Description:* Self-hosted communication platform with voice, video, and text chat. No government ID required. Minimal public information available.
+- *Architecture:* Self-hosted, open source
+- *Biometric Age Verification:* 'No government ID required' is a key selling point
 </details>
 
 ---
