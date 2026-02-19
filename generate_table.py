@@ -146,15 +146,16 @@ def build_category_table_grouped(platforms: list, features: list) -> list:
     # Build feature lookup by key for getting labels
     feature_lookup = {f["key"]: f["label"] for f in features}
     
-    # Header row 1: Group names with spacing
-    header1 = ["Platform"]
+    # Header row 1: Group names - clear and simple
+    header1 = ["**Platform**"]
     for group_name, feature_keys in FEATURE_GROUPS.items():
-        # Add group name in first column, empty cells for rest
-        header1.append(f"**{group_name}**")
+        # First column of each group gets the group name
+        header1.append(f"**━━ {group_name} ━━**")
+        # Rest of columns are empty
         header1.extend([""] * (len(feature_keys) - 1))
     
-    # Header row 2: Individual feature names
-    header2 = ["**Platform**"]
+    # Header row 2: Individual feature names  
+    header2 = [""]  # Empty cell under Platform to align with data rows
     for group_name, feature_keys in FEATURE_GROUPS.items():
         for fkey in feature_keys:
             label = feature_lookup.get(fkey, humanize(fkey))
