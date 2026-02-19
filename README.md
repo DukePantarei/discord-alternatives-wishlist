@@ -159,7 +159,7 @@ These platforms offer strong moderation WITHOUT invasive identity verification:
 - Message reporting dashboard
 - **Note**: Current Discord is fine; concern is planned 2025+ verification requirements
 
-### ⚙️ Basic Moderation
+### Basic Moderation
 
 Most alternatives offer basic moderation tools:
 - Kick/ban users
@@ -170,7 +170,7 @@ Most alternatives offer basic moderation tools:
 **Sufficient for**: Small to medium communities (<500 active members)  
 **May struggle with**: Large public communities with active raids/spam
 
-### 📊 Check the Full Comparison
+### Check the Full Comparison
 
 See the [Moderation & Safety table](COMPARISON.md) for detailed feature-by-feature comparison including:
 - AutoMod capabilities
