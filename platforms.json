@@ -270,6 +270,21 @@
       "label": "Community Discovery",
       "category": "Features",
       "description": "Built-in or official directory for discovering and joining public communities. Includes in-app search, official web directories (like Disboard for Discord or matrixrooms.info for Matrix), or federated discovery mechanisms. Distinct from just invite links — this is about browsing and finding communities you don't know exist yet."
+    },
+    {
+      "key": "self_hosting_license",
+      "label": "Self-Hosting License",
+      "description": "Can you self-host without commercial license restrictions?"
+    },
+    {
+      "key": "freemium_limitations",
+      "label": "Freemium Limitations",
+      "description": "Does the free tier have significant limitations (message history, users, features)?"
+    },
+    {
+      "key": "enterprise_tier",
+      "label": "Enterprise Tier Available",
+      "description": "Is there a separate enterprise offering with support/SLAs?"
     }
   ],
   "categories": [
@@ -335,7 +350,10 @@
         "large_community_moderation": "yes",
         "mobile_hosting": "no",
         "per_user_audio_output": "yes",
-        "community_discovery": "yes"
+        "community_discovery": "yes",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "n/a",
+        "enterprise_tier": "unknown"
       },
       "feature_notes": {
         "system_audio_sharing": "Windows and macOS only, not Linux",
@@ -404,7 +422,10 @@
         "large_community_moderation": "partial",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "partial"
+        "community_discovery": "partial",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "yes"
       },
       "feature_notes": {
         "role_management": "Uses Matrix power levels rather than named roles — functional but less intuitive than Discord",
@@ -471,7 +492,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "partial"
+        "community_discovery": "partial",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "voice_chat": "Not yet implemented — text-focused client",
@@ -533,7 +557,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "partial"
+        "community_discovery": "partial",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "mobile_app": "Android available, iOS planned",
@@ -596,7 +623,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "partial"
+        "community_discovery": "partial",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "voice_chat": "1:1 calls supported, large voice channels limited",
@@ -656,7 +686,10 @@
         "large_community_moderation": "partial",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "partial"
+        "community_discovery": "partial",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "role_management": "Inherits Element's power levels system",
@@ -717,7 +750,10 @@
         "large_community_moderation": "partial",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs is planned but not yet released",
@@ -781,7 +817,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "desktop_app": "PWA only — no native desktop app",
@@ -843,7 +882,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "mobile_app": "Android app available, no iOS app"
@@ -902,7 +944,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only — not end-to-end"
@@ -961,7 +1006,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only",
@@ -1024,7 +1072,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "planned"
+        "community_discovery": "planned",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Roadmap 2026: Opt-in 'secret chats' (ephemeral, E2EE sessions). No plans for full-platform E2EE. LiveKit supports E2EE for calls but not yet implemented.",
@@ -1091,7 +1142,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs only, not group channels"
@@ -1150,7 +1204,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only"
@@ -1209,7 +1266,10 @@
         "large_community_moderation": "unknown",
         "mobile_hosting": "no",
         "per_user_audio_output": "unknown",
-        "community_discovery": "unknown"
+        "community_discovery": "unknown",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "no_ads": "No ads currently but VC-funded — monetization model may change",
@@ -1272,7 +1332,10 @@
         "large_community_moderation": "yes",
         "mobile_hosting": "no",
         "per_user_audio_output": "partial",
-        "community_discovery": "yes"
+        "community_discovery": "yes",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "raid_planner": "Best-in-class raid and event tools — a key differentiator",
@@ -1337,7 +1400,10 @@
         "large_community_moderation": "partial",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "yes"
+        "community_discovery": "yes",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "minor",
+        "enterprise_tier": "unknown"
       },
       "feature_notes": {
         "e2e_encryption": "Secret Chats only — standard group chats and channels are NOT end-to-end encrypted",
@@ -1406,7 +1472,10 @@
         "large_community_moderation": "partial",
         "mobile_hosting": "no",
         "per_user_audio_output": "yes",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "commercial",
+        "freemium_limitations": "n/a",
+        "enterprise_tier": "unknown"
       },
       "feature_notes": {
         "e2e_encryption": "Voice is AES-encrypted between client and server but server can decrypt — not true E2EE",
@@ -1470,7 +1539,10 @@
         "large_community_moderation": "partial",
         "mobile_hosting": "no",
         "per_user_audio_output": "yes",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "e2e_encryption": "True E2EE for voice — one of the few platforms with this",
@@ -1532,7 +1604,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "text_channels": "Group chats exist but no server/channel hierarchy",
@@ -1594,7 +1669,10 @@
         "large_community_moderation": "partial",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "yes"
       },
       "feature_notes": {
         "voice_chat": "Via Jitsi integration only — not native. Uses call-per-message model, not persistent always-on channels",
@@ -1660,7 +1738,10 @@
         "large_community_moderation": "yes",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "n/a",
+        "enterprise_tier": "unknown"
       },
       "feature_notes": {
         "free_to_use": "Free tier hard-capped at 50 users — must contact support to raise limit. Enterprise license required for larger deployments",
@@ -1726,7 +1807,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "partial"
+        "community_discovery": "partial",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "self_hostable": "Base Station server could be hosted on Linux/FreeBSD/Windows but was proprietary",
@@ -1787,7 +1871,10 @@
         "large_community_moderation": "partial",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "yes"
+        "community_discovery": "yes",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "community_discovery": "Game server browser and clan/community discovery built in",
@@ -1847,7 +1934,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "yes",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "unknown",
+        "enterprise_tier": "unknown"
       },
       "feature_notes": {
         "e2e_encryption": "Private conversations support E2EE, but group chats do not",
@@ -1912,7 +2002,10 @@
         "large_community_moderation": "partial",
         "mobile_hosting": "no",
         "per_user_audio_output": "yes",
-        "community_discovery": "yes"
+        "community_discovery": "yes",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "n/a",
+        "enterprise_tier": "unknown"
       },
       "feature_notes": {
         "free_to_use": "Free tier: 50 members max, 3 voice channels, 8 text channels, 2GB storage",
@@ -1973,7 +2066,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "unknown",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs planned but not yet implemented",
@@ -2034,7 +2130,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "unknown",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       }
     },
     {
@@ -2090,7 +2189,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "federated": "Decentralized but not federated — no user identifiers, P2P via relay servers",
@@ -2151,7 +2253,10 @@
         "large_community_moderation": "partial",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "n/a",
+        "enterprise_tier": "yes"
       },
       "feature_notes": {
         "free_to_use": "Free tier available but limited features — paid plans for businesses"
@@ -2210,7 +2315,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "n/a",
+        "enterprise_tier": "yes"
       },
       "feature_notes": {
         "desktop_app": "Windows app only available via Microsoft Store",
@@ -2270,7 +2378,10 @@
         "large_community_moderation": "partial",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "unknown",
+        "enterprise_tier": "yes"
       },
       "feature_notes": {
         "federated": "Federation across Nextcloud instances for group chats and calls",
@@ -2336,7 +2447,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "text_channels": "Group chats exist but no Discord-style server/channel hierarchy",
@@ -2396,7 +2510,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "self_hostable": "P2P architecture — no servers to host. All communication via Tor network.",
@@ -2456,7 +2573,10 @@
         "large_community_moderation": "unknown",
         "mobile_hosting": "unknown",
         "per_user_audio_output": "unknown",
-        "community_discovery": "unknown"
+        "community_discovery": "unknown",
+        "self_hosting_license": "free",
+        "freemium_limitations": "n/a",
+        "enterprise_tier": "unknown"
       }
     },
     {
@@ -2512,7 +2632,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "n/a",
+        "enterprise_tier": "unknown"
       }
     },
     {
@@ -2568,7 +2691,10 @@
         "large_community_moderation": "unknown",
         "mobile_hosting": "unknown",
         "per_user_audio_output": "unknown",
-        "community_discovery": "unknown"
+        "community_discovery": "unknown",
+        "self_hosting_license": "free",
+        "freemium_limitations": "unknown",
+        "enterprise_tier": "unknown"
       }
     },
     {
@@ -2624,7 +2750,10 @@
         "large_community_moderation": "unknown",
         "mobile_hosting": "unknown",
         "per_user_audio_output": "unknown",
-        "community_discovery": "unknown"
+        "community_discovery": "unknown",
+        "self_hosting_license": "free",
+        "freemium_limitations": "unknown",
+        "enterprise_tier": "unknown"
       }
     },
     {
@@ -2680,7 +2809,10 @@
         "large_community_moderation": "unknown",
         "mobile_hosting": "unknown",
         "per_user_audio_output": "unknown",
-        "community_discovery": "unknown"
+        "community_discovery": "unknown",
+        "self_hosting_license": "free",
+        "freemium_limitations": "unknown",
+        "enterprise_tier": "unknown"
       },
       "feature_notes": {
         "biometric_age_verification": "'No government ID required' is a key selling point"
@@ -2739,7 +2871,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "e2e_encryption": "X3DH key agreement + symmetric ratchet for DMs. Sender Keys (Signal protocol) for group channels. AES-128-GCM for voice/video via mediasoup SFU. Server sees only ciphertext.",
@@ -2805,7 +2940,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Optional 'sealed topics' provide E2EE. Default unsealed to allow server-side features (streaming, processing). Admin cannot view sealed topics.",
@@ -2868,7 +3006,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "yes"
+        "community_discovery": "yes",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Variable - some encryption but not E2EE for all features",
@@ -2928,7 +3069,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "voice_chat": "Work in progress. WebRTC P2P (exposes IP, VPN recommended), standard WebRTC (browser), UDP (desktop). Minor bugs being fixed.",
@@ -2989,7 +3133,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "self_hostable": "P2P architecture - no traditional servers. Can self-host DHT proxy and name server. JAMS for organizations.",
@@ -3052,7 +3199,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "self_hostable": "XMPP client - requires XMPP server (Prosody, ejabberd, etc)",
@@ -3115,7 +3265,10 @@
         "large_community_moderation": "partial",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "unknown",
+        "enterprise_tier": "unknown"
       }
     },
     {
@@ -3171,7 +3324,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "commercial",
+        "freemium_limitations": "none",
+        "enterprise_tier": "yes"
       },
       "feature_notes": {
         "free_to_use": "Currently free (insider preview program)",
@@ -3233,7 +3389,10 @@
         "large_community_moderation": "unknown",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "unknown"
+        "community_discovery": "unknown",
+        "self_hosting_license": "n/a",
+        "freemium_limitations": "unknown",
+        "enterprise_tier": "unknown"
       },
       "feature_notes": {
         "free_to_use": "No email required - sign up in 30 seconds",
@@ -3293,7 +3452,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "self_hosting_license": "free",
+        "freemium_limitations": "unknown",
+        "enterprise_tier": "unknown"
       },
       "feature_notes": {
         "self_hostable": "XMPP client - requires XMPP server (Prosody, ejabberd, M-Link, etc)",
@@ -3357,7 +3519,10 @@
         "large_community_moderation": "no",
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
-        "community_discovery": "yes"
+        "community_discovery": "yes",
+        "self_hosting_license": "free",
+        "freemium_limitations": "none",
+        "enterprise_tier": "no"
       },
       "feature_notes": {
         "self_hostable": "Web app that connects to XMPP servers - can self-host both Movim and server",
