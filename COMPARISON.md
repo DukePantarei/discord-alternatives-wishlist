@@ -18,7 +18,7 @@
 ## Contents
 
 - [Matrix Clients](#matrix-clients) — 5 platforms
-- [Privacy-Focused Centralized](#privacy-focused-centralized) — 6 platforms
+- [Privacy-Focused Centralized](#privacy-focused-centralized) — 7 platforms
 - [Self-Hosted Platforms](#self-hosted-platforms) — 17 platforms
 - [Commercial Alternatives](#commercial-alternatives) — 6 platforms
 - [Legacy & Niche](#legacy--niche) — 13 platforms
@@ -35,13 +35,13 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 ### Privacy & Licensing
 
-| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **Ai Features Or Training** | **Ai Generated Codebase** |
+| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Element](https://element.io) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ † | ❓ | ❓ |
-| [Cinny](https://cinny.in) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ❓ | ❓ |
-| [Commet](https://commet.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ❓ | ❓ |
-| [FluffyChat](https://fluffychat.im) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ❓ | ❓ |
-| [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ❓ | ❓ |
+| [Element](https://element.io) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ † | ❌ † | ❌ |
+| [Cinny](https://cinny.in) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ❓ | ❌ |
+| [Commet](https://commet.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ❌ † | ❌ |
+| [FluffyChat](https://fluffychat.im) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ❓ | ❌ |
+| [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ❌ † | ❌ |
 
 ### Pricing
 
@@ -133,6 +133,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 - *Self Hosting License:* Synapse server is open source (Apache 2.0), freely self-hostable
 - *Automod:* Requires Draupnir or Mjolnir moderation bot for advanced features
 - *Raid Protection:* Available via Draupnir/Mjolnir bots
+- *Ai Features Or Training:* No built-in AI features. Self-hosted/federated means no centralized data collection for training.
 </details>
 
 <details>
@@ -158,6 +159,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 - *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
 - *Automod:* Requires Draupnir or Mjolnir moderation bot for advanced features
 - *Raid Protection:* Available via Draupnir/Mjolnir bots
+- *Ai Features Or Training:* No built-in AI features. Federated Matrix client.
 </details>
 
 <details>
@@ -179,6 +181,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 - *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
 - *Automod:* Requires Draupnir or Mjolnir moderation bot for advanced features
 - *Raid Protection:* Available via Draupnir/Mjolnir bots
+- *Ai Features Or Training:* No built-in AI features. Federated Matrix client.
 </details>
 
 ---
@@ -193,14 +196,15 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 ### Privacy & Licensing
 
-| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **Ai Features Or Training** | **Ai Generated Codebase** |
+| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ❌ † | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [Valour](https://valour.gg) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [Nerimity](https://nerimity.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❓ |
-| [Kloak](https://kloak.app) | ❌ † | ❌ | ❌ | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [Blite Chat](https://blite.chat) | ✅ † | ✅ † | ❌ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [Echoed](https://echoed.chat) | ❌ | ❌ | ❌ | ⚠️ | ✅ | ✅ | ❓ | ❌ | ❌ | ❓ | ❓ |
+| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ❌ † | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ † | ❌ |
+| [Valour](https://valour.gg) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
+| [Nerimity](https://nerimity.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
+| [Kloak](https://kloak.app) | ❌ † | ❌ | ❌ | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
+| [Blite Chat](https://blite.chat) | ✅ † | ✅ † | ❌ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ✅ † |
+| [Echoed](https://echoed.chat) | ❌ | ❌ | ❌ | ⚠️ | ✅ | ✅ | ❓ | ❌ | ❌ | ❓ | ❌ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ † | ✅ † | ❌ | ❌ † | ✅ | ✅ | ❓ | ❌ | ❌ | ❌ | ✅ † |
 
 ### Pricing
 
@@ -212,6 +216,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Kloak](https://kloak.app) | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ❓ | ❌ | ❓ | ❓ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ✅ | ✅ | ❌ | ❌ |
 
 ### Platform Support
 
@@ -223,6 +228,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Kloak](https://kloak.app) | ✅ | ⚠️ † | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ✅ | ✅ † | ❌ | ✅ † | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ❌ | ❌ | ✅ | ❌ |
 
 ### Communication
 
@@ -234,6 +240,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Kloak](https://kloak.app) | ✅ | ✅ | ✅ | ❓ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❓ |
 | [Blite Chat](https://blite.chat) | ✅ † | ✅ † | ❓ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ † | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ | ❌ | ✅ | ❓ |
 
 ### Moderation & Safety
 
@@ -245,6 +252,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Kloak](https://kloak.app) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 ### Server & Admin
 
@@ -256,6 +264,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Kloak](https://kloak.app) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 
 ### Channels & Content
 
@@ -267,6 +276,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Kloak](https://kloak.app) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ❌ | ❌ | ❌ | ❌ | ✅ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 ### Community Tools
 
@@ -278,6 +288,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Kloak](https://kloak.app) | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 
 **† Notes**
@@ -293,6 +304,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 - *Voice Chat:* Voice chat was removed during a backend audio rewrite and is not currently available
 - *Video Chat:* Video chat has never been supported
 - *Mobile App:* Beta Android and iOS apps available — iOS app especially rough, Android feels better. Sign-up verification slow (10+ hours reported) during user influx
+- *Ai Features Or Training:* No AI features currently
 </details>
 
 <details>
@@ -337,6 +349,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 - *Voice Chat:* E2EE voice via mediasoup SFU with AES-128-GCM encryption
 - *Video Chat:* E2EE video via mediasoup SFU with AES-128-GCM encryption
 - *Docker Install:* bash setup.sh provides automated setup
+- *Ai Generated Codebase:* Explicitly states 'Built heavily with AI assistance (Claude)' in documentation. Single large initial commit suggests AI-generated codebase cleaned for release.
 </details>
 
 <details>
@@ -344,6 +357,18 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 - *Description:* Privacy-focused messaging (details limited). 40 features documented in community sheet.
 - *Architecture:* Centralized, closed source
+</details>
+
+<details>
+<summary>Paracord</summary>
+
+- *Description:* AI-generated Discord alternative with critical security vulnerabilities. NOT recommended for use. Serves as cautionary example of 'vibe-coded' platforms.
+- *Architecture:* Self-hosted, closed development (single large commit)
+- *Open Source:* GitHub repository available but developed privately then dumped as single commit - no development history
+- *Ai Generated Codebase:* Confirmed AI-generated. Community security audit found 20+ vulnerabilities including RCE, unauthenticated endpoints, plaintext secrets. Developer admits 'built in a few evenings' with AI.
+- *Voice Chat:* Uses LiveKit but proxy has NO authentication - anyone can join calls silently
+- *E2E Encryption:* No E2EE. JWT secrets stored in plaintext in config file.
+- *Self Hostable:* UPnP auto-opens router ports by default, exposing server to internet without user awareness
 </details>
 
 ---
@@ -358,25 +383,25 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 ### Privacy & Licensing
 
-| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **Ai Features Or Training** | **Ai Generated Codebase** |
+| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Sharkord](https://sharkord.com) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❓ |
-| [Spacebar](https://spacebar.chat) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❓ |
-| [Fluxer](https://fluxer.app) | ✅ † | ❌ † | 🗓️ † | 🗓️ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❓ |
-| [Loqa](https://loqa.chat) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❓ |
-| [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❓ |
-| [Zulip](https://zulip.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ † | ❓ | ❓ |
-| [Rocket.Chat](https://rocket.chat) | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ † | ❓ | ❓ |
-| [Mezon](https://mezon.ai) | ✅ | ✅ | ❌ | ❓ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❓ |
-| [Nextcloud Talk](https://nextcloud.com/talk) | ✅ | ✅ | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [Snikket](https://snikket.org) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [Roomy](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❓ | ❓ |
-| [Colanode](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❓ |
-| [Raven](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❓ |
-| [Pulse Chat](https://plse.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ † | ❓ | ❓ | ❓ |
-| [Databag](https://github.com/balzack/databag) | ✅ | ✅ | ✅ † | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [Discourse](https://www.discourse.org) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [Mattermost](https://mattermost.com) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ✅ | ❓ | ❓ |
+| [Sharkord](https://sharkord.com) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❓ † |
+| [Spacebar](https://spacebar.chat) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ † | ❌ |
+| [Fluxer](https://fluxer.app) | ✅ † | ❌ † | 🗓️ † | 🗓️ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ † | ❌ |
+| [Loqa](https://loqa.chat) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
+| [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
+| [Zulip](https://zulip.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ † | ❌ † | ❌ |
+| [Rocket.Chat](https://rocket.chat) | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ † | ⚠️ † | ❌ |
+| [Mezon](https://mezon.ai) | ✅ | ✅ | ❌ | ❓ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
+| [Nextcloud Talk](https://nextcloud.com/talk) | ✅ | ✅ | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
+| [Snikket](https://snikket.org) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
+| [Roomy](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❓ | ❌ |
+| [Colanode](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❌ |
+| [Raven](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❌ |
+| [Pulse Chat](https://plse.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ † | ❓ | ❓ | ❌ |
+| [Databag](https://github.com/balzack/databag) | ✅ | ✅ | ✅ † | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
+| [Discourse](https://www.discourse.org) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ † | ❌ |
+| [Mattermost](https://mattermost.com) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ † | ❌ |
 
 ### Pricing
 
@@ -541,6 +566,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *Description:* Self-hosted chat platform designed for privacy-conscious communities.
 - *Architecture:* Self-hosted
 - *E2E Encryption:* TLS transport encryption only — not end-to-end
+- *Ai Generated Codebase:* Minimal documentation, rapid development timeline. Status unclear.
 </details>
 
 <details>
@@ -553,6 +579,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *Video Chat:* Not currently supported
 - *Discord Api Compatible:* Key differentiator — existing Discord bots work without modification
 - *Screen Sharing:* Not currently supported
+- *Ai Features Or Training:* No AI features currently
 </details>
 
 <details>
@@ -569,6 +596,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *Community Discovery:* Roadmap 2026: In-app and public (no login) community discovery for published forums
 - *Bots Automation:* Roadmap 2026: Slash commands, modals, components, interactions — Discord feature parity planned
 - *Event Scheduling:* Roadmap 2026: Scheduled events planned
+- *Ai Features Or Training:* No AI features currently
 </details>
 
 <details>
@@ -600,6 +628,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *Large Community Moderation:* Good moderation tools for productivity communities, less suited for large open social communities
 - *Message Ttl:* Configurable message retention policies per stream
 - *Migration Assistant:* Some import tools available for Slack and HipChat, limited Discord support
+- *Ai Features Or Training:* No built-in AI features. Self-hosted option means user controls data.
 </details>
 
 <details>
@@ -616,6 +645,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *Federated:* Matrix federation bridge available but not native
 - *Message Ttl:* Configurable message retention per room
 - *Freemium Limitations:* Cloud has message history limits, self-hosted is unlimited
+- *Ai Features Or Training:* AI chatbot integrations available via marketplace
 </details>
 
 <details>
@@ -704,6 +734,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *Automod:* Automatic post hiding based on flags, spam detection, new user restrictions
 - *User Timeout Mute:* User silencing and suspension features
 - *Message Reporting:* Flag system - users can flag posts for moderator review
+- *Ai Features Or Training:* No built-in AI features. Self-hosted forum software.
 </details>
 
 <details>
@@ -717,6 +748,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *List Task Channels:* Playbooks for runbooks and incident response
 - *Migration Assistant:* Import from Slack, HipChat, BizSpark
 - *Bridges:* Slack-compatible webhooks, extensive plugin ecosystem
+- *Ai Features Or Training:* AI plugin framework available, Microsoft Copilot integration planned
 </details>
 
 ---
@@ -731,14 +763,14 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 ### Privacy & Licensing
 
-| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **Ai Features Or Training** | **Ai Generated Codebase** |
+| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Discord](https://discord.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ✅ † | ❌ † | ❓ | ❓ |
-| [Root](https://rootapp.com) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ † | ⚠️ | ❌ | ❓ | ❓ | ❓ |
-| [Telegram](https://telegram.org) | ⚠️ † | ❌ | ❌ | ⚠️ † | ⚠️ † | ❌ | ⚠️ | ❌ | ✅ † | ❓ | ❓ |
-| [GameVox](https://gamevox.com) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❓ |
-| [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ⚠️ † | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❓ | ❓ |
-| [Osmium](https://osmium.chat) | ❌ † | ❌ | ❌ | ❓ | ✅ | ❓ | ❓ | ❌ | ❌ | ❓ | ❓ |
+| [Discord](https://discord.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ✅ † | ❌ † | ✅ † | ❌ |
+| [Root](https://rootapp.com) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ † | ⚠️ | ❌ | ❓ | ❓ | ❌ |
+| [Telegram](https://telegram.org) | ⚠️ † | ❌ | ❌ | ⚠️ † | ⚠️ † | ❌ | ⚠️ | ❌ | ✅ † | ⚠️ † | ❌ |
+| [GameVox](https://gamevox.com) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
+| [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ⚠️ † | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
+| [Osmium](https://osmium.chat) | ❌ † | ❌ | ❌ | ❓ | ✅ | ❓ | ❓ | ❌ | ❌ | ❓ | ❌ |
 
 ### Pricing
 
@@ -844,6 +876,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 - *Message Reporting:* Users can report messages, admins review in safety dashboard
 - *Age Verification:* Planned: Teen accounts with restricted features. Requires government ID or face scan for age verification (UK pilot 2025)
 - *Id Verification:* Planned: Face scanning and government ID verification for age-gating. Privacy concerns raised by community.
+- *Ai Features Or Training:* Clyde AI chatbot (discontinued 2024), conversation summaries in testing. May train on user data.
 </details>
 
 <details>
@@ -876,6 +909,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 - *System Audio Sharing:* System audio sharing in group chats has echo cancellation issues — users can hear themselves, audio cuts in and out
 - *Freemium Limitations:* Premium adds faster downloads, larger uploads (4GB), exclusive stickers, ads removal
 - *Raid Protection:* Anti-spam features, aggressive join requirements for large groups
+- *Ai Features Or Training:* Supports AI bots via bot ecosystem, no native AI features
 </details>
 
 <details>
@@ -918,21 +952,21 @@ Included for historical context or specific use cases. Generally not recommended
 
 ### Privacy & Licensing
 
-| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **Ai Features Or Training** | **Ai Generated Codebase** |
+| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [TeamSpeak](https://teamspeak.com) | ❌ | ✅ † | ❌ | ❌ † | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ❓ | ❓ |
-| [Mumble](https://mumble.info) | ✅ | ✅ | ❌ | ✅ † | ✅ | ✅ | ✅ | ❌ | ✅ † | ❓ | ❓ |
-| [Signal](https://signal.org) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ † | ❓ | ❓ |
-| [Skype](https://skype.com) | ❌ | ❌ | ❌ | ⚠️ † | ⚠️ † | ❌ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [SimpleX Chat](https://simplex.chat) | ✅ | ✅ | ❌ † | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❓ | ❓ |
-| [Quiet](https://tryquiet.org) | ✅ | ❌ † | ❌ † | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [Campfire](https://basecamp.com/retired/campfire) | ❌ | ❌ | ❌ | ❌ | ❓ | ❓ | ❓ | ❌ | ❌ | ❓ | ❓ |
-| [Oldcord](https://oldcordapp.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [Jami](https://jami.net) | ✅ | ⚠️ † | ❌ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [Gajim](https://gajim.org) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [Swift IM](https://swift.im) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [Movim](https://movim.eu) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [Ventrilo](https://www.ventrilo.com) | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❓ |
+| [TeamSpeak](https://teamspeak.com) | ❌ | ✅ † | ❌ | ❌ † | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ † | ❌ |
+| [Mumble](https://mumble.info) | ✅ | ✅ | ❌ | ✅ † | ✅ | ✅ | ✅ | ❌ | ✅ † | ❌ † | ❌ |
+| [Signal](https://signal.org) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ † | ❌ † | ❌ |
+| [Skype](https://skype.com) | ❌ | ❌ | ❌ | ⚠️ † | ⚠️ † | ❌ | ✅ | ❌ | ❌ | ❓ | ❌ |
+| [SimpleX Chat](https://simplex.chat) | ✅ | ✅ | ❌ † | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ † | ❌ |
+| [Quiet](https://tryquiet.org) | ✅ | ❌ † | ❌ † | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
+| [Campfire](https://basecamp.com/retired/campfire) | ❌ | ❌ | ❌ | ❌ | ❓ | ❓ | ❓ | ❌ | ❌ | ❓ | ❌ |
+| [Oldcord](https://oldcordapp.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
+| [Jami](https://jami.net) | ✅ | ⚠️ † | ❌ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
+| [Gajim](https://gajim.org) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
+| [Swift IM](https://swift.im) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
+| [Movim](https://movim.eu) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
+| [Ventrilo](https://www.ventrilo.com) | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ † | ❌ |
 
 ### Pricing
 
@@ -1075,6 +1109,7 @@ Included for historical context or specific use cases. Generally not recommended
 - *Screen Sharing:* P2P streaming only supports one-to-one, not one-to-many from voice channel. Group chat streaming works — can stream to group chat while talking in server simultaneously. Allows custom bitrate settings and 60fps streaming. Supports streaming multiple windows simultaneously. Connection can be slow/buggy (10+ minute waits, duplicate users reported).
 - *Self Hostable:* Port forwarding required for self-hosting
 - *Self Hosting License:* Free server for non-commercial use (32 slots), commercial license required for larger deployments
+- *Ai Features Or Training:* No AI features, voice-focused legacy platform
 </details>
 
 <details>
@@ -1086,6 +1121,7 @@ Included for historical context or specific use cases. Generally not recommended
 - *Text Channels:* Very basic text messaging only
 - *Per User Audio Output:* Per-user volume adjustment supported natively
 - *Message Ttl:* Text chat history not persisted long-term by default
+- *Ai Features Or Training:* No AI features, voice-focused legacy platform
 </details>
 
 <details>
@@ -1097,6 +1133,7 @@ Included for historical context or specific use cases. Generally not recommended
 - *Requires Phone Number:* Phone number required for registration
 - *Web App:* Desktop-linked web interface only, no standalone web app
 - *Message Ttl:* Disappearing messages supported with configurable TTL per conversation
+- *Ai Features Or Training:* Explicitly privacy-focused, no AI features, no data collection for training
 </details>
 
 <details>
@@ -1121,6 +1158,7 @@ Included for historical context or specific use cases. Generally not recommended
 - *Federated:* Decentralized but not federated — no user identifiers, P2P via relay servers
 - *Invite Links Guest Access:* One-time connection links — no persistent usernames
 - *Text Channels:* Only DMs and group chats — no server/channel structure
+- *Ai Features Or Training:* No AI features, no user profiling, no data collection
 </details>
 
 <details>
@@ -1212,6 +1250,7 @@ Included for historical context or specific use cases. Generally not recommended
 - *Freemium Limitations:* Free tier: 8 slots max. Paid: up to 400 slots per server.
 - *Voice Chat:* High-quality Speex codec with surround sound positioning. Known for superior audio quality.
 - *Per User Audio Output:* Individual volume control and audio settings per user
+- *Ai Features Or Training:* No AI features, voice-focused legacy platform
 </details>
 
 ---
@@ -1226,16 +1265,16 @@ Platforms that are no longer active. Included for historical reference and featu
 
 ### Privacy & Licensing
 
-| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **Ai Features Or Training** | **Ai Generated Codebase** |
+| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Guilded (discontinued)](https://guilded.gg) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ⚠️ | ❌ | ❌ | ❓ | ❓ |
-| [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ | ❓ |
-| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❓ | ❓ |
-| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ❌ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ | ❓ |
-| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ | ❓ |
-| [Razer Comms](https://www.razer.com/) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❓ | ❓ |
-| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❓ | ❓ |
-| [TeaSpeak](https://github.com/TeaSpeak) | ✅ † | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❓ |
+| [Guilded (discontinued)](https://guilded.gg) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
+| [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ | ❌ |
+| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ |
+| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ❌ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ | ❌ |
+| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ | ❌ |
+| [Razer Comms](https://www.razer.com/) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ |
+| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ |
+| [TeaSpeak](https://github.com/TeaSpeak) | ✅ † | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
 
 ### Pricing
 
@@ -1424,14 +1463,14 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 ### Privacy & Licensing
 
-| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **Ai Features Or Training** | **Ai Generated Codebase** |
+| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Pumble](https://pumble.com) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [Chanty](https://chanty.com) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [Virola](https://virola.io) | ❌ | ✅ | ❌ | ❌ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ |
-| [Slack](https://slack.com) | ❌ | ❌ | ❌ | ❌ † | ✅ | ❌ | ✅ | ❌ | ✅ | ❓ | ❓ |
-| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ❌ | ❌ | ✅ † | ⚠️ † | ✅ | ❌ | ✅ | ❌ | ✅ | ❓ | ❓ |
-| [Amazon Chime](https://aws.amazon.com/chime/) | ❌ | ❌ | ❌ | ❌ | ✅ | ⚠️ † | ✅ | ❌ | ✅ | ❓ | ❓ |
+| [Pumble](https://pumble.com) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ❓ | ❌ |
+| [Chanty](https://chanty.com) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ❓ | ❌ |
+| [Virola](https://virola.io) | ❌ | ✅ | ❌ | ❌ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
+| [Slack](https://slack.com) | ❌ | ❌ | ❌ | ❌ † | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ † | ❌ |
+| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ❌ | ❌ | ✅ † | ⚠️ † | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ † | ❌ |
+| [Amazon Chime](https://aws.amazon.com/chime/) | ❌ | ❌ | ❌ | ❌ | ✅ | ⚠️ † | ✅ | ❌ | ✅ | ❓ | ❌ |
 
 ### Pricing
 
@@ -1555,6 +1594,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 - *Role Management:* Workspace owner/admin/member roles, channel-specific permissions
 - *List Task Channels:* Lists feature for simple task tracking, integrates with external tools
 - *Docs Wiki Channels:* Canvas feature for collaborative docs, not full wiki
+- *Ai Features Or Training:* Slack AI: search, summaries, thread recaps, workflow suggestions. Trains on workspace data.
 </details>
 
 <details>
@@ -1571,6 +1611,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 - *Docs Wiki Channels:* Wiki tab available, plus full SharePoint integration for knowledge bases
 - *Rich Calendar Tools:* Full Outlook calendar integration with meeting scheduling, recurring events, room booking
 - *Migration Assistant:* Import from Slack available for Enterprise customers
+- *Ai Features Or Training:* Copilot integration: meeting notes, chat summaries, action items. Trains on Microsoft 365 data.
 </details>
 
 <details>
