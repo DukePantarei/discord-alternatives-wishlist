@@ -10,6 +10,12 @@
 This repository is a **structured, community-maintained comparison** of Discord alternatives across 22 platforms and 44 features so far. It's designed to help you make an informed decision about where to move your community.
 
 I've compared platforms across six categories:
+
+## Current State
+
+- **29 platforms in the JSON**
+- **45 features tracked**
+- **6 categories** (listed below)
 - **Matrix Clients** — Decentralized, federated, open protocol (Element, Cinny, Commet, FluffyChat, SchildiChat)
 - **Privacy-Focused Centralized** — Open source but centrally hosted (Stoat, Valour, Nerimity)
 - **Self-Hosted Platforms** — Run your own instance (Sharkord, Spacebar, Fluxxer, Loqa, DCTS, Zulip, Rocket.chat, Discourse, Mattermost)
@@ -17,11 +23,6 @@ I've compared platforms across six categories:
 - **Legacy & Niche** — Historical context and specific use cases (TeamSpeak, Mumble, Signal, Ventrilo)
 - **Discontinued** — Platforms that were once active that are no longer available, these are included to show track various features and derive inspiration (Guilded, Roger Wilco, Xfire, RaidCall, Dolby Axon, Razer Comms, Curse Voice, TeaSpeak)
 
-## Current State
-
-- 29 platforms in the JSON
-- 45 features tracked
-- 6 categories (Matrix Clients, Privacy-Focused Centralized, Self-Hosted, Commercial, Legacy & Niche, Discontinued)
 
 **If you're a user:** Browse [COMPARISON.md](COMPARISON.md) to see detailed feature matrices for every platform. Vote on features you want via GitHub Discussions.
 
