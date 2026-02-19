@@ -39,9 +39,12 @@ FEATURE_GROUPS = {
         "biometric_age_verification",
         "message_ttl",
     ],
-    "Pricing": [
+    "Pricing & Licensing": [
         "free_to_use",
         "no_premium_tier",
+        "self_hosting_license",
+        "freemium_limitations",
+        "enterprise_tier",
     ],
     "Platform Support": [
         "web_app",
@@ -62,26 +65,30 @@ FEATURE_GROUPS = {
         "persistent_voice_channels",
         "per_user_audio_output",
     ],
-    "Features": [
-        "bots_automation",
-        "webhooks",
+    "Server & Admin": [
         "role_management",
         "server_organization",
-        "event_scheduling",
-        "raid_planner",
-        "invite_links_guest_access",
         "admin_gui",
+        "large_community_moderation",
+        "invite_links_guest_access",
         "migration_assistant",
         "bridges",
         "discord_api_compatible",
+        "community_discovery",
+    ],
+    "Channels & Content": [
         "docs_wiki_channels",
         "list_task_channels",
         "media_gallery_channels",
         "scheduled_announcements",
+        "event_scheduling",
+    ],
+    "Community Tools": [
+        "bots_automation",
+        "webhooks",
+        "raid_planner",
         "tournament_brackets",
         "rich_calendar_tools",
-        "large_community_moderation",
-        "community_discovery",
     ],
 }
 
