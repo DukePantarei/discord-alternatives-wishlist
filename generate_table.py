@@ -38,6 +38,8 @@ FEATURE_GROUPS = {
         "gdpr_compliant",
         "biometric_age_verification",
         "message_ttl",
+        "ai_features_or_training",
+        "ai_generated_codebase",
     ],
     "Pricing": [
         "free_to_use",
