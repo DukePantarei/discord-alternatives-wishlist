@@ -7,11 +7,11 @@
 
 ## What Is This?
 
-This repository is a **structured, community-maintained comparison** of Discord alternatives across **58 platforms** and **48 features**. It's designed to help you make an informed decision about where to move your community.
+This repository is a **structured, community-maintained comparison** of Discord alternatives across **61 platforms** and **48 features**. It's designed to help you make an informed decision about where to move your community.
 
 ## Current State
 
-- **58 platforms** tracked across **7 categories**
+- **61 platforms** tracked across **7 categories**
 - **48 features** organized into **7 logical groups**
 - **Auto-generated comparison tables** from a single source of truth (`platforms.json`)
 
@@ -22,7 +22,7 @@ This repository is a **structured, community-maintained comparison** of Discord 
 - **Self-Hosted Platforms** (18) — Run your own instance (Spacebar, Fluxer, Zulip, Rocket.Chat, Discourse, Mattermost, Sharkord, Loqa, DCTS, Mezon, Nextcloud Talk, Snikket, Databag, Pulse, Roomy, Colanode, Raven)
 - **Commercial Alternatives** (6) — Polished products with varying privacy tradeoffs (Discord, Root, Telegram, GameVox, Steam Chat, Osmium)
 - **Legacy & Niche** (12) — Historical context and specific use cases (TeamSpeak, Mumble, Signal, Ventrilo, Skype, SimpleX Chat, Quiet, Campfire, Oldcord, Jami, Gajim, Swift IM, Movim)
-- **Business Productivity** (3) — Team collaboration tools (Pumble, Chanty, Virola)
+- **Business Productivity** (6) — Team collaboration tools (Slack, Microsoft Teams, Amazon Chime, Pumble, Chanty, Virola)
 - **Discontinued** (8) — Platforms no longer active, included for historical reference (Guilded, Roger Wilco, Xfire, RaidCall, Dolby Axon, Razer Comms, Curse Voice, TeaSpeak)
 
 **If you're a user:** Browse [COMPARISON.md](COMPARISON.md) to see detailed feature matrices for every platform. Vote on features you want via GitHub Discussions.
@@ -156,6 +156,7 @@ All platform data lives in **`platforms.json`** — a single source of truth tha
 - [Original Reddit discussion (r/matrixdotorg)](https://www.reddit.com/r/matrixdotorg/comments/1r50sqi/)
 - [In Search of a Discord Replacement by James Liu](https://no-bull.sh/blog/2026/02/16/in-search-of-a-discord-replacement/)
 - [Discord Alternatives, Ranked by Michael Taggart](https://taggart-tech.com/discord-alternatives/)
+- [Discord Replacers by Jay Gatsby](https://docs.google.com/spreadsheets/d/14vicw-V9Z5m7ckuburP5wxyDIIb_fFJFEjnxxHk8qRw/edit?gid=0#gid=0)
 
 ### Platform Documentation
 - [Matrix.org](https://matrix.org) — Federated protocol
