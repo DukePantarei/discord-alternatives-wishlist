@@ -889,7 +889,8 @@
         "voice_chat": "Voice chat was removed during a backend audio rewrite and is not currently available",
         "video_chat": "Video chat has never been supported",
         "mobile_app": "Beta Android and iOS apps available — iOS app especially rough, Android feels better. Sign-up verification slow (10+ hours reported) during user influx",
-        "ai_features_or_training": "No AI features currently"
+        "ai_features_or_training": "No AI features currently",
+        "ai_generated_codebase": "NOT vibe-coded. Started in 2021 before consumer AI coding tools existed. Maintainer explicitly reverted all AI-generated code commits in 2025 after community concerns. Has strong anti-AI stance."
       }
     },
     {
