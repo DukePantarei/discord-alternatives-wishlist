@@ -300,6 +300,14 @@ def main():
         notes = build_notes_for_category(cat_platforms)
         if notes:
             lines += notes
+        
+        # Add back to top link for easier navigation
+        lines += [
+            "---",
+            "",
+            "[↑ Back to top](#platform-comparison)",
+            "",
+        ]
 
     # ── Footer ────────────────────────────────────────────────────────────────
     lines += [
