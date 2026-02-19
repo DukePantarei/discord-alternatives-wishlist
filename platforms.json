@@ -274,12 +274,12 @@
     {
       "key": "self_hosting_license",
       "label": "Self-Hosting License",
-      "description": "Can you self-host without commercial license restrictions?"
+      "description": "Can you self-host without commercial license restrictions? Yes = freely self-hostable (open source), Partial = requires commercial license, No = not self-hostable"
     },
     {
       "key": "freemium_limitations",
       "label": "Freemium Limitations",
-      "description": "Does the free tier have significant limitations (message history, users, features)?"
+      "description": "Does the free tier have significant limitations? No = no limitations, Partial = minor limitations (storage, features), Yes = significant limitations (message history caps, user limits)"
     },
     {
       "key": "enterprise_tier",
@@ -351,8 +351,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "yes",
         "community_discovery": "yes",
-        "self_hosting_license": "n/a",
-        "freemium_limitations": "n/a",
+        "self_hosting_license": "no",
+        "freemium_limitations": "partial",
         "enterprise_tier": "unknown"
       },
       "feature_notes": {
@@ -366,7 +366,8 @@
         "per_user_audio_output": "Each user can set 0–200% individual volume per member in voice channels — a much-requested feature missing from most alternatives",
         "large_community_moderation": "Comprehensive automod, audit logs, raid protection, timeout, mass prune — benchmark for large community moderation",
         "message_ttl": "No server-wide TTL — messages persist indefinitely unless manually deleted",
-        "community_discovery": "In-app server discovery plus extensive third-party directories like Disboard, top.gg, and discord.me"
+        "community_discovery": "In-app server discovery plus extensive third-party directories like Disboard, top.gg, and discord.me",
+        "freemium_limitations": "Nitro unlocks higher upload limits, better streaming quality, server boosts"
       }
     },
     {
@@ -423,8 +424,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "partial",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "yes"
       },
       "feature_notes": {
@@ -436,7 +437,8 @@
         "message_ttl": "Matrix protocol supports retention policies but implementation varies by homeserver and client",
         "persistent_voice_channels": "MatrixRTC supports persistent voice rooms but experience varies by client",
         "large_community_moderation": "Draupnir and Mjolnir bots provide moderation at scale but require setup",
-        "community_discovery": "matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients"
+        "community_discovery": "matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients",
+        "self_hosting_license": "Synapse server is open source (Apache 2.0), freely self-hostable"
       }
     },
     {
@@ -493,8 +495,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "partial",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -558,8 +560,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "partial",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -624,8 +626,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "partial",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -687,8 +689,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "partial",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -751,8 +753,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -818,8 +820,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -883,8 +885,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -945,8 +947,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -1007,8 +1009,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -1073,8 +1075,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "planned",
-        "self_hosting_license": "n/a",
-        "freemium_limitations": "none",
+        "self_hosting_license": "no",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -1143,8 +1145,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -1205,8 +1207,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -1267,8 +1269,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "unknown",
         "community_discovery": "unknown",
-        "self_hosting_license": "n/a",
-        "freemium_limitations": "none",
+        "self_hosting_license": "no",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -1333,8 +1335,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "partial",
         "community_discovery": "yes",
-        "self_hosting_license": "n/a",
-        "freemium_limitations": "none",
+        "self_hosting_license": "no",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -1401,8 +1403,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "yes",
-        "self_hosting_license": "n/a",
-        "freemium_limitations": "minor",
+        "self_hosting_license": "no",
+        "freemium_limitations": "partial",
         "enterprise_tier": "unknown"
       },
       "feature_notes": {
@@ -1416,7 +1418,8 @@
         "message_ttl": "Auto-delete timers available per chat (1 day, 1 week, 1 month)",
         "community_discovery": "Search for public channels and groups built into the app",
         "video_chat": "Group video chat bitrate described as poor quality",
-        "system_audio_sharing": "System audio sharing in group chats has echo cancellation issues — users can hear themselves, audio cuts in and out"
+        "system_audio_sharing": "System audio sharing in group chats has echo cancellation issues — users can hear themselves, audio cuts in and out",
+        "freemium_limitations": "Premium adds faster downloads, larger uploads (4GB), exclusive stickers, ads removal"
       }
     },
     {
@@ -1473,8 +1476,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "yes",
         "community_discovery": "no",
-        "self_hosting_license": "commercial",
-        "freemium_limitations": "n/a",
+        "self_hosting_license": "partial",
+        "freemium_limitations": "unknown",
         "enterprise_tier": "unknown"
       },
       "feature_notes": {
@@ -1483,7 +1486,8 @@
         "no_premium_tier": "Free for small servers, licensing required for larger deployments",
         "per_user_audio_output": "Per-client volume adjustment supported",
         "screen_sharing": "P2P streaming only supports one-to-one, not one-to-many from voice channel. Group chat streaming works — can stream to group chat while talking in server simultaneously. Allows custom bitrate settings and 60fps streaming. Supports streaming multiple windows simultaneously. Connection can be slow/buggy (10+ minute waits, duplicate users reported).",
-        "self_hostable": "Port forwarding required for self-hosting"
+        "self_hostable": "Port forwarding required for self-hosting",
+        "self_hosting_license": "Free server for non-commercial use (32 slots), commercial license required for larger deployments"
       }
     },
     {
@@ -1540,8 +1544,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "yes",
         "community_discovery": "no",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -1605,8 +1609,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "n/a",
-        "freemium_limitations": "none",
+        "self_hosting_license": "no",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -1670,8 +1674,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "yes"
       },
       "feature_notes": {
@@ -1739,8 +1743,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "free",
-        "freemium_limitations": "n/a",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "unknown",
         "enterprise_tier": "unknown"
       },
       "feature_notes": {
@@ -1751,7 +1755,8 @@
         "persistent_voice_channels": "No persistent always-on voice channels — calls are initiated per conversation",
         "no_premium_tier": "Enterprise license required for voice/video and >50 users",
         "federated": "Matrix federation bridge available but not native",
-        "message_ttl": "Configurable message retention per room"
+        "message_ttl": "Configurable message retention per room",
+        "freemium_limitations": "Cloud has message history limits, self-hosted is unlimited"
       }
     },
     {
@@ -1808,8 +1813,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "partial",
-        "self_hosting_license": "n/a",
-        "freemium_limitations": "none",
+        "self_hosting_license": "no",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -1872,8 +1877,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "yes",
-        "self_hosting_license": "n/a",
-        "freemium_limitations": "none",
+        "self_hosting_license": "no",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -1935,7 +1940,7 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "yes",
         "community_discovery": "no",
-        "self_hosting_license": "n/a",
+        "self_hosting_license": "no",
         "freemium_limitations": "unknown",
         "enterprise_tier": "unknown"
       },
@@ -2003,8 +2008,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "yes",
         "community_discovery": "yes",
-        "self_hosting_license": "n/a",
-        "freemium_limitations": "n/a",
+        "self_hosting_license": "no",
+        "freemium_limitations": "unknown",
         "enterprise_tier": "unknown"
       },
       "feature_notes": {
@@ -2067,8 +2072,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "unknown",
         "community_discovery": "no",
-        "self_hosting_license": "n/a",
-        "freemium_limitations": "none",
+        "self_hosting_license": "no",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -2131,8 +2136,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "unknown",
         "community_discovery": "no",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       }
     },
@@ -2190,8 +2195,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -2254,8 +2259,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "n/a",
-        "freemium_limitations": "n/a",
+        "self_hosting_license": "no",
+        "freemium_limitations": "unknown",
         "enterprise_tier": "yes"
       },
       "feature_notes": {
@@ -2316,8 +2321,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "n/a",
-        "freemium_limitations": "n/a",
+        "self_hosting_license": "no",
+        "freemium_limitations": "unknown",
         "enterprise_tier": "yes"
       },
       "feature_notes": {
@@ -2379,7 +2384,7 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "free",
+        "self_hosting_license": "yes",
         "freemium_limitations": "unknown",
         "enterprise_tier": "yes"
       },
@@ -2448,8 +2453,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -2511,8 +2516,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "n/a",
-        "freemium_limitations": "none",
+        "self_hosting_license": "no",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -2574,8 +2579,8 @@
         "mobile_hosting": "unknown",
         "per_user_audio_output": "unknown",
         "community_discovery": "unknown",
-        "self_hosting_license": "free",
-        "freemium_limitations": "n/a",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "unknown",
         "enterprise_tier": "unknown"
       }
     },
@@ -2633,8 +2638,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "n/a",
-        "freemium_limitations": "n/a",
+        "self_hosting_license": "no",
+        "freemium_limitations": "unknown",
         "enterprise_tier": "unknown"
       }
     },
@@ -2692,7 +2697,7 @@
         "mobile_hosting": "unknown",
         "per_user_audio_output": "unknown",
         "community_discovery": "unknown",
-        "self_hosting_license": "free",
+        "self_hosting_license": "yes",
         "freemium_limitations": "unknown",
         "enterprise_tier": "unknown"
       }
@@ -2751,7 +2756,7 @@
         "mobile_hosting": "unknown",
         "per_user_audio_output": "unknown",
         "community_discovery": "unknown",
-        "self_hosting_license": "free",
+        "self_hosting_license": "yes",
         "freemium_limitations": "unknown",
         "enterprise_tier": "unknown"
       }
@@ -2810,7 +2815,7 @@
         "mobile_hosting": "unknown",
         "per_user_audio_output": "unknown",
         "community_discovery": "unknown",
-        "self_hosting_license": "free",
+        "self_hosting_license": "yes",
         "freemium_limitations": "unknown",
         "enterprise_tier": "unknown"
       },
@@ -2872,8 +2877,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -2941,8 +2946,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -3007,8 +3012,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "yes",
-        "self_hosting_license": "n/a",
-        "freemium_limitations": "none",
+        "self_hosting_license": "no",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -3070,8 +3075,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -3134,8 +3139,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "n/a",
-        "freemium_limitations": "none",
+        "self_hosting_license": "no",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -3200,8 +3205,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
@@ -3266,7 +3271,7 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "n/a",
+        "self_hosting_license": "no",
         "freemium_limitations": "unknown",
         "enterprise_tier": "unknown"
       }
@@ -3325,15 +3330,16 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "commercial",
-        "freemium_limitations": "none",
+        "self_hosting_license": "partial",
+        "freemium_limitations": "no",
         "enterprise_tier": "yes"
       },
       "feature_notes": {
         "free_to_use": "Currently free (insider preview program)",
         "list_task_channels": "Integrated Kanban board and issue tracking - can create tasks from messages",
         "threads_forums": "Discussion threads within chat rooms",
-        "e2e_encryption": "Self-hosted with data on your servers, but not E2EE"
+        "e2e_encryption": "Self-hosted with data on your servers, but not E2EE",
+        "self_hosting_license": "Currently free (insider preview), closed source, future licensing TBD"
       }
     },
     {
@@ -3390,7 +3396,7 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "unknown",
-        "self_hosting_license": "n/a",
+        "self_hosting_license": "no",
         "freemium_limitations": "unknown",
         "enterprise_tier": "unknown"
       },
@@ -3453,7 +3459,7 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "no",
-        "self_hosting_license": "free",
+        "self_hosting_license": "yes",
         "freemium_limitations": "unknown",
         "enterprise_tier": "unknown"
       },
@@ -3520,8 +3526,8 @@
         "mobile_hosting": "no",
         "per_user_audio_output": "no",
         "community_discovery": "yes",
-        "self_hosting_license": "free",
-        "freemium_limitations": "none",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "no",
         "enterprise_tier": "no"
       },
       "feature_notes": {
