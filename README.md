@@ -7,20 +7,23 @@
 
 ## What Is This?
 
-This repository is a **structured, community-maintained comparison** of Discord alternatives across 22 platforms and 44 features so far. It's designed to help you make an informed decision about where to move your community.
+This repository is a **structured, community-maintained comparison** of Discord alternatives across **50 platforms** and **48 features**. It's designed to help you make an informed decision about where to move your community.
 
 ## Current State
 
-- **29 platforms in the JSON**
-- **45 features tracked**
-- **6 categories** (listed below)
-- **Matrix Clients** — Decentralized, federated, open protocol (Element, Cinny, Commet, FluffyChat, SchildiChat)
-- **Privacy-Focused Centralized** — Open source but centrally hosted (Stoat, Valour, Nerimity)
-- **Self-Hosted Platforms** — Run your own instance (Sharkord, Spacebar, Fluxxer, Loqa, DCTS, Zulip, Rocket.chat, Discourse, Mattermost)
-- **Commercial Alternatives** — Polished products with varying privacy tradeoffs (Discord, Root, Telegram)
-- **Legacy & Niche** — Historical context and specific use cases (TeamSpeak, Mumble, Signal, Ventrilo)
-- **Discontinued** — Platforms that were once active that are no longer available, these are included to show track various features and derive inspiration (Guilded, Roger Wilco, Xfire, RaidCall, Dolby Axon, Razer Comms, Curse Voice, TeaSpeak)
+- **50 platforms** tracked across **7 categories**
+- **48 features** organized into **7 logical groups**
+- **Auto-generated comparison tables** from a single source of truth (`platforms.json`)
 
+### Categories
+
+- **Matrix Clients** (5) — Decentralized, federated, open protocol (Element, Cinny, Commet, FluffyChat, SchildiChat)
+- **Privacy-Focused Centralized** (6) — Open source but centrally hosted (Stoat, Valour, Nerimity, Kloak, Blite Chat, Echoed)
+- **Self-Hosted Platforms** (16) — Run your own instance (Spacebar, Fluxer, Zulip, Rocket.Chat, Sharkord, Loqa, DCTS, Mattermost, Discourse, Mezon, Nextcloud Talk, Snikket, Databag, Pulse, Roomy, Colanode, Raven)
+- **Commercial Alternatives** (6) — Polished products with varying privacy tradeoffs (Discord, Root, Telegram, GameVox, Steam Chat, Osmium)
+- **Legacy & Niche** (11) — Historical context and specific use cases (TeamSpeak, Mumble, Signal, Ventrilo, Skype, SimpleX Chat, Quiet, Campfire, Oldcord, Jami, Gajim, Swift IM, Movim)
+- **Business Productivity** (3) — Team collaboration tools (Pumble, Chanty, Virola)
+- **Discontinued** (3) — Platforms no longer active, included for historical reference (Guilded, Roger Wilco, Xfire)
 
 **If you're a user:** Browse [COMPARISON.md](COMPARISON.md) to see detailed feature matrices for every platform. Vote on features you want via GitHub Discussions.
 
@@ -34,12 +37,13 @@ Not sure where to start? Here are some common paths:
 
 | If you want... | Try... | Why |
 |---|---|---|
-| **Easiest Discord transition** | Stoat (formerly Revolt) or Fluxxer| Most Discord-like UI and features, open source |
+| **Easiest Discord transition** | Stoat (formerly Revolt) or Fluxer | Most Discord-like UI and features, open source |
 | **True decentralization** | Matrix (via Commet or Element) | Federated protocol — no single company can shut it down |
-| **Best for large communities (1000+ users)** | Zulip + Jitsi | Topic-based threading scales well, strong moderation tools |
+| **Best for large communities (1000+ users)** | Zulip | Topic-based threading scales well, strong moderation tools |
 | **Self-host without technical hassle** | Zulip or Rocket.Chat | Mature platforms with good docs and Docker support |
-| **Maximum privacy** | Matrix or Mumble | Matrix has E2EE by default; Mumble has true E2EE voice |
+| **Maximum privacy** | Matrix or SimpleX Chat | Matrix has E2EE by default; SimpleX has no user identifiers |
 | **Discord bot compatibility** | Spacebar | Only platform where existing Discord bots work without modification |
+| **Gaming communities** | Steam Chat or TeamSpeak | Steam Chat has 350M+ gamers; TeamSpeak has low-latency voice |
 
 **See the full comparison:** [COMPARISON.md](COMPARISON.md)
 
@@ -47,30 +51,43 @@ Not sure where to start? Here are some common paths:
 
 ## Key Features Tracked
 
-**Privacy & Licensing**
+All features are organized into **7 logical groups** for easier comparison:
+
+### Privacy & Licensing (9 features)
 - Open source, self-hostable, federated
 - End-to-end encryption, no ads, no tracking, GDPR compliance
-- Message TTL / auto-expiry
+- Biometric age verification, message TTL / auto-expiry
 
-**Communication**
-- Voice, video, screen sharing (with system audio)
-- Persistent voice channels (hop-in/out anytime vs call-based)
-- Text channels, file sharing, GIF/embed support
-- Per-user audio volume control
+### Pricing & Licensing (5 features)
+- Free to use, no premium tier required
+- Self-hosting license (freely self-hostable vs commercial license)
+- Freemium limitations, enterprise tier availability
 
-**Features**
-- Bots & automation, webhooks, role management
-- Event scheduling, raid planners, rich calendar tools
-- Docs/wiki channels, task lists, media galleries
-- Large community moderation tools (automod, mass ban, audit logs)
-- Migration assistants, bridges to other platforms
-
-**Platform Support**
+### Platform Support (5 features)
 - Web app, desktop app, mobile app
 - Docker install, mobile device hosting
 
-**Pricing**
-- Free to use, no premium tier required
+### Communication (10 features)
+- Voice, video, screen sharing (with system audio)
+- Text channels, file sharing, GIF/embed support
+- Threads & forums, persistent voice channels
+- Per-user audio output control
+
+### Server & Admin (9 features)
+- Role management, server organization, admin GUI
+- Large community moderation tools
+- Invite links & guest access, migration assistant
+- Bridges to other platforms, Discord API compatibility
+- Community discovery
+
+### Channels & Content (5 features)
+- Docs/wiki channels, list/task channels, media galleries
+- Scheduled announcements, event scheduling
+
+### Community Tools (5 features)
+- Bots & automation, webhooks
+- Raid planner / group activity tools
+- Tournament brackets, rich calendar tools
 
 ---
 
@@ -111,23 +128,23 @@ All platform data lives in **`platforms.json`** — a single source of truth tha
 
 ### Community Evaluations
 - [Original Reddit discussion (r/matrixdotorg)](https://www.reddit.com/r/matrixdotorg/comments/1r50sqi/)
-- [In Search of a Discord Replacement](https://no-bull.sh/blog/2026/02/16/in-search-of-a-discord-replacement/)
+- [In Search of a Discord Replacement by James Liu](https://no-bull.sh/blog/2026/02/16/in-search-of-a-discord-replacement/)
+- [Discord Alternatives, Ranked by Michael Taggart](https://taggart-tech.com/discord-alternatives/)
 
 ### Platform Documentation
-- [Matrix.org](https://matrix.org) 
-- [matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
-- [Stoat](https://stoat.chat) 
-- [Zulip](https://zulip.com) 
-- [Rocket.Chat](https://rocket.chat) 
+- [Matrix.org](https://matrix.org) — Federated protocol
+- [matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy) — Easy Matrix self-hosting
+- [Stoat](https://stoat.chat) — Open source Discord alternative
+- [Zulip](https://zulip.com) — Topic-based threading for communities
+- [Rocket.Chat](https://rocket.chat) — Self-hosted team collaboration
 
 ### Other Comparisons
 - [Discord Alternatives by Hemeka](https://github.com/Hemeka/Discord-Alternatives)
 - [Self-hosted alternatives by Vigno04](https://github.com/Vigno04/discord-selfhosted-alternatives)
-- [So you need a Discord alternative, alternate, workalike, imitation, clone, equivalent, replacement, substitute, etc. by u/firebreathingbunny](https://www.reddit.com/r/TechQA/comments/1r2frya/so_you_need_a_discord_alternative_alternate/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
-- [In Search of a Discord Replacement by James Liu](https://no-bull.sh/blog/2026/02/16/in-search-of-a-discord-replacement/)
-- [Discord Alternatives, Ranked by Michael Taggart](https://taggart-tech.com/discord-alternatives/)
-- [A list of some discord alternatives, and their downsides by u/Locustinalab](https://www.reddit.com/r/pcgaming/comments/1r27qjf/a_list_of_some_discord_alternatives_and_their/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
-- [Discord Alternatives by u/Bologna0128](https://www.reddit.com/r/degoogle/comments/1r5catk/discord_alternatives/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [So you need a Discord alternative by u/firebreathingbunny](https://www.reddit.com/r/TechQA/comments/1r2frya/so_you_need_a_discord_alternative_alternate/)
+- [A list of discord alternatives by u/Locustinalab](https://www.reddit.com/r/pcgaming/comments/1r27qjf/a_list_of_some_discord_alternatives_and_their/)
+- [Discord Alternatives by u/Bologna0128](https://www.reddit.com/r/degoogle/comments/1r5catk/discord_alternatives/)
+
 ---
 
 ## Contributing
