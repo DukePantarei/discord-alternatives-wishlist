@@ -74,7 +74,6 @@ FEATURE_GROUPS = {
         "migration_assistant",
         "bridges",
         "discord_api_compatible",
-        "community_discovery",
     ],
     "Channels & Content": [
         "docs_wiki_channels",
@@ -89,6 +88,7 @@ FEATURE_GROUPS = {
         "raid_planner",
         "tournament_brackets",
         "rich_calendar_tools",
+        "community_discovery",
     ],
 }
 
