@@ -19,9 +19,9 @@
 
 - [Matrix Clients](#matrix-clients) — 5 platforms
 - [Privacy-Focused Centralized](#privacy-focused-centralized) — 3 platforms
-- [Self-Hosted Platforms](#self-hosted-platforms) — 7 platforms
+- [Self-Hosted Platforms](#self-hosted-platforms) — 9 platforms
 - [Commercial Alternatives](#commercial-alternatives) — 3 platforms
-- [Legacy & Niche](#legacy-niche) — 3 platforms
+- [Legacy & Niche](#legacy-niche) — 4 platforms
 - [Discontinued](#discontinued) — 8 platforms
 
 ---
@@ -138,6 +138,8 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Zulip](https://zulip.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ⚠️ † | ⚠️ † | ❌ | ✅ | ✅ | ⚠️ | ✅ † | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ † | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ † | ❌ † | ⚠️ † | ❌ | ❌ | ❌ |
 | [Rocket.Chat](https://rocket.chat) | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ⚠️ † | ⚠️ † | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ⚠️ † | ❌ | ✅ † | ❌ † | ✅ | ❌ | ❌ | ❌ |
+| [Discourse](https://discourse.org) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ † | ✅ | ✅ | ✅ † | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ † | ❌ | ❌ | ✅ † | ❌ | ✅ | ❌ | ❌ | ❌ † | ✅ † | ❌ | ❌ | ✅ † |
+| [Mattermost](https://mattermost.com) | ⚠️ † | ✅ | ❌ | ❌ † | ✅ | ❌ † | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ † | ✅ † | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ † | ❌ | ✅ | ✅ | ✅ † | ❌ | ❌ | ❌ |
 
 **† Notes**
 
@@ -196,6 +198,30 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *No Premium Tier:* Enterprise license required for voice/video and >50 users
 - *Federated:* Matrix federation bridge available but not native
 - *Message Ttl:* Configurable message retention per room
+
+**Discourse**
+- *Description:* Open-source forum platform focused on asynchronous, long-form community discussion. Not real-time chat — designed for forums, Q&A, and knowledge bases. Strong moderation tools and searchability.
+- *Architecture:* Self-hosted or cloud-hosted, open source
+- *Text Channels:* Categories and topics — forum structure, not real-time chat channels
+- *Threads Forums:* Core feature — everything is threaded forum discussion
+- *Docs Wiki Channels:* Wiki-style posts supported with edit history and version control
+- *Scheduled Announcements:* Posts can be scheduled for future publication
+- *Large Community Moderation:* Excellent moderation tools: public mod logs, user trust levels, automated flags, spam detection
+- *Community Discovery:* Public category and topic browsing built-in
+- *Event Scheduling:* Via calendar plugin — not native but well-supported
+- *Persistent Voice Channels:* Not a real-time chat platform — forum-focused
+
+**Mattermost**
+- *Description:* Open-core team collaboration platform designed for enterprises and governments. Slack-like interface with strong compliance features. Expensive licensing ($10+/user) makes it impractical for casual communities.
+- *Architecture:* Self-hosted or cloud-hosted, open core
+- *Open Source:* Open core model — free 'starter' tier is limited, most features require paid Enterprise license
+- *Free To Use:* Free tier exists but limited; Enterprise license starts at $10/user/month
+- *No Premium Tier:* Almost all meaningful features require paid Enterprise license
+- *E2E Encryption:* Database encryption available but not true E2EE — designed for compliance monitoring, not privacy
+- *No Data Tracking:* Extensive user activity logging and monitoring — designed for enterprise compliance and auditing
+- *Large Community Moderation:* Enterprise-grade audit logs and compliance features, but focused on corporate monitoring not community moderation
+- *Migration Assistant:* Slack import tools available
+- *Bridges:* Integrations with Jira, GitHub, Jenkins, Zoom, and other enterprise tools
 
 ---
 
@@ -256,6 +282,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [TeamSpeak](https://teamspeak.com) | ❌ | ✅ | ❌ | ❌ † | ✅ | ⚠️ | ⚠️ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ⚠️ † | ⚠️ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ✅ | ⚠️ | ❌ | ✅ † | ❌ |
 | [Mumble](https://mumble.info) | ✅ | ✅ | ❌ | ✅ † | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ⚠️ | ✅ | ✅ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ❌ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ † | ✅ | ⚠️ | ❌ | ✅ † | ❌ |
 | [Signal](https://signal.org) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ † | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ † | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Ventrilo](https://ventrilo.com) | ❌ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ⚠️ † | ❌ | ✅ | ⚠️ † | ❌ | ✅ † | ❌ | ❌ | ❌ | ✅ † | ✅ † | ❌ | ❌ | ⚠️ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ † | ❌ | ❌ | ✅ | ⚠️ | ❌ | ✅ † | ⚠️ † |
 
 **† Notes**
 
@@ -282,6 +309,19 @@ Included for historical context or specific use cases. Generally not recommended
 - *Requires Phone Number:* Phone number required for registration
 - *Web App:* Desktop-linked web interface only, no standalone web app
 - *Message Ttl:* Disappearing messages supported with configurable TTL per conversation
+
+**Ventrilo**
+- *Description:* Proprietary VoIP platform focused on voice chat for gaming (2002-present). Known for superior audio quality, minimal CPU usage, and simple UI. Free for up to 8 users, paid licenses for larger servers.
+- *Architecture:* Self-hosted or hosted, closed source
+- *E2E Encryption:* Uses preshared key encryption between client and server — server can decrypt, not true E2EE
+- *Free To Use:* Free for up to 8 concurrent users; paid licenses required for 9-400 users
+- *Mobile App:* Third-party mobile clients available (Ventrilode for iOS, Ventriloid for Android) — not official
+- *Text Channels:* Basic text chat available but minimal — voice-focused platform
+- *File Sharing:* File transfer added in v4.0 (2017)
+- *Per User Audio Output:* Individual volume control per user supported
+- *Voice Chat:* Supports Opus codec (v4.1+) and GSM codec. Known for superior audio quality and low CPU usage
+- *Community Discovery:* Public server lists exist (e.g. GameTracker) but not built into client
+- *No Premium Tier:* Free tier limited to 8 users — licensing fees scale with server size
 
 ---
 
