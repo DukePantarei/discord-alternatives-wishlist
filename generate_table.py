@@ -120,6 +120,7 @@ def build_notes_for_category(platforms: list) -> list:
         lines.append("<details>")
         
         lines.append(f"<summary>{p['name']}</summary>")
+        lines.append("")
 
         if desc:
             lines.append(f"- *Description:* {desc}")
