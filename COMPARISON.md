@@ -19,9 +19,9 @@
 
 - [Matrix Clients](#matrix-clients) — 5 platforms
 - [Privacy-Focused Centralized](#privacy-focused-centralized) — 6 platforms
-- [Self-Hosted Platforms](#self-hosted-platforms) — 15 platforms
+- [Self-Hosted Platforms](#self-hosted-platforms) — 17 platforms
 - [Commercial Alternatives](#commercial-alternatives) — 6 platforms
-- [Legacy & Niche](#legacy-niche) — 12 platforms
+- [Legacy & Niche](#legacy-niche) — 13 platforms
 - [Discontinued](#discontinued) — 8 platforms
 - [Business Productivity](#business-productivity) — 3 platforms
 
@@ -340,6 +340,8 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Raven](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ | ❓ |
 | [Pulse Chat](https://plse.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ † | ❓ |
 | [Databag](https://github.com/balzack/databag) | ✅ | ✅ | ✅ † | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Discourse](https://www.discourse.org) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Mattermost](https://mattermost.com) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ✅ |
 
 ### Pricing & Licensing
 
@@ -360,6 +362,8 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Raven](https://github.com/) | ✅ | ❓ | ✅ | ❓ | ❓ |
 | [Pulse Chat](https://plse.chat) | ✅ | ❓ | ✅ | ❓ | ❓ |
 | [Databag](https://github.com/balzack/databag) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Discourse](https://www.discourse.org) | ✅ | ✅ | ✅ | ❌ | ✅ |
+| [Mattermost](https://mattermost.com) | ✅ | ❌ † | ✅ | ❌ | ✅ |
 
 ### Platform Support
 
@@ -380,6 +384,8 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Databag](https://github.com/balzack/databag) | ✅ | ❌ | ✅ | ✅ | ❌ |
+| [Discourse](https://www.discourse.org) | ✅ | ❌ | ✅ | ✅ | ❌ |
+| [Mattermost](https://mattermost.com) | ✅ | ✅ | ✅ | ✅ | ❌ |
 
 ### Communication
 
@@ -400,6 +406,8 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Pulse Chat](https://plse.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Databag](https://github.com/balzack/databag) | ⚠️ † | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ † | ❌ | ❌ |
+| [Discourse](https://www.discourse.org) | ❌ | ❌ | ❌ | ❌ | ✅ † | ✅ | ✅ | ✅ † | ❌ | ❌ |
+| [Mattermost](https://mattermost.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ † | ❌ | ❌ |
 
 ### Server & Admin
 
@@ -420,6 +428,8 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Databag](https://github.com/balzack/databag) | ❌ | ⚠️ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
+| [Discourse](https://www.discourse.org) | ✅ | ✅ | ✅ | ✅ † | ✅ | ⚠️ † | ✅ † | ❌ | ✅ |
+| [Mattermost](https://mattermost.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ † | ❌ | ❌ |
 
 ### Channels & Content
 
@@ -440,6 +450,8 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Databag](https://github.com/balzack/databag) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Discourse](https://www.discourse.org) | ✅ † | ❌ | ❌ | ✅ | ✅ |
+| [Mattermost](https://mattermost.com) | ⚠️ | ✅ † | ❌ | ✅ | ⚠️ |
 
 ### Community Tools
 
@@ -460,6 +472,8 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Databag](https://github.com/balzack/databag) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Discourse](https://www.discourse.org) | ✅ | ✅ | ❌ | ❌ | ⚠️ |
+| [Mattermost](https://mattermost.com) | ✅ | ✅ | ❌ | ❌ | ❌ |
 
 
 **† Notes**
@@ -617,6 +631,32 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *Threads Forums:* Topic-based threading - messages organized by topic, not contacts
 - *Voice Chat:* Audio calls supported. Requires STUN/TURN relay server for NAT traversal.
 - *Video Chat:* Video calls supported. Requires STUN/TURN relay server for NAT traversal.
+</details>
+
+<details>
+<summary>Discourse</summary>
+
+- *Description:* Modern forum software for building communities. Ruby on Rails. Email-based notifications, threaded discussions, trust levels, badges.
+- *Architecture:* Self-hosted, open source (GPL-2.0)
+- *Text Channels:* Categories and topics structure (forum-style, not real-time channels)
+- *Threads Forums:* Core feature - entire platform is threaded discussions
+- *Large Community Moderation:* Trust levels, flags, automatic hiding, user silencing, sophisticated moderation
+- *Bridges:* Email integration, webhook integrations, API for external tools
+- *Docs Wiki Channels:* Wiki-style knowledge base features, long-form documentation support
+- *Migration Assistant:* Import tools from other forum software (phpBB, vBulletin, etc)
+</details>
+
+<details>
+<summary>Mattermost</summary>
+
+- *Description:* Open-source Slack alternative for teams. Self-hosted, E2EE voice/video (Beta), extensive integrations, mobile apps.
+- *Architecture:* Self-hosted, open source (AGPL-3.0 / Enterprise: proprietary)
+- *E2E Encryption:* E2EE voice/video in beta. Messages encrypted in transit and at rest but not E2EE by default
+- *No Premium Tier:* Free self-hosted version available, Enterprise adds compliance/auth features
+- *Threads Forums:* Threaded replies supported, not forum-style
+- *List Task Channels:* Playbooks for runbooks and incident response
+- *Migration Assistant:* Import from Slack, HipChat, BizSpark
+- *Bridges:* Slack-compatible webhooks, extensive plugin ecosystem
 </details>
 
 ---
@@ -805,6 +845,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [Gajim](https://gajim.org) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Swift IM](https://swift.im) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Movim](https://movim.eu) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Ventrilo](https://www.ventrilo.com) | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ |
 
 ### Pricing & Licensing
 
@@ -822,6 +863,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [Gajim](https://gajim.org) | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Swift IM](https://swift.im) | ✅ | ⚠️ † | ✅ | ❓ | ❓ |
 | [Movim](https://movim.eu) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Ventrilo](https://www.ventrilo.com) | ⚠️ † | ❌ | ⚠️ † | ✅ † | ❌ |
 
 ### Platform Support
 
@@ -839,6 +881,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [Gajim](https://gajim.org) | ❌ | ✅ | ❌ | ❌ | ❌ |
 | [Swift IM](https://swift.im) | ❌ | ✅ | ❌ † | ❌ | ❌ |
 | [Movim](https://movim.eu) | ✅ | ❌ | ❌ | ✅ | ❌ |
+| [Ventrilo](https://www.ventrilo.com) | ❌ | ✅ | ❌ | ❌ | ❌ |
 
 ### Communication
 
@@ -856,6 +899,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [Gajim](https://gajim.org) | ⚠️ † | ❌ | ❌ | ❌ | ✅ † | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Swift IM](https://swift.im) | ✅ | ✅ | ❌ | ❌ | ✅ † | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Movim](https://movim.eu) | ❌ † | ❌ | ❌ | ❌ | ✅ † | ✅ | ⚠️ | ✅ † | ❌ | ❌ |
+| [Ventrilo](https://www.ventrilo.com) | ✅ † | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ † |
 
 ### Server & Admin
 
@@ -873,6 +917,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [Gajim](https://gajim.org) | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
 | [Swift IM](https://swift.im) | ❌ | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
 | [Movim](https://movim.eu) | ❌ | ✅ † | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ † |
+| [Ventrilo](https://www.ventrilo.com) | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ |
 
 ### Channels & Content
 
@@ -890,6 +935,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [Gajim](https://gajim.org) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Swift IM](https://swift.im) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Movim](https://movim.eu) | ❌ | ✅ † | ❌ | ❌ | ✅ |
+| [Ventrilo](https://www.ventrilo.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 ### Community Tools
 
@@ -907,6 +953,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [Gajim](https://gajim.org) | ⚠️ | ❌ | ❌ | ❌ | ❌ |
 | [Swift IM](https://swift.im) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Movim](https://movim.eu) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Ventrilo](https://www.ventrilo.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 
 **† Notes**
@@ -1048,6 +1095,18 @@ Included for historical context or specific use cases. Generally not recommended
 - *Server Organization:* Communities organize content by topic
 - *Community Discovery:* Browse and discover XMPP communities
 - *Voice Chat:* Text-focused platform, no native voice/video
+</details>
+
+<details>
+<summary>Ventrilo</summary>
+
+- *Description:* Legacy gaming voice chat (1997-present). Low-latency, high-quality audio. Surround sound positioning. Widely used in MMO guilds pre-Discord.
+- *Architecture:* Closed source, client-server
+- *Free To Use:* Free client, servers require licensing (rental or self-host with license). Free 8-slot server available.
+- *Self Hosting License:* Can self-host but requires commercial license. Free tier limited to 8 slots.
+- *Freemium Limitations:* Free tier: 8 slots max. Paid: up to 400 slots per server.
+- *Voice Chat:* High-quality Speex codec with surround sound positioning. Known for superior audio quality.
+- *Per User Audio Output:* Individual volume control and audio settings per user
 </details>
 
 ---
