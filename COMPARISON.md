@@ -75,13 +75,13 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 ### Moderation & Safety
 
-| **Platform** | **Large Community Moderation Tools** | **Automod** | **Audit Logs** | **User Timeout Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **Id Verification** |
+| **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Element](https://element.io) | ⚠️ † | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Cinny](https://cinny.in) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Commet](https://commet.chat) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [FluffyChat](https://fluffychat.im) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [SchildiChat](https://schildi.chat) | ⚠️ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Element](https://element.io) | ⚠️ † | ⚠️ † | ✅ | ✅ | ⚠️ † | ✅ | ❌ | ❌ |
+| [Cinny](https://cinny.in) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Commet](https://commet.chat) | ❌ | ⚠️ † | ✅ | ✅ | ⚠️ † | ✅ | ❌ | ❌ |
+| [FluffyChat](https://fluffychat.im) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [SchildiChat](https://schildi.chat) | ⚠️ | ⚠️ † | ✅ | ✅ | ⚠️ † | ✅ | ❌ | ❌ |
 
 ### Server & Admin
 
@@ -131,6 +131,8 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 - *Large Community Moderation:* Draupnir and Mjolnir bots provide moderation at scale but require setup
 - *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
 - *Self Hosting License:* Synapse server is open source (Apache 2.0), freely self-hostable
+- *Automod:* Requires Draupnir or Mjolnir moderation bot for advanced features
+- *Raid Protection:* Available via Draupnir/Mjolnir bots
 </details>
 
 <details>
@@ -154,6 +156,8 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 - *Raid Planner:* Event scheduling exists — dedicated raid planning tools not yet available
 - *Voice Chat:* Uses MatrixRTC + LiveKit, scales well
 - *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
+- *Automod:* Requires Draupnir or Mjolnir moderation bot for advanced features
+- *Raid Protection:* Available via Draupnir/Mjolnir bots
 </details>
 
 <details>
@@ -173,6 +177,8 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 - *Role Management:* Inherits Element's power levels system
 - *Admin Gui:* Inherits Element Admin support
 - *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
+- *Automod:* Requires Draupnir or Mjolnir moderation bot for advanced features
+- *Raid Protection:* Available via Draupnir/Mjolnir bots
 </details>
 
 ---
@@ -231,14 +237,14 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 ### Moderation & Safety
 
-| **Platform** | **Large Community Moderation Tools** | **Automod** | **Audit Logs** | **User Timeout Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **Id Verification** |
+| **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Stoat (formerly Revolt)](https://stoat.chat) | ⚠️ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Valour](https://valour.gg) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Nerimity](https://nerimity.com) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Kloak](https://kloak.app) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Blite Chat](https://blite.chat) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Echoed](https://echoed.chat) | ⚠️ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Stoat (formerly Revolt)](https://stoat.chat) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Valour](https://valour.gg) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Nerimity](https://nerimity.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Kloak](https://kloak.app) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Blite Chat](https://blite.chat) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Echoed](https://echoed.chat) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 ### Server & Admin
 
@@ -440,25 +446,25 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 ### Moderation & Safety
 
-| **Platform** | **Large Community Moderation Tools** | **Automod** | **Audit Logs** | **User Timeout Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **Id Verification** |
+| **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Sharkord](https://sharkord.com) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Spacebar](https://spacebar.chat) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Fluxer](https://fluxer.app) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Loqa](https://loqa.chat) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [DCTS](https://github.com/hackthedev/dcts-shipping) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Zulip](https://zulip.com) | ⚠️ † | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Rocket.Chat](https://rocket.chat) | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Mezon](https://mezon.ai) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Nextcloud Talk](https://nextcloud.com/talk) | ⚠️ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Snikket](https://snikket.org) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Databag](https://github.com/balzack/databag) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Discourse](https://www.discourse.org) | ✅ † | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Mattermost](https://mattermost.com) | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Sharkord](https://sharkord.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Spacebar](https://spacebar.chat) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Fluxer](https://fluxer.app) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Loqa](https://loqa.chat) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [DCTS](https://github.com/hackthedev/dcts-shipping) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Zulip](https://zulip.com) | ⚠️ † | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Rocket.Chat](https://rocket.chat) | ✅ | ⚠️ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ |
+| [Mezon](https://mezon.ai) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Nextcloud Talk](https://nextcloud.com/talk) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Snikket](https://snikket.org) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Roomy](https://github.com/) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Colanode](https://github.com/) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Raven](https://github.com/) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Pulse Chat](https://plse.chat) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Databag](https://github.com/balzack/databag) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Discourse](https://www.discourse.org) | ✅ † | ✅ † | ✅ | ✅ † | ⚠️ | ✅ † | ❌ | ❌ |
+| [Mattermost](https://mattermost.com) | ✅ | ⚠️ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ |
 
 ### Server & Admin
 
@@ -695,6 +701,9 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *Bridges:* Email integration, webhook integrations, API for external tools
 - *Docs Wiki Channels:* Wiki-style knowledge base features, long-form documentation support
 - *Migration Assistant:* Import tools from other forum software (phpBB, vBulletin, etc)
+- *Automod:* Automatic post hiding based on flags, spam detection, new user restrictions
+- *User Timeout Mute:* User silencing and suspension features
+- *Message Reporting:* Flag system - users can flag posts for moderator review
 </details>
 
 <details>
@@ -766,14 +775,14 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 ### Moderation & Safety
 
-| **Platform** | **Large Community Moderation Tools** | **Automod** | **Audit Logs** | **User Timeout Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **Id Verification** |
+| **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Discord](https://discord.com) | ✅ † | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Root](https://rootapp.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Telegram](https://telegram.org) | ⚠️ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [GameVox](https://gamevox.com) | ⚠️ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Steam Chat](https://store.steampowered.com) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Osmium](https://osmium.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Discord](https://discord.com) | ✅ † | ✅ † | ✅ † | ✅ † | ✅ † | ✅ † | 🗓️ † | 🗓️ † |
+| [Root](https://rootapp.com) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Telegram](https://telegram.org) | ⚠️ | ⚠️ | ❌ | ✅ | ✅ † | ✅ | ❌ | ❌ |
+| [GameVox](https://gamevox.com) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Osmium](https://osmium.chat) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 ### Server & Admin
 
@@ -828,6 +837,13 @@ Polished commercial products, included for completeness. Privacy policies and lo
 - *Message Ttl:* No server-wide TTL — messages persist indefinitely unless manually deleted
 - *Community Discovery:* In-app server discovery plus extensive third-party directories like Disboard, top.gg, and discord.me
 - *Freemium Limitations:* Nitro unlocks higher upload limits, better streaming quality, server boosts
+- *Automod:* Comprehensive AutoMod with keyword filters, spam detection, mention limits, custom rules
+- *Audit Logs:* Full audit logs tracking all mod actions, message edits, role changes
+- *User Timeout Mute:* Timeout feature (temporary mute), plus permanent mute and kick/ban
+- *Raid Protection:* Verification levels, member screening, DM spam filters, phone verification
+- *Message Reporting:* Users can report messages, admins review in safety dashboard
+- *Age Verification:* Planned: Teen accounts with restricted features. Requires government ID or face scan for age verification (UK pilot 2025)
+- *Id Verification:* Planned: Face scanning and government ID verification for age-gating. Privacy concerns raised by community.
 </details>
 
 <details>
@@ -859,6 +875,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 - *Video Chat:* Group video chat bitrate described as poor quality
 - *System Audio Sharing:* System audio sharing in group chats has echo cancellation issues — users can hear themselves, audio cuts in and out
 - *Freemium Limitations:* Premium adds faster downloads, larger uploads (4GB), exclusive stickers, ads removal
+- *Raid Protection:* Anti-spam features, aggressive join requirements for large groups
 </details>
 
 <details>
@@ -973,21 +990,21 @@ Included for historical context or specific use cases. Generally not recommended
 
 ### Moderation & Safety
 
-| **Platform** | **Large Community Moderation Tools** | **Automod** | **Audit Logs** | **User Timeout Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **Id Verification** |
+| **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [TeamSpeak](https://teamspeak.com) | ⚠️ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Mumble](https://mumble.info) | ⚠️ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Signal](https://signal.org) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Skype](https://skype.com) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [SimpleX Chat](https://simplex.chat) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Quiet](https://tryquiet.org) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Campfire](https://basecamp.com/retired/campfire) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Oldcord](https://oldcordapp.com) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Jami](https://jami.net) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Gajim](https://gajim.org) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Swift IM](https://swift.im) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Movim](https://movim.eu) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Ventrilo](https://www.ventrilo.com) | ⚠️ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [TeamSpeak](https://teamspeak.com) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Mumble](https://mumble.info) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Signal](https://signal.org) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Skype](https://skype.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [SimpleX Chat](https://simplex.chat) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Quiet](https://tryquiet.org) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Campfire](https://basecamp.com/retired/campfire) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Oldcord](https://oldcordapp.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Jami](https://jami.net) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Gajim](https://gajim.org) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Swift IM](https://swift.im) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Movim](https://movim.eu) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Ventrilo](https://www.ventrilo.com) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 ### Server & Admin
 
@@ -1261,16 +1278,16 @@ Platforms that are no longer active. Included for historical reference and featu
 
 ### Moderation & Safety
 
-| **Platform** | **Large Community Moderation Tools** | **Automod** | **Audit Logs** | **User Timeout Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **Id Verification** |
+| **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Guilded (discontinued)](https://guilded.gg) | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ⚠️ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ⚠️ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Razer Comms](https://www.razer.com/) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [TeaSpeak](https://github.com/TeaSpeak) | ⚠️ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Guilded (discontinued)](https://guilded.gg) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Razer Comms](https://www.razer.com/) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [TeaSpeak](https://github.com/TeaSpeak) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 ### Server & Admin
 
@@ -1451,14 +1468,14 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 ### Moderation & Safety
 
-| **Platform** | **Large Community Moderation Tools** | **Automod** | **Audit Logs** | **User Timeout Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **Id Verification** |
+| **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Pumble](https://pumble.com) | ⚠️ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Chanty](https://chanty.com) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Virola](https://virola.io) | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Slack](https://slack.com) | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Amazon Chime](https://aws.amazon.com/chime/) | ⚠️ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Pumble](https://pumble.com) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Chanty](https://chanty.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Virola](https://virola.io) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Slack](https://slack.com) | ✅ | ⚠️ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ |
+| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ⚠️ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ |
+| [Amazon Chime](https://aws.amazon.com/chime/) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 ### Server & Admin
 
