@@ -117,6 +117,12 @@ def build_notes_for_category(platforms: list) -> list:
             lines.append("")
             header_printed = True
 
+        lines.append("<details>")
+        
+        lines.append(f"<summary>{p['name']}</summary>")
+
+        lines.append("</details>")
+
         lines.append(f"**{p['name']}**")
         if desc:
             lines.append(f"- *Description:* {desc}")
