@@ -134,7 +134,9 @@ def render_value(value: str) -> str:
 
 def slugify(text: str) -> str:
     """Convert a category name to a GitHub markdown anchor."""
-    return text.lower().replace(" ", "-").replace("&", "").replace("--", "-").strip("-")
+    # GitHub converts "Legacy & Niche" to "legacy--niche" (& becomes --, spaces become -)
+    # So we need to match that behavior
+    return text.lower().replace(" & ", "--").replace(" ", "-").strip("-")
 
 def humanize(key: str) -> str:
     """Convert snake_case to Title Case."""
