@@ -198,7 +198,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ❌ † | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ † | ❌ |
+| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ❌ † | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ † | ❌ † |
 | [Valour](https://valour.gg) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
 | [Nerimity](https://nerimity.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
 | [Kloak](https://kloak.app) | ❌ † | ❌ | ❌ | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
@@ -305,6 +305,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 - *Video Chat:* Video chat has never been supported
 - *Mobile App:* Beta Android and iOS apps available — iOS app especially rough, Android feels better. Sign-up verification slow (10+ hours reported) during user influx
 - *Ai Features Or Training:* No AI features currently
+- *Ai Generated Codebase:* NOT vibe-coded. Started in 2021 before consumer AI coding tools existed. Maintainer explicitly reverted all AI-generated code commits in 2025 after community concerns. Has strong anti-AI stance.
 </details>
 
 <details>
