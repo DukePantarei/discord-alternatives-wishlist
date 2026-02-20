@@ -2111,10 +2111,10 @@
       "category": "Discontinued",
       "description": "Gaming-focused instant messaging and social platform (2003-2015). Combined voice chat, game tracking, screenshots, and video recording. Shutdown June 2015.",
       "architecture": "Closed source, centralized",
-      "notes": "Acquired by Viacom/MTV Networks in 2006 for $110M. Had 24M+ registered users. Discontinued June 12, 2015. Xf1re is an unofficial open-source reimplementation.",
+      "notes": "Acquired by Viacom/MTV Networks in 2006 for $110M. Had 24M+ registered users. Discontinued June 12, 2015.",
       "features": {
-        "open_source": "no",
-        "self_hostable": "no",
+        "open_source": "partial",
+        "self_hostable": "partial",
         "federated": "no",
         "e2e_encryption": "no",
         "no_ads": "no",
@@ -2168,12 +2168,14 @@
         "message_reporting": "no",
         "age_verification": "no",
         "id_verification": "no",
-        "ai_features_or_training": "unknown",
+        "ai_features_or_training": "no",
         "ai_generated_codebase": "no"
       },
       "feature_notes": {
         "community_discovery": "Game server browser and clan/community discovery built in",
         "screen_sharing": "Game screenshot capture and video recording, not live screen sharing"
+        "open_source": "https://xf1re.com/ is an unofficial open-source reimplementation."
+        "self_hostable": "https://github.com/darcymiranda/PFire is an Xfire server emulator."
       }
     },
     {
