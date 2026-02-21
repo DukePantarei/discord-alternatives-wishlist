@@ -7,19 +7,19 @@
 
 ## What Is This?
 
-This repository is a **structured, community-maintained comparison** of Discord alternatives across **63 platforms** and **57 features**. It's designed to help you make an informed decision about where to move your community.
+This repository is a **structured, community-maintained comparison** of Discord alternatives across **66 platforms** and **57 features**. It's designed to help you make an informed decision about where to move your community.
 
 ## Current State
 
-- **63 platforms** tracked across **7 categories**
+- **66 platforms** tracked across **7 categories**
 - **57 features** organized into **8 logical groups**
 - **Auto-generated comparison tables** from a single source of truth (`platforms.json`)
 
 ### Categories
 
 - **Matrix Clients** (5) — Decentralized, federated, open protocol (Element, Cinny, Commet, FluffyChat, SchildiChat)
-- **Privacy-Focused Centralized** (8) — Open source but centrally hosted (Stoat, Valour, Nerimity, Kloak, Blite Chat, Echoed, Paracord, Voltage)
-- **Self-Hosted Platforms** (18) — Run your own instance (Spacebar, Fluxer, Zulip, Rocket.Chat, Discourse, Mattermost, Sharkord, Loqa, DCTS, Mezon, Nextcloud Talk, Snikket, Databag, Pulse, Roomy, Colanode, Raven)
+- **Privacy-Focused Centralized** (9) — Open source but centrally hosted (Stoat, Valour, Nerimity, Kloak, Blite Chat, Echoed, Paracord, Voltage, Critterchat)
+- **Self-Hosted Platforms** (20) — Run your own instance (Spacebar, Fluxer, Zulip, Rocket.Chat, Discourse, Mattermost, Sharkord, Loqa, DCTS, Mezon, Nextcloud Talk, Snikket, Databag, Pulse, Roomy, Colanode, Raven, Polyproto, Carrion, and more)
 - **Commercial Alternatives** (6) — Polished products with varying privacy tradeoffs (Discord, Root, Telegram, GameVox, Steam Chat, Osmium)
 - **Legacy & Niche** (12) — Historical context and specific use cases (TeamSpeak, Mumble, Signal, Ventrilo, Skype, SimpleX Chat, Quiet, Campfire, Oldcord, Jami, Gajim, Swift IM, Movim)
 - **Business Productivity** (6) — Team collaboration tools (Slack, Microsoft Teams, Amazon Chime, Pumble, Chanty, Virola)
@@ -226,10 +226,24 @@ See the [Moderation & Safety table](COMPARISON.md) for detailed feature-by-featu
 
 ### Platforms to Scrutinize
 
-**Known AI-generated (proceed with caution):**
-- **Paracord** - DO NOT USE (critical vulnerabilities)
+**Confirmed AI-generated (proceed with extreme caution):**
+- **Paracord** - DO NOT USE (20+ critical vulnerabilities documented)
 - **Blite Chat** - Explicitly AI-generated, security unknown
 - **Voltage/VoltChat** - Very new (Feb 2026), strong vibe-coding indicators, untested
+- **Discourse** - Community assessment: NOT vibe-safe (has AI plugin, marked "Bad" security)
+- **Virola** - Community assessment: NOT vibe-safe (Google Sheet Feb 2026)
+- **Osmium** - Community assessment: NOT vibe-safe (Google Sheet Feb 2026)
+- **Rocket.Chat** - Community assessment: NOT vibe-safe (advertises AI features heavily)
+- **Root** - Community assessment: NOT vibe-safe + **SUSPICIOUS** (NFT-VC backed, no revenue model)
+
+**Responsible AI use (transparent, reviewed, tested):**
+- **Stoat** - Previously had AI commits, removed after community backlash. Anti-AI stance since.
+- **Fluxer** - Developer uses AI as "rubber duck" tool but writes all code personally
+- **Echoed** - Backend from scratch, frontend has "bits and pieces" of AI assistance
+- **Oldcord** - Explicitly bans AI-generated code and contributions
+- **Spacebar** - Explicitly bans AI code (GPLv3 incompatible policy)
+- **Zulip** - Permits AI assistance with STRICT oversight requirements, no unsupervised AI commits
+- **Freenet** - Transparent about AI-assisted code, extensively tested and reviewed
 
 **Suspicious indicators (may be AI-generated):**
 - Single large commit (developed privately, dumped publicly)
@@ -239,6 +253,13 @@ See the [Moderation & Safety table](COMPARISON.md) for detailed feature-by-featu
 - "Privacy-focused" claims without security audit
 
 ### ⚠️ ACTIVE SECURITY INCIDENTS
+
+**Matrix Ecosystem** - CRITICAL CRYPTOGRAPHIC VULNERABILITY (Feb 17, 2026)
+- ⚠️ Cryptographic issues discovered in Matrix's Rust library (vodozemac)
+- Affects: Element, Commet, FluffyChat (all Matrix clients using this library)
+- **Source**: [Soatok's cryptographic analysis](https://soatok.blog/2026/02/17/cryptographic-issues-in-matrixs-rust-library-vodozemac/)
+- **Recommendation**: Monitor for patches from Matrix.org before using for sensitive communications
+- This is a recent discovery; users should check for updates
 
 **Kloak** - CRITICAL BREACH (Feb 20, 2026)
 - ❌ **DO NOT USE** - Active security compromise
