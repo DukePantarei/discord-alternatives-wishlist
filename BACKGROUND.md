@@ -335,6 +335,19 @@ Unfettered access → "Think of the children!"
 
 ---
 
+## Community Resources
+
+### Deep Dives & Comparisons:
+- [Discord Alternatives: My Personal Deep Dive by mvh](https://rant.mvh.dev/discord-alternatives-my-personal-deep-dive-into-matrix-zulip-discourse-and-stoat) — Hands-on comparison of Matrix, Zulip, Discourse, and Stoat
+- [In Search of a Discord Replacement by James Liu](https://no-bull.sh/blog/2026/02/16/in-search-of-a-discord-replacement/)
+- [Discord Alternatives, Ranked by Michael Taggart](https://taggart-tech.com/discord-alternatives/)
+
+### Other Repositories:
+- [Discord Alternatives by Hemeka](https://github.com/Hemeka/Discord-Alternatives)
+- [Self-hosted alternatives by Vigno04](https://github.com/Vigno04/discord-selfhosted-alternatives)
+
+---
+
 ## Related Pages
 
 - **[README.md](README.md)** — Quick start guide and platform overview
