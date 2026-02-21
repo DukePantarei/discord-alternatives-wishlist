@@ -171,8 +171,8 @@ def build_category_table_grouped(platforms: list, features: list) -> list:
     
     # Create one table per feature group
     for group_name, feature_keys in FEATURE_GROUPS.items():
-        # Wrap each table in collapsible details
-        lines.append("<details open>")
+        # Wrap each table in collapsible details (collapsed by default)
+        lines.append("<details>")
         lines.append(f"<summary><strong>{group_name}</strong></summary>")
         lines.append("")
         
