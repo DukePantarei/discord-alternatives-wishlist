@@ -6,7 +6,7 @@
 
 ## Feature Groups Overview
 
-All 58 features are organized into **8 logical groups** for easier comparison. Here's what each group covers and why it matters:
+All 61 features are organized into **8 logical groups** for easier comparison. Here's what each group covers and why it matters:
 
 ---
 
@@ -132,14 +132,16 @@ Examples:
 
 ---
 
-## 3. Platform Support (5 features)
+## 3. Platform Support (8 features)
 
 ### What This Group Covers:
-- Web app, desktop app, mobile app
+- Web app, Windows app, macOS app, Linux app
+- Android app, iOS app
 - Docker install, mobile device hosting
 
 ### Why It Matters:
 - **Accessibility**: Can your community access from their devices?
+- **Cross-platform**: Does it work on everyone's OS?
 - **Deployment**: How easy is it to set up?
 - **User experience**: Native apps vs web apps
 
@@ -150,15 +152,17 @@ Examples:
 - Works on any device with browser
 - May have fewer features than native apps
 
-**Desktop App**
-- Native Windows/Mac/Linux application
+**Windows/macOS/Linux Apps**
+- Native desktop applications for each OS
 - Often better performance and features
 - Offline support
+- OS-specific integrations
 
-**Mobile App**
-- Native iOS/Android application
+**Android/iOS Apps**
+- Native mobile applications
 - Push notifications
 - Mobile-optimized UI
+- App store distribution
 
 **Docker Install**
 - Self-hosting made easier
@@ -168,12 +172,24 @@ Examples:
 ### How to Prioritize:
 
 **Mixed device community:**
-- Require: Web app + mobile apps
-- Prefer: Desktop app for power users
+- Require: Web app + cross-platform support
+- Check: Does it cover your users' primary OS?
+
+**Windows-only community:**
+- Require: Windows app
+- Prefer: Web app for accessibility
+
+**macOS/Linux users:**
+- Check carefully: Many platforms skip Mac/Linux
+- Web app often better than no native app
 
 **Mobile-first community:**
-- Require: Excellent mobile apps
-- Web app can be secondary
+- Require: Both Android AND iOS apps
+- Check: Feature parity with desktop
+
+**Cross-platform requirement:**
+- Require: All 5 platforms (Windows, Mac, Linux, Android, iOS)
+- Or: Web app that works everywhere
 
 **Self-hosting:**
 - Strongly prefer: Docker install support
@@ -460,4 +476,4 @@ Examples:
 ---
 
 *Last updated: February 21, 2026*  
-*58 features tracked across 8 groups*
+*61 features tracked across 8 groups*
