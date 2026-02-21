@@ -8,7 +8,7 @@
 ## 📖 Navigation
 
 - **[BACKGROUND.md](BACKGROUND.md)** — Full Discord exodus story, why this matters
-- **[COMPARISON.md](COMPARISON.md)** — Feature comparison table (66 platforms, 58 features)
+- **[COMPARISON.md](COMPARISON.md)** — Feature comparison table (67 platforms, 61 features)
 - **[FEATURES.md](FEATURES.md)** — What features mean and how to prioritize
 - **[SECURITY.md](SECURITY.md)** — ⚠️ Vibe-coded platforms, active security incidents
 - **[MODERATION.md](MODERATION.md)** — Privacy-respecting vs invasive moderation
@@ -63,19 +63,18 @@
 
 This repository is a **structured, community-maintained comparison** of Discord alternatives:
 
-- **66 platforms** tracked across **9 categories**
-- **58 features** organized into **8 logical groups**
+- **67 platforms** tracked across **8 categories**
+- **61 features** organized into **8 logical groups**
 - **Auto-generated comparison tables** from single source of truth (`platforms.json`)
 
 ### Categories
 
 **Matrix Clients** (5) — Element, Cinny, Commet, FluffyChat, SchildiChat  
-**Privacy-Focused Centralized** (8) — Stoat, Valour, Nerimity, Kloak, Echoed, Voltage, etc.  
+**Privacy-Focused Centralized** (9) — Stoat, Valour, Nerimity, Kloak, Echoed, Voltage, Apoka, etc.  
 **Self-Hosted Platforms** (18) — Spacebar, Fluxer, Zulip, Rocket.Chat, Discourse, Mattermost, etc.  
 **Commercial Alternatives** (6) — Discord, Telegram, GameVox, Steam Chat, Osmium, Root  
-**Legacy & Niche** (12) — TeamSpeak, Mumble, Signal, Ventrilo, IRC, XMPP clients, etc.  
+**Legacy & Niche** (14) — TeamSpeak, Mumble, Signal, Ventrilo, IRC, XMPP, Carrion (Adult RP), etc.  
 **Business Productivity** (6) — Slack, Microsoft Teams, Amazon Chime, Pumble, Chanty, Virola  
-**Niche & Specialized** (1) — Carrion (Adult RP platform, 18+)  
 **Protocols & Frameworks** (1) — Polyproto (for developers, not end users)  
 **Discontinued** (8) — Guilded, Xfire, RaidCall, Curse Voice, etc.
 
@@ -142,11 +141,11 @@ Based on 16 core features (including moderation):
 
 ## Feature Groups
 
-All 58 features organized into 8 groups:
+All 61 features organized into 8 groups:
 
 1. **Privacy & Licensing** (11) — Open source, E2EE, no tracking, AI usage
 2. **Pricing** (6) — Free tier, hardware costs, premium limitations
-3. **Platform Support** (5) — Web, desktop, mobile apps, Docker
+3. **Platform Support** (8) — Web, Windows, macOS, Linux, Android, iOS, Docker
 4. **Communication** (10) — Voice, video, screen sharing, text, files
 5. **Moderation & Safety** (8) — AutoMod, audit logs, raid protection, age/ID verification
 6. **Server & Admin** (7) — Roles, organization, migration, bridges
@@ -239,6 +238,7 @@ We welcome contributions! Here's how to help:
 ## Related Resources
 
 ### Community Evaluations
+- [Discord Alternatives: My Personal Deep Dive by mvh](https://rant.mvh.dev/discord-alternatives-my-personal-deep-dive-into-matrix-zulip-discourse-and-stoat) — In-depth comparison of Matrix, Zulip, Discourse, and Stoat
 - [In Search of a Discord Replacement by James Liu](https://no-bull.sh/blog/2026/02/16/in-search-of-a-discord-replacement/)
 - [Discord Alternatives, Ranked by Michael Taggart](https://taggart-tech.com/discord-alternatives/)
 - [Original r/matrixdotorg discussion](https://www.reddit.com/r/matrixdotorg/comments/1r50sqi/)
