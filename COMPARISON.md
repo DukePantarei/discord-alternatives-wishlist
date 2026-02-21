@@ -45,6 +45,18 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [FluffyChat](https://fluffychat.im) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ❓ | ❌ |
 | [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ❌ † | ❌ |
 
+**† Feature Notes:**
+
+**Element:**
+- *Message Ttl:* Matrix protocol supports retention policies but implementation varies by homeserver and client
+- *Ai Features Or Training:* No built-in AI features. Self-hosted/federated means no centralized data collection for training.
+
+**Commet:**
+- *Ai Features Or Training:* No built-in AI features. Federated Matrix client.
+
+**SchildiChat:**
+- *Ai Features Or Training:* No built-in AI features. Federated Matrix client.
+
 </details>
 
 <details>
@@ -57,6 +69,11 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [Commet](https://commet.chat) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 | [FluffyChat](https://fluffychat.im) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 | [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
+
+**† Feature Notes:**
+
+**Element:**
+- *Self Hosting License:* Synapse server is open source (Apache 2.0), freely self-hostable
 
 </details>
 
@@ -84,6 +101,23 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [FluffyChat](https://fluffychat.im) | ✅ † | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ |
 | [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ❌ |
 
+**† Feature Notes:**
+
+**Element:**
+- *Gif Embed Support:* Basic embed support, GIF picker limited
+- *Persistent Voice Channels:* MatrixRTC supports persistent voice rooms but experience varies by client
+
+**Cinny:**
+- *Voice Chat:* Not yet implemented — text-focused client
+- *Threads Forums:* Basic thread support, no forum channels
+
+**Commet:**
+- *Gif Embed Support:* GIF search proxied through Commet's servers to reduce tracking
+- *Voice Chat:* Uses MatrixRTC + LiveKit, scales well
+
+**FluffyChat:**
+- *Voice Chat:* 1:1 calls supported, large voice channels limited
+
 </details>
 
 <details>
@@ -97,6 +131,21 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [FluffyChat](https://fluffychat.im) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [SchildiChat](https://schildi.chat) | ⚠️ | ⚠️ † | ✅ | ✅ | ⚠️ † | ✅ | ❌ | ❌ |
 
+**† Feature Notes:**
+
+**Element:**
+- *Large Community Moderation:* Draupnir and Mjolnir bots provide moderation at scale but require setup
+- *Automod:* Requires Draupnir or Mjolnir moderation bot for advanced features
+- *Raid Protection:* Available via Draupnir/Mjolnir bots
+
+**Commet:**
+- *Automod:* Requires Draupnir or Mjolnir moderation bot for advanced features
+- *Raid Protection:* Available via Draupnir/Mjolnir bots
+
+**SchildiChat:**
+- *Automod:* Requires Draupnir or Mjolnir moderation bot for advanced features
+- *Raid Protection:* Available via Draupnir/Mjolnir bots
+
 </details>
 
 <details>
@@ -109,6 +158,17 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [Commet](https://commet.chat) | ⚠️ | ✅ | ❌ | ⚠️ | ❌ | ✅ | ❌ |
 | [FluffyChat](https://fluffychat.im) | ⚠️ | ✅ | ❌ | ⚠️ | ❌ | ✅ | ❌ |
 | [SchildiChat](https://schildi.chat) | ⚠️ † | ✅ | ✅ † | ⚠️ | ❌ | ✅ | ❌ |
+
+**† Feature Notes:**
+
+**Element:**
+- *Role Management:* Uses Matrix power levels rather than named roles — functional but less intuitive than Discord
+- *Invite Links Guest Access:* Guest access exists in Matrix protocol but inconsistently surfaced in UI Invite workflow is complex — each user must be invited to each channel individually, not just to the space/server
+- *Admin Gui:* Element Admin and Synapse-Admin available separately UI described as confusing and difficult for average users — security features add UX friction
+
+**SchildiChat:**
+- *Role Management:* Inherits Element's power levels system
+- *Admin Gui:* Inherits Element Admin support
 
 </details>
 
@@ -136,29 +196,35 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [FluffyChat](https://fluffychat.im) | ✅ | ⚠️ | ❌ | ❌ | ❌ | ⚠️ † |
 | [SchildiChat](https://schildi.chat) | ✅ | ⚠️ | ❌ | ❌ | ❌ | ⚠️ † |
 
+**† Feature Notes:**
+
+**Element:**
+- *Webhooks:* Possible via bridges but no native simple webhook URL
+- *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
+
+**Cinny:**
+- *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
+
+**Commet:**
+- *Raid Planner:* Event scheduling exists — dedicated raid planning tools not yet available
+- *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
+
+**FluffyChat:**
+- *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
+
+**SchildiChat:**
+- *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
+
 </details>
 
 
-**† Notes**
+**Platform Details**
 
 <details>
 <summary>Element</summary>
 
 - *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
 - *Architecture:* Federated (Matrix protocol)
-- *Role Management:* Uses Matrix power levels rather than named roles — functional but less intuitive than Discord
-- *Webhooks:* Possible via bridges but no native simple webhook URL
-- *Gif Embed Support:* Basic embed support, GIF picker limited
-- *Invite Links Guest Access:* Guest access exists in Matrix protocol but inconsistently surfaced in UI Invite workflow is complex — each user must be invited to each channel individually, not just to the space/server
-- *Admin Gui:* Element Admin and Synapse-Admin available separately UI described as confusing and difficult for average users — security features add UX friction
-- *Message Ttl:* Matrix protocol supports retention policies but implementation varies by homeserver and client
-- *Persistent Voice Channels:* MatrixRTC supports persistent voice rooms but experience varies by client
-- *Large Community Moderation:* Draupnir and Mjolnir bots provide moderation at scale but require setup
-- *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
-- *Self Hosting License:* Synapse server is open source (Apache 2.0), freely self-hostable
-- *Automod:* Requires Draupnir or Mjolnir moderation bot for advanced features
-- *Raid Protection:* Available via Draupnir/Mjolnir bots
-- *Ai Features Or Training:* No built-in AI features. Self-hosted/federated means no centralized data collection for training.
 </details>
 
 <details>
@@ -166,10 +232,6 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 - *Description:* A clean, simple Matrix client with a Discord-like aesthetic. Good for users who want Matrix without Element's complexity.
 - *Architecture:* Federated (Matrix protocol)
-- *Voice Chat:* Not yet implemented — text-focused client
-- *Threads Forums:* Basic thread support, no forum channels
-- *Mobile App:* No native app — web app is mobile-accessible but not optimised
-- *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
 </details>
 
 <details>
@@ -177,14 +239,6 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 - *Description:* Feature-rich Matrix client focused on casual communities. Closest to Discord in terms of features.
 - *Architecture:* Federated (Matrix protocol)
-- *Mobile App:* Android available, iOS planned
-- *Gif Embed Support:* GIF search proxied through Commet's servers to reduce tracking
-- *Raid Planner:* Event scheduling exists — dedicated raid planning tools not yet available
-- *Voice Chat:* Uses MatrixRTC + LiveKit, scales well
-- *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
-- *Automod:* Requires Draupnir or Mjolnir moderation bot for advanced features
-- *Raid Protection:* Available via Draupnir/Mjolnir bots
-- *Ai Features Or Training:* No built-in AI features. Federated Matrix client.
 </details>
 
 <details>
@@ -192,8 +246,6 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 - *Description:* Beginner-friendly Matrix client with a focus on mobile and simplicity.
 - *Architecture:* Federated (Matrix protocol)
-- *Voice Chat:* 1:1 calls supported, large voice channels limited
-- *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
 </details>
 
 <details>
@@ -201,12 +253,6 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 - *Description:* A Matrix client based on Element with a more Discord-like feel and additional quality-of-life features.
 - *Architecture:* Federated (Matrix protocol)
-- *Role Management:* Inherits Element's power levels system
-- *Admin Gui:* Inherits Element Admin support
-- *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
-- *Automod:* Requires Draupnir or Mjolnir moderation bot for advanced features
-- *Raid Protection:* Available via Draupnir/Mjolnir bots
-- *Ai Features Or Training:* No built-in AI features. Federated Matrix client.
 </details>
 
 ---
@@ -233,6 +279,46 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ † | ✅ † | ❌ | ❌ † | ✅ | ✅ | ❓ | ❌ | ❌ | ❌ | ✅ † |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ † | ✅ † | ✅ † | ✅ † | ✅ | ❓ | ❓ | ❌ | ❓ | ❌ | ✅ † |
 | [Apoka](https://www.apoka.app/) | ❌ | ❌ | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+**† Feature Notes:**
+
+**Stoat (formerly Revolt):**
+- *E2E Encryption:* E2EE for DMs is planned but not yet released
+- *Federated:* Each Stoat server is isolated. Separate accounts needed per server. No portable identity.
+- *Ai Features Or Training:* No AI features currently
+- *Ai Generated Codebase:* Previously used AI-generated commits but removed them after community backlash. Developer explicitly states Stoat's foundation predates vibe-coding (public beta 2021, ChatGPT late 2022). Currently maintains strong anti-AI stance.
+- *Self Hostable:* Available but not prominently documented. See: https://github.com/stoatchat/self-hosted
+
+**Valour:**
+- *Self Hostable:* Planned 'coming soon' but not available as of Feb 2026
+
+**Kloak:**
+- *E2E Encryption:* E2EE for DMs planned but not yet implemented
+- *Open Source:* Closed source but built with privacy-first principles. Minimal data storage by design.
+- *Ai Generated Codebase:* Security breach pattern (Feb 2026) similar to Paracord suggests possible vibe-coded origin with inadequate security review. Platform lacks authentication on critical endpoints.
+
+**Blite Chat:**
+- *E2E Encryption:* X3DH key agreement + symmetric ratchet for DMs. Sender Keys (Signal protocol) for group channels. AES-128-GCM for voice/video via mediasoup SFU. Server sees only ciphertext.
+- *Self Hostable:* Lite mode: text only, 512MB RAM. Full mode: voice/video, requires UDP 40000-40100 open. SQLite, no external dependencies. Works with nginx/Traefik/Caddy or included Caddy for auto-HTTPS.
+- *Open Source:* MIT licensed. Single large initial commit (developed privately, cleaned for open source release). Built heavily with AI assistance (Claude).
+- *Federated:* Self-hosted but not federated. Each instance is isolated.
+- *Ai Generated Codebase:* Explicitly states 'Built heavily with AI assistance (Claude)' in documentation. Single large initial commit suggests AI-generated codebase cleaned for release.
+
+**Echoed:**
+- *Ai Generated Codebase:* Backend coded from scratch. Frontend has 'bits and pieces' of AI assistance but not vibe-coded.
+
+**Paracord:**
+- *Open Source:* GitHub repository available but developed privately then dumped as single commit - no development history
+- *Ai Generated Codebase:* Confirmed AI-generated. Community security audit found 20+ vulnerabilities including RCE, unauthenticated endpoints, plaintext secrets. Developer admits 'built in a few evenings' with AI.
+- *E2E Encryption:* No E2EE. JWT secrets stored in plaintext in config file.
+- *Self Hostable:* UPnP auto-opens router ports by default, exposing server to internet without user awareness
+
+**Voltage (VoltChat):**
+- *Open Source:* GitHub repos available but extremely new (Feb 2026)
+- *Federated:* Claims federation support ('Self-Volt') but unproven with no federated instances
+- *E2E Encryption:* Listed in feature flags but implementation status unknown
+- *Ai Generated Codebase:* Strong indicators: 10 commits with full-featured backend, comprehensive docs, federation/OAuth/CDN all at once, no development history, multiple simultaneous repos. Typical vibe-coding pattern.
+- *Self Hostable:* Setup scripts provided but untested by community
 
 </details>
 
@@ -268,6 +354,14 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ⚠️ | ❌ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
+**† Feature Notes:**
+
+**Valour:**
+- *Docker Install:* Partial — setup more complex than other platforms
+
+**Blite Chat:**
+- *Docker Install:* bash setup.sh provides automated setup
+
 </details>
 
 <details>
@@ -284,6 +378,23 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ † | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ | ❌ | ✅ | ❓ |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+**† Feature Notes:**
+
+**Stoat (formerly Revolt):**
+- *Screen Sharing:* Screen sharing has never been supported
+- *Voice Chat:* Voice channels currently non-functional due to infrastructure migration (Feb 2026)
+- *Video Chat:* Video chat has never been supported
+
+**Valour:**
+- *Voice Chat:* Planned but requires funding to implement
+
+**Blite Chat:**
+- *Voice Chat:* E2EE voice via mediasoup SFU with AES-128-GCM encryption
+- *Video Chat:* E2EE video via mediasoup SFU with AES-128-GCM encryption
+
+**Paracord:**
+- *Voice Chat:* Uses LiveKit but proxy has NO authentication - anyone can join calls silently
 
 </details>
 
@@ -319,6 +430,11 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ | ❌ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
+**† Feature Notes:**
+
+**Stoat (formerly Revolt):**
+- *Bridges:* Community bridges for Discord and Telegram only. NOT supported by Matterbridge.
+
 </details>
 
 <details>
@@ -353,26 +469,21 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❌ | ❌ | ❌ | ✅ † |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
+**† Feature Notes:**
+
+**Voltage (VoltChat):**
+- *Community Discovery:* Listed in feature flags but no public instance to verify
+
 </details>
 
 
-**† Notes**
+**Platform Details**
 
 <details>
 <summary>Stoat (formerly Revolt)</summary>
 
 - *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
 - *Architecture:* Centralized (self-hostable but not federated)
-- *E2E Encryption:* E2EE for DMs is planned but not yet released
-- *Federated:* Each Stoat server is isolated. Separate accounts needed per server. No portable identity.
-- *Screen Sharing:* Screen sharing has never been supported
-- *Voice Chat:* Voice channels currently non-functional due to infrastructure migration (Feb 2026)
-- *Video Chat:* Video chat has never been supported
-- *Mobile App:* Beta Android and iOS apps available — iOS app especially rough, Android feels better. Sign-up verification slow (10+ hours reported) during user influx
-- *Ai Features Or Training:* No AI features currently
-- *Ai Generated Codebase:* Previously used AI-generated commits but removed them after community backlash. Developer explicitly states Stoat's foundation predates vibe-coding (public beta 2021, ChatGPT late 2022). Currently maintains strong anti-AI stance.
-- *Self Hostable:* Available but not prominently documented. See: https://github.com/stoatchat/self-hosted
-- *Bridges:* Community bridges for Discord and Telegram only. NOT supported by Matterbridge.
 </details>
 
 <details>
@@ -380,11 +491,6 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 - *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
 - *Architecture:* Centralized (self-hostable but not federated)
-- *Desktop App:* PWA only — no native desktop app
-- *Mobile App:* PWA only — no native mobile app
-- *Voice Chat:* Planned but requires funding to implement
-- *Docker Install:* Partial — setup more complex than other platforms
-- *Self Hostable:* Planned 'coming soon' but not available as of Feb 2026
 </details>
 
 <details>
@@ -392,7 +498,6 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 - *Description:* Open-source Discord alternative with a clean interface. Primarily centralized hosting model.
 - *Architecture:* Centralized
-- *Mobile App:* Android app available, no iOS app
 </details>
 
 <details>
@@ -400,10 +505,6 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 - *Description:* SECURITY BREACH (Feb 20, 2026): Platform compromised. Attacker gained access to full user list and private messages. Privacy-first Discord alternative with key-based authentication (no email/password). If key is lost, account cannot be recovered.
 - *Architecture:* Centralized, closed source
-- *E2E Encryption:* E2EE for DMs planned but not yet implemented
-- *Desktop App:* Web app can be installed as PWA — no native desktop app yet
-- *Open Source:* Closed source but built with privacy-first principles. Minimal data storage by design.
-- *Ai Generated Codebase:* Security breach pattern (Feb 2026) similar to Paracord suggests possible vibe-coded origin with inadequate security review. Platform lacks authentication on critical endpoints.
 </details>
 
 <details>
@@ -411,15 +512,6 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 - *Description:* Open-source E2EE messaging with Discord-style servers, channels, voice/video. Server operator cannot read messages. Self-hostable with minimal requirements (512MB RAM for text, more for voice/video).
 - *Architecture:* Self-hosted, open source
-- *E2E Encryption:* X3DH key agreement + symmetric ratchet for DMs. Sender Keys (Signal protocol) for group channels. AES-128-GCM for voice/video via mediasoup SFU. Server sees only ciphertext.
-- *Self Hostable:* Lite mode: text only, 512MB RAM. Full mode: voice/video, requires UDP 40000-40100 open. SQLite, no external dependencies. Works with nginx/Traefik/Caddy or included Caddy for auto-HTTPS.
-- *Desktop App:* Triggers Windows SmartScreen warning (no code signing certificate). Web app recommended for easiest/safest start.
-- *Open Source:* MIT licensed. Single large initial commit (developed privately, cleaned for open source release). Built heavily with AI assistance (Claude).
-- *Federated:* Self-hosted but not federated. Each instance is isolated.
-- *Voice Chat:* E2EE voice via mediasoup SFU with AES-128-GCM encryption
-- *Video Chat:* E2EE video via mediasoup SFU with AES-128-GCM encryption
-- *Docker Install:* bash setup.sh provides automated setup
-- *Ai Generated Codebase:* Explicitly states 'Built heavily with AI assistance (Claude)' in documentation. Single large initial commit suggests AI-generated codebase cleaned for release.
 </details>
 
 <details>
@@ -427,7 +519,6 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 - *Description:* Privacy-focused messaging (details limited). 40 features documented in community sheet.
 - *Architecture:* Centralized, closed source
-- *Ai Generated Codebase:* Backend coded from scratch. Frontend has 'bits and pieces' of AI assistance but not vibe-coded.
 </details>
 
 <details>
@@ -435,11 +526,6 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 - *Description:* AI-generated Discord alternative with critical security vulnerabilities. NOT recommended for use. Serves as cautionary example of 'vibe-coded' platforms.
 - *Architecture:* Self-hosted, closed development (single large commit)
-- *Open Source:* GitHub repository available but developed privately then dumped as single commit - no development history
-- *Ai Generated Codebase:* Confirmed AI-generated. Community security audit found 20+ vulnerabilities including RCE, unauthenticated endpoints, plaintext secrets. Developer admits 'built in a few evenings' with AI.
-- *Voice Chat:* Uses LiveKit but proxy has NO authentication - anyone can join calls silently
-- *E2E Encryption:* No E2EE. JWT secrets stored in plaintext in config file.
-- *Self Hostable:* UPnP auto-opens router ports by default, exposing server to internet without user awareness
 </details>
 
 <details>
@@ -447,12 +533,6 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 - *Description:* Federated, open chat platform. Very new project with limited public information and strong indicators of AI-generated codebase.
 - *Architecture:* Federated (claimed), centralized instances
-- *Open Source:* GitHub repos available but extremely new (Feb 2026)
-- *Federated:* Claims federation support ('Self-Volt') but unproven with no federated instances
-- *E2E Encryption:* Listed in feature flags but implementation status unknown
-- *Ai Generated Codebase:* Strong indicators: 10 commits with full-featured backend, comprehensive docs, federation/OAuth/CDN all at once, no development history, multiple simultaneous repos. Typical vibe-coding pattern.
-- *Self Hostable:* Setup scripts provided but untested by community
-- *Community Discovery:* Listed in feature flags but no public instance to verify
 </details>
 
 <details>
@@ -496,6 +576,66 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ † | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ✅ | ✅ | 🗓️ † | ❌ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❌ † |
 
+**† Feature Notes:**
+
+**Sharkord:**
+- *E2E Encryption:* TLS transport encryption only — not end-to-end
+- *Ai Generated Codebase:* Minimal documentation, rapid development timeline. Status unclear.
+
+**Spacebar:**
+- *E2E Encryption:* TLS transport encryption only
+- *Ai Features Or Training:* No AI features currently
+- *Ai Generated Codebase:* Explicitly bans AI code: 'AI code due to not being GPLv3 compatible is not allowed in this repo'
+
+**Fluxer:**
+- *E2E Encryption:* Roadmap 2026: Opt-in 'secret chats' (ephemeral, E2EE sessions). No plans for full-platform E2EE. LiveKit supports E2EE for calls but not yet implemented.
+- *Self Hostable:* Self-hosting not recommended at this time — documentation and support coming soon
+- *Open Source:* AGPLv3 + CLA. CLA allows commercial licensing for companies wanting to run internally without copyleft. Committed to no paywalled features or forced upgrades.
+- *Federated:* Roadmap 2026: Distributed E2EE federation relays, OAuth2 auth via home instance
+- *Ai Features Or Training:* No AI features currently
+- *Ai Generated Codebase:* Developer uses LLMs as a 'rubber duck' debugging tool but writes all code personally. See: https://blog.fluxer.app/how-i-built-fluxer-a-discord-like-chat-app/
+
+**Loqa:**
+- *E2E Encryption:* E2EE for DMs only, not group channels
+
+**DCTS:**
+- *E2E Encryption:* TLS transport encryption only
+
+**Zulip:**
+- *Message Ttl:* Configurable message retention policies per stream
+- *Ai Features Or Training:* No built-in AI features. Self-hosted option means user controls data.
+- *Ai Generated Codebase:* Strict AI policy: permits AI assistance but STRICTLY disallows AI commits with zero oversight. See: https://github.com/zulip/zulip/blob/main/CONTRIBUTING.md
+- *E2E Encryption:* E2EE ONLY for push notification content. Messages stored as plaintext in PostgreSQL.
+
+**Rocket.Chat:**
+- *Federated:* Matrix federation bridge available but not native
+- *Message Ttl:* Configurable message retention per room
+- *Ai Features Or Training:* AI chatbot integrations available via marketplace
+- *Ai Generated Codebase:* Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code.
+
+**Nextcloud Talk:**
+- *Federated:* Federation across Nextcloud instances for group chats and calls
+- *E2E Encryption:* E2EE for calls. Messages not E2EE by default.
+
+**Pulse Chat:**
+- *Biometric Age Verification:* 'No government ID required' is a key selling point
+
+**Databag:**
+- *E2E Encryption:* Optional 'sealed topics' provide E2EE. Default unsealed to allow server-side features (streaming, processing). Admin cannot view sealed topics.
+- *Federated:* Accounts on different Databag nodes can communicate. Federation protocol is Databag-specific, not Matrix/XMPP.
+
+**Discourse:**
+- *Ai Features Or Training:* No built-in AI features. Self-hosted forum software.
+- *Ai Generated Codebase:* Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code.
+
+**Mattermost:**
+- *E2E Encryption:* E2EE voice/video in beta. Messages encrypted in transit and at rest but not E2EE by default
+- *Ai Features Or Training:* AI plugin framework available, Microsoft Copilot integration planned
+
+**Critterchat:**
+- *Ai Generated Codebase:* Explicitly states: 'Not built with, enabled by or integrated with any generative AI.'
+- *Federated:* Federation between instances planned but not yet implemented (FEDERATION.md exists)
+
 </details>
 
 <details>
@@ -521,6 +661,19 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Discourse](https://www.discourse.org) | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [Mattermost](https://mattermost.com) | ✅ | ❌ † | ✅ | ❌ | ✅ | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ✅ | ❓ | ❓ | ❓ | ❓ | ✅ |
+
+**† Feature Notes:**
+
+**Rocket.Chat:**
+- *Free To Use:* Free tier hard-capped at 50 users — must contact support to raise limit. Enterprise license required for larger deployments
+- *No Premium Tier:* Enterprise license required for voice/video and >50 users
+- *Freemium Limitations:* Cloud has message history limits, self-hosted is unlimited
+
+**Nextcloud Talk:**
+- *No Premium Tier:* Core features free. High Performance Backend requires Nextcloud subscription for large calls.
+
+**Mattermost:**
+- *No Premium Tier:* Free self-hosted version available, Enterprise adds compliance/auth features
 
 </details>
 
@@ -574,6 +727,51 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ † | ❌ | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ❓ | ❓ | ❓ | ❓ | ✅ | ⚠️ † | ❓ | ❓ | ❓ | ❓ |
 
+**† Feature Notes:**
+
+**Spacebar:**
+- *Voice Chat:* No voice channel support at time of writing despite Discord API compatibility
+- *Video Chat:* Not currently supported
+- *Screen Sharing:* Not currently supported
+
+**Fluxer:**
+- *Threads Forums:* Roadmap 2026: Slack/Reddit-style threads with hierarchical/linear views, upvoting/downvoting, private forum threads
+
+**Zulip:**
+- *Voice Chat:* Via Jitsi integration only — not native. Uses call-per-message model, not persistent always-on channels
+- *Video Chat:* Via Jitsi integration only
+- *Screen Sharing:* Via Jitsi integration only
+- *Persistent Voice Channels:* Jitsi calls are initiated per message — users cannot freely hop in and out of an always-on channel like Discord
+- *Threads Forums:* Unique topic-based model: every message belongs to a topic within a channel. Takes adjustment for Discord users but very powerful for productivity communities
+
+**Rocket.Chat:**
+- *Voice Chat:* Voice calls are enterprise-only on free tier
+- *Video Chat:* Video calls are enterprise-only on free tier
+- *Screen Sharing:* Screen sharing enterprise-only on free tier
+- *Persistent Voice Channels:* No persistent always-on voice channels — calls are initiated per conversation
+
+**Nextcloud Talk:**
+- *Video Chat:* Peer-to-peer reliable for ~5 participants. High Performance Backend (paid add-on) scales to thousands.
+- *Text Channels:* Conversations, not traditional channels. Threaded messages supported.
+
+**Snikket:**
+- *Text Channels:* Group chats exist but no Discord-style server/channel hierarchy
+
+**Databag:**
+- *Threads Forums:* Topic-based threading - messages organized by topic, not contacts
+- *Voice Chat:* Audio calls supported. Requires STUN/TURN relay server for NAT traversal.
+- *Video Chat:* Video calls supported. Requires STUN/TURN relay server for NAT traversal.
+
+**Discourse:**
+- *Text Channels:* Categories and topics structure (forum-style, not real-time channels)
+- *Threads Forums:* Core feature - entire platform is threaded discussions
+
+**Mattermost:**
+- *Threads Forums:* Threaded replies supported, not forum-style
+
+**Critterchat:**
+- *File Sharing:* Image attachments currently supported, arbitrary file attachments on wishlist
+
 </details>
 
 <details>
@@ -599,6 +797,17 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Discourse](https://www.discourse.org) | ✅ † | ✅ † | ✅ | ✅ † | ⚠️ | ✅ † | ❌ | ❌ |
 | [Mattermost](https://mattermost.com) | ✅ | ⚠️ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
+
+**† Feature Notes:**
+
+**Zulip:**
+- *Large Community Moderation:* Good moderation tools for productivity communities, less suited for large open social communities
+
+**Discourse:**
+- *Large Community Moderation:* Trust levels, flags, automatic hiding, user silencing, sophisticated moderation
+- *Automod:* Automatic post hiding based on flags, spam detection, new user restrictions
+- *User Timeout Mute:* User silencing and suspension features
+- *Message Reporting:* Flag system - users can flag posts for moderator review
 
 </details>
 
@@ -626,6 +835,25 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ † | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❌ |
 
+**† Feature Notes:**
+
+**Spacebar:**
+- *Discord Api Compatible:* Key differentiator — existing Discord bots work without modification
+
+**Zulip:**
+- *Migration Assistant:* Some import tools available for Slack and HipChat, limited Discord support
+
+**Nextcloud Talk:**
+- *Bridges:* Matterbridge integration allows syncing with other chat platforms
+
+**Discourse:**
+- *Bridges:* ONE-WAY notifications out only. NOT bidirectional chat bridging. NOT supported by Matterbridge.
+- *Migration Assistant:* Import tools from other forum software (phpBB, vBulletin, etc)
+
+**Mattermost:**
+- *Migration Assistant:* Import from Slack, HipChat, BizSpark
+- *Bridges:* Slack-compatible webhooks, extensive plugin ecosystem
+
 </details>
 
 <details>
@@ -651,6 +879,21 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Discourse](https://www.discourse.org) | ✅ † | ❌ | ❌ | ✅ | ✅ |
 | [Mattermost](https://mattermost.com) | ⚠️ | ✅ † | ❌ | ✅ | ⚠️ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+**† Feature Notes:**
+
+**Fluxer:**
+- *Event Scheduling:* Roadmap 2026: Scheduled events planned
+
+**Nextcloud Talk:**
+- *Event Scheduling:* Deep integration with Nextcloud Calendar — event conversations created from calendar
+- *Scheduled Announcements:* Message scheduling supported
+
+**Discourse:**
+- *Docs Wiki Channels:* Wiki-style knowledge base features, long-form documentation support
+
+**Mattermost:**
+- *List Task Channels:* Playbooks for runbooks and incident response
 
 </details>
 
@@ -678,18 +921,22 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
 
+**† Feature Notes:**
+
+**Fluxer:**
+- *Community Discovery:* Roadmap 2026: In-app and public (no login) community discovery for published forums
+- *Bots Automation:* Roadmap 2026: Slash commands, modals, components, interactions — Discord feature parity planned
+
 </details>
 
 
-**† Notes**
+**Platform Details**
 
 <details>
 <summary>Sharkord</summary>
 
 - *Description:* Self-hosted chat platform designed for privacy-conscious communities.
 - *Architecture:* Self-hosted
-- *E2E Encryption:* TLS transport encryption only — not end-to-end
-- *Ai Generated Codebase:* Minimal documentation, rapid development timeline. Status unclear.
 </details>
 
 <details>
@@ -697,13 +944,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 - *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
 - *Architecture:* Self-hosted, Discord API compatible
-- *E2E Encryption:* TLS transport encryption only
-- *Voice Chat:* No voice channel support at time of writing despite Discord API compatibility
-- *Video Chat:* Not currently supported
-- *Discord Api Compatible:* Key differentiator — existing Discord bots work without modification
-- *Screen Sharing:* Not currently supported
-- *Ai Features Or Training:* No AI features currently
-- *Ai Generated Codebase:* Explicitly bans AI code: 'AI code due to not being GPLv3 compatible is not allowed in this repo'
 </details>
 
 <details>
@@ -711,17 +951,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 - *Description:* Open-source self-hosted chat platform (AGPL licensed).
 - *Architecture:* Self-hosted
-- *E2E Encryption:* Roadmap 2026: Opt-in 'secret chats' (ephemeral, E2EE sessions). No plans for full-platform E2EE. LiveKit supports E2EE for calls but not yet implemented.
-- *Self Hostable:* Self-hosting not recommended at this time — documentation and support coming soon
-- *Mobile App:* PWA currently. Native Flutter app in development with community developers (post Discord age verification surge)
-- *Open Source:* AGPLv3 + CLA. CLA allows commercial licensing for companies wanting to run internally without copyleft. Committed to no paywalled features or forced upgrades.
-- *Threads Forums:* Roadmap 2026: Slack/Reddit-style threads with hierarchical/linear views, upvoting/downvoting, private forum threads
-- *Federated:* Roadmap 2026: Distributed E2EE federation relays, OAuth2 auth via home instance
-- *Community Discovery:* Roadmap 2026: In-app and public (no login) community discovery for published forums
-- *Bots Automation:* Roadmap 2026: Slash commands, modals, components, interactions — Discord feature parity planned
-- *Event Scheduling:* Roadmap 2026: Scheduled events planned
-- *Ai Features Or Training:* No AI features currently
-- *Ai Generated Codebase:* Developer uses LLMs as a 'rubber duck' debugging tool but writes all code personally. See: https://blog.fluxer.app/how-i-built-fluxer-a-discord-like-chat-app/
 </details>
 
 <details>
@@ -729,7 +958,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 - *Description:* Open-source, self-hosted platform with E2EE DMs and zero telemetry.
 - *Architecture:* Self-hosted
-- *E2E Encryption:* E2EE for DMs only, not group channels
 </details>
 
 <details>
@@ -737,7 +965,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 - *Description:* Community-driven, self-hosted chat platform.
 - *Architecture:* Self-hosted
-- *E2E Encryption:* TLS transport encryption only
 </details>
 
 <details>
@@ -745,17 +972,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 - *Description:* Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.
 - *Architecture:* Self-hosted or cloud-hosted
-- *Voice Chat:* Via Jitsi integration only — not native. Uses call-per-message model, not persistent always-on channels
-- *Video Chat:* Via Jitsi integration only
-- *Screen Sharing:* Via Jitsi integration only
-- *Persistent Voice Channels:* Jitsi calls are initiated per message — users cannot freely hop in and out of an always-on channel like Discord
-- *Threads Forums:* Unique topic-based model: every message belongs to a topic within a channel. Takes adjustment for Discord users but very powerful for productivity communities
-- *Large Community Moderation:* Good moderation tools for productivity communities, less suited for large open social communities
-- *Message Ttl:* Configurable message retention policies per stream
-- *Migration Assistant:* Some import tools available for Slack and HipChat, limited Discord support
-- *Ai Features Or Training:* No built-in AI features. Self-hosted option means user controls data.
-- *Ai Generated Codebase:* Strict AI policy: permits AI assistance but STRICTLY disallows AI commits with zero oversight. See: https://github.com/zulip/zulip/blob/main/CONTRIBUTING.md
-- *E2E Encryption:* E2EE ONLY for push notification content. Messages stored as plaintext in PostgreSQL.
 </details>
 
 <details>
@@ -763,17 +979,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 - *Description:* Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users — significant limitation for large communities.
 - *Architecture:* Self-hosted or cloud-hosted
-- *Free To Use:* Free tier hard-capped at 50 users — must contact support to raise limit. Enterprise license required for larger deployments
-- *Voice Chat:* Voice calls are enterprise-only on free tier
-- *Video Chat:* Video calls are enterprise-only on free tier
-- *Screen Sharing:* Screen sharing enterprise-only on free tier
-- *Persistent Voice Channels:* No persistent always-on voice channels — calls are initiated per conversation
-- *No Premium Tier:* Enterprise license required for voice/video and >50 users
-- *Federated:* Matrix federation bridge available but not native
-- *Message Ttl:* Configurable message retention per room
-- *Freemium Limitations:* Cloud has message history limits, self-hosted is unlimited
-- *Ai Features Or Training:* AI chatbot integrations available via marketplace
-- *Ai Generated Codebase:* Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code.
 </details>
 
 <details>
@@ -788,14 +993,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 - *Description:* Audio/video/chat app integrated into Nextcloud self-hosted cloud platform. Part of larger file sync/collaboration suite. Not standalone Discord alternative — requires full Nextcloud.
 - *Architecture:* Self-hosted, open source (part of Nextcloud)
-- *Federated:* Federation across Nextcloud instances for group chats and calls
-- *E2E Encryption:* E2EE for calls. Messages not E2EE by default.
-- *Video Chat:* Peer-to-peer reliable for ~5 participants. High Performance Backend (paid add-on) scales to thousands.
-- *Text Channels:* Conversations, not traditional channels. Threaded messages supported.
-- *Event Scheduling:* Deep integration with Nextcloud Calendar — event conversations created from calendar
-- *Bridges:* Matterbridge integration allows syncing with other chat platforms
-- *Scheduled Announcements:* Message scheduling supported
-- *No Premium Tier:* Core features free. High Performance Backend requires Nextcloud subscription for large calls.
 </details>
 
 <details>
@@ -803,8 +1000,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 - *Description:* Pre-configured XMPP server package. Easier to deploy than raw XMPP/Prosody. Designed for non-technical users to self-host messaging.
 - *Architecture:* Self-hosted XMPP, open source
-- *Text Channels:* Group chats exist but no Discord-style server/channel hierarchy
-- *Mobile App:* Custom Snikket app for Android/iOS built on Conversations/Siskin clients
 </details>
 
 <details>
@@ -833,7 +1028,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 - *Description:* Self-hosted communication platform with voice, video, and text chat. No government ID required. Minimal public information available.
 - *Architecture:* Self-hosted, open source
-- *Biometric Age Verification:* 'No government ID required' is a key selling point
 </details>
 
 <details>
@@ -841,11 +1035,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 - *Description:* Tiny self-hosted federated messenger. Topic-based threads (not contact-based). Can run on Raspberry Pi Zero. Public-private key identity.
 - *Architecture:* Self-hosted, federated, open source
-- *E2E Encryption:* Optional 'sealed topics' provide E2EE. Default unsealed to allow server-side features (streaming, processing). Admin cannot view sealed topics.
-- *Federated:* Accounts on different Databag nodes can communicate. Federation protocol is Databag-specific, not Matrix/XMPP.
-- *Threads Forums:* Topic-based threading - messages organized by topic, not contacts
-- *Voice Chat:* Audio calls supported. Requires STUN/TURN relay server for NAT traversal.
-- *Video Chat:* Video calls supported. Requires STUN/TURN relay server for NAT traversal.
 </details>
 
 <details>
@@ -853,17 +1042,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 - *Description:* ⚠️ FORUM SOFTWARE, NOT CHAT: Modern forum platform. Some try to use as Discord replacement - this is a category error. Best for async, long-form discussion.
 - *Architecture:* Self-hosted, open source (GPL-2.0)
-- *Text Channels:* Categories and topics structure (forum-style, not real-time channels)
-- *Threads Forums:* Core feature - entire platform is threaded discussions
-- *Large Community Moderation:* Trust levels, flags, automatic hiding, user silencing, sophisticated moderation
-- *Bridges:* ONE-WAY notifications out only. NOT bidirectional chat bridging. NOT supported by Matterbridge.
-- *Docs Wiki Channels:* Wiki-style knowledge base features, long-form documentation support
-- *Migration Assistant:* Import tools from other forum software (phpBB, vBulletin, etc)
-- *Automod:* Automatic post hiding based on flags, spam detection, new user restrictions
-- *User Timeout Mute:* User silencing and suspension features
-- *Message Reporting:* Flag system - users can flag posts for moderator review
-- *Ai Features Or Training:* No built-in AI features. Self-hosted forum software.
-- *Ai Generated Codebase:* Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code.
 </details>
 
 <details>
@@ -871,13 +1049,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 - *Description:* Open-source Slack alternative for teams. Self-hosted, E2EE voice/video (Beta), extensive integrations, mobile apps.
 - *Architecture:* Self-hosted, open source (AGPL-3.0 / Enterprise: proprietary)
-- *E2E Encryption:* E2EE voice/video in beta. Messages encrypted in transit and at rest but not E2EE by default
-- *No Premium Tier:* Free self-hosted version available, Enterprise adds compliance/auth features
-- *Threads Forums:* Threaded replies supported, not forum-style
-- *List Task Channels:* Playbooks for runbooks and incident response
-- *Migration Assistant:* Import from Slack, HipChat, BizSpark
-- *Bridges:* Slack-compatible webhooks, extensive plugin ecosystem
-- *Ai Features Or Training:* AI plugin framework available, Microsoft Copilot integration planned
 </details>
 
 <details>
@@ -885,9 +1056,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 - *Description:* Self-hosted web chat providing Discord-like channels, group chat, and DMs. Focus on ease of use over encryption. Federation support planned.
 - *Architecture:* Self-hosted only
-- *Ai Generated Codebase:* Explicitly states: 'Not built with, enabled by or integrated with any generative AI.'
-- *Federated:* Federation between instances planned but not yet implemented (FEDERATION.md exists)
-- *File Sharing:* Image attachments currently supported, arbitrary file attachments on wishlist
 </details>
 
 ---
@@ -912,6 +1080,33 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ⚠️ † | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
 | [Osmium](https://osmium.chat) | ❌ † | ❌ | ❌ | ❓ | ✅ | ❓ | ❓ | ❌ | ❌ | ❓ | ✅ † |
 
+**† Feature Notes:**
+
+**Discord:**
+- *Gdpr Compliant:* Under regulatory scrutiny in EU
+- *Biometric Age Verification:* Required for UK users accessing age-restricted content as of 2025
+- *Message Ttl:* No server-wide TTL — messages persist indefinitely unless manually deleted
+- *Ai Features Or Training:* Clyde AI chatbot (discontinued 2024), conversation summaries in testing. May train on user data.
+
+**Root:**
+- *No Ads:* No ads currently but VC-funded — monetization model may change
+- *No Data Tracking:* Shares data with third parties per privacy policy
+- *Ai Generated Codebase:* Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code.
+
+**Telegram:**
+- *E2E Encryption:* Secret Chats only — standard group chats and channels are NOT end-to-end encrypted
+- *Open Source:* Client apps are open source, server backend is closed
+- *No Ads:* Ads shown in public channels on free tier
+- *Message Ttl:* Auto-delete timers available per chat (1 day, 1 week, 1 month)
+- *Ai Features Or Training:* Supports AI bots via bot ecosystem, no native AI features
+
+**Steam Chat:**
+- *E2E Encryption:* Variable - some encryption but not E2EE for all features
+
+**Osmium:**
+- *Open Source:* Closed source commercial platform
+- *Ai Generated Codebase:* Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code.
+
 </details>
 
 <details>
@@ -925,6 +1120,23 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [GameVox](https://gamevox.com) | ⚠️ † | ❌ | ❌ | ❓ | ❓ | ❌ |
 | [Steam Chat](https://store.steampowered.com) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Osmium](https://osmium.chat) | ✅ † | ❓ | ❌ | ❓ | ❓ | ❌ |
+
+**† Feature Notes:**
+
+**Discord:**
+- *Free To Use:* Freemium — Nitro subscription for extra features
+- *No Premium Tier:* Nitro subscription required for animated avatars, higher upload limits, custom emoji across servers, and other features
+- *Freemium Limitations:* Nitro unlocks higher upload limits, better streaming quality, server boosts
+
+**Telegram:**
+- *No Premium Tier:* Telegram Premium subscription required for some features like larger uploads and exclusive stickers
+- *Freemium Limitations:* Premium adds faster downloads, larger uploads (4GB), exclusive stickers, ads removal
+
+**GameVox:**
+- *Free To Use:* Free tier: 50 members max, 3 voice channels, 8 text channels, 2GB storage
+
+**Osmium:**
+- *Free To Use:* No email required - sign up in 30 seconds
 
 </details>
 
@@ -954,6 +1166,23 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Steam Chat](https://store.steampowered.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ | ✅ | ❌ | ✅ | ❌ |
 | [Osmium](https://osmium.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❓ | ✅ | ❌ |
 
+**† Feature Notes:**
+
+**Discord:**
+- *System Audio Sharing:* Windows and macOS only, not Linux
+- *Per User Audio Output:* Each user can set 0–200% individual volume per member in voice channels — a much-requested feature missing from most alternatives
+
+**Root:**
+- *Video Chat:* Video bitrate is low quality — streams appear blurry according to user reports
+- *Screen Sharing:* Video quality in screenshare is poor — blurry at standard bitrate
+
+**Telegram:**
+- *Video Chat:* Group video chat bitrate described as poor quality
+- *System Audio Sharing:* System audio sharing in group chats has echo cancellation issues — users can hear themselves, audio cuts in and out
+
+**GameVox:**
+- *Voice Chat:* 3D spatial/proximity audio for roleplay servers. Adjustable voice ranges (whisper 3m to megaphone 100m)
+
 </details>
 
 <details>
@@ -967,6 +1196,21 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [GameVox](https://gamevox.com) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Osmium](https://osmium.chat) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+
+**† Feature Notes:**
+
+**Discord:**
+- *Large Community Moderation:* Comprehensive automod, audit logs, raid protection, timeout, mass prune — benchmark for large community moderation
+- *Automod:* Comprehensive AutoMod with keyword filters, spam detection, mention limits, custom rules
+- *Audit Logs:* Full audit logs tracking all mod actions, message edits, role changes
+- *User Timeout Mute:* Timeout feature (temporary mute), plus permanent mute and kick/ban
+- *Raid Protection:* Verification levels, member screening, DM spam filters, phone verification
+- *Message Reporting:* Users can report messages, admins review in safety dashboard
+- *Age Verification:* Planned: Teen accounts with restricted features. Requires government ID or face scan for age verification (UK pilot 2025)
+- *Id Verification:* Planned: Face scanning and government ID verification for age-gating. Privacy concerns raised by community.
+
+**Telegram:**
+- *Raid Protection:* Anti-spam features, aggressive join requirements for large groups
 
 </details>
 
@@ -982,6 +1226,11 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Steam Chat](https://store.steampowered.com) | ❌ | ⚠️ | ❌ | ✅ | ❌ | ❌ | ❌ |
 | [Osmium](https://osmium.chat) | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ | ❌ |
 
+**† Feature Notes:**
+
+**Root:**
+- *Migration Assistant:* Has 'Discord Themes' feature that imports/converts Discord servers
+
 </details>
 
 <details>
@@ -995,6 +1244,15 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [GameVox](https://gamevox.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ❌ | ✅ |
 | [Osmium](https://osmium.chat) | ❌ | ❌ | ❌ | ❌ | ❓ |
+
+**† Feature Notes:**
+
+**Discord:**
+- *Scheduled Announcements:* Scheduled messages available but limited — no native scheduled announcement channel type
+
+**Telegram:**
+- *Media Gallery Channels:* Channels can be used as media galleries but no dedicated gallery channel type
+- *Scheduled Announcements:* Messages and posts can be scheduled natively
 
 </details>
 
@@ -1010,36 +1268,31 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ † |
 | [Osmium](https://osmium.chat) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
 
+**† Feature Notes:**
+
+**Discord:**
+- *Raid Planner:* Basic events only, no dedicated raid planning tools
+- *Community Discovery:* In-app server discovery plus extensive third-party directories like Disboard, top.gg, and discord.me
+
+**Telegram:**
+- *Community Discovery:* Search for public channels and groups built into the app
+
+**GameVox:**
+- *Community Discovery:* Public server browser available
+
+**Steam Chat:**
+- *Community Discovery:* Built into Steam platform - can discover game communities, groups
+
 </details>
 
 
-**† Notes**
+**Platform Details**
 
 <details>
 <summary>Discord</summary>
 
 - *Description:* The dominant chat platform for gaming and online communities. Included as the baseline for comparison.
 - *Architecture:* Centralized, closed source
-- *System Audio Sharing:* Windows and macOS only, not Linux
-- *Free To Use:* Freemium — Nitro subscription for extra features
-- *Gdpr Compliant:* Under regulatory scrutiny in EU
-- *Raid Planner:* Basic events only, no dedicated raid planning tools
-- *Biometric Age Verification:* Required for UK users accessing age-restricted content as of 2025
-- *Scheduled Announcements:* Scheduled messages available but limited — no native scheduled announcement channel type
-- *No Premium Tier:* Nitro subscription required for animated avatars, higher upload limits, custom emoji across servers, and other features
-- *Per User Audio Output:* Each user can set 0–200% individual volume per member in voice channels — a much-requested feature missing from most alternatives
-- *Large Community Moderation:* Comprehensive automod, audit logs, raid protection, timeout, mass prune — benchmark for large community moderation
-- *Message Ttl:* No server-wide TTL — messages persist indefinitely unless manually deleted
-- *Community Discovery:* In-app server discovery plus extensive third-party directories like Disboard, top.gg, and discord.me
-- *Freemium Limitations:* Nitro unlocks higher upload limits, better streaming quality, server boosts
-- *Automod:* Comprehensive AutoMod with keyword filters, spam detection, mention limits, custom rules
-- *Audit Logs:* Full audit logs tracking all mod actions, message edits, role changes
-- *User Timeout Mute:* Timeout feature (temporary mute), plus permanent mute and kick/ban
-- *Raid Protection:* Verification levels, member screening, DM spam filters, phone verification
-- *Message Reporting:* Users can report messages, admins review in safety dashboard
-- *Age Verification:* Planned: Teen accounts with restricted features. Requires government ID or face scan for age verification (UK pilot 2025)
-- *Id Verification:* Planned: Face scanning and government ID verification for age-gating. Privacy concerns raised by community.
-- *Ai Features Or Training:* Clyde AI chatbot (discontinued 2024), conversation summaries in testing. May train on user data.
 </details>
 
 <details>
@@ -1047,12 +1300,6 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 - *Description:* VC-funded commercial chat platform with built-in app ecosystem. Polished but closed source.
 - *Architecture:* Centralized, closed source
-- *No Ads:* No ads currently but VC-funded — monetization model may change
-- *No Data Tracking:* Shares data with third parties per privacy policy
-- *Migration Assistant:* Has 'Discord Themes' feature that imports/converts Discord servers
-- *Video Chat:* Video bitrate is low quality — streams appear blurry according to user reports
-- *Screen Sharing:* Video quality in screenshare is poor — blurry at standard bitrate
-- *Ai Generated Codebase:* Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code.
 </details>
 
 <details>
@@ -1060,20 +1307,6 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 - *Description:* Large-scale messaging platform with up to 200,000 members per group. Open source clients, closed backend.
 - *Architecture:* Centralized, open source clients only
-- *E2E Encryption:* Secret Chats only — standard group chats and channels are NOT end-to-end encrypted
-- *Open Source:* Client apps are open source, server backend is closed
-- *No Ads:* Ads shown in public channels on free tier
-- *Requires Phone Number:* Phone number required for registration
-- *Media Gallery Channels:* Channels can be used as media galleries but no dedicated gallery channel type
-- *Scheduled Announcements:* Messages and posts can be scheduled natively
-- *No Premium Tier:* Telegram Premium subscription required for some features like larger uploads and exclusive stickers
-- *Message Ttl:* Auto-delete timers available per chat (1 day, 1 week, 1 month)
-- *Community Discovery:* Search for public channels and groups built into the app
-- *Video Chat:* Group video chat bitrate described as poor quality
-- *System Audio Sharing:* System audio sharing in group chats has echo cancellation issues — users can hear themselves, audio cuts in and out
-- *Freemium Limitations:* Premium adds faster downloads, larger uploads (4GB), exclusive stickers, ads removal
-- *Raid Protection:* Anti-spam features, aggressive join requirements for large groups
-- *Ai Features Or Training:* Supports AI bots via bot ecosystem, no native AI features
 </details>
 
 <details>
@@ -1081,9 +1314,6 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 - *Description:* Voice chat platform for gaming communities launched in 2025. Features 3D spatial audio, proximity voice for FiveM/alt:V/RedM roleplay servers. Free tier limited to 50 members.
 - *Architecture:* Centralized, closed source
-- *Free To Use:* Free tier: 50 members max, 3 voice channels, 8 text channels, 2GB storage
-- *Voice Chat:* 3D spatial/proximity audio for roleplay servers. Adjustable voice ranges (whisper 3m to megaphone 100m)
-- *Community Discovery:* Public server browser available
 </details>
 
 <details>
@@ -1091,8 +1321,6 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 - *Description:* Built-in chat for Steam gaming platform. Voice, video, text, screen sharing. Massive userbase among PC gamers.
 - *Architecture:* Centralized, closed source (Valve)
-- *E2E Encryption:* Variable - some encryption but not E2EE for all features
-- *Community Discovery:* Built into Steam platform - can discover game communities, groups
 </details>
 
 <details>
@@ -1100,9 +1328,6 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 - *Description:* Globally distributed messaging and VoIP platform. Formerly 'Tangle'. Early access opened Feb 2026 after 2+ years development. Independent team (EU/BR).
 - *Architecture:* Centralized, closed source
-- *Free To Use:* No email required - sign up in 30 seconds
-- *Open Source:* Closed source commercial platform
-- *Ai Generated Codebase:* Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code.
 </details>
 
 ---
@@ -1135,6 +1360,64 @@ Included for historical context or specific use cases. Generally not recommended
 | [Ventrilo](https://www.ventrilo.com) | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ † | ❌ |
 | [Carrion](https://github.com/carrion-org) | ❓ | ❌ | ❓ | ⚠️ † | ❓ | ❓ | ❓ | ❌ | ✅ † | ❓ | ❓ |
 
+**† Feature Notes:**
+
+**TeamSpeak:**
+- *E2E Encryption:* Voice is AES-encrypted between client and server but server can decrypt — not true E2EE
+- *Self Hostable:* Port forwarding required for self-hosting
+- *Ai Features Or Training:* No AI features, voice-focused legacy platform
+
+**Mumble:**
+- *E2E Encryption:* True E2EE for voice — one of the few platforms with this
+- *Message Ttl:* Text chat history not persisted long-term by default
+- *Ai Features Or Training:* No AI features, voice-focused legacy platform
+
+**Signal:**
+- *Message Ttl:* Disappearing messages supported with configurable TTL per conversation
+- *Ai Features Or Training:* Explicitly privacy-focused, no AI features, no data collection for training
+
+**Skype:**
+- *E2E Encryption:* Private conversations support E2EE, but group chats do not
+- *No Ads:* Some promotional content present in free tier
+
+**SimpleX Chat:**
+- *Federated:* Decentralized but not federated — no user identifiers, P2P via relay servers
+- *Ai Features Or Training:* No AI features, no user profiling, no data collection
+
+**Quiet:**
+- *Self Hostable:* P2P architecture — no servers to host. All communication via Tor network.
+- *Federated:* P2P architecture, not federated in traditional sense
+
+**Oldcord:**
+- *Ai Generated Codebase:* Developer explicitly: 'we don't use AI to generate any of our code. we don't accept AI generated contributions'
+
+**Jami:**
+- *Self Hostable:* P2P architecture - no traditional servers. Can self-host DHT proxy and name server. JAMS for organizations.
+- *Federated:* P2P distributed, not federated in traditional sense. Each device is a node.
+- *E2E Encryption:* Perfect forward secrecy with X.509 standard. All P2P communications encrypted.
+
+**Gajim:**
+- *Self Hostable:* XMPP client - requires XMPP server (Prosody, ejabberd, etc)
+- *Federated:* XMPP federation protocol
+- *E2E Encryption:* OMEMO support for E2EE messaging
+
+**Swift IM:**
+- *Self Hostable:* XMPP client - requires XMPP server (Prosody, ejabberd, M-Link, etc)
+- *Federated:* XMPP federation protocol
+- *E2E Encryption:* OMEMO and other XMPP E2EE extensions supported
+
+**Movim:**
+- *Self Hostable:* Web app that connects to XMPP servers - can self-host both Movim and server
+- *Federated:* XMPP federation - communicates across XMPP network
+- *E2E Encryption:* OMEMO support via XMPP
+
+**Ventrilo:**
+- *Ai Features Or Training:* No AI features, voice-focused legacy platform
+
+**Carrion:**
+- *E2E Encryption:* Encrypted DMs available. Messages pass through server RAM briefly but not stored on disk.
+- *Message Ttl:* Messages only exist in browser IndexedDB. Can export/import, but server stores nothing.
+
 </details>
 
 <details>
@@ -1156,6 +1439,23 @@ Included for historical context or specific use cases. Generally not recommended
 | [Movim](https://movim.eu) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 | [Ventrilo](https://www.ventrilo.com) | ⚠️ † | ❌ | ⚠️ † | ✅ † | ❌ | ✅ |
 | [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
+
+**† Feature Notes:**
+
+**TeamSpeak:**
+- *No Premium Tier:* Free for small servers, licensing required for larger deployments
+- *Self Hosting License:* Free server for non-commercial use (32 slots), commercial license required for larger deployments
+
+**Skype:**
+- *No Premium Tier:* Skype Credit and subscription plans exist for calling phone numbers, but core chat/video features are free
+
+**Swift IM:**
+- *No Premium Tier:* Open source version free, paid support packages available
+
+**Ventrilo:**
+- *Free To Use:* Free client, servers require licensing (rental or self-host with license). Free 8-slot server available.
+- *Self Hosting License:* Can self-host but requires commercial license. Free tier limited to 8 slots.
+- *Freemium Limitations:* Free tier: 8 slots max. Paid: up to 400 slots per server.
 
 </details>
 
@@ -1179,6 +1479,14 @@ Included for historical context or specific use cases. Generally not recommended
 | [Ventrilo](https://www.ventrilo.com) | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
 
+**† Feature Notes:**
+
+**Signal:**
+- *Web App:* Desktop-linked web interface only, no standalone web app
+
+**Jami:**
+- *Web App:* Experimental web version available
+
 </details>
 
 <details>
@@ -1200,6 +1508,51 @@ Included for historical context or specific use cases. Generally not recommended
 | [Movim](https://movim.eu) | ❌ † | ❌ | ❌ | ❌ | ✅ † | ✅ | ⚠️ | ✅ † | ❌ | ❌ |
 | [Ventrilo](https://www.ventrilo.com) | ✅ † | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ † |
 | [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+**† Feature Notes:**
+
+**TeamSpeak:**
+- *Text Channels:* Text chat is functional but minimal — not a primary feature
+- *Per User Audio Output:* Per-client volume adjustment supported
+- *Screen Sharing:* P2P streaming only supports one-to-one, not one-to-many from voice channel. Group chat streaming works — can stream to group chat while talking in server simultaneously. Allows custom bitrate settings and 60fps streaming. Supports streaming multiple windows simultaneously. Connection can be slow/buggy (10+ minute waits, duplicate users reported).
+
+**Mumble:**
+- *Text Channels:* Very basic text messaging only
+- *Per User Audio Output:* Per-user volume adjustment supported natively
+
+**Signal:**
+- *Text Channels:* Group chats exist but no server/channel hierarchy
+
+**Skype:**
+- *System Audio Sharing:* System audio sharing available on Windows and macOS only
+- *Text Channels:* Group chats exist but no server/channel hierarchy — designed for 1:1 and small group calls, not communities
+- *Per User Audio Output:* Individual volume control per participant supported
+
+**SimpleX Chat:**
+- *Text Channels:* Only DMs and group chats — no server/channel structure
+
+**Oldcord:**
+- *Voice Chat:* Work in progress. WebRTC P2P (exposes IP, VPN recommended), standard WebRTC (browser), UDP (desktop). Minor bugs being fixed.
+- *Video Chat:* Not yet supported. Focus on voice first.
+
+**Jami:**
+- *Text Channels:* 1-on-1 and group chats only. No server/channel hierarchy.
+
+**Gajim:**
+- *Voice Chat:* Via Jitsi plugin - not native
+- *Text Channels:* Multi-user chats (MUC) via XMPP
+
+**Swift IM:**
+- *Text Channels:* Multi-user chat (MUC) via XMPP
+
+**Movim:**
+- *Text Channels:* Communities and chat rooms via XMPP MUC
+- *Threads Forums:* Communities for topic-based discussions, blogging features
+- *Voice Chat:* Text-focused platform, no native voice/video
+
+**Ventrilo:**
+- *Voice Chat:* High-quality Speex codec with surround sound positioning. Known for superior audio quality.
+- *Per User Audio Output:* Individual volume control and audio settings per user
 
 </details>
 
@@ -1245,6 +1598,17 @@ Included for historical context or specific use cases. Generally not recommended
 | [Ventrilo](https://www.ventrilo.com) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❌ |
 
+**† Feature Notes:**
+
+**SimpleX Chat:**
+- *Invite Links Guest Access:* One-time connection links — no persistent usernames
+
+**Oldcord:**
+- *Discord Api Compatible:* 2015-2018 Discord API compatibility. Client patcher for custom patches.
+
+**Movim:**
+- *Server Organization:* Communities organize content by topic
+
 </details>
 
 <details>
@@ -1266,6 +1630,11 @@ Included for historical context or specific use cases. Generally not recommended
 | [Movim](https://movim.eu) | ❌ | ✅ † | ❌ | ❌ | ✅ |
 | [Ventrilo](https://www.ventrilo.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+**† Feature Notes:**
+
+**Movim:**
+- *List Task Channels:* Task management features built in
 
 </details>
 
@@ -1289,24 +1658,24 @@ Included for historical context or specific use cases. Generally not recommended
 | [Ventrilo](https://www.ventrilo.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
 
+**† Feature Notes:**
+
+**Skype:**
+- *Bots Automation:* Limited bot support — primarily designed for human-to-human communication
+
+**Movim:**
+- *Community Discovery:* Browse and discover XMPP communities
+
 </details>
 
 
-**† Notes**
+**Platform Details**
 
 <details>
 <summary>TeamSpeak</summary>
 
 - *Description:* Long-running voice-focused platform. Predates Discord. Not recommended for casual community use due to dated UX.
 - *Architecture:* Self-hosted or hosted
-- *E2E Encryption:* Voice is AES-encrypted between client and server but server can decrypt — not true E2EE
-- *Text Channels:* Text chat is functional but minimal — not a primary feature
-- *No Premium Tier:* Free for small servers, licensing required for larger deployments
-- *Per User Audio Output:* Per-client volume adjustment supported
-- *Screen Sharing:* P2P streaming only supports one-to-one, not one-to-many from voice channel. Group chat streaming works — can stream to group chat while talking in server simultaneously. Allows custom bitrate settings and 60fps streaming. Supports streaming multiple windows simultaneously. Connection can be slow/buggy (10+ minute waits, duplicate users reported).
-- *Self Hostable:* Port forwarding required for self-hosting
-- *Self Hosting License:* Free server for non-commercial use (32 slots), commercial license required for larger deployments
-- *Ai Features Or Training:* No AI features, voice-focused legacy platform
 </details>
 
 <details>
@@ -1314,11 +1683,6 @@ Included for historical context or specific use cases. Generally not recommended
 
 - *Description:* Open-source, self-hosted voice chat with true end-to-end encryption. Minimal text features.
 - *Architecture:* Self-hosted
-- *E2E Encryption:* True E2EE for voice — one of the few platforms with this
-- *Text Channels:* Very basic text messaging only
-- *Per User Audio Output:* Per-user volume adjustment supported natively
-- *Message Ttl:* Text chat history not persisted long-term by default
-- *Ai Features Or Training:* No AI features, voice-focused legacy platform
 </details>
 
 <details>
@@ -1326,11 +1690,6 @@ Included for historical context or specific use cases. Generally not recommended
 
 - *Description:* Gold standard for private messaging. Best-in-class encryption. Limited community/server features.
 - *Architecture:* Centralized, open source
-- *Text Channels:* Group chats exist but no server/channel hierarchy
-- *Requires Phone Number:* Phone number required for registration
-- *Web App:* Desktop-linked web interface only, no standalone web app
-- *Message Ttl:* Disappearing messages supported with configurable TTL per conversation
-- *Ai Features Or Training:* Explicitly privacy-focused, no AI features, no data collection for training
 </details>
 
 <details>
@@ -1338,13 +1697,6 @@ Included for historical context or specific use cases. Generally not recommended
 
 - *Description:* Microsoft's video calling and instant messaging platform (2003-present). Once dominant for voice/video calls, now largely superseded by Discord, Zoom, and Teams. Still maintained but feature development minimal.
 - *Architecture:* Centralized, closed source (Microsoft)
-- *E2E Encryption:* Private conversations support E2EE, but group chats do not
-- *No Ads:* Some promotional content present in free tier
-- *System Audio Sharing:* System audio sharing available on Windows and macOS only
-- *Text Channels:* Group chats exist but no server/channel hierarchy — designed for 1:1 and small group calls, not communities
-- *No Premium Tier:* Skype Credit and subscription plans exist for calling phone numbers, but core chat/video features are free
-- *Bots Automation:* Limited bot support — primarily designed for human-to-human communication
-- *Per User Audio Output:* Individual volume control per participant supported
 </details>
 
 <details>
@@ -1352,10 +1704,6 @@ Included for historical context or specific use cases. Generally not recommended
 
 - *Description:* Open-source decentralized messaging with no user identifiers (no phone, email, or usernames). Not for large communities — designed for secure private messaging.
 - *Architecture:* Decentralized, open source
-- *Federated:* Decentralized but not federated — no user identifiers, P2P via relay servers
-- *Invite Links Guest Access:* One-time connection links — no persistent usernames
-- *Text Channels:* Only DMs and group chats — no server/channel structure
-- *Ai Features Or Training:* No AI features, no user profiling, no data collection
 </details>
 
 <details>
@@ -1363,8 +1711,6 @@ Included for historical context or specific use cases. Generally not recommended
 
 - *Description:* P2P encrypted team chat. Uses Tor for anonymity. No central server. Designed for journalists/activists, not casual communities.
 - *Architecture:* Peer-to-peer via Tor, open source
-- *Self Hostable:* P2P architecture — no servers to host. All communication via Tor network.
-- *Federated:* P2P architecture, not federated in traditional sense
 </details>
 
 <details>
@@ -1379,10 +1725,6 @@ Included for historical context or specific use cases. Generally not recommended
 
 - *Description:* Open-source reimplementation of 2015-2018 Discord backend. Nostalgia project preserving classic Discord experience without telemetry/bloat.
 - *Architecture:* Self-hosted, open source
-- *Voice Chat:* Work in progress. WebRTC P2P (exposes IP, VPN recommended), standard WebRTC (browser), UDP (desktop). Minor bugs being fixed.
-- *Video Chat:* Not yet supported. Focus on voice first.
-- *Discord Api Compatible:* 2015-2018 Discord API compatibility. Client patcher for custom patches.
-- *Ai Generated Codebase:* Developer explicitly: 'we don't use AI to generate any of our code. we don't accept AI generated contributions'
 </details>
 
 <details>
@@ -1390,11 +1732,6 @@ Included for historical context or specific use cases. Generally not recommended
 
 - *Description:* GNU P2P distributed communication. Fully peer-to-peer (no central servers). Works on LAN even without internet. Formerly GNU Ring/SFLphone.
 - *Architecture:* Distributed P2P, open source (GNU GPL-3.0+)
-- *Self Hostable:* P2P architecture - no traditional servers. Can self-host DHT proxy and name server. JAMS for organizations.
-- *Federated:* P2P distributed, not federated in traditional sense. Each device is a node.
-- *Web App:* Experimental web version available
-- *Text Channels:* 1-on-1 and group chats only. No server/channel hierarchy.
-- *E2E Encryption:* Perfect forward secrecy with X.509 standard. All P2P communications encrypted.
 </details>
 
 <details>
@@ -1402,11 +1739,6 @@ Included for historical context or specific use cases. Generally not recommended
 
 - *Description:* Full-featured XMPP desktop client. Python/GTK. OMEMO E2EE. Linux/Windows. No voice/video.
 - *Architecture:* XMPP client, open source (GPL-3.0)
-- *Self Hostable:* XMPP client - requires XMPP server (Prosody, ejabberd, etc)
-- *Federated:* XMPP federation protocol
-- *E2E Encryption:* OMEMO support for E2EE messaging
-- *Voice Chat:* Via Jitsi plugin - not native
-- *Text Channels:* Multi-user chats (MUC) via XMPP
 </details>
 
 <details>
@@ -1414,12 +1746,6 @@ Included for historical context or specific use cases. Generally not recommended
 
 - *Description:* Cross-platform XMPP desktop client. Security-focused for Military/Finance/Government. Multi-user chat, security labels, keyword highlighting.
 - *Architecture:* XMPP client, open source (GPL)
-- *Self Hostable:* XMPP client - requires XMPP server (Prosody, ejabberd, M-Link, etc)
-- *Federated:* XMPP federation protocol
-- *E2E Encryption:* OMEMO and other XMPP E2EE extensions supported
-- *Text Channels:* Multi-user chat (MUC) via XMPP
-- *No Premium Tier:* Open source version free, paid support packages available
-- *Mobile App:* Desktop only - no mobile clients
 </details>
 
 <details>
@@ -1427,15 +1753,6 @@ Included for historical context or specific use cases. Generally not recommended
 
 - *Description:* Distributed social network built on XMPP. Web-based. Communities, blogging, file sharing. Compatible with Conversations/Dino clients.
 - *Architecture:* XMPP web client/platform, open source
-- *Self Hostable:* Web app that connects to XMPP servers - can self-host both Movim and server
-- *Federated:* XMPP federation - communicates across XMPP network
-- *E2E Encryption:* OMEMO support via XMPP
-- *Text Channels:* Communities and chat rooms via XMPP MUC
-- *Threads Forums:* Communities for topic-based discussions, blogging features
-- *List Task Channels:* Task management features built in
-- *Server Organization:* Communities organize content by topic
-- *Community Discovery:* Browse and discover XMPP communities
-- *Voice Chat:* Text-focused platform, no native voice/video
 </details>
 
 <details>
@@ -1443,12 +1760,6 @@ Included for historical context or specific use cases. Generally not recommended
 
 - *Description:* Legacy gaming voice chat (1997-present). Low-latency, high-quality audio. Surround sound positioning. Widely used in MMO guilds pre-Discord.
 - *Architecture:* Closed source, client-server
-- *Free To Use:* Free client, servers require licensing (rental or self-host with license). Free 8-slot server available.
-- *Self Hosting License:* Can self-host but requires commercial license. Free tier limited to 8 slots.
-- *Freemium Limitations:* Free tier: 8 slots max. Paid: up to 400 slots per server.
-- *Voice Chat:* High-quality Speex codec with surround sound positioning. Known for superior audio quality.
-- *Per User Audio Output:* Individual volume control and audio settings per user
-- *Ai Features Or Training:* No AI features, voice-focused legacy platform
 </details>
 
 <details>
@@ -1456,8 +1767,6 @@ Included for historical context or specific use cases. Generally not recommended
 
 - *Description:* ⚠️ ADULT CONTENT (18+): Privacy-focused adult roleplay platform with zero server-side message storage. Designed for erotic RP, kink communities, LGBTQ+, and furries. NOT a general chat alternative.
 - *Architecture:* Centralized (zero storage)
-- *E2E Encryption:* Encrypted DMs available. Messages pass through server RAM briefly but not stored on disk.
-- *Message Ttl:* Messages only exist in browser IndexedDB. Can export/import, but server stores nothing.
 </details>
 
 ---
@@ -1484,6 +1793,20 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ |
 | [TeaSpeak](https://github.com/TeaSpeak) | ✅ † | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
 
+**† Feature Notes:**
+
+**Guilded (discontinued):**
+- *No Ads:* Some promotional content present
+
+**Roger Wilco:**
+- *Self Hostable:* Base Station server could be hosted on Linux/FreeBSD/Windows but was proprietary
+
+**RaidCall:**
+- *Self Hostable:* Free cloud-hosted servers provided by RaidCall — no self-hosting option
+
+**TeaSpeak:**
+- *Open Source:* GPLv3. Reverse-engineered TeamSpeak 3 protocol for compatibility
+
 </details>
 
 <details>
@@ -1499,6 +1822,11 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Razer Comms](https://www.razer.com/) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [TeaSpeak](https://github.com/TeaSpeak) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
+
+**† Feature Notes:**
+
+**Dolby Axon:**
+- *Free To Use:* Free tier available, paid tier for advanced features
 
 </details>
 
@@ -1516,6 +1844,11 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [TeaSpeak](https://github.com/TeaSpeak) | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ |
 
+**† Feature Notes:**
+
+**TeaSpeak:**
+- *Web App:* TeaSpeak included a web client interface
+
 </details>
 
 <details>
@@ -1531,6 +1864,27 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Razer Comms](https://www.razer.com/) | ✅ † | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ |
 | [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ✅ † | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ |
 | [TeaSpeak](https://github.com/TeaSpeak) | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
+
+**† Feature Notes:**
+
+**Guilded (discontinued):**
+- *Per User Audio Output:* Per-user volume supported but range more limited than Discord's 0–200%
+
+**Xfire:**
+- *Screen Sharing:* Game screenshot capture and video recording, not live screen sharing
+
+**RaidCall:**
+- *Video Chat:* Group video chat supported up to 4 people
+- *Per User Audio Output:* Individual volume control per user supported
+
+**Dolby Axon:**
+- *Voice Chat:* Featured Dolby audio codec and 3D positional audio — key differentiator
+
+**Razer Comms:**
+- *Voice Chat:* Integrated overlay with automatic game detection
+
+**Curse Voice:**
+- *Voice Chat:* Automatic teammate detection in supported games
 
 </details>
 
@@ -1564,6 +1918,17 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ⚠️ | ❌ | ✅ | ❌ | ❌ | ❌ |
 | [TeaSpeak](https://github.com/TeaSpeak) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 
+**† Feature Notes:**
+
+**Guilded (discontinued):**
+- *Migration Assistant:* Basic Discord import available
+
+**Roger Wilco:**
+- *Server Organization:* Channel-based system with public/private channel browser
+
+**RaidCall:**
+- *Role Management:* Channel permissions and user roles for guild/team management
+
 </details>
 
 <details>
@@ -1596,23 +1961,39 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ † |
 | [TeaSpeak](https://github.com/TeaSpeak) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
+**† Feature Notes:**
+
+**Guilded (discontinued):**
+- *Raid Planner:* Best-in-class raid and event tools — a key differentiator
+- *Rich Calendar Tools:* Full calendar system: dedicated calendar channel type, month and upcoming list views, per-event RSVP (Going/Maybe/Declined), attendance limits, repeating events, event-level permissions, separate scheduling channels for collecting availability via drag-and-drop, aggregate cross-server calendar in user profile, automatic local timezone display, and embeddable forms within events
+- *Tournament Brackets:* Native bracket and tournament organisation tools — a key differentiator for competitive gaming communities
+- *Community Discovery:* Had native server discovery and browse features before shutdown
+
+**Roger Wilco:**
+- *Community Discovery:* Built-in channel browser displayed all public channels
+
+**Xfire:**
+- *Community Discovery:* Game server browser and clan/community discovery built in
+
+**RaidCall:**
+- *Community Discovery:* Public group browser to discover and join groups
+
+**Razer Comms:**
+- *Community Discovery:* Looking-for-group (LFG) features and game integration
+
+**Curse Voice:**
+- *Community Discovery:* Integrated with Curse client for World of Warcraft addon management
+
 </details>
 
 
-**† Notes**
+**Platform Details**
 
 <details>
 <summary>Guilded (discontinued)</summary>
 
 - *Description:* Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists — the closest Discord feature-parity alternative that existed.
 - *Architecture:* Centralized, closed source (discontinued)
-- *Raid Planner:* Best-in-class raid and event tools — a key differentiator
-- *No Ads:* Some promotional content present
-- *Migration Assistant:* Basic Discord import available
-- *Rich Calendar Tools:* Full calendar system: dedicated calendar channel type, month and upcoming list views, per-event RSVP (Going/Maybe/Declined), attendance limits, repeating events, event-level permissions, separate scheduling channels for collecting availability via drag-and-drop, aggregate cross-server calendar in user profile, automatic local timezone display, and embeddable forms within events
-- *Tournament Brackets:* Native bracket and tournament organisation tools — a key differentiator for competitive gaming communities
-- *Per User Audio Output:* Per-user volume supported but range more limited than Discord's 0–200%
-- *Community Discovery:* Had native server discovery and browse features before shutdown
 </details>
 
 <details>
@@ -1620,9 +2001,6 @@ Platforms that are no longer active. Included for historical reference and featu
 
 - *Description:* Pioneer VoIP application for gaming (1999-2003). First major voice chat tool designed for multiplayer games. Used peer-to-peer connection model.
 - *Architecture:* Closed source, peer-to-peer
-- *Self Hostable:* Base Station server could be hosted on Linux/FreeBSD/Windows but was proprietary
-- *Server Organization:* Channel-based system with public/private channel browser
-- *Community Discovery:* Built-in channel browser displayed all public channels
 </details>
 
 <details>
@@ -1630,8 +2008,6 @@ Platforms that are no longer active. Included for historical reference and featu
 
 - *Description:* Gaming-focused instant messaging and social platform (2003-2015). Combined voice chat, game tracking, screenshots, and video recording. Shutdown June 2015.
 - *Architecture:* Closed source, centralized
-- *Community Discovery:* Game server browser and clan/community discovery built in
-- *Screen Sharing:* Game screenshot capture and video recording, not live screen sharing
 </details>
 
 <details>
@@ -1639,11 +2015,6 @@ Platforms that are no longer active. Included for historical reference and featu
 
 - *Description:* Free cloud-based voice chat for gaming (2011-2019). Supported up to 10,000 users per group. Had overlay, music streaming, low latency. Discontinued March 31, 2019.
 - *Architecture:* Closed source, cloud-hosted
-- *Self Hostable:* Free cloud-hosted servers provided by RaidCall — no self-hosting option
-- *Video Chat:* Group video chat supported up to 4 people
-- *Community Discovery:* Public group browser to discover and join groups
-- *Per User Audio Output:* Individual volume control per user supported
-- *Role Management:* Channel permissions and user roles for guild/team management
 </details>
 
 <details>
@@ -1651,8 +2022,6 @@ Platforms that are no longer active. Included for historical reference and featu
 
 - *Description:* Gaming voice chat platform by Dolby Laboratories (2008-2015). Featured Dolby audio technology, positional audio, and low latency. Discontinued 2015.
 - *Architecture:* Closed source, centralized
-- *Free To Use:* Free tier available, paid tier for advanced features
-- *Voice Chat:* Featured Dolby audio codec and 3D positional audio — key differentiator
 </details>
 
 <details>
@@ -1660,8 +2029,6 @@ Platforms that are no longer active. Included for historical reference and featu
 
 - *Description:* Gaming VoIP platform by Razer Inc (2013-2016). Integrated with Razer Cortex. Featured overlay, game detection, and LFG features. Discontinued 2016.
 - *Architecture:* Closed source, centralized
-- *Community Discovery:* Looking-for-group (LFG) features and game integration
-- *Voice Chat:* Integrated overlay with automatic game detection
 </details>
 
 <details>
@@ -1669,8 +2036,6 @@ Platforms that are no longer active. Included for historical reference and featu
 
 - *Description:* Gaming voice chat integrated with Curse client for game mods/addons (2014-2018). Evolved into Discord partnership. Discontinued 2018 after Twitch acquisition.
 - *Architecture:* Closed source, centralized
-- *Voice Chat:* Automatic teammate detection in supported games
-- *Community Discovery:* Integrated with Curse client for World of Warcraft addon management
 </details>
 
 <details>
@@ -1678,8 +2043,6 @@ Platforms that are no longer active. Included for historical reference and featu
 
 - *Description:* Open-source TeamSpeak 3 server and client reimplementation (2017-2020). Aimed for protocol compatibility with TS3. Discontinued circa 2020.
 - *Architecture:* Open source, self-hosted
-- *Open Source:* GPLv3. Reverse-engineered TeamSpeak 3 protocol for compatibility
-- *Web App:* TeaSpeak included a web client interface
 </details>
 
 ---
@@ -1704,6 +2067,24 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ❌ | ❌ | ✅ † | ⚠️ † | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ † | ❌ |
 | [Amazon Chime](https://aws.amazon.com/chime/) | ❌ | ❌ | ❌ | ❌ | ✅ | ⚠️ † | ✅ | ❌ | ✅ | ❓ | ❌ |
 
+**† Feature Notes:**
+
+**Virola:**
+- *E2E Encryption:* Self-hosted with data on your servers, but not E2EE
+- *Ai Generated Codebase:* Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code.
+
+**Slack:**
+- *E2E Encryption:* Encryption in transit and at rest, but Slack has access to messages (not E2EE)
+- *Ai Features Or Training:* Slack AI: search, summaries, thread recaps, workflow suggestions. Trains on workspace data.
+
+**Microsoft Teams:**
+- *Federated:* Can communicate with external organizations via Teams Connect and Teams federation
+- *E2E Encryption:* E2EE for 1:1 calls only (as of 2021). Group calls encrypted in transit.
+- *Ai Features Or Training:* Copilot integration: meeting notes, chat summaries, action items. Trains on Microsoft 365 data.
+
+**Amazon Chime:**
+- *No Data Tracking:* AWS standard practices - some metadata collected for service improvement
+
 </details>
 
 <details>
@@ -1717,6 +2098,25 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Slack](https://slack.com) | ✅ | ❌ | ❌ | ✅ † | ✅ | ❌ |
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ❌ | ❌ | ✅ † | ✅ | ❌ |
 | [Amazon Chime](https://aws.amazon.com/chime/) | ⚠️ † | ❌ | ❌ | ✅ † | ✅ | ❌ |
+
+**† Feature Notes:**
+
+**Pumble:**
+- *Free To Use:* Free tier available but limited features — paid plans for businesses
+
+**Virola:**
+- *Free To Use:* Currently free (insider preview program)
+- *Self Hosting License:* Currently free (insider preview), closed source, future licensing TBD
+
+**Slack:**
+- *Freemium Limitations:* Free: 90-day message history, 10 integrations, 1:1 huddles only. Paid: unlimited history, unlimited integrations, group huddles.
+
+**Microsoft Teams:**
+- *Freemium Limitations:* Free: 60-minute meeting limit, 100 participants, 5GB storage per user. Paid: 30-hour meetings, 300+ participants, 1TB+ storage.
+
+**Amazon Chime:**
+- *Free To Use:* Basic (free) supports meetings up to 100 attendees for 30 days trial. Pro tier is pay-per-use.
+- *Freemium Limitations:* Basic: 30-day trial, limited features. Pro: $15/user/day (only charged on days used), unlimited meetings.
 
 </details>
 
@@ -1746,6 +2146,24 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ † | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ † | ✅ |
 | [Amazon Chime](https://aws.amazon.com/chime/) | ✅ † | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ † | ✅ |
 
+**† Feature Notes:**
+
+**Virola:**
+- *Threads Forums:* Discussion threads within chat rooms
+
+**Slack:**
+- *Voice Chat:* Called 'Huddles' - lightweight voice/video calls in channels
+- *Persistent Voice Channels:* Huddles are call-based (started/stopped), not persistent channels
+- *Threads Forums:* Threaded conversations supported, not traditional forums
+
+**Microsoft Teams:**
+- *Voice Chat:* Supports meetings (scheduled) and calls (ad-hoc). Meeting features depend on license tier.
+- *Persistent Voice Channels:* No persistent voice channels - all audio is meeting/call based
+
+**Amazon Chime:**
+- *Voice Chat:* High-quality audio with background noise suppression
+- *Persistent Voice Channels:* Meeting-based, not persistent channels
+
 </details>
 
 <details>
@@ -1774,6 +2192,17 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ | ❌ |
 | [Amazon Chime](https://aws.amazon.com/chime/) | ✅ | ⚠️ | ✅ | ✅ | ❌ | ⚠️ † | ❌ |
 
+**† Feature Notes:**
+
+**Slack:**
+- *Role Management:* Workspace owner/admin/member roles, channel-specific permissions
+
+**Microsoft Teams:**
+- *Migration Assistant:* Import from Slack available for Enterprise customers
+
+**Amazon Chime:**
+- *Bridges:* Can integrate with calendar systems and other AWS services
+
 </details>
 
 <details>
@@ -1787,6 +2216,22 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Slack](https://slack.com) | ⚠️ † | ⚠️ † | ❌ | ✅ | ✅ |
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ † | ✅ † | ❌ | ✅ | ✅ |
 | [Amazon Chime](https://aws.amazon.com/chime/) | ❌ | ❌ | ❌ | ✅ | ✅ |
+
+**† Feature Notes:**
+
+**Chanty:**
+- *List Task Channels:* Integrated task management — combines chat with project tracking
+
+**Virola:**
+- *List Task Channels:* Integrated Kanban board and issue tracking - can create tasks from messages
+
+**Slack:**
+- *List Task Channels:* Lists feature for simple task tracking, integrates with external tools
+- *Docs Wiki Channels:* Canvas feature for collaborative docs, not full wiki
+
+**Microsoft Teams:**
+- *List Task Channels:* Deep integration with Microsoft Planner and To Do for task management
+- *Docs Wiki Channels:* Wiki tab available, plus full SharePoint integration for knowledge bases
 
 </details>
 
@@ -1802,17 +2247,25 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ✅ | ❌ | ❌ | ✅ † | ❌ |
 | [Amazon Chime](https://aws.amazon.com/chime/) | ✅ † | ✅ | ❌ | ❌ | ⚠️ † | ❌ |
 
+**† Feature Notes:**
+
+**Microsoft Teams:**
+- *Rich Calendar Tools:* Full Outlook calendar integration with meeting scheduling, recurring events, room booking
+
+**Amazon Chime:**
+- *Bots Automation:* Chime SDK supports building bots with AWS Lambda integration
+- *Rich Calendar Tools:* Outlook and Google Calendar integration for meeting scheduling
+
 </details>
 
 
-**† Notes**
+**Platform Details**
 
 <details>
 <summary>Pumble</summary>
 
 - *Description:* Team communication tool designed as Slack alternative for businesses. Not designed for gaming/casual communities.
 - *Architecture:* Centralized, closed source
-- *Free To Use:* Free tier available but limited features — paid plans for businesses
 </details>
 
 <details>
@@ -1820,8 +2273,6 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 - *Description:* Team collaboration platform combining chat with task management. Slack alternative for small teams.
 - *Architecture:* Centralized, closed source
-- *Desktop App:* Windows app only available via Microsoft Store
-- *List Task Channels:* Integrated task management — combines chat with project tracking
 </details>
 
 <details>
@@ -1829,12 +2280,6 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 - *Description:* Corporate self-hosted messenger with task management, Kanban boards, and screen sharing. Designed for businesses, not casual communities.
 - *Architecture:* Self-hosted, closed source
-- *Free To Use:* Currently free (insider preview program)
-- *List Task Channels:* Integrated Kanban board and issue tracking - can create tasks from messages
-- *Threads Forums:* Discussion threads within chat rooms
-- *E2E Encryption:* Self-hosted with data on your servers, but not E2EE
-- *Self Hosting License:* Currently free (insider preview), closed source, future licensing TBD
-- *Ai Generated Codebase:* Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code.
 </details>
 
 <details>
@@ -1842,15 +2287,6 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 - *Description:* Popular workplace messaging platform. Channels, threads, integrations, huddles (voice/video). Freemium model with message history limits.
 - *Architecture:* Closed source, cloud-hosted
-- *Freemium Limitations:* Free: 90-day message history, 10 integrations, 1:1 huddles only. Paid: unlimited history, unlimited integrations, group huddles.
-- *E2E Encryption:* Encryption in transit and at rest, but Slack has access to messages (not E2EE)
-- *Voice Chat:* Called 'Huddles' - lightweight voice/video calls in channels
-- *Persistent Voice Channels:* Huddles are call-based (started/stopped), not persistent channels
-- *Threads Forums:* Threaded conversations supported, not traditional forums
-- *Role Management:* Workspace owner/admin/member roles, channel-specific permissions
-- *List Task Channels:* Lists feature for simple task tracking, integrates with external tools
-- *Docs Wiki Channels:* Canvas feature for collaborative docs, not full wiki
-- *Ai Features Or Training:* Slack AI: search, summaries, thread recaps, workflow suggestions. Trains on workspace data.
 </details>
 
 <details>
@@ -1858,16 +2294,6 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 - *Description:* Microsoft's workplace collaboration platform. Integrated with Office 365. Channels, meetings, file collaboration, extensive Microsoft ecosystem integration.
 - *Architecture:* Closed source, cloud-hosted
-- *Federated:* Can communicate with external organizations via Teams Connect and Teams federation
-- *E2E Encryption:* E2EE for 1:1 calls only (as of 2021). Group calls encrypted in transit.
-- *Freemium Limitations:* Free: 60-minute meeting limit, 100 participants, 5GB storage per user. Paid: 30-hour meetings, 300+ participants, 1TB+ storage.
-- *Voice Chat:* Supports meetings (scheduled) and calls (ad-hoc). Meeting features depend on license tier.
-- *Persistent Voice Channels:* No persistent voice channels - all audio is meeting/call based
-- *List Task Channels:* Deep integration with Microsoft Planner and To Do for task management
-- *Docs Wiki Channels:* Wiki tab available, plus full SharePoint integration for knowledge bases
-- *Rich Calendar Tools:* Full Outlook calendar integration with meeting scheduling, recurring events, room booking
-- *Migration Assistant:* Import from Slack available for Enterprise customers
-- *Ai Features Or Training:* Copilot integration: meeting notes, chat summaries, action items. Trains on Microsoft 365 data.
 </details>
 
 <details>
@@ -1875,14 +2301,6 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 - *Description:* AWS business communications service. Voice/video meetings, chat, screen sharing. Pay-per-use or Pro tier. SDK available for embedding.
 - *Architecture:* Closed source, AWS cloud-hosted
-- *Free To Use:* Basic (free) supports meetings up to 100 attendees for 30 days trial. Pro tier is pay-per-use.
-- *Freemium Limitations:* Basic: 30-day trial, limited features. Pro: $15/user/day (only charged on days used), unlimited meetings.
-- *No Data Tracking:* AWS standard practices - some metadata collected for service improvement
-- *Voice Chat:* High-quality audio with background noise suppression
-- *Persistent Voice Channels:* Meeting-based, not persistent channels
-- *Bots Automation:* Chime SDK supports building bots with AWS Lambda integration
-- *Bridges:* Can integrate with calendar systems and other AWS services
-- *Rich Calendar Tools:* Outlook and Google Calendar integration for meeting scheduling
 </details>
 
 ---
@@ -1900,6 +2318,11 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ✅ | ❌ † | ✅ | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❓ | ❓ |
 
+**† Feature Notes:**
+
+**Polyproto:**
+- *Self Hostable:* N/A - This is a protocol specification, not software. Implementations would be self-hostable.
+
 </details>
 
 <details>
@@ -1908,6 +2331,11 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
 | --- | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ † |
+
+**† Feature Notes:**
+
+**Polyproto:**
+- *Hardware Required For Use:* N/A - No end-user application exists. Protocol for developers to build upon.
 
 </details>
 
@@ -1966,15 +2394,13 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 </details>
 
 
-**† Notes**
+**Platform Details**
 
 <details>
 <summary>Polyproto</summary>
 
 - *Description:* ⚠️ NOT END-USER SOFTWARE: Federated identity and message exchange protocol for developers building chat/social apps. Similar to Matrix Protocol or ActivityPub. No standalone chat app exists.
 - *Architecture:* Protocol specification
-- *Self Hostable:* N/A - This is a protocol specification, not software. Implementations would be self-hostable.
-- *Hardware Required For Use:* N/A - No end-user application exists. Protocol for developers to build upon.
 </details>
 
 ---
