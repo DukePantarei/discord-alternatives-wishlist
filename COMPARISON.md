@@ -34,7 +34,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 > 💡 A homeserver is required. You can use the free [matrix.org](https://matrix.org) server or self-host using [matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy).
 
-<details open>
+<details>
 <summary><strong>Privacy & Licensing</strong></summary>
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
@@ -47,7 +47,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Pricing</strong></summary>
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
@@ -60,7 +60,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Platform Support</strong></summary>
 
 | **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
@@ -73,7 +73,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Communication</strong></summary>
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
@@ -86,7 +86,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Moderation & Safety</strong></summary>
 
 | **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
@@ -99,7 +99,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Server & Admin</strong></summary>
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
@@ -112,7 +112,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Channels & Content</strong></summary>
 
 | **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
@@ -125,7 +125,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Community Tools</strong></summary>
 
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
@@ -219,7 +219,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 These platforms prioritize privacy and are open source, but run on a central server. Self-hosted instances exist but **cannot communicate with each other** — they are isolated, not federated.
 
-<details open>
+<details>
 <summary><strong>Privacy & Licensing</strong></summary>
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
@@ -236,7 +236,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Pricing</strong></summary>
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
@@ -253,7 +253,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Platform Support</strong></summary>
 
 | **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
@@ -270,7 +270,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Communication</strong></summary>
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
@@ -287,7 +287,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Moderation & Safety</strong></summary>
 
 | **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
@@ -304,7 +304,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Server & Admin</strong></summary>
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
@@ -321,7 +321,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Channels & Content</strong></summary>
 
 | **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
@@ -338,7 +338,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Community Tools</strong></summary>
 
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
@@ -472,7 +472,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 Designed primarily for self-hosting. Most require technical knowledge to deploy. None of these federate with each other.
 
-<details open>
+<details>
 <summary><strong>Privacy & Licensing</strong></summary>
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
@@ -498,7 +498,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Pricing</strong></summary>
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
@@ -524,7 +524,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Platform Support</strong></summary>
 
 | **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
@@ -550,7 +550,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Communication</strong></summary>
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
@@ -576,7 +576,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Moderation & Safety</strong></summary>
 
 | **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
@@ -602,7 +602,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Server & Admin</strong></summary>
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
@@ -628,7 +628,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Channels & Content</strong></summary>
 
 | **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
@@ -654,7 +654,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Community Tools</strong></summary>
 
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
@@ -900,7 +900,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 Polished commercial products, included for completeness. Privacy policies and long-term direction may change. Discord is included here as the baseline for comparison.
 
-<details open>
+<details>
 <summary><strong>Privacy & Licensing</strong></summary>
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
@@ -914,7 +914,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Pricing</strong></summary>
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
@@ -928,7 +928,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Platform Support</strong></summary>
 
 | **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
@@ -942,7 +942,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Communication</strong></summary>
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
@@ -956,7 +956,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Moderation & Safety</strong></summary>
 
 | **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
@@ -970,7 +970,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Server & Admin</strong></summary>
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
@@ -984,7 +984,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Channels & Content</strong></summary>
 
 | **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
@@ -998,7 +998,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Community Tools</strong></summary>
 
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
@@ -1115,7 +1115,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 Included for historical context or specific use cases. Generally not recommended as full Discord replacements for casual communities.
 
-<details open>
+<details>
 <summary><strong>Privacy & Licensing</strong></summary>
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
@@ -1137,7 +1137,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Pricing</strong></summary>
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
@@ -1159,7 +1159,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Platform Support</strong></summary>
 
 | **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
@@ -1181,7 +1181,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Communication</strong></summary>
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
@@ -1203,7 +1203,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Moderation & Safety</strong></summary>
 
 | **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
@@ -1225,7 +1225,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Server & Admin</strong></summary>
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
@@ -1247,7 +1247,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Channels & Content</strong></summary>
 
 | **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
@@ -1269,7 +1269,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Community Tools</strong></summary>
 
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
@@ -1470,7 +1470,7 @@ Included for historical context or specific use cases. Generally not recommended
 
 Platforms that are no longer active. Included for historical reference and feature comparison to show what was possible in the past.
 
-<details open>
+<details>
 <summary><strong>Privacy & Licensing</strong></summary>
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
@@ -1486,7 +1486,7 @@ Platforms that are no longer active. Included for historical reference and featu
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Pricing</strong></summary>
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
@@ -1502,7 +1502,7 @@ Platforms that are no longer active. Included for historical reference and featu
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Platform Support</strong></summary>
 
 | **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
@@ -1518,7 +1518,7 @@ Platforms that are no longer active. Included for historical reference and featu
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Communication</strong></summary>
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
@@ -1534,7 +1534,7 @@ Platforms that are no longer active. Included for historical reference and featu
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Moderation & Safety</strong></summary>
 
 | **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
@@ -1550,7 +1550,7 @@ Platforms that are no longer active. Included for historical reference and featu
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Server & Admin</strong></summary>
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
@@ -1566,7 +1566,7 @@ Platforms that are no longer active. Included for historical reference and featu
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Channels & Content</strong></summary>
 
 | **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
@@ -1582,7 +1582,7 @@ Platforms that are no longer active. Included for historical reference and featu
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Community Tools</strong></summary>
 
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
@@ -1692,7 +1692,7 @@ Platforms that are no longer active. Included for historical reference and featu
 
 Team collaboration tools designed for businesses. NOT Discord alternatives — included for completeness as they appear in comparison lists.
 
-<details open>
+<details>
 <summary><strong>Privacy & Licensing</strong></summary>
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
@@ -1706,7 +1706,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Pricing</strong></summary>
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
@@ -1720,7 +1720,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Platform Support</strong></summary>
 
 | **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
@@ -1734,7 +1734,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Communication</strong></summary>
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
@@ -1748,7 +1748,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Moderation & Safety</strong></summary>
 
 | **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
@@ -1762,7 +1762,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Server & Admin</strong></summary>
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
@@ -1776,7 +1776,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Channels & Content</strong></summary>
 
 | **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
@@ -1790,7 +1790,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Community Tools</strong></summary>
 
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
@@ -1893,7 +1893,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 ## Protocols & Frameworks
 
-<details open>
+<details>
 <summary><strong>Privacy & Licensing</strong></summary>
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
@@ -1902,7 +1902,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Pricing</strong></summary>
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
@@ -1911,7 +1911,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Platform Support</strong></summary>
 
 | **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
@@ -1920,7 +1920,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Communication</strong></summary>
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
@@ -1929,7 +1929,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Moderation & Safety</strong></summary>
 
 | **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
@@ -1938,7 +1938,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Server & Admin</strong></summary>
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
@@ -1947,7 +1947,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Channels & Content</strong></summary>
 
 | **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
@@ -1956,7 +1956,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Community Tools</strong></summary>
 
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
