@@ -17,14 +17,14 @@
 
 ## Contents
 
-- [Matrix Clients](#matrix-clients) — 5 platforms
-- [Privacy-Focused Centralized](#privacy-focused-centralized) — 12 platforms
-- [Self-Hosted Platforms](#self-hosted-platforms) — 21 platforms
-- [Commercial Alternatives](#commercial-alternatives) — 6 platforms
-- [Legacy & Niche](#legacy--niche) — 14 platforms
-- [Discontinued](#discontinued) — 8 platforms
-- [Business Productivity](#business-productivity) — 6 platforms
-- [Protocols & Frameworks](#protocols--frameworks) — 1 platform
+- **[Matrix Clients](#matrix-clients)** (5) — Element, Cinny, Commet, FluffyChat, SchildiChat
+- **[Privacy-Focused Centralized](#privacy-focused-centralized)** (12) — Stoat (formerly Revolt), Valour, Nerimity, and 9 more
+- **[Self-Hosted Platforms](#self-hosted-platforms)** (21) — Sharkord, Spacebar, Fluxer, and 18 more
+- **[Commercial Alternatives](#commercial-alternatives)** (6) — Discord, Root, Telegram, and 3 more
+- **[Legacy & Niche](#legacy--niche)** (14) — TeamSpeak, Mumble, Signal, and 11 more
+- **[Discontinued](#discontinued)** (8) — Guilded (discontinued), Roger Wilco, Xfire, and 5 more
+- **[Business Productivity](#business-productivity)** (6) — Pumble, Chanty, Virola, and 3 more
+- **[Protocols & Frameworks](#protocols--frameworks)** (1) — Polyproto
 
 ---
 
