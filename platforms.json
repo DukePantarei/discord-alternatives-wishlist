@@ -62,16 +62,34 @@
       "description": "Accessible via a web browser without installation"
     },
     {
-      "key": "desktop_app",
-      "label": "Desktop App",
+      "key": "windows_app",
+      "label": "Windows App",
       "category": "Platform Support",
-      "description": "Native desktop application available"
+      "description": "Native Windows desktop application"
     },
     {
-      "key": "mobile_app",
-      "label": "Mobile App",
+      "key": "macos_app",
+      "label": "macOS App",
       "category": "Platform Support",
-      "description": "Native mobile application available (Android/iOS)"
+      "description": "Native macOS desktop application"
+    },
+    {
+      "key": "linux_app",
+      "label": "Linux App",
+      "category": "Platform Support",
+      "description": "Native Linux desktop application"
+    },
+    {
+      "key": "android_app",
+      "label": "Android App",
+      "category": "Platform Support",
+      "description": "Native Android mobile application"
+    },
+    {
+      "key": "ios_app",
+      "label": "iOS App",
+      "category": "Platform Support",
+      "description": "Native iOS mobile application"
     },
     {
       "key": "docker_install",
@@ -358,7 +376,6 @@
     "Legacy & Niche",
     "Discontinued",
     "Business Productivity",
-    "Niche & Specialized",
     "Protocols & Frameworks"
   ],
   "platforms": [
@@ -381,8 +398,6 @@
         "biometric_age_verification": "yes",
         "free_to_use": "partial",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "no",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -428,7 +443,12 @@
         "id_verification": "planned",
         "ai_features_or_training": "yes",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "system_audio_sharing": "Windows and macOS only, not Linux",
@@ -458,9 +478,9 @@
       "name": "Element",
       "url": "https://element.io",
       "category": "Matrix Clients",
-      "description": "The reference Matrix client. Feature-complete but primarily enterprise and power-user focused.",
+      "description": "Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.",
       "architecture": "Federated (Matrix protocol)",
-      "notes": "CRITICAL SECURITY VULNERABILITY (Feb 17, 2026): Cryptographic issues discovered in Matrix's Rust library (vodozemac). See https://soatok.blog/2026/02/17/cryptographic-issues-in-matrixs-rust-library-vodozemac/ SECURITY CONCERN (Google Sheet assessment): Community rates security history as 'Bad'. Reference client for Matrix. Not designed for average users — try Cinny or Commet if coming from Discord.",
+      "notes": "Matrix protocol's most mature client. E2EE by default using Olm (1-to-1) and Megolm (groups), inspired by Signal's Double Ratchet.\n\n⚠️ PERMISSION INHERITANCE PROBLEM: Matrix Spaces don't inherit permissions. Must manually configure permissions for EVERY SINGLE ROOM. Adding moderator role to 50-room space = 50 manual configurations. Synapse admin tools are bare-bones. Shell scripts often needed for bulk operations.\n\n⚠️ MODERATION REQUIRES DRAUPNIR: Cannot ban user from entire server without third-party tools. Must ban from each room individually. Draupnir bot (NLnet-funded, actively maintained) is ESSENTIAL for moderation at scale. Handles distributed ban lists, policy rooms, protection.\n\n⚠️ DEVICE VERIFICATION UX: Each new client (phone, desktop, different app) requires device verification via emoji/QR codes. Crypto is solid (prevents MITM attacks) but UX is brutal for non-technical users.\n\nBOT ECOSYSTEM: Maubot (Python framework) is mostly unmaintained graveyard. Draupnir is the exception - actively maintained, essential.\n\nBRIDGING STRENGTH: Native bridges for Discord, Telegram, WhatsApp, Signal, IRC. Slack bridge retired by Matrix.org (must self-host). Fully supported by Matterbridge (30+ platforms).\n\nVOICE/VIDEO: Matrix 2.0 added Element Call. Works, not Discord-quality yet. Resource intensive (4GB RAM VPS sweats on group calls).\n\nReal-world assessment (mvh, Feb 2026): \"Choose Matrix if privacy, decentralization, and federation are non-negotiable. You have technical chops to deal with permission management hell. You're willing to run Draupnir for moderation.\"\n\nUsed by German Bundeswehr for classified communications, French government, International Criminal Court. Serious privacy and security credentials.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -472,8 +492,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "yes",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -519,7 +537,12 @@
         "id_verification": "no",
         "ai_features_or_training": "no",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "role_management": "Uses Matrix power levels rather than named roles — functional but less intuitive than Discord",
@@ -556,8 +579,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "no",
         "docker_install": "yes",
         "voice_chat": "no",
         "video_chat": "no",
@@ -603,7 +624,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "voice_chat": "Not yet implemented — text-focused client",
@@ -631,8 +657,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "partial",
         "docker_install": "yes",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -678,7 +702,12 @@
         "id_verification": "no",
         "ai_features_or_training": "no",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "partial",
+        "ios_app": "partial"
       },
       "feature_notes": {
         "mobile_app": "Android available, iOS planned",
@@ -710,8 +739,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "yes",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -757,7 +784,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "voice_chat": "1:1 calls supported, large voice channels limited",
@@ -783,8 +815,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "yes",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -830,7 +860,12 @@
         "id_verification": "no",
         "ai_features_or_training": "no",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "role_management": "Inherits Element's power levels system",
@@ -848,7 +883,7 @@
       "category": "Privacy-Focused Centralized",
       "description": "Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.",
       "architecture": "Centralized (self-hostable but not federated)",
-      "notes": "UK JURISDICTION: Subject to Online Safety Act. Blocks users in age-verification jurisdictions from NSFW rather than implementing KYC. May eventually need KYC or ban NSFW. Best easy transition from Discord. Self-hosted instances cannot communicate with stoat.chat or each other.",
+      "notes": "⚠️ ALPHA QUALITY (Feb 2026): Voice channels currently NON-FUNCTIONAL due to major infrastructure migration. Mobile apps in trial phase. Bot ecosystem immature with many abandoned projects. E2EE status unclear - mentioned as future goal but no implementation timeline. Breaks regularly. NOT production-ready.\n\nNO FEDERATION: Each Stoat server is isolated - separate accounts needed per server (like Zulip). No portable identity across instances. Different from Matrix's federated model.\n\nMINIMAL BRIDGING: Community bridges exist for Discord (revcord) and Telegram only. NOT supported by Matterbridge. No IRC, Matrix, or Slack bridges.\n\nReal-world assessment (mvh, Feb 2026): \"Choose Stoat if you want Discord's UX exactly and are willing to wait for it to mature. Skip if you need production-ready software now, voice chat matters, or bridging is important.\" Recommendation: Wait until more mature.\n\nOriginally named Revolt, rebranded after cease-and-desist. Open source (AGPL-3.0), self-hostable, Discord-like UI with near-zero learning curve. Has genuine potential but needs time to mature.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -860,8 +895,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "no",
         "docker_install": "yes",
         "voice_chat": "no",
         "video_chat": "no",
@@ -880,7 +913,7 @@
         "invite_links_guest_access": "yes",
         "admin_gui": "yes",
         "migration_assistant": "no",
-        "bridges": "no",
+        "bridges": "partial",
         "discord_api_compatible": "no",
         "docs_wiki_channels": "no",
         "list_task_channels": "no",
@@ -907,18 +940,24 @@
         "id_verification": "no",
         "ai_features_or_training": "no",
         "ai_generated_codebase": "partial",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs is planned but not yet released",
-        "federated": "Centralized — self-hosted instances are isolated, cannot talk to stoat.chat",
+        "federated": "Each Stoat server is isolated. Separate accounts needed per server. No portable identity.",
         "screen_sharing": "Screen sharing has never been supported",
-        "voice_chat": "Voice chat was removed during a backend audio rewrite and is not currently available",
+        "voice_chat": "Voice channels currently non-functional due to infrastructure migration (Feb 2026)",
         "video_chat": "Video chat has never been supported",
         "mobile_app": "Beta Android and iOS apps available — iOS app especially rough, Android feels better. Sign-up verification slow (10+ hours reported) during user influx",
         "ai_features_or_training": "No AI features currently",
         "ai_generated_codebase": "Previously used AI-generated commits but removed them after community backlash. Developer explicitly states Stoat's foundation predates vibe-coding (public beta 2021, ChatGPT late 2022). Currently maintains strong anti-AI stance.",
-        "self_hostable": "Available but not prominently documented. See: https://github.com/stoatchat/self-hosted"
+        "self_hostable": "Available but not prominently documented. See: https://github.com/stoatchat/self-hosted",
+        "bridges": "Community bridges for Discord and Telegram only. NOT supported by Matterbridge."
       }
     },
     {
@@ -940,8 +979,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "partial",
-        "mobile_app": "partial",
         "docker_install": "partial",
         "voice_chat": "planned",
         "video_chat": "planned",
@@ -987,7 +1024,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "partial",
+        "macos_app": "partial",
+        "linux_app": "partial",
+        "android_app": "partial",
+        "ios_app": "partial"
       },
       "feature_notes": {
         "desktop_app": "PWA only — no native desktop app",
@@ -1016,8 +1058,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "partial",
         "docker_install": "yes",
         "voice_chat": "yes",
         "video_chat": "no",
@@ -1063,7 +1103,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "partial",
+        "ios_app": "partial"
       },
       "feature_notes": {
         "mobile_app": "Android app available, no iOS app"
@@ -1088,8 +1133,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "no",
-        "mobile_app": "no",
         "docker_install": "yes",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -1135,7 +1178,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "unknown",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "no",
+        "macos_app": "no",
+        "linux_app": "no",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only — not end-to-end",
@@ -1161,8 +1209,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "no",
-        "mobile_app": "no",
         "docker_install": "yes",
         "voice_chat": "no",
         "video_chat": "no",
@@ -1208,7 +1254,12 @@
         "id_verification": "no",
         "ai_features_or_training": "no",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "no",
+        "macos_app": "no",
+        "linux_app": "no",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only",
@@ -1239,8 +1290,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "no",
-        "mobile_app": "partial",
         "docker_install": "partial",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -1286,7 +1335,12 @@
         "id_verification": "no",
         "ai_features_or_training": "no",
         "ai_generated_codebase": "partial",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "no",
+        "macos_app": "no",
+        "linux_app": "no",
+        "android_app": "partial",
+        "ios_app": "partial"
       },
       "feature_notes": {
         "e2e_encryption": "Roadmap 2026: Opt-in 'secret chats' (ephemeral, E2EE sessions). No plans for full-platform E2EE. LiveKit supports E2EE for calls but not yet implemented.",
@@ -1321,8 +1375,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "no",
-        "mobile_app": "no",
         "docker_install": "yes",
         "voice_chat": "no",
         "video_chat": "no",
@@ -1368,7 +1420,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "no",
+        "macos_app": "no",
+        "linux_app": "no",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs only, not group channels"
@@ -1393,8 +1450,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "no",
         "docker_install": "yes",
         "voice_chat": "yes",
         "video_chat": "no",
@@ -1440,7 +1495,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only"
@@ -1465,8 +1525,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "no",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -1512,7 +1570,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "yes",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "no_ads": "No ads currently but VC-funded — monetization model may change",
@@ -1542,8 +1605,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "no",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -1589,7 +1650,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "raid_planner": "Best-in-class raid and event tools — a key differentiator",
@@ -1620,8 +1686,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "no",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -1667,7 +1731,12 @@
         "id_verification": "no",
         "ai_features_or_training": "partial",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "Secret Chats only — standard group chats and channels are NOT end-to-end encrypted",
@@ -1705,8 +1774,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "partial",
         "web_app": "no",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "yes",
         "voice_chat": "yes",
         "video_chat": "partial",
@@ -1752,7 +1819,12 @@
         "id_verification": "no",
         "ai_features_or_training": "no",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "Voice is AES-encrypted between client and server but server can decrypt — not true E2EE",
@@ -1784,8 +1856,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "no",
-        "desktop_app": "yes",
-        "mobile_app": "partial",
         "docker_install": "yes",
         "voice_chat": "yes",
         "video_chat": "no",
@@ -1831,7 +1901,12 @@
         "id_verification": "no",
         "ai_features_or_training": "no",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "partial",
+        "ios_app": "partial"
       },
       "feature_notes": {
         "e2e_encryption": "True E2EE for voice — one of the few platforms with this",
@@ -1860,8 +1935,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "partial",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "no",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -1907,7 +1980,12 @@
         "id_verification": "no",
         "ai_features_or_training": "no",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "text_channels": "Group chats exist but no server/channel hierarchy",
@@ -1924,20 +2002,18 @@
       "category": "Self-Hosted Platforms",
       "description": "Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.",
       "architecture": "Self-hosted or cloud-hosted",
-      "notes": "Excellent security: Bug bounty, rapid response, encrypted in transit & at rest, HIPAA compliant (https://zulip.com/security/). Top recommendation from large-community evaluators. Threading model (every message belongs to a topic) takes adjustment for Discord users. Jitsi integration provides voice/video/screenshare but uses a call-per-message model rather than persistent always-on voice channels.",
+      "notes": "⚠️ NO FEDERATION - MULTI-COMMUNITY DEALBREAKER: Every Zulip server is an island. 3 communities = 3 separate accounts. No single sign-on, no portable identity. Username@company.zulipchat.com completely separate from username@mydomain.com. Deliberate architectural choice prioritizing organizational control. 20 communities = 20 accounts/logins = NOT SUSTAINABLE.\n\nE2EE REALITY: E2EE ONLY for push notification content. Actual messages stored as PLAINTEXT in PostgreSQL by design. Team chose features over encryption. E2EE breaks: search, shared history, server-side features. If you need message-level E2EE, Zulip is not your platform.\n\nTHREADING MODEL: EVERY message must belong to a topic within a channel. Always. No exceptions. Can't just post \"hey what's up\" - must choose/create a topic. Solves large organization chat chaos (50 people, 8 conversations in one channel). Biggest barrier to adoption from Discord - feels weird at first.\n\nVOICE/VIDEO: No native persistent voice channels like Discord. Integration-based: click button, generates Jitsi/Zoom/BigBlueButton meeting link. Different paradigm entirely - not drop-in/hang-out voice.\n\nBOT ECOSYSTEM: 120+ native integrations (GitHub, Jira, Sentry, PagerDuty, etc.). Slack-compatible webhooks. Python bot framework is \"excellent\" - clean APIs, good documentation. Zapier and IFTTT support.\n\nBRIDGING: Native bridges for IRC (great), Matrix (bidirectional), Slack (bidirectional). Fully supported by Matterbridge. Legitimately good, not Matrix-level extensive but solid.\n\nSYSTEM REQUIREMENTS: 2GB RAM (small), 4GB (production). PostgreSQL, Redis, RabbitMQ required. Very good Docker support.\n\nReal-world assessment (mvh, Feb 2026): \"Choose Zulip if you're running a technical organization where organized conversation matters more than casual chat. Skip if you need federation, message-level E2EE is required, or you're part of many communities (don't want 20 separate accounts).\"\n\nThreading model makes sense once you use it - conversations stay organized, notification management sane. But lack of portable identity across servers is dealbreaker at scale.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
         "federated": "no",
-        "e2e_encryption": "no",
+        "e2e_encryption": "partial",
         "no_ads": "yes",
         "no_data_tracking": "yes",
         "gdpr_compliant": "yes",
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "yes",
         "voice_chat": "partial",
         "video_chat": "partial",
@@ -1983,7 +2059,12 @@
         "id_verification": "no",
         "ai_features_or_training": "no",
         "ai_generated_codebase": "partial",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "voice_chat": "Via Jitsi integration only — not native. Uses call-per-message model, not persistent always-on channels",
@@ -1995,7 +2076,8 @@
         "message_ttl": "Configurable message retention policies per stream",
         "migration_assistant": "Some import tools available for Slack and HipChat, limited Discord support",
         "ai_features_or_training": "No built-in AI features. Self-hosted option means user controls data.",
-        "ai_generated_codebase": "Strict AI policy: permits AI assistance but STRICTLY disallows AI commits with zero oversight. See: https://github.com/zulip/zulip/blob/main/CONTRIBUTING.md"
+        "ai_generated_codebase": "Strict AI policy: permits AI assistance but STRICTLY disallows AI commits with zero oversight. See: https://github.com/zulip/zulip/blob/main/CONTRIBUTING.md",
+        "e2e_encryption": "E2EE ONLY for push notification content. Messages stored as plaintext in PostgreSQL."
       }
     },
     {
@@ -2017,8 +2099,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "partial",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "yes",
         "voice_chat": "partial",
         "video_chat": "partial",
@@ -2064,7 +2144,12 @@
         "id_verification": "no",
         "ai_features_or_training": "partial",
         "ai_generated_codebase": "yes",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "free_to_use": "Free tier hard-capped at 50 users — must contact support to raise limit. Enterprise license required for larger deployments",
@@ -2099,8 +2184,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "no",
-        "desktop_app": "yes",
-        "mobile_app": "no",
         "docker_install": "no",
         "voice_chat": "yes",
         "video_chat": "no",
@@ -2146,7 +2229,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "unknown"
+        "hardware_required_for_use": "unknown",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "self_hostable": "Base Station server could be hosted on Linux/FreeBSD/Windows but was proprietary",
@@ -2173,8 +2261,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "partial",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "no",
         "voice_chat": "yes",
         "video_chat": "no",
@@ -2220,7 +2306,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "community_discovery": "Game server browser and clan/community discovery built in",
@@ -2246,8 +2337,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "no",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -2293,7 +2382,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "Private conversations support E2EE, but group chats do not",
@@ -2324,8 +2418,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "partial",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "no",
         "docker_install": "no",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -2371,7 +2463,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "free_to_use": "Free tier: 50 members max, 3 voice channels, 8 text channels, 2GB storage",
@@ -2398,8 +2495,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "partial",
-        "mobile_app": "no",
         "docker_install": "no",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -2445,7 +2540,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "unknown",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "partial",
+        "macos_app": "partial",
+        "linux_app": "partial",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs planned but not yet implemented",
@@ -2473,8 +2573,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "partial",
-        "mobile_app": "partial",
         "docker_install": "yes",
         "voice_chat": "yes",
         "video_chat": "unknown",
@@ -2520,7 +2618,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "partial",
+        "macos_app": "partial",
+        "linux_app": "partial",
+        "android_app": "partial",
+        "ios_app": "partial"
       },
       "feature_notes": {}
     },
@@ -2543,8 +2646,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "no",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "yes",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -2590,7 +2691,12 @@
         "id_verification": "no",
         "ai_features_or_training": "no",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "federated": "Decentralized but not federated — no user identifiers, P2P via relay servers",
@@ -2618,8 +2724,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "partial",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "no",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -2665,7 +2769,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "free_to_use": "Free tier available but limited features — paid plans for businesses"
@@ -2690,8 +2799,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "partial",
         "web_app": "yes",
-        "desktop_app": "partial",
-        "mobile_app": "yes",
         "docker_install": "no",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -2737,7 +2844,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "partial",
+        "macos_app": "partial",
+        "linux_app": "partial",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "desktop_app": "Windows app only available via Microsoft Store",
@@ -2763,8 +2875,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "yes",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -2810,7 +2920,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "federated": "Federation across Nextcloud instances for group chats and calls",
@@ -2842,8 +2957,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "no",
-        "desktop_app": "no",
-        "mobile_app": "yes",
         "docker_install": "yes",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -2889,7 +3002,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "no",
+        "macos_app": "no",
+        "linux_app": "no",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "text_channels": "Group chats exist but no Discord-style server/channel hierarchy",
@@ -2915,8 +3033,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "no",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "no",
         "voice_chat": "no",
         "video_chat": "no",
@@ -2962,7 +3078,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "self_hostable": "P2P architecture — no servers to host. All communication via Tor network.",
@@ -2988,8 +3109,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "unknown",
         "web_app": "unknown",
-        "desktop_app": "unknown",
-        "mobile_app": "unknown",
         "docker_install": "unknown",
         "voice_chat": "unknown",
         "video_chat": "unknown",
@@ -3035,7 +3154,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "unknown",
+        "macos_app": "unknown",
+        "linux_app": "unknown",
+        "android_app": "unknown",
+        "ios_app": "unknown"
       },
       "feature_notes": {}
     },
@@ -3058,8 +3182,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "no",
         "web_app": "yes",
-        "desktop_app": "partial",
-        "mobile_app": "yes",
         "docker_install": "no",
         "voice_chat": "no",
         "video_chat": "no",
@@ -3105,7 +3227,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "partial",
+        "macos_app": "partial",
+        "linux_app": "partial",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {}
     },
@@ -3128,8 +3255,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "unknown",
-        "desktop_app": "unknown",
-        "mobile_app": "unknown",
         "docker_install": "unknown",
         "voice_chat": "unknown",
         "video_chat": "unknown",
@@ -3175,7 +3300,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "unknown",
+        "macos_app": "unknown",
+        "linux_app": "unknown",
+        "android_app": "unknown",
+        "ios_app": "unknown"
       },
       "feature_notes": {}
     },
@@ -3198,8 +3328,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "unknown",
-        "desktop_app": "unknown",
-        "mobile_app": "unknown",
         "docker_install": "unknown",
         "voice_chat": "unknown",
         "video_chat": "unknown",
@@ -3245,7 +3373,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "unknown",
+        "macos_app": "unknown",
+        "linux_app": "unknown",
+        "android_app": "unknown",
+        "ios_app": "unknown"
       },
       "feature_notes": {}
     },
@@ -3268,8 +3401,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "unknown",
-        "desktop_app": "unknown",
-        "mobile_app": "unknown",
         "docker_install": "unknown",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -3315,7 +3446,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "unknown",
+        "macos_app": "unknown",
+        "linux_app": "unknown",
+        "android_app": "unknown",
+        "ios_app": "unknown"
       },
       "feature_notes": {
         "biometric_age_verification": "'No government ID required' is a key selling point"
@@ -3340,8 +3476,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "no",
         "docker_install": "yes",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -3387,7 +3521,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "yes",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "e2e_encryption": "X3DH key agreement + symmetric ratchet for DMs. Sender Keys (Signal protocol) for group channels. AES-128-GCM for voice/video via mediasoup SFU. Server sees only ciphertext.",
@@ -3420,8 +3559,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "no",
-        "mobile_app": "yes",
         "docker_install": "yes",
         "voice_chat": "partial",
         "video_chat": "partial",
@@ -3467,7 +3604,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "no",
+        "macos_app": "no",
+        "linux_app": "no",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "Optional 'sealed topics' provide E2EE. Default unsealed to allow server-side features (streaming, processing). Admin cannot view sealed topics.",
@@ -3496,8 +3638,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "no",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -3543,7 +3683,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "Variable - some encryption but not E2EE for all features",
@@ -3569,8 +3714,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "no",
         "docker_install": "yes",
         "voice_chat": "partial",
         "video_chat": "no",
@@ -3616,7 +3759,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "voice_chat": "Work in progress. WebRTC P2P (exposes IP, VPN recommended), standard WebRTC (browser), UDP (desktop). Minor bugs being fixed.",
@@ -3644,8 +3792,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "partial",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "no",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -3691,7 +3837,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "unknown"
+        "hardware_required_for_use": "unknown",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "self_hostable": "P2P architecture - no traditional servers. Can self-host DHT proxy and name server. JAMS for organizations.",
@@ -3720,8 +3871,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "no",
-        "desktop_app": "yes",
-        "mobile_app": "no",
         "docker_install": "no",
         "voice_chat": "partial",
         "video_chat": "no",
@@ -3767,7 +3916,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "self_hostable": "XMPP client - requires XMPP server (Prosody, ejabberd, etc)",
@@ -3796,8 +3950,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "no",
         "docker_install": "no",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -3843,7 +3995,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "partial",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "ai_generated_codebase": "Backend coded from scratch. Frontend has 'bits and pieces' of AI assistance but not vibe-coded."
@@ -3868,8 +4025,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "unknown",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -3915,7 +4070,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "yes",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "free_to_use": "Currently free (insider preview program)",
@@ -3945,8 +4105,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "unknown",
         "docker_install": "no",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -3992,7 +4150,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "yes",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "unknown",
+        "ios_app": "unknown"
       },
       "feature_notes": {
         "free_to_use": "No email required - sign up in 30 seconds",
@@ -4019,8 +4182,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "no",
-        "desktop_app": "yes",
-        "mobile_app": "no",
         "docker_install": "no",
         "voice_chat": "yes",
         "video_chat": "yes",
@@ -4066,7 +4227,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "self_hostable": "XMPP client - requires XMPP server (Prosody, ejabberd, M-Link, etc)",
@@ -4096,8 +4262,6 @@
         "biometric_age_verification": "no",
         "free_to_use": "yes",
         "web_app": "yes",
-        "desktop_app": "no",
-        "mobile_app": "no",
         "docker_install": "yes",
         "voice_chat": "no",
         "video_chat": "no",
@@ -4143,7 +4307,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "no",
+        "macos_app": "no",
+        "linux_app": "no",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "self_hostable": "Web app that connects to XMPP servers - can self-host both Movim and server",
@@ -4180,8 +4349,6 @@
         "freemium_limitations": "no",
         "enterprise_tier": "no",
         "web_app": "no",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "no",
         "mobile_hosting": "no",
         "voice_chat": "yes",
@@ -4223,7 +4390,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "unknown"
+        "hardware_required_for_use": "unknown",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "self_hostable": "Free cloud-hosted servers provided by RaidCall — no self-hosting option",
@@ -4256,8 +4428,6 @@
         "freemium_limitations": "yes",
         "enterprise_tier": "no",
         "web_app": "no",
-        "desktop_app": "yes",
-        "mobile_app": "no",
         "docker_install": "no",
         "mobile_hosting": "no",
         "voice_chat": "yes",
@@ -4299,7 +4469,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "free_to_use": "Free tier available, paid tier for advanced features",
@@ -4329,8 +4504,6 @@
         "freemium_limitations": "no",
         "enterprise_tier": "no",
         "web_app": "no",
-        "desktop_app": "yes",
-        "mobile_app": "no",
         "docker_install": "no",
         "mobile_hosting": "no",
         "voice_chat": "yes",
@@ -4372,7 +4545,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "community_discovery": "Looking-for-group (LFG) features and game integration",
@@ -4402,8 +4580,6 @@
         "freemium_limitations": "no",
         "enterprise_tier": "no",
         "web_app": "no",
-        "desktop_app": "yes",
-        "mobile_app": "no",
         "docker_install": "no",
         "mobile_hosting": "no",
         "voice_chat": "yes",
@@ -4445,7 +4621,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "voice_chat": "Automatic teammate detection in supported games",
@@ -4475,8 +4656,6 @@
         "freemium_limitations": "no",
         "enterprise_tier": "no",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "no",
         "docker_install": "yes",
         "mobile_hosting": "no",
         "voice_chat": "yes",
@@ -4518,7 +4697,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "open_source": "GPLv3. Reverse-engineered TeamSpeak 3 protocol for compatibility",
@@ -4530,9 +4714,9 @@
       "name": "Discourse",
       "url": "https://www.discourse.org",
       "category": "Self-Hosted Platforms",
-      "description": "Modern forum software for building communities. Ruby on Rails. Email-based notifications, threaded discussions, trust levels, badges.",
+      "description": "⚠️ FORUM SOFTWARE, NOT CHAT: Modern forum platform. Some try to use as Discord replacement - this is a category error. Best for async, long-form discussion.",
       "architecture": "Self-hosted, open source (GPL-2.0)",
-      "notes": "SECURITY CONCERN (Google Sheet assessment): Community rates security history as 'Bad'. Created by Stack Overflow co-founder Jeff Atwood. Focuses on civilized discussion with trust levels, flagging, and moderation tools. Email integration for participation. Not real-time chat - async forum discussions. Docker deployment available. Used by Mozilla, Twitter, BoingBoing.",
+      "notes": "⚠️ CATEGORY ERROR: Discourse is modern FORUM software. Really good forum software. It is NOT chat and NOT a Discord replacement despite some attempting to use it that way.\n\nCHAT PLUGIN: Bundled chat plugin provides short-form, real-time-ish messaging. But Discourse is still async and forum-based at heart. You post, you wait, people reply. NOT instant messaging. If community expects real-time chat, will feel slow and clunky. If community wants thoughtful long-form discussion, Discourse is perfect.\n\nTRUST LEVEL SYSTEM: Gamifies moderation. Transparent mod actions. Best anti-spam tools in business. Reddit-style discussion without Reddit.\n\nBOT SITUATION: Discobot (built-in onboarding bot) is genuinely well done. Beyond that: custom bots via REST API. No plug-and-play marketplace. Growing ecosystem of AI chatbot plugins.\n\nBRIDGING: ONE-WAY ONLY. Chat Integration Plugin sends notifications OUT to Slack, Discord, Telegram, Matrix, Teams, etc. NOT bidirectional chat bridging. Experimental discourse-chat-matrix plugin exists but not production-ready. NOT supported by Matterbridge (Discourse isn't a chat protocol, doesn't fit bridging model).\n\nSYSTEM REQUIREMENTS: 2GB RAM minimum, 4GB recommended. Docker-based deployment (heavily pushed). PostgreSQL and Redis. CDN highly recommended for media. Frequent updates.\n\nReal-world assessment (mvh, Feb 2026): \"Choose Discourse if you want a FORUM, not chat. Long-form discussion is your goal. Powerful moderation and trust systems needed. You're okay with async communication. Skip if you need real-time chat or bidirectional bridging.\"\n\nUse case: When your community actually wants Reddit-style forum discussion, not Discord-style instant messaging. Don't try to force it into being something it's not.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -4548,8 +4732,6 @@
         "freemium_limitations": "no",
         "enterprise_tier": "yes",
         "web_app": "yes",
-        "desktop_app": "no",
-        "mobile_app": "yes",
         "docker_install": "yes",
         "mobile_hosting": "no",
         "voice_chat": "no",
@@ -4571,7 +4753,7 @@
         "invite_links_guest_access": "yes",
         "admin_gui": "yes",
         "migration_assistant": "partial",
-        "bridges": "yes",
+        "bridges": "partial",
         "discord_api_compatible": "no",
         "docs_wiki_channels": "yes",
         "list_task_channels": "no",
@@ -4591,13 +4773,18 @@
         "id_verification": "no",
         "ai_features_or_training": "no",
         "ai_generated_codebase": "yes",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "no",
+        "macos_app": "no",
+        "linux_app": "no",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "text_channels": "Categories and topics structure (forum-style, not real-time channels)",
         "threads_forums": "Core feature - entire platform is threaded discussions",
         "large_community_moderation": "Trust levels, flags, automatic hiding, user silencing, sophisticated moderation",
-        "bridges": "Email integration, webhook integrations, API for external tools",
+        "bridges": "ONE-WAY notifications out only. NOT bidirectional chat bridging. NOT supported by Matterbridge.",
         "docs_wiki_channels": "Wiki-style knowledge base features, long-form documentation support",
         "migration_assistant": "Import tools from other forum software (phpBB, vBulletin, etc)",
         "automod": "Automatic post hiding based on flags, spam detection, new user restrictions",
@@ -4630,8 +4817,6 @@
         "freemium_limitations": "no",
         "enterprise_tier": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "yes",
         "mobile_hosting": "no",
         "voice_chat": "yes",
@@ -4673,7 +4858,12 @@
         "id_verification": "no",
         "ai_features_or_training": "partial",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE voice/video in beta. Messages encrypted in transit and at rest but not E2EE by default",
@@ -4708,8 +4898,6 @@
         "freemium_limitations": "yes",
         "enterprise_tier": "no",
         "web_app": "no",
-        "desktop_app": "yes",
-        "mobile_app": "no",
         "docker_install": "no",
         "mobile_hosting": "no",
         "voice_chat": "yes",
@@ -4751,7 +4939,12 @@
         "id_verification": "no",
         "ai_features_or_training": "no",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "free_to_use": "Free client, servers require licensing (rental or self-host with license). Free 8-slot server available.",
@@ -4785,8 +4978,6 @@
         "freemium_limitations": "yes",
         "enterprise_tier": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "no",
         "mobile_hosting": "no",
         "voice_chat": "yes",
@@ -4828,7 +5019,12 @@
         "id_verification": "no",
         "ai_features_or_training": "yes",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "freemium_limitations": "Free: 90-day message history, 10 integrations, 1:1 huddles only. Paid: unlimited history, unlimited integrations, group huddles.",
@@ -4865,8 +5061,6 @@
         "freemium_limitations": "yes",
         "enterprise_tier": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "no",
         "mobile_hosting": "no",
         "voice_chat": "yes",
@@ -4908,7 +5102,12 @@
         "id_verification": "no",
         "ai_features_or_training": "yes",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "federated": "Can communicate with external organizations via Teams Connect and Teams federation",
@@ -4946,8 +5145,6 @@
         "freemium_limitations": "yes",
         "enterprise_tier": "yes",
         "web_app": "yes",
-        "desktop_app": "yes",
-        "mobile_app": "yes",
         "docker_install": "no",
         "mobile_hosting": "no",
         "voice_chat": "yes",
@@ -4989,7 +5186,12 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "yes",
+        "ios_app": "yes"
       },
       "feature_notes": {
         "free_to_use": "Basic (free) supports meetings up to 100 attendees for 30 days trial. Pro tier is pay-per-use.",
@@ -5028,8 +5230,6 @@
         "freemium_limitations": "no",
         "enterprise_tier": "no",
         "web_app": "yes",
-        "desktop_app": "no",
-        "mobile_app": "no",
         "docker_install": "yes",
         "mobile_hosting": "no",
         "voice_chat": "yes",
@@ -5068,7 +5268,12 @@
         "tournament_brackets": "no",
         "rich_calendar_tools": "no",
         "community_discovery": "no",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "no",
+        "macos_app": "no",
+        "linux_app": "no",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "open_source": "GitHub repository available but developed privately then dumped as single commit - no development history",
@@ -5104,8 +5309,6 @@
         "freemium_limitations": "unknown",
         "enterprise_tier": "no",
         "web_app": "unknown",
-        "desktop_app": "unknown",
-        "mobile_app": "unknown",
         "docker_install": "partial",
         "mobile_hosting": "no",
         "voice_chat": "yes",
@@ -5144,7 +5347,12 @@
         "tournament_brackets": "no",
         "rich_calendar_tools": "no",
         "community_discovery": "yes",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "unknown",
+        "macos_app": "unknown",
+        "linux_app": "unknown",
+        "android_app": "unknown",
+        "ios_app": "unknown"
       },
       "feature_notes": {
         "open_source": "GitHub repos available but extremely new (Feb 2026)",
@@ -5181,8 +5389,6 @@
         "freemium_limitations": "unknown",
         "enterprise_tier": "unknown",
         "web_app": "yes",
-        "desktop_app": "no",
-        "mobile_app": "no",
         "docker_install": "yes",
         "mobile_hosting": "no",
         "voice_chat": "unknown",
@@ -5221,7 +5427,12 @@
         "tournament_brackets": "no",
         "rich_calendar_tools": "no",
         "community_discovery": "unknown",
-        "hardware_required_for_use": "yes"
+        "hardware_required_for_use": "yes",
+        "windows_app": "no",
+        "macos_app": "no",
+        "linux_app": "no",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "ai_generated_codebase": "Explicitly states: 'Not built with, enabled by or integrated with any generative AI.'",
@@ -5239,7 +5450,7 @@
       "architecture": "Protocol specification",
       "features": {
         "open_source": "yes",
-        "self_hostable": "no",
+        "self_hostable": "n/a",
         "federated": "yes",
         "e2e_encryption": "unknown",
         "no_ads": "unknown",
@@ -5255,8 +5466,6 @@
         "freemium_limitations": "unknown",
         "enterprise_tier": "unknown",
         "web_app": "no",
-        "desktop_app": "no",
-        "mobile_app": "no",
         "docker_install": "unknown",
         "mobile_hosting": "no",
         "voice_chat": "unknown",
@@ -5295,7 +5504,12 @@
         "tournament_brackets": "no",
         "rich_calendar_tools": "no",
         "community_discovery": "unknown",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "n/a",
+        "windows_app": "no",
+        "macos_app": "no",
+        "linux_app": "no",
+        "android_app": "no",
+        "ios_app": "no"
       },
       "feature_notes": {
         "self_hostable": "N/A - This is a protocol specification, not software. Implementations would be self-hostable.",
@@ -5306,7 +5520,7 @@
       "id": "carrion",
       "name": "Carrion",
       "url": "https://github.com/carrion-org",
-      "category": "Niche & Specialized",
+      "category": "Legacy & Niche",
       "description": "⚠️ ADULT CONTENT (18+): Privacy-focused adult roleplay platform with zero server-side message storage. Designed for erotic RP, kink communities, LGBTQ+, and furries. NOT a general chat alternative.",
       "notes": "ADULT PLATFORM: Built specifically for erotic roleplay and adult communities. Messages relay through server RAM (~50ms) with no disk storage. Iceland-based hosting. Solo developer project. NOT comparable to Discord - serves entirely different purpose. Quote: 'not a discord replacement unless you only use discord for typefucking.'",
       "architecture": "Centralized (zero storage)",
@@ -5328,8 +5542,6 @@
         "freemium_limitations": "unknown",
         "enterprise_tier": "unknown",
         "web_app": "unknown",
-        "desktop_app": "unknown",
-        "mobile_app": "unknown",
         "docker_install": "unknown",
         "mobile_hosting": "no",
         "voice_chat": "unknown",
@@ -5368,11 +5580,88 @@
         "tournament_brackets": "no",
         "rich_calendar_tools": "no",
         "community_discovery": "unknown",
-        "hardware_required_for_use": "no"
+        "hardware_required_for_use": "no",
+        "windows_app": "unknown",
+        "macos_app": "unknown",
+        "linux_app": "unknown",
+        "android_app": "unknown",
+        "ios_app": "unknown"
       },
       "feature_notes": {
         "e2e_encryption": "Encrypted DMs available. Messages pass through server RAM briefly but not stored on disk.",
         "message_ttl": "Messages only exist in browser IndexedDB. Can export/import, but server stores nothing."
+      }
+    },
+    {
+      "id": "apoka",
+      "name": "Apoka",
+      "url": "https://www.apoka.app/",
+      "category": "Privacy-Focused Centralized",
+      "description": "Closed-source centralized chat platform with privacy focus.",
+      "notes": "Limited public information available. Closed source. No self-hosting option. Centralized hosting model.",
+      "architecture": "Centralized",
+      "features": {
+        "open_source": "no",
+        "self_hostable": "no",
+        "federated": "no",
+        "e2e_encryption": "unknown",
+        "no_ads": "unknown",
+        "no_data_tracking": "unknown",
+        "gdpr_compliant": "unknown",
+        "biometric_age_verification": "unknown",
+        "free_to_use": "unknown",
+        "web_app": "unknown",
+        "docker_install": "unknown",
+        "voice_chat": "unknown",
+        "video_chat": "unknown",
+        "screen_sharing": "unknown",
+        "system_audio_sharing": "unknown",
+        "text_channels": "unknown",
+        "file_sharing": "unknown",
+        "gif_embed_support": "unknown",
+        "threads_forums": "unknown",
+        "bots_automation": "unknown",
+        "webhooks": "unknown",
+        "role_management": "unknown",
+        "server_organization": "unknown",
+        "event_scheduling": "unknown",
+        "raid_planner": "unknown",
+        "invite_links_guest_access": "unknown",
+        "admin_gui": "unknown",
+        "migration_assistant": "unknown",
+        "bridges": "unknown",
+        "discord_api_compatible": "unknown",
+        "docs_wiki_channels": "unknown",
+        "list_task_channels": "unknown",
+        "media_gallery_channels": "unknown",
+        "scheduled_announcements": "unknown",
+        "tournament_brackets": "unknown",
+        "no_premium_tier": "unknown",
+        "rich_calendar_tools": "unknown",
+        "message_ttl": "unknown",
+        "persistent_voice_channels": "unknown",
+        "large_community_moderation": "unknown",
+        "mobile_hosting": "unknown",
+        "per_user_audio_output": "unknown",
+        "community_discovery": "unknown",
+        "self_hosting_license": "unknown",
+        "freemium_limitations": "unknown",
+        "enterprise_tier": "unknown",
+        "automod": "unknown",
+        "audit_logs": "unknown",
+        "user_timeout_mute": "unknown",
+        "raid_protection": "unknown",
+        "message_reporting": "unknown",
+        "age_verification": "unknown",
+        "id_verification": "unknown",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "unknown",
+        "hardware_required_for_use": "no",
+        "windows_app": "unknown",
+        "macos_app": "unknown",
+        "linux_app": "unknown",
+        "android_app": "unknown",
+        "ios_app": "unknown"
       }
     }
   ]
