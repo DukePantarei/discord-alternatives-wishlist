@@ -18,7 +18,7 @@
 ## Contents
 
 - [Matrix Clients](#matrix-clients) — 5 platforms
-- [Privacy-Focused Centralized](#privacy-focused-centralized) — 7 platforms
+- [Privacy-Focused Centralized](#privacy-focused-centralized) — 8 platforms
 - [Self-Hosted Platforms](#self-hosted-platforms) — 17 platforms
 - [Commercial Alternatives](#commercial-alternatives) — 6 platforms
 - [Legacy & Niche](#legacy--niche) — 13 platforms
@@ -201,10 +201,11 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ❌ † | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ † | ❌ † |
 | [Valour](https://valour.gg) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
 | [Nerimity](https://nerimity.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
-| [Kloak](https://kloak.app) | ❌ † | ❌ | ❌ | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
+| [Kloak](https://kloak.app) | ❌ † | ❌ | ❌ | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ † |
 | [Blite Chat](https://blite.chat) | ✅ † | ✅ † | ❌ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ✅ † |
 | [Echoed](https://echoed.chat) | ❌ | ❌ | ❌ | ⚠️ | ✅ | ✅ | ❓ | ❌ | ❌ | ❓ | ❌ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ † | ✅ † | ❌ | ❌ † | ✅ | ✅ | ❓ | ❌ | ❌ | ❌ | ✅ † |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ † | ✅ † | ✅ † | ✅ † | ✅ | ❓ | ❓ | ❌ | ❓ | ❌ | ✅ † |
 
 ### Pricing
 
@@ -217,6 +218,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Blite Chat](https://blite.chat) | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ❓ | ❌ | ❓ | ❓ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ✅ | ❓ | ❌ |
 
 ### Platform Support
 
@@ -229,6 +231,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Blite Chat](https://blite.chat) | ✅ | ✅ † | ❌ | ✅ † | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ❌ | ❌ | ✅ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ⚠️ | ❌ |
 
 ### Communication
 
@@ -241,6 +244,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Blite Chat](https://blite.chat) | ✅ † | ✅ † | ❓ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ † | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ | ❌ | ✅ | ❓ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ |
 
 ### Moderation & Safety
 
@@ -253,6 +257,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Blite Chat](https://blite.chat) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
 
 ### Server & Admin
 
@@ -265,6 +270,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Blite Chat](https://blite.chat) | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ | ❌ |
 
 ### Channels & Content
 
@@ -277,6 +283,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Blite Chat](https://blite.chat) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ❌ | ❌ | ❌ | ❌ | ✅ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 ### Community Tools
 
@@ -289,6 +296,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Blite Chat](https://blite.chat) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❌ | ❌ | ❌ | ✅ † |
 
 
 **† Notes**
@@ -330,11 +338,12 @@ These platforms prioritize privacy and are open source, but run on a central ser
 <details>
 <summary>Kloak</summary>
 
-- *Description:* Privacy-first Discord alternative with key-based authentication (no email/password). If key is lost, account is lost. Has servers, channels, roles, permissions, file sharing, custom emoji.
+- *Description:* SECURITY BREACH (Feb 20, 2026): Platform compromised. Attacker gained access to full user list and private messages. Privacy-first Discord alternative with key-based authentication (no email/password). If key is lost, account cannot be recovered.
 - *Architecture:* Centralized, closed source
 - *E2E Encryption:* E2EE for DMs planned but not yet implemented
 - *Desktop App:* Web app can be installed as PWA — no native desktop app yet
 - *Open Source:* Closed source but built with privacy-first principles. Minimal data storage by design.
+- *Ai Generated Codebase:* Security breach pattern (Feb 2026) similar to Paracord suggests possible vibe-coded origin with inadequate security review. Platform lacks authentication on critical endpoints.
 </details>
 
 <details>
@@ -370,6 +379,19 @@ These platforms prioritize privacy and are open source, but run on a central ser
 - *Voice Chat:* Uses LiveKit but proxy has NO authentication - anyone can join calls silently
 - *E2E Encryption:* No E2EE. JWT secrets stored in plaintext in config file.
 - *Self Hostable:* UPnP auto-opens router ports by default, exposing server to internet without user awareness
+</details>
+
+<details>
+<summary>Voltage (VoltChat)</summary>
+
+- *Description:* Federated, open chat platform. Very new project with limited public information and strong indicators of AI-generated codebase.
+- *Architecture:* Federated (claimed), centralized instances
+- *Open Source:* GitHub repos available but extremely new (Feb 2026)
+- *Federated:* Claims federation support ('Self-Volt') but unproven with no federated instances
+- *E2E Encryption:* Listed in feature flags but implementation status unknown
+- *Ai Generated Codebase:* Strong indicators: 10 commits with full-featured backend, comprehensive docs, federation/OAuth/CDN all at once, no development history, multiple simultaneous repos. Typical vibe-coding pattern.
+- *Self Hostable:* Setup scripts provided but untested by community
+- *Community Discovery:* Listed in feature flags but no public instance to verify
 </details>
 
 ---
