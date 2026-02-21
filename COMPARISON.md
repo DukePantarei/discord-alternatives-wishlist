@@ -1348,7 +1348,7 @@ Platforms that are no longer active. Included for historical reference and featu
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Guilded (discontinued)](https://guilded.gg) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
 | [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ | ❌ |
-| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ |
+| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ⚠️ † | ⚠️ † | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ |
 | [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ❌ | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ | ❌ |
 | [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ | ❌ |
 | [Razer Comms](https://www.razer.com/) | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ |
@@ -1480,6 +1480,8 @@ Platforms that are no longer active. Included for historical reference and featu
 - *Architecture:* Closed source, centralized
 - *Community Discovery:* Game server browser and clan/community discovery built in
 - *Screen Sharing:* Game screenshot capture and video recording, not live screen sharing
+- *Open Source:* https://xf1re.com/ is an unofficial open-source reimplementation.
+- *Self Hostable:* https://github.com/darcymiranda/PFire is an Xfire server emulator.
 </details>
 
 <details>
