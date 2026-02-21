@@ -45,13 +45,13 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 ### Pricing
 
-| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
-| --- | --- | --- | --- | --- | --- |
-| [Element](https://element.io) | ✅ | ✅ | ✅ † | ❌ | ✅ |
-| [Cinny](https://cinny.in) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Commet](https://commet.chat) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [FluffyChat](https://fluffychat.im) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required For Use** |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Element](https://element.io) | ✅ | ✅ | ✅ † | ❌ | ✅ | ❓ |
+| [Cinny](https://cinny.in) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [Commet](https://commet.chat) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [FluffyChat](https://fluffychat.im) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
 
 ### Platform Support
 
@@ -210,17 +210,17 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 ### Pricing
 
-| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
-| --- | --- | --- | --- | --- | --- |
-| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Valour](https://valour.gg) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Nerimity](https://nerimity.com) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Kloak](https://kloak.app) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Blite Chat](https://blite.chat) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Echoed](https://echoed.chat) | ✅ | ❓ | ❌ | ❓ | ❓ |
-| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ✅ | ❓ | ❌ |
-| [Critterchat](https://critterchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required For Use** |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [Valour](https://valour.gg) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [Nerimity](https://nerimity.com) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [Kloak](https://kloak.app) | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ |
+| [Blite Chat](https://blite.chat) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [Echoed](https://echoed.chat) | ✅ | ❓ | ❌ | ❓ | ❓ | ❓ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ✅ | ❓ | ❌ | ❓ |
+| [Critterchat](https://critterchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 ### Platform Support
 
@@ -448,27 +448,27 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 ### Pricing
 
-| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
-| --- | --- | --- | --- | --- | --- |
-| [Sharkord](https://sharkord.com) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Spacebar](https://spacebar.chat) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Fluxer](https://fluxer.app) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Loqa](https://loqa.chat) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Zulip](https://zulip.com) | ✅ | ✅ | ✅ | ❌ | ✅ |
-| [Rocket.Chat](https://rocket.chat) | ⚠️ † | ⚠️ † | ✅ | ❓ † | ❓ |
-| [Mezon](https://mezon.ai) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Nextcloud Talk](https://nextcloud.com/talk) | ✅ | ⚠️ † | ✅ | ❓ | ✅ |
-| [Snikket](https://snikket.org) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Roomy](https://github.com/) | ❓ | ❓ | ✅ | ❓ | ❓ |
-| [Colanode](https://github.com/) | ✅ | ❓ | ✅ | ❓ | ❓ |
-| [Raven](https://github.com/) | ✅ | ❓ | ✅ | ❓ | ❓ |
-| [Pulse Chat](https://plse.chat) | ✅ | ❓ | ✅ | ❓ | ❓ |
-| [Databag](https://github.com/balzack/databag) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Discourse](https://www.discourse.org) | ✅ | ✅ | ✅ | ❌ | ✅ |
-| [Mattermost](https://mattermost.com) | ✅ | ❌ † | ✅ | ❌ | ✅ |
-| [Polyproto](https://polyproto.io) | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required For Use** |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Sharkord](https://sharkord.com) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [Spacebar](https://spacebar.chat) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [Fluxer](https://fluxer.app) | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ |
+| [Loqa](https://loqa.chat) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [Zulip](https://zulip.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ❓ |
+| [Rocket.Chat](https://rocket.chat) | ⚠️ † | ⚠️ † | ✅ | ❓ † | ❓ | ❓ |
+| [Mezon](https://mezon.ai) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [Nextcloud Talk](https://nextcloud.com/talk) | ✅ | ⚠️ † | ✅ | ❓ | ✅ | ❓ |
+| [Snikket](https://snikket.org) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [Roomy](https://github.com/) | ❓ | ❓ | ✅ | ❓ | ❓ | ❓ |
+| [Colanode](https://github.com/) | ✅ | ❓ | ✅ | ❓ | ❓ | ❓ |
+| [Raven](https://github.com/) | ✅ | ❓ | ✅ | ❓ | ❓ | ❓ |
+| [Pulse Chat](https://plse.chat) | ✅ | ❓ | ✅ | ❓ | ❓ | ❓ |
+| [Databag](https://github.com/balzack/databag) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [Discourse](https://www.discourse.org) | ✅ | ✅ | ✅ | ❌ | ✅ | ❓ |
+| [Mattermost](https://mattermost.com) | ✅ | ❌ † | ✅ | ❌ | ✅ | ❓ |
+| [Polyproto](https://polyproto.io) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 ### Platform Support
 
@@ -850,14 +850,14 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 ### Pricing
 
-| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
-| --- | --- | --- | --- | --- | --- |
-| [Discord](https://discord.com) | ⚠️ † | ❌ † | ❌ | ⚠️ † | ❓ |
-| [Root](https://rootapp.com) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Telegram](https://telegram.org) | ✅ | ⚠️ † | ❌ | ⚠️ † | ❓ |
-| [GameVox](https://gamevox.com) | ⚠️ † | ❌ | ❌ | ❓ | ❓ |
-| [Steam Chat](https://store.steampowered.com) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Osmium](https://osmium.chat) | ✅ † | ❓ | ❌ | ❓ | ❓ |
+| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required For Use** |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Discord](https://discord.com) | ⚠️ † | ❌ † | ❌ | ⚠️ † | ❓ | ❓ |
+| [Root](https://rootapp.com) | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ |
+| [Telegram](https://telegram.org) | ✅ | ⚠️ † | ❌ | ⚠️ † | ❓ | ❓ |
+| [GameVox](https://gamevox.com) | ⚠️ † | ❌ | ❌ | ❓ | ❓ | ❓ |
+| [Steam Chat](https://store.steampowered.com) | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ |
+| [Osmium](https://osmium.chat) | ✅ † | ❓ | ❌ | ❓ | ❓ | ❓ |
 
 ### Platform Support
 
@@ -1048,21 +1048,21 @@ Included for historical context or specific use cases. Generally not recommended
 
 ### Pricing
 
-| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
-| --- | --- | --- | --- | --- | --- |
-| [TeamSpeak](https://teamspeak.com) | ⚠️ | ⚠️ † | ⚠️ † | ❓ | ❓ |
-| [Mumble](https://mumble.info) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Signal](https://signal.org) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Skype](https://skype.com) | ✅ | ⚠️ † | ❌ | ❓ | ❓ |
-| [SimpleX Chat](https://simplex.chat) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Quiet](https://tryquiet.org) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Campfire](https://basecamp.com/retired/campfire) | ❌ | ❌ | ❌ | ❓ | ❓ |
-| [Oldcord](https://oldcordapp.com) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Jami](https://jami.net) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Gajim](https://gajim.org) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Swift IM](https://swift.im) | ✅ | ⚠️ † | ✅ | ❓ | ❓ |
-| [Movim](https://movim.eu) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Ventrilo](https://www.ventrilo.com) | ⚠️ † | ❌ | ⚠️ † | ✅ † | ❌ |
+| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required For Use** |
+| --- | --- | --- | --- | --- | --- | --- |
+| [TeamSpeak](https://teamspeak.com) | ⚠️ | ⚠️ † | ⚠️ † | ❓ | ❓ | ❓ |
+| [Mumble](https://mumble.info) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [Signal](https://signal.org) | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ |
+| [Skype](https://skype.com) | ✅ | ⚠️ † | ❌ | ❓ | ❓ | ❓ |
+| [SimpleX Chat](https://simplex.chat) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [Quiet](https://tryquiet.org) | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ |
+| [Campfire](https://basecamp.com/retired/campfire) | ❌ | ❌ | ❌ | ❓ | ❓ | ❓ |
+| [Oldcord](https://oldcordapp.com) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [Jami](https://jami.net) | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ |
+| [Gajim](https://gajim.org) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [Swift IM](https://swift.im) | ✅ | ⚠️ † | ✅ | ❓ | ❓ | ❓ |
+| [Movim](https://movim.eu) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
+| [Ventrilo](https://www.ventrilo.com) | ⚠️ † | ❌ | ⚠️ † | ✅ † | ❌ | ❓ |
 
 ### Platform Support
 
@@ -1357,16 +1357,16 @@ Platforms that are no longer active. Included for historical reference and featu
 
 ### Pricing
 
-| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
-| --- | --- | --- | --- | --- | --- |
-| [Guilded (discontinued)](https://guilded.gg) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ⚠️ † | ❌ | ❌ | ✅ | ❌ |
-| [Razer Comms](https://www.razer.com/) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [TeaSpeak](https://github.com/TeaSpeak) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required For Use** |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Guilded (discontinued)](https://guilded.gg) | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ |
+| [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ |
+| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ |
+| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ |
+| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ⚠️ † | ❌ | ❌ | ✅ | ❌ | ❓ |
+| [Razer Comms](https://www.razer.com/) | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ |
+| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ✅ | ✅ | ❌ | ❌ | ❌ | ❓ |
+| [TeaSpeak](https://github.com/TeaSpeak) | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ |
 
 ### Platform Support
 
@@ -1553,14 +1553,14 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 ### Pricing
 
-| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** |
-| --- | --- | --- | --- | --- | --- |
-| [Pumble](https://pumble.com) | ⚠️ † | ❌ | ❌ | ❓ | ✅ |
-| [Chanty](https://chanty.com) | ⚠️ | ❌ | ❌ | ❓ | ✅ |
-| [Virola](https://virola.io) | ✅ † | ✅ | ⚠️ † | ❌ | ✅ |
-| [Slack](https://slack.com) | ✅ | ❌ | ❌ | ✅ † | ✅ |
-| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ❌ | ❌ | ✅ † | ✅ |
-| [Amazon Chime](https://aws.amazon.com/chime/) | ⚠️ † | ❌ | ❌ | ✅ † | ✅ |
+| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required For Use** |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Pumble](https://pumble.com) | ⚠️ † | ❌ | ❌ | ❓ | ✅ | ❓ |
+| [Chanty](https://chanty.com) | ⚠️ | ❌ | ❌ | ❓ | ✅ | ❓ |
+| [Virola](https://virola.io) | ✅ † | ✅ | ⚠️ † | ❌ | ✅ | ❓ |
+| [Slack](https://slack.com) | ✅ | ❌ | ❌ | ✅ † | ✅ | ❓ |
+| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ❌ | ❌ | ✅ † | ✅ | ❓ |
+| [Amazon Chime](https://aws.amazon.com/chime/) | ⚠️ † | ❌ | ❌ | ✅ † | ✅ | ❓ |
 
 ### Platform Support
 
