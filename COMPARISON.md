@@ -654,7 +654,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Sharkord](https://sharkord.com) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
 | [Spacebar](https://spacebar.chat) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
-| [Fluxer](https://fluxer.app) | ✅ | ❌ | ❌ | ❌ | ⚠️ | ⚠️ | ⚠️ | ❌ |
+| [Fluxer](https://fluxer.app) | ✅ | ✅ | ✅ | ✅ | 🗓️ † | 🗓️ † | ⚠️ | ❌ |
 | [Loqa](https://loqa.chat) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
 | [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ |
 | [Zulip](https://zulip.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
@@ -673,6 +673,15 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Strafe](https://strafe.chat) | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
 | [Common Ground](https://commonground.computer) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ |
 | [Conduit](https://conduit.rs) | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Fluxer:**
+- *Android App:* Native mobile apps in active development. Mobile web (PWA) works in browser with home screen install, push notifications.
+- *Ios App:* Native mobile apps in active development. Mobile web (PWA) works in browser with home screen install, push notifications.
+
+</details>
 
 </details>
 
