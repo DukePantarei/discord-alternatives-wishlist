@@ -349,7 +349,7 @@
       "category": "Commercial Alternatives",
       "description": "The dominant chat platform for gaming and online communities. Included as the baseline for comparison.",
       "architecture": "Centralized, closed source",
-      "notes": "Baseline platform. Implementing biometric age verification in the UK as of 2025.",
+      "notes": "SECURITY CONCERN (Google Sheet assessment): Community rates security history as 'Bad'. Baseline platform. Implementing biometric age verification in the UK as of 2025.",
       "features": {
         "open_source": "no",
         "self_hostable": "no",
@@ -439,7 +439,7 @@
       "category": "Matrix Clients",
       "description": "The reference Matrix client. Feature-complete but primarily enterprise and power-user focused.",
       "architecture": "Federated (Matrix protocol)",
-      "notes": "Reference client for Matrix. Not designed for average users — try Cinny or Commet if coming from Discord.",
+      "notes": "CRITICAL SECURITY VULNERABILITY (Feb 17, 2026): Cryptographic issues discovered in Matrix's Rust library (vodozemac). See https://soatok.blog/2026/02/17/cryptographic-issues-in-matrixs-rust-library-vodozemac/ SECURITY CONCERN (Google Sheet assessment): Community rates security history as 'Bad'. Reference client for Matrix. Not designed for average users — try Cinny or Commet if coming from Discord.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -596,7 +596,7 @@
       "category": "Matrix Clients",
       "description": "Feature-rich Matrix client focused on casual communities. Closest to Discord in terms of features.",
       "architecture": "Federated (Matrix protocol)",
-      "notes": "Written in Flutter. Supports GIF search (proxied for privacy), events, stickers, voice channels via MatrixRTC.",
+      "notes": "CRITICAL SECURITY VULNERABILITY (Feb 17, 2026): Cryptographic issues discovered in Matrix's Rust library (vodozemac). See https://soatok.blog/2026/02/17/cryptographic-issues-in-matrixs-rust-library-vodozemac/ SECURITY CONCERN (Google Sheet assessment): Community rates security history as 'Bad'. Written in Flutter. Supports GIF search (proxied for privacy), events, stickers, voice channels via MatrixRTC.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -674,7 +674,7 @@
       "category": "Matrix Clients",
       "description": "Beginner-friendly Matrix client with a focus on mobile and simplicity.",
       "architecture": "Federated (Matrix protocol)",
-      "notes": "Best for non-technical users and mobile-first users. Less feature-rich than Element or Commet.",
+      "notes": "CRITICAL SECURITY VULNERABILITY (Feb 17, 2026): Cryptographic issues discovered in Matrix's Rust library (vodozemac). See https://soatok.blog/2026/02/17/cryptographic-issues-in-matrixs-rust-library-vodozemac/ SECURITY CONCERN (Google Sheet assessment): Community rates security history as 'Bad'. Best for non-technical users and mobile-first users. Less feature-rich than Element or Commet.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -822,7 +822,7 @@
       "category": "Privacy-Focused Centralized",
       "description": "Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.",
       "architecture": "Centralized (self-hostable but not federated)",
-      "notes": "Best easy transition from Discord. Self-hosted instances cannot communicate with stoat.chat or each other.",
+      "notes": "UK JURISDICTION: Subject to Online Safety Act. Blocks users in age-verification jurisdictions from NSFW rather than implementing KYC. May eventually need KYC or ban NSFW. Best easy transition from Discord. Self-hosted instances cannot communicate with stoat.chat or each other.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -880,7 +880,7 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "partial"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs is planned but not yet released",
@@ -890,7 +890,8 @@
         "video_chat": "Video chat has never been supported",
         "mobile_app": "Beta Android and iOS apps available — iOS app especially rough, Android feels better. Sign-up verification slow (10+ hours reported) during user influx",
         "ai_features_or_training": "No AI features currently",
-        "ai_generated_codebase": "NOT vibe-coded. Started in 2021 before consumer AI coding tools existed. Maintainer explicitly reverted all AI-generated code commits in 2025 after community concerns. Has strong anti-AI stance."
+        "ai_generated_codebase": "Previously used AI-generated commits but removed them after community backlash. Developer explicitly states Stoat's foundation predates vibe-coding (public beta 2021, ChatGPT late 2022). Currently maintains strong anti-AI stance.",
+        "self_hostable": "Available but not prominently documented. See: https://github.com/stoatchat/self-hosted"
       }
     },
     {
@@ -903,7 +904,7 @@
       "notes": "Unique multi-window feature allows chatting across multiple channels simultaneously. Voice chat pending funding.",
       "features": {
         "open_source": "yes",
-        "self_hostable": "yes",
+        "self_hostable": "no",
         "federated": "no",
         "e2e_encryption": "no",
         "no_ads": "yes",
@@ -964,7 +965,8 @@
         "desktop_app": "PWA only — no native desktop app",
         "mobile_app": "PWA only — no native mobile app",
         "voice_chat": "Planned but requires funding to implement",
-        "docker_install": "Partial — setup more complex than other platforms"
+        "docker_install": "Partial — setup more complex than other platforms",
+        "self_hostable": "Planned 'coming soon' but not available as of Feb 2026"
       }
     },
     {
@@ -1183,7 +1185,8 @@
         "video_chat": "Not currently supported",
         "discord_api_compatible": "Key differentiator — existing Discord bots work without modification",
         "screen_sharing": "Not currently supported",
-        "ai_features_or_training": "No AI features currently"
+        "ai_features_or_training": "No AI features currently",
+        "ai_generated_codebase": "Explicitly bans AI code: 'AI code due to not being GPLv3 compatible is not allowed in this repo'"
       }
     },
     {
@@ -1251,7 +1254,7 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "partial"
       },
       "feature_notes": {
         "e2e_encryption": "Roadmap 2026: Opt-in 'secret chats' (ephemeral, E2EE sessions). No plans for full-platform E2EE. LiveKit supports E2EE for calls but not yet implemented.",
@@ -1263,7 +1266,8 @@
         "community_discovery": "Roadmap 2026: In-app and public (no login) community discovery for published forums",
         "bots_automation": "Roadmap 2026: Slash commands, modals, components, interactions — Discord feature parity planned",
         "event_scheduling": "Roadmap 2026: Scheduled events planned",
-        "ai_features_or_training": "No AI features currently"
+        "ai_features_or_training": "No AI features currently",
+        "ai_generated_codebase": "Developer uses LLMs as a 'rubber duck' debugging tool but writes all code personally. See: https://blog.fluxer.app/how-i-built-fluxer-a-discord-like-chat-app/"
       }
     },
     {
@@ -1415,7 +1419,7 @@
       "category": "Commercial Alternatives",
       "description": "VC-funded commercial chat platform with built-in app ecosystem. Polished but closed source.",
       "architecture": "Centralized, closed source",
-      "notes": "Backed by $9M seed funding. Strong features but commercial trajectory carries same long-term risks as Discord.",
+      "notes": "⚠️ SUSPICIOUS PLATFORM - AVOID: No revenue model (no ads/premium/donations), NFT-VC backed, advertised features don't exist, anti-NSFW. Community: 'Stay away from Root.' Backed by $9M seed funding. Strong features but commercial trajectory carries same long-term risks as Discord.",
       "features": {
         "open_source": "no",
         "self_hostable": "no",
@@ -1473,14 +1477,15 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "yes"
       },
       "feature_notes": {
         "no_ads": "No ads currently but VC-funded — monetization model may change",
         "no_data_tracking": "Shares data with third parties per privacy policy",
         "migration_assistant": "Has 'Discord Themes' feature that imports/converts Discord servers",
         "video_chat": "Video bitrate is low quality — streams appear blurry according to user reports",
-        "screen_sharing": "Video quality in screenshare is poor — blurry at standard bitrate"
+        "screen_sharing": "Video quality in screenshare is poor — blurry at standard bitrate",
+        "ai_generated_codebase": "Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code."
       }
     },
     {
@@ -1879,7 +1884,7 @@
       "category": "Self-Hosted Platforms",
       "description": "Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.",
       "architecture": "Self-hosted or cloud-hosted",
-      "notes": "Top recommendation from large-community evaluators. Threading model (every message belongs to a topic) takes adjustment for Discord users. Jitsi integration provides voice/video/screenshare but uses a call-per-message model rather than persistent always-on voice channels.",
+      "notes": "Excellent security: Bug bounty, rapid response, encrypted in transit & at rest, HIPAA compliant (https://zulip.com/security/). Top recommendation from large-community evaluators. Threading model (every message belongs to a topic) takes adjustment for Discord users. Jitsi integration provides voice/video/screenshare but uses a call-per-message model rather than persistent always-on voice channels.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -1937,7 +1942,7 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "partial"
       },
       "feature_notes": {
         "voice_chat": "Via Jitsi integration only — not native. Uses call-per-message model, not persistent always-on channels",
@@ -1948,7 +1953,8 @@
         "large_community_moderation": "Good moderation tools for productivity communities, less suited for large open social communities",
         "message_ttl": "Configurable message retention policies per stream",
         "migration_assistant": "Some import tools available for Slack and HipChat, limited Discord support",
-        "ai_features_or_training": "No built-in AI features. Self-hosted option means user controls data."
+        "ai_features_or_training": "No built-in AI features. Self-hosted option means user controls data.",
+        "ai_generated_codebase": "Strict AI policy: permits AI assistance but STRICTLY disallows AI commits with zero oversight. See: https://github.com/zulip/zulip/blob/main/CONTRIBUTING.md"
       }
     },
     {
@@ -2016,7 +2022,7 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "partial",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "yes"
       },
       "feature_notes": {
         "free_to_use": "Free tier hard-capped at 50 users — must contact support to raise limit. Enterprise license required for larger deployments",
@@ -2028,7 +2034,8 @@
         "federated": "Matrix federation bridge available but not native",
         "message_ttl": "Configurable message retention per room",
         "freemium_limitations": "Cloud has message history limits, self-hosted is unlimited",
-        "ai_features_or_training": "AI chatbot integrations available via marketplace"
+        "ai_features_or_training": "AI chatbot integrations available via marketplace",
+        "ai_generated_codebase": "Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code."
       }
     },
     {
@@ -2466,7 +2473,8 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no"
-      }
+      },
+      "feature_notes": {}
     },
     {
       "id": "simplex",
@@ -2973,7 +2981,8 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no"
-      }
+      },
+      "feature_notes": {}
     },
     {
       "id": "campfire",
@@ -3041,7 +3050,8 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no"
-      }
+      },
+      "feature_notes": {}
     },
     {
       "id": "colanode",
@@ -3109,7 +3119,8 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no"
-      }
+      },
+      "feature_notes": {}
     },
     {
       "id": "raven",
@@ -3177,7 +3188,8 @@
         "id_verification": "no",
         "ai_features_or_training": "unknown",
         "ai_generated_codebase": "no"
-      }
+      },
+      "feature_notes": {}
     },
     {
       "id": "pulse",
@@ -3546,7 +3558,8 @@
       "feature_notes": {
         "voice_chat": "Work in progress. WebRTC P2P (exposes IP, VPN recommended), standard WebRTC (browser), UDP (desktop). Minor bugs being fixed.",
         "video_chat": "Not yet supported. Focus on voice first.",
-        "discord_api_compatible": "2015-2018 Discord API compatibility. Client patcher for custom patches."
+        "discord_api_compatible": "2015-2018 Discord API compatibility. Client patcher for custom patches.",
+        "ai_generated_codebase": "Developer explicitly: 'we don't use AI to generate any of our code. we don't accept AI generated contributions'"
       }
     },
     {
@@ -3764,7 +3777,10 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "partial"
+      },
+      "feature_notes": {
+        "ai_generated_codebase": "Backend coded from scratch. Frontend has 'bits and pieces' of AI assistance but not vibe-coded."
       }
     },
     {
@@ -3832,14 +3848,15 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "yes"
       },
       "feature_notes": {
         "free_to_use": "Currently free (insider preview program)",
         "list_task_channels": "Integrated Kanban board and issue tracking - can create tasks from messages",
         "threads_forums": "Discussion threads within chat rooms",
         "e2e_encryption": "Self-hosted with data on your servers, but not E2EE",
-        "self_hosting_license": "Currently free (insider preview), closed source, future licensing TBD"
+        "self_hosting_license": "Currently free (insider preview), closed source, future licensing TBD",
+        "ai_generated_codebase": "Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code."
       }
     },
     {
@@ -3907,11 +3924,12 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "yes"
       },
       "feature_notes": {
         "free_to_use": "No email required - sign up in 30 seconds",
-        "open_source": "Closed source commercial platform"
+        "open_source": "Closed source commercial platform",
+        "ai_generated_codebase": "Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code."
       }
     },
     {
@@ -4439,7 +4457,7 @@
       "category": "Self-Hosted Platforms",
       "description": "Modern forum software for building communities. Ruby on Rails. Email-based notifications, threaded discussions, trust levels, badges.",
       "architecture": "Self-hosted, open source (GPL-2.0)",
-      "notes": "Created by Stack Overflow co-founder Jeff Atwood. Focuses on civilized discussion with trust levels, flagging, and moderation tools. Email integration for participation. Not real-time chat - async forum discussions. Docker deployment available. Used by Mozilla, Twitter, BoingBoing.",
+      "notes": "SECURITY CONCERN (Google Sheet assessment): Community rates security history as 'Bad'. Created by Stack Overflow co-founder Jeff Atwood. Focuses on civilized discussion with trust levels, flagging, and moderation tools. Email integration for participation. Not real-time chat - async forum discussions. Docker deployment available. Used by Mozilla, Twitter, BoingBoing.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -4497,7 +4515,7 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "yes"
       },
       "feature_notes": {
         "text_channels": "Categories and topics structure (forum-style, not real-time channels)",
@@ -4509,7 +4527,8 @@
         "automod": "Automatic post hiding based on flags, spam detection, new user restrictions",
         "user_timeout_mute": "User silencing and suspension features",
         "message_reporting": "Flag system - users can flag posts for moderator review",
-        "ai_features_or_training": "No built-in AI features. Self-hosted forum software."
+        "ai_features_or_training": "No built-in AI features. Self-hosted forum software.",
+        "ai_generated_codebase": "Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code."
       }
     },
     {
@@ -5052,6 +5071,213 @@
         "self_hostable": "Setup scripts provided but untested by community",
         "community_discovery": "Listed in feature flags but no public instance to verify"
       }
+    },
+    {
+      "id": "critterchat",
+      "name": "Critterchat",
+      "url": "https://critterchat.com",
+      "category": "Privacy-Focused Centralized",
+      "description": "Privacy-focused chat platform. Minimal public information available.",
+      "notes": "Found in Discord Replacers Google Sheet. Limited documentation and community presence. Security and vibe-coding status unclear.",
+      "architecture": "Unknown",
+      "features": {
+        "open_source": "unknown",
+        "self_hostable": "unknown",
+        "federated": "unknown",
+        "e2e_encryption": "unknown",
+        "no_ads": "unknown",
+        "no_data_tracking": "unknown",
+        "gdpr_compliant": "unknown",
+        "biometric_age_verification": "no",
+        "message_ttl": "unknown",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "unknown",
+        "free_to_use": "unknown",
+        "no_premium_tier": "unknown",
+        "self_hosting_license": "unknown",
+        "freemium_limitations": "unknown",
+        "enterprise_tier": "unknown",
+        "web_app": "unknown",
+        "desktop_app": "unknown",
+        "mobile_app": "unknown",
+        "docker_install": "unknown",
+        "mobile_hosting": "no",
+        "voice_chat": "unknown",
+        "video_chat": "unknown",
+        "screen_sharing": "unknown",
+        "system_audio_sharing": "unknown",
+        "text_channels": "unknown",
+        "file_sharing": "unknown",
+        "gif_embed_support": "unknown",
+        "threads_forums": "unknown",
+        "persistent_voice_channels": "unknown",
+        "per_user_audio_output": "unknown",
+        "large_community_moderation": "unknown",
+        "automod": "unknown",
+        "audit_logs": "unknown",
+        "user_timeout_mute": "unknown",
+        "raid_protection": "unknown",
+        "message_reporting": "unknown",
+        "age_verification": "no",
+        "id_verification": "no",
+        "role_management": "unknown",
+        "server_organization": "unknown",
+        "admin_gui": "unknown",
+        "invite_links_guest_access": "unknown",
+        "migration_assistant": "no",
+        "bridges": "unknown",
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "unknown",
+        "list_task_channels": "unknown",
+        "media_gallery_channels": "unknown",
+        "scheduled_announcements": "unknown",
+        "event_scheduling": "unknown",
+        "bots_automation": "unknown",
+        "webhooks": "unknown",
+        "raid_planner": "no",
+        "tournament_brackets": "no",
+        "rich_calendar_tools": "no",
+        "community_discovery": "unknown"
+      },
+      "feature_notes": {}
+    },
+    {
+      "id": "polyproto",
+      "name": "Polyproto",
+      "url": "https://polyproto.io",
+      "category": "Self-Hosted Platforms",
+      "description": "Protocol for federated message authentication. Not a chat protocol itself, but a foundation for building federated chat systems.",
+      "notes": "Polyproto-chat is a chat protocol being built on top of Polyproto. Early development stage. Security and implementation status unclear.",
+      "architecture": "Unknown",
+      "features": {
+        "open_source": "unknown",
+        "self_hostable": "unknown",
+        "federated": "unknown",
+        "e2e_encryption": "unknown",
+        "no_ads": "unknown",
+        "no_data_tracking": "unknown",
+        "gdpr_compliant": "unknown",
+        "biometric_age_verification": "no",
+        "message_ttl": "unknown",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "unknown",
+        "free_to_use": "unknown",
+        "no_premium_tier": "unknown",
+        "self_hosting_license": "unknown",
+        "freemium_limitations": "unknown",
+        "enterprise_tier": "unknown",
+        "web_app": "unknown",
+        "desktop_app": "unknown",
+        "mobile_app": "unknown",
+        "docker_install": "unknown",
+        "mobile_hosting": "no",
+        "voice_chat": "unknown",
+        "video_chat": "unknown",
+        "screen_sharing": "unknown",
+        "system_audio_sharing": "unknown",
+        "text_channels": "unknown",
+        "file_sharing": "unknown",
+        "gif_embed_support": "unknown",
+        "threads_forums": "unknown",
+        "persistent_voice_channels": "unknown",
+        "per_user_audio_output": "unknown",
+        "large_community_moderation": "unknown",
+        "automod": "unknown",
+        "audit_logs": "unknown",
+        "user_timeout_mute": "unknown",
+        "raid_protection": "unknown",
+        "message_reporting": "unknown",
+        "age_verification": "no",
+        "id_verification": "no",
+        "role_management": "unknown",
+        "server_organization": "unknown",
+        "admin_gui": "unknown",
+        "invite_links_guest_access": "unknown",
+        "migration_assistant": "no",
+        "bridges": "unknown",
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "unknown",
+        "list_task_channels": "unknown",
+        "media_gallery_channels": "unknown",
+        "scheduled_announcements": "unknown",
+        "event_scheduling": "unknown",
+        "bots_automation": "unknown",
+        "webhooks": "unknown",
+        "raid_planner": "no",
+        "tournament_brackets": "no",
+        "rich_calendar_tools": "no",
+        "community_discovery": "unknown"
+      },
+      "feature_notes": {}
+    },
+    {
+      "id": "carrion",
+      "name": "Carrion",
+      "url": "https://github.com/carrion-org",
+      "category": "Self-Hosted Platforms",
+      "description": "Self-hosted chat platform. Minimal public information.",
+      "notes": "Listed in Discord Replacers sheet with 'Good' security rating. Very limited community presence and documentation. Google Sheet rates as 'Inconclusive' for vibe-coding.",
+      "architecture": "Unknown",
+      "features": {
+        "open_source": "unknown",
+        "self_hostable": "unknown",
+        "federated": "unknown",
+        "e2e_encryption": "unknown",
+        "no_ads": "unknown",
+        "no_data_tracking": "unknown",
+        "gdpr_compliant": "unknown",
+        "biometric_age_verification": "no",
+        "message_ttl": "unknown",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "unknown",
+        "free_to_use": "unknown",
+        "no_premium_tier": "unknown",
+        "self_hosting_license": "unknown",
+        "freemium_limitations": "unknown",
+        "enterprise_tier": "unknown",
+        "web_app": "unknown",
+        "desktop_app": "unknown",
+        "mobile_app": "unknown",
+        "docker_install": "unknown",
+        "mobile_hosting": "no",
+        "voice_chat": "unknown",
+        "video_chat": "unknown",
+        "screen_sharing": "unknown",
+        "system_audio_sharing": "unknown",
+        "text_channels": "unknown",
+        "file_sharing": "unknown",
+        "gif_embed_support": "unknown",
+        "threads_forums": "unknown",
+        "persistent_voice_channels": "unknown",
+        "per_user_audio_output": "unknown",
+        "large_community_moderation": "unknown",
+        "automod": "unknown",
+        "audit_logs": "unknown",
+        "user_timeout_mute": "unknown",
+        "raid_protection": "unknown",
+        "message_reporting": "unknown",
+        "age_verification": "no",
+        "id_verification": "no",
+        "role_management": "unknown",
+        "server_organization": "unknown",
+        "admin_gui": "unknown",
+        "invite_links_guest_access": "unknown",
+        "migration_assistant": "no",
+        "bridges": "unknown",
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "unknown",
+        "list_task_channels": "unknown",
+        "media_gallery_channels": "unknown",
+        "scheduled_announcements": "unknown",
+        "event_scheduling": "unknown",
+        "bots_automation": "unknown",
+        "webhooks": "unknown",
+        "raid_planner": "no",
+        "tournament_brackets": "no",
+        "rich_calendar_tools": "no",
+        "community_discovery": "unknown"
+      },
+      "feature_notes": {}
     }
   ]
 }
