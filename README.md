@@ -36,44 +36,6 @@
 
 ---
 
-## 💡 For Your Community (~100 People)
-
-Based on hands-on testing and real-world usage:
-
-### **Best Choice: Matrix with Commet client**
-**Why:**
-- ✅ **Proven at scale** — German military, French government, ICC use it
-- ✅ **Discord-like UI** — Commet feels familiar to Discord users
-- ✅ **Actually works** — Voice/video functional (unlike Stoat)
-- ✅ **Federated** — No single company controls it, can switch homeservers
-- ✅ **E2EE by default** — Privacy built-in
-- ⚠️ **Complexity** — Permission management requires Draupnir bot (essential)
-
-**Setup:** Use [matrix.org](https://matrix.org) homeserver (free) or self-host with [Conduit](https://conduit.rs) (lightweight)
-
-### **Runner-Up: Fluxer**
-**Why:**
-- ✅ **Most Discord-like** — Nearly feature parity with Discord
-- ✅ **Self-hostable** — Full control over data
-- ✅ **Open source** — AGPLv3, transparent development
-- ✅ **Bot API** — Similar to Discord's, easier migration
-- ⚠️ **Smaller ecosystem** — Fewer third-party integrations than Matrix
-- ⚠️ **Public beta** — Expect some rough edges
-
-**Best for:** Communities wanting Discord features without learning Matrix's complexity
-
-### **Alternative: Zulip**
-**Why:**
-- ✅ **Different approach** — Topic-based threading (organized chaos)
-- ✅ **Scales well** — Handles 100+ easily
-- ✅ **Strong search** — Never lose conversations in noise
-- ❌ **No federation** — Each server isolated (dealbreaker for multi-community)
-- ❌ **Different paradigm** — Requires topic selection for every message
-
-**Best for:** Single community willing to adapt to threading model
-
----
-
 ## ⚠️ Critical Warnings
 
 **Before choosing a platform, check these:**
