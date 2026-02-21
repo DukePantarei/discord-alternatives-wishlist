@@ -7,12 +7,12 @@
 
 ## What Is This?
 
-This repository is a **structured, community-maintained comparison** of Discord alternatives across **66 platforms** and **57 features**. It's designed to help you make an informed decision about where to move your community.
+This repository is a **structured, community-maintained comparison** of Discord alternatives across **66 platforms** and **58 features**. It's designed to help you make an informed decision about where to move your community.
 
 ## Current State
 
 - **66 platforms** tracked across **7 categories**
-- **57 features** organized into **8 logical groups**
+- **58 features** organized into **8 logical groups**
 - **Auto-generated comparison tables** from a single source of truth (`platforms.json`)
 
 ### Categories
@@ -55,17 +55,17 @@ Looking for the closest thing to Discord? Here are platforms ranked by how many 
 
 | Platform | Discord Similarity | Category | Key Differences |
 |----------|-------------------|----------|-----------------|
-| **Element** | 100% (16/16) | Matrix Client | Federated, E2EE by default, steeper learning curve. Needs moderation bots. |
 | **Commet** | 100% (16/16) | Matrix Client | Most Discord-like Matrix client, excellent mobile support. Needs moderation bots. |
+| **Element** | 100% (16/16) | Matrix Client | Federated, E2EE by default, steeper learning curve. Needs moderation bots. |
 | **SchildiChat** | 100% (16/16) | Matrix Client | Element fork with simplified UI. Needs moderation bots. |
-| **Telegram** | 88% (14/16) | Commercial | Huge scale, missing persistent voice & E2EE by default |
-| **Rocket.Chat** | 88% (14/16) | Self-Hosted | Enterprise-grade, missing persistent voice channels |
 | **Mattermost** | 88% (14/16) | Self-Hosted | DevOps favorite, E2EE beta, missing persistent voice |
-| **Slack** | 88% (14/16) | Business | Workplace standard, no persistent voice, expensive at scale |
 | **Microsoft Teams** | 88% (14/16) | Business | Office integration, federated, no persistent voice |
+| **Rocket.Chat** | 88% (14/16) | Self-Hosted | Enterprise-grade, missing persistent voice channels |
+| **Slack** | 88% (14/16) | Business | Workplace standard, no persistent voice, expensive at scale |
+| **Telegram** | 88% (14/16) | Commercial | Huge scale, missing persistent voice & E2EE by default |
 | **Discourse** | 75% (12/16) | Self-Hosted | Forum-style, no voice/video but excellent moderation |
+| **Echoed** | 69% (11/16) | Privacy-Focused | Missing moderation tools, some AI-assisted frontend code |
 | **Sharkord** | 69% (11/16) | Self-Hosted | Basic moderation only |
-| **Fluxer** | 62% (10/16) | Self-Hosted | Missing moderation tools & bots |
 
 **Scoring based on 16 features:** Voice/video chat, screen sharing, text channels, persistent voice, bots, roles, server organization, GIFs, file sharing, invite links, **+ AutoMod, audit logs, user timeout/mute, raid protection, message reporting**
 
