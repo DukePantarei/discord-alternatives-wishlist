@@ -5450,7 +5450,7 @@
       "architecture": "Protocol specification",
       "features": {
         "open_source": "yes",
-        "self_hostable": "n/a",
+        "self_hostable": "no",
         "federated": "yes",
         "e2e_encryption": "unknown",
         "no_ads": "unknown",
@@ -5504,7 +5504,7 @@
         "tournament_brackets": "no",
         "rich_calendar_tools": "no",
         "community_discovery": "unknown",
-        "hardware_required_for_use": "n/a",
+        "hardware_required_for_use": "no",
         "windows_app": "no",
         "macos_app": "no",
         "linux_app": "no",
