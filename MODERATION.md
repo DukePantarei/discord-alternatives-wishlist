@@ -79,9 +79,12 @@ Any centralized, commercial platform (Discord, Slack, Teams, etc.) will eventual
 
 **Why this is problematic:**
 - Platform that leaked 70,000 IDs now demanding more IDs
-- Third-party vendors have security issues (Persona frontend exposed)
-- Peter Thiel (Palantir founder) investment connections
+- Third-party vendors have security issues (Persona frontend exposed, tracks extensive metrics)
+- Discord tested Persona, switched to k-ID (after backlash), could switch vendors again
+- Peter Thiel (Palantir founder) investment connections to Persona
 - Constant surveillance via "age inference model"
+- **Business motivations**: Advertiser-friendly data collection, in-app microtransactions, potential IPO
+- Vendors like Persona track metrics far beyond age verification — valuable for ad targeting
 
 **See [BACKGROUND.md](BACKGROUND.md) for full story**
 
