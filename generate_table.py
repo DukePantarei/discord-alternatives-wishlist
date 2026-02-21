@@ -163,12 +163,16 @@ def build_category_table_grouped(platforms: list, features: list) -> list:
     This avoids horizontal scrolling issues with one massive table.
     Each table is wrapped in a collapsible <details> section.
     Feature notes relevant to each group appear immediately after the table.
+    Platform descriptions and architecture appear in the first table (Privacy & Licensing).
     Returns a list of lines.
     """
     lines = []
     
     # Build feature lookup by key for getting labels
     feature_lookup = {f["key"]: f["label"] for f in features}
+    
+    # Track if this is the first group (for platform details)
+    is_first_group = True
     
     # Create one table per feature group
     for group_name, feature_keys in FEATURE_GROUPS.items():
@@ -201,7 +205,14 @@ def build_category_table_grouped(platforms: list, features: list) -> list:
         
         lines.append("")
         
-        # Add feature notes relevant to THIS group only
+        # Add platform descriptions/architecture in the first table only
+        if is_first_group:
+            platform_details = build_platform_details_inline(platforms)
+            if platform_details:
+                lines += platform_details
+            is_first_group = False
+        
+        # Add feature notes relevant to THIS group only (now collapsible)
         group_notes = build_notes_for_feature_group(platforms, feature_keys)
         if group_notes:
             lines += group_notes
@@ -211,12 +222,39 @@ def build_category_table_grouped(platforms: list, features: list) -> list:
     
     return lines
 
+def build_platform_details_inline(platforms: list) -> list:
+    """Build platform descriptions and architecture as collapsible section.
+    These appear in the first feature group table (Privacy & Licensing).
+    """
+    lines = []
+    
+    lines.append("<details>")
+    lines.append("<summary><strong>ℹ️ Platform Descriptions</strong></summary>")
+    lines.append("")
+    
+    for p in platforms:
+        desc = p.get("description", "")
+        arch = p.get("architecture", "")
+        
+        lines.append(f"**{p['name']}:**")
+        if desc:
+            lines.append(f"- *Description:* {desc}")
+        if arch:
+            lines.append(f"- *Architecture:* {arch}")
+        lines.append("")
+    
+    lines.append("</details>")
+    lines.append("")
+    
+    return lines
+
 def build_notes_for_feature_group(platforms: list, feature_keys: list) -> list:
     """Build notes for features in a specific feature group.
     Only includes notes for features that are in this group.
+    Now wrapped in a collapsible section.
     """
     lines = []
-    has_notes = False
+    note_content = []
     
     for p in platforms:
         feature_notes = p.get("feature_notes", {})
@@ -225,48 +263,23 @@ def build_notes_for_feature_group(platforms: list, feature_keys: list) -> list:
         relevant_notes = {fkey: note for fkey, note in feature_notes.items() if fkey in feature_keys}
         
         if relevant_notes:
-            if not has_notes:
-                lines.append("**† Feature Notes:**")
-                lines.append("")
-                has_notes = True
-            
-            lines.append(f"**{p['name']}:**")
+            note_content.append(f"**{p['name']}:**")
             for fkey, note_text in relevant_notes.items():
                 label = humanize(fkey)
-                lines.append(f"- *{label}:* {note_text}")
-            lines.append("")
+                note_content.append(f"- *{label}:* {note_text}")
+            note_content.append("")
+    
+    # If we have notes, wrap them in collapsible section
+    if note_content:
+        lines.append("<details>")
+        lines.append("<summary><strong>† Feature Notes</strong></summary>")
+        lines.append("")
+        lines += note_content
+        lines.append("</details>")
+        lines.append("")
     
     return lines
 
-def build_platform_notes(platforms: list) -> list:
-    """Build general platform notes (description and architecture).
-    These appear at the end of each category section.
-    """
-    lines = []
-    header_printed = False
-
-    for p in platforms:
-        desc  = p.get("description", "")
-        arch  = p.get("architecture", "")
-
-        # Every platform gets a notes entry (for description + architecture)
-        if not header_printed:
-            lines.append("**Platform Details**")
-            lines.append("")
-            header_printed = True
-
-        lines.append("<details>")
-        lines.append(f"<summary>{p['name']}</summary>")
-        lines.append("")
-
-        if desc:
-            lines.append(f"- *Description:* {desc}")
-        if arch:
-            lines.append(f"- *Architecture:* {arch}")
-        lines.append("</details>")
-        lines.append("")
-
-    return lines
 
 def build_toc(categories: list, grouped: dict) -> list:
     """Build a table of contents linking to each category section."""
@@ -339,14 +352,10 @@ def main():
             lines.append(desc)
             lines.append("")
 
-        # The table with GROUPED HEADERS (each group now has its own feature notes)
+        # The table with GROUPED HEADERS
+        # (platform descriptions appear in first table, feature notes appear under each table)
         lines += build_category_table_grouped(cat_platforms, features)
         lines.append("")
-
-        # General platform notes (description and architecture) for this category
-        platform_notes = build_platform_notes(cat_platforms)
-        if platform_notes:
-            lines += platform_notes
         
         # Add back to top link for easier navigation
         lines += [
