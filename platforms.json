@@ -1336,11 +1336,11 @@
         "ai_features_or_training": "no",
         "ai_generated_codebase": "partial",
         "hardware_required_for_use": "no",
-        "windows_app": "no",
-        "macos_app": "no",
-        "linux_app": "no",
-        "android_app": "partial",
-        "ios_app": "partial"
+        "windows_app": "yes",
+        "macos_app": "yes",
+        "linux_app": "yes",
+        "android_app": "planned",
+        "ios_app": "planned"
       },
       "feature_notes": {
         "e2e_encryption": "Roadmap 2026: Opt-in 'secret chats' (ephemeral, E2EE sessions). No plans for full-platform E2EE. LiveKit supports E2EE for calls but not yet implemented.",
@@ -1353,7 +1353,9 @@
         "bots_automation": "Roadmap 2026: Slash commands, modals, components, interactions — Discord feature parity planned",
         "event_scheduling": "Roadmap 2026: Scheduled events planned",
         "ai_features_or_training": "No AI features currently",
-        "ai_generated_codebase": "Developer uses LLMs as a 'rubber duck' debugging tool but writes all code personally. See: https://blog.fluxer.app/how-i-built-fluxer-a-discord-like-chat-app/"
+        "ai_generated_codebase": "Developer uses LLMs as a 'rubber duck' debugging tool but writes all code personally. See: https://blog.fluxer.app/how-i-built-fluxer-a-discord-like-chat-app/",
+        "android_app": "Native mobile apps in active development. Mobile web (PWA) works in browser with home screen install, push notifications.",
+        "ios_app": "Native mobile apps in active development. Mobile web (PWA) works in browser with home screen install, push notifications."
       }
     },
     {
