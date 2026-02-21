@@ -131,6 +131,8 @@ Based on 16 core features (including moderation):
 - **UK Online Safety Act** requires platforms to implement age verification
 - **EU DSA, Australia, US states** — similar laws spreading
 - **Any centralized platform** will face same pressure
+- **Vendor concerns:** Discord tested Persona (security issues, tracks extensive metrics for advertisers), switched to k-ID, could switch again
+- **Business model shift:** Discord increasingly advertiser-friendly, in-app game microtransactions, potential IPO
 - **Only solution:** Decentralization and self-hosting
 
 **→ Read full story: [BACKGROUND.md](BACKGROUND.md)**  
