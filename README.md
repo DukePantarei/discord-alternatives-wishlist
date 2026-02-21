@@ -8,7 +8,7 @@
 ## 📖 Navigation
 
 - **[BACKGROUND.md](BACKGROUND.md)** — Full Discord exodus story, why this matters
-- **[COMPARISON.md](COMPARISON.md)** — Feature comparison table (67 platforms, 61 features)
+- **[COMPARISON.md](COMPARISON.md)** — Feature comparison table (68 platforms, 61 features)
 - **[FEATURES.md](FEATURES.md)** — What features mean and how to prioritize
 - **[SECURITY.md](SECURITY.md)** — ⚠️ Vibe-coded platforms, active security incidents
 - **[MODERATION.md](MODERATION.md)** — Privacy-respecting vs invasive moderation
@@ -63,14 +63,14 @@
 
 This repository is a **structured, community-maintained comparison** of Discord alternatives:
 
-- **67 platforms** tracked across **8 categories**
+- **68 platforms** tracked across **8 categories**
 - **61 features** organized into **8 logical groups**
 - **Auto-generated comparison tables** from single source of truth (`platforms.json`)
 
 ### Categories
 
 **Matrix Clients** (5) — Element, Cinny, Commet, FluffyChat, SchildiChat  
-**Privacy-Focused Centralized** (9) — Stoat, Valour, Nerimity, Kloak, Echoed, Voltage, Apoka, etc.  
+**Privacy-Focused Centralized** (10) — Stoat, Valour, Nerimity, Kloak, Echoed, Voltage, Apoka, Session, etc.  
 **Self-Hosted Platforms** (18) — Spacebar, Fluxer, Zulip, Rocket.Chat, Discourse, Mattermost, etc.  
 **Commercial Alternatives** (6) — Discord, Telegram, GameVox, Steam Chat, Osmium, Root  
 **Legacy & Niche** (14) — TeamSpeak, Mumble, Signal, Ventrilo, IRC, XMPP, Carrion (Adult RP), etc.  
@@ -242,6 +242,12 @@ We welcome contributions! Here's how to help:
 - [In Search of a Discord Replacement by James Liu](https://no-bull.sh/blog/2026/02/16/in-search-of-a-discord-replacement/)
 - [Discord Alternatives, Ranked by Michael Taggart](https://taggart-tech.com/discord-alternatives/)
 - [Original r/matrixdotorg discussion](https://www.reddit.com/r/matrixdotorg/comments/1r50sqi/)
+
+### Platform Directories
+- **[discordless.com](https://discordless.com/)** — Curated alternatives with privacy focus, decentralization emphasis, and detailed pros/cons
+- [AlternativeTo: Discord Alternatives](https://alternativeto.net/software/discord-app/) — 100+ alternatives with user ratings and comments
+- [Discord Alternatives by Hemeka](https://github.com/Hemeka/Discord-Alternatives)
+- [Self-hosted alternatives by Vigno04](https://github.com/Vigno04/discord-selfhosted-alternatives)
 
 ### Platform Documentation
 - [Matrix.org](https://matrix.org) — Federated protocol
