@@ -47,6 +47,7 @@ FEATURE_GROUPS = {
         "self_hosting_license",
         "freemium_limitations",
         "enterprise_tier",
+        "hardware_required_for_use",
     ],
     "Platform Support": [
         "web_app",
