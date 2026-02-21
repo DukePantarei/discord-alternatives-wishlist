@@ -21,15 +21,56 @@
 
 | Goal | Try | Why |
 |------|-----|-----|
-| **Easiest Discord transition** | Stoat or Fluxer | Most Discord-like UI, open source |
-| **True decentralization** | Matrix (Commet/Element) | Federated — no single company controls it |
-| **Best for large communities** | Zulip or Discourse | Topic-based threading, strong moderation |
-| **Maximum privacy** | Matrix or SimpleX | E2EE by default, federated/decentralized |
-| **Discord bot compatibility** | Spacebar | Discord API compatible, bots work as-is |
-| **Gaming communities** | Steam Chat or TeamSpeak | Low-latency voice, huge user base (Steam) |
-| **Self-host without hassle** | Zulip or Rocket.Chat | Docker support, good documentation |
+| **Easiest Discord transition** | Fluxer or Matrix (Commet) | Fluxer: Discord-like, self-hostable. Commet: Discord UI on proven Matrix protocol |
+| **True decentralization** | Matrix (Element/Commet/Cinny) | Federated — no single company controls it, proven at scale |
+| **Best for small communities (<100)** | Fluxer, Spacebar, or Matrix | Discord-like features, self-hostable, privacy-focused |
+| **Best for large communities (100+)** | Matrix, Zulip, or Discourse | Proven at scale, topic-based threading, strong moderation |
+| **Maximum privacy** | Matrix or RetroShare | Matrix: E2EE + federated. RetroShare: P2P + anonymous |
+| **Discord bot compatibility** | Spacebar | Discord API compatible, existing bots work as-is |
+| **Gaming communities** | Matrix (Element Call) or TeamSpeak | Matrix: Modern + E2EE. TeamSpeak: Legacy but reliable |
+| **Self-host without hassle** | Zulip, Rocket.Chat, or Conduit | Good docs, Docker support. Conduit: lightweight Matrix server |
+
+**⚠️ Avoid Stoat for now:** mvh's testing found voice channels non-functional, breaks regularly (alpha quality). Revisit in ~1 year.
 
 **→ See [COMPARISON.md](COMPARISON.md) for full feature comparison**
+
+---
+
+## 💡 For Your Community (~100 People)
+
+Based on hands-on testing and real-world usage:
+
+### **Best Choice: Matrix with Commet client**
+**Why:**
+- ✅ **Proven at scale** — German military, French government, ICC use it
+- ✅ **Discord-like UI** — Commet feels familiar to Discord users
+- ✅ **Actually works** — Voice/video functional (unlike Stoat)
+- ✅ **Federated** — No single company controls it, can switch homeservers
+- ✅ **E2EE by default** — Privacy built-in
+- ⚠️ **Complexity** — Permission management requires Draupnir bot (essential)
+
+**Setup:** Use [matrix.org](https://matrix.org) homeserver (free) or self-host with [Conduit](https://conduit.rs) (lightweight)
+
+### **Runner-Up: Fluxer**
+**Why:**
+- ✅ **Most Discord-like** — Nearly feature parity with Discord
+- ✅ **Self-hostable** — Full control over data
+- ✅ **Open source** — AGPLv3, transparent development
+- ✅ **Bot API** — Similar to Discord's, easier migration
+- ⚠️ **Smaller ecosystem** — Fewer third-party integrations than Matrix
+- ⚠️ **Public beta** — Expect some rough edges
+
+**Best for:** Communities wanting Discord features without learning Matrix's complexity
+
+### **Alternative: Zulip**
+**Why:**
+- ✅ **Different approach** — Topic-based threading (organized chaos)
+- ✅ **Scales well** — Handles 100+ easily
+- ✅ **Strong search** — Never lose conversations in noise
+- ❌ **No federation** — Each server isolated (dealbreaker for multi-community)
+- ❌ **Different paradigm** — Requires topic selection for every message
+
+**Best for:** Single community willing to adapt to threading model
 
 ---
 
