@@ -162,6 +162,7 @@ def build_category_table_grouped(platforms: list, features: list) -> list:
     Build SEPARATE tables for each feature group.
     This avoids horizontal scrolling issues with one massive table.
     Each table is wrapped in a collapsible <details> section.
+    Feature notes relevant to each group appear immediately after the table.
     Returns a list of lines.
     """
     lines = []
@@ -199,16 +200,47 @@ def build_category_table_grouped(platforms: list, features: list) -> list:
             lines.append("| " + " | ".join(row) + " |")
         
         lines.append("")
+        
+        # Add feature notes relevant to THIS group only
+        group_notes = build_notes_for_feature_group(platforms, feature_keys)
+        if group_notes:
+            lines += group_notes
+        
         lines.append("</details>")
         lines.append("")  # Blank line between tables
     
     return lines
 
-def build_notes_for_category(platforms: list) -> list:
-    """Build the notes block for a single category's platforms.
-    Includes Description and Architecture for every platform,
-    plus any feature_notes entries marked with †.
-    Uses collapsible <details> sections for clean presentation.
+def build_notes_for_feature_group(platforms: list, feature_keys: list) -> list:
+    """Build notes for features in a specific feature group.
+    Only includes notes for features that are in this group.
+    """
+    lines = []
+    has_notes = False
+    
+    for p in platforms:
+        feature_notes = p.get("feature_notes", {})
+        
+        # Filter to only notes relevant to this feature group
+        relevant_notes = {fkey: note for fkey, note in feature_notes.items() if fkey in feature_keys}
+        
+        if relevant_notes:
+            if not has_notes:
+                lines.append("**† Feature Notes:**")
+                lines.append("")
+                has_notes = True
+            
+            lines.append(f"**{p['name']}:**")
+            for fkey, note_text in relevant_notes.items():
+                label = humanize(fkey)
+                lines.append(f"- *{label}:* {note_text}")
+            lines.append("")
+    
+    return lines
+
+def build_platform_notes(platforms: list) -> list:
+    """Build general platform notes (description and architecture).
+    These appear at the end of each category section.
     """
     lines = []
     header_printed = False
@@ -216,11 +248,10 @@ def build_notes_for_category(platforms: list) -> list:
     for p in platforms:
         desc  = p.get("description", "")
         arch  = p.get("architecture", "")
-        notes = p.get("feature_notes", {})
 
         # Every platform gets a notes entry (for description + architecture)
         if not header_printed:
-            lines.append("**† Notes**")
+            lines.append("**Platform Details**")
             lines.append("")
             header_printed = True
 
@@ -232,9 +263,6 @@ def build_notes_for_category(platforms: list) -> list:
             lines.append(f"- *Description:* {desc}")
         if arch:
             lines.append(f"- *Architecture:* {arch}")
-        for fkey, note_text in notes.items():
-            label = humanize(fkey)
-            lines.append(f"- *{label}:* {note_text}")
         lines.append("</details>")
         lines.append("")
 
@@ -311,14 +339,14 @@ def main():
             lines.append(desc)
             lines.append("")
 
-        # The table with GROUPED HEADERS (each group is now collapsible)
+        # The table with GROUPED HEADERS (each group now has its own feature notes)
         lines += build_category_table_grouped(cat_platforms, features)
         lines.append("")
 
-        # Notes for this category (collapsible sections)
-        notes = build_notes_for_category(cat_platforms)
-        if notes:
-            lines += notes
+        # General platform notes (description and architecture) for this category
+        platform_notes = build_platform_notes(cat_platforms)
+        if platform_notes:
+            lines += platform_notes
         
         # Add back to top link for easier navigation
         lines += [
