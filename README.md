@@ -7,19 +7,19 @@
 
 ## What Is This?
 
-This repository is a **structured, community-maintained comparison** of Discord alternatives across **62 platforms** and **57 features**. It's designed to help you make an informed decision about where to move your community.
+This repository is a **structured, community-maintained comparison** of Discord alternatives across **66 platforms** and **58 features**. It's designed to help you make an informed decision about where to move your community.
 
 ## Current State
 
-- **62 platforms** tracked across **7 categories**
-- **57 features** organized into **8 logical groups**
+- **66 platforms** tracked across **7 categories**
+- **58 features** organized into **8 logical groups**
 - **Auto-generated comparison tables** from a single source of truth (`platforms.json`)
 
 ### Categories
 
 - **Matrix Clients** (5) — Decentralized, federated, open protocol (Element, Cinny, Commet, FluffyChat, SchildiChat)
-- **Privacy-Focused Centralized** (7) — Open source but centrally hosted (Stoat, Valour, Nerimity, Kloak, Blite Chat, Echoed, Paracord)
-- **Self-Hosted Platforms** (18) — Run your own instance (Spacebar, Fluxer, Zulip, Rocket.Chat, Discourse, Mattermost, Sharkord, Loqa, DCTS, Mezon, Nextcloud Talk, Snikket, Databag, Pulse, Roomy, Colanode, Raven)
+- **Privacy-Focused Centralized** (9) — Open source but centrally hosted (Stoat, Valour, Nerimity, Kloak, Blite Chat, Echoed, Paracord, Voltage, Critterchat)
+- **Self-Hosted Platforms** (20) — Run your own instance (Spacebar, Fluxer, Zulip, Rocket.Chat, Discourse, Mattermost, Sharkord, Loqa, DCTS, Mezon, Nextcloud Talk, Snikket, Databag, Pulse, Roomy, Colanode, Raven, Polyproto, Carrion, and more)
 - **Commercial Alternatives** (6) — Polished products with varying privacy tradeoffs (Discord, Root, Telegram, GameVox, Steam Chat, Osmium)
 - **Legacy & Niche** (12) — Historical context and specific use cases (TeamSpeak, Mumble, Signal, Ventrilo, Skype, SimpleX Chat, Quiet, Campfire, Oldcord, Jami, Gajim, Swift IM, Movim)
 - **Business Productivity** (6) — Team collaboration tools (Slack, Microsoft Teams, Amazon Chime, Pumble, Chanty, Virola)
@@ -55,17 +55,17 @@ Looking for the closest thing to Discord? Here are platforms ranked by how many 
 
 | Platform | Discord Similarity | Category | Key Differences |
 |----------|-------------------|----------|-----------------|
-| **Element** | 100% (16/16) | Matrix Client | Federated, E2EE by default, steeper learning curve. Needs moderation bots. |
 | **Commet** | 100% (16/16) | Matrix Client | Most Discord-like Matrix client, excellent mobile support. Needs moderation bots. |
+| **Element** | 100% (16/16) | Matrix Client | Federated, E2EE by default, steeper learning curve. Needs moderation bots. |
 | **SchildiChat** | 100% (16/16) | Matrix Client | Element fork with simplified UI. Needs moderation bots. |
-| **Telegram** | 88% (14/16) | Commercial | Huge scale, missing persistent voice & E2EE by default |
-| **Rocket.Chat** | 88% (14/16) | Self-Hosted | Enterprise-grade, missing persistent voice channels |
 | **Mattermost** | 88% (14/16) | Self-Hosted | DevOps favorite, E2EE beta, missing persistent voice |
-| **Slack** | 88% (14/16) | Business | Workplace standard, no persistent voice, expensive at scale |
 | **Microsoft Teams** | 88% (14/16) | Business | Office integration, federated, no persistent voice |
+| **Rocket.Chat** | 88% (14/16) | Self-Hosted | Enterprise-grade, missing persistent voice channels |
+| **Slack** | 88% (14/16) | Business | Workplace standard, no persistent voice, expensive at scale |
+| **Telegram** | 88% (14/16) | Commercial | Huge scale, missing persistent voice & E2EE by default |
 | **Discourse** | 75% (12/16) | Self-Hosted | Forum-style, no voice/video but excellent moderation |
+| **Echoed** | 69% (11/16) | Privacy-Focused | Missing moderation tools, some AI-assisted frontend code |
 | **Sharkord** | 69% (11/16) | Self-Hosted | Basic moderation only |
-| **Fluxer** | 62% (10/16) | Self-Hosted | Missing moderation tools & bots |
 
 **Scoring based on 16 features:** Voice/video chat, screen sharing, text channels, persistent voice, bots, roles, server organization, GIFs, file sharing, invite links, **+ AutoMod, audit logs, user timeout/mute, raid protection, message reporting**
 
@@ -159,7 +159,7 @@ These platforms offer strong moderation WITHOUT invasive identity verification:
 - Message reporting dashboard
 - **Note**: Current Discord is fine; concern is planned 2025+ verification requirements
 
-### Basic Moderation
+### ⚙️ Basic Moderation
 
 Most alternatives offer basic moderation tools:
 - Kick/ban users
@@ -170,7 +170,7 @@ Most alternatives offer basic moderation tools:
 **Sufficient for**: Small to medium communities (<500 active members)  
 **May struggle with**: Large public communities with active raids/spam
 
-### Check the Full Comparison
+### 📊 Check the Full Comparison
 
 See the [Moderation & Safety table](COMPARISON.md) for detailed feature-by-feature comparison including:
 - AutoMod capabilities
@@ -226,9 +226,24 @@ See the [Moderation & Safety table](COMPARISON.md) for detailed feature-by-featu
 
 ### Platforms to Scrutinize
 
-**Known AI-generated (proceed with caution):**
-- **Paracord** - DO NOT USE (critical vulnerabilities)
+**Confirmed AI-generated (proceed with extreme caution):**
+- **Paracord** - DO NOT USE (20+ critical vulnerabilities documented)
 - **Blite Chat** - Explicitly AI-generated, security unknown
+- **Voltage/VoltChat** - Very new (Feb 2026), strong vibe-coding indicators, untested
+- **Discourse** - Community assessment: NOT vibe-safe (has AI plugin, marked "Bad" security)
+- **Virola** - Community assessment: NOT vibe-safe (Google Sheet Feb 2026)
+- **Osmium** - Community assessment: NOT vibe-safe (Google Sheet Feb 2026)
+- **Rocket.Chat** - Community assessment: NOT vibe-safe (advertises AI features heavily)
+- **Root** - Community assessment: NOT vibe-safe + **SUSPICIOUS** (NFT-VC backed, no revenue model)
+
+**Responsible AI use (transparent, reviewed, tested):**
+- **Stoat** - Previously had AI commits, removed after community backlash. Anti-AI stance since.
+- **Fluxer** - Developer uses AI as "rubber duck" tool but writes all code personally
+- **Echoed** - Backend from scratch, frontend has "bits and pieces" of AI assistance
+- **Oldcord** - Explicitly bans AI-generated code and contributions
+- **Spacebar** - Explicitly bans AI code (GPLv3 incompatible policy)
+- **Zulip** - Permits AI assistance with STRICT oversight requirements, no unsupervised AI commits
+- **Freenet** - Transparent about AI-assisted code, extensively tested and reviewed
 
 **Suspicious indicators (may be AI-generated):**
 - Single large commit (developed privately, dumped publicly)
@@ -236,6 +251,29 @@ See the [Moderation & Safety table](COMPARISON.md) for detailed feature-by-featu
 - Minimal documentation
 - No development history
 - "Privacy-focused" claims without security audit
+
+### ⚠️ ACTIVE SECURITY INCIDENTS
+
+**Matrix Ecosystem** - CRITICAL CRYPTOGRAPHIC VULNERABILITY (Feb 17, 2026)
+- ⚠️ Cryptographic issues discovered in Matrix's Rust library (vodozemac)
+- Affects: Element, Commet, FluffyChat (all Matrix clients using this library)
+- **Source**: [Soatok's cryptographic analysis](https://soatok.blog/2026/02/17/cryptographic-issues-in-matrixs-rust-library-vodozemac/)
+- **Recommendation**: Monitor for patches from Matrix.org before using for sensitive communications
+- This is a recent discovery; users should check for updates
+
+**Kloak** - CRITICAL BREACH (Feb 20, 2026)
+- ❌ **DO NOT USE** - Active security compromise
+- Attacker demonstrated ability to access full user list and private messages
+- Users received unsolicited mass messages from compromised account
+- Account creation disabled for hours following incident
+- Breach pattern similar to Paracord (suggests possible vibe-coded origin)
+- No security audit or incident response available
+- **Recommendation**: Delete account immediately if you have one
+
+**Paracord** - Known vulnerabilities (Feb 2025)
+- ❌ **DO NOT USE** - 20+ critical security flaws documented
+- Community security audit found: RCE, unauthenticated endpoints, plaintext secrets
+- Confirmed AI-generated with no security review
 
 ### What to Look For
 

@@ -274,62 +274,80 @@
     {
       "key": "self_hosting_license",
       "label": "Self-Hosting License",
-      "description": "Can you self-host without commercial license restrictions? Yes = freely self-hostable (open source), Partial = requires commercial license, No = not self-hostable"
+      "description": "Can you self-host without commercial license restrictions? Yes = freely self-hostable (open source), Partial = requires commercial license, No = not self-hostable",
+      "category": "Pricing"
     },
     {
       "key": "freemium_limitations",
       "label": "Freemium Limitations",
-      "description": "Does the free tier have significant limitations? No = no limitations, Partial = minor limitations (storage, features), Yes = significant limitations (message history caps, user limits)"
+      "description": "Does the free tier have significant limitations? No = no limitations, Partial = minor limitations (storage, features), Yes = significant limitations (message history caps, user limits)",
+      "category": "Pricing"
     },
     {
       "key": "enterprise_tier",
       "label": "Enterprise Tier Available",
-      "description": "Is there a separate enterprise offering with support/SLAs?"
+      "description": "Is there a separate enterprise offering with support/SLAs?",
+      "category": "Pricing"
+    },
+    {
+      "key": "hardware_required_for_use",
+      "label": "Hardware Required",
+      "category": "Pricing",
+      "description": "Must you provide your own hardware (server/VPS) to use this platform? yes = self-hosted only, no = cloud option available"
     },
     {
       "key": "automod",
       "label": "AutoMod / Content Filtering",
-      "description": "Automated content moderation - spam detection, keyword filters, mention limits, link filtering"
+      "description": "Automated content moderation - spam detection, keyword filters, mention limits, link filtering",
+      "category": "Moderation & Safety"
     },
     {
       "key": "audit_logs",
       "label": "Audit Logs",
-      "description": "Track all moderator actions, message edits, role changes, and administrative activities"
+      "description": "Track all moderator actions, message edits, role changes, and administrative activities",
+      "category": "Moderation & Safety"
     },
     {
       "key": "user_timeout_mute",
       "label": "User Timeout / Mute",
-      "description": "Temporarily or permanently silence users without banning them"
+      "description": "Temporarily or permanently silence users without banning them",
+      "category": "Moderation & Safety"
     },
     {
       "key": "raid_protection",
       "label": "Raid Protection",
-      "description": "Anti-raid and anti-spam measures - verification levels, join rate limits, member screening"
+      "description": "Anti-raid and anti-spam measures - verification levels, join rate limits, member screening",
+      "category": "Moderation & Safety"
     },
     {
       "key": "message_reporting",
       "label": "Message Reporting",
-      "description": "Users can report problematic messages/content for moderator review"
+      "description": "Users can report problematic messages/content for moderator review",
+      "category": "Moderation & Safety"
     },
     {
       "key": "age_verification",
       "label": "Age Verification",
-      "description": "Age verification system (may include invasive methods like ID upload or biometric scanning)"
+      "description": "Age verification system (may include invasive methods like ID upload or biometric scanning)",
+      "category": "Moderation & Safety"
     },
     {
       "key": "id_verification",
       "label": "ID / Biometric Verification",
-      "description": "Identity verification requiring government ID upload and/or face scanning - major privacy concern"
+      "description": "Identity verification requiring government ID upload and/or face scanning - major privacy concern",
+      "category": "Moderation & Safety"
     },
     {
       "key": "ai_features_or_training",
       "label": "AI Features / Training on User Data",
-      "description": "Platform has built-in AI features (chatbots, summarization) OR trains AI models on user conversations"
+      "description": "Platform has built-in AI features (chatbots, summarization) OR trains AI models on user conversations",
+      "category": "Privacy & Licensing"
     },
     {
       "key": "ai_generated_codebase",
       "label": "AI-Generated Codebase ('Vibe-Coded')",
-      "description": "Platform codebase was primarily generated using AI tools (ChatGPT, Claude, Copilot, etc.) rather than traditionally developed. May indicate security/quality concerns."
+      "description": "Platform codebase was primarily generated using AI tools (ChatGPT, Claude, Copilot, etc.) rather than traditionally developed. May indicate security/quality concerns.",
+      "category": "Privacy & Licensing"
     }
   ],
   "categories": [
@@ -349,7 +367,7 @@
       "category": "Commercial Alternatives",
       "description": "The dominant chat platform for gaming and online communities. Included as the baseline for comparison.",
       "architecture": "Centralized, closed source",
-      "notes": "Baseline platform. Implementing biometric age verification in the UK as of 2025.",
+      "notes": "SECURITY CONCERN (Google Sheet assessment): Community rates security history as 'Bad'. Baseline platform. Implementing biometric age verification in the UK as of 2025.",
       "features": {
         "open_source": "no",
         "self_hostable": "no",
@@ -407,7 +425,8 @@
         "age_verification": "planned",
         "id_verification": "planned",
         "ai_features_or_training": "yes",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "system_audio_sharing": "Windows and macOS only, not Linux",
@@ -439,7 +458,7 @@
       "category": "Matrix Clients",
       "description": "The reference Matrix client. Feature-complete but primarily enterprise and power-user focused.",
       "architecture": "Federated (Matrix protocol)",
-      "notes": "Reference client for Matrix. Not designed for average users — try Cinny or Commet if coming from Discord.",
+      "notes": "CRITICAL SECURITY VULNERABILITY (Feb 17, 2026): Cryptographic issues discovered in Matrix's Rust library (vodozemac). See https://soatok.blog/2026/02/17/cryptographic-issues-in-matrixs-rust-library-vodozemac/ SECURITY CONCERN (Google Sheet assessment): Community rates security history as 'Bad'. Reference client for Matrix. Not designed for average users — try Cinny or Commet if coming from Discord.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -497,7 +516,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "role_management": "Uses Matrix power levels rather than named roles — functional but less intuitive than Discord",
@@ -580,7 +600,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "voice_chat": "Not yet implemented — text-focused client",
@@ -596,7 +617,7 @@
       "category": "Matrix Clients",
       "description": "Feature-rich Matrix client focused on casual communities. Closest to Discord in terms of features.",
       "architecture": "Federated (Matrix protocol)",
-      "notes": "Written in Flutter. Supports GIF search (proxied for privacy), events, stickers, voice channels via MatrixRTC.",
+      "notes": "CRITICAL SECURITY VULNERABILITY (Feb 17, 2026): Cryptographic issues discovered in Matrix's Rust library (vodozemac). See https://soatok.blog/2026/02/17/cryptographic-issues-in-matrixs-rust-library-vodozemac/ SECURITY CONCERN (Google Sheet assessment): Community rates security history as 'Bad'. Written in Flutter. Supports GIF search (proxied for privacy), events, stickers, voice channels via MatrixRTC.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -654,7 +675,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "mobile_app": "Android available, iOS planned",
@@ -674,7 +696,7 @@
       "category": "Matrix Clients",
       "description": "Beginner-friendly Matrix client with a focus on mobile and simplicity.",
       "architecture": "Federated (Matrix protocol)",
-      "notes": "Best for non-technical users and mobile-first users. Less feature-rich than Element or Commet.",
+      "notes": "CRITICAL SECURITY VULNERABILITY (Feb 17, 2026): Cryptographic issues discovered in Matrix's Rust library (vodozemac). See https://soatok.blog/2026/02/17/cryptographic-issues-in-matrixs-rust-library-vodozemac/ SECURITY CONCERN (Google Sheet assessment): Community rates security history as 'Bad'. Best for non-technical users and mobile-first users. Less feature-rich than Element or Commet.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -732,7 +754,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "voice_chat": "1:1 calls supported, large voice channels limited",
@@ -804,7 +827,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "role_management": "Inherits Element's power levels system",
@@ -822,7 +846,7 @@
       "category": "Privacy-Focused Centralized",
       "description": "Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.",
       "architecture": "Centralized (self-hostable but not federated)",
-      "notes": "Best easy transition from Discord. Self-hosted instances cannot communicate with stoat.chat or each other.",
+      "notes": "UK JURISDICTION: Subject to Online Safety Act. Blocks users in age-verification jurisdictions from NSFW rather than implementing KYC. May eventually need KYC or ban NSFW. Best easy transition from Discord. Self-hosted instances cannot communicate with stoat.chat or each other.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -880,7 +904,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "partial",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs is planned but not yet released",
@@ -890,7 +915,8 @@
         "video_chat": "Video chat has never been supported",
         "mobile_app": "Beta Android and iOS apps available — iOS app especially rough, Android feels better. Sign-up verification slow (10+ hours reported) during user influx",
         "ai_features_or_training": "No AI features currently",
-        "ai_generated_codebase": "NOT vibe-coded. Started in 2021 before consumer AI coding tools existed. Maintainer explicitly reverted all AI-generated code commits in 2025 after community concerns. Has strong anti-AI stance."
+        "ai_generated_codebase": "Previously used AI-generated commits but removed them after community backlash. Developer explicitly states Stoat's foundation predates vibe-coding (public beta 2021, ChatGPT late 2022). Currently maintains strong anti-AI stance.",
+        "self_hostable": "Available but not prominently documented. See: https://github.com/stoatchat/self-hosted"
       }
     },
     {
@@ -903,7 +929,7 @@
       "notes": "Unique multi-window feature allows chatting across multiple channels simultaneously. Voice chat pending funding.",
       "features": {
         "open_source": "yes",
-        "self_hostable": "yes",
+        "self_hostable": "no",
         "federated": "no",
         "e2e_encryption": "no",
         "no_ads": "yes",
@@ -958,13 +984,15 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "desktop_app": "PWA only — no native desktop app",
         "mobile_app": "PWA only — no native mobile app",
         "voice_chat": "Planned but requires funding to implement",
-        "docker_install": "Partial — setup more complex than other platforms"
+        "docker_install": "Partial — setup more complex than other platforms",
+        "self_hostable": "Planned 'coming soon' but not available as of Feb 2026"
       }
     },
     {
@@ -1032,7 +1060,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "mobile_app": "Android app available, no iOS app"
@@ -1103,7 +1132,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "unknown"
+        "ai_generated_codebase": "unknown",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only — not end-to-end",
@@ -1175,7 +1205,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only",
@@ -1183,7 +1214,8 @@
         "video_chat": "Not currently supported",
         "discord_api_compatible": "Key differentiator — existing Discord bots work without modification",
         "screen_sharing": "Not currently supported",
-        "ai_features_or_training": "No AI features currently"
+        "ai_features_or_training": "No AI features currently",
+        "ai_generated_codebase": "Explicitly bans AI code: 'AI code due to not being GPLv3 compatible is not allowed in this repo'"
       }
     },
     {
@@ -1251,7 +1283,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "partial",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Roadmap 2026: Opt-in 'secret chats' (ephemeral, E2EE sessions). No plans for full-platform E2EE. LiveKit supports E2EE for calls but not yet implemented.",
@@ -1263,7 +1296,8 @@
         "community_discovery": "Roadmap 2026: In-app and public (no login) community discovery for published forums",
         "bots_automation": "Roadmap 2026: Slash commands, modals, components, interactions — Discord feature parity planned",
         "event_scheduling": "Roadmap 2026: Scheduled events planned",
-        "ai_features_or_training": "No AI features currently"
+        "ai_features_or_training": "No AI features currently",
+        "ai_generated_codebase": "Developer uses LLMs as a 'rubber duck' debugging tool but writes all code personally. See: https://blog.fluxer.app/how-i-built-fluxer-a-discord-like-chat-app/"
       }
     },
     {
@@ -1331,7 +1365,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs only, not group channels"
@@ -1402,7 +1437,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only"
@@ -1415,7 +1451,7 @@
       "category": "Commercial Alternatives",
       "description": "VC-funded commercial chat platform with built-in app ecosystem. Polished but closed source.",
       "architecture": "Centralized, closed source",
-      "notes": "Backed by $9M seed funding. Strong features but commercial trajectory carries same long-term risks as Discord.",
+      "notes": "⚠️ SUSPICIOUS PLATFORM - AVOID: No revenue model (no ads/premium/donations), NFT-VC backed, advertised features don't exist, anti-NSFW. Community: 'Stay away from Root.' Backed by $9M seed funding. Strong features but commercial trajectory carries same long-term risks as Discord.",
       "features": {
         "open_source": "no",
         "self_hostable": "no",
@@ -1473,14 +1509,16 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "yes",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "no_ads": "No ads currently but VC-funded — monetization model may change",
         "no_data_tracking": "Shares data with third parties per privacy policy",
         "migration_assistant": "Has 'Discord Themes' feature that imports/converts Discord servers",
         "video_chat": "Video bitrate is low quality — streams appear blurry according to user reports",
-        "screen_sharing": "Video quality in screenshare is poor — blurry at standard bitrate"
+        "screen_sharing": "Video quality in screenshare is poor — blurry at standard bitrate",
+        "ai_generated_codebase": "Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code."
       }
     },
     {
@@ -1548,7 +1586,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "raid_planner": "Best-in-class raid and event tools — a key differentiator",
@@ -1625,7 +1664,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "partial",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Secret Chats only — standard group chats and channels are NOT end-to-end encrypted",
@@ -1709,7 +1749,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "Voice is AES-encrypted between client and server but server can decrypt — not true E2EE",
@@ -1787,7 +1828,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "True E2EE for voice — one of the few platforms with this",
@@ -1862,7 +1904,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "text_channels": "Group chats exist but no server/channel hierarchy",
@@ -1879,7 +1922,7 @@
       "category": "Self-Hosted Platforms",
       "description": "Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.",
       "architecture": "Self-hosted or cloud-hosted",
-      "notes": "Top recommendation from large-community evaluators. Threading model (every message belongs to a topic) takes adjustment for Discord users. Jitsi integration provides voice/video/screenshare but uses a call-per-message model rather than persistent always-on voice channels.",
+      "notes": "Excellent security: Bug bounty, rapid response, encrypted in transit & at rest, HIPAA compliant (https://zulip.com/security/). Top recommendation from large-community evaluators. Threading model (every message belongs to a topic) takes adjustment for Discord users. Jitsi integration provides voice/video/screenshare but uses a call-per-message model rather than persistent always-on voice channels.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -1937,7 +1980,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "partial",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "voice_chat": "Via Jitsi integration only — not native. Uses call-per-message model, not persistent always-on channels",
@@ -1948,7 +1992,8 @@
         "large_community_moderation": "Good moderation tools for productivity communities, less suited for large open social communities",
         "message_ttl": "Configurable message retention policies per stream",
         "migration_assistant": "Some import tools available for Slack and HipChat, limited Discord support",
-        "ai_features_or_training": "No built-in AI features. Self-hosted option means user controls data."
+        "ai_features_or_training": "No built-in AI features. Self-hosted option means user controls data.",
+        "ai_generated_codebase": "Strict AI policy: permits AI assistance but STRICTLY disallows AI commits with zero oversight. See: https://github.com/zulip/zulip/blob/main/CONTRIBUTING.md"
       }
     },
     {
@@ -2016,7 +2061,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "partial",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "yes",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "free_to_use": "Free tier hard-capped at 50 users — must contact support to raise limit. Enterprise license required for larger deployments",
@@ -2028,7 +2074,8 @@
         "federated": "Matrix federation bridge available but not native",
         "message_ttl": "Configurable message retention per room",
         "freemium_limitations": "Cloud has message history limits, self-hosted is unlimited",
-        "ai_features_or_training": "AI chatbot integrations available via marketplace"
+        "ai_features_or_training": "AI chatbot integrations available via marketplace",
+        "ai_generated_codebase": "Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code."
       }
     },
     {
@@ -2096,7 +2143,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "unknown"
       },
       "feature_notes": {
         "self_hostable": "Base Station server could be hosted on Linux/FreeBSD/Windows but was proprietary",
@@ -2168,8 +2216,9 @@
         "message_reporting": "no",
         "age_verification": "no",
         "id_verification": "no",
-        "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "community_discovery": "Game server browser and clan/community discovery built in",
@@ -2243,7 +2292,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Private conversations support E2EE, but group chats do not",
@@ -2320,7 +2370,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "free_to_use": "Free tier: 50 members max, 3 voice channels, 8 text channels, 2GB storage",
@@ -2333,9 +2384,9 @@
       "name": "Kloak",
       "url": "https://kloak.app",
       "category": "Privacy-Focused Centralized",
-      "description": "Privacy-first Discord alternative with key-based authentication (no email/password). If key is lost, account is lost. Has servers, channels, roles, permissions, file sharing, custom emoji.",
+      "description": "SECURITY BREACH (Feb 20, 2026): Platform compromised. Attacker gained access to full user list and private messages. Privacy-first Discord alternative with key-based authentication (no email/password). If key is lost, account cannot be recovered.",
       "architecture": "Centralized, closed source",
-      "notes": "Launched early 2025. Uses cryptographic keys instead of email/password. Lost key = lost account (intentional to reduce stored user data). Goal is E2EE for DMs in future. Multiple users have recommended it.",
+      "notes": "CRITICAL SECURITY INCIDENT (Feb 20, 2026): Users report receiving unsolicited messages from 'awdwadwa' claiming platform compromise. Attacker demonstrated ability to: (1) Access full user list, (2) Send mass private messages to users not in friends list, (3) Read private messages. Shortly after, account creation disabled for hours. DO NOT USE until security audit completed. Previous info: Launched early 2025. Uses cryptographic keys instead of email/password. Lost key = lost account (intentional design for privacy). AI-generated codebase status unclear.",
       "features": {
         "open_source": "no",
         "self_hostable": "no",
@@ -2393,12 +2444,14 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "unknown",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs planned but not yet implemented",
         "desktop_app": "Web app can be installed as PWA — no native desktop app yet",
-        "open_source": "Closed source but built with privacy-first principles. Minimal data storage by design."
+        "open_source": "Closed source but built with privacy-first principles. Minimal data storage by design.",
+        "ai_generated_codebase": "Security breach pattern (Feb 2026) similar to Paracord suggests possible vibe-coded origin with inadequate security review. Platform lacks authentication on critical endpoints."
       }
     },
     {
@@ -2466,8 +2519,10 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
-      }
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
+      },
+      "feature_notes": {}
     },
     {
       "id": "simplex",
@@ -2534,7 +2589,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "federated": "Decentralized but not federated — no user identifiers, P2P via relay servers",
@@ -2608,7 +2664,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "free_to_use": "Free tier available but limited features — paid plans for businesses"
@@ -2679,7 +2736,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "desktop_app": "Windows app only available via Microsoft Store",
@@ -2751,7 +2809,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "federated": "Federation across Nextcloud instances for group chats and calls",
@@ -2829,7 +2888,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "text_channels": "Group chats exist but no Discord-style server/channel hierarchy",
@@ -2901,7 +2961,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "self_hostable": "P2P architecture — no servers to host. All communication via Tor network.",
@@ -2973,8 +3034,10 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
-      }
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
+      },
+      "feature_notes": {}
     },
     {
       "id": "campfire",
@@ -3041,8 +3104,10 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
-      }
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
+      },
+      "feature_notes": {}
     },
     {
       "id": "colanode",
@@ -3109,8 +3174,10 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
-      }
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
+      },
+      "feature_notes": {}
     },
     {
       "id": "raven",
@@ -3177,8 +3244,10 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
-      }
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
+      },
+      "feature_notes": {}
     },
     {
       "id": "pulse",
@@ -3245,7 +3314,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "biometric_age_verification": "'No government ID required' is a key selling point"
@@ -3316,7 +3386,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "yes"
+        "ai_generated_codebase": "yes",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "X3DH key agreement + symmetric ratchet for DMs. Sender Keys (Signal protocol) for group channels. AES-128-GCM for voice/video via mediasoup SFU. Server sees only ciphertext.",
@@ -3395,7 +3466,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "Optional 'sealed topics' provide E2EE. Default unsealed to allow server-side features (streaming, processing). Admin cannot view sealed topics.",
@@ -3470,7 +3542,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Variable - some encryption but not E2EE for all features",
@@ -3542,12 +3615,14 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "voice_chat": "Work in progress. WebRTC P2P (exposes IP, VPN recommended), standard WebRTC (browser), UDP (desktop). Minor bugs being fixed.",
         "video_chat": "Not yet supported. Focus on voice first.",
-        "discord_api_compatible": "2015-2018 Discord API compatibility. Client patcher for custom patches."
+        "discord_api_compatible": "2015-2018 Discord API compatibility. Client patcher for custom patches.",
+        "ai_generated_codebase": "Developer explicitly: 'we don't use AI to generate any of our code. we don't accept AI generated contributions'"
       }
     },
     {
@@ -3615,7 +3690,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "unknown"
       },
       "feature_notes": {
         "self_hostable": "P2P architecture - no traditional servers. Can self-host DHT proxy and name server. JAMS for organizations.",
@@ -3690,7 +3766,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "self_hostable": "XMPP client - requires XMPP server (Prosody, ejabberd, etc)",
@@ -3765,7 +3842,11 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "partial",
+        "hardware_required_for_use": "no"
+      },
+      "feature_notes": {
+        "ai_generated_codebase": "Backend coded from scratch. Frontend has 'bits and pieces' of AI assistance but not vibe-coded."
       }
     },
     {
@@ -3833,14 +3914,16 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "yes",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "free_to_use": "Currently free (insider preview program)",
         "list_task_channels": "Integrated Kanban board and issue tracking - can create tasks from messages",
         "threads_forums": "Discussion threads within chat rooms",
         "e2e_encryption": "Self-hosted with data on your servers, but not E2EE",
-        "self_hosting_license": "Currently free (insider preview), closed source, future licensing TBD"
+        "self_hosting_license": "Currently free (insider preview), closed source, future licensing TBD",
+        "ai_generated_codebase": "Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code."
       }
     },
     {
@@ -3908,11 +3991,13 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "yes",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "free_to_use": "No email required - sign up in 30 seconds",
-        "open_source": "Closed source commercial platform"
+        "open_source": "Closed source commercial platform",
+        "ai_generated_codebase": "Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code."
       }
     },
     {
@@ -3980,7 +4065,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "self_hostable": "XMPP client - requires XMPP server (Prosody, ejabberd, M-Link, etc)",
@@ -4056,7 +4142,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "self_hostable": "Web app that connects to XMPP servers - can self-host both Movim and server",
@@ -4135,7 +4222,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "unknown"
       },
       "feature_notes": {
         "self_hostable": "Free cloud-hosted servers provided by RaidCall — no self-hosting option",
@@ -4210,7 +4298,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "free_to_use": "Free tier available, paid tier for advanced features",
@@ -4282,7 +4371,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "community_discovery": "Looking-for-group (LFG) features and game integration",
@@ -4354,7 +4444,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "voice_chat": "Automatic teammate detection in supported games",
@@ -4426,7 +4517,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "open_source": "GPLv3. Reverse-engineered TeamSpeak 3 protocol for compatibility",
@@ -4440,7 +4532,7 @@
       "category": "Self-Hosted Platforms",
       "description": "Modern forum software for building communities. Ruby on Rails. Email-based notifications, threaded discussions, trust levels, badges.",
       "architecture": "Self-hosted, open source (GPL-2.0)",
-      "notes": "Created by Stack Overflow co-founder Jeff Atwood. Focuses on civilized discussion with trust levels, flagging, and moderation tools. Email integration for participation. Not real-time chat - async forum discussions. Docker deployment available. Used by Mozilla, Twitter, BoingBoing.",
+      "notes": "SECURITY CONCERN (Google Sheet assessment): Community rates security history as 'Bad'. Created by Stack Overflow co-founder Jeff Atwood. Focuses on civilized discussion with trust levels, flagging, and moderation tools. Email integration for participation. Not real-time chat - async forum discussions. Docker deployment available. Used by Mozilla, Twitter, BoingBoing.",
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -4498,7 +4590,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "yes",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "text_channels": "Categories and topics structure (forum-style, not real-time channels)",
@@ -4510,7 +4603,8 @@
         "automod": "Automatic post hiding based on flags, spam detection, new user restrictions",
         "user_timeout_mute": "User silencing and suspension features",
         "message_reporting": "Flag system - users can flag posts for moderator review",
-        "ai_features_or_training": "No built-in AI features. Self-hosted forum software."
+        "ai_features_or_training": "No built-in AI features. Self-hosted forum software.",
+        "ai_generated_codebase": "Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code."
       }
     },
     {
@@ -4578,7 +4672,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "partial",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE voice/video in beta. Messages encrypted in transit and at rest but not E2EE by default",
@@ -4655,7 +4750,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "no",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "free_to_use": "Free client, servers require licensing (rental or self-host with license). Free 8-slot server available.",
@@ -4731,7 +4827,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "yes",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "freemium_limitations": "Free: 90-day message history, 10 integrations, 1:1 huddles only. Paid: unlimited history, unlimited integrations, group huddles.",
@@ -4810,7 +4907,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "yes",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "federated": "Can communicate with external organizations via Teams Connect and Teams federation",
@@ -4890,7 +4988,8 @@
         "age_verification": "no",
         "id_verification": "no",
         "ai_features_or_training": "unknown",
-        "ai_generated_codebase": "no"
+        "ai_generated_codebase": "no",
+        "hardware_required_for_use": "no"
       },
       "feature_notes": {
         "free_to_use": "Basic (free) supports meetings up to 100 attendees for 30 days trial. Pro tier is pay-per-use.",
@@ -4968,7 +5067,8 @@
         "raid_planner": "no",
         "tournament_brackets": "no",
         "rich_calendar_tools": "no",
-        "community_discovery": "no"
+        "community_discovery": "no",
+        "hardware_required_for_use": "yes"
       },
       "feature_notes": {
         "open_source": "GitHub repository available but developed privately then dumped as single commit - no development history",
@@ -4977,6 +5077,293 @@
         "e2e_encryption": "No E2EE. JWT secrets stored in plaintext in config file.",
         "self_hostable": "UPnP auto-opens router ports by default, exposing server to internet without user awareness"
       }
+    },
+    {
+      "id": "voltage",
+      "name": "Voltage (VoltChat)",
+      "url": "https://voltagechat.app/",
+      "category": "Privacy-Focused Centralized",
+      "description": "Federated, open chat platform. Very new project with limited public information and strong indicators of AI-generated codebase.",
+      "architecture": "Federated (claimed), centralized instances",
+      "notes": "SECURITY WARNING: Extremely new project (10 commits, Feb 2026). Comprehensive backend with federation, OAuth, CDN in minimal commits suggests AI generation. No user base, no security audit, minimal documentation beyond README. Website returns 403 errors. Multiple related repos (Voltage, VoltApp, self-volt, Wire) created simultaneously by Enclicainteractive. Lacks development history typical of human-written projects. Approach with extreme caution.",
+      "features": {
+        "open_source": "yes",
+        "self_hostable": "yes",
+        "federated": "yes",
+        "e2e_encryption": "yes",
+        "no_ads": "yes",
+        "no_data_tracking": "unknown",
+        "gdpr_compliant": "unknown",
+        "biometric_age_verification": "no",
+        "message_ttl": "unknown",
+        "ai_features_or_training": "no",
+        "ai_generated_codebase": "yes",
+        "free_to_use": "yes",
+        "no_premium_tier": "yes",
+        "self_hosting_license": "yes",
+        "freemium_limitations": "unknown",
+        "enterprise_tier": "no",
+        "web_app": "unknown",
+        "desktop_app": "unknown",
+        "mobile_app": "unknown",
+        "docker_install": "partial",
+        "mobile_hosting": "no",
+        "voice_chat": "yes",
+        "video_chat": "yes",
+        "screen_sharing": "unknown",
+        "system_audio_sharing": "unknown",
+        "text_channels": "yes",
+        "file_sharing": "yes",
+        "gif_embed_support": "unknown",
+        "threads_forums": "yes",
+        "persistent_voice_channels": "yes",
+        "per_user_audio_output": "unknown",
+        "large_community_moderation": "unknown",
+        "automod": "unknown",
+        "audit_logs": "unknown",
+        "user_timeout_mute": "unknown",
+        "raid_protection": "unknown",
+        "message_reporting": "unknown",
+        "age_verification": "no",
+        "id_verification": "no",
+        "role_management": "yes",
+        "server_organization": "yes",
+        "admin_gui": "unknown",
+        "invite_links_guest_access": "yes",
+        "migration_assistant": "no",
+        "bridges": "no",
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "unknown",
+        "list_task_channels": "unknown",
+        "media_gallery_channels": "unknown",
+        "scheduled_announcements": "unknown",
+        "event_scheduling": "unknown",
+        "bots_automation": "unknown",
+        "webhooks": "unknown",
+        "raid_planner": "no",
+        "tournament_brackets": "no",
+        "rich_calendar_tools": "no",
+        "community_discovery": "yes",
+        "hardware_required_for_use": "yes"
+      },
+      "feature_notes": {
+        "open_source": "GitHub repos available but extremely new (Feb 2026)",
+        "federated": "Claims federation support ('Self-Volt') but unproven with no federated instances",
+        "e2e_encryption": "Listed in feature flags but implementation status unknown",
+        "ai_generated_codebase": "Strong indicators: 10 commits with full-featured backend, comprehensive docs, federation/OAuth/CDN all at once, no development history, multiple simultaneous repos. Typical vibe-coding pattern.",
+        "self_hostable": "Setup scripts provided but untested by community",
+        "community_discovery": "Listed in feature flags but no public instance to verify"
+      }
+    },
+    {
+      "id": "critterchat",
+      "name": "Critterchat",
+      "url": "https://critterchat.com",
+      "category": "Privacy-Focused Centralized",
+      "description": "Privacy-focused chat platform. Minimal public information available.",
+      "notes": "Found in Discord Replacers Google Sheet. Limited documentation and community presence. Security and vibe-coding status unclear.",
+      "architecture": "Unknown",
+      "features": {
+        "open_source": "unknown",
+        "self_hostable": "unknown",
+        "federated": "unknown",
+        "e2e_encryption": "unknown",
+        "no_ads": "unknown",
+        "no_data_tracking": "unknown",
+        "gdpr_compliant": "unknown",
+        "biometric_age_verification": "no",
+        "message_ttl": "unknown",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "unknown",
+        "free_to_use": "unknown",
+        "no_premium_tier": "unknown",
+        "self_hosting_license": "unknown",
+        "freemium_limitations": "unknown",
+        "enterprise_tier": "unknown",
+        "web_app": "unknown",
+        "desktop_app": "unknown",
+        "mobile_app": "unknown",
+        "docker_install": "unknown",
+        "mobile_hosting": "no",
+        "voice_chat": "unknown",
+        "video_chat": "unknown",
+        "screen_sharing": "unknown",
+        "system_audio_sharing": "unknown",
+        "text_channels": "unknown",
+        "file_sharing": "unknown",
+        "gif_embed_support": "unknown",
+        "threads_forums": "unknown",
+        "persistent_voice_channels": "unknown",
+        "per_user_audio_output": "unknown",
+        "large_community_moderation": "unknown",
+        "automod": "unknown",
+        "audit_logs": "unknown",
+        "user_timeout_mute": "unknown",
+        "raid_protection": "unknown",
+        "message_reporting": "unknown",
+        "age_verification": "no",
+        "id_verification": "no",
+        "role_management": "unknown",
+        "server_organization": "unknown",
+        "admin_gui": "unknown",
+        "invite_links_guest_access": "unknown",
+        "migration_assistant": "no",
+        "bridges": "unknown",
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "unknown",
+        "list_task_channels": "unknown",
+        "media_gallery_channels": "unknown",
+        "scheduled_announcements": "unknown",
+        "event_scheduling": "unknown",
+        "bots_automation": "unknown",
+        "webhooks": "unknown",
+        "raid_planner": "no",
+        "tournament_brackets": "no",
+        "rich_calendar_tools": "no",
+        "community_discovery": "unknown",
+        "hardware_required_for_use": "no"
+      },
+      "feature_notes": {}
+    },
+    {
+      "id": "polyproto",
+      "name": "Polyproto",
+      "url": "https://polyproto.io",
+      "category": "Self-Hosted Platforms",
+      "description": "Protocol for federated message authentication. Not a chat protocol itself, but a foundation for building federated chat systems.",
+      "notes": "Polyproto-chat is a chat protocol being built on top of Polyproto. Early development stage. Security and implementation status unclear.",
+      "architecture": "Unknown",
+      "features": {
+        "open_source": "unknown",
+        "self_hostable": "unknown",
+        "federated": "unknown",
+        "e2e_encryption": "unknown",
+        "no_ads": "unknown",
+        "no_data_tracking": "unknown",
+        "gdpr_compliant": "unknown",
+        "biometric_age_verification": "no",
+        "message_ttl": "unknown",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "unknown",
+        "free_to_use": "unknown",
+        "no_premium_tier": "unknown",
+        "self_hosting_license": "unknown",
+        "freemium_limitations": "unknown",
+        "enterprise_tier": "unknown",
+        "web_app": "unknown",
+        "desktop_app": "unknown",
+        "mobile_app": "unknown",
+        "docker_install": "unknown",
+        "mobile_hosting": "no",
+        "voice_chat": "unknown",
+        "video_chat": "unknown",
+        "screen_sharing": "unknown",
+        "system_audio_sharing": "unknown",
+        "text_channels": "unknown",
+        "file_sharing": "unknown",
+        "gif_embed_support": "unknown",
+        "threads_forums": "unknown",
+        "persistent_voice_channels": "unknown",
+        "per_user_audio_output": "unknown",
+        "large_community_moderation": "unknown",
+        "automod": "unknown",
+        "audit_logs": "unknown",
+        "user_timeout_mute": "unknown",
+        "raid_protection": "unknown",
+        "message_reporting": "unknown",
+        "age_verification": "no",
+        "id_verification": "no",
+        "role_management": "unknown",
+        "server_organization": "unknown",
+        "admin_gui": "unknown",
+        "invite_links_guest_access": "unknown",
+        "migration_assistant": "no",
+        "bridges": "unknown",
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "unknown",
+        "list_task_channels": "unknown",
+        "media_gallery_channels": "unknown",
+        "scheduled_announcements": "unknown",
+        "event_scheduling": "unknown",
+        "bots_automation": "unknown",
+        "webhooks": "unknown",
+        "raid_planner": "no",
+        "tournament_brackets": "no",
+        "rich_calendar_tools": "no",
+        "community_discovery": "unknown",
+        "hardware_required_for_use": "unknown"
+      },
+      "feature_notes": {}
+    },
+    {
+      "id": "carrion",
+      "name": "Carrion",
+      "url": "https://github.com/carrion-org",
+      "category": "Self-Hosted Platforms",
+      "description": "Self-hosted chat platform. Minimal public information.",
+      "notes": "Listed in Discord Replacers sheet with 'Good' security rating. Very limited community presence and documentation. Google Sheet rates as 'Inconclusive' for vibe-coding.",
+      "architecture": "Unknown",
+      "features": {
+        "open_source": "unknown",
+        "self_hostable": "unknown",
+        "federated": "unknown",
+        "e2e_encryption": "unknown",
+        "no_ads": "unknown",
+        "no_data_tracking": "unknown",
+        "gdpr_compliant": "unknown",
+        "biometric_age_verification": "no",
+        "message_ttl": "unknown",
+        "ai_features_or_training": "unknown",
+        "ai_generated_codebase": "unknown",
+        "free_to_use": "unknown",
+        "no_premium_tier": "unknown",
+        "self_hosting_license": "unknown",
+        "freemium_limitations": "unknown",
+        "enterprise_tier": "unknown",
+        "web_app": "unknown",
+        "desktop_app": "unknown",
+        "mobile_app": "unknown",
+        "docker_install": "unknown",
+        "mobile_hosting": "no",
+        "voice_chat": "unknown",
+        "video_chat": "unknown",
+        "screen_sharing": "unknown",
+        "system_audio_sharing": "unknown",
+        "text_channels": "unknown",
+        "file_sharing": "unknown",
+        "gif_embed_support": "unknown",
+        "threads_forums": "unknown",
+        "persistent_voice_channels": "unknown",
+        "per_user_audio_output": "unknown",
+        "large_community_moderation": "unknown",
+        "automod": "unknown",
+        "audit_logs": "unknown",
+        "user_timeout_mute": "unknown",
+        "raid_protection": "unknown",
+        "message_reporting": "unknown",
+        "age_verification": "no",
+        "id_verification": "no",
+        "role_management": "unknown",
+        "server_organization": "unknown",
+        "admin_gui": "unknown",
+        "invite_links_guest_access": "unknown",
+        "migration_assistant": "no",
+        "bridges": "unknown",
+        "discord_api_compatible": "no",
+        "docs_wiki_channels": "unknown",
+        "list_task_channels": "unknown",
+        "media_gallery_channels": "unknown",
+        "scheduled_announcements": "unknown",
+        "event_scheduling": "unknown",
+        "bots_automation": "unknown",
+        "webhooks": "unknown",
+        "raid_planner": "no",
+        "tournament_brackets": "no",
+        "rich_calendar_tools": "no",
+        "community_discovery": "unknown",
+        "hardware_required_for_use": "unknown"
+      },
+      "feature_notes": {}
     }
   ]
 }
