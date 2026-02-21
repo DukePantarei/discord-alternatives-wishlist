@@ -18,13 +18,12 @@
 ## Contents
 
 - [Matrix Clients](#matrix-clients) — 5 platforms
-- [Privacy-Focused Centralized](#privacy-focused-centralized) — 8 platforms
+- [Privacy-Focused Centralized](#privacy-focused-centralized) — 9 platforms
 - [Self-Hosted Platforms](#self-hosted-platforms) — 18 platforms
 - [Commercial Alternatives](#commercial-alternatives) — 6 platforms
-- [Legacy & Niche](#legacy--niche) — 13 platforms
+- [Legacy & Niche](#legacy--niche) — 14 platforms
 - [Discontinued](#discontinued) — 8 platforms
 - [Business Productivity](#business-productivity) — 6 platforms
-- [Niche & Specialized](#niche--specialized) — 1 platform
 - [Protocols & Frameworks](#protocols--frameworks) — 1 platform
 
 ---
@@ -59,11 +58,11 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 | **Platform** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Mobile Device Hosting** |
 | --- | --- | --- | --- | --- | --- |
-| [Element](https://element.io) | ✅ | ✅ | ✅ | ✅ | ❌ |
-| [Cinny](https://cinny.in) | ✅ | ✅ | ❌ † | ✅ | ❌ |
-| [Commet](https://commet.chat) | ✅ | ✅ | ⚠️ † | ✅ | ❌ |
-| [FluffyChat](https://fluffychat.im) | ✅ | ✅ | ✅ | ✅ | ❌ |
-| [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ✅ | ❌ |
+| [Element](https://element.io) | ✅ | ❓ | ❓ | ✅ | ❌ |
+| [Cinny](https://cinny.in) | ✅ | ❓ | ❓ † | ✅ | ❌ |
+| [Commet](https://commet.chat) | ✅ | ❓ | ❓ † | ✅ | ❌ |
+| [FluffyChat](https://fluffychat.im) | ✅ | ❓ | ❓ | ✅ | ❌ |
+| [SchildiChat](https://schildi.chat) | ✅ | ❓ | ❓ | ✅ | ❌ |
 
 ### Communication
 
@@ -121,7 +120,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 <details>
 <summary>Element</summary>
 
-- *Description:* The reference Matrix client. Feature-complete but primarily enterprise and power-user focused.
+- *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
 - *Architecture:* Federated (Matrix protocol)
 - *Role Management:* Uses Matrix power levels rather than named roles — functional but less intuitive than Discord
 - *Webhooks:* Possible via bridges but no native simple webhook URL
@@ -208,6 +207,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Echoed](https://echoed.chat) | ❌ | ❌ | ❌ | ⚠️ | ✅ | ✅ | ❓ | ❌ | ❌ | ❓ | ⚠️ † |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ † | ✅ † | ❌ | ❌ † | ✅ | ✅ | ❓ | ❌ | ❌ | ❌ | ✅ † |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ † | ✅ † | ✅ † | ✅ † | ✅ | ❓ | ❓ | ❌ | ❓ | ❌ | ✅ † |
+| [Apoka](https://www.apoka.app/) | ❌ | ❌ | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 ### Pricing
 
@@ -221,19 +221,21 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Echoed](https://echoed.chat) | ✅ | ❓ | ❌ | ❓ | ❓ | ❌ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ✅ | ❓ | ❌ | ✅ |
+| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
 
 ### Platform Support
 
 | **Platform** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Mobile Device Hosting** |
 | --- | --- | --- | --- | --- | --- |
-| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ❌ † | ✅ | ❌ |
-| [Valour](https://valour.gg) | ✅ | ⚠️ † | ⚠️ † | ⚠️ † | ❌ |
-| [Nerimity](https://nerimity.com) | ✅ | ✅ | ⚠️ † | ✅ | ❌ |
-| [Kloak](https://kloak.app) | ✅ | ⚠️ † | ❌ | ❌ | ❌ |
-| [Blite Chat](https://blite.chat) | ✅ | ✅ † | ❌ | ✅ † | ❌ |
-| [Echoed](https://echoed.chat) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ❌ | ❌ | ✅ | ❌ |
+| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ❓ | ❓ † | ✅ | ❌ |
+| [Valour](https://valour.gg) | ✅ | ❓ † | ❓ † | ⚠️ † | ❌ |
+| [Nerimity](https://nerimity.com) | ✅ | ❓ | ❓ † | ✅ | ❌ |
+| [Kloak](https://kloak.app) | ✅ | ❓ † | ❓ | ❌ | ❌ |
+| [Blite Chat](https://blite.chat) | ✅ | ❓ † | ❓ | ✅ † | ❌ |
+| [Echoed](https://echoed.chat) | ✅ | ❓ | ❓ | ❌ | ❌ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ❓ | ❓ | ✅ | ❌ |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ⚠️ | ❌ |
+| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 ### Communication
 
@@ -247,6 +249,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ † | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ | ❌ | ✅ | ❓ |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ |
+| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 ### Moderation & Safety
 
@@ -260,12 +263,13 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Echoed](https://echoed.chat) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
+| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 ### Server & Admin
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ † | ❌ |
 | [Valour](https://valour.gg) | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ |
 | [Nerimity](https://nerimity.com) | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ |
 | [Kloak](https://kloak.app) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
@@ -273,6 +277,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ | ❌ |
+| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 ### Channels & Content
 
@@ -286,6 +291,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Echoed](https://echoed.chat) | ❌ | ❌ | ❌ | ❌ | ✅ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 ### Community Tools
 
@@ -299,6 +305,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❌ | ❌ | ❌ | ✅ † |
+| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 
 **† Notes**
@@ -309,14 +316,15 @@ These platforms prioritize privacy and are open source, but run on a central ser
 - *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
 - *Architecture:* Centralized (self-hostable but not federated)
 - *E2E Encryption:* E2EE for DMs is planned but not yet released
-- *Federated:* Centralized — self-hosted instances are isolated, cannot talk to stoat.chat
+- *Federated:* Each Stoat server is isolated. Separate accounts needed per server. No portable identity.
 - *Screen Sharing:* Screen sharing has never been supported
-- *Voice Chat:* Voice chat was removed during a backend audio rewrite and is not currently available
+- *Voice Chat:* Voice channels currently non-functional due to infrastructure migration (Feb 2026)
 - *Video Chat:* Video chat has never been supported
 - *Mobile App:* Beta Android and iOS apps available — iOS app especially rough, Android feels better. Sign-up verification slow (10+ hours reported) during user influx
 - *Ai Features Or Training:* No AI features currently
 - *Ai Generated Codebase:* Previously used AI-generated commits but removed them after community backlash. Developer explicitly states Stoat's foundation predates vibe-coding (public beta 2021, ChatGPT late 2022). Currently maintains strong anti-AI stance.
 - *Self Hostable:* Available but not prominently documented. See: https://github.com/stoatchat/self-hosted
+- *Bridges:* Community bridges for Discord and Telegram only. NOT supported by Matterbridge.
 </details>
 
 <details>
@@ -399,6 +407,13 @@ These platforms prioritize privacy and are open source, but run on a central ser
 - *Community Discovery:* Listed in feature flags but no public instance to verify
 </details>
 
+<details>
+<summary>Apoka</summary>
+
+- *Description:* Closed-source centralized chat platform with privacy focus.
+- *Architecture:* Centralized
+</details>
+
 ---
 
 [↑ Back to top](#platform-comparison)
@@ -418,7 +433,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Fluxer](https://fluxer.app) | ✅ † | ❌ † | 🗓️ † | 🗓️ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ † | ⚠️ † |
 | [Loqa](https://loqa.chat) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
 | [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
-| [Zulip](https://zulip.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ † | ❌ † | ⚠️ † |
+| [Zulip](https://zulip.com) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ✅ † | ❌ † | ⚠️ † |
 | [Rocket.Chat](https://rocket.chat) | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ † | ⚠️ † | ✅ † |
 | [Mezon](https://mezon.ai) | ✅ | ✅ | ❌ | ❓ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
 | [Nextcloud Talk](https://nextcloud.com/talk) | ✅ | ✅ | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
@@ -459,24 +474,24 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 | **Platform** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Mobile Device Hosting** |
 | --- | --- | --- | --- | --- | --- |
-| [Sharkord](https://sharkord.com) | ✅ | ❌ | ❌ | ✅ | ❌ |
-| [Spacebar](https://spacebar.chat) | ✅ | ❌ | ❌ | ✅ | ❌ |
-| [Fluxer](https://fluxer.app) | ✅ | ❌ | ⚠️ † | ⚠️ | ❌ |
-| [Loqa](https://loqa.chat) | ✅ | ❌ | ❌ | ✅ | ❌ |
-| [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ✅ | ❌ | ✅ | ❌ |
-| [Zulip](https://zulip.com) | ✅ | ✅ | ✅ | ✅ | ❌ |
-| [Rocket.Chat](https://rocket.chat) | ✅ | ✅ | ✅ | ✅ | ❌ |
-| [Mezon](https://mezon.ai) | ✅ | ⚠️ | ⚠️ | ✅ | ❌ |
-| [Nextcloud Talk](https://nextcloud.com/talk) | ✅ | ✅ | ✅ | ✅ | ❌ |
-| [Snikket](https://snikket.org) | ❌ | ❌ | ✅ † | ✅ | ❌ |
+| [Sharkord](https://sharkord.com) | ✅ | ❓ | ❓ | ✅ | ❌ |
+| [Spacebar](https://spacebar.chat) | ✅ | ❓ | ❓ | ✅ | ❌ |
+| [Fluxer](https://fluxer.app) | ✅ | ❓ | ❓ † | ⚠️ | ❌ |
+| [Loqa](https://loqa.chat) | ✅ | ❓ | ❓ | ✅ | ❌ |
+| [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ❓ | ❓ | ✅ | ❌ |
+| [Zulip](https://zulip.com) | ✅ | ❓ | ❓ | ✅ | ❌ |
+| [Rocket.Chat](https://rocket.chat) | ✅ | ❓ | ❓ | ✅ | ❌ |
+| [Mezon](https://mezon.ai) | ✅ | ❓ | ❓ | ✅ | ❌ |
+| [Nextcloud Talk](https://nextcloud.com/talk) | ✅ | ❓ | ❓ | ✅ | ❌ |
+| [Snikket](https://snikket.org) | ❌ | ❓ | ❓ † | ✅ | ❌ |
 | [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Databag](https://github.com/balzack/databag) | ✅ | ❌ | ✅ | ✅ | ❌ |
-| [Discourse](https://www.discourse.org) | ✅ | ❌ | ✅ | ✅ | ❌ |
-| [Mattermost](https://mattermost.com) | ✅ | ✅ | ✅ | ✅ | ❌ |
-| [Critterchat](https://github.com/DragonMinded/critterchat) | ✅ | ❌ | ❌ | ✅ | ❌ |
+| [Databag](https://github.com/balzack/databag) | ✅ | ❓ | ❓ | ✅ | ❌ |
+| [Discourse](https://www.discourse.org) | ✅ | ❓ | ❓ | ✅ | ❌ |
+| [Mattermost](https://mattermost.com) | ✅ | ❓ | ❓ | ✅ | ❌ |
+| [Critterchat](https://github.com/DragonMinded/critterchat) | ✅ | ❓ | ❓ | ✅ | ❌ |
 
 ### Communication
 
@@ -543,7 +558,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Databag](https://github.com/balzack/databag) | ❌ | ⚠️ | ✅ | ⚠️ | ❌ | ❌ | ❌ |
-| [Discourse](https://www.discourse.org) | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ✅ † | ❌ |
+| [Discourse](https://www.discourse.org) | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ⚠️ † | ❌ |
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ † | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❌ |
 
@@ -668,6 +683,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *Migration Assistant:* Some import tools available for Slack and HipChat, limited Discord support
 - *Ai Features Or Training:* No built-in AI features. Self-hosted option means user controls data.
 - *Ai Generated Codebase:* Strict AI policy: permits AI assistance but STRICTLY disallows AI commits with zero oversight. See: https://github.com/zulip/zulip/blob/main/CONTRIBUTING.md
+- *E2E Encryption:* E2EE ONLY for push notification content. Messages stored as plaintext in PostgreSQL.
 </details>
 
 <details>
@@ -763,12 +779,12 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 <details>
 <summary>Discourse</summary>
 
-- *Description:* Modern forum software for building communities. Ruby on Rails. Email-based notifications, threaded discussions, trust levels, badges.
+- *Description:* ⚠️ FORUM SOFTWARE, NOT CHAT: Modern forum platform. Some try to use as Discord replacement - this is a category error. Best for async, long-form discussion.
 - *Architecture:* Self-hosted, open source (GPL-2.0)
 - *Text Channels:* Categories and topics structure (forum-style, not real-time channels)
 - *Threads Forums:* Core feature - entire platform is threaded discussions
 - *Large Community Moderation:* Trust levels, flags, automatic hiding, user silencing, sophisticated moderation
-- *Bridges:* Email integration, webhook integrations, API for external tools
+- *Bridges:* ONE-WAY notifications out only. NOT bidirectional chat bridging. NOT supported by Matterbridge.
 - *Docs Wiki Channels:* Wiki-style knowledge base features, long-form documentation support
 - *Migration Assistant:* Import tools from other forum software (phpBB, vBulletin, etc)
 - *Automod:* Automatic post hiding based on flags, spam detection, new user restrictions
@@ -838,12 +854,12 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 | **Platform** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Mobile Device Hosting** |
 | --- | --- | --- | --- | --- | --- |
-| [Discord](https://discord.com) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Root](https://rootapp.com) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Telegram](https://telegram.org) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [GameVox](https://gamevox.com) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Steam Chat](https://store.steampowered.com) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Osmium](https://osmium.chat) | ✅ | ✅ | ❓ | ❌ | ❌ |
+| [Discord](https://discord.com) | ✅ | ❓ | ❓ | ❌ | ❌ |
+| [Root](https://rootapp.com) | ✅ | ❓ | ❓ | ❌ | ❌ |
+| [Telegram](https://telegram.org) | ✅ | ❓ | ❓ | ❌ | ❌ |
+| [GameVox](https://gamevox.com) | ✅ | ❓ | ❓ | ❌ | ❌ |
+| [Steam Chat](https://store.steampowered.com) | ✅ | ❓ | ❓ | ❌ | ❌ |
+| [Osmium](https://osmium.chat) | ✅ | ❓ | ❓ | ❌ | ❌ |
 
 ### Communication
 
@@ -1020,6 +1036,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [Swift IM](https://swift.im) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
 | [Movim](https://movim.eu) | ✅ | ✅ † | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
 | [Ventrilo](https://www.ventrilo.com) | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ † | ❌ |
+| [Carrion](https://github.com/carrion-org) | ❓ | ❌ | ❓ | ⚠️ † | ❓ | ❓ | ❓ | ❌ | ✅ † | ❓ | ❓ |
 
 ### Pricing
 
@@ -1038,24 +1055,26 @@ Included for historical context or specific use cases. Generally not recommended
 | [Swift IM](https://swift.im) | ✅ | ⚠️ † | ✅ | ❓ | ❓ | ✅ |
 | [Movim](https://movim.eu) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 | [Ventrilo](https://www.ventrilo.com) | ⚠️ † | ❌ | ⚠️ † | ✅ † | ❌ | ✅ |
+| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
 
 ### Platform Support
 
 | **Platform** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Mobile Device Hosting** |
 | --- | --- | --- | --- | --- | --- |
-| [TeamSpeak](https://teamspeak.com) | ❌ | ✅ | ✅ | ✅ | ❌ |
-| [Mumble](https://mumble.info) | ❌ | ✅ | ⚠️ | ✅ | ❌ |
-| [Signal](https://signal.org) | ⚠️ † | ✅ | ✅ | ❌ | ❌ |
-| [Skype](https://skype.com) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [SimpleX Chat](https://simplex.chat) | ❌ | ✅ | ✅ | ✅ | ❌ |
-| [Quiet](https://tryquiet.org) | ❌ | ✅ | ✅ | ❌ | ❌ |
-| [Campfire](https://basecamp.com/retired/campfire) | ✅ | ⚠️ | ✅ | ❌ | ❌ |
-| [Oldcord](https://oldcordapp.com) | ✅ | ✅ | ❌ | ✅ | ❌ |
-| [Jami](https://jami.net) | ⚠️ † | ✅ | ✅ | ❌ | ❌ |
-| [Gajim](https://gajim.org) | ❌ | ✅ | ❌ | ❌ | ❌ |
-| [Swift IM](https://swift.im) | ❌ | ✅ | ❌ † | ❌ | ❌ |
-| [Movim](https://movim.eu) | ✅ | ❌ | ❌ | ✅ | ❌ |
-| [Ventrilo](https://www.ventrilo.com) | ❌ | ✅ | ❌ | ❌ | ❌ |
+| [TeamSpeak](https://teamspeak.com) | ❌ | ❓ | ❓ | ✅ | ❌ |
+| [Mumble](https://mumble.info) | ❌ | ❓ | ❓ | ✅ | ❌ |
+| [Signal](https://signal.org) | ⚠️ † | ❓ | ❓ | ❌ | ❌ |
+| [Skype](https://skype.com) | ✅ | ❓ | ❓ | ❌ | ❌ |
+| [SimpleX Chat](https://simplex.chat) | ❌ | ❓ | ❓ | ✅ | ❌ |
+| [Quiet](https://tryquiet.org) | ❌ | ❓ | ❓ | ❌ | ❌ |
+| [Campfire](https://basecamp.com/retired/campfire) | ✅ | ❓ | ❓ | ❌ | ❌ |
+| [Oldcord](https://oldcordapp.com) | ✅ | ❓ | ❓ | ✅ | ❌ |
+| [Jami](https://jami.net) | ⚠️ † | ❓ | ❓ | ❌ | ❌ |
+| [Gajim](https://gajim.org) | ❌ | ❓ | ❓ | ❌ | ❌ |
+| [Swift IM](https://swift.im) | ❌ | ❓ | ❓ † | ❌ | ❌ |
+| [Movim](https://movim.eu) | ✅ | ❓ | ❓ | ✅ | ❌ |
+| [Ventrilo](https://www.ventrilo.com) | ❌ | ❓ | ❓ | ❌ | ❌ |
+| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❌ |
 
 ### Communication
 
@@ -1074,6 +1093,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [Swift IM](https://swift.im) | ✅ | ✅ | ❌ | ❌ | ✅ † | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Movim](https://movim.eu) | ❌ † | ❌ | ❌ | ❌ | ✅ † | ✅ | ⚠️ | ✅ † | ❌ | ❌ |
 | [Ventrilo](https://www.ventrilo.com) | ✅ † | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ † |
+| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 ### Moderation & Safety
 
@@ -1092,6 +1112,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [Swift IM](https://swift.im) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Movim](https://movim.eu) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Ventrilo](https://www.ventrilo.com) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
 
 ### Server & Admin
 
@@ -1110,6 +1131,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [Swift IM](https://swift.im) | ❌ | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ |
 | [Movim](https://movim.eu) | ❌ | ✅ † | ❌ | ✅ | ❌ | ❌ | ❌ |
 | [Ventrilo](https://www.ventrilo.com) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❌ |
 
 ### Channels & Content
 
@@ -1128,6 +1150,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [Swift IM](https://swift.im) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Movim](https://movim.eu) | ❌ | ✅ † | ❌ | ❌ | ✅ |
 | [Ventrilo](https://www.ventrilo.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 ### Community Tools
 
@@ -1146,6 +1169,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [Swift IM](https://swift.im) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Movim](https://movim.eu) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ † |
 | [Ventrilo](https://www.ventrilo.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
 
 
 **† Notes**
@@ -1307,6 +1331,15 @@ Included for historical context or specific use cases. Generally not recommended
 - *Ai Features Or Training:* No AI features, voice-focused legacy platform
 </details>
 
+<details>
+<summary>Carrion</summary>
+
+- *Description:* ⚠️ ADULT CONTENT (18+): Privacy-focused adult roleplay platform with zero server-side message storage. Designed for erotic RP, kink communities, LGBTQ+, and furries. NOT a general chat alternative.
+- *Architecture:* Centralized (zero storage)
+- *E2E Encryption:* Encrypted DMs available. Messages pass through server RAM briefly but not stored on disk.
+- *Message Ttl:* Messages only exist in browser IndexedDB. Can export/import, but server stores nothing.
+</details>
+
 ---
 
 [↑ Back to top](#platform-comparison)
@@ -1347,14 +1380,14 @@ Platforms that are no longer active. Included for historical reference and featu
 
 | **Platform** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Mobile Device Hosting** |
 | --- | --- | --- | --- | --- | --- |
-| [Guilded (discontinued)](https://guilded.gg) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ✅ | ❌ | ❌ | ❌ |
-| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ⚠️ | ✅ | ✅ | ❌ | ❌ |
-| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ❌ | ✅ | ✅ | ❌ | ❌ |
-| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ❌ | ✅ | ❌ | ❌ | ❌ |
-| [Razer Comms](https://www.razer.com/) | ❌ | ✅ | ❌ | ❌ | ❌ |
-| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ✅ | ❌ | ❌ | ❌ |
-| [TeaSpeak](https://github.com/TeaSpeak) | ✅ † | ✅ | ❌ | ✅ | ❌ |
+| [Guilded (discontinued)](https://guilded.gg) | ✅ | ❓ | ❓ | ❌ | ❌ |
+| [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ❓ | ❓ | ❌ | ❌ |
+| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ⚠️ | ❓ | ❓ | ❌ | ❌ |
+| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ❌ | ❓ | ❓ | ❌ | ❌ |
+| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ❌ | ❓ | ❓ | ❌ | ❌ |
+| [Razer Comms](https://www.razer.com/) | ❌ | ❓ | ❓ | ❌ | ❌ |
+| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❓ | ❓ | ❌ | ❌ |
+| [TeaSpeak](https://github.com/TeaSpeak) | ✅ † | ❓ | ❓ | ✅ | ❌ |
 
 ### Communication
 
@@ -1541,12 +1574,12 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 | **Platform** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Mobile Device Hosting** |
 | --- | --- | --- | --- | --- | --- |
-| [Pumble](https://pumble.com) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Chanty](https://chanty.com) | ✅ | ⚠️ † | ✅ | ❌ | ❌ |
-| [Virola](https://virola.io) | ✅ | ✅ | ✅ | ❓ | ❌ |
-| [Slack](https://slack.com) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Amazon Chime](https://aws.amazon.com/chime/) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Pumble](https://pumble.com) | ✅ | ❓ | ❓ | ❌ | ❌ |
+| [Chanty](https://chanty.com) | ✅ | ❓ † | ❓ | ❌ | ❌ |
+| [Virola](https://virola.io) | ✅ | ❓ | ❓ | ❓ | ❌ |
+| [Slack](https://slack.com) | ✅ | ❓ | ❓ | ❌ | ❌ |
+| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ❓ | ❓ | ❌ | ❌ |
+| [Amazon Chime](https://aws.amazon.com/chime/) | ✅ | ❓ | ❓ | ❌ | ❌ |
 
 ### Communication
 
@@ -1690,74 +1723,6 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 ---
 
-## Niche & Specialized
-
-### Privacy & Licensing
-
-| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Carrion](https://github.com/carrion-org) | ❓ | ❌ | ❓ | ⚠️ † | ❓ | ❓ | ❓ | ❌ | ✅ † | ❓ | ❓ |
-
-### Pricing
-
-| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
-| --- | --- | --- | --- | --- | --- | --- |
-| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
-
-### Platform Support
-
-| **Platform** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Mobile Device Hosting** |
-| --- | --- | --- | --- | --- | --- |
-| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❌ |
-
-### Communication
-
-| **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-
-### Moderation & Safety
-
-| **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
-
-### Server & Admin
-
-| **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❌ |
-
-### Channels & Content
-
-| **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
-| --- | --- | --- | --- | --- | --- |
-| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ |
-
-### Community Tools
-
-| **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
-| --- | --- | --- | --- | --- | --- | --- |
-| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
-
-
-**† Notes**
-
-<details>
-<summary>Carrion</summary>
-
-- *Description:* ⚠️ ADULT CONTENT (18+): Privacy-focused adult roleplay platform with zero server-side message storage. Designed for erotic RP, kink communities, LGBTQ+, and furries. NOT a general chat alternative.
-- *Architecture:* Centralized (zero storage)
-- *E2E Encryption:* Encrypted DMs available. Messages pass through server RAM briefly but not stored on disk.
-- *Message Ttl:* Messages only exist in browser IndexedDB. Can export/import, but server stores nothing.
-</details>
-
----
-
-[↑ Back to top](#platform-comparison)
-
----
-
 ## Protocols & Frameworks
 
 ### Privacy & Licensing
@@ -1776,7 +1741,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 | **Platform** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Mobile Device Hosting** |
 | --- | --- | --- | --- | --- | --- |
-| [Polyproto](https://polyproto.io) | ❌ | ❌ | ❌ | ❓ | ❌ |
+| [Polyproto](https://polyproto.io) | ❌ | ❓ | ❓ | ❓ | ❌ |
 
 ### Communication
 
