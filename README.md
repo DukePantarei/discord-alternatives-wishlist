@@ -87,27 +87,37 @@ This repository is a **structured, community-maintained comparison** of Discord 
 
 ## Most Discord-Like Platforms
 
-Based on 16 core features (including moderation):
+Based on feature coverage, real-world testing (mvh, discordless.com), and UI/UX similarity:
 
-| Rank | Platform | Similarity | Category | Notes |
-|------|----------|-----------|----------|-------|
-| 1 | Commet | 100% (16/16) | Matrix | Most Discord-like Matrix client |
-| 2 | Element | 100% (16/16) | Matrix | Federated, E2EE by default |
-| 3 | SchildiChat | 100% (16/16) | Matrix | Element fork, simplified UI |
-| 4 | Mattermost | 88% (14/16) | Self-Hosted | DevOps favorite, E2EE beta |
-| 5 | Microsoft Teams | 88% (14/16) | Business | Office integration, federated |
-| 6 | Rocket.Chat | 88% (14/16) | Self-Hosted | Enterprise-grade tools |
-| 7 | Slack | 88% (14/16) | Business | Workplace standard |
-| 8 | Telegram | 88% (14/16) | Commercial | Huge scale, missing persistent voice |
-| 9 | Discourse | 75% (12/16) | Self-Hosted | Forum-style, excellent moderation |
-| 10 | Echoed | 69% (11/16) | Privacy-Focused | Missing moderation tools |
+| Rank | Platform | Why Discord-Like | Category | Reality Check |
+|------|----------|------------------|----------|---------------|
+| 1 | **Fluxer** | Nearly complete feature parity, Discord-style UI, bot API | Self-Hosted | Public beta, self-hostable |
+| 2 | **Commet** | Discord-like UI on Matrix protocol, full features | Matrix | Single maintainer, federated |
+| 3 | **Element** | Full Matrix features, most mature client | Matrix | Different UI, proven at scale |
+| 4 | **SchildiChat** | Element fork with Discord-inspired tweaks | Matrix | Element features + better UX |
+| 5 | **Spacebar** | Discord API compatible, bot compatibility | Self-Hosted | Alpha stage, voice in development |
+| 6 | **Stoat** | Closest Discord clone in look/feel | Privacy-Focused | ⚠️ Alpha: voice broken, slow updates, expect issues |
+| 7 | **Rocket.Chat** | Enterprise features, voice/video, roles | Self-Hosted | 50 user limit (free), business-focused |
+| 8 | **Mattermost** | Team chat, moderation, integrations | Self-Hosted | DevOps/business focused |
+| 9 | **Telegram** | Massive scale, channels, bots | Commercial | Missing persistent voice channels |
+| 10 | **Zulip** | Topic-based threading, full features | Self-Hosted | Different paradigm (topics required) |
+| 11 | **Slack** | Workplace standard, strong features | Business | Business-focused, expensive |
+
+**⚠️ Alpha/Early Stage Platforms:**
+- **Stoat** — Voice channels currently non-functional (Feb 2026), updates slow, breaks regularly. Beautiful Discord-like UI but not production-ready. Revisit in ~1 year.
+- **Spacebar** — Discord bot compatibility promising but voice/video still in development. Making new guilds/adding friends may not work consistently.
+
+**❌ DO NOT USE (Security Issues):**
+- **Kloak** — Critical security breach (Feb 2026), user data compromised
+- **Paracord** — 20+ vulnerabilities, vibe-coded, unverified security
 
 **Key insights:**
-- Matrix clients lead (100%) but need moderation bots
-- Business platforms (Slack, Teams) score high due to strong moderation
-- Gaming alternatives (Stoat, Fluxer) feel Discord-like but lack advanced moderation
+- **Fluxer** leads for open-source Discord-like experience (discordless: "only open-source app with almost all Discord features")
+- **Matrix clients** offer proven federation + E2EE, but need moderation bots (Draupnir essential)
+- **Stoat** looks most like Discord but core features broken — beautiful UI, frustrating experience
+- **Avoid platforms with security incidents** (Kloak, Paracord) entirely
 
-**→ See full ranking in [README.md - Discord Similarity section](#most-discord-like-platforms) (you're here!)**
+**→ See [COMPARISON.md](COMPARISON.md) for detailed feature breakdown**
 
 ---
 
