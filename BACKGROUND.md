@@ -342,7 +342,9 @@ Unfettered access → "Think of the children!"
 - [In Search of a Discord Replacement by James Liu](https://no-bull.sh/blog/2026/02/16/in-search-of-a-discord-replacement/)
 - [Discord Alternatives, Ranked by Michael Taggart](https://taggart-tech.com/discord-alternatives/)
 
-### Other Repositories:
+### Platform Directories:
+- **[discordless.com](https://discordless.com/)** — Curated alternatives with privacy/decentralization focus, detailed pros/cons for each platform
+- [AlternativeTo: Discord Alternatives](https://alternativeto.net/software/discord-app/) — 100+ alternatives with user ratings, comments, and filtering
 - [Discord Alternatives by Hemeka](https://github.com/Hemeka/Discord-Alternatives)
 - [Self-hosted alternatives by Vigno04](https://github.com/Vigno04/discord-selfhosted-alternatives)
 
