@@ -18,8 +18,8 @@
 ## Contents
 
 - [Matrix Clients](#matrix-clients) — 5 platforms
-- [Privacy-Focused Centralized](#privacy-focused-centralized) — 10 platforms
-- [Self-Hosted Platforms](#self-hosted-platforms) — 18 platforms
+- [Privacy-Focused Centralized](#privacy-focused-centralized) — 12 platforms
+- [Self-Hosted Platforms](#self-hosted-platforms) — 21 platforms
 - [Commercial Alternatives](#commercial-alternatives) — 6 platforms
 - [Legacy & Niche](#legacy--niche) — 14 platforms
 - [Discontinued](#discontinued) — 8 platforms
@@ -261,6 +261,8 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ † | ✅ † | ✅ † | ✅ † | ✅ | ❓ | ❓ | ❌ | ❓ | ❌ | ✅ † |
 | [Apoka](https://www.apoka.app/) | ❌ | ❌ | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Session](https://getsession.org) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❓ |
+| [RetroShare](https://retroshare.cc) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❓ | ❌ | ❓ | ❌ | ❓ |
+| [0xchat](https://0xchat.com) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❓ | ❌ | ❓ | ❌ | ❓ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -322,6 +324,8 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ✅ | ❓ | ❌ | ✅ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
 | [Session](https://getsession.org) | ✅ | ✅ | ❓ | ❓ | ❓ | ❌ |
+| [RetroShare](https://retroshare.cc) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [0xchat](https://0xchat.com) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 
 </details>
 
@@ -340,6 +344,8 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ⚠️ | ❌ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Session](https://getsession.org) | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❓ | ❓ |
+| [RetroShare](https://retroshare.cc) | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [0xchat](https://0xchat.com) | ❓ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -369,6 +375,8 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Session](https://getsession.org) | ✅ | ✅ | 🗓️ | ❓ | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [RetroShare](https://retroshare.cc) | ✅ | ✅ | ❌ | ❓ | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ |
+| [0xchat](https://0xchat.com) | ✅ | ✅ | ❓ | ❓ | ✅ | ❓ | ❓ | ❓ | ❓ | ❌ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -407,6 +415,8 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [RetroShare](https://retroshare.cc) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [0xchat](https://0xchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 </details>
 
@@ -425,6 +435,8 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ | ❌ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [RetroShare](https://retroshare.cc) | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ |
+| [0xchat](https://0xchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -451,6 +463,8 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [RetroShare](https://retroshare.cc) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [0xchat](https://0xchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 </details>
 
@@ -469,6 +483,8 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❌ | ❌ | ❌ | ✅ † |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [RetroShare](https://retroshare.cc) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [0xchat](https://0xchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -514,6 +530,9 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Discourse](https://www.discourse.org) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ † | ✅ † |
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ † | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ✅ | ✅ | 🗓️ † | ❌ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❌ † |
+| [Strafe](https://strafe.chat) | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❓ | ❌ | ❓ | ❌ | ❓ |
+| [Common Ground](https://commonground.computer) | ✅ | ✅ | ❌ | ❓ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❓ |
+| [Conduit](https://conduit.rs) | ✅ | ✅ † | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ❌ | ❓ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -576,6 +595,9 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *Ai Generated Codebase:* Explicitly states: 'Not built with, enabled by or integrated with any generative AI.'
 - *Federated:* Federation between instances planned but not yet implemented (FEDERATION.md exists)
 
+**Conduit:**
+- *Self Hostable:* Lightweight Matrix homeserver - much easier to run than Synapse, works on Raspberry Pi
+
 </details>
 
 </details>
@@ -603,6 +625,9 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Discourse](https://www.discourse.org) | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [Mattermost](https://mattermost.com) | ✅ | ❌ † | ✅ | ❌ | ✅ | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ✅ | ❓ | ❓ | ❓ | ❓ | ✅ |
+| [Strafe](https://strafe.chat) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
+| [Common Ground](https://commonground.computer) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
+| [Conduit](https://conduit.rs) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -645,6 +670,9 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Discourse](https://www.discourse.org) | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ |
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| [Strafe](https://strafe.chat) | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
+| [Common Ground](https://commonground.computer) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ |
+| [Conduit](https://conduit.rs) | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ |
 
 </details>
 
@@ -671,6 +699,9 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Discourse](https://www.discourse.org) | ❌ | ❌ | ❌ | ❌ | ✅ † | ✅ | ✅ | ✅ † | ❌ | ❌ |
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ † | ❌ | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ❓ | ❓ | ❓ | ❓ | ✅ | ⚠️ † | ❓ | ❓ | ❓ | ❓ |
+| [Strafe](https://strafe.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❓ | ❓ | ❌ |
+| [Common Ground](https://commonground.computer) | ✅ | ✅ | ❓ | ❓ | ✅ | ❓ | ❓ | ❓ | ❓ | ❌ |
+| [Conduit](https://conduit.rs) | ✅ | ✅ | ✅ | ❓ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ❌ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -745,6 +776,9 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Discourse](https://www.discourse.org) | ✅ † | ✅ † | ✅ | ✅ † | ⚠️ | ✅ † | ❌ | ❌ |
 | [Mattermost](https://mattermost.com) | ✅ | ⚠️ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
+| [Strafe](https://strafe.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Common Ground](https://commonground.computer) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Conduit](https://conduit.rs) | ❓ | ❓ | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -785,6 +819,9 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Discourse](https://www.discourse.org) | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ⚠️ † | ❌ |
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ † | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❌ |
+| [Strafe](https://strafe.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Common Ground](https://commonground.computer) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Conduit](https://conduit.rs) | ❓ | ❓ | ❓ | ❓ | ❓ | ✅ | ❓ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -833,6 +870,9 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Discourse](https://www.discourse.org) | ✅ † | ❌ | ❌ | ✅ | ✅ |
 | [Mattermost](https://mattermost.com) | ⚠️ | ✅ † | ❌ | ✅ | ⚠️ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Strafe](https://strafe.chat) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Common Ground](https://commonground.computer) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Conduit](https://conduit.rs) | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -877,6 +917,9 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Discourse](https://www.discourse.org) | ✅ | ✅ | ❌ | ❌ | ⚠️ | ✅ |
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
+| [Strafe](https://strafe.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Common Ground](https://commonground.computer) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Conduit](https://conduit.rs) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
