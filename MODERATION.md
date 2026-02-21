@@ -86,6 +86,17 @@ Any centralized, commercial platform (Discord, Slack, Teams, etc.) will eventual
 - **Business motivations**: Advertiser-friendly data collection, in-app microtransactions, potential IPO
 - Vendors like Persona track metrics far beyond age verification — valuable for ad targeting
 
+**The "trusted partners" deception:**
+Discord calls age verification vendors **"trusted partners."** But users never chose these partners — **Discord did, based on business interests, not user privacy.**
+
+Users are forced to trust:
+- Persona (data breach risks, extensive tracking)
+- k-ID (Discord's current choice, no user input)
+- Yoti (UK pilot vendor)
+- Any future vendor Discord selects
+
+**The problem:** When these "trusted partners" breach user data or misuse it, users suffer the consequences — not Discord, not the vendors. This is a fundamental flaw of for-profit platforms: **vendor selection serves profit maximization, not user protection.** Users have no voice in who handles their most sensitive data.
+
 **See [BACKGROUND.md](BACKGROUND.md) for full story**
 
 ---
