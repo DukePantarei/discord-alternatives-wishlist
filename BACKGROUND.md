@@ -26,6 +26,14 @@ When Discord announced age verification would expand globally in March 2026, the
 
 The controversy went beyond Discord's voluntary policy. Age verification vendor **Persona** (used by Discord, Meta, and Snap) was found to have [left its frontend exposed](https://www.malwarebytes.com/blog/news/2026/02/age-verification-vendor-persona-left-frontend-exposed), and the system is [backed by Peter Thiel](https://www.openrightsgroup.org/press-releases/roblox-reddit-and-discord-users-compelled-to-use-biometric-id-system-backed-by-palantir-co-founder-peter-thiel/), co-founder of Palantir (a surveillance technology company).
 
+**Update:** Discord has since attempted to downplay concerns by announcing they've ended their "experiment" with Persona and will use **k-ID** for verification instead. However, this raises important questions:
+- Discord actively courted and tested Persona despite its security issues
+- The Malwarebytes analysis revealed Persona tracks extensive metrics beyond age verification — data highly valuable to advertisers
+- k-ID may lack bandwidth for a global rollout affecting 200M+ users
+- Discord could easily switch back to Persona or adopt another vendor later
+
+**The broader pattern:** Discord is increasingly advertiser-friendly, potentially preparing for an IPO or enhanced monetization. The platform has introduced in-app game microtransactions, expanded ad placements, and shows clear interest in data collection beyond what's necessary for chat functionality. Age verification vendors that track detailed user metrics align perfectly with this business direction.
+
 ---
 
 ## The Deeper Problem: A Systemic Issue
@@ -59,6 +67,12 @@ After the backlash, Discord [attempted to clarify](https://9to5mac.com/2026/02/1
 - AI-powered behavioral analysis
 
 **This raised new concerns:** Discord is now running **constant surveillance** in the background, profiling users to guess their age without consent. Those flagged as potentially underage or "insufficient data" still face verification demands.
+
+**The corporate doublespeak:** Discord [claims this is reassuring](https://www.pcgamer.com/hardware/discord-clarifies-it-is-not-requiring-everyone-to-complete-a-face-scan-or-upload-an-id-and-will-confirm-your-age-group-using-information-we-already-have/): *"For the majority of adult users, we will be able to confirm your age group using information we already have."*
+
+**What they're actually saying:** *"We've already collected so much data on you that we can predict your age without asking. We've been surveilling you all along."*
+
+This reveals a deeper truth: **The data collection was always the goal.** Whether users submit IDs or get "age inferred," Discord gets what it wants — detailed behavioral profiles they can monetize. As corporations tend to do, they say they're trustworthy, then get caught doing the opposite.
 
 ---
 
@@ -103,6 +117,8 @@ Users are leaving Discord for three primary reasons:
 
 ### Recent Coverage:
 - [Ars Technica: Discord faces backlash over age checks after data breach exposed 70,000 IDs](https://arstechnica.com/tech-policy/2026/02/discord-faces-backlash-over-age-checks-after-data-breach-exposed-70000-ids/)
+- [Ars Technica: Discord and Persona end partnership after shady UK age test sparks outcry](https://arstechnica.com/tech-policy/2026/02/discord-and-persona-end-partnership-after-shady-uk-age-test-sparks-outcry/)
+- [PC Gamer: Discord clarifies it will 'confirm your age group using information we already have'](https://www.pcgamer.com/hardware/discord-clarifies-it-is-not-requiring-everyone-to-complete-a-face-scan-or-upload-an-id-and-will-confirm-your-age-group-using-information-we-already-have/)
 - [Open Rights Group: Roblox, Reddit and Discord users compelled to use biometric ID system backed by Peter Thiel](https://www.openrightsgroup.org/press-releases/roblox-reddit-and-discord-users-compelled-to-use-biometric-id-system-backed-by-palantir-co-founder-peter-thiel/)
 - [PC Gamer: Discord will use AI to decide which servers to age gate](https://www.pcgamer.com/software/discord-will-decide-which-servers-to-age-gate-with-a-combination-of-automated-detection-with-ai-validation-and-human-review/)
 - [Malwarebytes: Age verification vendor Persona left frontend exposed](https://www.malwarebytes.com/blog/news/2026/02/age-verification-vendor-persona-left-frontend-exposed)
