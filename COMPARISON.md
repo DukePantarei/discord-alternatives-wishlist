@@ -18,7 +18,7 @@
 ## Contents
 
 - [Matrix Clients](#matrix-clients) — 5 platforms
-- [Privacy-Focused Centralized](#privacy-focused-centralized) — 9 platforms
+- [Privacy-Focused Centralized](#privacy-focused-centralized) — 10 platforms
 - [Self-Hosted Platforms](#self-hosted-platforms) — 18 platforms
 - [Commercial Alternatives](#commercial-alternatives) — 6 platforms
 - [Legacy & Niche](#legacy--niche) — 14 platforms
@@ -260,6 +260,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ † | ✅ † | ❌ | ❌ † | ✅ | ✅ | ❓ | ❌ | ❌ | ❌ | ✅ † |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ † | ✅ † | ✅ † | ✅ † | ✅ | ❓ | ❓ | ❌ | ❓ | ❌ | ✅ † |
 | [Apoka](https://www.apoka.app/) | ❌ | ❌ | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Session](https://getsession.org) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❓ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -320,6 +321,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ✅ | ❓ | ❌ | ✅ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
+| [Session](https://getsession.org) | ✅ | ✅ | ❓ | ❓ | ❓ | ❌ |
 
 </details>
 
@@ -337,6 +339,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ⚠️ | ❌ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Session](https://getsession.org) | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❓ | ❓ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -365,6 +368,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ † | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ | ❌ | ✅ | ❓ |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Session](https://getsession.org) | ✅ | ✅ | 🗓️ | ❓ | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -402,6 +406,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 </details>
 
@@ -419,6 +424,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ | ❌ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -444,6 +450,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 </details>
 
@@ -461,6 +468,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❌ | ❌ | ❌ | ✅ † |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
