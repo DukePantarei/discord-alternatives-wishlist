@@ -7,18 +7,18 @@
 
 ## What Is This?
 
-This repository is a **structured, community-maintained comparison** of Discord alternatives across **62 platforms** and **57 features**. It's designed to help you make an informed decision about where to move your community.
+This repository is a **structured, community-maintained comparison** of Discord alternatives across **63 platforms** and **57 features**. It's designed to help you make an informed decision about where to move your community.
 
 ## Current State
 
-- **62 platforms** tracked across **7 categories**
+- **63 platforms** tracked across **7 categories**
 - **57 features** organized into **8 logical groups**
 - **Auto-generated comparison tables** from a single source of truth (`platforms.json`)
 
 ### Categories
 
 - **Matrix Clients** (5) — Decentralized, federated, open protocol (Element, Cinny, Commet, FluffyChat, SchildiChat)
-- **Privacy-Focused Centralized** (7) — Open source but centrally hosted (Stoat, Valour, Nerimity, Kloak, Blite Chat, Echoed, Paracord)
+- **Privacy-Focused Centralized** (8) — Open source but centrally hosted (Stoat, Valour, Nerimity, Kloak, Blite Chat, Echoed, Paracord, Voltage)
 - **Self-Hosted Platforms** (18) — Run your own instance (Spacebar, Fluxer, Zulip, Rocket.Chat, Discourse, Mattermost, Sharkord, Loqa, DCTS, Mezon, Nextcloud Talk, Snikket, Databag, Pulse, Roomy, Colanode, Raven)
 - **Commercial Alternatives** (6) — Polished products with varying privacy tradeoffs (Discord, Root, Telegram, GameVox, Steam Chat, Osmium)
 - **Legacy & Niche** (12) — Historical context and specific use cases (TeamSpeak, Mumble, Signal, Ventrilo, Skype, SimpleX Chat, Quiet, Campfire, Oldcord, Jami, Gajim, Swift IM, Movim)
@@ -159,7 +159,7 @@ These platforms offer strong moderation WITHOUT invasive identity verification:
 - Message reporting dashboard
 - **Note**: Current Discord is fine; concern is planned 2025+ verification requirements
 
-### Basic Moderation
+### ⚙️ Basic Moderation
 
 Most alternatives offer basic moderation tools:
 - Kick/ban users
@@ -170,7 +170,7 @@ Most alternatives offer basic moderation tools:
 **Sufficient for**: Small to medium communities (<500 active members)  
 **May struggle with**: Large public communities with active raids/spam
 
-### Check the Full Comparison
+### 📊 Check the Full Comparison
 
 See the [Moderation & Safety table](COMPARISON.md) for detailed feature-by-feature comparison including:
 - AutoMod capabilities
@@ -229,6 +229,7 @@ See the [Moderation & Safety table](COMPARISON.md) for detailed feature-by-featu
 **Known AI-generated (proceed with caution):**
 - **Paracord** - DO NOT USE (critical vulnerabilities)
 - **Blite Chat** - Explicitly AI-generated, security unknown
+- **Voltage/VoltChat** - Very new (Feb 2026), strong vibe-coding indicators, untested
 
 **Suspicious indicators (may be AI-generated):**
 - Single large commit (developed privately, dumped publicly)
@@ -236,6 +237,22 @@ See the [Moderation & Safety table](COMPARISON.md) for detailed feature-by-featu
 - Minimal documentation
 - No development history
 - "Privacy-focused" claims without security audit
+
+### ⚠️ ACTIVE SECURITY INCIDENTS
+
+**Kloak** - CRITICAL BREACH (Feb 20, 2026)
+- ❌ **DO NOT USE** - Active security compromise
+- Attacker demonstrated ability to access full user list and private messages
+- Users received unsolicited mass messages from compromised account
+- Account creation disabled for hours following incident
+- Breach pattern similar to Paracord (suggests possible vibe-coded origin)
+- No security audit or incident response available
+- **Recommendation**: Delete account immediately if you have one
+
+**Paracord** - Known vulnerabilities (Feb 2025)
+- ❌ **DO NOT USE** - 20+ critical security flaws documented
+- Community security audit found: RCE, unauthenticated endpoints, plaintext secrets
+- Confirmed AI-generated with no security review
 
 ### What to Look For
 
