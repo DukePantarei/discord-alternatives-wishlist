@@ -35,9 +35,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 > 💡 A homeserver is required. You can use the free [matrix.org](https://matrix.org) server or self-host using [matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy).
 
 <details open>
-<summary><strong>View Matrix Clients Comparison Table (5 platforms)</strong></summary>
-
-### Privacy & Licensing
+<summary><strong>Privacy & Licensing</strong></summary>
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -47,7 +45,10 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [FluffyChat](https://fluffychat.im) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ❓ | ❌ |
 | [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ | ❌ † | ❌ |
 
-### Pricing
+</details>
+
+<details open>
+<summary><strong>Pricing</strong></summary>
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -57,7 +58,10 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [FluffyChat](https://fluffychat.im) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 | [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 
-### Platform Support
+</details>
+
+<details open>
+<summary><strong>Platform Support</strong></summary>
 
 | **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -67,7 +71,10 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [FluffyChat](https://fluffychat.im) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 
-### Communication
+</details>
+
+<details open>
+<summary><strong>Communication</strong></summary>
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -77,7 +84,10 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [FluffyChat](https://fluffychat.im) | ✅ † | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ |
 | [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ✅ | ✅ | ❌ |
 
-### Moderation & Safety
+</details>
+
+<details open>
+<summary><strong>Moderation & Safety</strong></summary>
 
 | **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -87,7 +97,10 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [FluffyChat](https://fluffychat.im) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [SchildiChat](https://schildi.chat) | ⚠️ | ⚠️ † | ✅ | ✅ | ⚠️ † | ✅ | ❌ | ❌ |
 
-### Server & Admin
+</details>
+
+<details open>
+<summary><strong>Server & Admin</strong></summary>
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -97,7 +110,10 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [FluffyChat](https://fluffychat.im) | ⚠️ | ✅ | ❌ | ⚠️ | ❌ | ✅ | ❌ |
 | [SchildiChat](https://schildi.chat) | ⚠️ † | ✅ | ✅ † | ⚠️ | ❌ | ✅ | ❌ |
 
-### Channels & Content
+</details>
+
+<details open>
+<summary><strong>Channels & Content</strong></summary>
 
 | **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
 | --- | --- | --- | --- | --- | --- |
@@ -107,7 +123,10 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [FluffyChat](https://fluffychat.im) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [SchildiChat](https://schildi.chat) | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-### Community Tools
+</details>
+
+<details open>
+<summary><strong>Community Tools</strong></summary>
 
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -118,6 +137,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [SchildiChat](https://schildi.chat) | ✅ | ⚠️ | ❌ | ❌ | ❌ | ⚠️ † |
 
 </details>
+
 
 **† Notes**
 
@@ -200,9 +220,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 These platforms prioritize privacy and are open source, but run on a central server. Self-hosted instances exist but **cannot communicate with each other** — they are isolated, not federated.
 
 <details open>
-<summary><strong>View Privacy-Focused Centralized Comparison Table (9 platforms)</strong></summary>
-
-### Privacy & Licensing
+<summary><strong>Privacy & Licensing</strong></summary>
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -216,7 +234,10 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ † | ✅ † | ✅ † | ✅ † | ✅ | ❓ | ❓ | ❌ | ❓ | ❌ | ✅ † |
 | [Apoka](https://www.apoka.app/) | ❌ | ❌ | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
-### Pricing
+</details>
+
+<details open>
+<summary><strong>Pricing</strong></summary>
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -230,7 +251,10 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ✅ | ❓ | ❌ | ✅ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
 
-### Platform Support
+</details>
+
+<details open>
+<summary><strong>Platform Support</strong></summary>
 
 | **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -244,7 +268,10 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ⚠️ | ❌ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
-### Communication
+</details>
+
+<details open>
+<summary><strong>Communication</strong></summary>
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -258,7 +285,10 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
-### Moderation & Safety
+</details>
+
+<details open>
+<summary><strong>Moderation & Safety</strong></summary>
 
 | **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -272,7 +302,10 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
-### Server & Admin
+</details>
+
+<details open>
+<summary><strong>Server & Admin</strong></summary>
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -286,7 +319,10 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ | ❌ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
-### Channels & Content
+</details>
+
+<details open>
+<summary><strong>Channels & Content</strong></summary>
 
 | **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
 | --- | --- | --- | --- | --- | --- |
@@ -300,7 +336,10 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 
-### Community Tools
+</details>
+
+<details open>
+<summary><strong>Community Tools</strong></summary>
 
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -315,6 +354,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 </details>
+
 
 **† Notes**
 
@@ -433,9 +473,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 Designed primarily for self-hosting. Most require technical knowledge to deploy. None of these federate with each other.
 
 <details open>
-<summary><strong>View Self-Hosted Platforms Comparison Table (18 platforms)</strong></summary>
-
-### Privacy & Licensing
+<summary><strong>Privacy & Licensing</strong></summary>
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -458,7 +496,10 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ † | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ✅ | ✅ | 🗓️ † | ❌ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❌ † |
 
-### Pricing
+</details>
+
+<details open>
+<summary><strong>Pricing</strong></summary>
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -481,7 +522,10 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mattermost](https://mattermost.com) | ✅ | ❌ † | ✅ | ❌ | ✅ | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ✅ | ❓ | ❓ | ❓ | ❓ | ✅ |
 
-### Platform Support
+</details>
+
+<details open>
+<summary><strong>Platform Support</strong></summary>
 
 | **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -504,7 +548,10 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
 
-### Communication
+</details>
+
+<details open>
+<summary><strong>Communication</strong></summary>
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -527,7 +574,10 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ † | ❌ | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ❓ | ❓ | ❓ | ❓ | ✅ | ⚠️ † | ❓ | ❓ | ❓ | ❓ |
 
-### Moderation & Safety
+</details>
+
+<details open>
+<summary><strong>Moderation & Safety</strong></summary>
 
 | **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -550,7 +600,10 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mattermost](https://mattermost.com) | ✅ | ⚠️ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
 
-### Server & Admin
+</details>
+
+<details open>
+<summary><strong>Server & Admin</strong></summary>
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -573,7 +626,10 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ † | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❌ |
 
-### Channels & Content
+</details>
+
+<details open>
+<summary><strong>Channels & Content</strong></summary>
 
 | **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
 | --- | --- | --- | --- | --- | --- |
@@ -596,7 +652,10 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mattermost](https://mattermost.com) | ⚠️ | ✅ † | ❌ | ✅ | ⚠️ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ❓ | ❓ | ❓ | ❓ | ❓ |
 
-### Community Tools
+</details>
+
+<details open>
+<summary><strong>Community Tools</strong></summary>
 
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -620,6 +679,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
 
 </details>
+
 
 **† Notes**
 
@@ -841,9 +901,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 Polished commercial products, included for completeness. Privacy policies and long-term direction may change. Discord is included here as the baseline for comparison.
 
 <details open>
-<summary><strong>View Commercial Alternatives Comparison Table (6 platforms)</strong></summary>
-
-### Privacy & Licensing
+<summary><strong>Privacy & Licensing</strong></summary>
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -854,7 +912,10 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ⚠️ † | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
 | [Osmium](https://osmium.chat) | ❌ † | ❌ | ❌ | ❓ | ✅ | ❓ | ❓ | ❌ | ❌ | ❓ | ✅ † |
 
-### Pricing
+</details>
+
+<details open>
+<summary><strong>Pricing</strong></summary>
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -865,7 +926,10 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Steam Chat](https://store.steampowered.com) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Osmium](https://osmium.chat) | ✅ † | ❓ | ❌ | ❓ | ❓ | ❌ |
 
-### Platform Support
+</details>
+
+<details open>
+<summary><strong>Platform Support</strong></summary>
 
 | **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -876,7 +940,10 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Steam Chat](https://store.steampowered.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Osmium](https://osmium.chat) | ✅ | ✅ | ✅ | ✅ | ❓ | ❓ | ❌ | ❌ |
 
-### Communication
+</details>
+
+<details open>
+<summary><strong>Communication</strong></summary>
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -887,7 +954,10 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Steam Chat](https://store.steampowered.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ | ✅ | ❌ | ✅ | ❌ |
 | [Osmium](https://osmium.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❓ | ✅ | ❌ |
 
-### Moderation & Safety
+</details>
+
+<details open>
+<summary><strong>Moderation & Safety</strong></summary>
 
 | **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -898,7 +968,10 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Osmium](https://osmium.chat) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-### Server & Admin
+</details>
+
+<details open>
+<summary><strong>Server & Admin</strong></summary>
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -909,7 +982,10 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Steam Chat](https://store.steampowered.com) | ❌ | ⚠️ | ❌ | ✅ | ❌ | ❌ | ❌ |
 | [Osmium](https://osmium.chat) | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ | ❌ |
 
-### Channels & Content
+</details>
+
+<details open>
+<summary><strong>Channels & Content</strong></summary>
 
 | **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
 | --- | --- | --- | --- | --- | --- |
@@ -920,7 +996,10 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ❌ | ✅ |
 | [Osmium](https://osmium.chat) | ❌ | ❌ | ❌ | ❌ | ❓ |
 
-### Community Tools
+</details>
+
+<details open>
+<summary><strong>Community Tools</strong></summary>
 
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -932,6 +1011,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Osmium](https://osmium.chat) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
 
 </details>
+
 
 **† Notes**
 
@@ -1036,9 +1116,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 Included for historical context or specific use cases. Generally not recommended as full Discord replacements for casual communities.
 
 <details open>
-<summary><strong>View Legacy & Niche Comparison Table (14 platforms)</strong></summary>
-
-### Privacy & Licensing
+<summary><strong>Privacy & Licensing</strong></summary>
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1057,7 +1135,10 @@ Included for historical context or specific use cases. Generally not recommended
 | [Ventrilo](https://www.ventrilo.com) | ❌ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ † | ❌ |
 | [Carrion](https://github.com/carrion-org) | ❓ | ❌ | ❓ | ⚠️ † | ❓ | ❓ | ❓ | ❌ | ✅ † | ❓ | ❓ |
 
-### Pricing
+</details>
+
+<details open>
+<summary><strong>Pricing</strong></summary>
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1076,7 +1157,10 @@ Included for historical context or specific use cases. Generally not recommended
 | [Ventrilo](https://www.ventrilo.com) | ⚠️ † | ❌ | ⚠️ † | ✅ † | ❌ | ✅ |
 | [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
 
-### Platform Support
+</details>
+
+<details open>
+<summary><strong>Platform Support</strong></summary>
 
 | **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1095,7 +1179,10 @@ Included for historical context or specific use cases. Generally not recommended
 | [Ventrilo](https://www.ventrilo.com) | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
 
-### Communication
+</details>
+
+<details open>
+<summary><strong>Communication</strong></summary>
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1114,7 +1201,10 @@ Included for historical context or specific use cases. Generally not recommended
 | [Ventrilo](https://www.ventrilo.com) | ✅ † | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ † |
 | [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
-### Moderation & Safety
+</details>
+
+<details open>
+<summary><strong>Moderation & Safety</strong></summary>
 
 | **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1133,7 +1223,10 @@ Included for historical context or specific use cases. Generally not recommended
 | [Ventrilo](https://www.ventrilo.com) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
 
-### Server & Admin
+</details>
+
+<details open>
+<summary><strong>Server & Admin</strong></summary>
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1152,7 +1245,10 @@ Included for historical context or specific use cases. Generally not recommended
 | [Ventrilo](https://www.ventrilo.com) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❌ |
 
-### Channels & Content
+</details>
+
+<details open>
+<summary><strong>Channels & Content</strong></summary>
 
 | **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
 | --- | --- | --- | --- | --- | --- |
@@ -1171,7 +1267,10 @@ Included for historical context or specific use cases. Generally not recommended
 | [Ventrilo](https://www.ventrilo.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ |
 
-### Community Tools
+</details>
+
+<details open>
+<summary><strong>Community Tools</strong></summary>
 
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1191,6 +1290,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
 
 </details>
+
 
 **† Notes**
 
@@ -1371,9 +1471,7 @@ Included for historical context or specific use cases. Generally not recommended
 Platforms that are no longer active. Included for historical reference and feature comparison to show what was possible in the past.
 
 <details open>
-<summary><strong>View Discontinued Comparison Table (8 platforms)</strong></summary>
-
-### Privacy & Licensing
+<summary><strong>Privacy & Licensing</strong></summary>
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1386,7 +1484,10 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ |
 | [TeaSpeak](https://github.com/TeaSpeak) | ✅ † | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
 
-### Pricing
+</details>
+
+<details open>
+<summary><strong>Pricing</strong></summary>
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1399,7 +1500,10 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [TeaSpeak](https://github.com/TeaSpeak) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 
-### Platform Support
+</details>
+
+<details open>
+<summary><strong>Platform Support</strong></summary>
 
 | **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1412,7 +1516,10 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [TeaSpeak](https://github.com/TeaSpeak) | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ |
 
-### Communication
+</details>
+
+<details open>
+<summary><strong>Communication</strong></summary>
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1425,7 +1532,10 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ✅ † | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ |
 | [TeaSpeak](https://github.com/TeaSpeak) | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
 
-### Moderation & Safety
+</details>
+
+<details open>
+<summary><strong>Moderation & Safety</strong></summary>
 
 | **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1438,7 +1548,10 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [TeaSpeak](https://github.com/TeaSpeak) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-### Server & Admin
+</details>
+
+<details open>
+<summary><strong>Server & Admin</strong></summary>
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1451,7 +1564,10 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ⚠️ | ❌ | ✅ | ❌ | ❌ | ❌ |
 | [TeaSpeak](https://github.com/TeaSpeak) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 
-### Channels & Content
+</details>
+
+<details open>
+<summary><strong>Channels & Content</strong></summary>
 
 | **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
 | --- | --- | --- | --- | --- | --- |
@@ -1464,7 +1580,10 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [TeaSpeak](https://github.com/TeaSpeak) | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-### Community Tools
+</details>
+
+<details open>
+<summary><strong>Community Tools</strong></summary>
 
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1478,6 +1597,7 @@ Platforms that are no longer active. Included for historical reference and featu
 | [TeaSpeak](https://github.com/TeaSpeak) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 </details>
+
 
 **† Notes**
 
@@ -1573,9 +1693,7 @@ Platforms that are no longer active. Included for historical reference and featu
 Team collaboration tools designed for businesses. NOT Discord alternatives — included for completeness as they appear in comparison lists.
 
 <details open>
-<summary><strong>View Business Productivity Comparison Table (6 platforms)</strong></summary>
-
-### Privacy & Licensing
+<summary><strong>Privacy & Licensing</strong></summary>
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1586,7 +1704,10 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ❌ | ❌ | ✅ † | ⚠️ † | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ † | ❌ |
 | [Amazon Chime](https://aws.amazon.com/chime/) | ❌ | ❌ | ❌ | ❌ | ✅ | ⚠️ † | ✅ | ❌ | ✅ | ❓ | ❌ |
 
-### Pricing
+</details>
+
+<details open>
+<summary><strong>Pricing</strong></summary>
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1597,7 +1718,10 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ❌ | ❌ | ✅ † | ✅ | ❌ |
 | [Amazon Chime](https://aws.amazon.com/chime/) | ⚠️ † | ❌ | ❌ | ✅ † | ✅ | ❌ |
 
-### Platform Support
+</details>
+
+<details open>
+<summary><strong>Platform Support</strong></summary>
 
 | **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1608,7 +1732,10 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Amazon Chime](https://aws.amazon.com/chime/) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
 
-### Communication
+</details>
+
+<details open>
+<summary><strong>Communication</strong></summary>
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1619,7 +1746,10 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ † | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ † | ✅ |
 | [Amazon Chime](https://aws.amazon.com/chime/) | ✅ † | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ † | ✅ |
 
-### Moderation & Safety
+</details>
+
+<details open>
+<summary><strong>Moderation & Safety</strong></summary>
 
 | **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1630,7 +1760,10 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ⚠️ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ |
 | [Amazon Chime](https://aws.amazon.com/chime/) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-### Server & Admin
+</details>
+
+<details open>
+<summary><strong>Server & Admin</strong></summary>
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1641,7 +1774,10 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ | ❌ |
 | [Amazon Chime](https://aws.amazon.com/chime/) | ✅ | ⚠️ | ✅ | ✅ | ❌ | ⚠️ † | ❌ |
 
-### Channels & Content
+</details>
+
+<details open>
+<summary><strong>Channels & Content</strong></summary>
 
 | **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
 | --- | --- | --- | --- | --- | --- |
@@ -1652,7 +1788,10 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ † | ✅ † | ❌ | ✅ | ✅ |
 | [Amazon Chime](https://aws.amazon.com/chime/) | ❌ | ❌ | ❌ | ✅ | ✅ |
 
-### Community Tools
+</details>
+
+<details open>
+<summary><strong>Community Tools</strong></summary>
 
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1664,6 +1803,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Amazon Chime](https://aws.amazon.com/chime/) | ✅ † | ✅ | ❌ | ❌ | ⚠️ † | ❌ |
 
 </details>
+
 
 **† Notes**
 
@@ -1754,57 +1894,77 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 ## Protocols & Frameworks
 
 <details open>
-<summary><strong>View Protocols & Frameworks Comparison Table (1 platform)</strong></summary>
-
-### Privacy & Licensing
+<summary><strong>Privacy & Licensing</strong></summary>
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ✅ | ❌ † | ✅ | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❓ | ❓ |
 
-### Pricing
+</details>
+
+<details open>
+<summary><strong>Pricing</strong></summary>
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
 | --- | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ † |
 
-### Platform Support
+</details>
+
+<details open>
+<summary><strong>Platform Support</strong></summary>
 
 | **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ |
 
-### Communication
+</details>
+
+<details open>
+<summary><strong>Communication</strong></summary>
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
-### Moderation & Safety
+</details>
+
+<details open>
+<summary><strong>Moderation & Safety</strong></summary>
 
 | **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
 
-### Server & Admin
+</details>
+
+<details open>
+<summary><strong>Server & Admin</strong></summary>
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❌ |
 
-### Channels & Content
+</details>
+
+<details open>
+<summary><strong>Channels & Content</strong></summary>
 
 | **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
 | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ❓ | ❓ | ❓ | ❓ | ❓ |
 
-### Community Tools
+</details>
+
+<details open>
+<summary><strong>Community Tools</strong></summary>
 
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
 | --- | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
 
 </details>
+
 
 **† Notes**
 
