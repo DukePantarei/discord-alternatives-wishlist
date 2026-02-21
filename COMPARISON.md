@@ -34,6 +34,9 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 > 💡 A homeserver is required. You can use the free [matrix.org](https://matrix.org) server or self-host using [matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy).
 
+<details open>
+<summary><strong>View Matrix Clients Comparison Table (5 platforms)</strong></summary>
+
 ### Privacy & Licensing
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
@@ -56,13 +59,13 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 ### Platform Support
 
-| **Platform** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Mobile Device Hosting** |
-| --- | --- | --- | --- | --- | --- |
-| [Element](https://element.io) | ✅ | ❓ | ❓ | ✅ | ❌ |
-| [Cinny](https://cinny.in) | ✅ | ❓ | ❓ † | ✅ | ❌ |
-| [Commet](https://commet.chat) | ✅ | ❓ | ❓ † | ✅ | ❌ |
-| [FluffyChat](https://fluffychat.im) | ✅ | ❓ | ❓ | ✅ | ❌ |
-| [SchildiChat](https://schildi.chat) | ✅ | ❓ | ❓ | ✅ | ❌ |
+| **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Element](https://element.io) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| [Cinny](https://cinny.in) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ |
+| [Commet](https://commet.chat) | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ❌ |
+| [FluffyChat](https://fluffychat.im) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 
 ### Communication
 
@@ -114,6 +117,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [FluffyChat](https://fluffychat.im) | ✅ | ⚠️ | ❌ | ❌ | ❌ | ⚠️ † |
 | [SchildiChat](https://schildi.chat) | ✅ | ⚠️ | ❌ | ❌ | ❌ | ⚠️ † |
 
+</details>
 
 **† Notes**
 
@@ -195,6 +199,9 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 
 These platforms prioritize privacy and are open source, but run on a central server. Self-hosted instances exist but **cannot communicate with each other** — they are isolated, not federated.
 
+<details open>
+<summary><strong>View Privacy-Focused Centralized Comparison Table (9 platforms)</strong></summary>
+
 ### Privacy & Licensing
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
@@ -225,17 +232,17 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 ### Platform Support
 
-| **Platform** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Mobile Device Hosting** |
-| --- | --- | --- | --- | --- | --- |
-| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ❓ | ❓ † | ✅ | ❌ |
-| [Valour](https://valour.gg) | ✅ | ❓ † | ❓ † | ⚠️ † | ❌ |
-| [Nerimity](https://nerimity.com) | ✅ | ❓ | ❓ † | ✅ | ❌ |
-| [Kloak](https://kloak.app) | ✅ | ❓ † | ❓ | ❌ | ❌ |
-| [Blite Chat](https://blite.chat) | ✅ | ❓ † | ❓ | ✅ † | ❌ |
-| [Echoed](https://echoed.chat) | ✅ | ❓ | ❓ | ❌ | ❌ |
-| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ❓ | ❓ | ✅ | ❌ |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ⚠️ | ❌ |
-| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ |
+| [Valour](https://valour.gg) | ✅ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ † | ❌ |
+| [Nerimity](https://nerimity.com) | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ❌ |
+| [Kloak](https://kloak.app) | ✅ | ⚠️ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
+| [Blite Chat](https://blite.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ † | ❌ |
+| [Echoed](https://echoed.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ⚠️ | ❌ |
+| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
 ### Communication
 
@@ -307,6 +314,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❌ | ❌ | ❌ | ✅ † |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 
+</details>
 
 **† Notes**
 
@@ -424,6 +432,9 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 Designed primarily for self-hosting. Most require technical knowledge to deploy. None of these federate with each other.
 
+<details open>
+<summary><strong>View Self-Hosted Platforms Comparison Table (18 platforms)</strong></summary>
+
 ### Privacy & Licensing
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
@@ -472,26 +483,26 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 ### Platform Support
 
-| **Platform** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Mobile Device Hosting** |
-| --- | --- | --- | --- | --- | --- |
-| [Sharkord](https://sharkord.com) | ✅ | ❓ | ❓ | ✅ | ❌ |
-| [Spacebar](https://spacebar.chat) | ✅ | ❓ | ❓ | ✅ | ❌ |
-| [Fluxer](https://fluxer.app) | ✅ | ❓ | ❓ † | ⚠️ | ❌ |
-| [Loqa](https://loqa.chat) | ✅ | ❓ | ❓ | ✅ | ❌ |
-| [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ❓ | ❓ | ✅ | ❌ |
-| [Zulip](https://zulip.com) | ✅ | ❓ | ❓ | ✅ | ❌ |
-| [Rocket.Chat](https://rocket.chat) | ✅ | ❓ | ❓ | ✅ | ❌ |
-| [Mezon](https://mezon.ai) | ✅ | ❓ | ❓ | ✅ | ❌ |
-| [Nextcloud Talk](https://nextcloud.com/talk) | ✅ | ❓ | ❓ | ✅ | ❌ |
-| [Snikket](https://snikket.org) | ❌ | ❓ | ❓ † | ✅ | ❌ |
-| [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Databag](https://github.com/balzack/databag) | ✅ | ❓ | ❓ | ✅ | ❌ |
-| [Discourse](https://www.discourse.org) | ✅ | ❓ | ❓ | ✅ | ❌ |
-| [Mattermost](https://mattermost.com) | ✅ | ❓ | ❓ | ✅ | ❌ |
-| [Critterchat](https://github.com/DragonMinded/critterchat) | ✅ | ❓ | ❓ | ✅ | ❌ |
+| **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Sharkord](https://sharkord.com) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| [Spacebar](https://spacebar.chat) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| [Fluxer](https://fluxer.app) | ✅ | ❌ | ❌ | ❌ | ⚠️ | ⚠️ | ⚠️ | ❌ |
+| [Loqa](https://loqa.chat) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ |
+| [Zulip](https://zulip.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| [Rocket.Chat](https://rocket.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| [Mezon](https://mezon.ai) | ✅ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ✅ | ❌ |
+| [Nextcloud Talk](https://nextcloud.com/talk) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| [Snikket](https://snikket.org) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ |
+| [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Databag](https://github.com/balzack/databag) | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ |
+| [Discourse](https://www.discourse.org) | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ |
+| [Mattermost](https://mattermost.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| [Critterchat](https://github.com/DragonMinded/critterchat) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
 
 ### Communication
 
@@ -608,6 +619,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
 
+</details>
 
 **† Notes**
 
@@ -828,6 +840,9 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 Polished commercial products, included for completeness. Privacy policies and long-term direction may change. Discord is included here as the baseline for comparison.
 
+<details open>
+<summary><strong>View Commercial Alternatives Comparison Table (6 platforms)</strong></summary>
+
 ### Privacy & Licensing
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
@@ -852,14 +867,14 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 ### Platform Support
 
-| **Platform** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Mobile Device Hosting** |
-| --- | --- | --- | --- | --- | --- |
-| [Discord](https://discord.com) | ✅ | ❓ | ❓ | ❌ | ❌ |
-| [Root](https://rootapp.com) | ✅ | ❓ | ❓ | ❌ | ❌ |
-| [Telegram](https://telegram.org) | ✅ | ❓ | ❓ | ❌ | ❌ |
-| [GameVox](https://gamevox.com) | ✅ | ❓ | ❓ | ❌ | ❌ |
-| [Steam Chat](https://store.steampowered.com) | ✅ | ❓ | ❓ | ❌ | ❌ |
-| [Osmium](https://osmium.chat) | ✅ | ❓ | ❓ | ❌ | ❌ |
+| **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Discord](https://discord.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Root](https://rootapp.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Telegram](https://telegram.org) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [GameVox](https://gamevox.com) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Steam Chat](https://store.steampowered.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Osmium](https://osmium.chat) | ✅ | ✅ | ✅ | ✅ | ❓ | ❓ | ❌ | ❌ |
 
 ### Communication
 
@@ -916,6 +931,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ † |
 | [Osmium](https://osmium.chat) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
 
+</details>
 
 **† Notes**
 
@@ -1019,6 +1035,9 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 Included for historical context or specific use cases. Generally not recommended as full Discord replacements for casual communities.
 
+<details open>
+<summary><strong>View Legacy & Niche Comparison Table (14 platforms)</strong></summary>
+
 ### Privacy & Licensing
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
@@ -1059,22 +1078,22 @@ Included for historical context or specific use cases. Generally not recommended
 
 ### Platform Support
 
-| **Platform** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Mobile Device Hosting** |
-| --- | --- | --- | --- | --- | --- |
-| [TeamSpeak](https://teamspeak.com) | ❌ | ❓ | ❓ | ✅ | ❌ |
-| [Mumble](https://mumble.info) | ❌ | ❓ | ❓ | ✅ | ❌ |
-| [Signal](https://signal.org) | ⚠️ † | ❓ | ❓ | ❌ | ❌ |
-| [Skype](https://skype.com) | ✅ | ❓ | ❓ | ❌ | ❌ |
-| [SimpleX Chat](https://simplex.chat) | ❌ | ❓ | ❓ | ✅ | ❌ |
-| [Quiet](https://tryquiet.org) | ❌ | ❓ | ❓ | ❌ | ❌ |
-| [Campfire](https://basecamp.com/retired/campfire) | ✅ | ❓ | ❓ | ❌ | ❌ |
-| [Oldcord](https://oldcordapp.com) | ✅ | ❓ | ❓ | ✅ | ❌ |
-| [Jami](https://jami.net) | ⚠️ † | ❓ | ❓ | ❌ | ❌ |
-| [Gajim](https://gajim.org) | ❌ | ❓ | ❓ | ❌ | ❌ |
-| [Swift IM](https://swift.im) | ❌ | ❓ | ❓ † | ❌ | ❌ |
-| [Movim](https://movim.eu) | ✅ | ❓ | ❓ | ✅ | ❌ |
-| [Ventrilo](https://www.ventrilo.com) | ❌ | ❓ | ❓ | ❌ | ❌ |
-| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❌ |
+| **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [TeamSpeak](https://teamspeak.com) | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| [Mumble](https://mumble.info) | ❌ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ❌ |
+| [Signal](https://signal.org) | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Skype](https://skype.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [SimpleX Chat](https://simplex.chat) | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| [Quiet](https://tryquiet.org) | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Campfire](https://basecamp.com/retired/campfire) | ✅ | ⚠️ | ⚠️ | ⚠️ | ✅ | ✅ | ❌ | ❌ |
+| [Oldcord](https://oldcordapp.com) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ |
+| [Jami](https://jami.net) | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Gajim](https://gajim.org) | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Swift IM](https://swift.im) | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Movim](https://movim.eu) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| [Ventrilo](https://www.ventrilo.com) | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
 
 ### Communication
 
@@ -1171,6 +1190,7 @@ Included for historical context or specific use cases. Generally not recommended
 | [Ventrilo](https://www.ventrilo.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
 
+</details>
 
 **† Notes**
 
@@ -1350,6 +1370,9 @@ Included for historical context or specific use cases. Generally not recommended
 
 Platforms that are no longer active. Included for historical reference and feature comparison to show what was possible in the past.
 
+<details open>
+<summary><strong>View Discontinued Comparison Table (8 platforms)</strong></summary>
+
 ### Privacy & Licensing
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
@@ -1378,16 +1401,16 @@ Platforms that are no longer active. Included for historical reference and featu
 
 ### Platform Support
 
-| **Platform** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Mobile Device Hosting** |
-| --- | --- | --- | --- | --- | --- |
-| [Guilded (discontinued)](https://guilded.gg) | ✅ | ❓ | ❓ | ❌ | ❌ |
-| [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ❓ | ❓ | ❌ | ❌ |
-| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ⚠️ | ❓ | ❓ | ❌ | ❌ |
-| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ❌ | ❓ | ❓ | ❌ | ❌ |
-| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ❌ | ❓ | ❓ | ❌ | ❌ |
-| [Razer Comms](https://www.razer.com/) | ❌ | ❓ | ❓ | ❌ | ❌ |
-| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❓ | ❓ | ❌ | ❌ |
-| [TeaSpeak](https://github.com/TeaSpeak) | ✅ † | ❓ | ❓ | ✅ | ❌ |
+| **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Guilded (discontinued)](https://guilded.gg) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Roger Wilco](https://en.wikipedia.org/wiki/Roger_Wilco_(software)) | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Xfire](https://en.wikipedia.org/wiki/Xfire) | ⚠️ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [RaidCall](https://en.wikipedia.org/wiki/RaidCall) | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Dolby Axon](https://en.wikipedia.org/wiki/Dolby_Axon) | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Razer Comms](https://www.razer.com/) | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [TeaSpeak](https://github.com/TeaSpeak) | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ |
 
 ### Communication
 
@@ -1454,6 +1477,7 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ † |
 | [TeaSpeak](https://github.com/TeaSpeak) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
+</details>
 
 **† Notes**
 
@@ -1548,6 +1572,9 @@ Platforms that are no longer active. Included for historical reference and featu
 
 Team collaboration tools designed for businesses. NOT Discord alternatives — included for completeness as they appear in comparison lists.
 
+<details open>
+<summary><strong>View Business Productivity Comparison Table (6 platforms)</strong></summary>
+
 ### Privacy & Licensing
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
@@ -1572,14 +1599,14 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 ### Platform Support
 
-| **Platform** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Mobile Device Hosting** |
-| --- | --- | --- | --- | --- | --- |
-| [Pumble](https://pumble.com) | ✅ | ❓ | ❓ | ❌ | ❌ |
-| [Chanty](https://chanty.com) | ✅ | ❓ † | ❓ | ❌ | ❌ |
-| [Virola](https://virola.io) | ✅ | ❓ | ❓ | ❓ | ❌ |
-| [Slack](https://slack.com) | ✅ | ❓ | ❓ | ❌ | ❌ |
-| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ❓ | ❓ | ❌ | ❌ |
-| [Amazon Chime](https://aws.amazon.com/chime/) | ✅ | ❓ | ❓ | ❌ | ❌ |
+| **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Pumble](https://pumble.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Chanty](https://chanty.com) | ✅ | ⚠️ | ⚠️ | ⚠️ | ✅ | ✅ | ❌ | ❌ |
+| [Virola](https://virola.io) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❓ | ❌ |
+| [Slack](https://slack.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| [Amazon Chime](https://aws.amazon.com/chime/) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
 
 ### Communication
 
@@ -1636,6 +1663,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ✅ | ❌ | ❌ | ✅ † | ❌ |
 | [Amazon Chime](https://aws.amazon.com/chime/) | ✅ † | ✅ | ❌ | ❌ | ⚠️ † | ❌ |
 
+</details>
 
 **† Notes**
 
@@ -1725,6 +1753,9 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 ## Protocols & Frameworks
 
+<details open>
+<summary><strong>View Protocols & Frameworks Comparison Table (1 platform)</strong></summary>
+
 ### Privacy & Licensing
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
@@ -1739,9 +1770,9 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 ### Platform Support
 
-| **Platform** | **Web App** | **Desktop App** | **Mobile App** | **Docker Install** | **Mobile Device Hosting** |
-| --- | --- | --- | --- | --- | --- |
-| [Polyproto](https://polyproto.io) | ❌ | ❓ | ❓ | ❓ | ❌ |
+| **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Polyproto](https://polyproto.io) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ |
 
 ### Communication
 
@@ -1773,6 +1804,7 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | --- | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
 
+</details>
 
 **† Notes**
 
