@@ -161,6 +161,7 @@ def build_category_table_grouped(platforms: list, features: list) -> list:
     """
     Build SEPARATE tables for each feature group.
     This avoids horizontal scrolling issues with one massive table.
+    Each table is wrapped in a collapsible <details> section.
     Returns a list of lines.
     """
     lines = []
@@ -170,8 +171,9 @@ def build_category_table_grouped(platforms: list, features: list) -> list:
     
     # Create one table per feature group
     for group_name, feature_keys in FEATURE_GROUPS.items():
-        # Group header
-        lines.append(f"### {group_name}")
+        # Wrap each table in collapsible details
+        lines.append("<details open>")
+        lines.append(f"<summary><strong>{group_name}</strong></summary>")
         lines.append("")
         
         # Table header
@@ -196,6 +198,8 @@ def build_category_table_grouped(platforms: list, features: list) -> list:
             
             lines.append("| " + " | ".join(row) + " |")
         
+        lines.append("")
+        lines.append("</details>")
         lines.append("")  # Blank line between tables
     
     return lines
@@ -307,15 +311,8 @@ def main():
             lines.append(desc)
             lines.append("")
 
-        # Wrap the table in collapsible details (like notes)
-        lines.append("<details open>")
-        lines.append(f"<summary><strong>View {category} Comparison Table ({len(cat_platforms)} platform{'s' if len(cat_platforms) != 1 else ''})</strong></summary>")
-        lines.append("")
-        
-        # The table with GROUPED HEADERS
+        # The table with GROUPED HEADERS (each group is now collapsible)
         lines += build_category_table_grouped(cat_platforms, features)
-        
-        lines.append("</details>")
         lines.append("")
 
         # Notes for this category (collapsible sections)
