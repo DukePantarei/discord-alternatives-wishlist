@@ -32,6 +32,14 @@ The controversy went beyond Discord's voluntary policy. Age verification vendor 
 - k-ID may lack bandwidth for a global rollout affecting 200M+ users
 - Discord could easily switch back to Persona or adopt another vendor later
 
+**The "trusted partners" problem:** Discord repeatedly refers to age verification vendors as **"trusted partners."** But users never chose these partners — Discord did. Users are forced to trust:
+- **Persona** — Left frontend exposed, tracks extensive user metrics, backed by Peter Thiel
+- **k-ID** — Discord's current choice, users had no input
+- **Yoti** — Used in UK pilot, another third party handling sensitive data
+- **Any future vendor** Discord decides to use
+
+**The pattern:** These "trusted partners" are trusted by Discord's business interests (data collection, advertiser relationships), not by users' privacy interests. When breaches happen, users pay the price — not Discord, not the vendors. This is the fundamental problem with for-profit platforms: **the choice of vendors serves profit maximization, not user protection.**
+
 **The broader pattern:** Discord is increasingly advertiser-friendly, potentially preparing for an IPO or enhanced monetization. The platform has introduced in-app game microtransactions, expanded ad placements, and shows clear interest in data collection beyond what's necessary for chat functionality. Age verification vendors that track detailed user metrics align perfectly with this business direction.
 
 ---
