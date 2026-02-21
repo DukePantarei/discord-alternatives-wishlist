@@ -51,8 +51,11 @@ FEATURE_GROUPS = {
     ],
     "Platform Support": [
         "web_app",
-        "desktop_app",
-        "mobile_app",
+        "windows_app",
+        "macos_app",
+        "linux_app",
+        "android_app",
+        "ios_app",
         "docker_install",
         "mobile_hosting",
     ],
@@ -304,8 +307,15 @@ def main():
             lines.append(desc)
             lines.append("")
 
+        # Wrap the table in collapsible details (like notes)
+        lines.append("<details open>")
+        lines.append(f"<summary><strong>View {category} Comparison Table ({len(cat_platforms)} platform{'s' if len(cat_platforms) != 1 else ''})</strong></summary>")
+        lines.append("")
+        
         # The table with GROUPED HEADERS
         lines += build_category_table_grouped(cat_platforms, features)
+        
+        lines.append("</details>")
         lines.append("")
 
         # Notes for this category (collapsible sections)
