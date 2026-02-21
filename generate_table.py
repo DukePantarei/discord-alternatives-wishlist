@@ -245,14 +245,25 @@ def build_notes_for_feature_group(platforms: list, feature_keys: list) -> list:
 
 
 def build_toc(categories: list, grouped: dict) -> list:
-    """Build a table of contents linking to each category section."""
+    """Build a table of contents linking to each category section with platform lists."""
     lines = ["## Contents", ""]
     for category in categories:
         if not grouped.get(category):
             continue
         anchor = slugify(category)
         count  = len(grouped[category])
-        lines.append(f"- [{category}](#{anchor}) — {count} platform{'s' if count != 1 else ''}")
+        platform_names = [p['name'] for p in grouped[category]]
+        
+        # Format platform list
+        if count <= 5:
+            # For small categories, list all platforms inline
+            platform_list = ', '.join(platform_names)
+            lines.append(f"- **[{category}](#{anchor})** ({count}) — {platform_list}")
+        else:
+            # For large categories, show first 3 + "and X more"
+            shown = ', '.join(platform_names[:3])
+            remaining = count - 3
+            lines.append(f"- **[{category}](#{anchor})** ({count}) — {shown}, and {remaining} more")
     lines.append("")
     return lines
 
