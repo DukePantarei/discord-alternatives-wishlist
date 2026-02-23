@@ -50,13 +50,27 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 <summary><strong>† Feature Notes</strong></summary>
 
 **Element:**
+- *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
+- *Architecture:* Federated (Matrix protocol)
 - *Message Ttl:* Matrix protocol supports retention policies but implementation varies by homeserver and client
 - *Ai Features Or Training:* No built-in AI features. Self-hosted/federated means no centralized data collection for training.
 
+**Cinny:**
+- *Description:* A clean, simple Matrix client with a Discord-like aesthetic. Good for users who want Matrix without Element's complexity.
+- *Architecture:* Federated (Matrix protocol)
+
 **Commet:**
+- *Description:* Feature-rich Matrix client focused on casual communities. Closest to Discord in terms of features.
+- *Architecture:* Federated (Matrix protocol)
 - *Ai Features Or Training:* No built-in AI features. Federated Matrix client.
 
+**FluffyChat:**
+- *Description:* Beginner-friendly Matrix client with a focus on mobile and simplicity.
+- *Architecture:* Federated (Matrix protocol)
+
 **SchildiChat:**
+- *Description:* A Matrix client based on Element with a more Discord-like feel and additional quality-of-life features.
+- *Architecture:* Federated (Matrix protocol)
 - *Ai Features Or Training:* No built-in AI features. Federated Matrix client.
 
 </details>
@@ -78,7 +92,25 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 <summary><strong>† Feature Notes</strong></summary>
 
 **Element:**
+- *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
+- *Architecture:* Federated (Matrix protocol)
 - *Self Hosting License:* Synapse server is open source (Apache 2.0), freely self-hostable
+
+**Cinny:**
+- *Description:* A clean, simple Matrix client with a Discord-like aesthetic. Good for users who want Matrix without Element's complexity.
+- *Architecture:* Federated (Matrix protocol)
+
+**Commet:**
+- *Description:* Feature-rich Matrix client focused on casual communities. Closest to Discord in terms of features.
+- *Architecture:* Federated (Matrix protocol)
+
+**FluffyChat:**
+- *Description:* Beginner-friendly Matrix client with a focus on mobile and simplicity.
+- *Architecture:* Federated (Matrix protocol)
+
+**SchildiChat:**
+- *Description:* A Matrix client based on Element with a more Discord-like feel and additional quality-of-life features.
+- *Architecture:* Federated (Matrix protocol)
 
 </details>
 
@@ -94,6 +126,31 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [Commet](https://commet.chat) | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ❌ |
 | [FluffyChat](https://fluffychat.im) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | [SchildiChat](https://schildi.chat) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Element:**
+- *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
+- *Architecture:* Federated (Matrix protocol)
+
+**Cinny:**
+- *Description:* A clean, simple Matrix client with a Discord-like aesthetic. Good for users who want Matrix without Element's complexity.
+- *Architecture:* Federated (Matrix protocol)
+
+**Commet:**
+- *Description:* Feature-rich Matrix client focused on casual communities. Closest to Discord in terms of features.
+- *Architecture:* Federated (Matrix protocol)
+
+**FluffyChat:**
+- *Description:* Beginner-friendly Matrix client with a focus on mobile and simplicity.
+- *Architecture:* Federated (Matrix protocol)
+
+**SchildiChat:**
+- *Description:* A Matrix client based on Element with a more Discord-like feel and additional quality-of-life features.
+- *Architecture:* Federated (Matrix protocol)
+
+</details>
 
 </details>
 
@@ -112,19 +169,31 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 <summary><strong>† Feature Notes</strong></summary>
 
 **Element:**
+- *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
+- *Architecture:* Federated (Matrix protocol)
 - *Gif Embed Support:* Basic embed support, GIF picker limited
 - *Persistent Voice Channels:* MatrixRTC supports persistent voice rooms but experience varies by client
 
 **Cinny:**
+- *Description:* A clean, simple Matrix client with a Discord-like aesthetic. Good for users who want Matrix without Element's complexity.
+- *Architecture:* Federated (Matrix protocol)
 - *Voice Chat:* Not yet implemented — text-focused client
 - *Threads Forums:* Basic thread support, no forum channels
 
 **Commet:**
+- *Description:* Feature-rich Matrix client focused on casual communities. Closest to Discord in terms of features.
+- *Architecture:* Federated (Matrix protocol)
 - *Gif Embed Support:* GIF search proxied through Commet's servers to reduce tracking
 - *Voice Chat:* Uses MatrixRTC + LiveKit, scales well
 
 **FluffyChat:**
+- *Description:* Beginner-friendly Matrix client with a focus on mobile and simplicity.
+- *Architecture:* Federated (Matrix protocol)
 - *Voice Chat:* 1:1 calls supported, large voice channels limited
+
+**SchildiChat:**
+- *Description:* A Matrix client based on Element with a more Discord-like feel and additional quality-of-life features.
+- *Architecture:* Federated (Matrix protocol)
 
 </details>
 
@@ -145,15 +214,29 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 <summary><strong>† Feature Notes</strong></summary>
 
 **Element:**
+- *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
+- *Architecture:* Federated (Matrix protocol)
 - *Large Community Moderation:* Draupnir and Mjolnir bots provide moderation at scale but require setup
 - *Automod:* Requires Draupnir or Mjolnir moderation bot for advanced features
 - *Raid Protection:* Available via Draupnir/Mjolnir bots
 
+**Cinny:**
+- *Description:* A clean, simple Matrix client with a Discord-like aesthetic. Good for users who want Matrix without Element's complexity.
+- *Architecture:* Federated (Matrix protocol)
+
 **Commet:**
+- *Description:* Feature-rich Matrix client focused on casual communities. Closest to Discord in terms of features.
+- *Architecture:* Federated (Matrix protocol)
 - *Automod:* Requires Draupnir or Mjolnir moderation bot for advanced features
 - *Raid Protection:* Available via Draupnir/Mjolnir bots
 
+**FluffyChat:**
+- *Description:* Beginner-friendly Matrix client with a focus on mobile and simplicity.
+- *Architecture:* Federated (Matrix protocol)
+
 **SchildiChat:**
+- *Description:* A Matrix client based on Element with a more Discord-like feel and additional quality-of-life features.
+- *Architecture:* Federated (Matrix protocol)
 - *Automod:* Requires Draupnir or Mjolnir moderation bot for advanced features
 - *Raid Protection:* Available via Draupnir/Mjolnir bots
 
@@ -176,11 +259,27 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 <summary><strong>† Feature Notes</strong></summary>
 
 **Element:**
+- *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
+- *Architecture:* Federated (Matrix protocol)
 - *Role Management:* Uses Matrix power levels rather than named roles — functional but less intuitive than Discord
 - *Invite Links Guest Access:* Guest access exists in Matrix protocol but inconsistently surfaced in UI Invite workflow is complex — each user must be invited to each channel individually, not just to the space/server
 - *Admin Gui:* Element Admin and Synapse-Admin available separately UI described as confusing and difficult for average users — security features add UX friction
 
+**Cinny:**
+- *Description:* A clean, simple Matrix client with a Discord-like aesthetic. Good for users who want Matrix without Element's complexity.
+- *Architecture:* Federated (Matrix protocol)
+
+**Commet:**
+- *Description:* Feature-rich Matrix client focused on casual communities. Closest to Discord in terms of features.
+- *Architecture:* Federated (Matrix protocol)
+
+**FluffyChat:**
+- *Description:* Beginner-friendly Matrix client with a focus on mobile and simplicity.
+- *Architecture:* Federated (Matrix protocol)
+
 **SchildiChat:**
+- *Description:* A Matrix client based on Element with a more Discord-like feel and additional quality-of-life features.
+- *Architecture:* Federated (Matrix protocol)
 - *Role Management:* Inherits Element's power levels system
 - *Admin Gui:* Inherits Element Admin support
 
@@ -199,6 +298,31 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 | [FluffyChat](https://fluffychat.im) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [SchildiChat](https://schildi.chat) | ❌ | ❌ | ❌ | ❌ | ❌ |
 
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Element:**
+- *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
+- *Architecture:* Federated (Matrix protocol)
+
+**Cinny:**
+- *Description:* A clean, simple Matrix client with a Discord-like aesthetic. Good for users who want Matrix without Element's complexity.
+- *Architecture:* Federated (Matrix protocol)
+
+**Commet:**
+- *Description:* Feature-rich Matrix client focused on casual communities. Closest to Discord in terms of features.
+- *Architecture:* Federated (Matrix protocol)
+
+**FluffyChat:**
+- *Description:* Beginner-friendly Matrix client with a focus on mobile and simplicity.
+- *Architecture:* Federated (Matrix protocol)
+
+**SchildiChat:**
+- *Description:* A Matrix client based on Element with a more Discord-like feel and additional quality-of-life features.
+- *Architecture:* Federated (Matrix protocol)
+
+</details>
+
 </details>
 
 <details>
@@ -216,20 +340,30 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 <summary><strong>† Feature Notes</strong></summary>
 
 **Element:**
+- *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
+- *Architecture:* Federated (Matrix protocol)
 - *Webhooks:* Possible via bridges but no native simple webhook URL
 - *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
 
 **Cinny:**
+- *Description:* A clean, simple Matrix client with a Discord-like aesthetic. Good for users who want Matrix without Element's complexity.
+- *Architecture:* Federated (Matrix protocol)
 - *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
 
 **Commet:**
+- *Description:* Feature-rich Matrix client focused on casual communities. Closest to Discord in terms of features.
+- *Architecture:* Federated (Matrix protocol)
 - *Raid Planner:* Event scheduling exists — dedicated raid planning tools not yet available
 - *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
 
 **FluffyChat:**
+- *Description:* Beginner-friendly Matrix client with a focus on mobile and simplicity.
+- *Architecture:* Federated (Matrix protocol)
 - *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
 
 **SchildiChat:**
+- *Description:* A Matrix client based on Element with a more Discord-like feel and additional quality-of-life features.
+- *Architecture:* Federated (Matrix protocol)
 - *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
 
 </details>
@@ -266,6 +400,8 @@ These platforms prioritize privacy and are open source, but run on a central ser
 <summary><strong>† Feature Notes</strong></summary>
 
 **Stoat (formerly Revolt):**
+- *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
+- *Architecture:* Centralized (self-hostable but not federated)
 - *E2E Encryption:* E2EE for DMs is planned but not yet released
 - *Federated:* Each Stoat server is isolated. Separate accounts needed per server. No portable identity.
 - *Ai Features Or Training:* No AI features currently
@@ -273,9 +409,17 @@ These platforms prioritize privacy and are open source, but run on a central ser
 - *Self Hostable:* Available but not prominently documented. See: https://github.com/stoatchat/self-hosted
 
 **Valour:**
+- *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
+- *Architecture:* Centralized (self-hostable but not federated)
 - *Self Hostable:* Planned 'coming soon' but not available as of Feb 2026
 
+**Nerimity:**
+- *Description:* Open-source Discord alternative with a clean interface. Primarily centralized hosting model.
+- *Architecture:* Centralized
+
 **Blite Chat:**
+- *Description:* Open-source E2EE messaging with Discord-style servers, channels, voice/video. Server operator cannot read messages. Self-hostable with minimal requirements (512MB RAM for text, more for voice/video).
+- *Architecture:* Self-hosted, open source
 - *E2E Encryption:* X3DH key agreement + symmetric ratchet for DMs. Sender Keys (Signal protocol) for group channels. AES-128-GCM for voice/video via mediasoup SFU. Server sees only ciphertext.
 - *Self Hostable:* Lite mode: text only, 512MB RAM. Full mode: voice/video, requires UDP 40000-40100 open. SQLite, no external dependencies. Works with nginx/Traefik/Caddy or included Caddy for auto-HTTPS.
 - *Open Source:* MIT licensed. Single large initial commit (developed privately, cleaned for open source release). Built heavily with AI assistance (Claude).
@@ -283,12 +427,28 @@ These platforms prioritize privacy and are open source, but run on a central ser
 - *Ai Generated Codebase:* Explicitly states 'Built heavily with AI assistance (Claude)' in documentation. Single large initial commit suggests AI-generated codebase cleaned for release.
 
 **Echoed:**
+- *Description:* Privacy-focused messaging (details limited). 40 features documented in community sheet.
+- *Architecture:* Centralized, closed source
 - *Ai Generated Codebase:* Backend coded from scratch. Frontend has 'bits and pieces' of AI assistance but not vibe-coded.
 
 **Voltage (VoltChat):**
+- *Description:* Federated, open chat platform. Very new project with limited public information and strong indicators of AI-generated codebase.
+- *Architecture:* Federated (claimed), centralized instances
 - *Ai Generated Codebase:* Developer clarification: Partial AI usage (homepage + some bug patches). All AI code is audited and security-reviewed before commit. Project is spiritual successor to Enclica Messenger (pre-2020). Solo developer using AI as efficiency tool, not primary development method.
 - *Open Source:* GitHub repos available. Project has history through Enclica Messenger predecessor.
 - *Self Hostable:* Self-hostable with setup scripts provided.
+
+**Session:**
+- *Description:* End-to-end encrypted messenger built on onion-routed privacy network. More like Signal than Discord - not designed for large community servers.
+- *Architecture:* Centralized with decentralized routing
+
+**RetroShare:**
+- *Description:* Open source, decentralized P2P platform for encrypted chat, voice/video calls, anonymous file sharing with swarming, censorship-resistant forums, and offline messaging.
+- *Architecture:* Peer-to-peer (P2P)
+
+**0xchat:**
+- *Description:* Secure chat app built on Nostr protocol with private key login, encrypted private chats and contacts, encrypted group chats.
+- *Architecture:* Decentralized (Nostr protocol)
 
 </details>
 
@@ -308,6 +468,47 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Session](https://getsession.org) | ✅ | ✅ | ❓ | ❓ | ❓ | ❌ |
 | [RetroShare](https://retroshare.cc) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [0xchat](https://0xchat.com) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Stoat (formerly Revolt):**
+- *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
+- *Architecture:* Centralized (self-hostable but not federated)
+
+**Valour:**
+- *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
+- *Architecture:* Centralized (self-hostable but not federated)
+
+**Nerimity:**
+- *Description:* Open-source Discord alternative with a clean interface. Primarily centralized hosting model.
+- *Architecture:* Centralized
+
+**Blite Chat:**
+- *Description:* Open-source E2EE messaging with Discord-style servers, channels, voice/video. Server operator cannot read messages. Self-hostable with minimal requirements (512MB RAM for text, more for voice/video).
+- *Architecture:* Self-hosted, open source
+
+**Echoed:**
+- *Description:* Privacy-focused messaging (details limited). 40 features documented in community sheet.
+- *Architecture:* Centralized, closed source
+
+**Voltage (VoltChat):**
+- *Description:* Federated, open chat platform. Very new project with limited public information and strong indicators of AI-generated codebase.
+- *Architecture:* Federated (claimed), centralized instances
+
+**Session:**
+- *Description:* End-to-end encrypted messenger built on onion-routed privacy network. More like Signal than Discord - not designed for large community servers.
+- *Architecture:* Centralized with decentralized routing
+
+**RetroShare:**
+- *Description:* Open source, decentralized P2P platform for encrypted chat, voice/video calls, anonymous file sharing with swarming, censorship-resistant forums, and offline messaging.
+- *Architecture:* Peer-to-peer (P2P)
+
+**0xchat:**
+- *Description:* Secure chat app built on Nostr protocol with private key login, encrypted private chats and contacts, encrypted group chats.
+- *Architecture:* Decentralized (Nostr protocol)
+
+</details>
 
 </details>
 
@@ -329,11 +530,43 @@ These platforms prioritize privacy and are open source, but run on a central ser
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**Stoat (formerly Revolt):**
+- *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
+- *Architecture:* Centralized (self-hostable but not federated)
+
 **Valour:**
+- *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
+- *Architecture:* Centralized (self-hostable but not federated)
 - *Docker Install:* Partial — setup more complex than other platforms
 
+**Nerimity:**
+- *Description:* Open-source Discord alternative with a clean interface. Primarily centralized hosting model.
+- *Architecture:* Centralized
+
 **Blite Chat:**
+- *Description:* Open-source E2EE messaging with Discord-style servers, channels, voice/video. Server operator cannot read messages. Self-hostable with minimal requirements (512MB RAM for text, more for voice/video).
+- *Architecture:* Self-hosted, open source
 - *Docker Install:* bash setup.sh provides automated setup
+
+**Echoed:**
+- *Description:* Privacy-focused messaging (details limited). 40 features documented in community sheet.
+- *Architecture:* Centralized, closed source
+
+**Voltage (VoltChat):**
+- *Description:* Federated, open chat platform. Very new project with limited public information and strong indicators of AI-generated codebase.
+- *Architecture:* Federated (claimed), centralized instances
+
+**Session:**
+- *Description:* End-to-end encrypted messenger built on onion-routed privacy network. More like Signal than Discord - not designed for large community servers.
+- *Architecture:* Centralized with decentralized routing
+
+**RetroShare:**
+- *Description:* Open source, decentralized P2P platform for encrypted chat, voice/video calls, anonymous file sharing with swarming, censorship-resistant forums, and offline messaging.
+- *Architecture:* Peer-to-peer (P2P)
+
+**0xchat:**
+- *Description:* Secure chat app built on Nostr protocol with private key login, encrypted private chats and contacts, encrypted group chats.
+- *Architecture:* Decentralized (Nostr protocol)
 
 </details>
 
@@ -358,16 +591,46 @@ These platforms prioritize privacy and are open source, but run on a central ser
 <summary><strong>† Feature Notes</strong></summary>
 
 **Stoat (formerly Revolt):**
+- *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
+- *Architecture:* Centralized (self-hostable but not federated)
 - *Screen Sharing:* Screen sharing has never been supported
 - *Voice Chat:* Voice channels currently non-functional due to infrastructure migration (Feb 2026)
 - *Video Chat:* Video chat has never been supported
 
 **Valour:**
+- *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
+- *Architecture:* Centralized (self-hostable but not federated)
 - *Voice Chat:* Planned but requires funding to implement
 
+**Nerimity:**
+- *Description:* Open-source Discord alternative with a clean interface. Primarily centralized hosting model.
+- *Architecture:* Centralized
+
 **Blite Chat:**
+- *Description:* Open-source E2EE messaging with Discord-style servers, channels, voice/video. Server operator cannot read messages. Self-hostable with minimal requirements (512MB RAM for text, more for voice/video).
+- *Architecture:* Self-hosted, open source
 - *Voice Chat:* E2EE voice via mediasoup SFU with AES-128-GCM encryption
 - *Video Chat:* E2EE video via mediasoup SFU with AES-128-GCM encryption
+
+**Echoed:**
+- *Description:* Privacy-focused messaging (details limited). 40 features documented in community sheet.
+- *Architecture:* Centralized, closed source
+
+**Voltage (VoltChat):**
+- *Description:* Federated, open chat platform. Very new project with limited public information and strong indicators of AI-generated codebase.
+- *Architecture:* Federated (claimed), centralized instances
+
+**Session:**
+- *Description:* End-to-end encrypted messenger built on onion-routed privacy network. More like Signal than Discord - not designed for large community servers.
+- *Architecture:* Centralized with decentralized routing
+
+**RetroShare:**
+- *Description:* Open source, decentralized P2P platform for encrypted chat, voice/video calls, anonymous file sharing with swarming, censorship-resistant forums, and offline messaging.
+- *Architecture:* Peer-to-peer (P2P)
+
+**0xchat:**
+- *Description:* Secure chat app built on Nostr protocol with private key login, encrypted private chats and contacts, encrypted group chats.
+- *Architecture:* Decentralized (Nostr protocol)
 
 </details>
 
@@ -387,6 +650,47 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [0xchat](https://0xchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Stoat (formerly Revolt):**
+- *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
+- *Architecture:* Centralized (self-hostable but not federated)
+
+**Valour:**
+- *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
+- *Architecture:* Centralized (self-hostable but not federated)
+
+**Nerimity:**
+- *Description:* Open-source Discord alternative with a clean interface. Primarily centralized hosting model.
+- *Architecture:* Centralized
+
+**Blite Chat:**
+- *Description:* Open-source E2EE messaging with Discord-style servers, channels, voice/video. Server operator cannot read messages. Self-hostable with minimal requirements (512MB RAM for text, more for voice/video).
+- *Architecture:* Self-hosted, open source
+
+**Echoed:**
+- *Description:* Privacy-focused messaging (details limited). 40 features documented in community sheet.
+- *Architecture:* Centralized, closed source
+
+**Voltage (VoltChat):**
+- *Description:* Federated, open chat platform. Very new project with limited public information and strong indicators of AI-generated codebase.
+- *Architecture:* Federated (claimed), centralized instances
+
+**Session:**
+- *Description:* End-to-end encrypted messenger built on onion-routed privacy network. More like Signal than Discord - not designed for large community servers.
+- *Architecture:* Centralized with decentralized routing
+
+**RetroShare:**
+- *Description:* Open source, decentralized P2P platform for encrypted chat, voice/video calls, anonymous file sharing with swarming, censorship-resistant forums, and offline messaging.
+- *Architecture:* Peer-to-peer (P2P)
+
+**0xchat:**
+- *Description:* Secure chat app built on Nostr protocol with private key login, encrypted private chats and contacts, encrypted group chats.
+- *Architecture:* Decentralized (Nostr protocol)
+
+</details>
 
 </details>
 
@@ -409,7 +713,41 @@ These platforms prioritize privacy and are open source, but run on a central ser
 <summary><strong>† Feature Notes</strong></summary>
 
 **Stoat (formerly Revolt):**
+- *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
+- *Architecture:* Centralized (self-hostable but not federated)
 - *Bridges:* Community bridges for Discord and Telegram only. NOT supported by Matterbridge.
+
+**Valour:**
+- *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
+- *Architecture:* Centralized (self-hostable but not federated)
+
+**Nerimity:**
+- *Description:* Open-source Discord alternative with a clean interface. Primarily centralized hosting model.
+- *Architecture:* Centralized
+
+**Blite Chat:**
+- *Description:* Open-source E2EE messaging with Discord-style servers, channels, voice/video. Server operator cannot read messages. Self-hostable with minimal requirements (512MB RAM for text, more for voice/video).
+- *Architecture:* Self-hosted, open source
+
+**Echoed:**
+- *Description:* Privacy-focused messaging (details limited). 40 features documented in community sheet.
+- *Architecture:* Centralized, closed source
+
+**Voltage (VoltChat):**
+- *Description:* Federated, open chat platform. Very new project with limited public information and strong indicators of AI-generated codebase.
+- *Architecture:* Federated (claimed), centralized instances
+
+**Session:**
+- *Description:* End-to-end encrypted messenger built on onion-routed privacy network. More like Signal than Discord - not designed for large community servers.
+- *Architecture:* Centralized with decentralized routing
+
+**RetroShare:**
+- *Description:* Open source, decentralized P2P platform for encrypted chat, voice/video calls, anonymous file sharing with swarming, censorship-resistant forums, and offline messaging.
+- *Architecture:* Peer-to-peer (P2P)
+
+**0xchat:**
+- *Description:* Secure chat app built on Nostr protocol with private key login, encrypted private chats and contacts, encrypted group chats.
+- *Architecture:* Decentralized (Nostr protocol)
 
 </details>
 
@@ -430,6 +768,47 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [RetroShare](https://retroshare.cc) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [0xchat](https://0xchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ |
 
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Stoat (formerly Revolt):**
+- *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
+- *Architecture:* Centralized (self-hostable but not federated)
+
+**Valour:**
+- *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
+- *Architecture:* Centralized (self-hostable but not federated)
+
+**Nerimity:**
+- *Description:* Open-source Discord alternative with a clean interface. Primarily centralized hosting model.
+- *Architecture:* Centralized
+
+**Blite Chat:**
+- *Description:* Open-source E2EE messaging with Discord-style servers, channels, voice/video. Server operator cannot read messages. Self-hostable with minimal requirements (512MB RAM for text, more for voice/video).
+- *Architecture:* Self-hosted, open source
+
+**Echoed:**
+- *Description:* Privacy-focused messaging (details limited). 40 features documented in community sheet.
+- *Architecture:* Centralized, closed source
+
+**Voltage (VoltChat):**
+- *Description:* Federated, open chat platform. Very new project with limited public information and strong indicators of AI-generated codebase.
+- *Architecture:* Federated (claimed), centralized instances
+
+**Session:**
+- *Description:* End-to-end encrypted messenger built on onion-routed privacy network. More like Signal than Discord - not designed for large community servers.
+- *Architecture:* Centralized with decentralized routing
+
+**RetroShare:**
+- *Description:* Open source, decentralized P2P platform for encrypted chat, voice/video calls, anonymous file sharing with swarming, censorship-resistant forums, and offline messaging.
+- *Architecture:* Peer-to-peer (P2P)
+
+**0xchat:**
+- *Description:* Secure chat app built on Nostr protocol with private key login, encrypted private chats and contacts, encrypted group chats.
+- *Architecture:* Decentralized (Nostr protocol)
+
+</details>
+
 </details>
 
 <details>
@@ -446,6 +825,47 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [0xchat](https://0xchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Stoat (formerly Revolt):**
+- *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
+- *Architecture:* Centralized (self-hostable but not federated)
+
+**Valour:**
+- *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
+- *Architecture:* Centralized (self-hostable but not federated)
+
+**Nerimity:**
+- *Description:* Open-source Discord alternative with a clean interface. Primarily centralized hosting model.
+- *Architecture:* Centralized
+
+**Blite Chat:**
+- *Description:* Open-source E2EE messaging with Discord-style servers, channels, voice/video. Server operator cannot read messages. Self-hostable with minimal requirements (512MB RAM for text, more for voice/video).
+- *Architecture:* Self-hosted, open source
+
+**Echoed:**
+- *Description:* Privacy-focused messaging (details limited). 40 features documented in community sheet.
+- *Architecture:* Centralized, closed source
+
+**Voltage (VoltChat):**
+- *Description:* Federated, open chat platform. Very new project with limited public information and strong indicators of AI-generated codebase.
+- *Architecture:* Federated (claimed), centralized instances
+
+**Session:**
+- *Description:* End-to-end encrypted messenger built on onion-routed privacy network. More like Signal than Discord - not designed for large community servers.
+- *Architecture:* Centralized with decentralized routing
+
+**RetroShare:**
+- *Description:* Open source, decentralized P2P platform for encrypted chat, voice/video calls, anonymous file sharing with swarming, censorship-resistant forums, and offline messaging.
+- *Architecture:* Peer-to-peer (P2P)
+
+**0xchat:**
+- *Description:* Secure chat app built on Nostr protocol with private key login, encrypted private chats and contacts, encrypted group chats.
+- *Architecture:* Decentralized (Nostr protocol)
+
+</details>
 
 </details>
 
@@ -486,11 +906,15 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 <summary><strong>† Feature Notes</strong></summary>
 
 **Spacebar:**
+- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
+- *Architecture:* Self-hosted, Discord API compatible
 - *E2E Encryption:* TLS transport encryption only
 - *Ai Features Or Training:* No AI features currently
 - *Ai Generated Codebase:* Explicitly bans AI code: 'AI code due to not being GPLv3 compatible is not allowed in this repo'
 
 **Fluxer:**
+- *Description:* Open-source self-hosted chat platform (AGPL licensed).
+- *Architecture:* Self-hosted
 - *E2E Encryption:* Roadmap 2026: Opt-in 'secret chats' (ephemeral, E2EE sessions). No plans for full-platform E2EE. LiveKit supports E2EE for calls but not yet implemented.
 - *Self Hostable:* Self-hosting not recommended at this time — documentation and support coming soon
 - *Open Source:* AGPLv3 + CLA. CLA allows commercial licensing for companies wanting to run internally without copyleft. Committed to no paywalled features or forced upgrades.
@@ -499,44 +923,80 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *Ai Generated Codebase:* Developer uses LLMs as a 'rubber duck' debugging tool but writes all code personally. See: https://blog.fluxer.app/how-i-built-fluxer-a-discord-like-chat-app/
 
 **Loqa:**
+- *Description:* Open-source, self-hosted platform with E2EE DMs and zero telemetry.
+- *Architecture:* Self-hosted
 - *E2E Encryption:* E2EE for DMs only, not group channels
 
 **DCTS:**
+- *Description:* Community-driven, self-hosted chat platform.
+- *Architecture:* Self-hosted
 - *E2E Encryption:* TLS transport encryption only
 
 **Zulip:**
+- *Description:* Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.
+- *Architecture:* Self-hosted or cloud-hosted
 - *Message Ttl:* Configurable message retention policies per stream
 - *Ai Features Or Training:* No built-in AI features. Self-hosted option means user controls data.
 - *Ai Generated Codebase:* Strict AI policy: permits AI assistance but STRICTLY disallows AI commits with zero oversight. See: https://github.com/zulip/zulip/blob/main/CONTRIBUTING.md
 - *E2E Encryption:* E2EE ONLY for push notification content. Messages stored as plaintext in PostgreSQL.
 
 **Rocket.Chat:**
+- *Description:* Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users — significant limitation for large communities.
+- *Architecture:* Self-hosted or cloud-hosted
 - *Federated:* Matrix federation bridge available but not native
 - *Message Ttl:* Configurable message retention per room
 - *Ai Features Or Training:* AI chatbot integrations available via marketplace
 - *Ai Generated Codebase:* Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code.
 
+**Mezon:**
+- *Description:* Open-source Discord-like platform. Self-hostable with Docker. Less mature than Rocket.Chat/Zulip.
+- *Architecture:* Self-hosted, open source
+
 **Nextcloud Talk:**
+- *Description:* Audio/video/chat app integrated into Nextcloud self-hosted cloud platform. Part of larger file sync/collaboration suite. Not standalone Discord alternative — requires full Nextcloud.
+- *Architecture:* Self-hosted, open source (part of Nextcloud)
 - *Federated:* Federation across Nextcloud instances for group chats and calls
 - *E2E Encryption:* E2EE for calls. Messages not E2EE by default.
 
+**Snikket:**
+- *Description:* Pre-configured XMPP server package. Easier to deploy than raw XMPP/Prosody. Designed for non-technical users to self-host messaging.
+- *Architecture:* Self-hosted XMPP, open source
+
 **Databag:**
+- *Description:* Tiny self-hosted federated messenger. Topic-based threads (not contact-based). Can run on Raspberry Pi Zero. Public-private key identity.
+- *Architecture:* Self-hosted, federated, open source
 - *E2E Encryption:* Optional 'sealed topics' provide E2EE. Default unsealed to allow server-side features (streaming, processing). Admin cannot view sealed topics.
 - *Federated:* Accounts on different Databag nodes can communicate. Federation protocol is Databag-specific, not Matrix/XMPP.
 
 **Discourse:**
+- *Description:* ⚠️ FORUM SOFTWARE, NOT CHAT: Modern forum platform. Some try to use as Discord replacement - this is a category error. Best for async, long-form discussion.
+- *Architecture:* Self-hosted, open source (GPL-2.0)
 - *Ai Features Or Training:* No built-in AI features. Self-hosted forum software.
 - *Ai Generated Codebase:* Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code.
 
 **Mattermost:**
+- *Description:* Open-source Slack alternative for teams. Self-hosted, E2EE voice/video (Beta), extensive integrations, mobile apps.
+- *Architecture:* Self-hosted, open source (AGPL-3.0 / Enterprise: proprietary)
 - *E2E Encryption:* E2EE voice/video in beta. Messages encrypted in transit and at rest but not E2EE by default
 - *Ai Features Or Training:* AI plugin framework available, Microsoft Copilot integration planned
 
 **Critterchat:**
+- *Description:* Self-hosted web chat providing Discord-like channels, group chat, and DMs. Focus on ease of use over encryption. Federation support planned.
+- *Architecture:* Self-hosted only
 - *Ai Generated Codebase:* Explicitly states: 'Not built with, enabled by or integrated with any generative AI.'
 - *Federated:* Federation between instances planned but not yet implemented (FEDERATION.md exists)
 
+**Strafe:**
+- *Description:* Open source encrypted chat platform with E2EE messaging, markdown support, file sharing, self-hosting, voice/video calls, and no data tracking.
+- *Architecture:* Self-hosted (centralized per instance)
+
+**Common Ground:**
+- *Description:* Browser-based, open-source social platform for communities built as a robust alternative to Discord.
+- *Architecture:* Self-hosted (centralized per instance)
+
 **Conduit:**
+- *Description:* Lightweight Matrix homeserver written in Rust - simple, fast, and reliable alternative to Synapse for self-hosting.
+- *Architecture:* Self-hosted Matrix homeserver
 - *Self Hostable:* Lightweight Matrix homeserver - much easier to run than Synapse, works on Raspberry Pi
 
 </details>
@@ -568,16 +1028,74 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**Spacebar:**
+- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
+- *Architecture:* Self-hosted, Discord API compatible
+
+**Fluxer:**
+- *Description:* Open-source self-hosted chat platform (AGPL licensed).
+- *Architecture:* Self-hosted
+
+**Loqa:**
+- *Description:* Open-source, self-hosted platform with E2EE DMs and zero telemetry.
+- *Architecture:* Self-hosted
+
+**DCTS:**
+- *Description:* Community-driven, self-hosted chat platform.
+- *Architecture:* Self-hosted
+
+**Zulip:**
+- *Description:* Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.
+- *Architecture:* Self-hosted or cloud-hosted
+
 **Rocket.Chat:**
+- *Description:* Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users — significant limitation for large communities.
+- *Architecture:* Self-hosted or cloud-hosted
 - *Free To Use:* Free tier hard-capped at 50 users — must contact support to raise limit. Enterprise license required for larger deployments
 - *No Premium Tier:* Enterprise license required for voice/video and >50 users
 - *Freemium Limitations:* Cloud has message history limits, self-hosted is unlimited
 
+**Mezon:**
+- *Description:* Open-source Discord-like platform. Self-hostable with Docker. Less mature than Rocket.Chat/Zulip.
+- *Architecture:* Self-hosted, open source
+
 **Nextcloud Talk:**
+- *Description:* Audio/video/chat app integrated into Nextcloud self-hosted cloud platform. Part of larger file sync/collaboration suite. Not standalone Discord alternative — requires full Nextcloud.
+- *Architecture:* Self-hosted, open source (part of Nextcloud)
 - *No Premium Tier:* Core features free. High Performance Backend requires Nextcloud subscription for large calls.
 
+**Snikket:**
+- *Description:* Pre-configured XMPP server package. Easier to deploy than raw XMPP/Prosody. Designed for non-technical users to self-host messaging.
+- *Architecture:* Self-hosted XMPP, open source
+
+**Databag:**
+- *Description:* Tiny self-hosted federated messenger. Topic-based threads (not contact-based). Can run on Raspberry Pi Zero. Public-private key identity.
+- *Architecture:* Self-hosted, federated, open source
+
+**Discourse:**
+- *Description:* ⚠️ FORUM SOFTWARE, NOT CHAT: Modern forum platform. Some try to use as Discord replacement - this is a category error. Best for async, long-form discussion.
+- *Architecture:* Self-hosted, open source (GPL-2.0)
+
 **Mattermost:**
+- *Description:* Open-source Slack alternative for teams. Self-hosted, E2EE voice/video (Beta), extensive integrations, mobile apps.
+- *Architecture:* Self-hosted, open source (AGPL-3.0 / Enterprise: proprietary)
 - *No Premium Tier:* Free self-hosted version available, Enterprise adds compliance/auth features
+
+**Critterchat:**
+- *Description:* Self-hosted web chat providing Discord-like channels, group chat, and DMs. Focus on ease of use over encryption. Federation support planned.
+- *Architecture:* Self-hosted only
+
+**Strafe:**
+- *Description:* Open source encrypted chat platform with E2EE messaging, markdown support, file sharing, self-hosting, voice/video calls, and no data tracking.
+- *Architecture:* Self-hosted (centralized per instance)
+
+**Common Ground:**
+- *Description:* Browser-based, open-source social platform for communities built as a robust alternative to Discord.
+- *Architecture:* Self-hosted (centralized per instance)
+
+**Conduit:**
+- *Description:* Lightweight Matrix homeserver written in Rust - simple, fast, and reliable alternative to Synapse for self-hosting.
+- *Architecture:* Self-hosted Matrix homeserver
 
 </details>
 
@@ -608,9 +1126,71 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**Spacebar:**
+- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
+- *Architecture:* Self-hosted, Discord API compatible
+
 **Fluxer:**
+- *Description:* Open-source self-hosted chat platform (AGPL licensed).
+- *Architecture:* Self-hosted
 - *Android App:* Native mobile apps in active development. Mobile web (PWA) works in browser with home screen install, push notifications.
 - *Ios App:* Native mobile apps in active development. Mobile web (PWA) works in browser with home screen install, push notifications.
+
+**Loqa:**
+- *Description:* Open-source, self-hosted platform with E2EE DMs and zero telemetry.
+- *Architecture:* Self-hosted
+
+**DCTS:**
+- *Description:* Community-driven, self-hosted chat platform.
+- *Architecture:* Self-hosted
+
+**Zulip:**
+- *Description:* Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.
+- *Architecture:* Self-hosted or cloud-hosted
+
+**Rocket.Chat:**
+- *Description:* Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users — significant limitation for large communities.
+- *Architecture:* Self-hosted or cloud-hosted
+
+**Mezon:**
+- *Description:* Open-source Discord-like platform. Self-hostable with Docker. Less mature than Rocket.Chat/Zulip.
+- *Architecture:* Self-hosted, open source
+
+**Nextcloud Talk:**
+- *Description:* Audio/video/chat app integrated into Nextcloud self-hosted cloud platform. Part of larger file sync/collaboration suite. Not standalone Discord alternative — requires full Nextcloud.
+- *Architecture:* Self-hosted, open source (part of Nextcloud)
+
+**Snikket:**
+- *Description:* Pre-configured XMPP server package. Easier to deploy than raw XMPP/Prosody. Designed for non-technical users to self-host messaging.
+- *Architecture:* Self-hosted XMPP, open source
+
+**Databag:**
+- *Description:* Tiny self-hosted federated messenger. Topic-based threads (not contact-based). Can run on Raspberry Pi Zero. Public-private key identity.
+- *Architecture:* Self-hosted, federated, open source
+
+**Discourse:**
+- *Description:* ⚠️ FORUM SOFTWARE, NOT CHAT: Modern forum platform. Some try to use as Discord replacement - this is a category error. Best for async, long-form discussion.
+- *Architecture:* Self-hosted, open source (GPL-2.0)
+
+**Mattermost:**
+- *Description:* Open-source Slack alternative for teams. Self-hosted, E2EE voice/video (Beta), extensive integrations, mobile apps.
+- *Architecture:* Self-hosted, open source (AGPL-3.0 / Enterprise: proprietary)
+
+**Critterchat:**
+- *Description:* Self-hosted web chat providing Discord-like channels, group chat, and DMs. Focus on ease of use over encryption. Federation support planned.
+- *Architecture:* Self-hosted only
+
+**Strafe:**
+- *Description:* Open source encrypted chat platform with E2EE messaging, markdown support, file sharing, self-hosting, voice/video calls, and no data tracking.
+- *Architecture:* Self-hosted (centralized per instance)
+
+**Common Ground:**
+- *Description:* Browser-based, open-source social platform for communities built as a robust alternative to Discord.
+- *Architecture:* Self-hosted (centralized per instance)
+
+**Conduit:**
+- *Description:* Lightweight Matrix homeserver written in Rust - simple, fast, and reliable alternative to Synapse for self-hosting.
+- *Architecture:* Self-hosted Matrix homeserver
 
 </details>
 
@@ -642,14 +1222,28 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 <summary><strong>† Feature Notes</strong></summary>
 
 **Spacebar:**
+- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
+- *Architecture:* Self-hosted, Discord API compatible
 - *Voice Chat:* No voice channel support at time of writing despite Discord API compatibility
 - *Video Chat:* Not currently supported
 - *Screen Sharing:* Not currently supported
 
 **Fluxer:**
+- *Description:* Open-source self-hosted chat platform (AGPL licensed).
+- *Architecture:* Self-hosted
 - *Threads Forums:* Roadmap 2026: Slack/Reddit-style threads with hierarchical/linear views, upvoting/downvoting, private forum threads
 
+**Loqa:**
+- *Description:* Open-source, self-hosted platform with E2EE DMs and zero telemetry.
+- *Architecture:* Self-hosted
+
+**DCTS:**
+- *Description:* Community-driven, self-hosted chat platform.
+- *Architecture:* Self-hosted
+
 **Zulip:**
+- *Description:* Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.
+- *Architecture:* Self-hosted or cloud-hosted
 - *Voice Chat:* Via Jitsi integration only — not native. Uses call-per-message model, not persistent always-on channels
 - *Video Chat:* Via Jitsi integration only
 - *Screen Sharing:* Via Jitsi integration only
@@ -657,32 +1251,62 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *Threads Forums:* Unique topic-based model: every message belongs to a topic within a channel. Takes adjustment for Discord users but very powerful for productivity communities
 
 **Rocket.Chat:**
+- *Description:* Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users — significant limitation for large communities.
+- *Architecture:* Self-hosted or cloud-hosted
 - *Voice Chat:* Voice calls are enterprise-only on free tier
 - *Video Chat:* Video calls are enterprise-only on free tier
 - *Screen Sharing:* Screen sharing enterprise-only on free tier
 - *Persistent Voice Channels:* No persistent always-on voice channels — calls are initiated per conversation
 
+**Mezon:**
+- *Description:* Open-source Discord-like platform. Self-hostable with Docker. Less mature than Rocket.Chat/Zulip.
+- *Architecture:* Self-hosted, open source
+
 **Nextcloud Talk:**
+- *Description:* Audio/video/chat app integrated into Nextcloud self-hosted cloud platform. Part of larger file sync/collaboration suite. Not standalone Discord alternative — requires full Nextcloud.
+- *Architecture:* Self-hosted, open source (part of Nextcloud)
 - *Video Chat:* Peer-to-peer reliable for ~5 participants. High Performance Backend (paid add-on) scales to thousands.
 - *Text Channels:* Conversations, not traditional channels. Threaded messages supported.
 
 **Snikket:**
+- *Description:* Pre-configured XMPP server package. Easier to deploy than raw XMPP/Prosody. Designed for non-technical users to self-host messaging.
+- *Architecture:* Self-hosted XMPP, open source
 - *Text Channels:* Group chats exist but no Discord-style server/channel hierarchy
 
 **Databag:**
+- *Description:* Tiny self-hosted federated messenger. Topic-based threads (not contact-based). Can run on Raspberry Pi Zero. Public-private key identity.
+- *Architecture:* Self-hosted, federated, open source
 - *Threads Forums:* Topic-based threading - messages organized by topic, not contacts
 - *Voice Chat:* Audio calls supported. Requires STUN/TURN relay server for NAT traversal.
 - *Video Chat:* Video calls supported. Requires STUN/TURN relay server for NAT traversal.
 
 **Discourse:**
+- *Description:* ⚠️ FORUM SOFTWARE, NOT CHAT: Modern forum platform. Some try to use as Discord replacement - this is a category error. Best for async, long-form discussion.
+- *Architecture:* Self-hosted, open source (GPL-2.0)
 - *Text Channels:* Categories and topics structure (forum-style, not real-time channels)
 - *Threads Forums:* Core feature - entire platform is threaded discussions
 
 **Mattermost:**
+- *Description:* Open-source Slack alternative for teams. Self-hosted, E2EE voice/video (Beta), extensive integrations, mobile apps.
+- *Architecture:* Self-hosted, open source (AGPL-3.0 / Enterprise: proprietary)
 - *Threads Forums:* Threaded replies supported, not forum-style
 
 **Critterchat:**
+- *Description:* Self-hosted web chat providing Discord-like channels, group chat, and DMs. Focus on ease of use over encryption. Federation support planned.
+- *Architecture:* Self-hosted only
 - *File Sharing:* Image attachments currently supported, arbitrary file attachments on wishlist
+
+**Strafe:**
+- *Description:* Open source encrypted chat platform with E2EE messaging, markdown support, file sharing, self-hosting, voice/video calls, and no data tracking.
+- *Architecture:* Self-hosted (centralized per instance)
+
+**Common Ground:**
+- *Description:* Browser-based, open-source social platform for communities built as a robust alternative to Discord.
+- *Architecture:* Self-hosted (centralized per instance)
+
+**Conduit:**
+- *Description:* Lightweight Matrix homeserver written in Rust - simple, fast, and reliable alternative to Synapse for self-hosting.
+- *Architecture:* Self-hosted Matrix homeserver
 
 </details>
 
@@ -713,14 +1337,74 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**Spacebar:**
+- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
+- *Architecture:* Self-hosted, Discord API compatible
+
+**Fluxer:**
+- *Description:* Open-source self-hosted chat platform (AGPL licensed).
+- *Architecture:* Self-hosted
+
+**Loqa:**
+- *Description:* Open-source, self-hosted platform with E2EE DMs and zero telemetry.
+- *Architecture:* Self-hosted
+
+**DCTS:**
+- *Description:* Community-driven, self-hosted chat platform.
+- *Architecture:* Self-hosted
+
 **Zulip:**
+- *Description:* Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.
+- *Architecture:* Self-hosted or cloud-hosted
 - *Large Community Moderation:* Good moderation tools for productivity communities, less suited for large open social communities
 
+**Rocket.Chat:**
+- *Description:* Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users — significant limitation for large communities.
+- *Architecture:* Self-hosted or cloud-hosted
+
+**Mezon:**
+- *Description:* Open-source Discord-like platform. Self-hostable with Docker. Less mature than Rocket.Chat/Zulip.
+- *Architecture:* Self-hosted, open source
+
+**Nextcloud Talk:**
+- *Description:* Audio/video/chat app integrated into Nextcloud self-hosted cloud platform. Part of larger file sync/collaboration suite. Not standalone Discord alternative — requires full Nextcloud.
+- *Architecture:* Self-hosted, open source (part of Nextcloud)
+
+**Snikket:**
+- *Description:* Pre-configured XMPP server package. Easier to deploy than raw XMPP/Prosody. Designed for non-technical users to self-host messaging.
+- *Architecture:* Self-hosted XMPP, open source
+
+**Databag:**
+- *Description:* Tiny self-hosted federated messenger. Topic-based threads (not contact-based). Can run on Raspberry Pi Zero. Public-private key identity.
+- *Architecture:* Self-hosted, federated, open source
+
 **Discourse:**
+- *Description:* ⚠️ FORUM SOFTWARE, NOT CHAT: Modern forum platform. Some try to use as Discord replacement - this is a category error. Best for async, long-form discussion.
+- *Architecture:* Self-hosted, open source (GPL-2.0)
 - *Large Community Moderation:* Trust levels, flags, automatic hiding, user silencing, sophisticated moderation
 - *Automod:* Automatic post hiding based on flags, spam detection, new user restrictions
 - *User Timeout Mute:* User silencing and suspension features
 - *Message Reporting:* Flag system - users can flag posts for moderator review
+
+**Mattermost:**
+- *Description:* Open-source Slack alternative for teams. Self-hosted, E2EE voice/video (Beta), extensive integrations, mobile apps.
+- *Architecture:* Self-hosted, open source (AGPL-3.0 / Enterprise: proprietary)
+
+**Critterchat:**
+- *Description:* Self-hosted web chat providing Discord-like channels, group chat, and DMs. Focus on ease of use over encryption. Federation support planned.
+- *Architecture:* Self-hosted only
+
+**Strafe:**
+- *Description:* Open source encrypted chat platform with E2EE messaging, markdown support, file sharing, self-hosting, voice/video calls, and no data tracking.
+- *Architecture:* Self-hosted (centralized per instance)
+
+**Common Ground:**
+- *Description:* Browser-based, open-source social platform for communities built as a robust alternative to Discord.
+- *Architecture:* Self-hosted (centralized per instance)
+
+**Conduit:**
+- *Description:* Lightweight Matrix homeserver written in Rust - simple, fast, and reliable alternative to Synapse for self-hosting.
+- *Architecture:* Self-hosted Matrix homeserver
 
 </details>
 
@@ -752,21 +1436,75 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 <summary><strong>† Feature Notes</strong></summary>
 
 **Spacebar:**
+- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
+- *Architecture:* Self-hosted, Discord API compatible
 - *Discord Api Compatible:* Key differentiator — existing Discord bots work without modification
 
+**Fluxer:**
+- *Description:* Open-source self-hosted chat platform (AGPL licensed).
+- *Architecture:* Self-hosted
+
+**Loqa:**
+- *Description:* Open-source, self-hosted platform with E2EE DMs and zero telemetry.
+- *Architecture:* Self-hosted
+
+**DCTS:**
+- *Description:* Community-driven, self-hosted chat platform.
+- *Architecture:* Self-hosted
+
 **Zulip:**
+- *Description:* Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.
+- *Architecture:* Self-hosted or cloud-hosted
 - *Migration Assistant:* Some import tools available for Slack and HipChat, limited Discord support
 
+**Rocket.Chat:**
+- *Description:* Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users — significant limitation for large communities.
+- *Architecture:* Self-hosted or cloud-hosted
+
+**Mezon:**
+- *Description:* Open-source Discord-like platform. Self-hostable with Docker. Less mature than Rocket.Chat/Zulip.
+- *Architecture:* Self-hosted, open source
+
 **Nextcloud Talk:**
+- *Description:* Audio/video/chat app integrated into Nextcloud self-hosted cloud platform. Part of larger file sync/collaboration suite. Not standalone Discord alternative — requires full Nextcloud.
+- *Architecture:* Self-hosted, open source (part of Nextcloud)
 - *Bridges:* Matterbridge integration allows syncing with other chat platforms
 
+**Snikket:**
+- *Description:* Pre-configured XMPP server package. Easier to deploy than raw XMPP/Prosody. Designed for non-technical users to self-host messaging.
+- *Architecture:* Self-hosted XMPP, open source
+
+**Databag:**
+- *Description:* Tiny self-hosted federated messenger. Topic-based threads (not contact-based). Can run on Raspberry Pi Zero. Public-private key identity.
+- *Architecture:* Self-hosted, federated, open source
+
 **Discourse:**
+- *Description:* ⚠️ FORUM SOFTWARE, NOT CHAT: Modern forum platform. Some try to use as Discord replacement - this is a category error. Best for async, long-form discussion.
+- *Architecture:* Self-hosted, open source (GPL-2.0)
 - *Bridges:* ONE-WAY notifications out only. NOT bidirectional chat bridging. NOT supported by Matterbridge.
 - *Migration Assistant:* Import tools from other forum software (phpBB, vBulletin, etc)
 
 **Mattermost:**
+- *Description:* Open-source Slack alternative for teams. Self-hosted, E2EE voice/video (Beta), extensive integrations, mobile apps.
+- *Architecture:* Self-hosted, open source (AGPL-3.0 / Enterprise: proprietary)
 - *Migration Assistant:* Import from Slack, HipChat, BizSpark
 - *Bridges:* Slack-compatible webhooks, extensive plugin ecosystem
+
+**Critterchat:**
+- *Description:* Self-hosted web chat providing Discord-like channels, group chat, and DMs. Focus on ease of use over encryption. Federation support planned.
+- *Architecture:* Self-hosted only
+
+**Strafe:**
+- *Description:* Open source encrypted chat platform with E2EE messaging, markdown support, file sharing, self-hosting, voice/video calls, and no data tracking.
+- *Architecture:* Self-hosted (centralized per instance)
+
+**Common Ground:**
+- *Description:* Browser-based, open-source social platform for communities built as a robust alternative to Discord.
+- *Architecture:* Self-hosted (centralized per instance)
+
+**Conduit:**
+- *Description:* Lightweight Matrix homeserver written in Rust - simple, fast, and reliable alternative to Synapse for self-hosting.
+- *Architecture:* Self-hosted Matrix homeserver
 
 </details>
 
@@ -797,18 +1535,74 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**Spacebar:**
+- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
+- *Architecture:* Self-hosted, Discord API compatible
+
 **Fluxer:**
+- *Description:* Open-source self-hosted chat platform (AGPL licensed).
+- *Architecture:* Self-hosted
 - *Event Scheduling:* Roadmap 2026: Scheduled events planned
 
+**Loqa:**
+- *Description:* Open-source, self-hosted platform with E2EE DMs and zero telemetry.
+- *Architecture:* Self-hosted
+
+**DCTS:**
+- *Description:* Community-driven, self-hosted chat platform.
+- *Architecture:* Self-hosted
+
+**Zulip:**
+- *Description:* Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.
+- *Architecture:* Self-hosted or cloud-hosted
+
+**Rocket.Chat:**
+- *Description:* Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users — significant limitation for large communities.
+- *Architecture:* Self-hosted or cloud-hosted
+
+**Mezon:**
+- *Description:* Open-source Discord-like platform. Self-hostable with Docker. Less mature than Rocket.Chat/Zulip.
+- *Architecture:* Self-hosted, open source
+
 **Nextcloud Talk:**
+- *Description:* Audio/video/chat app integrated into Nextcloud self-hosted cloud platform. Part of larger file sync/collaboration suite. Not standalone Discord alternative — requires full Nextcloud.
+- *Architecture:* Self-hosted, open source (part of Nextcloud)
 - *Event Scheduling:* Deep integration with Nextcloud Calendar — event conversations created from calendar
 - *Scheduled Announcements:* Message scheduling supported
 
+**Snikket:**
+- *Description:* Pre-configured XMPP server package. Easier to deploy than raw XMPP/Prosody. Designed for non-technical users to self-host messaging.
+- *Architecture:* Self-hosted XMPP, open source
+
+**Databag:**
+- *Description:* Tiny self-hosted federated messenger. Topic-based threads (not contact-based). Can run on Raspberry Pi Zero. Public-private key identity.
+- *Architecture:* Self-hosted, federated, open source
+
 **Discourse:**
+- *Description:* ⚠️ FORUM SOFTWARE, NOT CHAT: Modern forum platform. Some try to use as Discord replacement - this is a category error. Best for async, long-form discussion.
+- *Architecture:* Self-hosted, open source (GPL-2.0)
 - *Docs Wiki Channels:* Wiki-style knowledge base features, long-form documentation support
 
 **Mattermost:**
+- *Description:* Open-source Slack alternative for teams. Self-hosted, E2EE voice/video (Beta), extensive integrations, mobile apps.
+- *Architecture:* Self-hosted, open source (AGPL-3.0 / Enterprise: proprietary)
 - *List Task Channels:* Playbooks for runbooks and incident response
+
+**Critterchat:**
+- *Description:* Self-hosted web chat providing Discord-like channels, group chat, and DMs. Focus on ease of use over encryption. Federation support planned.
+- *Architecture:* Self-hosted only
+
+**Strafe:**
+- *Description:* Open source encrypted chat platform with E2EE messaging, markdown support, file sharing, self-hosting, voice/video calls, and no data tracking.
+- *Architecture:* Self-hosted (centralized per instance)
+
+**Common Ground:**
+- *Description:* Browser-based, open-source social platform for communities built as a robust alternative to Discord.
+- *Architecture:* Self-hosted (centralized per instance)
+
+**Conduit:**
+- *Description:* Lightweight Matrix homeserver written in Rust - simple, fast, and reliable alternative to Synapse for self-hosting.
+- *Architecture:* Self-hosted Matrix homeserver
 
 </details>
 
@@ -839,9 +1633,71 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**Spacebar:**
+- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
+- *Architecture:* Self-hosted, Discord API compatible
+
 **Fluxer:**
+- *Description:* Open-source self-hosted chat platform (AGPL licensed).
+- *Architecture:* Self-hosted
 - *Community Discovery:* Roadmap 2026: In-app and public (no login) community discovery for published forums
 - *Bots Automation:* Roadmap 2026: Slash commands, modals, components, interactions — Discord feature parity planned
+
+**Loqa:**
+- *Description:* Open-source, self-hosted platform with E2EE DMs and zero telemetry.
+- *Architecture:* Self-hosted
+
+**DCTS:**
+- *Description:* Community-driven, self-hosted chat platform.
+- *Architecture:* Self-hosted
+
+**Zulip:**
+- *Description:* Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.
+- *Architecture:* Self-hosted or cloud-hosted
+
+**Rocket.Chat:**
+- *Description:* Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users — significant limitation for large communities.
+- *Architecture:* Self-hosted or cloud-hosted
+
+**Mezon:**
+- *Description:* Open-source Discord-like platform. Self-hostable with Docker. Less mature than Rocket.Chat/Zulip.
+- *Architecture:* Self-hosted, open source
+
+**Nextcloud Talk:**
+- *Description:* Audio/video/chat app integrated into Nextcloud self-hosted cloud platform. Part of larger file sync/collaboration suite. Not standalone Discord alternative — requires full Nextcloud.
+- *Architecture:* Self-hosted, open source (part of Nextcloud)
+
+**Snikket:**
+- *Description:* Pre-configured XMPP server package. Easier to deploy than raw XMPP/Prosody. Designed for non-technical users to self-host messaging.
+- *Architecture:* Self-hosted XMPP, open source
+
+**Databag:**
+- *Description:* Tiny self-hosted federated messenger. Topic-based threads (not contact-based). Can run on Raspberry Pi Zero. Public-private key identity.
+- *Architecture:* Self-hosted, federated, open source
+
+**Discourse:**
+- *Description:* ⚠️ FORUM SOFTWARE, NOT CHAT: Modern forum platform. Some try to use as Discord replacement - this is a category error. Best for async, long-form discussion.
+- *Architecture:* Self-hosted, open source (GPL-2.0)
+
+**Mattermost:**
+- *Description:* Open-source Slack alternative for teams. Self-hosted, E2EE voice/video (Beta), extensive integrations, mobile apps.
+- *Architecture:* Self-hosted, open source (AGPL-3.0 / Enterprise: proprietary)
+
+**Critterchat:**
+- *Description:* Self-hosted web chat providing Discord-like channels, group chat, and DMs. Focus on ease of use over encryption. Federation support planned.
+- *Architecture:* Self-hosted only
+
+**Strafe:**
+- *Description:* Open source encrypted chat platform with E2EE messaging, markdown support, file sharing, self-hosting, voice/video calls, and no data tracking.
+- *Architecture:* Self-hosted (centralized per instance)
+
+**Common Ground:**
+- *Description:* Browser-based, open-source social platform for communities built as a robust alternative to Discord.
+- *Architecture:* Self-hosted (centralized per instance)
+
+**Conduit:**
+- *Description:* Lightweight Matrix homeserver written in Rust - simple, fast, and reliable alternative to Synapse for self-hosting.
+- *Architecture:* Self-hosted Matrix homeserver
 
 </details>
 
@@ -873,24 +1729,36 @@ Polished commercial products, included for completeness. Privacy policies and lo
 <summary><strong>† Feature Notes</strong></summary>
 
 **Discord:**
+- *Description:* The dominant chat platform for gaming and online communities. Included as the baseline for comparison.
+- *Architecture:* Centralized, closed source
 - *Gdpr Compliant:* Under regulatory scrutiny in EU
 - *Biometric Age Verification:* Required for UK users accessing age-restricted content as of 2025
 - *Message Ttl:* No server-wide TTL — messages persist indefinitely unless manually deleted
 - *Ai Features Or Training:* Clyde AI chatbot (discontinued 2024), conversation summaries in testing. May train on user data.
 
 **Root:**
+- *Description:* VC-funded commercial chat platform with built-in app ecosystem. Polished but closed source.
+- *Architecture:* Centralized, closed source
 - *No Ads:* No ads currently but VC-funded — monetization model may change
 - *No Data Tracking:* Shares data with third parties per privacy policy
 - *Ai Generated Codebase:* Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code.
 
 **Telegram:**
+- *Description:* Large-scale messaging platform with up to 200,000 members per group. Open source clients, closed backend.
+- *Architecture:* Centralized, open source clients only
 - *E2E Encryption:* Secret Chats only — standard group chats and channels are NOT end-to-end encrypted
 - *Open Source:* Client apps are open source, server backend is closed
 - *No Ads:* Ads shown in public channels on free tier
 - *Message Ttl:* Auto-delete timers available per chat (1 day, 1 week, 1 month)
 - *Ai Features Or Training:* Supports AI bots via bot ecosystem, no native AI features
 
+**GameVox:**
+- *Description:* Voice chat platform for gaming communities launched in 2025. Features 3D spatial audio, proximity voice for FiveM/alt:V/RedM roleplay servers. Free tier limited to 50 members.
+- *Architecture:* Centralized, closed source
+
 **Steam Chat:**
+- *Description:* Built-in chat for Steam gaming platform. Voice, video, text, screen sharing. Massive userbase among PC gamers.
+- *Architecture:* Centralized, closed source (Valve)
 - *E2E Encryption:* Variable - some encryption but not E2EE for all features
 
 </details>
@@ -912,16 +1780,30 @@ Polished commercial products, included for completeness. Privacy policies and lo
 <summary><strong>† Feature Notes</strong></summary>
 
 **Discord:**
+- *Description:* The dominant chat platform for gaming and online communities. Included as the baseline for comparison.
+- *Architecture:* Centralized, closed source
 - *Free To Use:* Freemium — Nitro subscription for extra features
 - *No Premium Tier:* Nitro subscription required for animated avatars, higher upload limits, custom emoji across servers, and other features
 - *Freemium Limitations:* Nitro unlocks higher upload limits, better streaming quality, server boosts
 
+**Root:**
+- *Description:* VC-funded commercial chat platform with built-in app ecosystem. Polished but closed source.
+- *Architecture:* Centralized, closed source
+
 **Telegram:**
+- *Description:* Large-scale messaging platform with up to 200,000 members per group. Open source clients, closed backend.
+- *Architecture:* Centralized, open source clients only
 - *No Premium Tier:* Telegram Premium subscription required for some features like larger uploads and exclusive stickers
 - *Freemium Limitations:* Premium adds faster downloads, larger uploads (4GB), exclusive stickers, ads removal
 
 **GameVox:**
+- *Description:* Voice chat platform for gaming communities launched in 2025. Features 3D spatial audio, proximity voice for FiveM/alt:V/RedM roleplay servers. Free tier limited to 50 members.
+- *Architecture:* Centralized, closed source
 - *Free To Use:* Free tier: 50 members max, 3 voice channels, 8 text channels, 2GB storage
+
+**Steam Chat:**
+- *Description:* Built-in chat for Steam gaming platform. Voice, video, text, screen sharing. Massive userbase among PC gamers.
+- *Architecture:* Centralized, closed source (Valve)
 
 </details>
 
@@ -937,6 +1819,31 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Telegram](https://telegram.org) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [GameVox](https://gamevox.com) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Steam Chat](https://store.steampowered.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Discord:**
+- *Description:* The dominant chat platform for gaming and online communities. Included as the baseline for comparison.
+- *Architecture:* Centralized, closed source
+
+**Root:**
+- *Description:* VC-funded commercial chat platform with built-in app ecosystem. Polished but closed source.
+- *Architecture:* Centralized, closed source
+
+**Telegram:**
+- *Description:* Large-scale messaging platform with up to 200,000 members per group. Open source clients, closed backend.
+- *Architecture:* Centralized, open source clients only
+
+**GameVox:**
+- *Description:* Voice chat platform for gaming communities launched in 2025. Features 3D spatial audio, proximity voice for FiveM/alt:V/RedM roleplay servers. Free tier limited to 50 members.
+- *Architecture:* Centralized, closed source
+
+**Steam Chat:**
+- *Description:* Built-in chat for Steam gaming platform. Voice, video, text, screen sharing. Massive userbase among PC gamers.
+- *Architecture:* Centralized, closed source (Valve)
+
+</details>
 
 </details>
 
@@ -955,19 +1862,31 @@ Polished commercial products, included for completeness. Privacy policies and lo
 <summary><strong>† Feature Notes</strong></summary>
 
 **Discord:**
+- *Description:* The dominant chat platform for gaming and online communities. Included as the baseline for comparison.
+- *Architecture:* Centralized, closed source
 - *System Audio Sharing:* Windows and macOS only, not Linux
 - *Per User Audio Output:* Each user can set 0–200% individual volume per member in voice channels — a much-requested feature missing from most alternatives
 
 **Root:**
+- *Description:* VC-funded commercial chat platform with built-in app ecosystem. Polished but closed source.
+- *Architecture:* Centralized, closed source
 - *Video Chat:* Video bitrate is low quality — streams appear blurry according to user reports
 - *Screen Sharing:* Video quality in screenshare is poor — blurry at standard bitrate
 
 **Telegram:**
+- *Description:* Large-scale messaging platform with up to 200,000 members per group. Open source clients, closed backend.
+- *Architecture:* Centralized, open source clients only
 - *Video Chat:* Group video chat bitrate described as poor quality
 - *System Audio Sharing:* System audio sharing in group chats has echo cancellation issues — users can hear themselves, audio cuts in and out
 
 **GameVox:**
+- *Description:* Voice chat platform for gaming communities launched in 2025. Features 3D spatial audio, proximity voice for FiveM/alt:V/RedM roleplay servers. Free tier limited to 50 members.
+- *Architecture:* Centralized, closed source
 - *Voice Chat:* 3D spatial/proximity audio for roleplay servers. Adjustable voice ranges (whisper 3m to megaphone 100m)
+
+**Steam Chat:**
+- *Description:* Built-in chat for Steam gaming platform. Voice, video, text, screen sharing. Massive userbase among PC gamers.
+- *Architecture:* Centralized, closed source (Valve)
 
 </details>
 
@@ -988,6 +1907,8 @@ Polished commercial products, included for completeness. Privacy policies and lo
 <summary><strong>† Feature Notes</strong></summary>
 
 **Discord:**
+- *Description:* The dominant chat platform for gaming and online communities. Included as the baseline for comparison.
+- *Architecture:* Centralized, closed source
 - *Large Community Moderation:* Comprehensive automod, audit logs, raid protection, timeout, mass prune — benchmark for large community moderation
 - *Automod:* Comprehensive AutoMod with keyword filters, spam detection, mention limits, custom rules
 - *Audit Logs:* Full audit logs tracking all mod actions, message edits, role changes
@@ -997,8 +1918,22 @@ Polished commercial products, included for completeness. Privacy policies and lo
 - *Age Verification:* Planned: Teen accounts with restricted features. Requires government ID or face scan for age verification (UK pilot 2025)
 - *Id Verification:* Planned: Face scanning and government ID verification for age-gating. Privacy concerns raised by community.
 
+**Root:**
+- *Description:* VC-funded commercial chat platform with built-in app ecosystem. Polished but closed source.
+- *Architecture:* Centralized, closed source
+
 **Telegram:**
+- *Description:* Large-scale messaging platform with up to 200,000 members per group. Open source clients, closed backend.
+- *Architecture:* Centralized, open source clients only
 - *Raid Protection:* Anti-spam features, aggressive join requirements for large groups
+
+**GameVox:**
+- *Description:* Voice chat platform for gaming communities launched in 2025. Features 3D spatial audio, proximity voice for FiveM/alt:V/RedM roleplay servers. Free tier limited to 50 members.
+- *Architecture:* Centralized, closed source
+
+**Steam Chat:**
+- *Description:* Built-in chat for Steam gaming platform. Voice, video, text, screen sharing. Massive userbase among PC gamers.
+- *Architecture:* Centralized, closed source (Valve)
 
 </details>
 
@@ -1018,8 +1953,26 @@ Polished commercial products, included for completeness. Privacy policies and lo
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**Discord:**
+- *Description:* The dominant chat platform for gaming and online communities. Included as the baseline for comparison.
+- *Architecture:* Centralized, closed source
+
 **Root:**
+- *Description:* VC-funded commercial chat platform with built-in app ecosystem. Polished but closed source.
+- *Architecture:* Centralized, closed source
 - *Migration Assistant:* Has 'Discord Themes' feature that imports/converts Discord servers
+
+**Telegram:**
+- *Description:* Large-scale messaging platform with up to 200,000 members per group. Open source clients, closed backend.
+- *Architecture:* Centralized, open source clients only
+
+**GameVox:**
+- *Description:* Voice chat platform for gaming communities launched in 2025. Features 3D spatial audio, proximity voice for FiveM/alt:V/RedM roleplay servers. Free tier limited to 50 members.
+- *Architecture:* Centralized, closed source
+
+**Steam Chat:**
+- *Description:* Built-in chat for Steam gaming platform. Voice, video, text, screen sharing. Massive userbase among PC gamers.
+- *Architecture:* Centralized, closed source (Valve)
 
 </details>
 
@@ -1040,11 +1993,27 @@ Polished commercial products, included for completeness. Privacy policies and lo
 <summary><strong>† Feature Notes</strong></summary>
 
 **Discord:**
+- *Description:* The dominant chat platform for gaming and online communities. Included as the baseline for comparison.
+- *Architecture:* Centralized, closed source
 - *Scheduled Announcements:* Scheduled messages available but limited — no native scheduled announcement channel type
 
+**Root:**
+- *Description:* VC-funded commercial chat platform with built-in app ecosystem. Polished but closed source.
+- *Architecture:* Centralized, closed source
+
 **Telegram:**
+- *Description:* Large-scale messaging platform with up to 200,000 members per group. Open source clients, closed backend.
+- *Architecture:* Centralized, open source clients only
 - *Media Gallery Channels:* Channels can be used as media galleries but no dedicated gallery channel type
 - *Scheduled Announcements:* Messages and posts can be scheduled natively
+
+**GameVox:**
+- *Description:* Voice chat platform for gaming communities launched in 2025. Features 3D spatial audio, proximity voice for FiveM/alt:V/RedM roleplay servers. Free tier limited to 50 members.
+- *Architecture:* Centralized, closed source
+
+**Steam Chat:**
+- *Description:* Built-in chat for Steam gaming platform. Voice, video, text, screen sharing. Massive userbase among PC gamers.
+- *Architecture:* Centralized, closed source (Valve)
 
 </details>
 
@@ -1065,16 +2034,28 @@ Polished commercial products, included for completeness. Privacy policies and lo
 <summary><strong>† Feature Notes</strong></summary>
 
 **Discord:**
+- *Description:* The dominant chat platform for gaming and online communities. Included as the baseline for comparison.
+- *Architecture:* Centralized, closed source
 - *Raid Planner:* Basic events only, no dedicated raid planning tools
 - *Community Discovery:* In-app server discovery plus extensive third-party directories like Disboard, top.gg, and discord.me
 
+**Root:**
+- *Description:* VC-funded commercial chat platform with built-in app ecosystem. Polished but closed source.
+- *Architecture:* Centralized, closed source
+
 **Telegram:**
+- *Description:* Large-scale messaging platform with up to 200,000 members per group. Open source clients, closed backend.
+- *Architecture:* Centralized, open source clients only
 - *Community Discovery:* Search for public channels and groups built into the app
 
 **GameVox:**
+- *Description:* Voice chat platform for gaming communities launched in 2025. Features 3D spatial audio, proximity voice for FiveM/alt:V/RedM roleplay servers. Free tier limited to 50 members.
+- *Architecture:* Centralized, closed source
 - *Community Discovery:* Public server browser available
 
 **Steam Chat:**
+- *Description:* Built-in chat for Steam gaming platform. Voice, video, text, screen sharing. Massive userbase among PC gamers.
+- *Architecture:* Centralized, closed source (Valve)
 - *Community Discovery:* Built into Steam platform - can discover game communities, groups
 
 </details>
@@ -1116,58 +2097,88 @@ Included for historical context or specific use cases. Generally not recommended
 <summary><strong>† Feature Notes</strong></summary>
 
 **TeamSpeak:**
+- *Description:* Long-running voice-focused platform. Predates Discord. Not recommended for casual community use due to dated UX.
+- *Architecture:* Self-hosted or hosted
 - *E2E Encryption:* Voice is AES-encrypted between client and server but server can decrypt — not true E2EE
 - *Self Hostable:* Port forwarding required for self-hosting
 - *Ai Features Or Training:* No AI features, voice-focused legacy platform
 
 **Mumble:**
+- *Description:* Open-source, self-hosted voice chat with true end-to-end encryption. Minimal text features.
+- *Architecture:* Self-hosted
 - *E2E Encryption:* True E2EE for voice — one of the few platforms with this
 - *Message Ttl:* Text chat history not persisted long-term by default
 - *Ai Features Or Training:* No AI features, voice-focused legacy platform
 
 **Signal:**
+- *Description:* Gold standard for private messaging. Best-in-class encryption. Limited community/server features.
+- *Architecture:* Centralized, open source
 - *Message Ttl:* Disappearing messages supported with configurable TTL per conversation
 - *Ai Features Or Training:* Explicitly privacy-focused, no AI features, no data collection for training
 
 **Skype:**
+- *Description:* Microsoft's video calling and instant messaging platform (2003-present). Once dominant for voice/video calls, now largely superseded by Discord, Zoom, and Teams. Still maintained but feature development minimal.
+- *Architecture:* Centralized, closed source (Microsoft)
 - *E2E Encryption:* Private conversations support E2EE, but group chats do not
 - *No Ads:* Some promotional content present in free tier
 
 **SimpleX Chat:**
+- *Description:* Open-source decentralized messaging with no user identifiers (no phone, email, or usernames). Not for large communities — designed for secure private messaging.
+- *Architecture:* Decentralized, open source
 - *Federated:* Decentralized but not federated — no user identifiers, P2P via relay servers
 - *Ai Features Or Training:* No AI features, no user profiling, no data collection
 
 **Quiet:**
+- *Description:* P2P encrypted team chat. Uses Tor for anonymity. No central server. Designed for journalists/activists, not casual communities.
+- *Architecture:* Peer-to-peer via Tor, open source
 - *Self Hostable:* P2P architecture — no servers to host. All communication via Tor network.
 - *Federated:* P2P architecture, not federated in traditional sense
 
+**Campfire:**
+- *Description:* Group chat by Basecamp (formerly 37signals). Retired in favor of Basecamp's built-in chat. Listed as open source in some sources but was actually proprietary.
+- *Architecture:* Centralized, closed source (discontinued)
+
 **Oldcord:**
+- *Description:* Open-source reimplementation of 2015-2018 Discord backend. Nostalgia project preserving classic Discord experience without telemetry/bloat.
+- *Architecture:* Self-hosted, open source
 - *Ai Generated Codebase:* Developer explicitly: 'we don't use AI to generate any of our code. we don't accept AI generated contributions'
 
 **Jami:**
+- *Description:* GNU P2P distributed communication. Fully peer-to-peer (no central servers). Works on LAN even without internet. Formerly GNU Ring/SFLphone.
+- *Architecture:* Distributed P2P, open source (GNU GPL-3.0+)
 - *Self Hostable:* P2P architecture - no traditional servers. Can self-host DHT proxy and name server. JAMS for organizations.
 - *Federated:* P2P distributed, not federated in traditional sense. Each device is a node.
 - *E2E Encryption:* Perfect forward secrecy with X.509 standard. All P2P communications encrypted.
 
 **Gajim:**
+- *Description:* Full-featured XMPP desktop client. Python/GTK. OMEMO E2EE. Linux/Windows. No voice/video.
+- *Architecture:* XMPP client, open source (GPL-3.0)
 - *Self Hostable:* XMPP client - requires XMPP server (Prosody, ejabberd, etc)
 - *Federated:* XMPP federation protocol
 - *E2E Encryption:* OMEMO support for E2EE messaging
 
 **Swift IM:**
+- *Description:* Cross-platform XMPP desktop client. Security-focused for Military/Finance/Government. Multi-user chat, security labels, keyword highlighting.
+- *Architecture:* XMPP client, open source (GPL)
 - *Self Hostable:* XMPP client - requires XMPP server (Prosody, ejabberd, M-Link, etc)
 - *Federated:* XMPP federation protocol
 - *E2E Encryption:* OMEMO and other XMPP E2EE extensions supported
 
 **Movim:**
+- *Description:* Distributed social network built on XMPP. Web-based. Communities, blogging, file sharing. Compatible with Conversations/Dino clients.
+- *Architecture:* XMPP web client/platform, open source
 - *Self Hostable:* Web app that connects to XMPP servers - can self-host both Movim and server
 - *Federated:* XMPP federation - communicates across XMPP network
 - *E2E Encryption:* OMEMO support via XMPP
 
 **Ventrilo:**
+- *Description:* Legacy gaming voice chat (1997-present). Low-latency, high-quality audio. Surround sound positioning. Widely used in MMO guilds pre-Discord.
+- *Architecture:* Closed source, client-server
 - *Ai Features Or Training:* No AI features, voice-focused legacy platform
 
 **Carrion:**
+- *Description:* ⚠️ ADULT CONTENT (18+): Privacy-focused adult roleplay platform with zero server-side message storage. Designed for erotic RP, kink communities, LGBTQ+, and furries. NOT a general chat alternative.
+- *Architecture:* Centralized (zero storage)
 - *E2E Encryption:* Encrypted DMs available. Messages pass through server RAM briefly but not stored on disk.
 - *Message Ttl:* Messages only exist in browser IndexedDB. Can export/import, but server stores nothing.
 
@@ -1199,19 +2210,67 @@ Included for historical context or specific use cases. Generally not recommended
 <summary><strong>† Feature Notes</strong></summary>
 
 **TeamSpeak:**
+- *Description:* Long-running voice-focused platform. Predates Discord. Not recommended for casual community use due to dated UX.
+- *Architecture:* Self-hosted or hosted
 - *No Premium Tier:* Free for small servers, licensing required for larger deployments
 - *Self Hosting License:* Free server for non-commercial use (32 slots), commercial license required for larger deployments
 
+**Mumble:**
+- *Description:* Open-source, self-hosted voice chat with true end-to-end encryption. Minimal text features.
+- *Architecture:* Self-hosted
+
+**Signal:**
+- *Description:* Gold standard for private messaging. Best-in-class encryption. Limited community/server features.
+- *Architecture:* Centralized, open source
+
 **Skype:**
+- *Description:* Microsoft's video calling and instant messaging platform (2003-present). Once dominant for voice/video calls, now largely superseded by Discord, Zoom, and Teams. Still maintained but feature development minimal.
+- *Architecture:* Centralized, closed source (Microsoft)
 - *No Premium Tier:* Skype Credit and subscription plans exist for calling phone numbers, but core chat/video features are free
 
+**SimpleX Chat:**
+- *Description:* Open-source decentralized messaging with no user identifiers (no phone, email, or usernames). Not for large communities — designed for secure private messaging.
+- *Architecture:* Decentralized, open source
+
+**Quiet:**
+- *Description:* P2P encrypted team chat. Uses Tor for anonymity. No central server. Designed for journalists/activists, not casual communities.
+- *Architecture:* Peer-to-peer via Tor, open source
+
+**Campfire:**
+- *Description:* Group chat by Basecamp (formerly 37signals). Retired in favor of Basecamp's built-in chat. Listed as open source in some sources but was actually proprietary.
+- *Architecture:* Centralized, closed source (discontinued)
+
+**Oldcord:**
+- *Description:* Open-source reimplementation of 2015-2018 Discord backend. Nostalgia project preserving classic Discord experience without telemetry/bloat.
+- *Architecture:* Self-hosted, open source
+
+**Jami:**
+- *Description:* GNU P2P distributed communication. Fully peer-to-peer (no central servers). Works on LAN even without internet. Formerly GNU Ring/SFLphone.
+- *Architecture:* Distributed P2P, open source (GNU GPL-3.0+)
+
+**Gajim:**
+- *Description:* Full-featured XMPP desktop client. Python/GTK. OMEMO E2EE. Linux/Windows. No voice/video.
+- *Architecture:* XMPP client, open source (GPL-3.0)
+
 **Swift IM:**
+- *Description:* Cross-platform XMPP desktop client. Security-focused for Military/Finance/Government. Multi-user chat, security labels, keyword highlighting.
+- *Architecture:* XMPP client, open source (GPL)
 - *No Premium Tier:* Open source version free, paid support packages available
 
+**Movim:**
+- *Description:* Distributed social network built on XMPP. Web-based. Communities, blogging, file sharing. Compatible with Conversations/Dino clients.
+- *Architecture:* XMPP web client/platform, open source
+
 **Ventrilo:**
+- *Description:* Legacy gaming voice chat (1997-present). Low-latency, high-quality audio. Surround sound positioning. Widely used in MMO guilds pre-Discord.
+- *Architecture:* Closed source, client-server
 - *Free To Use:* Free client, servers require licensing (rental or self-host with license). Free 8-slot server available.
 - *Self Hosting License:* Can self-host but requires commercial license. Free tier limited to 8 slots.
 - *Freemium Limitations:* Free tier: 8 slots max. Paid: up to 400 slots per server.
+
+**Carrion:**
+- *Description:* ⚠️ ADULT CONTENT (18+): Privacy-focused adult roleplay platform with zero server-side message storage. Designed for erotic RP, kink communities, LGBTQ+, and furries. NOT a general chat alternative.
+- *Architecture:* Centralized (zero storage)
 
 </details>
 
@@ -1240,11 +2299,63 @@ Included for historical context or specific use cases. Generally not recommended
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**TeamSpeak:**
+- *Description:* Long-running voice-focused platform. Predates Discord. Not recommended for casual community use due to dated UX.
+- *Architecture:* Self-hosted or hosted
+
+**Mumble:**
+- *Description:* Open-source, self-hosted voice chat with true end-to-end encryption. Minimal text features.
+- *Architecture:* Self-hosted
+
 **Signal:**
+- *Description:* Gold standard for private messaging. Best-in-class encryption. Limited community/server features.
+- *Architecture:* Centralized, open source
 - *Web App:* Desktop-linked web interface only, no standalone web app
 
+**Skype:**
+- *Description:* Microsoft's video calling and instant messaging platform (2003-present). Once dominant for voice/video calls, now largely superseded by Discord, Zoom, and Teams. Still maintained but feature development minimal.
+- *Architecture:* Centralized, closed source (Microsoft)
+
+**SimpleX Chat:**
+- *Description:* Open-source decentralized messaging with no user identifiers (no phone, email, or usernames). Not for large communities — designed for secure private messaging.
+- *Architecture:* Decentralized, open source
+
+**Quiet:**
+- *Description:* P2P encrypted team chat. Uses Tor for anonymity. No central server. Designed for journalists/activists, not casual communities.
+- *Architecture:* Peer-to-peer via Tor, open source
+
+**Campfire:**
+- *Description:* Group chat by Basecamp (formerly 37signals). Retired in favor of Basecamp's built-in chat. Listed as open source in some sources but was actually proprietary.
+- *Architecture:* Centralized, closed source (discontinued)
+
+**Oldcord:**
+- *Description:* Open-source reimplementation of 2015-2018 Discord backend. Nostalgia project preserving classic Discord experience without telemetry/bloat.
+- *Architecture:* Self-hosted, open source
+
 **Jami:**
+- *Description:* GNU P2P distributed communication. Fully peer-to-peer (no central servers). Works on LAN even without internet. Formerly GNU Ring/SFLphone.
+- *Architecture:* Distributed P2P, open source (GNU GPL-3.0+)
 - *Web App:* Experimental web version available
+
+**Gajim:**
+- *Description:* Full-featured XMPP desktop client. Python/GTK. OMEMO E2EE. Linux/Windows. No voice/video.
+- *Architecture:* XMPP client, open source (GPL-3.0)
+
+**Swift IM:**
+- *Description:* Cross-platform XMPP desktop client. Security-focused for Military/Finance/Government. Multi-user chat, security labels, keyword highlighting.
+- *Architecture:* XMPP client, open source (GPL)
+
+**Movim:**
+- *Description:* Distributed social network built on XMPP. Web-based. Communities, blogging, file sharing. Compatible with Conversations/Dino clients.
+- *Architecture:* XMPP web client/platform, open source
+
+**Ventrilo:**
+- *Description:* Legacy gaming voice chat (1997-present). Low-latency, high-quality audio. Surround sound positioning. Widely used in MMO guilds pre-Discord.
+- *Architecture:* Closed source, client-server
+
+**Carrion:**
+- *Description:* ⚠️ ADULT CONTENT (18+): Privacy-focused adult roleplay platform with zero server-side message storage. Designed for erotic RP, kink communities, LGBTQ+, and furries. NOT a general chat alternative.
+- *Architecture:* Centralized (zero storage)
 
 </details>
 
@@ -1274,47 +2385,81 @@ Included for historical context or specific use cases. Generally not recommended
 <summary><strong>† Feature Notes</strong></summary>
 
 **TeamSpeak:**
+- *Description:* Long-running voice-focused platform. Predates Discord. Not recommended for casual community use due to dated UX.
+- *Architecture:* Self-hosted or hosted
 - *Text Channels:* Text chat is functional but minimal — not a primary feature
 - *Per User Audio Output:* Per-client volume adjustment supported
 - *Screen Sharing:* P2P streaming only supports one-to-one, not one-to-many from voice channel. Group chat streaming works — can stream to group chat while talking in server simultaneously. Allows custom bitrate settings and 60fps streaming. Supports streaming multiple windows simultaneously. Connection can be slow/buggy (10+ minute waits, duplicate users reported).
 
 **Mumble:**
+- *Description:* Open-source, self-hosted voice chat with true end-to-end encryption. Minimal text features.
+- *Architecture:* Self-hosted
 - *Text Channels:* Very basic text messaging only
 - *Per User Audio Output:* Per-user volume adjustment supported natively
 
 **Signal:**
+- *Description:* Gold standard for private messaging. Best-in-class encryption. Limited community/server features.
+- *Architecture:* Centralized, open source
 - *Text Channels:* Group chats exist but no server/channel hierarchy
 
 **Skype:**
+- *Description:* Microsoft's video calling and instant messaging platform (2003-present). Once dominant for voice/video calls, now largely superseded by Discord, Zoom, and Teams. Still maintained but feature development minimal.
+- *Architecture:* Centralized, closed source (Microsoft)
 - *System Audio Sharing:* System audio sharing available on Windows and macOS only
 - *Text Channels:* Group chats exist but no server/channel hierarchy — designed for 1:1 and small group calls, not communities
 - *Per User Audio Output:* Individual volume control per participant supported
 
 **SimpleX Chat:**
+- *Description:* Open-source decentralized messaging with no user identifiers (no phone, email, or usernames). Not for large communities — designed for secure private messaging.
+- *Architecture:* Decentralized, open source
 - *Text Channels:* Only DMs and group chats — no server/channel structure
 
+**Quiet:**
+- *Description:* P2P encrypted team chat. Uses Tor for anonymity. No central server. Designed for journalists/activists, not casual communities.
+- *Architecture:* Peer-to-peer via Tor, open source
+
+**Campfire:**
+- *Description:* Group chat by Basecamp (formerly 37signals). Retired in favor of Basecamp's built-in chat. Listed as open source in some sources but was actually proprietary.
+- *Architecture:* Centralized, closed source (discontinued)
+
 **Oldcord:**
+- *Description:* Open-source reimplementation of 2015-2018 Discord backend. Nostalgia project preserving classic Discord experience without telemetry/bloat.
+- *Architecture:* Self-hosted, open source
 - *Voice Chat:* Work in progress. WebRTC P2P (exposes IP, VPN recommended), standard WebRTC (browser), UDP (desktop). Minor bugs being fixed.
 - *Video Chat:* Not yet supported. Focus on voice first.
 
 **Jami:**
+- *Description:* GNU P2P distributed communication. Fully peer-to-peer (no central servers). Works on LAN even without internet. Formerly GNU Ring/SFLphone.
+- *Architecture:* Distributed P2P, open source (GNU GPL-3.0+)
 - *Text Channels:* 1-on-1 and group chats only. No server/channel hierarchy.
 
 **Gajim:**
+- *Description:* Full-featured XMPP desktop client. Python/GTK. OMEMO E2EE. Linux/Windows. No voice/video.
+- *Architecture:* XMPP client, open source (GPL-3.0)
 - *Voice Chat:* Via Jitsi plugin - not native
 - *Text Channels:* Multi-user chats (MUC) via XMPP
 
 **Swift IM:**
+- *Description:* Cross-platform XMPP desktop client. Security-focused for Military/Finance/Government. Multi-user chat, security labels, keyword highlighting.
+- *Architecture:* XMPP client, open source (GPL)
 - *Text Channels:* Multi-user chat (MUC) via XMPP
 
 **Movim:**
+- *Description:* Distributed social network built on XMPP. Web-based. Communities, blogging, file sharing. Compatible with Conversations/Dino clients.
+- *Architecture:* XMPP web client/platform, open source
 - *Text Channels:* Communities and chat rooms via XMPP MUC
 - *Threads Forums:* Communities for topic-based discussions, blogging features
 - *Voice Chat:* Text-focused platform, no native voice/video
 
 **Ventrilo:**
+- *Description:* Legacy gaming voice chat (1997-present). Low-latency, high-quality audio. Surround sound positioning. Widely used in MMO guilds pre-Discord.
+- *Architecture:* Closed source, client-server
 - *Voice Chat:* High-quality Speex codec with surround sound positioning. Known for superior audio quality.
 - *Per User Audio Output:* Individual volume control and audio settings per user
+
+**Carrion:**
+- *Description:* ⚠️ ADULT CONTENT (18+): Privacy-focused adult roleplay platform with zero server-side message storage. Designed for erotic RP, kink communities, LGBTQ+, and furries. NOT a general chat alternative.
+- *Architecture:* Centralized (zero storage)
 
 </details>
 
@@ -1339,6 +2484,67 @@ Included for historical context or specific use cases. Generally not recommended
 | [Movim](https://movim.eu) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Ventrilo](https://www.ventrilo.com) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Carrion](https://github.com/carrion-org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**TeamSpeak:**
+- *Description:* Long-running voice-focused platform. Predates Discord. Not recommended for casual community use due to dated UX.
+- *Architecture:* Self-hosted or hosted
+
+**Mumble:**
+- *Description:* Open-source, self-hosted voice chat with true end-to-end encryption. Minimal text features.
+- *Architecture:* Self-hosted
+
+**Signal:**
+- *Description:* Gold standard for private messaging. Best-in-class encryption. Limited community/server features.
+- *Architecture:* Centralized, open source
+
+**Skype:**
+- *Description:* Microsoft's video calling and instant messaging platform (2003-present). Once dominant for voice/video calls, now largely superseded by Discord, Zoom, and Teams. Still maintained but feature development minimal.
+- *Architecture:* Centralized, closed source (Microsoft)
+
+**SimpleX Chat:**
+- *Description:* Open-source decentralized messaging with no user identifiers (no phone, email, or usernames). Not for large communities — designed for secure private messaging.
+- *Architecture:* Decentralized, open source
+
+**Quiet:**
+- *Description:* P2P encrypted team chat. Uses Tor for anonymity. No central server. Designed for journalists/activists, not casual communities.
+- *Architecture:* Peer-to-peer via Tor, open source
+
+**Campfire:**
+- *Description:* Group chat by Basecamp (formerly 37signals). Retired in favor of Basecamp's built-in chat. Listed as open source in some sources but was actually proprietary.
+- *Architecture:* Centralized, closed source (discontinued)
+
+**Oldcord:**
+- *Description:* Open-source reimplementation of 2015-2018 Discord backend. Nostalgia project preserving classic Discord experience without telemetry/bloat.
+- *Architecture:* Self-hosted, open source
+
+**Jami:**
+- *Description:* GNU P2P distributed communication. Fully peer-to-peer (no central servers). Works on LAN even without internet. Formerly GNU Ring/SFLphone.
+- *Architecture:* Distributed P2P, open source (GNU GPL-3.0+)
+
+**Gajim:**
+- *Description:* Full-featured XMPP desktop client. Python/GTK. OMEMO E2EE. Linux/Windows. No voice/video.
+- *Architecture:* XMPP client, open source (GPL-3.0)
+
+**Swift IM:**
+- *Description:* Cross-platform XMPP desktop client. Security-focused for Military/Finance/Government. Multi-user chat, security labels, keyword highlighting.
+- *Architecture:* XMPP client, open source (GPL)
+
+**Movim:**
+- *Description:* Distributed social network built on XMPP. Web-based. Communities, blogging, file sharing. Compatible with Conversations/Dino clients.
+- *Architecture:* XMPP web client/platform, open source
+
+**Ventrilo:**
+- *Description:* Legacy gaming voice chat (1997-present). Low-latency, high-quality audio. Surround sound positioning. Widely used in MMO guilds pre-Discord.
+- *Architecture:* Closed source, client-server
+
+**Carrion:**
+- *Description:* ⚠️ ADULT CONTENT (18+): Privacy-focused adult roleplay platform with zero server-side message storage. Designed for erotic RP, kink communities, LGBTQ+, and furries. NOT a general chat alternative.
+- *Architecture:* Centralized (zero storage)
+
+</details>
 
 </details>
 
@@ -1365,14 +2571,64 @@ Included for historical context or specific use cases. Generally not recommended
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**TeamSpeak:**
+- *Description:* Long-running voice-focused platform. Predates Discord. Not recommended for casual community use due to dated UX.
+- *Architecture:* Self-hosted or hosted
+
+**Mumble:**
+- *Description:* Open-source, self-hosted voice chat with true end-to-end encryption. Minimal text features.
+- *Architecture:* Self-hosted
+
+**Signal:**
+- *Description:* Gold standard for private messaging. Best-in-class encryption. Limited community/server features.
+- *Architecture:* Centralized, open source
+
+**Skype:**
+- *Description:* Microsoft's video calling and instant messaging platform (2003-present). Once dominant for voice/video calls, now largely superseded by Discord, Zoom, and Teams. Still maintained but feature development minimal.
+- *Architecture:* Centralized, closed source (Microsoft)
+
 **SimpleX Chat:**
+- *Description:* Open-source decentralized messaging with no user identifiers (no phone, email, or usernames). Not for large communities — designed for secure private messaging.
+- *Architecture:* Decentralized, open source
 - *Invite Links Guest Access:* One-time connection links — no persistent usernames
 
+**Quiet:**
+- *Description:* P2P encrypted team chat. Uses Tor for anonymity. No central server. Designed for journalists/activists, not casual communities.
+- *Architecture:* Peer-to-peer via Tor, open source
+
+**Campfire:**
+- *Description:* Group chat by Basecamp (formerly 37signals). Retired in favor of Basecamp's built-in chat. Listed as open source in some sources but was actually proprietary.
+- *Architecture:* Centralized, closed source (discontinued)
+
 **Oldcord:**
+- *Description:* Open-source reimplementation of 2015-2018 Discord backend. Nostalgia project preserving classic Discord experience without telemetry/bloat.
+- *Architecture:* Self-hosted, open source
 - *Discord Api Compatible:* 2015-2018 Discord API compatibility. Client patcher for custom patches.
 
+**Jami:**
+- *Description:* GNU P2P distributed communication. Fully peer-to-peer (no central servers). Works on LAN even without internet. Formerly GNU Ring/SFLphone.
+- *Architecture:* Distributed P2P, open source (GNU GPL-3.0+)
+
+**Gajim:**
+- *Description:* Full-featured XMPP desktop client. Python/GTK. OMEMO E2EE. Linux/Windows. No voice/video.
+- *Architecture:* XMPP client, open source (GPL-3.0)
+
+**Swift IM:**
+- *Description:* Cross-platform XMPP desktop client. Security-focused for Military/Finance/Government. Multi-user chat, security labels, keyword highlighting.
+- *Architecture:* XMPP client, open source (GPL)
+
 **Movim:**
+- *Description:* Distributed social network built on XMPP. Web-based. Communities, blogging, file sharing. Compatible with Conversations/Dino clients.
+- *Architecture:* XMPP web client/platform, open source
 - *Server Organization:* Communities organize content by topic
+
+**Ventrilo:**
+- *Description:* Legacy gaming voice chat (1997-present). Low-latency, high-quality audio. Surround sound positioning. Widely used in MMO guilds pre-Discord.
+- *Architecture:* Closed source, client-server
+
+**Carrion:**
+- *Description:* ⚠️ ADULT CONTENT (18+): Privacy-focused adult roleplay platform with zero server-side message storage. Designed for erotic RP, kink communities, LGBTQ+, and furries. NOT a general chat alternative.
+- *Architecture:* Centralized (zero storage)
 
 </details>
 
@@ -1401,8 +2657,62 @@ Included for historical context or specific use cases. Generally not recommended
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**TeamSpeak:**
+- *Description:* Long-running voice-focused platform. Predates Discord. Not recommended for casual community use due to dated UX.
+- *Architecture:* Self-hosted or hosted
+
+**Mumble:**
+- *Description:* Open-source, self-hosted voice chat with true end-to-end encryption. Minimal text features.
+- *Architecture:* Self-hosted
+
+**Signal:**
+- *Description:* Gold standard for private messaging. Best-in-class encryption. Limited community/server features.
+- *Architecture:* Centralized, open source
+
+**Skype:**
+- *Description:* Microsoft's video calling and instant messaging platform (2003-present). Once dominant for voice/video calls, now largely superseded by Discord, Zoom, and Teams. Still maintained but feature development minimal.
+- *Architecture:* Centralized, closed source (Microsoft)
+
+**SimpleX Chat:**
+- *Description:* Open-source decentralized messaging with no user identifiers (no phone, email, or usernames). Not for large communities — designed for secure private messaging.
+- *Architecture:* Decentralized, open source
+
+**Quiet:**
+- *Description:* P2P encrypted team chat. Uses Tor for anonymity. No central server. Designed for journalists/activists, not casual communities.
+- *Architecture:* Peer-to-peer via Tor, open source
+
+**Campfire:**
+- *Description:* Group chat by Basecamp (formerly 37signals). Retired in favor of Basecamp's built-in chat. Listed as open source in some sources but was actually proprietary.
+- *Architecture:* Centralized, closed source (discontinued)
+
+**Oldcord:**
+- *Description:* Open-source reimplementation of 2015-2018 Discord backend. Nostalgia project preserving classic Discord experience without telemetry/bloat.
+- *Architecture:* Self-hosted, open source
+
+**Jami:**
+- *Description:* GNU P2P distributed communication. Fully peer-to-peer (no central servers). Works on LAN even without internet. Formerly GNU Ring/SFLphone.
+- *Architecture:* Distributed P2P, open source (GNU GPL-3.0+)
+
+**Gajim:**
+- *Description:* Full-featured XMPP desktop client. Python/GTK. OMEMO E2EE. Linux/Windows. No voice/video.
+- *Architecture:* XMPP client, open source (GPL-3.0)
+
+**Swift IM:**
+- *Description:* Cross-platform XMPP desktop client. Security-focused for Military/Finance/Government. Multi-user chat, security labels, keyword highlighting.
+- *Architecture:* XMPP client, open source (GPL)
+
 **Movim:**
+- *Description:* Distributed social network built on XMPP. Web-based. Communities, blogging, file sharing. Compatible with Conversations/Dino clients.
+- *Architecture:* XMPP web client/platform, open source
 - *List Task Channels:* Task management features built in
+
+**Ventrilo:**
+- *Description:* Legacy gaming voice chat (1997-present). Low-latency, high-quality audio. Surround sound positioning. Widely used in MMO guilds pre-Discord.
+- *Architecture:* Closed source, client-server
+
+**Carrion:**
+- *Description:* ⚠️ ADULT CONTENT (18+): Privacy-focused adult roleplay platform with zero server-side message storage. Designed for erotic RP, kink communities, LGBTQ+, and furries. NOT a general chat alternative.
+- *Architecture:* Centralized (zero storage)
 
 </details>
 
@@ -1431,11 +2741,63 @@ Included for historical context or specific use cases. Generally not recommended
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**TeamSpeak:**
+- *Description:* Long-running voice-focused platform. Predates Discord. Not recommended for casual community use due to dated UX.
+- *Architecture:* Self-hosted or hosted
+
+**Mumble:**
+- *Description:* Open-source, self-hosted voice chat with true end-to-end encryption. Minimal text features.
+- *Architecture:* Self-hosted
+
+**Signal:**
+- *Description:* Gold standard for private messaging. Best-in-class encryption. Limited community/server features.
+- *Architecture:* Centralized, open source
+
 **Skype:**
+- *Description:* Microsoft's video calling and instant messaging platform (2003-present). Once dominant for voice/video calls, now largely superseded by Discord, Zoom, and Teams. Still maintained but feature development minimal.
+- *Architecture:* Centralized, closed source (Microsoft)
 - *Bots Automation:* Limited bot support — primarily designed for human-to-human communication
 
+**SimpleX Chat:**
+- *Description:* Open-source decentralized messaging with no user identifiers (no phone, email, or usernames). Not for large communities — designed for secure private messaging.
+- *Architecture:* Decentralized, open source
+
+**Quiet:**
+- *Description:* P2P encrypted team chat. Uses Tor for anonymity. No central server. Designed for journalists/activists, not casual communities.
+- *Architecture:* Peer-to-peer via Tor, open source
+
+**Campfire:**
+- *Description:* Group chat by Basecamp (formerly 37signals). Retired in favor of Basecamp's built-in chat. Listed as open source in some sources but was actually proprietary.
+- *Architecture:* Centralized, closed source (discontinued)
+
+**Oldcord:**
+- *Description:* Open-source reimplementation of 2015-2018 Discord backend. Nostalgia project preserving classic Discord experience without telemetry/bloat.
+- *Architecture:* Self-hosted, open source
+
+**Jami:**
+- *Description:* GNU P2P distributed communication. Fully peer-to-peer (no central servers). Works on LAN even without internet. Formerly GNU Ring/SFLphone.
+- *Architecture:* Distributed P2P, open source (GNU GPL-3.0+)
+
+**Gajim:**
+- *Description:* Full-featured XMPP desktop client. Python/GTK. OMEMO E2EE. Linux/Windows. No voice/video.
+- *Architecture:* XMPP client, open source (GPL-3.0)
+
+**Swift IM:**
+- *Description:* Cross-platform XMPP desktop client. Security-focused for Military/Finance/Government. Multi-user chat, security labels, keyword highlighting.
+- *Architecture:* XMPP client, open source (GPL)
+
 **Movim:**
+- *Description:* Distributed social network built on XMPP. Web-based. Communities, blogging, file sharing. Compatible with Conversations/Dino clients.
+- *Architecture:* XMPP web client/platform, open source
 - *Community Discovery:* Browse and discover XMPP communities
+
+**Ventrilo:**
+- *Description:* Legacy gaming voice chat (1997-present). Low-latency, high-quality audio. Surround sound positioning. Widely used in MMO guilds pre-Discord.
+- *Architecture:* Closed source, client-server
+
+**Carrion:**
+- *Description:* ⚠️ ADULT CONTENT (18+): Privacy-focused adult roleplay platform with zero server-side message storage. Designed for erotic RP, kink communities, LGBTQ+, and furries. NOT a general chat alternative.
+- *Architecture:* Centralized (zero storage)
 
 </details>
 
@@ -1470,15 +2832,39 @@ Platforms that are no longer active. Included for historical reference and featu
 <summary><strong>† Feature Notes</strong></summary>
 
 **Guilded (discontinued):**
+- *Description:* Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists — the closest Discord feature-parity alternative that existed.
+- *Architecture:* Centralized, closed source (discontinued)
 - *No Ads:* Some promotional content present
 
 **Roger Wilco:**
+- *Description:* Pioneer VoIP application for gaming (1999-2003). First major voice chat tool designed for multiplayer games. Used peer-to-peer connection model.
+- *Architecture:* Closed source, peer-to-peer
 - *Self Hostable:* Base Station server could be hosted on Linux/FreeBSD/Windows but was proprietary
 
+**Xfire:**
+- *Description:* Gaming-focused instant messaging and social platform (2003-2015). Combined voice chat, game tracking, screenshots, and video recording. Shutdown June 2015.
+- *Architecture:* Closed source, centralized
+
 **RaidCall:**
+- *Description:* Free cloud-based voice chat for gaming (2011-2019). Supported up to 10,000 users per group. Had overlay, music streaming, low latency. Discontinued March 31, 2019.
+- *Architecture:* Closed source, cloud-hosted
 - *Self Hostable:* Free cloud-hosted servers provided by RaidCall — no self-hosting option
 
+**Dolby Axon:**
+- *Description:* Gaming voice chat platform by Dolby Laboratories (2008-2015). Featured Dolby audio technology, positional audio, and low latency. Discontinued 2015.
+- *Architecture:* Closed source, centralized
+
+**Razer Comms:**
+- *Description:* Gaming VoIP platform by Razer Inc (2013-2016). Integrated with Razer Cortex. Featured overlay, game detection, and LFG features. Discontinued 2016.
+- *Architecture:* Closed source, centralized
+
+**Curse Voice:**
+- *Description:* Gaming voice chat integrated with Curse client for game mods/addons (2014-2018). Evolved into Discord partnership. Discontinued 2018 after Twitch acquisition.
+- *Architecture:* Closed source, centralized
+
 **TeaSpeak:**
+- *Description:* Open-source TeamSpeak 3 server and client reimplementation (2017-2020). Aimed for protocol compatibility with TS3. Discontinued circa 2020.
+- *Architecture:* Open source, self-hosted
 - *Open Source:* GPLv3. Reverse-engineered TeamSpeak 3 protocol for compatibility
 
 </details>
@@ -1502,8 +2888,38 @@ Platforms that are no longer active. Included for historical reference and featu
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**Guilded (discontinued):**
+- *Description:* Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists — the closest Discord feature-parity alternative that existed.
+- *Architecture:* Centralized, closed source (discontinued)
+
+**Roger Wilco:**
+- *Description:* Pioneer VoIP application for gaming (1999-2003). First major voice chat tool designed for multiplayer games. Used peer-to-peer connection model.
+- *Architecture:* Closed source, peer-to-peer
+
+**Xfire:**
+- *Description:* Gaming-focused instant messaging and social platform (2003-2015). Combined voice chat, game tracking, screenshots, and video recording. Shutdown June 2015.
+- *Architecture:* Closed source, centralized
+
+**RaidCall:**
+- *Description:* Free cloud-based voice chat for gaming (2011-2019). Supported up to 10,000 users per group. Had overlay, music streaming, low latency. Discontinued March 31, 2019.
+- *Architecture:* Closed source, cloud-hosted
+
 **Dolby Axon:**
+- *Description:* Gaming voice chat platform by Dolby Laboratories (2008-2015). Featured Dolby audio technology, positional audio, and low latency. Discontinued 2015.
+- *Architecture:* Closed source, centralized
 - *Free To Use:* Free tier available, paid tier for advanced features
+
+**Razer Comms:**
+- *Description:* Gaming VoIP platform by Razer Inc (2013-2016). Integrated with Razer Cortex. Featured overlay, game detection, and LFG features. Discontinued 2016.
+- *Architecture:* Closed source, centralized
+
+**Curse Voice:**
+- *Description:* Gaming voice chat integrated with Curse client for game mods/addons (2014-2018). Evolved into Discord partnership. Discontinued 2018 after Twitch acquisition.
+- *Architecture:* Closed source, centralized
+
+**TeaSpeak:**
+- *Description:* Open-source TeamSpeak 3 server and client reimplementation (2017-2020). Aimed for protocol compatibility with TS3. Discontinued circa 2020.
+- *Architecture:* Open source, self-hosted
 
 </details>
 
@@ -1526,7 +2942,37 @@ Platforms that are no longer active. Included for historical reference and featu
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**Guilded (discontinued):**
+- *Description:* Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists — the closest Discord feature-parity alternative that existed.
+- *Architecture:* Centralized, closed source (discontinued)
+
+**Roger Wilco:**
+- *Description:* Pioneer VoIP application for gaming (1999-2003). First major voice chat tool designed for multiplayer games. Used peer-to-peer connection model.
+- *Architecture:* Closed source, peer-to-peer
+
+**Xfire:**
+- *Description:* Gaming-focused instant messaging and social platform (2003-2015). Combined voice chat, game tracking, screenshots, and video recording. Shutdown June 2015.
+- *Architecture:* Closed source, centralized
+
+**RaidCall:**
+- *Description:* Free cloud-based voice chat for gaming (2011-2019). Supported up to 10,000 users per group. Had overlay, music streaming, low latency. Discontinued March 31, 2019.
+- *Architecture:* Closed source, cloud-hosted
+
+**Dolby Axon:**
+- *Description:* Gaming voice chat platform by Dolby Laboratories (2008-2015). Featured Dolby audio technology, positional audio, and low latency. Discontinued 2015.
+- *Architecture:* Closed source, centralized
+
+**Razer Comms:**
+- *Description:* Gaming VoIP platform by Razer Inc (2013-2016). Integrated with Razer Cortex. Featured overlay, game detection, and LFG features. Discontinued 2016.
+- *Architecture:* Closed source, centralized
+
+**Curse Voice:**
+- *Description:* Gaming voice chat integrated with Curse client for game mods/addons (2014-2018). Evolved into Discord partnership. Discontinued 2018 after Twitch acquisition.
+- *Architecture:* Closed source, centralized
+
 **TeaSpeak:**
+- *Description:* Open-source TeamSpeak 3 server and client reimplementation (2017-2020). Aimed for protocol compatibility with TS3. Discontinued circa 2020.
+- *Architecture:* Open source, self-hosted
 - *Web App:* TeaSpeak included a web client interface
 
 </details>
@@ -1551,23 +2997,43 @@ Platforms that are no longer active. Included for historical reference and featu
 <summary><strong>† Feature Notes</strong></summary>
 
 **Guilded (discontinued):**
+- *Description:* Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists — the closest Discord feature-parity alternative that existed.
+- *Architecture:* Centralized, closed source (discontinued)
 - *Per User Audio Output:* Per-user volume supported but range more limited than Discord's 0–200%
 
+**Roger Wilco:**
+- *Description:* Pioneer VoIP application for gaming (1999-2003). First major voice chat tool designed for multiplayer games. Used peer-to-peer connection model.
+- *Architecture:* Closed source, peer-to-peer
+
 **Xfire:**
+- *Description:* Gaming-focused instant messaging and social platform (2003-2015). Combined voice chat, game tracking, screenshots, and video recording. Shutdown June 2015.
+- *Architecture:* Closed source, centralized
 - *Screen Sharing:* Game screenshot capture and video recording, not live screen sharing
 
 **RaidCall:**
+- *Description:* Free cloud-based voice chat for gaming (2011-2019). Supported up to 10,000 users per group. Had overlay, music streaming, low latency. Discontinued March 31, 2019.
+- *Architecture:* Closed source, cloud-hosted
 - *Video Chat:* Group video chat supported up to 4 people
 - *Per User Audio Output:* Individual volume control per user supported
 
 **Dolby Axon:**
+- *Description:* Gaming voice chat platform by Dolby Laboratories (2008-2015). Featured Dolby audio technology, positional audio, and low latency. Discontinued 2015.
+- *Architecture:* Closed source, centralized
 - *Voice Chat:* Featured Dolby audio codec and 3D positional audio — key differentiator
 
 **Razer Comms:**
+- *Description:* Gaming VoIP platform by Razer Inc (2013-2016). Integrated with Razer Cortex. Featured overlay, game detection, and LFG features. Discontinued 2016.
+- *Architecture:* Closed source, centralized
 - *Voice Chat:* Integrated overlay with automatic game detection
 
 **Curse Voice:**
+- *Description:* Gaming voice chat integrated with Curse client for game mods/addons (2014-2018). Evolved into Discord partnership. Discontinued 2018 after Twitch acquisition.
+- *Architecture:* Closed source, centralized
 - *Voice Chat:* Automatic teammate detection in supported games
+
+**TeaSpeak:**
+- *Description:* Open-source TeamSpeak 3 server and client reimplementation (2017-2020). Aimed for protocol compatibility with TS3. Discontinued circa 2020.
+- *Architecture:* Open source, self-hosted
 
 </details>
 
@@ -1586,6 +3052,43 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Razer Comms](https://www.razer.com/) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [TeaSpeak](https://github.com/TeaSpeak) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Guilded (discontinued):**
+- *Description:* Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists — the closest Discord feature-parity alternative that existed.
+- *Architecture:* Centralized, closed source (discontinued)
+
+**Roger Wilco:**
+- *Description:* Pioneer VoIP application for gaming (1999-2003). First major voice chat tool designed for multiplayer games. Used peer-to-peer connection model.
+- *Architecture:* Closed source, peer-to-peer
+
+**Xfire:**
+- *Description:* Gaming-focused instant messaging and social platform (2003-2015). Combined voice chat, game tracking, screenshots, and video recording. Shutdown June 2015.
+- *Architecture:* Closed source, centralized
+
+**RaidCall:**
+- *Description:* Free cloud-based voice chat for gaming (2011-2019). Supported up to 10,000 users per group. Had overlay, music streaming, low latency. Discontinued March 31, 2019.
+- *Architecture:* Closed source, cloud-hosted
+
+**Dolby Axon:**
+- *Description:* Gaming voice chat platform by Dolby Laboratories (2008-2015). Featured Dolby audio technology, positional audio, and low latency. Discontinued 2015.
+- *Architecture:* Closed source, centralized
+
+**Razer Comms:**
+- *Description:* Gaming VoIP platform by Razer Inc (2013-2016). Integrated with Razer Cortex. Featured overlay, game detection, and LFG features. Discontinued 2016.
+- *Architecture:* Closed source, centralized
+
+**Curse Voice:**
+- *Description:* Gaming voice chat integrated with Curse client for game mods/addons (2014-2018). Evolved into Discord partnership. Discontinued 2018 after Twitch acquisition.
+- *Architecture:* Closed source, centralized
+
+**TeaSpeak:**
+- *Description:* Open-source TeamSpeak 3 server and client reimplementation (2017-2020). Aimed for protocol compatibility with TS3. Discontinued circa 2020.
+- *Architecture:* Open source, self-hosted
+
+</details>
 
 </details>
 
@@ -1607,13 +3110,39 @@ Platforms that are no longer active. Included for historical reference and featu
 <summary><strong>† Feature Notes</strong></summary>
 
 **Guilded (discontinued):**
+- *Description:* Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists — the closest Discord feature-parity alternative that existed.
+- *Architecture:* Centralized, closed source (discontinued)
 - *Migration Assistant:* Basic Discord import available
 
 **Roger Wilco:**
+- *Description:* Pioneer VoIP application for gaming (1999-2003). First major voice chat tool designed for multiplayer games. Used peer-to-peer connection model.
+- *Architecture:* Closed source, peer-to-peer
 - *Server Organization:* Channel-based system with public/private channel browser
 
+**Xfire:**
+- *Description:* Gaming-focused instant messaging and social platform (2003-2015). Combined voice chat, game tracking, screenshots, and video recording. Shutdown June 2015.
+- *Architecture:* Closed source, centralized
+
 **RaidCall:**
+- *Description:* Free cloud-based voice chat for gaming (2011-2019). Supported up to 10,000 users per group. Had overlay, music streaming, low latency. Discontinued March 31, 2019.
+- *Architecture:* Closed source, cloud-hosted
 - *Role Management:* Channel permissions and user roles for guild/team management
+
+**Dolby Axon:**
+- *Description:* Gaming voice chat platform by Dolby Laboratories (2008-2015). Featured Dolby audio technology, positional audio, and low latency. Discontinued 2015.
+- *Architecture:* Closed source, centralized
+
+**Razer Comms:**
+- *Description:* Gaming VoIP platform by Razer Inc (2013-2016). Integrated with Razer Cortex. Featured overlay, game detection, and LFG features. Discontinued 2016.
+- *Architecture:* Closed source, centralized
+
+**Curse Voice:**
+- *Description:* Gaming voice chat integrated with Curse client for game mods/addons (2014-2018). Evolved into Discord partnership. Discontinued 2018 after Twitch acquisition.
+- *Architecture:* Closed source, centralized
+
+**TeaSpeak:**
+- *Description:* Open-source TeamSpeak 3 server and client reimplementation (2017-2020). Aimed for protocol compatibility with TS3. Discontinued circa 2020.
+- *Architecture:* Open source, self-hosted
 
 </details>
 
@@ -1632,6 +3161,43 @@ Platforms that are no longer active. Included for historical reference and featu
 | [Razer Comms](https://www.razer.com/) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Curse Voice](https://en.wikipedia.org/wiki/Curse_LLC) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [TeaSpeak](https://github.com/TeaSpeak) | ❌ | ❌ | ❌ | ❌ | ❌ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Guilded (discontinued):**
+- *Description:* Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists — the closest Discord feature-parity alternative that existed.
+- *Architecture:* Centralized, closed source (discontinued)
+
+**Roger Wilco:**
+- *Description:* Pioneer VoIP application for gaming (1999-2003). First major voice chat tool designed for multiplayer games. Used peer-to-peer connection model.
+- *Architecture:* Closed source, peer-to-peer
+
+**Xfire:**
+- *Description:* Gaming-focused instant messaging and social platform (2003-2015). Combined voice chat, game tracking, screenshots, and video recording. Shutdown June 2015.
+- *Architecture:* Closed source, centralized
+
+**RaidCall:**
+- *Description:* Free cloud-based voice chat for gaming (2011-2019). Supported up to 10,000 users per group. Had overlay, music streaming, low latency. Discontinued March 31, 2019.
+- *Architecture:* Closed source, cloud-hosted
+
+**Dolby Axon:**
+- *Description:* Gaming voice chat platform by Dolby Laboratories (2008-2015). Featured Dolby audio technology, positional audio, and low latency. Discontinued 2015.
+- *Architecture:* Closed source, centralized
+
+**Razer Comms:**
+- *Description:* Gaming VoIP platform by Razer Inc (2013-2016). Integrated with Razer Cortex. Featured overlay, game detection, and LFG features. Discontinued 2016.
+- *Architecture:* Closed source, centralized
+
+**Curse Voice:**
+- *Description:* Gaming voice chat integrated with Curse client for game mods/addons (2014-2018). Evolved into Discord partnership. Discontinued 2018 after Twitch acquisition.
+- *Architecture:* Closed source, centralized
+
+**TeaSpeak:**
+- *Description:* Open-source TeamSpeak 3 server and client reimplementation (2017-2020). Aimed for protocol compatibility with TS3. Discontinued circa 2020.
+- *Architecture:* Open source, self-hosted
+
+</details>
 
 </details>
 
@@ -1653,25 +3219,45 @@ Platforms that are no longer active. Included for historical reference and featu
 <summary><strong>† Feature Notes</strong></summary>
 
 **Guilded (discontinued):**
+- *Description:* Feature-rich gaming community platform acquired by Roblox in 2021 for $90M. Shut down December 19, 2025. Had best-in-class raid planning, rich calendar tools, docs/wiki channels, and task lists — the closest Discord feature-parity alternative that existed.
+- *Architecture:* Centralized, closed source (discontinued)
 - *Raid Planner:* Best-in-class raid and event tools — a key differentiator
 - *Rich Calendar Tools:* Full calendar system: dedicated calendar channel type, month and upcoming list views, per-event RSVP (Going/Maybe/Declined), attendance limits, repeating events, event-level permissions, separate scheduling channels for collecting availability via drag-and-drop, aggregate cross-server calendar in user profile, automatic local timezone display, and embeddable forms within events
 - *Tournament Brackets:* Native bracket and tournament organisation tools — a key differentiator for competitive gaming communities
 - *Community Discovery:* Had native server discovery and browse features before shutdown
 
 **Roger Wilco:**
+- *Description:* Pioneer VoIP application for gaming (1999-2003). First major voice chat tool designed for multiplayer games. Used peer-to-peer connection model.
+- *Architecture:* Closed source, peer-to-peer
 - *Community Discovery:* Built-in channel browser displayed all public channels
 
 **Xfire:**
+- *Description:* Gaming-focused instant messaging and social platform (2003-2015). Combined voice chat, game tracking, screenshots, and video recording. Shutdown June 2015.
+- *Architecture:* Closed source, centralized
 - *Community Discovery:* Game server browser and clan/community discovery built in
 
 **RaidCall:**
+- *Description:* Free cloud-based voice chat for gaming (2011-2019). Supported up to 10,000 users per group. Had overlay, music streaming, low latency. Discontinued March 31, 2019.
+- *Architecture:* Closed source, cloud-hosted
 - *Community Discovery:* Public group browser to discover and join groups
 
+**Dolby Axon:**
+- *Description:* Gaming voice chat platform by Dolby Laboratories (2008-2015). Featured Dolby audio technology, positional audio, and low latency. Discontinued 2015.
+- *Architecture:* Closed source, centralized
+
 **Razer Comms:**
+- *Description:* Gaming VoIP platform by Razer Inc (2013-2016). Integrated with Razer Cortex. Featured overlay, game detection, and LFG features. Discontinued 2016.
+- *Architecture:* Closed source, centralized
 - *Community Discovery:* Looking-for-group (LFG) features and game integration
 
 **Curse Voice:**
+- *Description:* Gaming voice chat integrated with Curse client for game mods/addons (2014-2018). Evolved into Discord partnership. Discontinued 2018 after Twitch acquisition.
+- *Architecture:* Closed source, centralized
 - *Community Discovery:* Integrated with Curse client for World of Warcraft addon management
+
+**TeaSpeak:**
+- *Description:* Open-source TeamSpeak 3 server and client reimplementation (2017-2020). Aimed for protocol compatibility with TS3. Discontinued circa 2020.
+- *Architecture:* Open source, self-hosted
 
 </details>
 
@@ -1703,20 +3289,36 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**Pumble:**
+- *Description:* Team communication tool designed as Slack alternative for businesses. Not designed for gaming/casual communities.
+- *Architecture:* Centralized, closed source
+
+**Chanty:**
+- *Description:* Team collaboration platform combining chat with task management. Slack alternative for small teams.
+- *Architecture:* Centralized, closed source
+
 **Virola:**
+- *Description:* Corporate self-hosted messenger with task management, Kanban boards, and screen sharing. Designed for businesses, not casual communities.
+- *Architecture:* Self-hosted, closed source
 - *E2E Encryption:* Self-hosted with data on your servers, but not E2EE
 - *Ai Generated Codebase:* Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code.
 
 **Slack:**
+- *Description:* Popular workplace messaging platform. Channels, threads, integrations, huddles (voice/video). Freemium model with message history limits.
+- *Architecture:* Closed source, cloud-hosted
 - *E2E Encryption:* Encryption in transit and at rest, but Slack has access to messages (not E2EE)
 - *Ai Features Or Training:* Slack AI: search, summaries, thread recaps, workflow suggestions. Trains on workspace data.
 
 **Microsoft Teams:**
+- *Description:* Microsoft's workplace collaboration platform. Integrated with Office 365. Channels, meetings, file collaboration, extensive Microsoft ecosystem integration.
+- *Architecture:* Closed source, cloud-hosted
 - *Federated:* Can communicate with external organizations via Teams Connect and Teams federation
 - *E2E Encryption:* E2EE for 1:1 calls only (as of 2021). Group calls encrypted in transit.
 - *Ai Features Or Training:* Copilot integration: meeting notes, chat summaries, action items. Trains on Microsoft 365 data.
 
 **Amazon Chime:**
+- *Description:* AWS business communications service. Voice/video meetings, chat, screen sharing. Pay-per-use or Pro tier. SDK available for embedding.
+- *Architecture:* Closed source, AWS cloud-hosted
 - *No Data Tracking:* AWS standard practices - some metadata collected for service improvement
 
 </details>
@@ -1739,19 +3341,33 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 <summary><strong>† Feature Notes</strong></summary>
 
 **Pumble:**
+- *Description:* Team communication tool designed as Slack alternative for businesses. Not designed for gaming/casual communities.
+- *Architecture:* Centralized, closed source
 - *Free To Use:* Free tier available but limited features — paid plans for businesses
 
+**Chanty:**
+- *Description:* Team collaboration platform combining chat with task management. Slack alternative for small teams.
+- *Architecture:* Centralized, closed source
+
 **Virola:**
+- *Description:* Corporate self-hosted messenger with task management, Kanban boards, and screen sharing. Designed for businesses, not casual communities.
+- *Architecture:* Self-hosted, closed source
 - *Free To Use:* Currently free (insider preview program)
 - *Self Hosting License:* Currently free (insider preview), closed source, future licensing TBD
 
 **Slack:**
+- *Description:* Popular workplace messaging platform. Channels, threads, integrations, huddles (voice/video). Freemium model with message history limits.
+- *Architecture:* Closed source, cloud-hosted
 - *Freemium Limitations:* Free: 90-day message history, 10 integrations, 1:1 huddles only. Paid: unlimited history, unlimited integrations, group huddles.
 
 **Microsoft Teams:**
+- *Description:* Microsoft's workplace collaboration platform. Integrated with Office 365. Channels, meetings, file collaboration, extensive Microsoft ecosystem integration.
+- *Architecture:* Closed source, cloud-hosted
 - *Freemium Limitations:* Free: 60-minute meeting limit, 100 participants, 5GB storage per user. Paid: 30-hour meetings, 300+ participants, 1TB+ storage.
 
 **Amazon Chime:**
+- *Description:* AWS business communications service. Voice/video meetings, chat, screen sharing. Pay-per-use or Pro tier. SDK available for embedding.
+- *Architecture:* Closed source, AWS cloud-hosted
 - *Free To Use:* Basic (free) supports meetings up to 100 attendees for 30 days trial. Pro tier is pay-per-use.
 - *Freemium Limitations:* Basic: 30-day trial, limited features. Pro: $15/user/day (only charged on days used), unlimited meetings.
 
@@ -1771,6 +3387,35 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Amazon Chime](https://aws.amazon.com/chime/) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
 
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Pumble:**
+- *Description:* Team communication tool designed as Slack alternative for businesses. Not designed for gaming/casual communities.
+- *Architecture:* Centralized, closed source
+
+**Chanty:**
+- *Description:* Team collaboration platform combining chat with task management. Slack alternative for small teams.
+- *Architecture:* Centralized, closed source
+
+**Virola:**
+- *Description:* Corporate self-hosted messenger with task management, Kanban boards, and screen sharing. Designed for businesses, not casual communities.
+- *Architecture:* Self-hosted, closed source
+
+**Slack:**
+- *Description:* Popular workplace messaging platform. Channels, threads, integrations, huddles (voice/video). Freemium model with message history limits.
+- *Architecture:* Closed source, cloud-hosted
+
+**Microsoft Teams:**
+- *Description:* Microsoft's workplace collaboration platform. Integrated with Office 365. Channels, meetings, file collaboration, extensive Microsoft ecosystem integration.
+- *Architecture:* Closed source, cloud-hosted
+
+**Amazon Chime:**
+- *Description:* AWS business communications service. Voice/video meetings, chat, screen sharing. Pay-per-use or Pro tier. SDK available for embedding.
+- *Architecture:* Closed source, AWS cloud-hosted
+
+</details>
+
 </details>
 
 <details>
@@ -1788,19 +3433,35 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**Pumble:**
+- *Description:* Team communication tool designed as Slack alternative for businesses. Not designed for gaming/casual communities.
+- *Architecture:* Centralized, closed source
+
+**Chanty:**
+- *Description:* Team collaboration platform combining chat with task management. Slack alternative for small teams.
+- *Architecture:* Centralized, closed source
+
 **Virola:**
+- *Description:* Corporate self-hosted messenger with task management, Kanban boards, and screen sharing. Designed for businesses, not casual communities.
+- *Architecture:* Self-hosted, closed source
 - *Threads Forums:* Discussion threads within chat rooms
 
 **Slack:**
+- *Description:* Popular workplace messaging platform. Channels, threads, integrations, huddles (voice/video). Freemium model with message history limits.
+- *Architecture:* Closed source, cloud-hosted
 - *Voice Chat:* Called 'Huddles' - lightweight voice/video calls in channels
 - *Persistent Voice Channels:* Huddles are call-based (started/stopped), not persistent channels
 - *Threads Forums:* Threaded conversations supported, not traditional forums
 
 **Microsoft Teams:**
+- *Description:* Microsoft's workplace collaboration platform. Integrated with Office 365. Channels, meetings, file collaboration, extensive Microsoft ecosystem integration.
+- *Architecture:* Closed source, cloud-hosted
 - *Voice Chat:* Supports meetings (scheduled) and calls (ad-hoc). Meeting features depend on license tier.
 - *Persistent Voice Channels:* No persistent voice channels - all audio is meeting/call based
 
 **Amazon Chime:**
+- *Description:* AWS business communications service. Voice/video meetings, chat, screen sharing. Pay-per-use or Pro tier. SDK available for embedding.
+- *Architecture:* Closed source, AWS cloud-hosted
 - *Voice Chat:* High-quality audio with background noise suppression
 - *Persistent Voice Channels:* Meeting-based, not persistent channels
 
@@ -1820,6 +3481,35 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) | ✅ | ⚠️ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ |
 | [Amazon Chime](https://aws.amazon.com/chime/) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Pumble:**
+- *Description:* Team communication tool designed as Slack alternative for businesses. Not designed for gaming/casual communities.
+- *Architecture:* Centralized, closed source
+
+**Chanty:**
+- *Description:* Team collaboration platform combining chat with task management. Slack alternative for small teams.
+- *Architecture:* Centralized, closed source
+
+**Virola:**
+- *Description:* Corporate self-hosted messenger with task management, Kanban boards, and screen sharing. Designed for businesses, not casual communities.
+- *Architecture:* Self-hosted, closed source
+
+**Slack:**
+- *Description:* Popular workplace messaging platform. Channels, threads, integrations, huddles (voice/video). Freemium model with message history limits.
+- *Architecture:* Closed source, cloud-hosted
+
+**Microsoft Teams:**
+- *Description:* Microsoft's workplace collaboration platform. Integrated with Office 365. Channels, meetings, file collaboration, extensive Microsoft ecosystem integration.
+- *Architecture:* Closed source, cloud-hosted
+
+**Amazon Chime:**
+- *Description:* AWS business communications service. Voice/video meetings, chat, screen sharing. Pay-per-use or Pro tier. SDK available for embedding.
+- *Architecture:* Closed source, AWS cloud-hosted
+
+</details>
+
 </details>
 
 <details>
@@ -1837,13 +3527,31 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**Pumble:**
+- *Description:* Team communication tool designed as Slack alternative for businesses. Not designed for gaming/casual communities.
+- *Architecture:* Centralized, closed source
+
+**Chanty:**
+- *Description:* Team collaboration platform combining chat with task management. Slack alternative for small teams.
+- *Architecture:* Centralized, closed source
+
+**Virola:**
+- *Description:* Corporate self-hosted messenger with task management, Kanban boards, and screen sharing. Designed for businesses, not casual communities.
+- *Architecture:* Self-hosted, closed source
+
 **Slack:**
+- *Description:* Popular workplace messaging platform. Channels, threads, integrations, huddles (voice/video). Freemium model with message history limits.
+- *Architecture:* Closed source, cloud-hosted
 - *Role Management:* Workspace owner/admin/member roles, channel-specific permissions
 
 **Microsoft Teams:**
+- *Description:* Microsoft's workplace collaboration platform. Integrated with Office 365. Channels, meetings, file collaboration, extensive Microsoft ecosystem integration.
+- *Architecture:* Closed source, cloud-hosted
 - *Migration Assistant:* Import from Slack available for Enterprise customers
 
 **Amazon Chime:**
+- *Description:* AWS business communications service. Voice/video meetings, chat, screen sharing. Pay-per-use or Pro tier. SDK available for embedding.
+- *Architecture:* Closed source, AWS cloud-hosted
 - *Bridges:* Can integrate with calendar systems and other AWS services
 
 </details>
@@ -1865,19 +3573,35 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**Pumble:**
+- *Description:* Team communication tool designed as Slack alternative for businesses. Not designed for gaming/casual communities.
+- *Architecture:* Centralized, closed source
+
 **Chanty:**
+- *Description:* Team collaboration platform combining chat with task management. Slack alternative for small teams.
+- *Architecture:* Centralized, closed source
 - *List Task Channels:* Integrated task management — combines chat with project tracking
 
 **Virola:**
+- *Description:* Corporate self-hosted messenger with task management, Kanban boards, and screen sharing. Designed for businesses, not casual communities.
+- *Architecture:* Self-hosted, closed source
 - *List Task Channels:* Integrated Kanban board and issue tracking - can create tasks from messages
 
 **Slack:**
+- *Description:* Popular workplace messaging platform. Channels, threads, integrations, huddles (voice/video). Freemium model with message history limits.
+- *Architecture:* Closed source, cloud-hosted
 - *List Task Channels:* Lists feature for simple task tracking, integrates with external tools
 - *Docs Wiki Channels:* Canvas feature for collaborative docs, not full wiki
 
 **Microsoft Teams:**
+- *Description:* Microsoft's workplace collaboration platform. Integrated with Office 365. Channels, meetings, file collaboration, extensive Microsoft ecosystem integration.
+- *Architecture:* Closed source, cloud-hosted
 - *List Task Channels:* Deep integration with Microsoft Planner and To Do for task management
 - *Docs Wiki Channels:* Wiki tab available, plus full SharePoint integration for knowledge bases
+
+**Amazon Chime:**
+- *Description:* AWS business communications service. Voice/video meetings, chat, screen sharing. Pay-per-use or Pro tier. SDK available for embedding.
+- *Architecture:* Closed source, AWS cloud-hosted
 
 </details>
 
@@ -1898,10 +3622,30 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**Pumble:**
+- *Description:* Team communication tool designed as Slack alternative for businesses. Not designed for gaming/casual communities.
+- *Architecture:* Centralized, closed source
+
+**Chanty:**
+- *Description:* Team collaboration platform combining chat with task management. Slack alternative for small teams.
+- *Architecture:* Centralized, closed source
+
+**Virola:**
+- *Description:* Corporate self-hosted messenger with task management, Kanban boards, and screen sharing. Designed for businesses, not casual communities.
+- *Architecture:* Self-hosted, closed source
+
+**Slack:**
+- *Description:* Popular workplace messaging platform. Channels, threads, integrations, huddles (voice/video). Freemium model with message history limits.
+- *Architecture:* Closed source, cloud-hosted
+
 **Microsoft Teams:**
+- *Description:* Microsoft's workplace collaboration platform. Integrated with Office 365. Channels, meetings, file collaboration, extensive Microsoft ecosystem integration.
+- *Architecture:* Closed source, cloud-hosted
 - *Rich Calendar Tools:* Full Outlook calendar integration with meeting scheduling, recurring events, room booking
 
 **Amazon Chime:**
+- *Description:* AWS business communications service. Voice/video meetings, chat, screen sharing. Pay-per-use or Pro tier. SDK available for embedding.
+- *Architecture:* Closed source, AWS cloud-hosted
 - *Bots Automation:* Chime SDK supports building bots with AWS Lambda integration
 - *Rich Calendar Tools:* Outlook and Google Calendar integration for meeting scheduling
 
@@ -1929,6 +3673,8 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 <summary><strong>† Feature Notes</strong></summary>
 
 **Polyproto:**
+- *Description:* ⚠️ NOT END-USER SOFTWARE: Federated identity and message exchange protocol for developers building chat/social apps. Similar to Matrix Protocol or ActivityPub. No standalone chat app exists.
+- *Architecture:* Protocol specification
 - *Self Hostable:* N/A - This is a protocol specification, not software. Implementations would be self-hostable.
 
 </details>
@@ -1946,6 +3692,8 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 <summary><strong>† Feature Notes</strong></summary>
 
 **Polyproto:**
+- *Description:* ⚠️ NOT END-USER SOFTWARE: Federated identity and message exchange protocol for developers building chat/social apps. Similar to Matrix Protocol or ActivityPub. No standalone chat app exists.
+- *Architecture:* Protocol specification
 - *Hardware Required For Use:* N/A - No end-user application exists. Protocol for developers to build upon.
 
 </details>
@@ -1959,6 +3707,15 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ |
 
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Polyproto:**
+- *Description:* ⚠️ NOT END-USER SOFTWARE: Federated identity and message exchange protocol for developers building chat/social apps. Similar to Matrix Protocol or ActivityPub. No standalone chat app exists.
+- *Architecture:* Protocol specification
+
+</details>
+
 </details>
 
 <details>
@@ -1967,6 +3724,15 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Polyproto:**
+- *Description:* ⚠️ NOT END-USER SOFTWARE: Federated identity and message exchange protocol for developers building chat/social apps. Similar to Matrix Protocol or ActivityPub. No standalone chat app exists.
+- *Architecture:* Protocol specification
+
+</details>
 
 </details>
 
@@ -1977,6 +3743,15 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
 
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Polyproto:**
+- *Description:* ⚠️ NOT END-USER SOFTWARE: Federated identity and message exchange protocol for developers building chat/social apps. Similar to Matrix Protocol or ActivityPub. No standalone chat app exists.
+- *Architecture:* Protocol specification
+
+</details>
+
 </details>
 
 <details>
@@ -1985,6 +3760,15 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❌ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Polyproto:**
+- *Description:* ⚠️ NOT END-USER SOFTWARE: Federated identity and message exchange protocol for developers building chat/social apps. Similar to Matrix Protocol or ActivityPub. No standalone chat app exists.
+- *Architecture:* Protocol specification
+
+</details>
 
 </details>
 
@@ -1995,6 +3779,15 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ❓ | ❓ | ❓ | ❓ | ❓ |
 
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Polyproto:**
+- *Description:* ⚠️ NOT END-USER SOFTWARE: Federated identity and message exchange protocol for developers building chat/social apps. Similar to Matrix Protocol or ActivityPub. No standalone chat app exists.
+- *Architecture:* Protocol specification
+
+</details>
+
 </details>
 
 <details>
@@ -2003,6 +3796,15 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
 | --- | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Polyproto:**
+- *Description:* ⚠️ NOT END-USER SOFTWARE: Federated identity and message exchange protocol for developers building chat/social apps. Similar to Matrix Protocol or ActivityPub. No standalone chat app exists.
+- *Architecture:* Protocol specification
+
+</details>
 
 </details>
 
@@ -2042,42 +3844,84 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 <summary><strong>† Feature Notes</strong></summary>
 
 **Sharkord:**
+- *Description:* Self-hosted chat platform designed for privacy-conscious communities.
+- *Architecture:* Self-hosted
 - *E2E Encryption:* TLS transport encryption only — not end-to-end
 - *Ai Generated Codebase:* Minimal documentation, rapid development timeline. Status unclear.
 
 **Kloak:**
+- *Description:* SECURITY BREACH (Feb 20, 2026): Platform compromised. Attacker gained access to full user list and private messages. Privacy-first Discord alternative with key-based authentication (no email/password). If key is lost, account cannot be recovered.
+- *Architecture:* Centralized, closed source
 - *E2E Encryption:* E2EE for DMs planned but not yet implemented
 - *Open Source:* Closed source but built with privacy-first principles. Minimal data storage by design.
 - *Ai Generated Codebase:* Security breach pattern (Feb 2026) similar to Paracord suggests possible vibe-coded origin with inadequate security review. Platform lacks authentication on critical endpoints.
 
+**Roomy:**
+- *Description:* Open-source Discord alternative. Very limited public information available. Development status unclear.
+- *Architecture:* Self-hosted, open source
+
+**Colanode:**
+- *Description:* Self-hosted collaboration platform. Minimal public information. Development status unclear.
+- *Architecture:* Self-hosted, open source
+
+**Raven:**
+- *Description:* Self-hosted messaging platform. Minimal public information available.
+- *Architecture:* Self-hosted, open source
+
 **Pulse Chat:**
+- *Description:* Self-hosted communication platform with voice, video, and text chat. No government ID required. Minimal public information available.
+- *Architecture:* Self-hosted, open source
 - *Biometric Age Verification:* 'No government ID required' is a key selling point
 
 **Osmium:**
+- *Description:* Globally distributed messaging and VoIP platform. Formerly 'Tangle'. Early access opened Feb 2026 after 2+ years development. Independent team (EU/BR).
+- *Architecture:* Centralized, closed source
 - *Open Source:* Closed source commercial platform
 - *Ai Generated Codebase:* Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code.
 
 **Paracord:**
+- *Description:* AI-generated Discord alternative with critical security vulnerabilities. NOT recommended for use. Serves as cautionary example of 'vibe-coded' platforms.
+- *Architecture:* Self-hosted, closed development (single large commit)
 - *Open Source:* GitHub repository available but developed privately then dumped as single commit - no development history
 - *Ai Generated Codebase:* Confirmed AI-generated. Community security audit found 20+ vulnerabilities including RCE, unauthenticated endpoints, plaintext secrets. Developer admits 'built in a few evenings' with AI.
 - *E2E Encryption:* No E2EE. JWT secrets stored in plaintext in config file.
 - *Self Hostable:* UPnP auto-opens router ports by default, exposing server to internet without user awareness
 
+**Apoka:**
+- *Description:* Closed-source centralized chat platform with privacy focus.
+- *Architecture:* Centralized
+
 **Concord:**
+- *Description:* Open-source Discord clone written in Next.js. Educational/hobby project in very early development.
+- *Architecture:* Centralized (self-hostable)
 - *Open Source:* GitHub repo available but minimal activity - appears to be tutorial project
 
 **Ripcord (New/2026):**
+- *Description:* Announced Discord alternative claiming E2EE, self-hostable, open source core. Waitlist only as of Feb 2026 - no software released yet.
+- *Architecture:* Unknown (claims decentralized/self-hostable)
 - *Open Source:* Website claims 'open source core' but no code published yet
 - *Self Hostable:* Website claims self-hostable but no software exists to verify
 - *E2E Encryption:* Website claims E2EE but no implementation to audit
 
 **Nexus Chat (AjaxSelectButtonGames):**
+- *Description:* Pre-release chat platform with known bugs. Centralized server at wss://chat.404nerds.com.
+- *Architecture:* Centralized (single server)
 - *Self Hostable:* Code on GitHub but runs on single centralized server wss://chat.404nerds.com
 - *Open Source:* Code available but no clear license statement
 
 **Nexus (Magnimont/NoError Studios):**
+- *Description:* MIT-licensed chat platform in early development. Node.js based, self-hostable in theory but lacking documentation.
+- *Architecture:* Centralized (self-hostable)
 - *Open Source:* MIT licensed - proper open source
 - *Self Hostable:* Developer states 'working on deployment options' - technically possible but undocumented
+
+**sadlounge:**
+- *Description:* Platform advertised on r/discordalternatives. Hosted on Vercel free tier. Unable to verify legitimacy or features.
+- *Architecture:* Unknown
+
+**Commz (allinone):**
+- *Description:* Multi-service platform ("AllInOne") with Commz chat and Vidz video sharing. Discord migration feature advertised. Vercel-hosted.
+- *Architecture:* Unknown
 
 </details>
 
@@ -2107,8 +3951,66 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**Sharkord:**
+- *Description:* Self-hosted chat platform designed for privacy-conscious communities.
+- *Architecture:* Self-hosted
+
+**Kloak:**
+- *Description:* SECURITY BREACH (Feb 20, 2026): Platform compromised. Attacker gained access to full user list and private messages. Privacy-first Discord alternative with key-based authentication (no email/password). If key is lost, account cannot be recovered.
+- *Architecture:* Centralized, closed source
+
+**Roomy:**
+- *Description:* Open-source Discord alternative. Very limited public information available. Development status unclear.
+- *Architecture:* Self-hosted, open source
+
+**Colanode:**
+- *Description:* Self-hosted collaboration platform. Minimal public information. Development status unclear.
+- *Architecture:* Self-hosted, open source
+
+**Raven:**
+- *Description:* Self-hosted messaging platform. Minimal public information available.
+- *Architecture:* Self-hosted, open source
+
+**Pulse Chat:**
+- *Description:* Self-hosted communication platform with voice, video, and text chat. No government ID required. Minimal public information available.
+- *Architecture:* Self-hosted, open source
+
 **Osmium:**
+- *Description:* Globally distributed messaging and VoIP platform. Formerly 'Tangle'. Early access opened Feb 2026 after 2+ years development. Independent team (EU/BR).
+- *Architecture:* Centralized, closed source
 - *Free To Use:* No email required - sign up in 30 seconds
+
+**Paracord:**
+- *Description:* AI-generated Discord alternative with critical security vulnerabilities. NOT recommended for use. Serves as cautionary example of 'vibe-coded' platforms.
+- *Architecture:* Self-hosted, closed development (single large commit)
+
+**Apoka:**
+- *Description:* Closed-source centralized chat platform with privacy focus.
+- *Architecture:* Centralized
+
+**Concord:**
+- *Description:* Open-source Discord clone written in Next.js. Educational/hobby project in very early development.
+- *Architecture:* Centralized (self-hostable)
+
+**Ripcord (New/2026):**
+- *Description:* Announced Discord alternative claiming E2EE, self-hostable, open source core. Waitlist only as of Feb 2026 - no software released yet.
+- *Architecture:* Unknown (claims decentralized/self-hostable)
+
+**Nexus Chat (AjaxSelectButtonGames):**
+- *Description:* Pre-release chat platform with known bugs. Centralized server at wss://chat.404nerds.com.
+- *Architecture:* Centralized (single server)
+
+**Nexus (Magnimont/NoError Studios):**
+- *Description:* MIT-licensed chat platform in early development. Node.js based, self-hostable in theory but lacking documentation.
+- *Architecture:* Centralized (self-hostable)
+
+**sadlounge:**
+- *Description:* Platform advertised on r/discordalternatives. Hosted on Vercel free tier. Unable to verify legitimacy or features.
+- *Architecture:* Unknown
+
+**Commz (allinone):**
+- *Description:* Multi-service platform ("AllInOne") with Commz chat and Vidz video sharing. Discord migration feature advertised. Vercel-hosted.
+- *Architecture:* Unknown
 
 </details>
 
@@ -2134,6 +4036,71 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Nexus (Magnimont/NoError Studios)](https://github.com/Magnimont/Nexus) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [sadlounge](https://sadlounge.vercel.app) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Commz (allinone)](https://allinone-eta.vercel.app/commz) | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Sharkord:**
+- *Description:* Self-hosted chat platform designed for privacy-conscious communities.
+- *Architecture:* Self-hosted
+
+**Kloak:**
+- *Description:* SECURITY BREACH (Feb 20, 2026): Platform compromised. Attacker gained access to full user list and private messages. Privacy-first Discord alternative with key-based authentication (no email/password). If key is lost, account cannot be recovered.
+- *Architecture:* Centralized, closed source
+
+**Roomy:**
+- *Description:* Open-source Discord alternative. Very limited public information available. Development status unclear.
+- *Architecture:* Self-hosted, open source
+
+**Colanode:**
+- *Description:* Self-hosted collaboration platform. Minimal public information. Development status unclear.
+- *Architecture:* Self-hosted, open source
+
+**Raven:**
+- *Description:* Self-hosted messaging platform. Minimal public information available.
+- *Architecture:* Self-hosted, open source
+
+**Pulse Chat:**
+- *Description:* Self-hosted communication platform with voice, video, and text chat. No government ID required. Minimal public information available.
+- *Architecture:* Self-hosted, open source
+
+**Osmium:**
+- *Description:* Globally distributed messaging and VoIP platform. Formerly 'Tangle'. Early access opened Feb 2026 after 2+ years development. Independent team (EU/BR).
+- *Architecture:* Centralized, closed source
+
+**Paracord:**
+- *Description:* AI-generated Discord alternative with critical security vulnerabilities. NOT recommended for use. Serves as cautionary example of 'vibe-coded' platforms.
+- *Architecture:* Self-hosted, closed development (single large commit)
+
+**Apoka:**
+- *Description:* Closed-source centralized chat platform with privacy focus.
+- *Architecture:* Centralized
+
+**Concord:**
+- *Description:* Open-source Discord clone written in Next.js. Educational/hobby project in very early development.
+- *Architecture:* Centralized (self-hostable)
+
+**Ripcord (New/2026):**
+- *Description:* Announced Discord alternative claiming E2EE, self-hostable, open source core. Waitlist only as of Feb 2026 - no software released yet.
+- *Architecture:* Unknown (claims decentralized/self-hostable)
+
+**Nexus Chat (AjaxSelectButtonGames):**
+- *Description:* Pre-release chat platform with known bugs. Centralized server at wss://chat.404nerds.com.
+- *Architecture:* Centralized (single server)
+
+**Nexus (Magnimont/NoError Studios):**
+- *Description:* MIT-licensed chat platform in early development. Node.js based, self-hostable in theory but lacking documentation.
+- *Architecture:* Centralized (self-hostable)
+
+**sadlounge:**
+- *Description:* Platform advertised on r/discordalternatives. Hosted on Vercel free tier. Unable to verify legitimacy or features.
+- *Architecture:* Unknown
+
+**Commz (allinone):**
+- *Description:* Multi-service platform ("AllInOne") with Commz chat and Vidz video sharing. Discord migration feature advertised. Vercel-hosted.
+- *Architecture:* Unknown
+
+</details>
 
 </details>
 
@@ -2161,8 +4128,66 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**Sharkord:**
+- *Description:* Self-hosted chat platform designed for privacy-conscious communities.
+- *Architecture:* Self-hosted
+
+**Kloak:**
+- *Description:* SECURITY BREACH (Feb 20, 2026): Platform compromised. Attacker gained access to full user list and private messages. Privacy-first Discord alternative with key-based authentication (no email/password). If key is lost, account cannot be recovered.
+- *Architecture:* Centralized, closed source
+
+**Roomy:**
+- *Description:* Open-source Discord alternative. Very limited public information available. Development status unclear.
+- *Architecture:* Self-hosted, open source
+
+**Colanode:**
+- *Description:* Self-hosted collaboration platform. Minimal public information. Development status unclear.
+- *Architecture:* Self-hosted, open source
+
+**Raven:**
+- *Description:* Self-hosted messaging platform. Minimal public information available.
+- *Architecture:* Self-hosted, open source
+
+**Pulse Chat:**
+- *Description:* Self-hosted communication platform with voice, video, and text chat. No government ID required. Minimal public information available.
+- *Architecture:* Self-hosted, open source
+
+**Osmium:**
+- *Description:* Globally distributed messaging and VoIP platform. Formerly 'Tangle'. Early access opened Feb 2026 after 2+ years development. Independent team (EU/BR).
+- *Architecture:* Centralized, closed source
+
 **Paracord:**
+- *Description:* AI-generated Discord alternative with critical security vulnerabilities. NOT recommended for use. Serves as cautionary example of 'vibe-coded' platforms.
+- *Architecture:* Self-hosted, closed development (single large commit)
 - *Voice Chat:* Uses LiveKit but proxy has NO authentication - anyone can join calls silently
+
+**Apoka:**
+- *Description:* Closed-source centralized chat platform with privacy focus.
+- *Architecture:* Centralized
+
+**Concord:**
+- *Description:* Open-source Discord clone written in Next.js. Educational/hobby project in very early development.
+- *Architecture:* Centralized (self-hostable)
+
+**Ripcord (New/2026):**
+- *Description:* Announced Discord alternative claiming E2EE, self-hostable, open source core. Waitlist only as of Feb 2026 - no software released yet.
+- *Architecture:* Unknown (claims decentralized/self-hostable)
+
+**Nexus Chat (AjaxSelectButtonGames):**
+- *Description:* Pre-release chat platform with known bugs. Centralized server at wss://chat.404nerds.com.
+- *Architecture:* Centralized (single server)
+
+**Nexus (Magnimont/NoError Studios):**
+- *Description:* MIT-licensed chat platform in early development. Node.js based, self-hostable in theory but lacking documentation.
+- *Architecture:* Centralized (self-hostable)
+
+**sadlounge:**
+- *Description:* Platform advertised on r/discordalternatives. Hosted on Vercel free tier. Unable to verify legitimacy or features.
+- *Architecture:* Unknown
+
+**Commz (allinone):**
+- *Description:* Multi-service platform ("AllInOne") with Commz chat and Vidz video sharing. Discord migration feature advertised. Vercel-hosted.
+- *Architecture:* Unknown
 
 </details>
 
@@ -2188,6 +4213,71 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Nexus (Magnimont/NoError Studios)](https://github.com/Magnimont/Nexus) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
 | [sadlounge](https://sadlounge.vercel.app) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Commz (allinone)](https://allinone-eta.vercel.app/commz) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Sharkord:**
+- *Description:* Self-hosted chat platform designed for privacy-conscious communities.
+- *Architecture:* Self-hosted
+
+**Kloak:**
+- *Description:* SECURITY BREACH (Feb 20, 2026): Platform compromised. Attacker gained access to full user list and private messages. Privacy-first Discord alternative with key-based authentication (no email/password). If key is lost, account cannot be recovered.
+- *Architecture:* Centralized, closed source
+
+**Roomy:**
+- *Description:* Open-source Discord alternative. Very limited public information available. Development status unclear.
+- *Architecture:* Self-hosted, open source
+
+**Colanode:**
+- *Description:* Self-hosted collaboration platform. Minimal public information. Development status unclear.
+- *Architecture:* Self-hosted, open source
+
+**Raven:**
+- *Description:* Self-hosted messaging platform. Minimal public information available.
+- *Architecture:* Self-hosted, open source
+
+**Pulse Chat:**
+- *Description:* Self-hosted communication platform with voice, video, and text chat. No government ID required. Minimal public information available.
+- *Architecture:* Self-hosted, open source
+
+**Osmium:**
+- *Description:* Globally distributed messaging and VoIP platform. Formerly 'Tangle'. Early access opened Feb 2026 after 2+ years development. Independent team (EU/BR).
+- *Architecture:* Centralized, closed source
+
+**Paracord:**
+- *Description:* AI-generated Discord alternative with critical security vulnerabilities. NOT recommended for use. Serves as cautionary example of 'vibe-coded' platforms.
+- *Architecture:* Self-hosted, closed development (single large commit)
+
+**Apoka:**
+- *Description:* Closed-source centralized chat platform with privacy focus.
+- *Architecture:* Centralized
+
+**Concord:**
+- *Description:* Open-source Discord clone written in Next.js. Educational/hobby project in very early development.
+- *Architecture:* Centralized (self-hostable)
+
+**Ripcord (New/2026):**
+- *Description:* Announced Discord alternative claiming E2EE, self-hostable, open source core. Waitlist only as of Feb 2026 - no software released yet.
+- *Architecture:* Unknown (claims decentralized/self-hostable)
+
+**Nexus Chat (AjaxSelectButtonGames):**
+- *Description:* Pre-release chat platform with known bugs. Centralized server at wss://chat.404nerds.com.
+- *Architecture:* Centralized (single server)
+
+**Nexus (Magnimont/NoError Studios):**
+- *Description:* MIT-licensed chat platform in early development. Node.js based, self-hostable in theory but lacking documentation.
+- *Architecture:* Centralized (self-hostable)
+
+**sadlounge:**
+- *Description:* Platform advertised on r/discordalternatives. Hosted on Vercel free tier. Unable to verify legitimacy or features.
+- *Architecture:* Unknown
+
+**Commz (allinone):**
+- *Description:* Multi-service platform ("AllInOne") with Commz chat and Vidz video sharing. Discord migration feature advertised. Vercel-hosted.
+- *Architecture:* Unknown
+
+</details>
 
 </details>
 
@@ -2215,7 +4305,65 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 <details>
 <summary><strong>† Feature Notes</strong></summary>
 
+**Sharkord:**
+- *Description:* Self-hosted chat platform designed for privacy-conscious communities.
+- *Architecture:* Self-hosted
+
+**Kloak:**
+- *Description:* SECURITY BREACH (Feb 20, 2026): Platform compromised. Attacker gained access to full user list and private messages. Privacy-first Discord alternative with key-based authentication (no email/password). If key is lost, account cannot be recovered.
+- *Architecture:* Centralized, closed source
+
+**Roomy:**
+- *Description:* Open-source Discord alternative. Very limited public information available. Development status unclear.
+- *Architecture:* Self-hosted, open source
+
+**Colanode:**
+- *Description:* Self-hosted collaboration platform. Minimal public information. Development status unclear.
+- *Architecture:* Self-hosted, open source
+
+**Raven:**
+- *Description:* Self-hosted messaging platform. Minimal public information available.
+- *Architecture:* Self-hosted, open source
+
+**Pulse Chat:**
+- *Description:* Self-hosted communication platform with voice, video, and text chat. No government ID required. Minimal public information available.
+- *Architecture:* Self-hosted, open source
+
+**Osmium:**
+- *Description:* Globally distributed messaging and VoIP platform. Formerly 'Tangle'. Early access opened Feb 2026 after 2+ years development. Independent team (EU/BR).
+- *Architecture:* Centralized, closed source
+
+**Paracord:**
+- *Description:* AI-generated Discord alternative with critical security vulnerabilities. NOT recommended for use. Serves as cautionary example of 'vibe-coded' platforms.
+- *Architecture:* Self-hosted, closed development (single large commit)
+
+**Apoka:**
+- *Description:* Closed-source centralized chat platform with privacy focus.
+- *Architecture:* Centralized
+
+**Concord:**
+- *Description:* Open-source Discord clone written in Next.js. Educational/hobby project in very early development.
+- *Architecture:* Centralized (self-hostable)
+
+**Ripcord (New/2026):**
+- *Description:* Announced Discord alternative claiming E2EE, self-hostable, open source core. Waitlist only as of Feb 2026 - no software released yet.
+- *Architecture:* Unknown (claims decentralized/self-hostable)
+
+**Nexus Chat (AjaxSelectButtonGames):**
+- *Description:* Pre-release chat platform with known bugs. Centralized server at wss://chat.404nerds.com.
+- *Architecture:* Centralized (single server)
+
+**Nexus (Magnimont/NoError Studios):**
+- *Description:* MIT-licensed chat platform in early development. Node.js based, self-hostable in theory but lacking documentation.
+- *Architecture:* Centralized (self-hostable)
+
+**sadlounge:**
+- *Description:* Platform advertised on r/discordalternatives. Hosted on Vercel free tier. Unable to verify legitimacy or features.
+- *Architecture:* Unknown
+
 **Commz (allinone):**
+- *Description:* Multi-service platform ("AllInOne") with Commz chat and Vidz video sharing. Discord migration feature advertised. Vercel-hosted.
+- *Architecture:* Unknown
 - *Migration Assistant:* Advertises "Migrate from Discord" feature but no documentation on how it works
 
 </details>
@@ -2243,6 +4391,71 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [sadlounge](https://sadlounge.vercel.app) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Commz (allinone)](https://allinone-eta.vercel.app/commz) | ❓ | ❓ | ❓ | ❓ | ❓ |
 
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Sharkord:**
+- *Description:* Self-hosted chat platform designed for privacy-conscious communities.
+- *Architecture:* Self-hosted
+
+**Kloak:**
+- *Description:* SECURITY BREACH (Feb 20, 2026): Platform compromised. Attacker gained access to full user list and private messages. Privacy-first Discord alternative with key-based authentication (no email/password). If key is lost, account cannot be recovered.
+- *Architecture:* Centralized, closed source
+
+**Roomy:**
+- *Description:* Open-source Discord alternative. Very limited public information available. Development status unclear.
+- *Architecture:* Self-hosted, open source
+
+**Colanode:**
+- *Description:* Self-hosted collaboration platform. Minimal public information. Development status unclear.
+- *Architecture:* Self-hosted, open source
+
+**Raven:**
+- *Description:* Self-hosted messaging platform. Minimal public information available.
+- *Architecture:* Self-hosted, open source
+
+**Pulse Chat:**
+- *Description:* Self-hosted communication platform with voice, video, and text chat. No government ID required. Minimal public information available.
+- *Architecture:* Self-hosted, open source
+
+**Osmium:**
+- *Description:* Globally distributed messaging and VoIP platform. Formerly 'Tangle'. Early access opened Feb 2026 after 2+ years development. Independent team (EU/BR).
+- *Architecture:* Centralized, closed source
+
+**Paracord:**
+- *Description:* AI-generated Discord alternative with critical security vulnerabilities. NOT recommended for use. Serves as cautionary example of 'vibe-coded' platforms.
+- *Architecture:* Self-hosted, closed development (single large commit)
+
+**Apoka:**
+- *Description:* Closed-source centralized chat platform with privacy focus.
+- *Architecture:* Centralized
+
+**Concord:**
+- *Description:* Open-source Discord clone written in Next.js. Educational/hobby project in very early development.
+- *Architecture:* Centralized (self-hostable)
+
+**Ripcord (New/2026):**
+- *Description:* Announced Discord alternative claiming E2EE, self-hostable, open source core. Waitlist only as of Feb 2026 - no software released yet.
+- *Architecture:* Unknown (claims decentralized/self-hostable)
+
+**Nexus Chat (AjaxSelectButtonGames):**
+- *Description:* Pre-release chat platform with known bugs. Centralized server at wss://chat.404nerds.com.
+- *Architecture:* Centralized (single server)
+
+**Nexus (Magnimont/NoError Studios):**
+- *Description:* MIT-licensed chat platform in early development. Node.js based, self-hostable in theory but lacking documentation.
+- *Architecture:* Centralized (self-hostable)
+
+**sadlounge:**
+- *Description:* Platform advertised on r/discordalternatives. Hosted on Vercel free tier. Unable to verify legitimacy or features.
+- *Architecture:* Unknown
+
+**Commz (allinone):**
+- *Description:* Multi-service platform ("AllInOne") with Commz chat and Vidz video sharing. Discord migration feature advertised. Vercel-hosted.
+- *Architecture:* Unknown
+
+</details>
+
 </details>
 
 <details>
@@ -2265,6 +4478,71 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Nexus (Magnimont/NoError Studios)](https://github.com/Magnimont/Nexus) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
 | [sadlounge](https://sadlounge.vercel.app) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Commz (allinone)](https://allinone-eta.vercel.app/commz) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Sharkord:**
+- *Description:* Self-hosted chat platform designed for privacy-conscious communities.
+- *Architecture:* Self-hosted
+
+**Kloak:**
+- *Description:* SECURITY BREACH (Feb 20, 2026): Platform compromised. Attacker gained access to full user list and private messages. Privacy-first Discord alternative with key-based authentication (no email/password). If key is lost, account cannot be recovered.
+- *Architecture:* Centralized, closed source
+
+**Roomy:**
+- *Description:* Open-source Discord alternative. Very limited public information available. Development status unclear.
+- *Architecture:* Self-hosted, open source
+
+**Colanode:**
+- *Description:* Self-hosted collaboration platform. Minimal public information. Development status unclear.
+- *Architecture:* Self-hosted, open source
+
+**Raven:**
+- *Description:* Self-hosted messaging platform. Minimal public information available.
+- *Architecture:* Self-hosted, open source
+
+**Pulse Chat:**
+- *Description:* Self-hosted communication platform with voice, video, and text chat. No government ID required. Minimal public information available.
+- *Architecture:* Self-hosted, open source
+
+**Osmium:**
+- *Description:* Globally distributed messaging and VoIP platform. Formerly 'Tangle'. Early access opened Feb 2026 after 2+ years development. Independent team (EU/BR).
+- *Architecture:* Centralized, closed source
+
+**Paracord:**
+- *Description:* AI-generated Discord alternative with critical security vulnerabilities. NOT recommended for use. Serves as cautionary example of 'vibe-coded' platforms.
+- *Architecture:* Self-hosted, closed development (single large commit)
+
+**Apoka:**
+- *Description:* Closed-source centralized chat platform with privacy focus.
+- *Architecture:* Centralized
+
+**Concord:**
+- *Description:* Open-source Discord clone written in Next.js. Educational/hobby project in very early development.
+- *Architecture:* Centralized (self-hostable)
+
+**Ripcord (New/2026):**
+- *Description:* Announced Discord alternative claiming E2EE, self-hostable, open source core. Waitlist only as of Feb 2026 - no software released yet.
+- *Architecture:* Unknown (claims decentralized/self-hostable)
+
+**Nexus Chat (AjaxSelectButtonGames):**
+- *Description:* Pre-release chat platform with known bugs. Centralized server at wss://chat.404nerds.com.
+- *Architecture:* Centralized (single server)
+
+**Nexus (Magnimont/NoError Studios):**
+- *Description:* MIT-licensed chat platform in early development. Node.js based, self-hostable in theory but lacking documentation.
+- *Architecture:* Centralized (self-hostable)
+
+**sadlounge:**
+- *Description:* Platform advertised on r/discordalternatives. Hosted on Vercel free tier. Unable to verify legitimacy or features.
+- *Architecture:* Unknown
+
+**Commz (allinone):**
+- *Description:* Multi-service platform ("AllInOne") with Commz chat and Vidz video sharing. Discord migration feature advertised. Vercel-hosted.
+- *Architecture:* Unknown
+
+</details>
 
 </details>
 
