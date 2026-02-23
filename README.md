@@ -10,13 +10,13 @@
 - **[BACKGROUND.md](BACKGROUND.md)** — Full Discord exodus story, why this matters
 - **[COMPARISON.md](COMPARISON.md)** — Feature comparison table (79 platforms, 61 features)
 - **[FEATURES.md](FEATURES.md)** — What features mean and how to prioritize
-- **[SECURITY.md](SECURITY.md)** — ⚠️ Vibe-coded platforms, active security incidents
+- **[SECURITY.md](SECURITY.md)** — Vibe-coded platforms, active security incidents
 - **[MODERATION.md](MODERATION.md)** — Privacy-respecting vs invasive moderation
-- **[BEYOND_DISCORD.md](BEYOND_DISCORD.md)** — 🌟 Dream features: What could be better than Discord?
+- **[BEYOND_DISCORD.md](BEYOND_DISCORD.md)** — Dream features: What could be better than Discord?
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### If you want...
 
@@ -31,7 +31,7 @@
 | **Gaming communities** | Matrix (Element Call) or TeamSpeak | Matrix: Modern + E2EE. TeamSpeak: Legacy but reliable |
 | **Self-host without hassle** | Zulip, Rocket.Chat, or Conduit | Good docs, Docker support. Conduit: lightweight Matrix server |
 
-**⚠️ Avoid Stoat (formerly Revolt):** Serious child safety concerns (mishandled CSAM reports), censorship of criticism, deceptive user count claims (advertises "1M+ users" but 200-400 actually online), moving away from open source. Voice features non-functional. See platform notes in COMPARISON.md for details.
+**Avoid Stoat (formerly Revolt):** Serious child safety concerns (mishandled CSAM reports), censorship of criticism, deceptive user count claims (advertises "1M+ users" but 200-400 actually online), moving away from open source. Voice features non-functional. See platform notes in COMPARISON.md for details.
 
 **→ See [COMPARISON.md](COMPARISON.md) for full feature comparison**
 
@@ -63,14 +63,14 @@ Ripcord (new), sadlounge, Apoka, Pulse Chat, Sharkord, Roomy, Colanode, Raven, C
 
 These range from vaporware (waitlist only) to very early projects with minimal documentation. Check their notes in [COMPARISON.md](COMPARISON.md) for specific details on each platform's status and concerns.
 
-### 🤖 AI-Generated "Vibe-Coded" Platforms
+### AI-Generated "Vibe-Coded" Platforms
 - **Paracord, Blite Chat, Voltage** — AI-generated, unverified security
 - **Discourse, Virola, Osmium, Rocket.Chat, Root** — Community flagged concerns
 - **Stoat, Fluxer, Oldcord, Spacebar, Zulip** — Responsible AI use (transparent, reviewed)
 
 **→ See [SECURITY.md](SECURITY.md#what-is-vibe-coding) for explanation**
 
-### 🔐 Privacy-Invasive Platforms
+### Privacy-Invasive Platforms
 - **Discord (March 2026)** — Will require face scans or government ID
 - **All centralized commercial platforms** — Will face same pressure eventually
 
