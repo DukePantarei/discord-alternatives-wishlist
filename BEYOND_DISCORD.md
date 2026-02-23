@@ -22,11 +22,11 @@ The key is easy deployment - Docker containers, simple configuration, good docum
 
 ### Searchable, Permanent Knowledge
 
-Our community has years of troubleshooting knowledge, tutorials, and guides trapped in Discord. When someone Google searches a problem we've already solved, they'll never find our solution because Discord isn't indexed. Discord's "forum channels" made this worse, not better - they're still locked behind Discord's walls.
+Many a community has years of troubleshooting knowledge, tutorials, and guides trapped in Discord. When someone Google searches a problem we've already solved, they'll never find our solution because Discord isn't indexed. Discord's "forum channels" made this worse, not better - they're still locked behind Discord's walls. You'll then have to join the discord community, if it is still available, requset the correct permissions, and then sift through tons of documentaiton to find the information you're looking for.
 
 Compare that to traditional forums where solutions live forever and help people who don't even know your community exists. When our Discord server eventually dies - and all servers eventually die - that knowledge disappears with it.
 
-A proper platform should have public-by-default forums that search engines can index, with granular privacy controls for sensitive discussions. Your community's knowledge should outlive the platform. Discourse gets this right, but it's not real-time chat. Matrix can make rooms publicly viewable, but most people don't. We need both: real-time chat and archival forums in one platform.
+A proper platform should have public-by-default forums that search engines can index, with granular privacy controls for sensitive discussions. Your community's knowledge should outlive the platform. Discourse gets this right, but it's not real-time chat. Matrix can make rooms publicly viewable, but most people don't. A real-time chat platform should focus on exactly that, real-time chat. However, there can be tools provided for easily exporting/creating documentation that is meant to last, and then allowing it to be posted on an indexed forum. I believe the mental model for discord was off base for this, it created insular information sharing rather than community building.
 
 ### Gaming Features That Actually Work
 
