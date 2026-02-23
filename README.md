@@ -10,8 +10,9 @@
 - **[BACKGROUND.md](BACKGROUND.md)** — Full Discord exodus story, why this matters
 - **[COMPARISON.md](COMPARISON.md)** — Feature comparison table (73 platforms, 61 features)
 - **[FEATURES.md](FEATURES.md)** — What features mean and how to prioritize
-- **[SECURITY.md](SECURITY.md)** — ⚠️ Vibe-coded platforms, active security incidents
+- **[SECURITY.md](SECURITY.md)** — Vibe-coded platforms, active security incidents
 - **[MODERATION.md](MODERATION.md)** — Privacy-respecting vs invasive moderation
+- **[BEYOND_DISCORD.md](BEYOND_DISCORD.md)** — Dream features: What could be better than Discord?
 
 ---
 
@@ -40,7 +41,7 @@
 
 **Before choosing a platform, check these:**
 
-### 🔒 Active Security Incidents
+### Active Security Incidents
 - **Matrix** — Cryptographic vulnerability (Feb 17, 2026) → Monitor for patches
 - **Kloak** — Critical breach (Feb 20, 2026) → **DO NOT USE**
 - **Paracord** — 20+ vulnerabilities → **DO NOT USE**
@@ -54,7 +55,7 @@
 
 **→ See [SECURITY.md](SECURITY.md#what-is-vibe-coding) for explanation**
 
-### 🔐 Privacy-Invasive Platforms
+### Privacy-Invasive Platforms
 - **Discord (March 2026)** — Will require face scans or government ID
 - **All centralized commercial platforms** — Will face same pressure eventually
 
