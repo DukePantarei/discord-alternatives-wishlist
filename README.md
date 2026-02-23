@@ -31,7 +31,7 @@
 | **Gaming communities** | Matrix (Element Call) or TeamSpeak | Matrix: Modern + E2EE. TeamSpeak: Legacy but reliable |
 | **Self-host without hassle** | Zulip, Rocket.Chat, or Conduit | Good docs, Docker support. Conduit: lightweight Matrix server |
 
-**⚠️ Avoid Stoat for now:** mvh's testing found voice channels non-functional, breaks regularly (alpha quality). Revisit in ~1 year.
+**⚠️ Avoid Stoat (formerly Revolt):** Serious child safety concerns (mishandled CSAM reports), censorship of criticism, deceptive user count claims (advertises "1M+ users" but 200-400 actually online), moving away from open source. Voice features non-functional. See platform notes in COMPARISON.md for details.
 
 **→ See [COMPARISON.md](COMPARISON.md) for full feature comparison**
 
