@@ -142,6 +142,12 @@ CATEGORY_DESCRIPTIONS = {
         "Team collaboration tools designed for businesses. NOT Discord alternatives — "
         "included for completeness as they appear in comparison lists."
     ),
+    "Early Stage / Unverified": (
+        "**NOT recommended for production use.** These platforms range from vaporware "
+        "(waitlist only, no software exists) to very early projects with minimal documentation "
+        "or unverified claims. Some have documented security vulnerabilities. "
+        "Included for transparency. Check individual platform notes for specific concerns."
+    ),
 }
 
 def render_value(value: str) -> str:
