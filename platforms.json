@@ -1507,7 +1507,8 @@
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only"
-      }
+      },
+      "github": "https://github.com/hackthedev/dcts-shipping"
     },
     {
       "id": "root",
