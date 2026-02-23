@@ -18,14 +18,14 @@
 ## Contents
 
 - **[Matrix Clients](#matrix-clients)** (5) — Element, Cinny, Commet, FluffyChat, SchildiChat
-- **[Privacy-Focused Centralized](#privacy-focused-centralized)** (8) — Stoat (formerly Revolt), Valour, Nerimity, Blite Chat, Echoed, Session, RetroShare, 0xchat
+- **[Privacy-Focused Centralized](#privacy-focused-centralized)** (9) — Stoat (formerly Revolt), Valour, Nerimity, Blite Chat, Echoed, Voltage (VoltChat), Session, RetroShare, 0xchat
 - **[Self-Hosted Platforms](#self-hosted-platforms)** (16) — Spacebar, Fluxer, Loqa, DCTS, Zulip, Rocket.Chat, Mezon, Nextcloud Talk, Snikket, Databag, Discourse, Mattermost, Critterchat, Strafe, Common Ground, Conduit
 - **[Commercial Alternatives](#commercial-alternatives)** (5) — Discord, Root, Telegram, GameVox, Steam Chat
 - **[Legacy & Niche](#legacy--niche)** (14) — TeamSpeak, Mumble, Signal, Skype, SimpleX Chat, Quiet, Campfire, Oldcord, Jami, Gajim, Swift IM, Movim, Ventrilo, Carrion
 - **[Discontinued](#discontinued)** (8) — Guilded (discontinued), Roger Wilco, Xfire, RaidCall, Dolby Axon, Razer Comms, Curse Voice, TeaSpeak
 - **[Business Productivity](#business-productivity)** (6) — Pumble, Chanty, Virola, Slack, Microsoft Teams, Amazon Chime
 - **[Protocols & Frameworks](#protocols--frameworks)** (1) — Polyproto
-- **[Early Stage / Unverified](#early-stage-/-unverified)** (16) — Sharkord, Kloak, Roomy, Colanode, Raven, Pulse Chat, Osmium, Paracord, Voltage (VoltChat), Apoka, Concord, Ripcord (New/2026), Nexus Chat (AjaxSelectButtonGames), Nexus (Magnimont/NoError Studios), sadlounge, Commz (allinone)
+- **[Early Stage / Unverified](#early-stage-/-unverified)** (15) — Sharkord, Kloak, Roomy, Colanode, Raven, Pulse Chat, Osmium, Paracord, Apoka, Concord, Ripcord (New/2026), Nexus Chat (AjaxSelectButtonGames), Nexus (Magnimont/NoError Studios), sadlounge, Commz (allinone)
 
 ---
 
@@ -257,6 +257,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Nerimity](https://nerimity.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
 | [Blite Chat](https://blite.chat) | ✅ † | ✅ † | ❌ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ✅ † |
 | [Echoed](https://echoed.chat) | ❌ | ❌ | ❌ | ⚠️ | ✅ | ✅ | ❓ | ❌ | ❌ | ❓ | ⚠️ † |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ † | ✅ † | ✅ † | ✅ † | ✅ | ❓ | ❓ | ❌ | ❓ | ❌ | ⚠️ † |
 | [Session](https://getsession.org) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❓ | ❌ | ❓ | ❌ | ❓ |
 | [0xchat](https://0xchat.com) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❓ | ❌ | ❓ | ❌ | ❓ |
@@ -284,6 +285,13 @@ These platforms prioritize privacy and are open source, but run on a central ser
 **Echoed:**
 - *Ai Generated Codebase:* Backend coded from scratch. Frontend has 'bits and pieces' of AI assistance but not vibe-coded.
 
+**Voltage (VoltChat):**
+- *Open Source:* GitHub repos available but extremely new (Feb 2026)
+- *Federated:* Claims federation support ('Self-Volt') but unproven with no federated instances
+- *E2E Encryption:* Listed in feature flags but implementation status unknown
+- *Ai Generated Codebase:* Strong indicators: 10 commits with full-featured backend, comprehensive docs, federation/OAuth/CDN all at once, no development history, multiple simultaneous repos. Typical vibe-coding pattern.
+- *Self Hostable:* Setup scripts provided but untested by community
+
 </details>
 
 </details>
@@ -298,6 +306,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Nerimity](https://nerimity.com) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 | [Echoed](https://echoed.chat) | ✅ | ❓ | ❌ | ❓ | ❓ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ✅ | ❓ | ❌ | ✅ |
 | [Session](https://getsession.org) | ✅ | ✅ | ❓ | ❓ | ❓ | ❌ |
 | [RetroShare](https://retroshare.cc) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [0xchat](https://0xchat.com) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
@@ -314,6 +323,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Nerimity](https://nerimity.com) | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ❌ |
 | [Blite Chat](https://blite.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ † | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ⚠️ | ❌ |
 | [Session](https://getsession.org) | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [0xchat](https://0xchat.com) | ❓ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
@@ -341,6 +351,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Nerimity](https://nerimity.com) | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ |
 | [Blite Chat](https://blite.chat) | ✅ † | ✅ † | ❓ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ |
 | [Session](https://getsession.org) | ✅ | ✅ | 🗓️ | ❓ | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ✅ | ✅ | ❌ | ❓ | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ |
 | [0xchat](https://0xchat.com) | ✅ | ✅ | ❓ | ❓ | ✅ | ❓ | ❓ | ❓ | ❓ | ❌ |
@@ -374,6 +385,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Nerimity](https://nerimity.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
 | [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [0xchat](https://0xchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
@@ -390,6 +402,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Nerimity](https://nerimity.com) | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ | ❌ |
 | [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ |
 | [0xchat](https://0xchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
@@ -414,6 +427,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Nerimity](https://nerimity.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ❌ | ❌ | ❌ | ❌ | ✅ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [0xchat](https://0xchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ |
@@ -430,9 +444,18 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Nerimity](https://nerimity.com) | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❌ | ❌ | ❌ | ✅ † |
 | [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [0xchat](https://0xchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Voltage (VoltChat):**
+- *Community Discovery:* Listed in feature flags but no public instance to verify
+
+</details>
 
 </details>
 
@@ -2017,7 +2040,6 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Pulse Chat](https://plse.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ † | ❓ | ❓ | ❌ |
 | [Osmium](https://osmium.chat) | ❌ † | ❌ | ❌ | ❓ | ✅ | ❓ | ❓ | ❌ | ❌ | ❓ | ✅ † |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ † | ✅ † | ❌ | ❌ † | ✅ | ✅ | ❓ | ❌ | ❌ | ❌ | ✅ † |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ † | ✅ † | ✅ † | ✅ † | ✅ | ❓ | ❓ | ❌ | ❓ | ❌ | ✅ † |
 | [Apoka](https://www.apoka.app/) | ❌ | ❌ | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Concord](https://concordchat.com) | ✅ † | ❓ | ❌ | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❓ | ❓ |
 | [Ripcord (New/2026)](https://ripcord.gg) | 🗓️ † | 🗓️ † | ❓ | 🗓️ † | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
@@ -2050,13 +2072,6 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 - *Ai Generated Codebase:* Confirmed AI-generated. Community security audit found 20+ vulnerabilities including RCE, unauthenticated endpoints, plaintext secrets. Developer admits 'built in a few evenings' with AI.
 - *E2E Encryption:* No E2EE. JWT secrets stored in plaintext in config file.
 - *Self Hostable:* UPnP auto-opens router ports by default, exposing server to internet without user awareness
-
-**Voltage (VoltChat):**
-- *Open Source:* GitHub repos available but extremely new (Feb 2026)
-- *Federated:* Claims federation support ('Self-Volt') but unproven with no federated instances
-- *E2E Encryption:* Listed in feature flags but implementation status unknown
-- *Ai Generated Codebase:* Strong indicators: 10 commits with full-featured backend, comprehensive docs, federation/OAuth/CDN all at once, no development history, multiple simultaneous repos. Typical vibe-coding pattern.
-- *Self Hostable:* Setup scripts provided but untested by community
 
 **Concord:**
 - *Open Source:* GitHub repo available but minimal activity - appears to be tutorial project
@@ -2091,7 +2106,6 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Pulse Chat](https://plse.chat) | ✅ | ❓ | ✅ | ❓ | ❓ | ✅ |
 | [Osmium](https://osmium.chat) | ✅ † | ❓ | ❌ | ❓ | ❓ | ❌ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ✅ | ❓ | ❌ | ✅ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
 | [Concord](https://concordchat.com) | ✅ | ❓ | ✅ | ❓ | ❌ | ❌ |
 | [Ripcord (New/2026)](https://ripcord.gg) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
@@ -2123,7 +2137,6 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Osmium](https://osmium.chat) | ✅ | ✅ | ✅ | ✅ | ❓ | ❓ | ❌ | ❌ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ⚠️ | ❌ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Concord](https://concordchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Ripcord (New/2026)](https://ripcord.gg) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
@@ -2147,7 +2160,6 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Pulse Chat](https://plse.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Osmium](https://osmium.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❓ | ✅ | ❌ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ † | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ | ❌ | ✅ | ❓ |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Concord](https://concordchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Ripcord (New/2026)](https://ripcord.gg) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
@@ -2179,7 +2191,6 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Pulse Chat](https://plse.chat) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Osmium](https://osmium.chat) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Concord](https://concordchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Ripcord (New/2026)](https://ripcord.gg) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
@@ -2203,7 +2214,6 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Osmium](https://osmium.chat) | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ | ❌ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ | ❌ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Concord](https://concordchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
 | [Ripcord (New/2026)](https://ripcord.gg) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
@@ -2235,7 +2245,6 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Osmium](https://osmium.chat) | ❌ | ❌ | ❌ | ❌ | ❓ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Concord](https://concordchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Ripcord (New/2026)](https://ripcord.gg) | ❓ | ❓ | ❓ | ❓ | ❓ |
@@ -2259,7 +2268,6 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Osmium](https://osmium.chat) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
 | [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❌ | ❌ | ❌ | ✅ † |
 | [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Concord](https://concordchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Ripcord (New/2026)](https://ripcord.gg) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
@@ -2267,14 +2275,6 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | [Nexus (Magnimont/NoError Studios)](https://github.com/Magnimont/Nexus) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
 | [sadlounge](https://sadlounge.vercel.app) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Commz (allinone)](https://allinone-eta.vercel.app/commz) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-
-<details>
-<summary><strong>† Feature Notes</strong></summary>
-
-**Voltage (VoltChat):**
-- *Community Discovery:* Listed in feature flags but no public instance to verify
-
-</details>
 
 </details>
 
