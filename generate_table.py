@@ -226,13 +226,25 @@ def build_notes_for_feature_group(platforms: list, feature_keys: list) -> list:
     note_content = []
     
     for p in platforms:
+        # Start with description and architecture (always shown, not feature-specific)
+        has_general_info = p.get('description') or p.get('architecture')
         feature_notes = p.get("feature_notes", {})
         
         # Filter to only notes relevant to this feature group
         relevant_notes = {fkey: note for fkey, note in feature_notes.items() if fkey in feature_keys}
         
-        if relevant_notes:
+        if has_general_info or relevant_notes:
             note_content.append(f"**{p['name']}:**")
+            
+            # Add description if present
+            if p.get('description'):
+                note_content.append(f"- *Description:* {p['description']}")
+            
+            # Add architecture if present
+            if p.get('architecture'):
+                note_content.append(f"- *Architecture:* {p['architecture']}")
+            
+            # Add feature-specific notes
             for fkey, note_text in relevant_notes.items():
                 label = humanize(fkey)
                 note_content.append(f"- *{label}:* {note_text}")
