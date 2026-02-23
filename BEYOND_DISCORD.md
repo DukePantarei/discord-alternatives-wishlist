@@ -22,7 +22,7 @@ The key is easy deployment - Docker containers, simple configuration, good docum
 
 ### Searchable, Permanent Knowledge
 
-Many a community has years of troubleshooting knowledge, tutorials, and guides trapped in Discord. When someone Google searches a problem we've already solved, they'll never find our solution because Discord isn't indexed. Discord's "forum channels" made this worse, not better - they're still locked behind Discord's walls. You'll then have to join the discord community, if it is still available, requset the correct permissions, and then sift through tons of documentaiton to find the information you're looking for.
+Many a community has years of troubleshooting knowledge, tutorials, and guides trapped in Discord. When someone Google searches a problem we've already solved, they'll never find our solution because Discord isn't indexed. Discord's "forum channels" made this worse, not better - they're still locked behind Discord's walls. You'll then have to join the discord community, if it is still available, request the correct permissions, and then sift through tons of documentation to find the information you're looking for.
 
 Compare that to traditional forums where solutions live forever and help people who don't even know your community exists. When our Discord server eventually dies - and all servers eventually die - that knowledge disappears with it.
 
