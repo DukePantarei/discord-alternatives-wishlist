@@ -16,7 +16,7 @@ The single most important feature isn't a feature at all - it's who controls the
 
 Self-hosting means running the platform on your own hardware or VPS. Discord raises prices? Doesn't affect you. They add AI training on your messages? Not on your server. They shut down entirely? Your community keeps running. You own the infrastructure, the data, and the rules.
 
-This used to require serious technical expertise, but platforms like Fluxer and Matrix are making it accessible. With the hardware I already have (a Ryzen 5950X that sits mostly idle), I could host our entire community for the cost of electricity. Platforms like Conduit make running a Matrix server so lightweight it works on a Raspberry Pi.
+This used to require serious technical expertise, but platforms like Fluxer and Matrix are making it accessible. With relatively minimal hardware (old laptops lying around, business desktops and slim pcs sold on facebook marketplace) a server can host a community of a fairly decent size. Platforms like Conduit make running a Matrix server so lightweight it works on a Raspberry Pi.
 
 The key is easy deployment - Docker containers, simple configuration, good documentation. If it takes more than an afternoon to get running, most people won't bother. The best platforms understand this.
 
