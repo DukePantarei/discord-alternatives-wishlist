@@ -257,7 +257,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Nerimity](https://nerimity.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
 | [Blite Chat](https://blite.chat) | ✅ † | ✅ † | ❌ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ✅ † |
 | [Echoed](https://echoed.chat) | ❌ | ❌ | ❌ | ⚠️ | ✅ | ✅ | ❓ | ❌ | ❌ | ❓ | ⚠️ † |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ † | ✅ † | ✅ † | ✅ † | ✅ | ❓ | ❓ | ❌ | ❓ | ❌ | ⚠️ † |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❓ | ❓ | ❌ | ❓ | ❌ | ⚠️ † |
 | [Session](https://getsession.org) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❓ | ❌ | ❓ | ❌ | ❓ |
 | [0xchat](https://0xchat.com) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❓ | ❌ | ❓ | ❌ | ❓ |
@@ -286,11 +286,9 @@ These platforms prioritize privacy and are open source, but run on a central ser
 - *Ai Generated Codebase:* Backend coded from scratch. Frontend has 'bits and pieces' of AI assistance but not vibe-coded.
 
 **Voltage (VoltChat):**
-- *Open Source:* GitHub repos available but extremely new (Feb 2026)
-- *Federated:* Claims federation support ('Self-Volt') but unproven with no federated instances
-- *E2E Encryption:* Listed in feature flags but implementation status unknown
-- *Ai Generated Codebase:* Strong indicators: 10 commits with full-featured backend, comprehensive docs, federation/OAuth/CDN all at once, no development history, multiple simultaneous repos. Typical vibe-coding pattern.
-- *Self Hostable:* Setup scripts provided but untested by community
+- *Ai Generated Codebase:* Developer clarification: Partial AI usage (homepage + some bug patches). All AI code is audited and security-reviewed before commit. Project is spiritual successor to Enclica Messenger (pre-2020). Solo developer using AI as efficiency tool, not primary development method.
+- *Open Source:* GitHub repos available. Project has history through Enclica Messenger predecessor.
+- *Self Hostable:* Self-hostable with setup scripts provided.
 
 </details>
 
@@ -444,18 +442,10 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Nerimity](https://nerimity.com) | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❌ | ❌ | ❌ | ✅ † |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❌ | ❌ | ❌ | ✅ |
 | [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [0xchat](https://0xchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-
-<details>
-<summary><strong>† Feature Notes</strong></summary>
-
-**Voltage (VoltChat):**
-- *Community Discovery:* Listed in feature flags but no public instance to verify
-
-</details>
 
 </details>
 
