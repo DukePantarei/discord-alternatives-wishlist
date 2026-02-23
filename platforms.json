@@ -5359,12 +5359,9 @@
         "ios_app": "unknown"
       },
       "feature_notes": {
-        "open_source": "GitHub repos available but extremely new (Feb 2026)",
-        "federated": "Claims federation support ('Self-Volt') but unproven with no federated instances",
-        "e2e_encryption": "Listed in feature flags but implementation status unknown",
-        "ai_generated_codebase": "Strong indicators: 10 commits with full-featured backend, comprehensive docs, federation/OAuth/CDN all at once, no development history, multiple simultaneous repos. Typical vibe-coding pattern.",
-        "self_hostable": "Setup scripts provided but untested by community",
-        "community_discovery": "Listed in feature flags but no public instance to verify"
+        "ai_generated_codebase": "Developer clarification: Partial AI usage (homepage + some bug patches). All AI code is audited and security-reviewed before commit. Project is spiritual successor to Enclica Messenger (pre-2020). Solo developer using AI as efficiency tool, not primary development method.",
+        "open_source": "GitHub repos available. Project has history through Enclica Messenger predecessor.",
+        "self_hostable": "Self-hostable with setup scripts provided."
       }
     },
     {
