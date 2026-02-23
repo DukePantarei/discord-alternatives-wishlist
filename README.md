@@ -8,11 +8,11 @@
 ## 📖 Navigation
 
 - **[BACKGROUND.md](BACKGROUND.md)** — Full Discord exodus story, why this matters
-- **[COMPARISON.md](COMPARISON.md)** — Feature comparison table (73 platforms, 61 features)
+- **[COMPARISON.md](COMPARISON.md)** — Feature comparison table (79 platforms, 61 features)
 - **[FEATURES.md](FEATURES.md)** — What features mean and how to prioritize
-- **[SECURITY.md](SECURITY.md)** — Vibe-coded platforms, active security incidents
+- **[SECURITY.md](SECURITY.md)** — ⚠️ Vibe-coded platforms, active security incidents
 - **[MODERATION.md](MODERATION.md)** — Privacy-respecting vs invasive moderation
-- **[BEYOND_DISCORD.md](BEYOND_DISCORD.md)** — Dream features: What could be better than Discord?
+- **[BEYOND_DISCORD.md](BEYOND_DISCORD.md)** — 🌟 Dream features: What could be better than Discord?
 
 ---
 
@@ -37,16 +37,31 @@
 
 ---
 
-## ⚠️ Critical Warnings
+## Critical Warnings
 
 **Before choosing a platform, check these:**
 
-### Active Security Incidents
-- **Matrix** — Cryptographic vulnerability (Feb 17, 2026) → Monitor for patches
-- **Kloak** — Critical breach (Feb 20, 2026) → **DO NOT USE**
-- **Paracord** — 20+ vulnerabilities → **DO NOT USE**
+### Matrix Cryptographic Vulnerability (Feb 17, 2026)
 
-**→ See [SECURITY.md](SECURITY.md) for full details**
+Monitor for patches before using for sensitive communications:
+- Matrix Rust library (vodozemac) has cryptographic issues
+- Affects: Element, Commet, FluffyChat, all Matrix clients using vodozemac
+- See [SECURITY.md](SECURITY.md) for latest status
+
+### Early Stage / Unverified Platforms
+
+**16 platforms are marked "Early Stage / Unverified"** - included for transparency but NOT recommended for production use.
+
+**Platforms with active security issues:**
+- **Kloak** - Security breach (Feb 20, 2026): Attacker accessed user list and private messages
+- **Paracord** - 20+ documented vulnerabilities including remote code execution and plaintext secrets
+
+See [SECURITY.md](SECURITY.md) for complete vulnerability details.
+
+**Other platforms in this category:**
+Ripcord (new), sadlounge, Apoka, Pulse Chat, Sharkord, Roomy, Colanode, Raven, Commz, Voltage, Osmium, Concord, Nexus Chat, Nexus (Magnimont)
+
+These range from vaporware (waitlist only) to very early projects with minimal documentation. Check their notes in [COMPARISON.md](COMPARISON.md) for specific details on each platform's status and concerns.
 
 ### 🤖 AI-Generated "Vibe-Coded" Platforms
 - **Paracord, Blite Chat, Voltage** — AI-generated, unverified security
@@ -55,7 +70,7 @@
 
 **→ See [SECURITY.md](SECURITY.md#what-is-vibe-coding) for explanation**
 
-### Privacy-Invasive Platforms
+### 🔐 Privacy-Invasive Platforms
 - **Discord (March 2026)** — Will require face scans or government ID
 - **All centralized commercial platforms** — Will face same pressure eventually
 
