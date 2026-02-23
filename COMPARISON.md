@@ -18,13 +18,14 @@
 ## Contents
 
 - **[Matrix Clients](#matrix-clients)** (5) — Element, Cinny, Commet, FluffyChat, SchildiChat
-- **[Privacy-Focused Centralized](#privacy-focused-centralized)** (12) — Stoat (formerly Revolt), Valour, Nerimity, Kloak, Blite Chat, Echoed, Paracord, Voltage (VoltChat), Apoka, Session, RetroShare, 0xchat
-- **[Self-Hosted Platforms](#self-hosted-platforms)** (21) — Sharkord, Spacebar, Fluxer, Loqa, DCTS, Zulip, Rocket.Chat, Mezon, Nextcloud Talk, Snikket, Roomy, Colanode, Raven, Pulse Chat, Databag, Discourse, Mattermost, Critterchat, Strafe, Common Ground, Conduit
-- **[Commercial Alternatives](#commercial-alternatives)** (6) — Discord, Root, Telegram, GameVox, Steam Chat, Osmium
+- **[Privacy-Focused Centralized](#privacy-focused-centralized)** (8) — Stoat (formerly Revolt), Valour, Nerimity, Blite Chat, Echoed, Session, RetroShare, 0xchat
+- **[Self-Hosted Platforms](#self-hosted-platforms)** (16) — Spacebar, Fluxer, Loqa, DCTS, Zulip, Rocket.Chat, Mezon, Nextcloud Talk, Snikket, Databag, Discourse, Mattermost, Critterchat, Strafe, Common Ground, Conduit
+- **[Commercial Alternatives](#commercial-alternatives)** (5) — Discord, Root, Telegram, GameVox, Steam Chat
 - **[Legacy & Niche](#legacy--niche)** (14) — TeamSpeak, Mumble, Signal, Skype, SimpleX Chat, Quiet, Campfire, Oldcord, Jami, Gajim, Swift IM, Movim, Ventrilo, Carrion
 - **[Discontinued](#discontinued)** (8) — Guilded (discontinued), Roger Wilco, Xfire, RaidCall, Dolby Axon, Razer Comms, Curse Voice, TeaSpeak
 - **[Business Productivity](#business-productivity)** (6) — Pumble, Chanty, Virola, Slack, Microsoft Teams, Amazon Chime
 - **[Protocols & Frameworks](#protocols--frameworks)** (1) — Polyproto
+- **[Early Stage / Unverified](#early-stage-/-unverified)** (16) — Sharkord, Kloak, Roomy, Colanode, Raven, Pulse Chat, Osmium, Paracord, Voltage (VoltChat), Apoka, Concord, Ripcord (New/2026), Nexus Chat (AjaxSelectButtonGames), Nexus (Magnimont/NoError Studios), sadlounge, Commz (allinone)
 
 ---
 
@@ -254,12 +255,8 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ † | ❌ † | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ † | ⚠️ † |
 | [Valour](https://valour.gg) | ✅ | ❌ † | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
 | [Nerimity](https://nerimity.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
-| [Kloak](https://kloak.app) | ❌ † | ❌ | ❌ | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ † |
 | [Blite Chat](https://blite.chat) | ✅ † | ✅ † | ❌ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ✅ † |
 | [Echoed](https://echoed.chat) | ❌ | ❌ | ❌ | ⚠️ | ✅ | ✅ | ❓ | ❌ | ❌ | ❓ | ⚠️ † |
-| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ † | ✅ † | ❌ | ❌ † | ✅ | ✅ | ❓ | ❌ | ❌ | ❌ | ✅ † |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ † | ✅ † | ✅ † | ✅ † | ✅ | ❓ | ❓ | ❌ | ❓ | ❌ | ✅ † |
-| [Apoka](https://www.apoka.app/) | ❌ | ❌ | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Session](https://getsession.org) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❓ | ❌ | ❓ | ❌ | ❓ |
 | [0xchat](https://0xchat.com) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❓ | ❌ | ❓ | ❌ | ❓ |
@@ -277,11 +274,6 @@ These platforms prioritize privacy and are open source, but run on a central ser
 **Valour:**
 - *Self Hostable:* Planned 'coming soon' but not available as of Feb 2026
 
-**Kloak:**
-- *E2E Encryption:* E2EE for DMs planned but not yet implemented
-- *Open Source:* Closed source but built with privacy-first principles. Minimal data storage by design.
-- *Ai Generated Codebase:* Security breach pattern (Feb 2026) similar to Paracord suggests possible vibe-coded origin with inadequate security review. Platform lacks authentication on critical endpoints.
-
 **Blite Chat:**
 - *E2E Encryption:* X3DH key agreement + symmetric ratchet for DMs. Sender Keys (Signal protocol) for group channels. AES-128-GCM for voice/video via mediasoup SFU. Server sees only ciphertext.
 - *Self Hostable:* Lite mode: text only, 512MB RAM. Full mode: voice/video, requires UDP 40000-40100 open. SQLite, no external dependencies. Works with nginx/Traefik/Caddy or included Caddy for auto-HTTPS.
@@ -291,19 +283,6 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 **Echoed:**
 - *Ai Generated Codebase:* Backend coded from scratch. Frontend has 'bits and pieces' of AI assistance but not vibe-coded.
-
-**Paracord:**
-- *Open Source:* GitHub repository available but developed privately then dumped as single commit - no development history
-- *Ai Generated Codebase:* Confirmed AI-generated. Community security audit found 20+ vulnerabilities including RCE, unauthenticated endpoints, plaintext secrets. Developer admits 'built in a few evenings' with AI.
-- *E2E Encryption:* No E2EE. JWT secrets stored in plaintext in config file.
-- *Self Hostable:* UPnP auto-opens router ports by default, exposing server to internet without user awareness
-
-**Voltage (VoltChat):**
-- *Open Source:* GitHub repos available but extremely new (Feb 2026)
-- *Federated:* Claims federation support ('Self-Volt') but unproven with no federated instances
-- *E2E Encryption:* Listed in feature flags but implementation status unknown
-- *Ai Generated Codebase:* Strong indicators: 10 commits with full-featured backend, comprehensive docs, federation/OAuth/CDN all at once, no development history, multiple simultaneous repos. Typical vibe-coding pattern.
-- *Self Hostable:* Setup scripts provided but untested by community
 
 </details>
 
@@ -317,12 +296,8 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Valour](https://valour.gg) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Nerimity](https://nerimity.com) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Kloak](https://kloak.app) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 | [Echoed](https://echoed.chat) | ✅ | ❓ | ❌ | ❓ | ❓ | ❌ |
-| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ✅ | ❓ | ❌ | ✅ |
-| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
 | [Session](https://getsession.org) | ✅ | ✅ | ❓ | ❓ | ❓ | ❌ |
 | [RetroShare](https://retroshare.cc) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [0xchat](https://0xchat.com) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
@@ -337,12 +312,8 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ |
 | [Valour](https://valour.gg) | ✅ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ † | ❌ |
 | [Nerimity](https://nerimity.com) | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ | ✅ | ❌ |
-| [Kloak](https://kloak.app) | ✅ | ⚠️ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ † | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ⚠️ | ❌ |
-| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Session](https://getsession.org) | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [0xchat](https://0xchat.com) | ❓ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
@@ -368,12 +339,8 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Stoat (formerly Revolt)](https://stoat.chat) | ❌ † | ❌ † | ❌ † | ❌ | ✅ | ✅ | ✅ | ⚠️ | ❌ | ❌ |
 | [Valour](https://valour.gg) | 🗓️ † | 🗓️ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ |
 | [Nerimity](https://nerimity.com) | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❌ |
-| [Kloak](https://kloak.app) | ✅ | ✅ | ✅ | ❓ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❓ |
 | [Blite Chat](https://blite.chat) | ✅ † | ✅ † | ❓ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
-| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ † | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ | ❌ | ✅ | ❓ |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ |
-| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Session](https://getsession.org) | ✅ | ✅ | 🗓️ | ❓ | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ✅ | ✅ | ❌ | ❓ | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ |
 | [0xchat](https://0xchat.com) | ✅ | ✅ | ❓ | ❓ | ✅ | ❓ | ❓ | ❓ | ❓ | ❌ |
@@ -393,9 +360,6 @@ These platforms prioritize privacy and are open source, but run on a central ser
 - *Voice Chat:* E2EE voice via mediasoup SFU with AES-128-GCM encryption
 - *Video Chat:* E2EE video via mediasoup SFU with AES-128-GCM encryption
 
-**Paracord:**
-- *Voice Chat:* Uses LiveKit but proxy has NO authentication - anyone can join calls silently
-
 </details>
 
 </details>
@@ -408,12 +372,8 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Stoat (formerly Revolt)](https://stoat.chat) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Valour](https://valour.gg) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Nerimity](https://nerimity.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Kloak](https://kloak.app) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
-| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [0xchat](https://0xchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
@@ -428,12 +388,8 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ † | ❌ |
 | [Valour](https://valour.gg) | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ |
 | [Nerimity](https://nerimity.com) | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ |
-| [Kloak](https://kloak.app) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Paracord](https://github.com/Scdouglas1999/Paracord) | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ | ❌ |
-| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ |
 | [0xchat](https://0xchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
@@ -456,12 +412,8 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Stoat (formerly Revolt)](https://stoat.chat) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Valour](https://valour.gg) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Nerimity](https://nerimity.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Kloak](https://kloak.app) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ❌ | ❌ | ❌ | ❌ | ✅ |
-| [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [0xchat](https://0xchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ |
@@ -476,23 +428,11 @@ These platforms prioritize privacy and are open source, but run on a central ser
 | [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Valour](https://valour.gg) | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
 | [Nerimity](https://nerimity.com) | ✅ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
-| [Kloak](https://kloak.app) | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
 | [Blite Chat](https://blite.chat) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Echoed](https://echoed.chat) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❌ | ❌ | ❌ | ✅ † |
-| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Session](https://getsession.org) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [RetroShare](https://retroshare.cc) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [0xchat](https://0xchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-
-<details>
-<summary><strong>† Feature Notes</strong></summary>
-
-**Voltage (VoltChat):**
-- *Community Discovery:* Listed in feature flags but no public instance to verify
-
-</details>
 
 </details>
 
@@ -512,7 +452,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Sharkord](https://sharkord.com) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❓ † |
 | [Spacebar](https://spacebar.chat) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ † | ❌ † |
 | [Fluxer](https://fluxer.app) | ✅ † | ❌ † | 🗓️ † | 🗓️ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ † | ⚠️ † |
 | [Loqa](https://loqa.chat) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
@@ -522,10 +461,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mezon](https://mezon.ai) | ✅ | ✅ | ❌ | ❓ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
 | [Nextcloud Talk](https://nextcloud.com/talk) | ✅ | ✅ | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
 | [Snikket](https://snikket.org) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
-| [Roomy](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❓ | ❌ |
-| [Colanode](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❌ |
-| [Raven](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❌ |
-| [Pulse Chat](https://plse.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ † | ❓ | ❓ | ❌ |
 | [Databag](https://github.com/balzack/databag) | ✅ | ✅ | ✅ † | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
 | [Discourse](https://www.discourse.org) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ † | ✅ † |
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ † | ❌ |
@@ -536,10 +471,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
-
-**Sharkord:**
-- *E2E Encryption:* TLS transport encryption only — not end-to-end
-- *Ai Generated Codebase:* Minimal documentation, rapid development timeline. Status unclear.
 
 **Spacebar:**
 - *E2E Encryption:* TLS transport encryption only
@@ -576,9 +507,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 - *Federated:* Federation across Nextcloud instances for group chats and calls
 - *E2E Encryption:* E2EE for calls. Messages not E2EE by default.
 
-**Pulse Chat:**
-- *Biometric Age Verification:* 'No government ID required' is a key selling point
-
 **Databag:**
 - *E2E Encryption:* Optional 'sealed topics' provide E2EE. Default unsealed to allow server-side features (streaming, processing). Admin cannot view sealed topics.
 - *Federated:* Accounts on different Databag nodes can communicate. Federation protocol is Databag-specific, not Matrix/XMPP.
@@ -607,7 +535,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 | **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Sharkord](https://sharkord.com) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 | [Spacebar](https://spacebar.chat) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 | [Fluxer](https://fluxer.app) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Loqa](https://loqa.chat) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
@@ -617,10 +544,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mezon](https://mezon.ai) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 | [Nextcloud Talk](https://nextcloud.com/talk) | ✅ | ⚠️ † | ✅ | ❓ | ✅ | ✅ |
 | [Snikket](https://snikket.org) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
-| [Roomy](https://github.com/) | ❓ | ❓ | ✅ | ❓ | ❓ | ✅ |
-| [Colanode](https://github.com/) | ✅ | ❓ | ✅ | ❓ | ❓ | ✅ |
-| [Raven](https://github.com/) | ✅ | ❓ | ✅ | ❓ | ❓ | ✅ |
-| [Pulse Chat](https://plse.chat) | ✅ | ❓ | ✅ | ❓ | ❓ | ✅ |
 | [Databag](https://github.com/balzack/databag) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 | [Discourse](https://www.discourse.org) | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [Mattermost](https://mattermost.com) | ✅ | ❌ † | ✅ | ❌ | ✅ | ❌ |
@@ -652,7 +575,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 | **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Sharkord](https://sharkord.com) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
 | [Spacebar](https://spacebar.chat) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
 | [Fluxer](https://fluxer.app) | ✅ | ✅ | ✅ | ✅ | 🗓️ † | 🗓️ † | ⚠️ | ❌ |
 | [Loqa](https://loqa.chat) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
@@ -662,10 +584,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mezon](https://mezon.ai) | ✅ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ⚠️ | ✅ | ❌ |
 | [Nextcloud Talk](https://nextcloud.com/talk) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | [Snikket](https://snikket.org) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ |
-| [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Databag](https://github.com/balzack/databag) | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ |
 | [Discourse](https://www.discourse.org) | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ |
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
@@ -690,7 +608,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Sharkord](https://sharkord.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | [Spacebar](https://spacebar.chat) | ❌ † | ❌ † | ❌ † | ❌ | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ |
 | [Fluxer](https://fluxer.app) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | 🗓️ † | ✅ | ❌ |
 | [Loqa](https://loqa.chat) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ |
@@ -700,10 +617,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mezon](https://mezon.ai) | ✅ | ❓ | ❓ | ❌ | ✅ | ✅ | ⚠️ | ⚠️ | ❓ | ❓ |
 | [Nextcloud Talk](https://nextcloud.com/talk) | ✅ | ✅ † | ✅ | ❌ | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [Snikket](https://snikket.org) | ✅ | ✅ | ❌ | ❌ | ⚠️ † | ✅ | ❌ | ❌ | ❌ | ❌ |
-| [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Pulse Chat](https://plse.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Databag](https://github.com/balzack/databag) | ⚠️ † | ⚠️ † | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ † | ❌ | ❌ |
 | [Discourse](https://www.discourse.org) | ❌ | ❌ | ❌ | ❌ | ✅ † | ✅ | ✅ | ✅ † | ❌ | ❌ |
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ † | ❌ | ❌ |
@@ -767,7 +680,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 | **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Sharkord](https://sharkord.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Spacebar](https://spacebar.chat) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Fluxer](https://fluxer.app) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Loqa](https://loqa.chat) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
@@ -777,10 +689,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mezon](https://mezon.ai) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Nextcloud Talk](https://nextcloud.com/talk) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Snikket](https://snikket.org) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Roomy](https://github.com/) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Colanode](https://github.com/) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Raven](https://github.com/) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Pulse Chat](https://plse.chat) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Databag](https://github.com/balzack/databag) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Discourse](https://www.discourse.org) | ✅ † | ✅ † | ✅ | ✅ † | ⚠️ | ✅ † | ❌ | ❌ |
 | [Mattermost](https://mattermost.com) | ✅ | ⚠️ | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ |
@@ -810,7 +718,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 | **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Sharkord](https://sharkord.com) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Spacebar](https://spacebar.chat) | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ✅ † |
 | [Fluxer](https://fluxer.app) | ✅ | ✅ | ⚠️ | ✅ | ❌ | ❌ | ❌ |
 | [Loqa](https://loqa.chat) | ⚠️ | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❌ |
@@ -820,10 +727,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mezon](https://mezon.ai) | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ |
 | [Nextcloud Talk](https://nextcloud.com/talk) | ❌ | ⚠️ | ✅ | ✅ | ❌ | ✅ † | ❌ |
 | [Snikket](https://snikket.org) | ❌ | ❌ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ |
-| [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Databag](https://github.com/balzack/databag) | ❌ | ⚠️ | ✅ | ⚠️ | ❌ | ❌ | ❌ |
 | [Discourse](https://www.discourse.org) | ✅ | ✅ | ✅ | ✅ | ⚠️ † | ⚠️ † | ❌ |
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ✅ | ✅ | ✅ † | ✅ † | ❌ |
@@ -861,7 +764,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 | **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
 | --- | --- | --- | --- | --- | --- |
-| [Sharkord](https://sharkord.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Spacebar](https://spacebar.chat) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Fluxer](https://fluxer.app) | ❌ | ❌ | ❌ | ❌ | 🗓️ † |
 | [Loqa](https://loqa.chat) | ❌ | ❌ | ❌ | ❌ | ❌ |
@@ -871,10 +773,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mezon](https://mezon.ai) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Nextcloud Talk](https://nextcloud.com/talk) | ❌ | ❌ | ❌ | ✅ † | ✅ † |
 | [Snikket](https://snikket.org) | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Databag](https://github.com/balzack/databag) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Discourse](https://www.discourse.org) | ✅ † | ❌ | ❌ | ✅ | ✅ |
 | [Mattermost](https://mattermost.com) | ⚠️ | ✅ † | ❌ | ✅ | ⚠️ |
@@ -908,7 +806,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Sharkord](https://sharkord.com) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Spacebar](https://spacebar.chat) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Fluxer](https://fluxer.app) | 🗓️ † | ❌ | ❌ | ❌ | ❌ | 🗓️ † |
 | [Loqa](https://loqa.chat) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ |
@@ -918,10 +815,6 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | [Mezon](https://mezon.ai) | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
 | [Nextcloud Talk](https://nextcloud.com/talk) | ⚠️ | ⚠️ | ❌ | ❌ | ⚠️ | ❌ |
 | [Snikket](https://snikket.org) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [Databag](https://github.com/balzack/databag) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Discourse](https://www.discourse.org) | ✅ | ✅ | ❌ | ❌ | ⚠️ | ✅ |
 | [Mattermost](https://mattermost.com) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
@@ -958,11 +851,10 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Discord](https://discord.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ✅ † | ❌ † | ✅ † | ❌ |
-| [Root](https://rootapp.com) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ † | ⚠️ | ❌ | ❓ | ❓ | ✅ † |
+| [Root](https://rootapp.com) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ † | ⚠️ | ❌ | ❓ | ❓ | ❓ † |
 | [Telegram](https://telegram.org) | ⚠️ † | ❌ | ❌ | ⚠️ † | ⚠️ † | ❌ | ⚠️ | ❌ | ✅ † | ⚠️ † | ❌ |
 | [GameVox](https://gamevox.com) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
 | [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ⚠️ † | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
-| [Osmium](https://osmium.chat) | ❌ † | ❌ | ❌ | ❓ | ✅ | ❓ | ❓ | ❌ | ❌ | ❓ | ✅ † |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -988,10 +880,6 @@ Polished commercial products, included for completeness. Privacy policies and lo
 **Steam Chat:**
 - *E2E Encryption:* Variable - some encryption but not E2EE for all features
 
-**Osmium:**
-- *Open Source:* Closed source commercial platform
-- *Ai Generated Codebase:* Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code.
-
 </details>
 
 </details>
@@ -1006,7 +894,6 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Telegram](https://telegram.org) | ✅ | ⚠️ † | ❌ | ⚠️ † | ❓ | ❌ |
 | [GameVox](https://gamevox.com) | ⚠️ † | ❌ | ❌ | ❓ | ❓ | ❌ |
 | [Steam Chat](https://store.steampowered.com) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| [Osmium](https://osmium.chat) | ✅ † | ❓ | ❌ | ❓ | ❓ | ❌ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -1023,9 +910,6 @@ Polished commercial products, included for completeness. Privacy policies and lo
 **GameVox:**
 - *Free To Use:* Free tier: 50 members max, 3 voice channels, 8 text channels, 2GB storage
 
-**Osmium:**
-- *Free To Use:* No email required - sign up in 30 seconds
-
 </details>
 
 </details>
@@ -1040,7 +924,6 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Telegram](https://telegram.org) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
 | [GameVox](https://gamevox.com) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | [Steam Chat](https://store.steampowered.com) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
-| [Osmium](https://osmium.chat) | ✅ | ✅ | ✅ | ✅ | ❓ | ❓ | ❌ | ❌ |
 
 </details>
 
@@ -1054,7 +937,6 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Telegram](https://telegram.org) | ✅ | ✅ † | ✅ | ❌ † | ✅ | ✅ | ✅ | ⚠️ | ❌ | ❌ |
 | [GameVox](https://gamevox.com) | ✅ † | ✅ | ✅ | ❓ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ |
 | [Steam Chat](https://store.steampowered.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ | ✅ | ❌ | ✅ | ❌ |
-| [Osmium](https://osmium.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❓ | ✅ | ❌ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -1088,7 +970,6 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Telegram](https://telegram.org) | ⚠️ | ⚠️ | ❌ | ✅ | ✅ † | ✅ | ❌ | ❌ |
 | [GameVox](https://gamevox.com) | ⚠️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Osmium](https://osmium.chat) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -1120,7 +1001,6 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Telegram](https://telegram.org) | ⚠️ | ⚠️ | ⚠️ | ✅ | ❌ | ❌ | ❌ |
 | [GameVox](https://gamevox.com) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | [Steam Chat](https://store.steampowered.com) | ❌ | ⚠️ | ❌ | ✅ | ❌ | ❌ | ❌ |
-| [Osmium](https://osmium.chat) | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ | ❌ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -1142,7 +1022,6 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Telegram](https://telegram.org) | ❌ | ❌ | ⚠️ † | ✅ † | ❌ |
 | [GameVox](https://gamevox.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ❌ | ✅ |
-| [Osmium](https://osmium.chat) | ❌ | ❌ | ❌ | ❌ | ❓ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -1168,7 +1047,6 @@ Polished commercial products, included for completeness. Privacy policies and lo
 | [Telegram](https://telegram.org) | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ † |
 | [GameVox](https://gamevox.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ † |
 | [Steam Chat](https://store.steampowered.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ † |
-| [Osmium](https://osmium.chat) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
 
 <details>
 <summary><strong>† Feature Notes</strong></summary>
@@ -2112,6 +1990,289 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 | **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
 | --- | --- | --- | --- | --- | --- | --- |
 | [Polyproto](https://polyproto.io) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
+
+</details>
+
+
+---
+
+[↑ Back to top](#platform-comparison)
+
+---
+
+## Early Stage / Unverified
+
+<details>
+<summary><strong>Privacy & Licensing</strong></summary>
+
+| **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Sharkord](https://sharkord.com) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❓ † |
+| [Kloak](https://kloak.app) | ❌ † | ❌ | ❌ | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❓ † |
+| [Roomy](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❓ | ❌ |
+| [Colanode](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❌ |
+| [Raven](https://github.com/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❌ |
+| [Pulse Chat](https://plse.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❌ † | ❓ | ❓ | ❌ |
+| [Osmium](https://osmium.chat) | ❌ † | ❌ | ❌ | ❓ | ✅ | ❓ | ❓ | ❌ | ❌ | ❓ | ✅ † |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ † | ✅ † | ❌ | ❌ † | ✅ | ✅ | ❓ | ❌ | ❌ | ❌ | ✅ † |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ † | ✅ † | ✅ † | ✅ † | ✅ | ❓ | ❓ | ❌ | ❓ | ❌ | ✅ † |
+| [Apoka](https://www.apoka.app/) | ❌ | ❌ | ❌ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Concord](https://concordchat.com) | ✅ † | ❓ | ❌ | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❓ | ❓ |
+| [Ripcord (New/2026)](https://ripcord.gg) | 🗓️ † | 🗓️ † | ❓ | 🗓️ † | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Nexus Chat (AjaxSelectButtonGames)](https://github.com/AjaxSelectButtonGames/NexusChat) | ❓ † | ❌ † | ❌ | ❓ | ❓ | ❓ | ❓ | ❌ | ❓ | ❓ | ❓ |
+| [Nexus (Magnimont/NoError Studios)](https://github.com/Magnimont/Nexus) | ✅ † | ✅ † | ❌ | ❓ | ✅ | ✅ | ❓ | ❌ | ❓ | ❌ | ❓ |
+| [sadlounge](https://sadlounge.vercel.app) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Commz (allinone)](https://allinone-eta.vercel.app/commz) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Sharkord:**
+- *E2E Encryption:* TLS transport encryption only — not end-to-end
+- *Ai Generated Codebase:* Minimal documentation, rapid development timeline. Status unclear.
+
+**Kloak:**
+- *E2E Encryption:* E2EE for DMs planned but not yet implemented
+- *Open Source:* Closed source but built with privacy-first principles. Minimal data storage by design.
+- *Ai Generated Codebase:* Security breach pattern (Feb 2026) similar to Paracord suggests possible vibe-coded origin with inadequate security review. Platform lacks authentication on critical endpoints.
+
+**Pulse Chat:**
+- *Biometric Age Verification:* 'No government ID required' is a key selling point
+
+**Osmium:**
+- *Open Source:* Closed source commercial platform
+- *Ai Generated Codebase:* Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code.
+
+**Paracord:**
+- *Open Source:* GitHub repository available but developed privately then dumped as single commit - no development history
+- *Ai Generated Codebase:* Confirmed AI-generated. Community security audit found 20+ vulnerabilities including RCE, unauthenticated endpoints, plaintext secrets. Developer admits 'built in a few evenings' with AI.
+- *E2E Encryption:* No E2EE. JWT secrets stored in plaintext in config file.
+- *Self Hostable:* UPnP auto-opens router ports by default, exposing server to internet without user awareness
+
+**Voltage (VoltChat):**
+- *Open Source:* GitHub repos available but extremely new (Feb 2026)
+- *Federated:* Claims federation support ('Self-Volt') but unproven with no federated instances
+- *E2E Encryption:* Listed in feature flags but implementation status unknown
+- *Ai Generated Codebase:* Strong indicators: 10 commits with full-featured backend, comprehensive docs, federation/OAuth/CDN all at once, no development history, multiple simultaneous repos. Typical vibe-coding pattern.
+- *Self Hostable:* Setup scripts provided but untested by community
+
+**Concord:**
+- *Open Source:* GitHub repo available but minimal activity - appears to be tutorial project
+
+**Ripcord (New/2026):**
+- *Open Source:* Website claims 'open source core' but no code published yet
+- *Self Hostable:* Website claims self-hostable but no software exists to verify
+- *E2E Encryption:* Website claims E2EE but no implementation to audit
+
+**Nexus Chat (AjaxSelectButtonGames):**
+- *Self Hostable:* Code on GitHub but runs on single centralized server wss://chat.404nerds.com
+- *Open Source:* Code available but no clear license statement
+
+**Nexus (Magnimont/NoError Studios):**
+- *Open Source:* MIT licensed - proper open source
+- *Self Hostable:* Developer states 'working on deployment options' - technically possible but undocumented
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>Pricing</strong></summary>
+
+| **Platform** | **Free to Use** | **No Premium Tier Required** | **Self-Hosting License** | **Freemium Limitations** | **Enterprise Tier Available** | **Hardware Required** |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Sharkord](https://sharkord.com) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
+| [Kloak](https://kloak.app) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| [Roomy](https://github.com/) | ❓ | ❓ | ✅ | ❓ | ❓ | ✅ |
+| [Colanode](https://github.com/) | ✅ | ❓ | ✅ | ❓ | ❓ | ✅ |
+| [Raven](https://github.com/) | ✅ | ❓ | ✅ | ❓ | ❓ | ✅ |
+| [Pulse Chat](https://plse.chat) | ✅ | ❓ | ✅ | ❓ | ❓ | ✅ |
+| [Osmium](https://osmium.chat) | ✅ † | ❓ | ❌ | ❓ | ❓ | ❌ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ✅ | ❓ | ❌ | ✅ |
+| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
+| [Concord](https://concordchat.com) | ✅ | ❓ | ✅ | ❓ | ❌ | ❌ |
+| [Ripcord (New/2026)](https://ripcord.gg) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Nexus Chat (AjaxSelectButtonGames)](https://github.com/AjaxSelectButtonGames/NexusChat) | ✅ | ✅ | ❓ | ❌ | ❌ | ❌ |
+| [Nexus (Magnimont/NoError Studios)](https://github.com/Magnimont/Nexus) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [sadlounge](https://sadlounge.vercel.app) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Commz (allinone)](https://allinone-eta.vercel.app/commz) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Osmium:**
+- *Free To Use:* No email required - sign up in 30 seconds
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>Platform Support</strong></summary>
+
+| **Platform** | **Web App** | **Windows App** | **macOS App** | **Linux App** | **Android App** | **iOS App** | **Docker Install** | **Mobile Device Hosting** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Sharkord](https://sharkord.com) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| [Kloak](https://kloak.app) | ✅ | ⚠️ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
+| [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Osmium](https://osmium.chat) | ✅ | ✅ | ✅ | ✅ | ❓ | ❓ | ❌ | ❌ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ⚠️ | ❌ |
+| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Concord](https://concordchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Ripcord (New/2026)](https://ripcord.gg) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Nexus Chat (AjaxSelectButtonGames)](https://github.com/AjaxSelectButtonGames/NexusChat) | ✅ | ❓ | ❓ | ❓ | ❌ | ❌ | ❓ | ❌ |
+| [Nexus (Magnimont/NoError Studios)](https://github.com/Magnimont/Nexus) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [sadlounge](https://sadlounge.vercel.app) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Commz (allinone)](https://allinone-eta.vercel.app/commz) | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+</details>
+
+<details>
+<summary><strong>Communication</strong></summary>
+
+| **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Sharkord](https://sharkord.com) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
+| [Kloak](https://kloak.app) | ✅ | ✅ | ✅ | ❓ | ✅ | ✅ | ✅ | ⚠️ | ✅ | ❓ |
+| [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Pulse Chat](https://plse.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Osmium](https://osmium.chat) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ❓ | ✅ | ❌ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ✅ † | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ | ❌ | ✅ | ❓ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ❓ | ✅ | ✅ | ❓ | ✅ | ✅ | ❓ |
+| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Concord](https://concordchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Ripcord (New/2026)](https://ripcord.gg) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Nexus Chat (AjaxSelectButtonGames)](https://github.com/AjaxSelectButtonGames/NexusChat) | ❓ | ❓ | ❓ | ❌ | ✅ | ❓ | ❓ | ❓ | ❓ | ❌ |
+| [Nexus (Magnimont/NoError Studios)](https://github.com/Magnimont/Nexus) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [sadlounge](https://sadlounge.vercel.app) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Commz (allinone)](https://allinone-eta.vercel.app/commz) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Paracord:**
+- *Voice Chat:* Uses LiveKit but proxy has NO authentication - anyone can join calls silently
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>Moderation & Safety</strong></summary>
+
+| **Platform** | **Large Community Moderation Tools** | **AutoMod / Content Filtering** | **Audit Logs** | **User Timeout / Mute** | **Raid Protection** | **Message Reporting** | **Age Verification** | **ID / Biometric Verification** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Sharkord](https://sharkord.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Kloak](https://kloak.app) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Roomy](https://github.com/) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Colanode](https://github.com/) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Raven](https://github.com/) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Pulse Chat](https://plse.chat) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Osmium](https://osmium.chat) | ❓ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
+| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Concord](https://concordchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Ripcord (New/2026)](https://ripcord.gg) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Nexus Chat (AjaxSelectButtonGames)](https://github.com/AjaxSelectButtonGames/NexusChat) | ❌ | ❌ | ❓ | ❓ | ❌ | ❓ | ❓ | ❌ |
+| [Nexus (Magnimont/NoError Studios)](https://github.com/Magnimont/Nexus) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ |
+| [sadlounge](https://sadlounge.vercel.app) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Commz (allinone)](https://allinone-eta.vercel.app/commz) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+</details>
+
+<details>
+<summary><strong>Server & Admin</strong></summary>
+
+| **Platform** | **Role Management** | **Server / Space Organization** | **Admin GUI** | **Invite Links & Guest Access** | **Migration Assistant** | **Bridges to Other Platforms** | **Discord API Compatible** |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Sharkord](https://sharkord.com) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Kloak](https://kloak.app) | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Osmium](https://osmium.chat) | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ | ❌ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ⚠️ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ✅ | ✅ | ❓ | ✅ | ❌ | ❌ | ❌ |
+| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Concord](https://concordchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❌ |
+| [Ripcord (New/2026)](https://ripcord.gg) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Nexus Chat (AjaxSelectButtonGames)](https://github.com/AjaxSelectButtonGames/NexusChat) | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ | ❌ |
+| [Nexus (Magnimont/NoError Studios)](https://github.com/Magnimont/Nexus) | ❓ | ❓ | ❓ | ❓ | ❌ | ❌ | ❌ |
+| [sadlounge](https://sadlounge.vercel.app) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Commz (allinone)](https://allinone-eta.vercel.app/commz) | ❓ | ❓ | ❓ | ❓ | ⚠️ † | ❓ | ❓ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Commz (allinone):**
+- *Migration Assistant:* Advertises "Migrate from Discord" feature but no documentation on how it works
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>Channels & Content</strong></summary>
+
+| **Platform** | **Docs / Wiki Channels** | **List / Task Channels** | **Media Gallery Channels** | **Scheduled Announcements** | **Event Scheduling** |
+| --- | --- | --- | --- | --- | --- |
+| [Sharkord](https://sharkord.com) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Kloak](https://kloak.app) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Osmium](https://osmium.chat) | ❌ | ❌ | ❌ | ❌ | ❓ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Concord](https://concordchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Ripcord (New/2026)](https://ripcord.gg) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Nexus Chat (AjaxSelectButtonGames)](https://github.com/AjaxSelectButtonGames/NexusChat) | ❌ | ❓ | ❓ | ❌ | ❓ |
+| [Nexus (Magnimont/NoError Studios)](https://github.com/Magnimont/Nexus) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [sadlounge](https://sadlounge.vercel.app) | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Commz (allinone)](https://allinone-eta.vercel.app/commz) | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+</details>
+
+<details>
+<summary><strong>Community Tools</strong></summary>
+
+| **Platform** | **Bots & Automation** | **Webhooks** | **Raid Planner / Group Activity Tools** | **Tournament / Bracket Tools** | **Rich Calendar Tools** | **Community Discovery** |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Sharkord](https://sharkord.com) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Kloak](https://kloak.app) | ⚠️ | ⚠️ | ❌ | ❌ | ❌ | ❌ |
+| [Roomy](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Colanode](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Raven](https://github.com/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Pulse Chat](https://plse.chat) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Osmium](https://osmium.chat) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
+| [Paracord](https://github.com/Scdouglas1999/Paracord) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Voltage (VoltChat)](https://voltagechat.app/) | ❓ | ❓ | ❌ | ❌ | ❌ | ✅ † |
+| [Apoka](https://www.apoka.app/) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Concord](https://concordchat.com) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Ripcord (New/2026)](https://ripcord.gg) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Nexus Chat (AjaxSelectButtonGames)](https://github.com/AjaxSelectButtonGames/NexusChat) | ❓ | ❓ | ❌ | ❌ | ❌ | ❌ |
+| [Nexus (Magnimont/NoError Studios)](https://github.com/Magnimont/Nexus) | ❓ | ❓ | ❌ | ❌ | ❌ | ❓ |
+| [sadlounge](https://sadlounge.vercel.app) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [Commz (allinone)](https://allinone-eta.vercel.app/commz) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+
+<details>
+<summary><strong>† Feature Notes</strong></summary>
+
+**Voltage (VoltChat):**
+- *Community Discovery:* Listed in feature flags but no public instance to verify
+
+</details>
 
 </details>
 
