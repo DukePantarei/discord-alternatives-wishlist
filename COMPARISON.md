@@ -2002,6 +2002,8 @@ Team collaboration tools designed for businesses. NOT Discord alternatives — i
 
 ## Early Stage / Unverified
 
+**NOT recommended for production use.** These platforms range from vaporware (waitlist only, no software exists) to very early projects with minimal documentation or unverified claims. Some have documented security vulnerabilities. Included for transparency. Check individual platform notes for specific concerns.
+
 <details>
 <summary><strong>Privacy & Licensing</strong></summary>
 
