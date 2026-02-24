@@ -31,15 +31,17 @@
 | **True decentralization** | Matrix (Element/Commet/Cinny) | Federated — no single company controls it, proven at scale |
 | **Best for small communities (<100)** | Fluxer, Spacebar, or Matrix | Discord-like features, self-hostable, privacy-focused |
 | **Best for large communities (100+)** | Matrix, Zulip, or Discourse | Proven at scale, topic-based threading, strong moderation |
-| **Maximum privacy (E2EE)** | Signal or Matrix | Signal: E2EE by default, gold standard. Matrix: E2EE + federated ([verified](RESOURCES.md)) |
+| **Maximum privacy (E2EE)** | Signal or Matrix | Signal: E2EE by default, gold standard. Matrix: E2EE + federated |
 | **Discord bot compatibility** | Spacebar | Discord API compatible, existing bots work (⚠️ voice/video experimental) |
 | **Gaming voice chat** | Mumble or TeamSpeak | ⚠️ Neither has E2EE but both reliable. Mumble: open source. TeamSpeak: established. |
 | **Self-host without hassle** | Zulip, Rocket.Chat, or Conduit | Good docs, Docker support. Conduit: lightweight Matrix server |
 
-**E2EE Reality Check ([verified](RESOURCES.md)):**
+**E2EE Reality Check:**
 - ✅ **Full E2EE:** Signal (all messages), Element/Matrix (all messages)
 - ⚠️ **Partial E2EE:** Telegram (opt-in Secret Chats only), Rocket.Chat (beta, limited)
 - ❌ **No E2EE:** Discord, Fluxer, Spacebar, Zulip, Mattermost, TeamSpeak, Mumble
+
+**→ See [RESOURCES.md](RESOURCES.md) for platform documentation and sources**
 
 **Avoid Stoat (formerly Revolt):** Serious child safety concerns (mishandled CSAM reports), censorship of criticism, deceptive user count claims (advertises "1M+ users" but 200-400 actually online), moving away from open source. Voice features recently added (Feb 18-20, 2026) but very new and stability unproven. See platform notes in COMPARISON.md for details.
 
@@ -63,7 +65,7 @@
 
 **No E2EE:** Discord has never had end-to-end encryption. All messages can be read by Discord.
 
-**→ See [verified sources](RESOURCES.md#discord) for details**
+**→ See [RESOURCES.md](RESOURCES.md#discord) for source documentation**
 
 ### Matrix Cryptographic Vulnerability (Feb 17, 2026)
 
