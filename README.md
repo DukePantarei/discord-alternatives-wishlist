@@ -31,7 +31,7 @@
 | **Gaming communities** | Matrix (Element Call) or TeamSpeak | Matrix: Modern + E2EE. TeamSpeak: Legacy but reliable |
 | **Self-host without hassle** | Zulip, Rocket.Chat, or Conduit | Good docs, Docker support. Conduit: lightweight Matrix server |
 
-**Avoid Stoat (formerly Revolt):** Serious child safety concerns (mishandled CSAM reports), censorship of criticism, deceptive user count claims (advertises "1M+ users" but 200-400 actually online), moving away from open source. Voice features non-functional. See platform notes in COMPARISON.md for details.
+**Avoid Stoat (formerly Revolt):** Serious child safety concerns (mishandled CSAM reports), censorship of criticism, deceptive user count claims (advertises "1M+ users" but 200-400 actually online), moving away from open source. Voice features recently added (Feb 18-20, 2026) but very new and stability unproven. See platform notes in COMPARISON.md for details.
 
 **→ See [COMPARISON.md](COMPARISON.md) for full feature comparison**
 
@@ -120,7 +120,7 @@ Based on feature coverage, real-world testing (mvh, discordless.com), and UI/UX 
 | 11 | **Slack** | Workplace standard, strong features | Business | Business-focused, expensive |
 
 **⚠️ Alpha/Early Stage Platforms:**
-- **Stoat** — Voice channels currently non-functional (Feb 2026), updates slow, breaks regularly. Beautiful Discord-like UI but not production-ready. Revisit in ~1 year.
+- **Stoat** — Voice support just added (Feb 18-20, 2026), working on main instance but very new. Browser-based voice functional, desktop app still in development. Updates slow, alpha-quality stability. Beautiful Discord-like UI but production readiness questionable. Serious moderation concerns (see platform notes). Revisit in ~1 year.
 - **Spacebar** — Discord bot compatibility promising but voice/video still in development. Making new guilds/adding friends may not work consistently.
 
 **❌ DO NOT USE (Security Issues):**
