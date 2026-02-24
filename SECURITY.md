@@ -6,7 +6,7 @@
 
 ## ⚠️ ACTIVE SECURITY INCIDENTS
 
-### Matrix Ecosystem - CRITICAL CRYPTOGRAPHIC VULNERABILITY (Feb 17, 2026)
+### Matrix Ecosystem - CRYPTOGRAPHIC VULNERABILITY (Feb 17, 2026)
 
 ⚠️ **Cryptographic issues discovered in Matrix's Rust library (vodozemac)**
 
