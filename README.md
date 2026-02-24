@@ -15,12 +15,9 @@
 - **[MODERATION.md](MODERATION.md)** — Privacy-respecting vs invasive moderation
 - **[BEYOND_DISCORD.md](BEYOND_DISCORD.md)** — Dream features: What could be better than Discord?
 
-### Verification & Technical
-- **[RESOURCES.md](RESOURCES.md)** — All verification sources organized by platform
-- **[VERIFICATION_SUMMARY.md](VERIFICATION_SUMMARY.md)** — Audit findings and methodology
+### Reference
+- **[RESOURCES.md](RESOURCES.md)** — Source documentation and links by platform
 - **[ARCHITECTURE_EXPLAINED.md](ARCHITECTURE_EXPLAINED.md)** — How specific platforms work (deep dives)
-
-**Verification Status:** 12/79 platforms verified (15%) • [See audit progress](VERIFICATION_SUMMARY.md)
 
 ---
 
@@ -112,7 +109,6 @@ This repository is a **structured, community-maintained comparison** of Discord 
 - **79 platforms** tracked across **9 categories**
 - **61 features** organized into **8 logical groups**
 - **Auto-generated comparison tables** from single source of truth (`platforms.json`)
-- **Systematic verification** with primary sources (12/79 verified, [see progress](VERIFICATION_SUMMARY.md))
 
 ### Categories
 
@@ -273,20 +269,17 @@ We welcome contributions! Here's how to help:
 
 ---
 
-## Data Sources & Verification
+## Data Sources
 
 **Primary source:** `platforms.json` — single source of truth
 
-**Verification methodology:**
-- All platform data is being systematically verified with primary sources
-- See **[RESOURCES.md](RESOURCES.md)** for complete source documentation per platform
-- See **[VERIFICATION_SUMMARY.md](VERIFICATION_SUMMARY.md)** for audit progress and findings
-
-**12/79 platforms verified** with sources including:
+**Sources include:**
 - Official GitHub repositories and documentation
 - Security audits and vulnerability reports
 - Recent news articles and press releases
 - Community testing and feedback
+
+**→ See [RESOURCES.md](RESOURCES.md) for detailed sources by platform**
 
 **Feature values:**
 - ✅ `yes` — Fully supported
@@ -294,8 +287,6 @@ We welcome contributions! Here's how to help:
 - 🗓️ `planned` — On roadmap
 - ❌ `no` — Not supported
 - ❓ `unknown` — Unverified
-
-**→ See [RESOURCES.md](RESOURCES.md) for all verification sources**
 
 ---
 
