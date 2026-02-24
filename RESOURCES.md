@@ -35,21 +35,24 @@
 
 ### Video Resources
 
-**Discord Alternatives Overview:**
-- [Video 1](https://youtu.be/97j0Xglq_1U?si=1bZMPMtphHTAjyJA)
-- [Video 2](https://youtu.be/MTK-R4mrwLA?si=A7S7kICuPVMDb177)
-- [Video 3](https://youtu.be/qhxsE8dvbs4?si=-QYrGSW1VS6haPkR)
-- [Video 4](https://youtu.be/8JVbqEfmEUc?si=loc41IvCRhUzsHHn)
-- [Video 5](https://youtu.be/l1Xb0RkKCik?si=-oeJFJszOcbX7yTS)
-- [Video 6](https://youtu.be/5LsF4FF6gO4?si=nH46QKfoLVW1E3fH)
-- [Video 7](https://youtu.be/lvv1QTa1on8?si=ZIm9mzbH5EMP4F2f)
+**Discord Age Verification News:**
+- [Discord Wants Your ID And It’s Very Bad... by SomeOrdinaryGamers](https://www.youtube.com/watch?v=jAyAg7DBqbg)
+- [Discord Made A Terrible Response...by SomeOrdinaryGamers](https://youtu.be/97j0Xglq_1U?si=1bZMPMtphHTAjyJA)
+- [Discord is Completely Self-Destructing by Act Man TV](https://youtu.be/MTK-R4mrwLA?si=A7S7kICuPVMDb177)
+- [Discord's Disturbing Ties to Global Surveillance | ID Verification, Palantir, & Thiel by Gamers Nexus](https://youtu.be/qhxsE8dvbs4?si=-QYrGSW1VS6haPkR)
+- [Discord Now Assumes You're A Liar by Bellular News](https://youtu.be/8JVbqEfmEUc?si=loc41IvCRhUzsHHn)
+- [Discord Is Tied To Palantir And It's Really Bad... by SomeOrdinaryGamers](https://youtu.be/l1Xb0RkKCik?si=-oeJFJszOcbX7yTS)
+- [This Exploit Bypasses Discord’s Age Verification... by No Text To Speech](https://youtu.be/5LsF4FF6gO4?si=nH46QKfoLVW1E3fH)
+- [Did Discord Just Destroy Itself by penquinz0](https://youtu.be/lvv1QTa1on8?si=ZIm9mzbH5EMP4F2f)
 
-**Problems with Discord:**
-- [Discord Issues & Concerns 1](https://youtu.be/XJD9MQLaQ-g?si=L0VL0XzhTcw9_Tw5)
-- [Discord Issues & Concerns 2](https://youtu.be/NTY0d9KM0Hw?si=d-gChVUAyyCxS831)
+**Discord and Protecting Minors:**
+- [Discord Banned a Roblox Bot that Protects Kids... by No Text To Speech](https://youtu.be/XJD9MQLaQ-g?si=L0VL0XzhTcw9_Tw5)
+- [Discord’s Most Disgusting Problem is Getting Worse… by No Text To Speech](https://youtu.be/NTY0d9KM0Hw?si=d-gChVUAyyCxS831)
 
-**Privacy & Age Verification:**
-- [The Privacy vs Safety Debate](https://youtu.be/jkhMx9hEsK0?si=sFCxjj8ex-W5N-G6) — Critical perspective on age verification and privacy tradeoffs. Key question: "Criminals also use cars, but should we require face ID scanning and GPS tracking while operating any vehicle?"
+**Privacy & Age Verification Outside of Discord:**
+- [The Cops Said I'm Using A Phone For Criminals... by SomeOrdinaryGamers](https://youtu.be/jkhMx9hEsK0?si=sFCxjj8ex-W5N-G6)
+- [They Want To Age Verify Our Computers Now... by SomeOrdinaryGamers](https://www.youtube.com/watch?v=2gpNyrWgWbg)
+- [Microslop Just Sold You Out... by SomeOrdinaryGamers](https://www.youtube.com/watch?v=OxDNogR0HIc)
 
 ### News & Coverage
 
