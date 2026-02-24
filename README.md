@@ -292,24 +292,6 @@ We welcome contributions! Here's how to help:
 
 ---
 
-## Related Resources
-
-### Community Evaluations
-- [Discord Alternatives: My Personal Deep Dive by mvh](https://rant.mvh.dev/discord-alternatives-my-personal-deep-dive-into-matrix-zulip-discourse-and-stoat) — In-depth comparison of Matrix, Zulip, Discourse, and Stoat
-- [In Search of a Discord Replacement by James Liu](https://no-bull.sh/blog/2026/02/16/in-search-of-a-discord-replacement/)
-- [Discord Alternatives, Ranked by Michael Taggart](https://taggart-tech.com/discord-alternatives/)
-- [Original r/matrixdotorg discussion](https://www.reddit.com/r/matrixdotorg/comments/1r50sqi/)
-
-### Platform Directories
-- **[discordless.com](https://discordless.com/)** — Curated alternatives with privacy focus, decentralization emphasis, and detailed pros/cons
-- [AlternativeTo: Discord Alternatives](https://alternativeto.net/software/discord-app/) — 100+ alternatives with user ratings and comments
-- [Discord Alternatives by Hemeka](https://github.com/Hemeka/Discord-Alternatives)
-- [Self-hosted alternatives by Vigno04](https://github.com/Vigno04/discord-selfhosted-alternatives)
-
-**→ See [RESOURCES.md](RESOURCES.md) for platform-specific documentation and verification sources**
-
----
-
 ## License
 
 [Creative Commons Zero v1.0 Universal (CC0)](LICENSE) — freely usable by anyone.
