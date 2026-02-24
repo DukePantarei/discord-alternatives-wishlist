@@ -9,8 +9,60 @@
 
 ## Quick Navigation
 
+- [Community Resources](#community-resources)
 - [Platform Sources](#platform-sources)
 - [Research Methodology](#research-methodology)
+
+---
+
+## Community Resources
+
+### Comparison Articles & Reviews
+
+**In-Depth Analysis:**
+- [Discord Alternatives: My Personal Deep Dive by mvh](https://rant.mvh.dev/discord-alternatives-my-personal-deep-dive-into-matrix-zulip-discourse-and-stoat) — Detailed comparison of Matrix, Zulip, Discourse, and Stoat
+- [In Search of a Discord Replacement by James Liu](https://no-bull.sh/blog/2026/02/16/in-search-of-a-discord-replacement/) — Technical evaluation and testing
+- [Discord Alternatives, Ranked by Michael Taggart](https://taggart-tech.com/discord-alternatives/) — Security professional's perspective
+- [Original r/matrixdotorg discussion](https://www.reddit.com/r/matrixdotorg/comments/1r50sqi/) — Community discussion that sparked this project
+
+### Platform Directories & Lists
+
+- **[discordless.com](https://discordless.com/)** — Curated alternatives with privacy focus, decentralization emphasis, and detailed pros/cons
+- [AlternativeTo: Discord Alternatives](https://alternativeto.net/software/discord-app/) — 100+ alternatives with user ratings and comments
+- [Discord Replacers by Jay Gatsby](https://docs.google.com/spreadsheets/d/14vicw-V9Z5m7ckuburP5wxyDIIb_fFJFEjnxxHk8qRw/edit?gid=0#gid=0) — Comprehensive spreadsheet comparison
+- [Discord Alternatives by Hemeka](https://github.com/Hemeka/Discord-Alternatives) — GitHub collection
+- [Self-hosted alternatives by Vigno04](https://github.com/Vigno04/discord-selfhosted-alternatives) — Self-hosting focused
+
+### Video Resources
+
+**Discord Alternatives Overview:**
+- [Video 1](https://youtu.be/97j0Xglq_1U?si=1bZMPMtphHTAjyJA)
+- [Video 2](https://youtu.be/MTK-R4mrwLA?si=A7S7kICuPVMDb177)
+- [Video 3](https://youtu.be/qhxsE8dvbs4?si=-QYrGSW1VS6haPkR)
+- [Video 4](https://youtu.be/8JVbqEfmEUc?si=loc41IvCRhUzsHHn)
+- [Video 5](https://youtu.be/l1Xb0RkKCik?si=-oeJFJszOcbX7yTS)
+- [Video 6](https://youtu.be/5LsF4FF6gO4?si=nH46QKfoLVW1E3fH)
+- [Video 7](https://youtu.be/lvv1QTa1on8?si=ZIm9mzbH5EMP4F2f)
+
+**Problems with Discord:**
+- [Discord Issues & Concerns 1](https://youtu.be/XJD9MQLaQ-g?si=L0VL0XzhTcw9_Tw5)
+- [Discord Issues & Concerns 2](https://youtu.be/NTY0d9KM0Hw?si=d-gChVUAyyCxS831)
+
+**Privacy & Age Verification:**
+- [The Privacy vs Safety Debate](https://youtu.be/jkhMx9hEsK0?si=sFCxjj8ex-W5N-G6) — Critical perspective on age verification and privacy tradeoffs. Key question: "Criminals also use cars, but should we require face ID scanning and GPS tracking while operating any vehicle?"
+
+### News & Coverage
+
+**Discord Age Verification (Feb 2026):**
+- [TechCrunch: Discord age verification rollout](https://techcrunch.com/2026/02/09/discord-to-roll-out-age-verification-next-month-for-full-access-to-its-platform/)
+- [PC Gamer: What you can't do without verification](https://www.pcgamer.com/software/platforms/discord-age-verification-teen-account-restrictions/)
+- [9to5Mac: Face scans or ID required](https://9to5mac.com/2026/02/09/discord-will-soon-require-face-scans-or-id-for-all-users-or-restrict-access/)
+- [EFF: Beyond what any law requires](https://www.eff.org/deeplinks/2026/02/discord-voluntarily-pushes-mandatory-age-verification-despite-recent-data-breach)
+- [Proton: Global age verification analysis](https://proton.me/blog/discord-global-age-verification)
+
+**Matrix & Privacy:**
+- [Matrix.org Blog](https://matrix.org/blog/) — Protocol updates and security advisories
+- [Element Blog](https://element.io/blog/) — Client updates and features
 
 ---
 
