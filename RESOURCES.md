@@ -48,11 +48,15 @@
 **Discord and Protecting Minors:**
 - [Discord Banned a Roblox Bot that Protects Kids... by No Text To Speech](https://youtu.be/XJD9MQLaQ-g?si=L0VL0XzhTcw9_Tw5)
 - [Discord’s Most Disgusting Problem is Getting Worse… by No Text To Speech](https://youtu.be/NTY0d9KM0Hw?si=d-gChVUAyyCxS831)
+- [Roblox and Discord are Absolutely Disgusting Right Now... by No Text To Speech](https://www.youtube.com/watch?v=nF8P5CBm4oA)
+- [Is Discord Making Roblox’s Disgusting Problem Worse? by No Text To Speech](https://www.youtube.com/watch?v=H5NlGYtPiCo&t=12s)
 
 **Privacy & Age Verification Outside of Discord:**
+- [The Feds Can't Hack This Phone... by SomeOrdinaryGamers](https://www.youtube.com/watch?v=NofYovjPFbw)
 - [The Cops Said I'm Using A Phone For Criminals... by SomeOrdinaryGamers](https://youtu.be/jkhMx9hEsK0?si=sFCxjj8ex-W5N-G6)
 - [They Want To Age Verify Our Computers Now... by SomeOrdinaryGamers](https://www.youtube.com/watch?v=2gpNyrWgWbg)
 - [Microslop Just Sold You Out... by SomeOrdinaryGamers](https://www.youtube.com/watch?v=OxDNogR0HIc)
+- [Google Has Just Ruined Android... by SomeOrdinaryGamers](https://www.youtube.com/watch?v=oRfBXsF3kl4)
 
 ### News & Coverage
 
