@@ -50,7 +50,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 <summary><strong>† Feature Notes</strong></summary>
 
 **Element:**
-- *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
+- *Description:* Flagship Matrix client. Element X (new mobile app) uses Rust SDK. Used by German Bundeswehr (military), French government, and International Criminal Court.
 - *Architecture:* Federated (Matrix protocol)
 - *Message Ttl:* Matrix protocol supports retention policies but implementation varies by homeserver and client
 - *Ai Features Or Training:* No built-in AI features. Self-hosted/federated means no centralized data collection for training.
@@ -92,7 +92,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 <summary><strong>† Feature Notes</strong></summary>
 
 **Element:**
-- *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
+- *Description:* Flagship Matrix client. Element X (new mobile app) uses Rust SDK. Used by German Bundeswehr (military), French government, and International Criminal Court.
 - *Architecture:* Federated (Matrix protocol)
 - *Self Hosting License:* Synapse server is open source (Apache 2.0), freely self-hostable
 
@@ -131,7 +131,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 <summary><strong>† Feature Notes</strong></summary>
 
 **Element:**
-- *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
+- *Description:* Flagship Matrix client. Element X (new mobile app) uses Rust SDK. Used by German Bundeswehr (military), French government, and International Criminal Court.
 - *Architecture:* Federated (Matrix protocol)
 
 **Cinny:**
@@ -169,7 +169,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 <summary><strong>† Feature Notes</strong></summary>
 
 **Element:**
-- *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
+- *Description:* Flagship Matrix client. Element X (new mobile app) uses Rust SDK. Used by German Bundeswehr (military), French government, and International Criminal Court.
 - *Architecture:* Federated (Matrix protocol)
 - *Gif Embed Support:* Basic embed support, GIF picker limited
 - *Persistent Voice Channels:* MatrixRTC supports persistent voice rooms but experience varies by client
@@ -214,7 +214,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 <summary><strong>† Feature Notes</strong></summary>
 
 **Element:**
-- *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
+- *Description:* Flagship Matrix client. Element X (new mobile app) uses Rust SDK. Used by German Bundeswehr (military), French government, and International Criminal Court.
 - *Architecture:* Federated (Matrix protocol)
 - *Large Community Moderation:* Draupnir and Mjolnir bots provide moderation at scale but require setup
 - *Automod:* Requires Draupnir or Mjolnir moderation bot for advanced features
@@ -259,7 +259,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 <summary><strong>† Feature Notes</strong></summary>
 
 **Element:**
-- *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
+- *Description:* Flagship Matrix client. Element X (new mobile app) uses Rust SDK. Used by German Bundeswehr (military), French government, and International Criminal Court.
 - *Architecture:* Federated (Matrix protocol)
 - *Role Management:* Uses Matrix power levels rather than named roles — functional but less intuitive than Discord
 - *Invite Links Guest Access:* Guest access exists in Matrix protocol but inconsistently surfaced in UI Invite workflow is complex — each user must be invited to each channel individually, not just to the space/server
@@ -302,7 +302,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 <summary><strong>† Feature Notes</strong></summary>
 
 **Element:**
-- *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
+- *Description:* Flagship Matrix client. Element X (new mobile app) uses Rust SDK. Used by German Bundeswehr (military), French government, and International Criminal Court.
 - *Architecture:* Federated (Matrix protocol)
 
 **Cinny:**
@@ -340,7 +340,7 @@ All Matrix clients share the same underlying protocol: federated, decentralized,
 <summary><strong>† Feature Notes</strong></summary>
 
 **Element:**
-- *Description:* Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.
+- *Description:* Flagship Matrix client. Element X (new mobile app) uses Rust SDK. Used by German Bundeswehr (military), French government, and International Criminal Court.
 - *Architecture:* Federated (Matrix protocol)
 - *Webhooks:* Possible via bridges but no native simple webhook URL
 - *Community Discovery:* matrixrooms.info and other directories exist but discovery is fragmented and not integrated into clients
@@ -386,7 +386,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Stoat (formerly Revolt)](https://stoat.chat) | ✅ | ✅ † | ❌ † | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ † | ⚠️ † |
+| [Stoat (formerly Revolt)](https://stoat.chat) | ⚠️ † | ✅ † | ❌ † | 🗓️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ † | ⚠️ † |
 | [Valour](https://valour.gg) | ✅ | ❌ † | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
 | [Nerimity](https://nerimity.com) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
 | [Blite Chat](https://blite.chat) | ✅ † | ✅ † | ❌ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ✅ † |
@@ -401,12 +401,13 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 **Stoat (formerly Revolt):**
 - *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
-- *Architecture:* Centralized (self-hostable but not federated)
+- *Architecture:* Self-hostable but not federated (isolated instances)
 - *E2E Encryption:* E2EE for DMs is planned but not yet released
-- *Federated:* Each Stoat server is isolated. Separate accounts needed per server. No portable identity.
+- *Federated:* Self-hosting is possible, but each Stoat instance is completely isolated. Users on instance A cannot communicate with users on instance B. Each instance requires separate account creation. Think "self-hosted Discord" not "federated Matrix".
 - *Ai Features Or Training:* No AI features currently
 - *Ai Generated Codebase:* Previously used AI-generated commits but removed them after community backlash. Developer explicitly states Stoat's foundation predates vibe-coding (public beta 2021, ChatGPT late 2022). Currently maintains strong anti-AI stance.
-- *Self Hostable:* Available but not prominently documented. See: https://github.com/stoatchat/self-hosted
+- *Self Hostable:* Yes - open source and can be self-hosted via https://github.com/stoatchat/self-hosted. However, self-hosted instances are isolated (not federated), so hosting your own means starting a separate network, not joining a larger federated ecosystem.
+- *Open Source:* Core platform is AGPL-3.0 open source. Admin panel has aGPLv3 license violation (mixes proprietary code with GPL - GitHub Issue #5). All code is on GitHub and accessible to self-hosters, but some admin panel components are proprietary.
 
 **Valour:**
 - *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
@@ -474,7 +475,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 **Stoat (formerly Revolt):**
 - *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
-- *Architecture:* Centralized (self-hostable but not federated)
+- *Architecture:* Self-hostable but not federated (isolated instances)
 
 **Valour:**
 - *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
@@ -532,7 +533,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 **Stoat (formerly Revolt):**
 - *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
-- *Architecture:* Centralized (self-hostable but not federated)
+- *Architecture:* Self-hostable but not federated (isolated instances)
 
 **Valour:**
 - *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
@@ -592,10 +593,10 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 **Stoat (formerly Revolt):**
 - *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
-- *Architecture:* Centralized (self-hostable but not federated)
+- *Architecture:* Self-hostable but not federated (isolated instances)
 - *Screen Sharing:* Screen sharing has never been supported
-- *Voice Chat:* Voice channels currently non-functional due to infrastructure migration (Feb 2026)
-- *Video Chat:* Video chat has never been supported
+- *Voice Chat:* NEW as of Feb 18-20, 2026: LiveKit-based voice support added. Working on official stoat.chat instance (browser), self-hosted setup still being refined. Desktop app voice in development, browser recommended.
+- *Video Chat:* Video chat planned but not yet implemented. Voice-only currently available.
 
 **Valour:**
 - *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
@@ -656,7 +657,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 **Stoat (formerly Revolt):**
 - *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
-- *Architecture:* Centralized (self-hostable but not federated)
+- *Architecture:* Self-hostable but not federated (isolated instances)
 
 **Valour:**
 - *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
@@ -714,7 +715,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 **Stoat (formerly Revolt):**
 - *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
-- *Architecture:* Centralized (self-hostable but not federated)
+- *Architecture:* Self-hostable but not federated (isolated instances)
 - *Bridges:* Community bridges for Discord and Telegram only. NOT supported by Matterbridge.
 
 **Valour:**
@@ -773,7 +774,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 **Stoat (formerly Revolt):**
 - *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
-- *Architecture:* Centralized (self-hostable but not federated)
+- *Architecture:* Self-hostable but not federated (isolated instances)
 
 **Valour:**
 - *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
@@ -831,7 +832,7 @@ These platforms prioritize privacy and are open source, but run on a central ser
 
 **Stoat (formerly Revolt):**
 - *Description:* Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.
-- *Architecture:* Centralized (self-hostable but not federated)
+- *Architecture:* Self-hostable but not federated (isolated instances)
 
 **Valour:**
 - *Description:* Open-source, volunteer-built platform with unique multi-window chat. Built with Blazor/WebAssembly.
@@ -886,17 +887,17 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Spacebar](https://spacebar.chat) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ † | ❌ † |
-| [Fluxer](https://fluxer.app) | ✅ † | ❌ † | 🗓️ † | 🗓️ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ † | ⚠️ † |
+| [Fluxer](https://fluxer.app) | ✅ † | ❌ † | 🗓️ † | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ † | ⚠️ † |
 | [Loqa](https://loqa.chat) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
 | [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
-| [Zulip](https://zulip.com) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ✅ † | ❌ † | ⚠️ † |
-| [Rocket.Chat](https://rocket.chat) | ✅ | ✅ | ⚠️ † | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ † | ⚠️ † | ✅ † |
+| [Zulip](https://zulip.com) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ✅ | ❌ | ✅ † | ❌ † | ⚠️ † |
+| [Rocket.Chat](https://rocket.chat) | ✅ | ✅ | ⚠️ † | ⚠️ | ✅ | ✅ | ✅ | ❌ | ✅ † | ⚠️ † | ✅ † |
 | [Mezon](https://mezon.ai) | ✅ | ✅ | ❌ | ❓ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
 | [Nextcloud Talk](https://nextcloud.com/talk) | ✅ | ✅ | ✅ † | ✅ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
 | [Snikket](https://snikket.org) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
 | [Databag](https://github.com/balzack/databag) | ✅ | ✅ | ✅ † | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ❌ | ❓ | ❌ |
 | [Discourse](https://www.discourse.org) | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ † | ✅ † |
-| [Mattermost](https://mattermost.com) | ✅ | ✅ | ❌ | ⚠️ † | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ † | ❌ |
+| [Mattermost](https://mattermost.com) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ✅ | ❌ | ✅ | ⚠️ † | ❌ |
 | [Critterchat](https://github.com/DragonMinded/critterchat) | ✅ | ✅ | 🗓️ † | ❌ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❌ † |
 | [Strafe](https://strafe.chat) | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❓ | ❌ | ❓ | ❌ | ❓ |
 | [Common Ground](https://commonground.computer) | ✅ | ✅ | ❌ | ❓ | ✅ | ✅ | ❓ | ❌ | ❓ | ❓ | ❓ |
@@ -906,7 +907,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 <summary><strong>† Feature Notes</strong></summary>
 
 **Spacebar:**
-- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
+- *Description:* Open-source Discord-compatible server (formerly Fosscord). Self-hostable backend that works with Discord clients and bots.
 - *Architecture:* Self-hosted, Discord API compatible
 - *E2E Encryption:* TLS transport encryption only
 - *Ai Features Or Training:* No AI features currently
@@ -1029,7 +1030,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 <summary><strong>† Feature Notes</strong></summary>
 
 **Spacebar:**
-- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
+- *Description:* Open-source Discord-compatible server (formerly Fosscord). Self-hostable backend that works with Discord clients and bots.
 - *Architecture:* Self-hosted, Discord API compatible
 
 **Fluxer:**
@@ -1127,7 +1128,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 <summary><strong>† Feature Notes</strong></summary>
 
 **Spacebar:**
-- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
+- *Description:* Open-source Discord-compatible server (formerly Fosscord). Self-hostable backend that works with Discord clients and bots.
 - *Architecture:* Self-hosted, Discord API compatible
 
 **Fluxer:**
@@ -1201,7 +1202,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 
 | **Platform** | **Voice Chat** | **Video Chat** | **Screen Sharing** | **System Audio in Screen Share** | **Text Channels** | **File Sharing** | **GIF & Embed Support** | **Threads & Forums** | **Persistent Voice Channels** | **Per-User Audio Output Control** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Spacebar](https://spacebar.chat) | ❌ † | ❌ † | ❌ † | ❌ | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ |
+| [Spacebar](https://spacebar.chat) | ⚠️ † | ⚠️ † | ❌ † | ❌ | ✅ | ✅ | ⚠️ | ⚠️ | ❌ | ❌ |
 | [Fluxer](https://fluxer.app) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ⚠️ | 🗓️ † | ✅ | ❌ |
 | [Loqa](https://loqa.chat) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❌ |
 | [DCTS](https://github.com/hackthedev/dcts-shipping) | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ✅ | ❌ |
@@ -1222,7 +1223,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 <summary><strong>† Feature Notes</strong></summary>
 
 **Spacebar:**
-- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
+- *Description:* Open-source Discord-compatible server (formerly Fosscord). Self-hostable backend that works with Discord clients and bots.
 - *Architecture:* Self-hosted, Discord API compatible
 - *Voice Chat:* No voice channel support at time of writing despite Discord API compatibility
 - *Video Chat:* Not currently supported
@@ -1338,7 +1339,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 <summary><strong>† Feature Notes</strong></summary>
 
 **Spacebar:**
-- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
+- *Description:* Open-source Discord-compatible server (formerly Fosscord). Self-hostable backend that works with Discord clients and bots.
 - *Architecture:* Self-hosted, Discord API compatible
 
 **Fluxer:**
@@ -1436,7 +1437,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 <summary><strong>† Feature Notes</strong></summary>
 
 **Spacebar:**
-- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
+- *Description:* Open-source Discord-compatible server (formerly Fosscord). Self-hostable backend that works with Discord clients and bots.
 - *Architecture:* Self-hosted, Discord API compatible
 - *Discord Api Compatible:* Key differentiator — existing Discord bots work without modification
 
@@ -1536,7 +1537,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 <summary><strong>† Feature Notes</strong></summary>
 
 **Spacebar:**
-- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
+- *Description:* Open-source Discord-compatible server (formerly Fosscord). Self-hostable backend that works with Discord clients and bots.
 - *Architecture:* Self-hosted, Discord API compatible
 
 **Fluxer:**
@@ -1634,7 +1635,7 @@ Designed primarily for self-hosting. Most require technical knowledge to deploy.
 <summary><strong>† Feature Notes</strong></summary>
 
 **Spacebar:**
-- *Description:* Open-source, self-hosted platform compatible with the Discord API — existing Discord bots and clients can connect.
+- *Description:* Open-source Discord-compatible server (formerly Fosscord). Self-hostable backend that works with Discord clients and bots.
 - *Architecture:* Self-hosted, Discord API compatible
 
 **Fluxer:**
@@ -1719,7 +1720,7 @@ Polished commercial products, included for completeness. Privacy policies and lo
 
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Discord](https://discord.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ✅ † | ❌ † | ✅ † | ❌ |
+| [Discord](https://discord.com) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ⚠️ † | ❌ † | ✅ † | ❌ |
 | [Root](https://rootapp.com) | ❌ | ❌ | ❌ | ❌ | ⚠️ † | ❌ † | ⚠️ | ❌ | ❓ | ❓ | ❓ † |
 | [Telegram](https://telegram.org) | ⚠️ † | ❌ | ❌ | ⚠️ † | ⚠️ † | ❌ | ⚠️ | ❌ | ✅ † | ⚠️ † | ❌ |
 | [GameVox](https://gamevox.com) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ | ⚠️ | ❌ | ❌ | ❓ | ❌ |
@@ -2079,7 +2080,7 @@ Included for historical context or specific use cases. Generally not recommended
 | **Platform** | **Open Source** | **Self-Hostable** | **Federated** | **End-to-End Encryption** | **No Ads** | **No Data Tracking** | **GDPR Compliant** | **Biometric Age Verification** | **Message TTL / Auto-Expiry** | **AI Features / Training on User Data** | **AI-Generated Codebase ('Vibe-Coded')** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [TeamSpeak](https://teamspeak.com) | ❌ | ✅ † | ❌ | ❌ † | ✅ | ⚠️ | ⚠️ | ❌ | ❌ | ❌ † | ❌ |
-| [Mumble](https://mumble.info) | ✅ | ✅ | ❌ | ✅ † | ✅ | ✅ | ✅ | ❌ | ✅ † | ❌ † | ❌ |
+| [Mumble](https://mumble.info) | ✅ | ✅ | ❌ | ❌ † | ✅ | ✅ | ✅ | ❌ | ✅ † | ❌ † | ❌ |
 | [Signal](https://signal.org) | ✅ | ❌ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ † | ❌ † | ❌ |
 | [Skype](https://skype.com) | ❌ | ❌ | ❌ | ⚠️ † | ⚠️ † | ❌ | ✅ | ❌ | ❌ | ❓ | ❌ |
 | [SimpleX Chat](https://simplex.chat) | ✅ | ✅ | ❌ † | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ † | ❌ |
