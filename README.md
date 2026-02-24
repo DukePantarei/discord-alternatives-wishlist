@@ -7,12 +7,20 @@
 
 ## 📖 Navigation
 
-- **[BACKGROUND.md](BACKGROUND.md)** — Full Discord exodus story, why this matters
+### Main Documentation
 - **[COMPARISON.md](COMPARISON.md)** — Feature comparison table (79 platforms, 61 features)
 - **[FEATURES.md](FEATURES.md)** — What features mean and how to prioritize
+- **[BACKGROUND.md](BACKGROUND.md)** — Full Discord exodus story, why this matters
 - **[SECURITY.md](SECURITY.md)** — Vibe-coded platforms, active security incidents
 - **[MODERATION.md](MODERATION.md)** — Privacy-respecting vs invasive moderation
 - **[BEYOND_DISCORD.md](BEYOND_DISCORD.md)** — Dream features: What could be better than Discord?
+
+### Verification & Technical
+- **[RESOURCES.md](RESOURCES.md)** — All verification sources organized by platform
+- **[VERIFICATION_SUMMARY.md](VERIFICATION_SUMMARY.md)** — Audit findings and methodology
+- **[ARCHITECTURE_EXPLAINED.md](ARCHITECTURE_EXPLAINED.md)** — How specific platforms work (deep dives)
+
+**Verification Status:** 12/79 platforms verified (15%) • [See audit progress](VERIFICATION_SUMMARY.md)
 
 ---
 
@@ -22,14 +30,19 @@
 
 | Goal | Try | Why |
 |------|-----|-----|
-| **Easiest Discord transition** | Fluxer or Matrix (Commet) | Fluxer: Discord-like, self-hostable. Commet: Discord UI on proven Matrix protocol |
+| **Easiest Discord transition** | Fluxer or Matrix (Commet) | Fluxer: Discord-like, self-hostable (⚠️ no E2EE by design). Commet: Discord UI on proven Matrix protocol |
 | **True decentralization** | Matrix (Element/Commet/Cinny) | Federated — no single company controls it, proven at scale |
 | **Best for small communities (<100)** | Fluxer, Spacebar, or Matrix | Discord-like features, self-hostable, privacy-focused |
 | **Best for large communities (100+)** | Matrix, Zulip, or Discourse | Proven at scale, topic-based threading, strong moderation |
-| **Maximum privacy** | Matrix or RetroShare | Matrix: E2EE + federated. RetroShare: P2P + anonymous |
-| **Discord bot compatibility** | Spacebar | Discord API compatible, existing bots work as-is |
-| **Gaming communities** | Matrix (Element Call) or TeamSpeak | Matrix: Modern + E2EE. TeamSpeak: Legacy but reliable |
+| **Maximum privacy (E2EE)** | Signal or Matrix | Signal: E2EE by default, gold standard. Matrix: E2EE + federated ([verified](RESOURCES.md)) |
+| **Discord bot compatibility** | Spacebar | Discord API compatible, existing bots work (⚠️ voice/video experimental) |
+| **Gaming voice chat** | Mumble or TeamSpeak | ⚠️ Neither has E2EE but both reliable. Mumble: open source. TeamSpeak: established. |
 | **Self-host without hassle** | Zulip, Rocket.Chat, or Conduit | Good docs, Docker support. Conduit: lightweight Matrix server |
+
+**E2EE Reality Check ([verified](RESOURCES.md)):**
+- ✅ **Full E2EE:** Signal (all messages), Element/Matrix (all messages)
+- ⚠️ **Partial E2EE:** Telegram (opt-in Secret Chats only), Rocket.Chat (beta, limited)
+- ❌ **No E2EE:** Discord, Fluxer, Spacebar, Zulip, Mattermost, TeamSpeak, Mumble
 
 **Avoid Stoat (formerly Revolt):** Serious child safety concerns (mishandled CSAM reports), censorship of criticism, deceptive user count claims (advertises "1M+ users" but 200-400 actually online), moving away from open source. Voice features recently added (Feb 18-20, 2026) but very new and stability unproven. See platform notes in COMPARISON.md for details.
 
@@ -40,6 +53,20 @@
 ## Critical Warnings
 
 **Before choosing a platform, check these:**
+
+### Discord Age Verification (March 2026)
+
+**New:** Discord is rolling out teen-by-default settings globally starting March 2026:
+- All users defaulted to teen restrictions unless verified as adults
+- Age verification via AI inference, face scan, OR government ID upload
+- Required for age-restricted content and certain settings
+- Most users will be auto-verified via AI, but some will need manual verification
+- Privacy concerns: October 2025 data breach exposed 70,000 IDs
+- New vendor: K-ID (replacing previous breach-affected vendor)
+
+**No E2EE:** Discord has never had end-to-end encryption. All messages can be read by Discord.
+
+**→ See [verified sources](RESOURCES.md#discord) for details**
 
 ### Matrix Cryptographic Vulnerability (Feb 17, 2026)
 
@@ -82,9 +109,10 @@ These range from vaporware (waitlist only) to very early projects with minimal d
 
 This repository is a **structured, community-maintained comparison** of Discord alternatives:
 
-- **73 platforms** tracked across **8 categories**
+- **79 platforms** tracked across **9 categories**
 - **61 features** organized into **8 logical groups**
 - **Auto-generated comparison tables** from single source of truth (`platforms.json`)
+- **Systematic verification** with primary sources (12/79 verified, [see progress](VERIFICATION_SUMMARY.md))
 
 ### Categories
 
@@ -245,14 +273,19 @@ We welcome contributions! Here's how to help:
 
 ---
 
-## Data Sources
+## Data Sources & Verification
 
 **Primary source:** `platforms.json` — single source of truth
 
-**Community research:**
-- [Discord Replacers by Jay Gatsby](https://docs.google.com/spreadsheets/d/14vicw-V9Z5m7ckuburP5wxyDIIb_fFJFEjnxxHk8qRw/edit?gid=0#gid=0)
-- Official platform documentation
+**Verification methodology:**
+- All platform data is being systematically verified with primary sources
+- See **[RESOURCES.md](RESOURCES.md)** for complete source documentation per platform
+- See **[VERIFICATION_SUMMARY.md](VERIFICATION_SUMMARY.md)** for audit progress and findings
+
+**12/79 platforms verified** with sources including:
+- Official GitHub repositories and documentation
 - Security audits and vulnerability reports
+- Recent news articles and press releases
 - Community testing and feedback
 
 **Feature values:**
@@ -261,6 +294,8 @@ We welcome contributions! Here's how to help:
 - 🗓️ `planned` — On roadmap
 - ❌ `no` — Not supported
 - ❓ `unknown` — Unverified
+
+**→ See [RESOURCES.md](RESOURCES.md) for all verification sources**
 
 ---
 
@@ -278,15 +313,7 @@ We welcome contributions! Here's how to help:
 - [Discord Alternatives by Hemeka](https://github.com/Hemeka/Discord-Alternatives)
 - [Self-hosted alternatives by Vigno04](https://github.com/Vigno04/discord-selfhosted-alternatives)
 
-### Platform Documentation
-- [Matrix.org](https://matrix.org) — Federated protocol
-- [Stoat](https://stoat.chat) — Open source alternative
-- [Zulip](https://zulip.com) — Topic-based threading
-- [Rocket.Chat](https://rocket.chat) — Self-hosted collaboration
-
-### Other Comparisons
-- [Discord Alternatives by Hemeka](https://github.com/Hemeka/Discord-Alternatives)
-- [Self-hosted alternatives by Vigno04](https://github.com/Vigno04/discord-selfhosted-alternatives)
+**→ See [RESOURCES.md](RESOURCES.md) for platform-specific documentation and verification sources**
 
 ---
 
