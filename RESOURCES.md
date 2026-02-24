@@ -1,7 +1,7 @@
-# Platform Verification Resources
-## Source Links and Research Documentation
+# Platform Resources & Sources
+## Documentation, GitHub, News, and Research Links
 
-**Purpose:** This file tracks all sources used to verify platform information. Each platform entry includes official documentation, GitHub repositories, news articles, security reports, and community discussions used during verification.
+**Purpose:** This file provides links to official documentation, GitHub repositories, security reports, and other sources for each platform in our comparison.
 
 **Last Updated:** February 23, 2026
 
@@ -9,18 +9,14 @@
 
 ## Quick Navigation
 
-- [Verified Platforms](#verified-platforms) (7)
-- [Pending Verification](#pending-verification) (72)
+- [Platform Sources](#platform-sources)
 - [Research Methodology](#research-methodology)
 
 ---
 
-## Verified Platforms
+## Platform Sources
 
 ### Fluxer
-
-**Verification Date:** February 23, 2026  
-**Status:** ✅ Verified
 
 **Official Sources:**
 - Official Website: https://fluxer.app
@@ -51,9 +47,6 @@
 ---
 
 ### Spacebar
-
-**Verification Date:** February 23, 2026  
-**Status:** ✅ Verified
 
 **Official Sources:**
 - Official Website: https://spacebar.chat
@@ -87,9 +80,6 @@
 ---
 
 ### Element (Matrix)
-
-**Verification Date:** February 23, 2026  
-**Status:** ✅ Verified
 
 **Official Sources:**
 - Official Website: https://element.io
@@ -127,9 +117,6 @@
 
 ### Zulip
 
-**Verification Date:** February 23, 2026  
-**Status:** ✅ Verified
-
 **Official Sources:**
 - Official Website: https://zulip.com
 - GitHub Repository: https://github.com/zulip/zulip (24.2k stars)
@@ -163,9 +150,6 @@
 
 ### Discord
 
-**Verification Date:** February 23, 2026  
-**Status:** ✅ Verified
-
 **Official Sources:**
 - Official Website: https://discord.com
 - Safety Center: https://discord.com/safety/how-discord-is-building-safer-experiences-for-teens
@@ -197,9 +181,6 @@
 ---
 
 ### Rocket.Chat
-
-**Verification Date:** February 23, 2026  
-**Status:** ✅ Verified
 
 **Official Sources:**
 - Official Website: https://rocket.chat
@@ -233,9 +214,6 @@
 
 ### Mattermost
 
-**Verification Date:** February 23, 2026  
-**Status:** ✅ Verified
-
 **Official Sources:**
 - Official Website: https://mattermost.com
 - GitHub Organization: https://github.com/mattermost
@@ -264,9 +242,6 @@
 ---
 
 ### Telegram
-
-**Verification Date:** February 23, 2026  
-**Status:** ✅ Verified
 
 **Official Sources:**
 - Official Website: https://telegram.org
@@ -298,9 +273,6 @@
 ---
 
 ### Signal
-
-**Verification Date:** February 23, 2026  
-**Status:** ✅ Verified
 
 **Official Sources:**
 - Official Website: https://signal.org
@@ -337,9 +309,6 @@
 
 ### Discourse
 
-**Verification Date:** February 23, 2026  
-**Status:** ✅ Verified
-
 **Official Sources:**
 - Official Website: https://www.discourse.org
 - GitHub Repository: https://github.com/discourse/discourse (46,320 stars)
@@ -369,9 +338,6 @@
 
 ### TeamSpeak
 
-**Verification Date:** February 23, 2026  
-**Status:** ✅ Verified
-
 **Official Sources:**
 - Official Website: https://teamspeak.com
 - Support: https://support.teamspeak.com
@@ -400,9 +366,6 @@
 
 ### Mumble
 
-**Verification Date:** February 23, 2026  
-**Status:** ✅ Verified
-
 **Official Sources:**
 - Official Website: https://www.mumble.info
 - GitHub Repository: https://github.com/mumble-voip/mumble (7,764 stars)
@@ -430,127 +393,42 @@
 
 ---
 
-## Pending Verification
-
-The following platforms still need verification (67 remaining):
-
-### Priority List (Next to Verify):
-
-**Tier 1 - High Priority (13 remaining):**
-- Telegram
-- Signal  
-- Rocket.Chat (✅ VERIFIED)
-- Mattermost (✅ VERIFIED)
-- Discourse
-- Stoat (partially verified - needs completion)
-- TeamSpeak
-- Mumble
-- Session
-- RetroShare
-- Valour
-- Nerimity
-- Nextcloud Talk
-
-**Tier 2 - Medium Priority (~30 platforms):**
-- All other Matrix clients (Cinny, Commet, FluffyChat, SchildiChat)
-- XMPP clients (Gajim, Swift IM, Movim, Snikket)
-- Other self-hosted platforms
-- Business productivity tools
-
-**Tier 3 - Lower Priority (~29 platforms):**
-- Discontinued platforms (8 total)
-- Early stage/unverified (16 total)
-- Legacy niche platforms
-
----
-
 ## Research Methodology
 
-### Source Hierarchy (Priority Order)
+### Source Priority
 
-1. **Primary Sources (Highest Priority)**
+1. **Primary Sources**
    - Official GitHub repositories
    - Official documentation
-   - Official blog posts
-   - Press releases
+   - Official blog posts and press releases
 
 2. **Technical Sources**
-   - Release notes
+   - Release notes and changelogs
    - Security advisories
-   - GitHub issues
-   - Technical documentation
+   - GitHub issues and discussions
 
-3. **News Sources**
-   - Major tech news (TechCrunch, The Register, etc.)
-   - Recent articles (< 3 months preferred)
-   - Multiple confirming sources
+3. **News & Analysis**
+   - Major tech news outlets
+   - Security analysis
+   - Community reviews
 
-4. **Community Sources**
-   - Reddit discussions
-   - Forum posts
-   - User reviews (AlternativeTo, G2, etc.)
-   - Social media (for announcements only)
+4. **Community**
+   - Forum discussions
+   - User reviews
+   - Social media announcements
 
-### Verification Standards
-
-**✅ Verified:** 2+ primary sources confirm  
-**⚠️ Needs Review:** Single source or minor conflicts  
-**❌ Conflicting:** Multiple sources disagree  
-**❓ Unverifiable:** No primary sources available
-
-### What to Verify
-
-For each platform:
-- [ ] URL works
-- [ ] GitHub repo exists (if open source)
-- [ ] GitHub stars/activity (if applicable)
-- [ ] E2EE status (yes/no/partial/planned)
-- [ ] Voice/video status
-- [ ] Mobile app availability
-- [ ] Recent security incidents
-- [ ] Breaking changes (< 6 months)
-- [ ] Discontinued status
-
-### Documentation Template
-
-```markdown
-### Platform Name
-
-**Verification Date:** [Date]  
-**Status:** ✅ Verified / ⏳ In Progress / ❌ Issues Found
-
-**Official Sources:**
-- Official Website: [URL]
-- GitHub: [URL]
-- Documentation: [URL]
-
-**News & Articles:**
-- [Source]: [URL] ([Date])
-
-**Key Findings:**
-- Finding 1
-- Finding 2
-```
+**Note:** Information in this document reflects sources available at the time of research. Platform features and details may change - always check official documentation for the most current information.
 
 ---
 
 ## Contributing
 
-When adding sources:
-1. Use the template above
-2. Include publication dates for news articles
-3. Prioritize primary sources (GitHub, official docs)
-4. Note any conflicts between sources
-5. Update "Last Updated" date at top of file
+To add or update sources:
+1. Add entries following the template format above
+2. Include publication dates for time-sensitive sources
+3. Prioritize official/primary sources
+4. Update "Last Updated" date at top of file
 
 ---
 
-## Notes
-
-- This file will grow significantly as we verify all 79 platforms
-- Links should be permanent (avoid redirects when possible)
-- Include date accessed for time-sensitive information
-- Flag any paywalled or login-required sources
-
-**Progress:** 7/79 platforms verified (9%)  
 **Last Major Update:** February 23, 2026
