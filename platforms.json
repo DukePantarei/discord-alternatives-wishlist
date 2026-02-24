@@ -451,8 +451,7 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "yes",
-        "ios_app": "yes",
-        "e2ee": "no"
+        "ios_app": "yes"
       },
       "feature_notes": {
         "system_audio_sharing": "Windows and macOS only, not Linux",
@@ -549,8 +548,7 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "yes",
-        "ios_app": "yes",
-        "e2ee": "yes"
+        "ios_app": "yes"
       },
       "feature_notes": {
         "role_management": "Uses Matrix power levels rather than named roles \u2014 functional but less intuitive than Discord",
@@ -1223,8 +1221,8 @@
         "free_to_use": "yes",
         "web_app": "yes",
         "docker_install": "yes",
-        "voice_chat": "experimental",
-        "video_chat": "experimental",
+        "voice_chat": "partial",
+        "video_chat": "partial",
         "screen_sharing": "no",
         "system_audio_sharing": "no",
         "text_channels": "yes",
@@ -1272,8 +1270,7 @@
         "macos_app": "no",
         "linux_app": "no",
         "android_app": "no",
-        "ios_app": "no",
-        "e2ee": "no"
+        "ios_app": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only",
@@ -1302,7 +1299,7 @@
         "open_source": "yes",
         "self_hostable": "no",
         "federated": "planned",
-        "e2e_encryption": "planned",
+        "e2e_encryption": "no",
         "no_ads": "yes",
         "no_data_tracking": "yes",
         "gdpr_compliant": "partial",
@@ -1359,9 +1356,7 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "planned",
-        "ios_app": "planned",
-        "e2ee": "no",
-        "mobile_apps": "planned"
+        "ios_app": "planned"
       },
       "feature_notes": {
         "e2e_encryption": "Roadmap 2026: Opt-in 'secret chats' (ephemeral, E2EE sessions). No plans for full-platform E2EE. LiveKit supports E2EE for calls but not yet implemented.",
@@ -1764,8 +1759,7 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "yes",
-        "ios_app": "yes",
-        "e2ee": "partial"
+        "ios_app": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "Secret Chats only \u2014 standard group chats and channels are NOT end-to-end encrypted",
@@ -1857,8 +1851,7 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "yes",
-        "ios_app": "yes",
-        "e2ee": "no"
+        "ios_app": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "Voice is AES-encrypted between client and server but server can decrypt \u2014 not true E2EE",
@@ -1886,7 +1879,7 @@
         "open_source": "yes",
         "self_hostable": "yes",
         "federated": "no",
-        "e2e_encryption": "yes",
+        "e2e_encryption": "no",
         "no_ads": "yes",
         "no_data_tracking": "yes",
         "gdpr_compliant": "yes",
@@ -1943,8 +1936,7 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "partial",
-        "ios_app": "partial",
-        "e2ee": "no"
+        "ios_app": "partial"
       },
       "feature_notes": {
         "e2e_encryption": "True E2EE for voice \u2014 one of the few platforms with this",
@@ -2027,8 +2019,7 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "yes",
-        "ios_app": "yes",
-        "e2ee": "yes"
+        "ios_app": "yes"
       },
       "feature_notes": {
         "text_channels": "Group chats exist but no server/channel hierarchy",
@@ -2053,7 +2044,7 @@
         "open_source": "yes",
         "self_hostable": "yes",
         "federated": "no",
-        "e2e_encryption": "partial",
+        "e2e_encryption": "no",
         "no_ads": "yes",
         "no_data_tracking": "yes",
         "gdpr_compliant": "yes",
@@ -2110,8 +2101,7 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "yes",
-        "ios_app": "yes",
-        "e2ee": "no"
+        "ios_app": "yes"
       },
       "feature_notes": {
         "voice_chat": "Via Jitsi integration only \u2014 not native. Uses call-per-message model, not persistent always-on channels",
@@ -2142,7 +2132,7 @@
         "open_source": "yes",
         "self_hostable": "yes",
         "federated": "partial",
-        "e2e_encryption": "yes",
+        "e2e_encryption": "partial",
         "no_ads": "yes",
         "no_data_tracking": "yes",
         "gdpr_compliant": "yes",
@@ -2199,8 +2189,7 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "yes",
-        "ios_app": "yes",
-        "e2ee": "partial"
+        "ios_app": "yes"
       },
       "feature_notes": {
         "free_to_use": "Free tier hard-capped at 50 users \u2014 must contact support to raise limit. Enterprise license required for larger deployments",
@@ -4833,8 +4822,7 @@
         "macos_app": "no",
         "linux_app": "no",
         "android_app": "yes",
-        "ios_app": "yes",
-        "e2ee": "no"
+        "ios_app": "yes"
       },
       "feature_notes": {
         "text_channels": "Categories and topics structure (forum-style, not real-time channels)",
@@ -4865,7 +4853,7 @@
         "open_source": "yes",
         "self_hostable": "yes",
         "federated": "no",
-        "e2e_encryption": "partial",
+        "e2e_encryption": "no",
         "no_ads": "yes",
         "no_data_tracking": "yes",
         "gdpr_compliant": "yes",
@@ -4922,8 +4910,7 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "yes",
-        "ios_app": "yes",
-        "e2ee": "no"
+        "ios_app": "yes"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE voice/video in beta. Messages encrypted in transit and at rest but not E2EE by default",
