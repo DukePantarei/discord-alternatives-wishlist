@@ -387,7 +387,9 @@
       "category": "Commercial Alternatives",
       "description": "The dominant chat platform for gaming and online communities. Included as the baseline for comparison.",
       "architecture": "Centralized, closed source",
-      "notes": "SECURITY CONCERN (Google Sheet assessment): Community rates security history as 'Bad'. Baseline platform. Implementing biometric age verification in the UK as of 2025.",
+      "notes": {
+        "privacy": "No E2EE. Teen-by-default settings rolling out March 2026. Age verification via AI inference, face scan, or ID upload required for age-restricted content. Most users auto-verified. Data breach at third-party vendor (Oct 2025). New vendor: K-ID."
+      },
       "features": {
         "open_source": "no",
         "self_hostable": "no",
@@ -396,7 +398,7 @@
         "no_ads": "no",
         "no_data_tracking": "no",
         "gdpr_compliant": "partial",
-        "biometric_age_verification": "yes",
+        "biometric_age_verification": "partial",
         "free_to_use": "partial",
         "web_app": "yes",
         "docker_install": "no",
@@ -449,7 +451,8 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "yes",
-        "ios_app": "yes"
+        "ios_app": "yes",
+        "e2ee": "no"
       },
       "feature_notes": {
         "system_audio_sharing": "Windows and macOS only, not Linux",
@@ -479,9 +482,12 @@
       "name": "Element",
       "url": "https://element.io",
       "category": "Matrix Clients",
-      "description": "Flagship Matrix client. Used by German Bundeswehr (military), French government, and International Criminal Court for secure communications. Full-featured, cross-platform, supports E2EE.",
+      "description": "Flagship Matrix client. Element X (new mobile app) uses Rust SDK. Used by German Bundeswehr (military), French government, and International Criminal Court.",
       "architecture": "Federated (Matrix protocol)",
-      "notes": "Matrix protocol's most mature client. E2EE by default using Olm (1-to-1) and Megolm (groups), inspired by Signal's Double Ratchet.\n\n\u26a0\ufe0f PERMISSION INHERITANCE PROBLEM: Matrix Spaces don't inherit permissions. Must manually configure permissions for EVERY SINGLE ROOM. Adding moderator role to 50-room space = 50 manual configurations. Synapse admin tools are bare-bones. Shell scripts often needed for bulk operations.\n\n\u26a0\ufe0f MODERATION REQUIRES DRAUPNIR: Cannot ban user from entire server without third-party tools. Must ban from each room individually. Draupnir bot (NLnet-funded, actively maintained) is ESSENTIAL for moderation at scale. Handles distributed ban lists, policy rooms, protection.\n\n\u26a0\ufe0f DEVICE VERIFICATION UX: Each new client (phone, desktop, different app) requires device verification via emoji/QR codes. Crypto is solid (prevents MITM attacks) but UX is brutal for non-technical users.\n\nBOT ECOSYSTEM: Maubot (Python framework) is mostly unmaintained graveyard. Draupnir is the exception - actively maintained, essential.\n\nBRIDGING STRENGTH: Native bridges for Discord, Telegram, WhatsApp, Signal, IRC. Slack bridge retired by Matrix.org (must self-host). Fully supported by Matterbridge (30+ platforms).\n\nVOICE/VIDEO: Matrix 2.0 added Element Call. Works, not Discord-quality yet. Resource intensive (4GB RAM VPS sweats on group calls).\n\nReal-world assessment (mvh, Feb 2026): \"Choose Matrix if privacy, decentralization, and federation are non-negotiable. You have technical chops to deal with permission management hell. You're willing to run Draupnir for moderation.\"\n\nUsed by German Bundeswehr for classified communications, French government, International Criminal Court. Serious privacy and security credentials.",
+      "notes": {
+        "general": "Matrix protocol's most mature client. E2EE by default using Olm (1-to-1) and Megolm (groups), inspired by Signal's Double Ratchet.\n\n\u26a0\ufe0f PERMISSION INHERITANCE PROBLEM: Matrix Spaces don't inherit permissions. Must manually configure permissions for EVERY SINGLE ROOM. Adding moderator role to 50-room space = 50 manual configurations. Synapse admin tools are bare-bones. Shell scripts often needed for bulk operations.\n\n\u26a0\ufe0f MODERATION REQUIRES DRAUPNIR: Cannot ban user from entire server without third-party tools. Must ban from each room individually. Draupnir bot (NLnet-funded, actively maintained) is ESSENTIAL for moderation at scale. Handles distributed ban lists, policy rooms, protection.\n\n\u26a0\ufe0f DEVICE VERIFICATION UX: Each new client (phone, desktop, different app) requires device verification via emoji/QR codes. Crypto is solid (prevents MITM attacks) but UX is brutal for non-technical users.\n\nBOT ECOSYSTEM: Maubot (Python framework) is mostly unmaintained graveyard. Draupnir is the exception - actively maintained, essential.\n\nBRIDGING STRENGTH: Native bridges for Discord, Telegram, WhatsApp, Signal, IRC. Slack bridge retired by Matrix.org (must self-host). Fully supported by Matterbridge (30+ platforms).\n\nVOICE/VIDEO: Matrix 2.0 added Element Call. Works, not Discord-quality yet. Resource intensive (4GB RAM VPS sweats on group calls).\n\nReal-world assessment (mvh, Feb 2026): \"Choose Matrix if privacy, decentralization, and federation are non-negotiable. You have technical chops to deal with permission management hell. You're willing to run Draupnir for moderation.\"\n\nUsed by German Bundeswehr for classified communications, French government, International Criminal Court. Serious privacy and security credentials.",
+        "privacy": "E2EE is a core Matrix feature. From April 2026, device verification will be mandatory for E2EE messaging on Element (12,694 GitHub stars)."
+      },
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -543,7 +549,8 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "yes",
-        "ios_app": "yes"
+        "ios_app": "yes",
+        "e2ee": "yes"
       },
       "feature_notes": {
         "role_management": "Uses Matrix power levels rather than named roles \u2014 functional but less intuitive than Discord",
@@ -559,7 +566,8 @@
         "automod": "Requires Draupnir or Mjolnir moderation bot for advanced features",
         "raid_protection": "Available via Draupnir/Mjolnir bots",
         "ai_features_or_training": "No built-in AI features. Self-hosted/federated means no centralized data collection for training."
-      }
+      },
+      "github": "https://github.com/element-hq/element-web"
     },
     {
       "id": "cinny",
@@ -883,10 +891,10 @@
       "url": "https://stoat.chat",
       "category": "Privacy-Focused Centralized",
       "description": "Open-source, privacy-respecting Discord alternative. Most Discord-like experience outside of Matrix. EU-based.",
-      "architecture": "Centralized (self-hostable but not federated)",
-      "notes": "\u26a0\ufe0f SERIOUS COMMUNITY AND MODERATION CONCERNS\n\n**Recent Issues (Feb 2026):**\n\n**Deceptive User Count Claims:**\n- Advertised \"1M+ users\" in promotional materials\n- Actual concurrent users: 200-400 online at peak times\n- Counts appear to include inactive/abandoned accounts\n- Community members have criticized inflated numbers publicly\n\n**Censorship and Moderation:**\n- Bans users for criticism on official subreddit\n- Removes critical posts without clear rule violations\n- Moderators hidden from public moderator list\n- Pattern of suppressing community feedback\n\n**Child Safety Concerns:**\n- Reports of mishandled CSAM (Child Sexual Abuse Material) incidents\n- Allegedly asked user with CSAM profile picture to \"submit review via email\" instead of immediate ban\n- Serious questions about moderation competence and safety protocols\n\n**Platform Direction Concerns:**\n- Moving away from open source roots (plans to obfuscate code, make parts proprietary)\n- Adding Nitro-like premium features (against original mission)\n- Goal to run \"as a service just like Discord\" (contradicts alternative positioning)\n- Corporate-like PR responses to community concerns\n\n**Technical Issues:**\n- Voice channels non-functional or breaking regularly (as of Feb 2026)\n- Alpha-quality stability\n- Frequent downtime reported by users\n\n**Previous entry from mvh testing (still valid):**\nmvh's testing found voice channels non-functional, breaks regularly (alpha quality). \n\n**Recommendation:** \nGiven the serious child safety concerns, censorship of criticism, deceptive marketing, and move away from open-source principles, we recommend avoiding Stoat/Revolt until these issues are addressed. The platform shows a pattern of prioritizing image over substance and safety.\n\nFor context on these concerns, see community discussions on r/dcts and r/discordalternatives (Feb 2026).\n\n---\n\nORIGINAL NOTES:\n\n\u26a0\ufe0f ALPHA QUALITY (Feb 2026): Voice channels currently NON-FUNCTIONAL due to major infrastructure migration. Mobile apps in trial phase. Bot ecosystem immature with many abandoned projects. E2EE status unclear - mentioned as future goal but no implementation timeline. Breaks regularly. NOT production-ready.\n\nNO FEDERATION: Each Stoat server is isolated - separate accounts needed per server (like Zulip). No portable identity across instances. Different from Matrix's federated model.\n\nMINIMAL BRIDGING: Community bridges exist for Discord (revcord) and Telegram only. NOT supported by Matterbridge. No IRC, Matrix, or Slack bridges.\n\nReal-world assessment (mvh, Feb 2026): \"Choose Stoat if you want Discord's UX exactly and are willing to wait for it to mature. Skip if you need production-ready software now, voice chat matters, or bridging is important.\" Recommendation: Wait until more mature.\n\nOriginally named Revolt, rebranded after cease-and-desist. Open source (AGPL-3.0), self-hostable, Discord-like UI with near-zero learning curve. Has genuine potential but needs time to mature.",
+      "architecture": "Self-hostable but not federated (isolated instances)",
+      "notes": "\u26a0\ufe0f SERIOUS COMMUNITY AND MODERATION CONCERNS\n\n**Recent Issues (Feb 2026):**\n\n**Deceptive User Count Claims:**\n- Advertised \"1M+ users\" in promotional materials\n- Actual concurrent users: 200-400 online at peak times\n- Counts appear to include inactive/abandoned accounts\n- Community members have criticized inflated numbers publicly\n\n**Censorship and Moderation:**\n- Bans users for criticism on official subreddit\n- Removes critical posts without clear rule violations\n- Moderators hidden from public moderator list\n- Pattern of suppressing community feedback\n\n**Child Safety Concerns:**\n- Reports of mishandled CSAM (Child Sexual Abuse Material) incidents\n- Allegedly asked user with CSAM profile picture to \"submit review via email\" instead of immediate ban\n- Serious questions about moderation competence and safety protocols\n\n**Open Source Status - VERIFIED (GitHub, Feb 2026):**\n\n**Core Platform Status:**\n- Main repo (stoatchat/stoatchat): AGPL-3.0 \u2705 Open source\n- Web client (for-web): Open source \u2705\n- Self-hosted deployment: Open source \u2705\n- Admin panel repo (service-admin-panel): AGPL-3.0 \u2705 BUT...\n\n**Admin Panel License Violation (CONFIRMED):**\n- GitHub Issue #5 (opened Jan 2, 2026): \"Fix aGPLv3 violations\"\n- Two directories contain proprietary code within aGPLv3 project:\n  - `app/panel` (proprietary)\n  - `server/modules` (proprietary)\n- Quote from issue: \"the aGPLv3 prohibits\" mixing proprietary and GPL\n- Status: OPEN (not fixed as of Feb 2026)\n- Team awareness: Yes, issue publicly documented\n\n**What This Means:**\n- Stoat markets as \"open source\" \u2705\n- Core platform IS open source \u2705\n- Admin panel mixes open + proprietary (license violation) \u26a0\ufe0f\n- Self-hosted instances CAN include admin panel (it's on GitHub)\n- But some admin panel code is proprietary within AGPL repo\n\n**Sources:**\n- GitHub: github.com/stoatchat/service-admin-panel\n- Issue: github.com/stoatchat/service-admin-panel/issues/5\n- Mathium05 blog: blog.fermi.chat/discordAlts/revolt/\n\n**Verdict:** Semi-open source - mostly open with known license compliance issue in admin panel. Not \"moving away\" from open source - this is existing state since at least 2021.\n\n**Corporate-like behavior:**\n- PR responses to community concerns\n- Sudden rebrand (Revolt \u2192 Stoat) without community warning\n\n**Technical Issues (Updated Feb 23, 2026):**\n- **Voice Status:** LiveKit-based voice support JUST ADDED (Feb 18-20, 2026)\n  - Official stoat.chat instance: Voice working in browser (user reports confirm)\n  - Self-hosted: Very new, some users report issues (GitHub Issue #194)\n  - Desktop app: Still in development, browser recommended for voice\n  - System is brand new and stability is still being proven\n- Alpha-quality stability overall\n- Frequent downtime reported by users\n- Mobile apps in trial phase, Android app removed from F-Droid\n\n**Previous mvh assessment (Feb 2026, now outdated):**\nmvh's review stated voice was \"non-functional due to major infrastructure migration\" - this was accurate at time of writing but LiveKit integration completed days later (Feb 18-20). Voice is now functional but very new. \n\n**Recommendation:** \nGiven the serious child safety concerns, censorship of criticism, deceptive marketing, and move away from open-source principles, we recommend avoiding Stoat/Revolt until these issues are addressed. The platform shows a pattern of prioritizing image over substance and safety.\n\nFor context on these concerns, see community discussions on r/dcts and r/discordalternatives (Feb 2026).\n\n---\n\nORIGINAL NOTES:\n\n\u26a0\ufe0f ALPHA QUALITY (Feb 2026): Voice channels currently NON-FUNCTIONAL due to major infrastructure migration. Mobile apps in trial phase. Bot ecosystem immature with many abandoned projects. E2EE status unclear - mentioned as future goal but no implementation timeline. Breaks regularly. NOT production-ready.\n\nNO FEDERATION: Each Stoat server is isolated - separate accounts needed per server (like Zulip). No portable identity across instances. Different from Matrix's federated model.\n\nMINIMAL BRIDGING: Community bridges exist for Discord (revcord) and Telegram only. NOT supported by Matterbridge. No IRC, Matrix, or Slack bridges.\n\nReal-world assessment (mvh, Feb 2026): \"Choose Stoat if you want Discord's UX exactly and are willing to wait for it to mature. Skip if you need production-ready software now, voice chat matters, or bridging is important.\" Recommendation: Wait until more mature.\n\nOriginally named Revolt, rebranded after cease-and-desist. Open source (AGPL-3.0), self-hostable, Discord-like UI with near-zero learning curve. Has genuine potential but needs time to mature.",
       "features": {
-        "open_source": "yes",
+        "open_source": "partial",
         "self_hostable": "yes",
         "federated": "no",
         "e2e_encryption": "planned",
@@ -950,16 +958,18 @@
       },
       "feature_notes": {
         "e2e_encryption": "E2EE for DMs is planned but not yet released",
-        "federated": "Each Stoat server is isolated. Separate accounts needed per server. No portable identity.",
+        "federated": "Self-hosting is possible, but each Stoat instance is completely isolated. Users on instance A cannot communicate with users on instance B. Each instance requires separate account creation. Think \"self-hosted Discord\" not \"federated Matrix\".",
         "screen_sharing": "Screen sharing has never been supported",
-        "voice_chat": "Voice channels currently non-functional due to infrastructure migration (Feb 2026)",
-        "video_chat": "Video chat has never been supported",
+        "voice_chat": "NEW as of Feb 18-20, 2026: LiveKit-based voice support added. Working on official stoat.chat instance (browser), self-hosted setup still being refined. Desktop app voice in development, browser recommended.",
+        "video_chat": "Video chat planned but not yet implemented. Voice-only currently available.",
         "mobile_app": "Beta Android and iOS apps available \u2014 iOS app especially rough, Android feels better. Sign-up verification slow (10+ hours reported) during user influx",
         "ai_features_or_training": "No AI features currently",
         "ai_generated_codebase": "Previously used AI-generated commits but removed them after community backlash. Developer explicitly states Stoat's foundation predates vibe-coding (public beta 2021, ChatGPT late 2022). Currently maintains strong anti-AI stance.",
-        "self_hostable": "Available but not prominently documented. See: https://github.com/stoatchat/self-hosted",
-        "bridges": "Community bridges for Discord and Telegram only. NOT supported by Matterbridge."
-      }
+        "self_hostable": "Yes - open source and can be self-hosted via https://github.com/stoatchat/self-hosted. However, self-hosted instances are isolated (not federated), so hosting your own means starting a separate network, not joining a larger federated ecosystem.",
+        "bridges": "Community bridges for Discord and Telegram only. NOT supported by Matterbridge.",
+        "open_source": "Core platform is AGPL-3.0 open source. Admin panel has aGPLv3 license violation (mixes proprietary code with GPL - GitHub Issue #5). All code is on GitHub and accessible to self-hosters, but some admin panel components are proprietary."
+      },
+      "github": "https://github.com/stoatchat"
     },
     {
       "id": "valour",
@@ -1196,9 +1206,11 @@
       "name": "Spacebar",
       "url": "https://spacebar.chat",
       "category": "Self-Hosted Platforms",
-      "description": "Open-source, self-hosted platform compatible with the Discord API \u2014 existing Discord bots and clients can connect.",
+      "description": "Open-source Discord-compatible server (formerly Fosscord). Self-hostable backend that works with Discord clients and bots.",
       "architecture": "Self-hosted, Discord API compatible",
-      "notes": "The only platform that supports Discord's API, meaning existing Discord bots work without modification.",
+      "notes": {
+        "technical": "Experimental WebRTC voice/video support (UDP not yet supported). Discord API compatibility allows use of existing Discord clients/bots. Rebranded from Fosscord to Spacebar (2,081 GitHub stars)."
+      },
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -1211,8 +1223,8 @@
         "free_to_use": "yes",
         "web_app": "yes",
         "docker_install": "yes",
-        "voice_chat": "no",
-        "video_chat": "no",
+        "voice_chat": "experimental",
+        "video_chat": "experimental",
         "screen_sharing": "no",
         "system_audio_sharing": "no",
         "text_channels": "yes",
@@ -1260,7 +1272,8 @@
         "macos_app": "no",
         "linux_app": "no",
         "android_app": "no",
-        "ios_app": "no"
+        "ios_app": "no",
+        "e2ee": "no"
       },
       "feature_notes": {
         "e2e_encryption": "TLS transport encryption only",
@@ -1270,7 +1283,8 @@
         "screen_sharing": "Not currently supported",
         "ai_features_or_training": "No AI features currently",
         "ai_generated_codebase": "Explicitly bans AI code: 'AI code due to not being GPLv3 compatible is not allowed in this repo'"
-      }
+      },
+      "github": "https://github.com/spacebarchat/server"
     },
     {
       "id": "fluxer",
@@ -1279,7 +1293,11 @@
       "category": "Self-Hosted Platforms",
       "description": "Open-source self-hosted chat platform (AGPL licensed).",
       "architecture": "Self-hosted",
-      "notes": "AGPLv3 with CLA. Launched public beta early 2025. Sold ~1,000 Visionary lifetime plans ($299 each) before Discord age verification announcement drove massive traction. Single developer (Hampus Kraft), now crowdfunded/bootstrapped with ~$300k from Visionary sales. Native mobile app in development with Flutter developers. No VC funding.",
+      "notes": {
+        "privacy": "E2EE not implemented by design; may add optional \"secret chat\" mode for ephemeral conversations. Currently in public beta with registration limits.",
+        "monetization": "Plutonium subscription tier planned; creator monetization features in development. Open to donations.",
+        "technical": "LiveKit-powered voice/video. Mobile apps planned for 2026. Federation planned but not yet implemented. Active development (4,840+ GitHub stars, updated Feb 23, 2026)."
+      },
       "features": {
         "open_source": "yes",
         "self_hostable": "no",
@@ -1341,7 +1359,9 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "planned",
-        "ios_app": "planned"
+        "ios_app": "planned",
+        "e2ee": "no",
+        "mobile_apps": "planned"
       },
       "feature_notes": {
         "e2e_encryption": "Roadmap 2026: Opt-in 'secret chats' (ephemeral, E2EE sessions). No plans for full-platform E2EE. LiveKit supports E2EE for calls but not yet implemented.",
@@ -1357,7 +1377,8 @@
         "ai_generated_codebase": "Developer uses LLMs as a 'rubber duck' debugging tool but writes all code personally. See: https://blog.fluxer.app/how-i-built-fluxer-a-discord-like-chat-app/",
         "android_app": "Native mobile apps in active development. Mobile web (PWA) works in browser with home screen install, push notifications.",
         "ios_app": "Native mobile apps in active development. Mobile web (PWA) works in browser with home screen install, push notifications."
-      }
+      },
+      "github": "https://github.com/fluxerapp/fluxer"
     },
     {
       "id": "loqa",
@@ -1678,7 +1699,10 @@
       "category": "Commercial Alternatives",
       "description": "Large-scale messaging platform with up to 200,000 members per group. Open source clients, closed backend.",
       "architecture": "Centralized, open source clients only",
-      "notes": "Requires phone number. E2EE only in Secret Chats \u2014 regular chats are not E2EE.",
+      "notes": {
+        "privacy": "E2EE available ONLY in Secret Chats (optional, manual activation required). Regular chats use server-side encryption only. Secret Chats are device-specific, 1-on-1 only (no group E2EE). Most users do not use Secret Chats.",
+        "technical": "MTProto protocol (custom, has received scrutiny from cryptographers). Secret Chats are not synced to cloud and cannot be accessed from multiple devices."
+      },
       "features": {
         "open_source": "partial",
         "self_hostable": "no",
@@ -1740,7 +1764,8 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "yes",
-        "ios_app": "yes"
+        "ios_app": "yes",
+        "e2ee": "partial"
       },
       "feature_notes": {
         "e2e_encryption": "Secret Chats only \u2014 standard group chats and channels are NOT end-to-end encrypted",
@@ -1757,7 +1782,8 @@
         "freemium_limitations": "Premium adds faster downloads, larger uploads (4GB), exclusive stickers, ads removal",
         "raid_protection": "Anti-spam features, aggressive join requirements for large groups",
         "ai_features_or_training": "Supports AI bots via bot ecosystem, no native AI features"
-      }
+      },
+      "github": "https://github.com/telegramdesktop/tdesktop"
     },
     {
       "id": "teamspeak",
@@ -1766,7 +1792,10 @@
       "category": "Legacy & Niche",
       "description": "Long-running voice-focused platform. Predates Discord. Not recommended for casual community use due to dated UX.",
       "architecture": "Self-hosted or hosted",
-      "notes": "Still used by some gaming communities. Voice quality is excellent but UI is outdated.",
+      "notes": {
+        "privacy": "NO E2EE. Uses AES encryption but server can decrypt all communications. Server-to-client encryption only. Proof of concept (TS3Tunnel) shows how easy it is to spy on communications.",
+        "technical": "Proprietary software. ECDH key exchange, AES encryption. Custom encryption can be implemented via SDK. Voice traffic passes through server unencrypted at server level."
+      },
       "features": {
         "open_source": "no",
         "self_hostable": "yes",
@@ -1828,7 +1857,8 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "yes",
-        "ios_app": "yes"
+        "ios_app": "yes",
+        "e2ee": "no"
       },
       "feature_notes": {
         "e2e_encryption": "Voice is AES-encrypted between client and server but server can decrypt \u2014 not true E2EE",
@@ -1848,7 +1878,10 @@
       "category": "Legacy & Niche",
       "description": "Open-source, self-hosted voice chat with true end-to-end encryption. Minimal text features.",
       "architecture": "Self-hosted",
-      "notes": "Excellent audio quality and true E2EE for voice. Very low overhead. Not beginner friendly.",
+      "notes": {
+        "privacy": "NO E2EE. Uses TLS control channel and AES-OCB for UDP voice, but server can decrypt. Server-to-client encryption. Perfect Forward Secrecy available with ECDHE + AES-GCM cipher suites.",
+        "technical": "Open source (BSD-3-Clause). 7,764 GitHub stars. Encryption: TLS control + OCB-AES128 for UDP voice. Public key certificates supported. Focus on low-latency voice (< decade ago first to achieve true low latency)."
+      },
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -1910,7 +1943,8 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "partial",
-        "ios_app": "partial"
+        "ios_app": "partial",
+        "e2ee": "no"
       },
       "feature_notes": {
         "e2e_encryption": "True E2EE for voice \u2014 one of the few platforms with this",
@@ -1918,7 +1952,8 @@
         "per_user_audio_output": "Per-user volume adjustment supported natively",
         "message_ttl": "Text chat history not persisted long-term by default",
         "ai_features_or_training": "No AI features, voice-focused legacy platform"
-      }
+      },
+      "github": "https://github.com/mumble-voip/mumble"
     },
     {
       "id": "signal",
@@ -1927,7 +1962,10 @@
       "category": "Legacy & Niche",
       "description": "Gold standard for private messaging. Best-in-class encryption. Limited community/server features.",
       "architecture": "Centralized, open source",
-      "notes": "Requires phone number. Excellent for small groups but lacks Discord-style community features.",
+      "notes": {
+        "privacy": "E2EE by default for all messages and calls. Uses Signal Protocol (widely considered gold standard). Open source, independently audited. Minimal data collection (only phone number, join date, last login).",
+        "organization": "Nonprofit Signal Foundation. No ads, no tracking, no data monetization. Funded by donations and Signal Sustainer subscriptions."
+      },
       "features": {
         "open_source": "yes",
         "self_hostable": "no",
@@ -1989,7 +2027,8 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "yes",
-        "ios_app": "yes"
+        "ios_app": "yes",
+        "e2ee": "yes"
       },
       "feature_notes": {
         "text_channels": "Group chats exist but no server/channel hierarchy",
@@ -1997,7 +2036,8 @@
         "web_app": "Desktop-linked web interface only, no standalone web app",
         "message_ttl": "Disappearing messages supported with configurable TTL per conversation",
         "ai_features_or_training": "Explicitly privacy-focused, no AI features, no data collection for training"
-      }
+      },
+      "github": "https://github.com/signalapp/Signal-Android"
     },
     {
       "id": "zulip",
@@ -2006,7 +2046,9 @@
       "category": "Self-Hosted Platforms",
       "description": "Fully open-source team chat with a unique topic-based threading model. Strongest text chat experience of any self-hosted option. Voice/video via Jitsi integration.",
       "architecture": "Self-hosted or cloud-hosted",
-      "notes": "\u26a0\ufe0f NO FEDERATION - MULTI-COMMUNITY DEALBREAKER: Every Zulip server is an island. 3 communities = 3 separate accounts. No single sign-on, no portable identity. Username@company.zulipchat.com completely separate from username@mydomain.com. Deliberate architectural choice prioritizing organizational control. 20 communities = 20 accounts/logins = NOT SUSTAINABLE.\n\nE2EE REALITY: E2EE ONLY for push notification content. Actual messages stored as PLAINTEXT in PostgreSQL by design. Team chose features over encryption. E2EE breaks: search, shared history, server-side features. If you need message-level E2EE, Zulip is not your platform.\n\nTHREADING MODEL: EVERY message must belong to a topic within a channel. Always. No exceptions. Can't just post \"hey what's up\" - must choose/create a topic. Solves large organization chat chaos (50 people, 8 conversations in one channel). Biggest barrier to adoption from Discord - feels weird at first.\n\nVOICE/VIDEO: No native persistent voice channels like Discord. Integration-based: click button, generates Jitsi/Zoom/BigBlueButton meeting link. Different paradigm entirely - not drop-in/hang-out voice.\n\nBOT ECOSYSTEM: 120+ native integrations (GitHub, Jira, Sentry, PagerDuty, etc.). Slack-compatible webhooks. Python bot framework is \"excellent\" - clean APIs, good documentation. Zapier and IFTTT support.\n\nBRIDGING: Native bridges for IRC (great), Matrix (bidirectional), Slack (bidirectional). Fully supported by Matterbridge. Legitimately good, not Matrix-level extensive but solid.\n\nSYSTEM REQUIREMENTS: 2GB RAM (small), 4GB (production). PostgreSQL, Redis, RabbitMQ required. Very good Docker support.\n\nReal-world assessment (mvh, Feb 2026): \"Choose Zulip if you're running a technical organization where organized conversation matters more than casual chat. Skip if you need federation, message-level E2EE is required, or you're part of many communities (don't want 20 separate accounts).\"\n\nThreading model makes sense once you use it - conversations stay organized, notification management sane. But lack of portable identity across servers is dealbreaker at scale.",
+      "notes": {
+        "privacy": "No E2EE for messages by design (incompatible with full-text search and shared history features). E2EE available for mobile push notifications only (Zulip 11.0+). 24.2k GitHub stars."
+      },
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -2068,7 +2110,8 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "yes",
-        "ios_app": "yes"
+        "ios_app": "yes",
+        "e2ee": "no"
       },
       "feature_notes": {
         "voice_chat": "Via Jitsi integration only \u2014 not native. Uses call-per-message model, not persistent always-on channels",
@@ -2082,7 +2125,8 @@
         "ai_features_or_training": "No built-in AI features. Self-hosted option means user controls data.",
         "ai_generated_codebase": "Strict AI policy: permits AI assistance but STRICTLY disallows AI commits with zero oversight. See: https://github.com/zulip/zulip/blob/main/CONTRIBUTING.md",
         "e2e_encryption": "E2EE ONLY for push notification content. Messages stored as plaintext in PostgreSQL."
-      }
+      },
+      "github": "https://github.com/zulip/zulip"
     },
     {
       "id": "rocketchat",
@@ -2091,7 +2135,9 @@
       "category": "Self-Hosted Platforms",
       "description": "Mature, feature-rich open-source team chat. Strong self-hosting story and enterprise feature set. Free tier capped at 50 users \u2014 significant limitation for large communities.",
       "architecture": "Self-hosted or cloud-hosted",
-      "notes": "One of the most mature self-hosted options. Voice calls are enterprise-only on the free tier. Free instance hard-capped at 50 users \u2014 must contact support to raise this limit, making it impractical for large open communities.",
+      "notes": {
+        "privacy": "E2EE available but in BETA with significant limitations: encrypted messages do not appear in search, bots/webhooks cannot read E2EE messages, and 2024 independent security audits found vulnerabilities (since addressed). Matrix federation support available in beta."
+      },
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -2153,7 +2199,8 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "yes",
-        "ios_app": "yes"
+        "ios_app": "yes",
+        "e2ee": "partial"
       },
       "feature_notes": {
         "free_to_use": "Free tier hard-capped at 50 users \u2014 must contact support to raise limit. Enterprise license required for larger deployments",
@@ -2167,7 +2214,8 @@
         "freemium_limitations": "Cloud has message history limits, self-hosted is unlimited",
         "ai_features_or_training": "AI chatbot integrations available via marketplace",
         "ai_generated_codebase": "Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code."
-      }
+      },
+      "github": "https://github.com/RocketChat/Rocket.Chat"
     },
     {
       "id": "roger_wilco",
@@ -4720,7 +4768,10 @@
       "category": "Self-Hosted Platforms",
       "description": "\u26a0\ufe0f FORUM SOFTWARE, NOT CHAT: Modern forum platform. Some try to use as Discord replacement - this is a category error. Best for async, long-form discussion.",
       "architecture": "Self-hosted, open source (GPL-2.0)",
-      "notes": "\u26a0\ufe0f CATEGORY ERROR: Discourse is modern FORUM software. Really good forum software. It is NOT chat and NOT a Discord replacement despite some attempting to use it that way.\n\nCHAT PLUGIN: Bundled chat plugin provides short-form, real-time-ish messaging. But Discourse is still async and forum-based at heart. You post, you wait, people reply. NOT instant messaging. If community expects real-time chat, will feel slow and clunky. If community wants thoughtful long-form discussion, Discourse is perfect.\n\nTRUST LEVEL SYSTEM: Gamifies moderation. Transparent mod actions. Best anti-spam tools in business. Reddit-style discussion without Reddit.\n\nBOT SITUATION: Discobot (built-in onboarding bot) is genuinely well done. Beyond that: custom bots via REST API. No plug-and-play marketplace. Growing ecosystem of AI chatbot plugins.\n\nBRIDGING: ONE-WAY ONLY. Chat Integration Plugin sends notifications OUT to Slack, Discord, Telegram, Matrix, Teams, etc. NOT bidirectional chat bridging. Experimental discourse-chat-matrix plugin exists but not production-ready. NOT supported by Matterbridge (Discourse isn't a chat protocol, doesn't fit bridging model).\n\nSYSTEM REQUIREMENTS: 2GB RAM minimum, 4GB recommended. Docker-based deployment (heavily pushed). PostgreSQL and Redis. CDN highly recommended for media. Frequent updates.\n\nReal-world assessment (mvh, Feb 2026): \"Choose Discourse if you want a FORUM, not chat. Long-form discussion is your goal. Powerful moderation and trust systems needed. You're okay with async communication. Skip if you need real-time chat or bidirectional bridging.\"\n\nUse case: When your community actually wants Reddit-style forum discussion, not Discord-style instant messaging. Don't try to force it into being something it's not.",
+      "notes": {
+        "technical": "Forum software (not primarily chat). Third-party plugin \"discourse-encrypt\" available for E2EE but not built-in or widely used. 46,320 GitHub stars.",
+        "privacy": "No native E2EE. Plugin available but optional. Focus is on public forums/discussions rather than private messaging."
+      },
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -4782,7 +4833,8 @@
         "macos_app": "no",
         "linux_app": "no",
         "android_app": "yes",
-        "ios_app": "yes"
+        "ios_app": "yes",
+        "e2ee": "no"
       },
       "feature_notes": {
         "text_channels": "Categories and topics structure (forum-style, not real-time channels)",
@@ -4796,7 +4848,8 @@
         "message_reporting": "Flag system - users can flag posts for moderator review",
         "ai_features_or_training": "No built-in AI features. Self-hosted forum software.",
         "ai_generated_codebase": "Google Sheet community assessment: NOT vibe-safe. May contain AI-generated code."
-      }
+      },
+      "github": "https://github.com/discourse/discourse"
     },
     {
       "id": "mattermost",
@@ -4805,7 +4858,9 @@
       "category": "Self-Hosted Platforms",
       "description": "Open-source Slack alternative for teams. Self-hosted, E2EE voice/video (Beta), extensive integrations, mobile apps.",
       "architecture": "Self-hosted, open source (AGPL-3.0 / Enterprise: proprietary)",
-      "notes": "Designed for DevOps/technical teams. Strong focus on security (used by US Department of Defense). Slack-compatible webhooks. Free self-hosted version + paid Enterprise edition. Go backend, React frontend. Excellent mobile apps. Playbooks for incident response, runbooks.",
+      "notes": {
+        "privacy": "No native E2EE. Third-party plugin available (Quarkslab) but has limitations and is not officially supported or widely adopted."
+      },
       "features": {
         "open_source": "yes",
         "self_hostable": "yes",
@@ -4867,7 +4922,8 @@
         "macos_app": "yes",
         "linux_app": "yes",
         "android_app": "yes",
-        "ios_app": "yes"
+        "ios_app": "yes",
+        "e2ee": "no"
       },
       "feature_notes": {
         "e2e_encryption": "E2EE voice/video in beta. Messages encrypted in transit and at rest but not E2EE by default",
@@ -4877,7 +4933,8 @@
         "migration_assistant": "Import from Slack, HipChat, BizSpark",
         "bridges": "Slack-compatible webhooks, extensive plugin ecosystem",
         "ai_features_or_training": "AI plugin framework available, Microsoft Copilot integration planned"
-      }
+      },
+      "github": "https://github.com/mattermost"
     },
     {
       "id": "ventrilo",
