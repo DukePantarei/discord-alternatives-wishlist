@@ -6604,7 +6604,7 @@
       "category": "Commercial Alternatives",
       "description": "Browser-based voice and video rooms for friends, gaming groups and meetings, with guest links, screen sharing and meeting chat. Hosted freemium service; proprietary on-premises edition offered to organizations.",
       "architecture": "Centralized hosted service; commercial on-premises option",
-      "notes": "Call-focused alternative rather than a complete Discord community-server replacement. Russian web interface; English marketing pages are available. Native app store availability and unverified community features are left unknown. Official sources: https://planaro.ru/meet, https://planaro.ru/pricing, https://planaro.ru/on-premise, https://planaro.ru/play.",
+      "notes": "Call-focused alternative rather than a complete Discord community-server replacement. Web interface available in Russian and English; language selector under Settings > General. English product site: https://planaro.ru/en/. Native app store availability and unverified community features are left unknown. Official sources: https://planaro.ru/meet, https://planaro.ru/pricing, https://planaro.ru/on-premise, https://planaro.ru/play.",
       "features": {
         "open_source": "no",
         "self_hostable": "partial",
